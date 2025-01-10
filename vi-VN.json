@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "Bạn chỉ có thể mở %d %s một lúc",
 	"commands.open.too_many_tickets": "Hiện có quá nhiều phiếu hỗ trợ đang được mở. Hãy nhờ quản trị viên đóng bớt chúng hoặc di chuyển chúng qua mục khác",
 	"commands.panel": "Hãy truy cập <https://dashboard.ticketsbot.cloud/manage/%d/panels> để cài đặt với giao diện trực quan",
-	"commands.premium": "Bạn có thể mua phiên bản cao cấp tại <https://www.patreon.com/ticketsbot>.\\nPhiên bản trả phí mang lại nhiều quyền lợi như:\\n```diff\\n+ Tạo bảng phiếu hỗ trợ không giới hạn\\n+ Thay đổi tên, ảnh đjai diện & trạng thái (nhãn trằng)\\n+ Thông tin chi tiết về hội, thành viên và hỗ trợ viên\\n+ Không có quản cáo thương hiệu ở cuối tin nhắn\\n+ Giúp đỡ đội ngũ phát triển và giúp mình trả phí người máy\\n```\\n\\nNgoài ra, bạn có thể đánh giá tại <https://vote.ticketsbot.cloud> để nhận phiên bản cao cấp miễn phí trong vòng 24 giờ",
+	"commands.premium": "Bạn có thể mua phiên bản cao cấp tại <https://www.patreon.com/ticketsbot-cloud>.\\nPhiên bản trả phí mang lại nhiều quyền lợi như:\\n```diff\\n+ Tạo bảng phiếu hỗ trợ không giới hạn\\n+ Thay đổi tên, ảnh đjai diện & trạng thái (nhãn trằng)\\n+ Thông tin chi tiết về hội, thành viên và hỗ trợ viên\\n+ Không có quản cáo thương hiệu ở cuối tin nhắn\\n+ Giúp đỡ đội ngũ phát triển và giúp mình trả phí người máy\\n```\\n\\nNgoài ra, bạn có thể đánh giá tại <https://vote.ticketsbot.cloud> để nhận phiên bản cao cấp miễn phí trong vòng 24 giờ",
 	"commands.premium.invalid_key": "Mã kích hoạt sai. Hãy kiểm tra xem bạn có chép nó đúng không.",
 	"commands.remove.no_permission": "Bạn không có quyền để loại bỏ người khác khỏi phiếu hỗ trợ này",
 	"commands.remove.staff": "Bạn không thể gỡ các quản lý khỏi phiếu hỗ trợ này",
