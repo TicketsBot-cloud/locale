@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "您一次只能打开 %d %s",
 	"commands.open.too_many_tickets": "问题单类别中的问题单过多。要求管理员关闭一些，或将它们移到另一个类别，否则将无法开启",
 	"commands.panel": "请前往 <https://panel.ticketsbot.cloud/manage/%d/panels>配置一个票据模板",
-	"commands.premium": "您可以从 <https://www.patreon.com/ticketsbot> 购买高级订阅。\\nPremium 提供许多好处，例如：\\n```diff\\n+ 创建无限制的问题单面板\\n+ 自定义机器人名称、头像和状态\\n+ 关于服务器、用户和支持人员的详细统计\\n+ 没有品牌显示\\n+ 支持开发并帮助我支付服务器费用\\n```\\n\\n或者，您可以投票<https://vote.ticketsbot.cloud> 获得 24 小时免费高级版",
+	"commands.premium": "您可以从 <https://www.patreon.com/ticketsbot-cloud> 购买高级订阅。\\nPremium 提供许多好处，例如：\\n```diff\\n+ 创建无限制的问题单面板\\n+ 自定义机器人名称、头像和状态\\n+ 关于服务器、用户和支持人员的详细统计\\n+ 没有品牌显示\\n+ 支持开发并帮助我支付服务器费用\\n```\\n\\n或者，您可以投票<https://vote.ticketsbot.cloud> 获得 24 小时免费高级版",
 	"commands.premium.invalid_key": "无效的密钥。确保您已正确复制它。",
 	"commands.remove.no_permission": "没有权限踢掉他唷",
 	"commands.remove.staff": "不能移除工作人员",
