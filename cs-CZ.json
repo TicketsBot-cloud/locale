@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "Jsi schopen otevřít pouze %d %s najednou",
 	"commands.open.too_many_tickets": "V kategorii ticketu je příliš mnoho ticketů. Požádejte admina, aby některé uzavřel nebo je přesunul do jiné kategorie",
 	"commands.panel": "Pro otevření konfiguračního palelu navšťivte <https://dashboard.ticketsbot.cloud/manage/%d/panels>",
-	"commands.premium": "Prémiové předplatné si můžete zakoupit od <https://www.patreon.com/ticketsbot>.\\nPremium poskytuje mnoho výhod, například:\\n```diff\\n+ Vytvořit neomezený počet ticketových panelů\\n+ Přizpůsobit název bota, avatar & status (whitelabel)\\n+ Podrobné statistiky o serveru, uživatelé a podporovatelný personál\\n+ Žádná značka v zápatí zpráv\\n+ Podpořte vývoj a pomozte mi uhradit náklady serveru\\n```\\n\\nmůžete hlasovat na <https://vote.ticketsbot.cloud> a získat prémiovou verzi zdarma na 24 hodin",
+	"commands.premium": "Prémiové předplatné si můžete zakoupit od <https://www.patreon.com/ticketsbot-cloud>.\\nPremium poskytuje mnoho výhod, například:\\n```diff\\n+ Vytvořit neomezený počet ticketových panelů\\n+ Přizpůsobit název bota, avatar & status (whitelabel)\\n+ Podrobné statistiky o serveru, uživatelé a podporovatelný personál\\n+ Žádná značka v zápatí zpráv\\n+ Podpořte vývoj a pomozte mi uhradit náklady serveru\\n```\\n\\nmůžete hlasovat na <https://vote.ticketsbot.cloud> a získat prémiovou verzi zdarma na 24 hodin",
 	"commands.premium.invalid_key": "Neplatný klíč. Ujistěte se, že jste jej zkopírovali správně.",
 	"commands.remove.no_permission": "Nemáte dostatečná oprávnění k odstranění lidí od tohohle ticketu",
 	"commands.remove.staff": "Nemůžete odstranit Staff z ticketu",
