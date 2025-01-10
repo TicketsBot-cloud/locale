@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "一度に開くことができるのは、%d %s だけです。",
 	"commands.open.too_many_tickets": "チケットカテゴリにチケットが多すぎます。管理者に依頼していくつかのチケットを閉じるか、他のカテゴリに移動してください。",
 	"commands.panel": "パネルの設定は、<https://dashboard.ticketsbot.cloud/manage/%d/panels>を参照してください。",
-	"commands.premium": "プレミアムサブスクリプションは<https://www.patreon.com/ticketsbot>から購入できます。\\nプレミアムでは、以下のような多くの特典があります。\\n```diff\\n+チケットパネルを無制限に作成可能\\n+ ボット名、アバター、ステータスのカスタマイズが可能（ホワイトラベルのみ）\\n+ サーバー、ユーザー、サポートスタッフに関する詳細な統計情報\\n+ メッセージフッターのブランド名を非表示\\n+ 開発のサポートやサーバーコストの支払いに支払いに当てられます\\n```\\n\\n<https://vote.ticketsbot.cloud>で投票することにより、プレミアムを24時間無料で入手することもできます",
+	"commands.premium": "プレミアムサブスクリプションは<https://www.patreon.com/ticketsbot-cloud>から購入できます。\\nプレミアムでは、以下のような多くの特典があります。\\n```diff\\n+チケットパネルを無制限に作成可能\\n+ ボット名、アバター、ステータスのカスタマイズが可能（ホワイトラベルのみ）\\n+ サーバー、ユーザー、サポートスタッフに関する詳細な統計情報\\n+ メッセージフッターのブランド名を非表示\\n+ 開発のサポートやサーバーコストの支払いに支払いに当てられます\\n```\\n\\n<https://vote.ticketsbot.cloud>で投票することにより、プレミアムを24時間無料で入手することもできます",
 	"commands.premium.invalid_key": "無効なキーです。正しくコピーされているか確認してください。",
 	"commands.remove.no_permission": "このチケットから人を削除する権限がありません。",
 	"commands.remove.staff": "チケットからスタッフを削除することはできません。",
