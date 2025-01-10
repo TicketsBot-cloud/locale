@@ -270,8 +270,8 @@
 			"discord": {
 				"no_subscription": "Il servizio premium può essere acquistato direttamente su Discord. Clicca il pulsante sotto questo messaggio per aprire la pagina di gestione dell'abbonamento.\n\nNel momento in cui viene acquistato, si prega di consentire al bot fino a 5 minuti per rilevare l'abbonamento."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
 			"added_to_existing": "Sei stato aggiunto al thread delle note seguente: <#%d>",
