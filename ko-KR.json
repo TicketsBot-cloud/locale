@@ -270,8 +270,8 @@
 			"discord": {
 				"no_subscription": "프리미엄은 직접적으로 Discord 내에서 구매할 수 있습니다. 구독 관리 페이지를 열려면 이 아래 메시지의 버튼을 누르세요.\n\n구매가 완료되셨다면, 구독이 감지될 때까지 최대 5분 정도 기다려 주십시오."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
 			"added_to_existing": "이미 존재하는 노트 스레드에 추가되었습니다: <#%d>",
