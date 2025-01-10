@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": " W jednym momencie możesz otworzyć tylko %d %s",
 	"commands.open.too_many_tickets": "W tej kategorii jest zbyt dużo otwartych zgłoszeń. Poproś administrację o zamknięcie paru, przeniesienie ich do innej kategorii lub skonfigurowanie kategorii przeciążenia.\n\nTo jest limit 50 kanałów na kategorię **narzucony przez Discorda**.",
 	"commands.panel": "Odwiedź <https://dashboard.ticketsbot.cloud/manage/%d/panels>, aby skonfigurować panel",
-	"commands.premium": "Możesz kupić subskrypcje premium na <https://www.patreon.com/ticketsbot>.\\nPremium zapewnia wiele korzyści, takich jak:\\n```diff\\n+ Tworzenie panelów bez limitu\\n+ Własna nazwa, awatar i status (whitelabel)\\n+ Dokładne statystyki o serwerze, użytkownikach i obsłudze\\n+ Brak reklamy w stopkach wiadomości\\n+ Wspieraj rozwój i pomóż mi opłacić koszty serwera\\n```\\n\\nOpcjonalnie, możesz zagłosować na <https://vote.ticketsbot.cloud> aby dostać darmowe premium na 24 godziny",
+	"commands.premium": "Możesz kupić subskrypcje premium na <https://www.patreon.com/ticketsbot-cloud>.\\nPremium zapewnia wiele korzyści, takich jak:\\n```diff\\n+ Tworzenie panelów bez limitu\\n+ Własna nazwa, awatar i status (whitelabel)\\n+ Dokładne statystyki o serwerze, użytkownikach i obsłudze\\n+ Brak reklamy w stopkach wiadomości\\n+ Wspieraj rozwój i pomóż mi opłacić koszty serwera\\n```\\n\\nOpcjonalnie, możesz zagłosować na <https://vote.ticketsbot.cloud> aby dostać darmowe premium na 24 godziny",
 	"commands.premium.invalid_key": "Nieprawidłowy klucz. Upewnij się, że skopiowałeś go prawidłowo.",
 	"commands.remove.no_permission": "Nie masz uprawnień, aby usuwać użytkowników z tego zgłoszenia",
 	"commands.remove.staff": "Nie możesz usunąć obsługi ze zgłoszenia",
