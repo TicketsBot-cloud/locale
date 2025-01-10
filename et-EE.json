@@ -261,17 +261,17 @@
 					"description": "Vali see valik kui sa tegid oma tellimuse Patreonis"
 				},
 				"discord": {
-					"description": ""
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
 			"about": "Premium annab sulle juurdepääsu rohkem paneelidele, statistikale, kohandatud boti ja rohkem! Külasta meie [veebilehte](https://ticketsbot.cloud/premium) et saada rohkem teada.",
 			"already_activated": "Head uudised! Premium on selles serveris juba aktiivne.",
 			"already_activated_whitelabel": "Head uudised! Premium on selles serveris juba aktiivne.\n\nEt saada abi whitelabeliga alustamisega, loe [meie whitelabeli seadistamisõpetust](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
 			"added_to_existing": "Sind on lisatud ekisteerivasse märkmete threadi: <#%d>",
@@ -282,17 +282,17 @@
 			"ratelimited": "Discordi liimitide tõttu saab abipiletite nime vahetada 2 korda iga 10 minuti jooksul"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
