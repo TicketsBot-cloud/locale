@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "U kunt %d %s slechts in één keer openen",
 	"commands.open.too_many_tickets": "Er zijn te veel tickets in de ticketcategorie. Vraag een beheerder om sommige te sluiten of om ze naar een andere categorie te verplaatsen",
 	"commands.panel": "Bezoek <https://panel.ticketsbot.cloud/manage/%d/panels> om een ​​paneel te configureren",
-	"commands.premium": "U kunt een premium abonnement kopen op <https://www.patreon.com/ticketsbot>.\\nPremium biedt veel voordelen, zoals:\\n```diff\\n+ Maak onbeperkt ticketpanelen\\n+ Pas bot naam, avatar en status aan (whitelabel)\\n+ Gedetailleerde statistieken over de server, gebruikers en ondersteunend personeel\\n+ Geen branding in de voettekst van berichten\\n+ Ondersteun ontwikkeling en help me de serverkosten te betalen\\n```\\n\\nU kunt ook stemmen op <https://vote.ticketsbot.cloud> om 24 uur lang gratis premium te krijgen",
+	"commands.premium": "U kunt een premium abonnement kopen op <https://www.patreon.com/ticketsbot-cloud>.\\nPremium biedt veel voordelen, zoals:\\n```diff\\n+ Maak onbeperkt ticketpanelen\\n+ Pas bot naam, avatar en status aan (whitelabel)\\n+ Gedetailleerde statistieken over de server, gebruikers en ondersteunend personeel\\n+ Geen branding in de voettekst van berichten\\n+ Ondersteun ontwikkeling en help me de serverkosten te betalen\\n```\\n\\nU kunt ook stemmen op <https://vote.ticketsbot.cloud> om 24 uur lang gratis premium te krijgen",
 	"commands.premium.invalid_key": "Ongeldige sleutel. Zorg ervoor dat je het correct hebt gekopieerd.",
 	"commands.remove.no_permission": "Je hebt geen toestemming om mensen uit dit ticket te verwijderen",
 	"commands.remove.staff": "Je kunt geen personeel van een ticket verwijderen",
