@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "您一次只能打開 %d %s",
 	"commands.open.too_many_tickets": "客服單類別中的客服單過多。要求管理員關閉一些，或將它們移到另一個類別，否則將無法開啟\n\n這是 **Discord 的限制**，每個類別最多 50 個頻道。",
 	"commands.panel": "查看 <https://dashboard.ticketsbot.cloud/manage/%d/panels> 以設定面板",
-	"commands.premium": "您可以從 <https://www.patreon.com/ticketsbot> 購買高級訂閱。\\nPremium 提供許多好處，例如：\\n```diff\\n+ 創建無限制的問題單面板\\n+ 自定義機器人名稱、頭像和狀態\\n+ 關於伺服器、用戶和支持人員的詳細統計\\n+ 沒有品牌顯示\\n+ 支持開發並幫助我支付服務器費用\\n```\\n\\n或者，您可以投票<https://vote.ticketsbot.cloud> 獲得 24 小時免費高級版",
+	"commands.premium": "您可以從 <https://www.patreon.com/ticketsbot-cloud> 購買高級訂閱。\\nPremium 提供許多好處，例如：\\n```diff\\n+ 創建無限制的問題單面板\\n+ 自定義機器人名稱、頭像和狀態\\n+ 關於伺服器、用戶和支持人員的詳細統計\\n+ 沒有品牌顯示\\n+ 支持開發並幫助我支付服務器費用\\n```\\n\\n或者，您可以投票<https://vote.ticketsbot.cloud> 獲得 24 小時免費高級版",
 	"commands.premium.invalid_key": "無效的密鑰。確保您已正確複製它。",
 	"commands.remove.no_permission": "沒有權限踢掉他唷",
 	"commands.remove.staff": "不能移除工作人員",
