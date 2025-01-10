@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "Naenkrat lahko odprete samo %d %s",
 	"commands.open.too_many_tickets": "V kategoriji vstopnic je preveč vstopnic. Prosite skrbnika, da nekatere zapre, jih premakne v drugo kategorijo ali nastavi kategorijo presežka. To je **Discordova omejitev** 50 kanalov na kategorijo.",
 	"commands.panel": "Obiščite <https://panel.ticketsbot.cloud/manage/%d/panels>, da konfigurirate ploščo",
-	"commands.premium": "Premijsko naročnino lahko kupite pri <https://www.patreon.com/ticketsbot>.\\nPremium ponuja številne prednosti, kot so:\\n```diff\\n+ Ustvarite neomejene plošče vstopnic\\n+ Prilagodite ime bota, avatar in stanje (bela oznaka)\\n+ Podrobna statistika o strežniku, uporabnikih in podpornem osebju\\n+ Brez blagovnih znamk v nogi sporočil\\n+ Podprite razvoj in mi pomagajte plačati stroške strežnika\\n```\\n\\nLahko pa glasujete tudi na <https://vote.ticketsbot.cloud> za 24-urno brezplačno premijo",
+	"commands.premium": "Premijsko naročnino lahko kupite pri <https://www.patreon.com/ticketsbot-cloud>.\\nPremium ponuja številne prednosti, kot so:\\n```diff\\n+ Ustvarite neomejene plošče vstopnic\\n+ Prilagodite ime bota, avatar in stanje (bela oznaka)\\n+ Podrobna statistika o strežniku, uporabnikih in podpornem osebju\\n+ Brez blagovnih znamk v nogi sporočil\\n+ Podprite razvoj in mi pomagajte plačati stroške strežnika\\n```\\n\\nLahko pa glasujete tudi na <https://vote.ticketsbot.cloud> za 24-urno brezplačno premijo",
 	"commands.premium.invalid_key": "Neveljaven ključ. Prepričajte se, da ste ga pravilno kopirali.",
 	"commands.remove.no_permission": "Nimate dovoljenja za odstranjevanje oseb s te vstopnice",
 	"commands.remove.staff": "Osebja ne morete odstraniti z vstopnice",
