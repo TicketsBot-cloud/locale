@@ -9,7 +9,7 @@
 	"commands.blacklist.self": "Et voi mustalistata itseäsi",
 	"commands.claim.success": "%s käsittelee sinun lippusi",
 	"commands.invite": "[Klikkaa tästä](<https://invite.ticketsbot.cloud>)",
-	"commands.language.invalid": "",
+	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
 	"commands.open.ticket_limit": "Voit avata vain %d %s kerrallaan",
 	"commands.open.too_many_tickets": "Lippukategoriassa on liian monta lippua. Pyydä ylläpitäjää sulkemaan joitakin, siirtämään ne toiseen kategoriaan tai asettamaan ylivuotokategoria.\n\nTämä on **Discordin asettama raja** 50 kanavaa yhteen kategoriaan.",
 	"commands.panel": "Vieraile <https://dashboard.ticketsbot.cloud/manage/%d/panels> määrittääksesi paneeli",
@@ -18,7 +18,7 @@
 	"commands.remove.no_permission": "Sinulla ei ole oikeuksia poistaa ihmisiä tästä lipusta",
 	"commands.remove.staff": "Et voi poistaa ylläpitäjiä lipusta",
 	"commands.removeadmin.no_members": "Sinun täytyy mainita käyttäjä tai roolin nimi, jolta haluat poistaa ylläpito-oikeudet",
-	"commands.removeadmin.owner": "",
+	"commands.removeadmin.owner": "The guild owner must be an admin",
 	"commands.removeadmin.self": "Et voi poistaa itseltäsi oikeuksia",
 	"commands.removesupport.no_members": "Sinun on mainittava käyttäjä tai roolin nimi, jolle myönnät auttajan oikeudet",
 	"commands.rename.missing_name": "Sinun täytyy määrittää uusi nimi tälle lipulle",
@@ -154,7 +154,7 @@
 	"commands.add.success": "<@%d> on lisätty <#%d>",
 	"commands.remove.success": "<@%d> on poistettu <#%d>",
 	"open.ratelimited": "Lipukkeet avataan liian nopeasti tällä palvelimella",
-	"commands.claim.thread": "",
+	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
 	"generic.join_support_server": "Liity Tukipalvelimelle",
 	"commands.open.guild_channel_limit": "Tämä palvelin on saavuttanut Discordin 500 kanavan rajan",
 	"commands.open.missing_form_answer": "Sinun täytyy vastata kysymykseen `%s`",
@@ -167,10 +167,10 @@
 		"reason": {
 			"placeholder": "Lipun sulkemisen perustelu, esim. \"Ratkaistu\""
 		},
-		"success": "",
+		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
 				"empty": "Et voi arvostella tätä lipuketta, koska et lähettänyt yhtään viestiä"
 			}
 		}
@@ -179,19 +179,19 @@
 		"open": {
 			"disabled": "`/avaa` komento on poistettu käytöstä tällä palvelimella: ole hyvä ja käytä lipukepaneelia avataksesi lipukkeen",
 			"threads": {
-				"cant_see_parent_channel": "",
+				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
 				"cant_message_in_threads": "Sinulta puuttuu `Lähetä viestejä ketjuissa` oikeus, joka vaaditaan lipukkeen avaamiseksi. Pyydä palvelimen järjestelmänvalvojaa antamaan tämä lupa sinulle ja yritä uudelleen."
 			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Virheellinen paneeli: Sinun on valittava yksi pudotusvalikosta",
-			"success": ""
+			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		},
 		"blacklist": {
 			"staff": "Henkilöstön jäseniä ei voi olla mustalla listalla",
 			"add_role": {
 				"success": "<@&%d> on asetettu mustallelistalle",
-				"limit": ""
+				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
 				"limit": "Olet saavuttanut käyttäjien mustanlistan rajan (%d): harkitse roolin käyttöä sen sijaan"
@@ -202,36 +202,36 @@
 			"content": "Paina alla olevaa painiketta hypätäksesi lipun yläreunaan"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "Please confirm that you want to add %s to the default support representative team",
+			"everyone": "You cannot add the `@everyone` role as staff"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Please confirm that you want to add %s as a bot administrator"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "You have reached the tag limit (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "The available languages and their translation progress are as follows:\n%s",
+			"success": "The server language has been changed to **%s** (%s)",
+			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"success": "You are now on call",
+			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
 			"not_found": "Lippua ei löydy",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
+			"no_permission": "You do not have permission to reopen this ticket",
+			"already_open": "This ticket is already open",
+			"not_thread": "Only threads can be reopened",
+			"thread_deleted": "The ticket has been permanently deleted",
 			"success": "Lipuke %d uudelleen avattu: <#%d>",
 			"in_ticket": "Tämä lippu on avattu uudelleen <#%d>"
 		},
@@ -239,7 +239,7 @@
 			"key": "Avain",
 			"check_again": "Tarkista uudelleen",
 			"subscription_found": "Tilaus Löydetty!",
-			"subscription_found_content": "",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
 			"activate_key": "Aktivoi Premium-avain",
 			"checking": "Tarkistetaan Premiumin tilaa...",
 			"please_wait": "Ole hyvä ja odota...",
@@ -274,9 +274,9 @@
 			"open_server_selector": "Avaa Palvelimen Valitsin"
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
 			"ratelimited": "Discordin asettamien rajoitusten vuoksi liput voidaan nimetä uudelleen vain kahdesti 10 minuutin välein"
@@ -286,7 +286,7 @@
 			"no_credits": "Lunastaminen epäonnistui: sinulla ei ole äänestys krediittejä!",
 			"redeem": {
 				"success": {
-					"plural": "",
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
 					"singular": "Äänestämis krediittisi on lunastettu **%d** päivän premium!"
 				}
 			},
@@ -310,7 +310,7 @@
 	"help": {
 		"switch_panel": "Vaihtaa lipukkeen toiseen lippupaneeliin, vaihtaen kanavaluokan, tukitiimit jne.",
 		"jump_to_top": "Tarjoaa sinulle painikkeen, jonka avulla voit hypätä lipun alkuun",
-		"on_call": "",
+		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
 		"reopen": "Avaa lipukkeen, joka oli aiemmin suljettu",
 		"notes": "Luo viestiketjun yksityiseen keskusteluun tukijoiden välillä"
 	},
