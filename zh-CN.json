@@ -170,8 +170,8 @@
 		"success": "此工单已被 <@%d> 关闭",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "此服务器已禁用 `/open` 命令：请使用工单面板来开启工单",
 			"threads": {
 				"cant_see_parent_channel": "无法添加 <@%d> 到工单：确保他们有权限查看线程的主频道 (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "标签 (%d) 已达到可添加的数量上限"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
@@ -261,17 +261,17 @@
 					"description": "如果您在 **Patreon** 上购买，请选择此选项"
 				},
 				"discord": {
-					"description": ""
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
 			"about": "高级订阅可以让您访问更多的面板、统计、自定义机器人等！访问我们的 [官网](https://ticketsbot.cloud/premium) 来了解更多信息。",
 			"already_activated": "好消息！高级订阅已经在此服务器上激活。",
 			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[配置自定义机器人](https://docs.ticketsbot.cloud/prem/whitlabel-setup-guide)。",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
 			"added_to_existing": "您已被添加到现有的备注主题中：<#%d>",
@@ -282,17 +282,17 @@
 			"ratelimited": "由于 Discord 限制，您仅可在 10 分钟内重命名工单两次"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
