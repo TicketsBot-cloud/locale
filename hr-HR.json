@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "Možete otvoriti samo %d %s odjednom",
 	"commands.open.too_many_tickets": "Previše je ulaznica u kategoriji ticket. Zatražite od administratora da neke zatvori ili da ih premjesti u drugu kategoriju",
 	"commands.panel": "<https://dashboard.ticketsbot.cloud/manage/%d/panels> Da podesite panel",
-	"commands.premium": "Možete kupiti premium pretplatu od <https://www.patreon.com/ticketsbot>.\\nPremium ti pruža mnoge prednosti kao što su:\\n```diff\\n+ Napraviti beskonačno ticket panela\\n+ prilagoditi bot ime, avatar & status(whitelabel)\\n+ Detaljne statistike o serveru, korisniku i podrška timu\\n+ Nema brendiranja u podnožju poruka\\n+ podržati razvoj i pomoći mi platiti server troškove\\n```\\n\\nAlternativno, možete glasati na <https://vote.ticketsbot.cloud> da dobijete premium besplatno na 24 sata",
+	"commands.premium": "Možete kupiti premium pretplatu od <https://www.patreon.com/ticketsbot-cloud>.\\nPremium ti pruža mnoge prednosti kao što su:\\n```diff\\n+ Napraviti beskonačno ticket panela\\n+ prilagoditi bot ime, avatar & status(whitelabel)\\n+ Detaljne statistike o serveru, korisniku i podrška timu\\n+ Nema brendiranja u podnožju poruka\\n+ podržati razvoj i pomoći mi platiti server troškove\\n```\\n\\nAlternativno, možete glasati na <https://vote.ticketsbot.cloud> da dobijete premium besplatno na 24 sata",
 	"commands.premium.invalid_key": "Nevaljan ključ. Pobrinite se da ste ga točno kopirali.",
 	"commands.remove.no_permission": "Nemate dozvolu da uklonite osobe iz ovog tiketa",
 	"commands.remove.staff": "Ne može ukloniti radnika iz ovog tiketa",
