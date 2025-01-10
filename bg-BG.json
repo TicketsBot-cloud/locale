@@ -180,7 +180,7 @@
 			"disabled": "Командата `отвори` е премахната в този сървър: моля използвайте тикет панел, за да отворите билет",
 			"threads": {
 				"cant_see_parent_channel": "Не мога да добавя <@%d> в билета: моля уверете се, че те имат правата да гледат този канал (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
@@ -261,17 +261,17 @@
 					"description": "Избери тази опция, ако си направил покупката чрез Patreon"
 				},
 				"discord": {
-					"description": ""
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
 			"about": "Премиум, Ви дава възможност за повече панели, статистики, къстъм бот и още много неща! Посети нашия [website] (https://ticketsbot.cloud/premium), за да научиш повече.",
 			"already_activated": "Добри новини! Премиум вече е активен в този сървър.",
 			"already_activated_whitelabel": "Добри новини! Премиум вече е активен в този сървър.\nЗа да получите помощ при стартиране с whitelabel, прочетете [нашия whitelabel сетъп](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
 			"added_to_existing": "Ти беше добавен в тази вече съществуваща се тема: <#%d>",
@@ -282,17 +282,17 @@
 			"ratelimited": "Поради ограничения на Дискорд, тикетите могат да се преименуват веднъж на всеки 10 минути"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
