@@ -170,8 +170,8 @@
 		"success": "تم إغلاق التذكرة من قبل <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "الامر /open غير مفعل في هذا السيرفر, تستطيع استخدام لوحة التذاكر لفتح تذكرة جديدة",
 			"threads": {
 				"cant_see_parent_channel": "تعذر اضافة <@%d> على التذكرة, تأكد من انه يملك صلاحية رؤية الروم الرئيسي لهذا الموضوع (الثريد) (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "لقد وصلت الحد الاقصى للوسوم (التاغات) : (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
@@ -261,17 +261,17 @@
 					"description": "قم بإختيار هذا الخيار فيه حال قم بالشراء من خلال باتريون"
 				},
 				"discord": {
-					"description": ""
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
 			"about": "البريموم يعطيك الصلاحية للمزيد من اللوحات والاحصائيات , وبوت خاص بك , والمزيد!\nقم بزيارة الموقع الإلكتروني الخاص بنا (https://ticketsbot.cloud/premium) لإكتشاف المزيد",
 			"already_activated": "أخبار جيدة! بريميوم نشط بالفعل في هذا الخادم.",
 			"already_activated_whitelabel": "أخبار سارّة! تم بالفعل تفعيل البريميوم لهذا السيرفر\n\nللحصول على مساعدة في البدء بالتخصيص, قم بقراءة [الدليل الخاص بنا لاستخدام التخصيص](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
 			"added_to_existing": "لقد تم اضافتك الى موضوع الملاحظات الحالية: <#%d>",
@@ -279,20 +279,20 @@
 			"created": "تم إنشاء موضوع ملاحظات لهذه التذكرة: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
