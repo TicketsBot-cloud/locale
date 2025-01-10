@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "Du kan bare åpne %d %s om gangen",
 	"commands.open.too_many_tickets": "Det er for mange støtteforespurseler i støttekategorien. Spør en administrator om å lukke noen eller flytte dem til en annen kategori",
 	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
-	"commands.premium": "Du kan kjøpe premiumsabonnement fra <https://www.patreon.com/ticketsbot>.\\nPremium gir mange fordeler, som:\\n```diff\\n+ Lage ubegrensede støtteforespurselspaneler\\n+ Endre robot navn, avatar og status (ser som din egen)\\n+ Detaljert statistikk om sørveren, brukere og stabmedlemmer\\n+ Ingen reklame på slutten av meldinger\\n+ Støtte utviklinga og hjelpe meg med å betale regingene\\n```\\n\\nOm dette ikke passer, kan du stemme for roboten på <https://vote.ticketsbot.cloud> for å få premium gratis for ett døgn",
+	"commands.premium": "Du kan kjøpe premiumsabonnement fra <https://www.patreon.com/ticketsbot-cloud>.\\nPremium gir mange fordeler, som:\\n```diff\\n+ Lage ubegrensede støtteforespurselspaneler\\n+ Endre robot navn, avatar og status (ser som din egen)\\n+ Detaljert statistikk om sørveren, brukere og stabmedlemmer\\n+ Ingen reklame på slutten av meldinger\\n+ Støtte utviklinga og hjelpe meg med å betale regingene\\n```\\n\\nOm dette ikke passer, kan du stemme for roboten på <https://vote.ticketsbot.cloud> for å få premium gratis for ett døgn",
 	"commands.premium.invalid_key": "Ugyldig nøkkel. Pass på at du kopierte nøkkelen ordentlig",
 	"commands.remove.no_permission": "Du har ikke lov til å fjerne folk fra denne støtteforespurselen",
 	"commands.remove.staff": "Du kan ikke fjerne stabmedlemmer fra en støtteforespursen",
