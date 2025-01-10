@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "Du kan kun åbne %d %s på en gang",
 	"commands.open.too_many_tickets": "Der er for mange tickets i kategorien. Bed en administrator om at lukke eller flytte nogen, til en anden kategori",
 	"commands.panel": "Besøg <https://dashboard.ticketsbot.cloud/manage/%d/panels> for at konfigurere et panel",
-	"commands.premium": "Du kan købe et premium abonnement fra <https://www.patreon.com/ticketsbot>.\\nPremium giver mange fordele, såsom s:\\n```diff\\n+ skab ubegrænsede antal paneler\\n+ Tilpas bot navn, avaterer og status (whitelabel)\\n+ Detaljeret statistik om serveren, brugere og supportpersonalet\\n+ Ingen reklamer i fodnoten af beskeder\\n+ Support udvikling og hjælp mig med at betale server omkostningerne\\n+```\\n\\nAlternativt, kan du stemme på <https://vote.ticketsbot.cloud> for at få premium gratis i 24 timer",
+	"commands.premium": "Du kan købe et premium abonnement fra <https://www.patreon.com/ticketsbot-cloud>.\\nPremium giver mange fordele, såsom s:\\n```diff\\n+ skab ubegrænsede antal paneler\\n+ Tilpas bot navn, avaterer og status (whitelabel)\\n+ Detaljeret statistik om serveren, brugere og supportpersonalet\\n+ Ingen reklamer i fodnoten af beskeder\\n+ Support udvikling og hjælp mig med at betale server omkostningerne\\n+```\\n\\nAlternativt, kan du stemme på <https://vote.ticketsbot.cloud> for at få premium gratis i 24 timer",
 	"commands.premium.invalid_key": "Ugyldig nøgle. Sørg for at du har kopieret den korrekt.",
 	"commands.remove.no_permission": "Du har ikke tilladelse til at tilføje brugere til denne ticket",
 	"commands.remove.staff": "Du kan ikke fjerne personale fra en ticket",
