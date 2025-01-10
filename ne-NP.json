@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "You are only able to open %d %s at once",
 	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
 	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.cloud> to get premium free for 24 hours",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.cloud> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
 	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
 	"commands.remove.staff": "You cannot remove staff from a ticket",
