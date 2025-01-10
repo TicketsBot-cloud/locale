@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "Solo puede abrir %d %s a la vez",
 	"commands.open.too_many_tickets": "Hay demasiados tickets en la categoría de tickets. Pide a un administrador que cierre algunos o que los mueva a otra categoría",
 	"commands.panel": "Visita <https://dashboard.ticketsbot.cloud/manage/%d/panels> para configurar un panel",
-	"commands.premium": "Puede comprar una suscripción premium en <https://www.patreon.com/ticketsbot>.\\nPremium ofrece muchos beneficios, tales como:\\n```diff\\n+ Crear paneles de tickets ilimitados\\n+ Personalizar nombre de bot, avatar y estado (whitelabel)\\n+ Estadísticas detalladas sobre el servidor, los usuarios y el staff de soporte\\n+ Sin marca en el pie de página de los mensajes\\n+ Desarrollo de soporte y ayuda para pagar los costos del servidor\\n```\\n\\n Alternativamente, puede votar en <https://vote.ticketsbot.cloud> para obtener premium gratis durante 24 horas",
+	"commands.premium": "Puede comprar una suscripción premium en <https://www.patreon.com/ticketsbot-cloud>.\\nPremium ofrece muchos beneficios, tales como:\\n```diff\\n+ Crear paneles de tickets ilimitados\\n+ Personalizar nombre de bot, avatar y estado (whitelabel)\\n+ Estadísticas detalladas sobre el servidor, los usuarios y el staff de soporte\\n+ Sin marca en el pie de página de los mensajes\\n+ Desarrollo de soporte y ayuda para pagar los costos del servidor\\n```\\n\\n Alternativamente, puede votar en <https://vote.ticketsbot.cloud> para obtener premium gratis durante 24 horas",
 	"commands.premium.invalid_key": "Tecla inválida. Asegúrese de haberlo copiado correctamente",
 	"commands.remove.no_permission": "No tienes permiso para eliminar personas de este ticket",
 	"commands.remove.staff": "No puede eliminar staff de un ticket",
