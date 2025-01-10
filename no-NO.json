@@ -12,7 +12,7 @@
 	"commands.language.invalid": "Du må oppgi en språkkode eller et flagg. Tilgjengelige språk:\\n%s",
 	"commands.open.ticket_limit": "Du kan bare åpne %d %s om gangen",
 	"commands.open.too_many_tickets": "Det er for mange støtteforespurseler i støttekategorien. Spør en administrator om å lukke noen eller flytte dem til en annen kategori",
-	"commands.panel": "",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
 	"commands.premium": "Du kan kjøpe premiumsabonnement fra <https://www.patreon.com/ticketsbot-cloud>.\\nPremium gir mange fordeler, som:\\n```diff\\n+ Lage ubegrensede støtteforespurselspaneler\\n+ Endre robot navn, avatar og status (ser som din egen)\\n+ Detaljert statistikk om sørveren, brukere og stabmedlemmer\\n+ Ingen reklame på slutten av meldinger\\n+ Støtte utviklinga og hjelpe meg med å betale regingene\\n```\\n\\nOm dette ikke passer, kan du stemme for roboten på <https://vote.ticketsbot.cloud> for å få premium gratis for ett døgn",
 	"commands.premium.invalid_key": "Ugyldig nøkkel. Pass på at du kopierte nøkkelen ordentlig",
 	"commands.remove.no_permission": "Du har ikke lov til å fjerne folk fra denne støtteforespurselen",
@@ -60,7 +60,7 @@
 	"help.managetags": "Legg til, fjern eller list knagger",
 	"help.open": "Åpner en ny støtteforespursel",
 	"help.panel": "Lager et panel for å la brukere lage en ny støtteforespursel med ett klikk",
-	"help.premium": "",
+	"help.premium": "Run this command after purchasing premium to activate it",
 	"help.remove": "Fjerner en bruker fra en støtteforespursel",
 	"help.removeadmin": "Fjerner en bruker eller rolles administratorprivilegier",
 	"help.removesupport": "Fjerner en bruker eller rolles støttekontaktprivilegier",
@@ -79,7 +79,7 @@
 	"open.success": "Åpnet en ny støtteforespursel: %s",
 	"setup.auto.category.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
 	"setup.auto.category.success": "Opprett ticket kategori",
-	"setup.auto.completed": "",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Jeg mangler tillatelsen `Administrer Roller`",
 	"setup.auto.roles.success": "Opprettet `Ticket Admin` og `Ticket Support` roller",
 	"setup.auto.transcript.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Transkripsjons kanalen har blitt endret til <#%d>",
 	"commands.language.help_wanted": "Snakker du et annet språk? Bli med i vår [support server](https://discord.gg/ticketsbot) hvis du er interessert i å hjelpe til å oversette boten til flere språk",
 	"commands.rename.too_long": "Kanal navn kan ikke være lengre enn 100 tegn",
-	"commands.autoclose.configure": "",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Autoclose relaterte kommandoer",
 	"help.autoclose.exclude": "Ekskluderer gjeldende ticket fra å bli automatisk lukket",
 	"help.autoclose.configure": "Rediger autoclose relaterte innstillinger",
@@ -167,11 +167,11 @@
 		"reason": {
 			"placeholder": "Grunn for å stenge ticketen, f.eks \"Løst\""
 		},
-		"success": "",
+		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
@@ -179,8 +179,8 @@
 		"open": {
 			"disabled": "`/open` kommandoen er deaktivert i denne serveren: Vennligst bruk ticket panelet for å åpne en ticket",
 			"threads": {
-				"cant_see_parent_channel": "",
-				"cant_message_in_threads": ""
+				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Du har nådd tag grensen (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
@@ -222,77 +222,77 @@
 			"select": "Velg et språk (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"success": "You are now on call",
+			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
-			"not_found": "",
+			"not_found": "Ticket not found",
 			"no_permission": "Du har ikke tillatelse til å gjenåpne denne ticketen",
 			"already_open": "Denne ticketen er allerede åpen",
-			"not_thread": "",
-			"thread_deleted": "",
+			"not_thread": "Only threads can be reopened",
+			"thread_deleted": "The ticket has been permanently deleted",
 			"success": "Sak %d gjenåpnet: <#%d>",
 			"in_ticket": "Denne støtteforespurselen har hatt navnet sitt endret til <#%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
+			"key": "Key",
+			"check_again": "Check Again",
 			"subscription_found": "Abonnement funnet!",
 			"subscription_found_content": "For å legge til abonnement på denne serveren, servereieren (<@%d>) må legge deg til som administrator **bruker** (roller blir ignorert) via </addadmin:%d> kommandoen.\\n\\nDu kan verifisere at du er lagt til som administrator ved å kjøre </viewstaff:%d>.",
 			"activate_key": "Aktiver Premium nøkkel",
 			"checking": "Kontrollerer Premium Status...",
 			"please_wait": "Vennligst vent...",
-			"success_after_check": "",
+			"success_after_check": "Premium is now active in this server!",
 			"link_patreon_account": "Link Patreon konto",
 			"no_subscription": "Finner ikke et aktivt Patreon abonnement knyttet til din Discord konto. Sørg for at du [har koblet til dine Patreon og Discord-kontoer](https://support. atreon.com/hc/en-us/articles/212052266-Get-my-Discord-rolle), og en avvent ytterligere 10 minutter.",
 			"open_form": "Åpne skjema",
 			"open_form_description": "Trykk på knappen nedenfor for å åpne skjemaet på nytt",
 			"use_key_anyway": "Bruk Premium nøkkel uansett",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
 			"selector": {
-				"description": "",
+				"description": "Select which method you used to obtain premium",
 				"key": {
-					"description": ""
+					"description": "Select this option if you were given a giveaway key"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Select this option if you made your purchase on Patreon"
 				},
 				"discord": {
-					"description": ""
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": "",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
@@ -301,17 +301,17 @@
 			"panel_switched": "Ticket Panel Byttet",
 			"jump_to_top": "Hopp til toppen",
 			"reopened": "Sak gjenåpnet",
-			"ticket_closed": ""
+			"ticket_closed": "Ticket Closed"
 		},
 		"click_here": "Trykk her",
 		"confirm": "Bekreft",
-		"website": ""
+		"website": "Our Website"
 	},
 	"help": {
 		"switch_panel": "Bytter ticket til et annet ticket panel, endrer kanalkategori, support teams, osv.",
 		"jump_to_top": "Gir deg en knapp for å hoppe til toppen av ticketen",
 		"on_call": "Markerer deg som et samtale, som vil bli lagt til og pinged i alle nye saker",
-		"reopen": "",
+		"reopen": "Reopens a ticket that was previously closed",
 		"notes": "Oppretter en tråd for privat diskusjon mellom støtte representanter"
 	},
 	"<@&%d> has been unblcommands": {
@@ -326,29 +326,29 @@
 			"docs": "Vil du utforske mer? Vår [dokumentasjon](https://docs.ticketsbot.cloud) lærer deg hvordan du konfigurerer alle aspekter av botten!"
 		},
 		"threads": {
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
 			"already_joined": "Du har allerede blitt med i denne billetten (<#%d>)",
 			"success": "La deg til i billetten: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": "",
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
 				"single": "Du trenger følgende rolle for å åpne denne typen sak: %s"
 			}
 		}
