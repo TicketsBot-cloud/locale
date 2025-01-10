@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "Du kan bara öppna %d %s på en gång",
 	"commands.open.too_many_tickets": "Det finns för många tickets i ticketkategorin. Be en administratör att stänga några eller flytta dom till en annan kategori",
 	"commands.panel": "Besök <https://dashboard.ticketsbot.cloud/manage/%d/panels> för att konfigurera en panel",
-	"commands.premium": "Du kan köpa premium från <https://www.patreon.com/ticketsbot>.\\nPremium ger många fördelar, som:\\n```diff\\n+ Skapa oändligt med ticketpaneler\\n+ Ändra botnamn, avatar & status (whitelabel)\\n+ Detaljerad statistik om servern, användare och support-staff\\n+ Inget märke längst nere på meddelanden\\n+Stöd utveckling och hjälp mig att betala serverkostnaderna\\n```\\n\\nEller så kan du rösta på <https://vote.ticketsbot.cloud> för att få gratis premium i 24 timmar",
+	"commands.premium": "Du kan köpa premium från <https://www.patreon.com/ticketsbot-cloud>.\\nPremium ger många fördelar, som:\\n```diff\\n+ Skapa oändligt med ticketpaneler\\n+ Ändra botnamn, avatar & status (whitelabel)\\n+ Detaljerad statistik om servern, användare och support-staff\\n+ Inget märke längst nere på meddelanden\\n+Stöd utveckling och hjälp mig att betala serverkostnaderna\\n```\\n\\nEller så kan du rösta på <https://vote.ticketsbot.cloud> för att få gratis premium i 24 timmar",
 	"commands.premium.invalid_key": "Ogiltig nyckel. Se till att du har kopierat det korrekt.",
 	"commands.remove.no_permission": "Du har inte behörighet att ta bort personer från den här ticketen",
 	"commands.remove.staff": "Du kan inte ta bort staff från den här ticketen",
