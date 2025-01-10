@@ -12,7 +12,7 @@
 	"commands.language.invalid": "Мораш да одредиш језик или заставу. Доступни језици:\\n%s",
 	"commands.open.ticket_limit": "Можеш само да отвориш %d%s cместа",
 	"commands.open.too_many_tickets": "Има превише карата у категорији карата. Замолите администрацију да затвори неке, или да их пребаци у другу категорију",
-	"commands.panel": "",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
 	"commands.premium": "Претплату можете купити на <https://www.patreon.com/ticketsbot-cloud>\\nПремија пружа многе предности, као што су:\\n```diff\\n+ Створите неограничене карте.\\n+ Име робота, аватар и статус (whitelabel)\\n+ Детаљна статистика о серверу, корисницима и помоћном особљу\\n+ Нема жигосања у подножју порука\\n+Подржи развој и помози ми да платим трошкове сервера\\n```\\n\\nКао алтернативу, можете гласати на <https://vote.ticketsbot.cloud> Да добијемо премију бесплатно 24 сата",
 	"commands.premium.invalid_key": "Неважећи кључ. Увери се да си га добро ископирао.",
 	"commands.remove.no_permission": "Немаш дозволу да уклониш људе са ове карте",
@@ -79,7 +79,7 @@
 	"open.success": "Отворила је нову карту: %s",
 	"setup.auto.category.failure": "Spisak članova osoblja i uloga `Manage Channels`",
 	"setup.auto.category.success": "Креирана категорија карата",
-	"setup.auto.completed": "",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Недостаје ми дозвола за \"Manages Roles\"",
 	"setup.auto.roles.success": "Створене су улоге 'Управе за карте' и 'Подршке за карте'",
 	"setup.auto.transcript.failure": "Недостаје ми дозвола за \"руковање каналима\"",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Канал транскрипата је промењен на <#%d>",
 	"commands.language.help_wanted": "Govoriš li još jedan jezik? Придружите се нашем [подржавајућем серверу](https://discord.gg/ticketsbot) Ако сте заинтересовани да помогнете у преводу робота на више језика",
 	"commands.rename.too_long": "Идентификација не може бити дужа од 100 знакова",
-	"commands.autoclose.configure": "",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Аутоматско затварање повезаних команди",
 	"help.autoclose.exclude": "Искључује аутоматско затварање тренутне карте",
 	"help.autoclose.configure": "Прилагоди аутоматско затварање",
@@ -170,8 +170,8 @@
 		"success": "Карта је била затворена <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "Наредба '/open' је искључена на овом серверу: Молимо вас да користите таблу за улазнице за отварање улазница",
 			"threads": {
 				"cant_see_parent_channel": "Није могао да дода <@%d> на карту: Осигурајте да имају дозволу за гледање матичног канала нити (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Достигао си границу (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
@@ -261,38 +261,38 @@
 					"description": "Изаберите ову опцију ако сте купили Патреон"
 				},
 				"discord": {
-					"description": ""
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
 			"about": "Премија ти даје приступ више панела, статистике, робот по наруџби и више! Посетите нас да сазнате више. [website](https://ticketsbot.cloud/premium).",
-			"already_activated": "",
-			"already_activated_whitelabel": "",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
@@ -312,7 +312,7 @@
 		"jump_to_top": "Пружа ти дугме да скочиш на врх карте",
 		"on_call": "Označava te kao dežurnog, da dodaš i upišeš sve nove karte",
 		"reopen": "Поново отвара карту која је раније била затворена",
-		"notes": ""
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -342,20 +342,20 @@
 	},
 	"open": {
 		"thread_in_announcement_channel": "Нити се не могу креирати у каналима за најаве",
-		"panel_force_disabled": "",
-		"panel_disabled": "",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }
