@@ -1,361 +1,361 @@
 {
-	"commands.about": "Tickets는 사용하기 쉽고 구성하기 쉬운 티켓 및 지원 봇이에요.\\n지원 서버: https://discord.gg/ticketsbot\\n명령어 목록을 보려면 `/help`를 입력하세요.\\n`/setup` 명령어로 시작해 보세요.",
-	"commands.add.no_members": "티켓에 추가하려면 멤버를 멘션해야 해요",
-	"commands.add.no_permission": "티켓에 멤버를 추가할 권한이 없어요",
-	"commands.addadmin.no_members": "관리자 권한을 부여하려면 사용자나 역할 이름을 멘션해야 해요",
-	"commands.addadmin.owner": "서버 소유자는 이미 관리자입니다",
-	"commands.addsupport.no_members": "지원 담당자 권한을 부여하려면 사용자 또는 역할 이름을 멘션해야 해요",
-	"commands.blacklist.no_members": "블랙리스트 상태를 전환하려면 사용자를 멘션해야 해요",
-	"commands.blacklist.self": "나 자신을 블랙리스트에 추가할 수 없어요",
-	"commands.claim.success": "내 티켓을 %s님이 담당해요",
-	"commands.invite": "[여길 누르세요](<https://invite.ticketsbot.cloud>)",
-	"commands.language.invalid": "언어 코드 또는 플래그를 지정해야 합니다. 사용 가능한 언어:\\n%s",
-	"commands.open.ticket_limit": "한 번에 %d %s만 열 수 있습니다.",
-	"commands.open.too_many_tickets": "티켓 카테고리에 티켓이 너무 많습니다. 관리자에게 일부를 닫거나 다른 카테고리로 이동하도록 요청하세요.",
-	"commands.panel": "<https://dashboard.ticketsbot.cloud/manage/%d/panels>을 방문해 패널을 구성하세요",
-	"commands.premium": "프리미엄 구독은 <https://www.patreon.com/ticketsbot-cloud>에서 구입할 수 있습니다.\\n프리미엄은 다음과 같은 많은 혜택을 제공합니다.\\n\\n\\```diff\\n+ 무제한 티켓 패널 만들기\\n+ 사용자 및 상태 사용자 지정 봇 이름, 상태(흰색 레이블)\\n+ 서버, 사용자 및 지원 담당자에 대한 자세한 통계\\n+ 지원 개발 메시지 아래에 브랜드 없음 및 서버 비용 지불을 도와드립니다.\\n```\\n\\n<https://vote.ticketsbot.cloud>에서 24시간 동안 프리미엄 무료 제공받을 수 있습니다.",
-	"commands.premium.invalid_key": "잘못된 키입니다. 올바르게 복사했는지 확인해주세요.",
-	"commands.remove.no_permission": "이 티켓에서 사용자를 제거할 수 있는 권한이 없습니다.",
-	"commands.remove.staff": "스태프를 티켓에서 제거할 수 없습니다.",
-	"commands.removeadmin.no_members": "관리자 권한을 취소하려면 사용자 또는 역할 이름을 지정해야 합니다.",
-	"commands.removeadmin.owner": "길드 소유자는 관리자여야 합니다.",
-	"commands.removeadmin.self": "자신의 권한을 취소할 수 없습니다.",
-	"commands.removesupport.no_members": "지원 담당자 권한을 부여하려면 사용자 또는 역할 이름을 지정해야 합니다.",
-	"commands.rename.missing_name": "이 티켓의 새 이름을 지정해야 합니다.",
-	"commands.rename.success": "이 티켓의 이름이 <#%d>로 변경되었습니다.",
-	"commands.tags.create.already_exists": "ID가 `%s`인 태그가 이미 있습니다. `/tag delete %s`을(를) 사용하여 태그를 삭제할 수 있습니다.",
-	"commands.tags.create.invalid_arguments": "태그 ID 및 내용을 지정해야 합니다.",
-	"commands.tags.create.too_long": "태그 ID는 16자를 초과할 수 없습니다.",
-	"commands.tags.delete.invalid_arguments": "삭제할 태그 ID를 지정해야 합니다.",
-	"commands.tags.delete.not_exist": "ID가 `%s`인 태그를 찾을 수 없습니다.",
-	"commands.tags.get.invalid_arguments": "태그의 ID를 제공해야 합니다. 태그에 대한 자세한 내용은 <https://ticketsbot.cloud/tags>을 참조하십시오.",
-	"commands.tags.get.invalid_tag": "잘못된 태그입니다. 태그에 대한 자세한 도움말을 보려면 <https://ticketsbot.cloud/tags>을 방문하십시오.",
-	"commands.tags.list": "모든 태그의 ID: \\n%s\\n태그 내용을 보려면 `%stag <ID>`",
-	"commands.unclaim.not_claimed": "이 티켓은 배정되지 않았습니다.",
-	"commands.unclaim.not_claimer": "관리자 및 티켓을 연 사용자만 티켓 배정를 취소할 수 있습니다.",
-	"commands.unclaim.success": "이제 모든 지원 담당자가 티켓에 응답할 수 있습니다.",
-	"commands.vote": "24시간 무료 프리미엄을 위해 투표하려면 여기를 클릭하십시오.\\n<https://vote.ticketsbot.cloud>",
-	"generic.invalid_argument": "잘못된 인수: 사용법을 참조하십시오.",
-	"generic.invalid_user": "대상 사용자를 찾을 수 없습니다.",
-	"generic.no_permission": "당신은 권한이 없어요.",
-	"generic.not_ticket": "여긴 티켓채널이 아니에요",
-	"generic.owner_only": "이 명령어는 봇 소유자 전용입니다.",
-	"help.about": "봇에 대한 정보를 제공합니다.",
-	"help.add": "유저를 티켓에 추가하기",
-	"help.addadmin": "사용자 또는 역할의 관리자 권한을 부여합니다.",
-	"help.addsupport": "사용자 또는 역할을 지원 담당자로 추가합니다.",
-	"help.admin": "봇 관리",
-	"help.admin.blacklist": "봇 사용을 길드에서 차단합니다.",
-	"help.admin.check_premium": "서버의 프리미엄 상태 확인",
-	"help.admin.generate_premium": "프리미엄 키 생성",
-	"help.admin.get_owner": "서버의 소유자를 가져옵니다.",
-	"help.admin.unblacklist": "길드 블랙리스트에서 길드 제거",
-	"help.blacklist": "사용자가 봇과 상호 작용할 수 있는지 여부를 전환합니다.",
-	"help.cancel": "설정 프로세스를 취소합니다.",
-	"help.claim": "티켓에 직원 한 명 배정",
-	"help.close": "현재 티켓을 닫습니다.",
-	"help.help": "명령어들을 표시합니다.",
-	"help.invite": "봇에 대한 초대 링크를 제공합니다.",
-	"help.language": "봇이 사용하는 언어를 변경합니다.",
-	"help.managetags": "태그 추가, 삭제 또는 나열",
-	"help.open": "새 티켓 열기",
-	"help.panel": "클릭 한 번으로 티켓을 열 수 있는 패널을 만듭니다.",
-	"help.premium": "프리미엄을 구입한 후 이 명령을 실행하여 활성화하세요.",
-	"help.remove": "티켓에서 유저를 제거합니다.",
-	"help.removeadmin": "사용자 또는 역할의 관리자 권한을 취소합니다.",
-	"help.removesupport": "사용자 또는 역할의 지원 담당자 권한을 취소합니다.",
-	"help.rename": "현재 티켓의 이름을 바꿉니다.",
-	"help.setup": "봇을 쉽게 설정할 수 있습니다.",
-	"help.stats": "사용자, 지원 담당자 및 서버에 대한 통계를 표시합니다.",
-	"help.statsserver": "서버에 대한 통계를 표시합니다.",
-	"help.tag": "메시지 스니펫을 보냅니다.",
-	"help.tagdelete": "태그를 삭제합니다",
-	"help.taggadd": "태그를 추가합니다",
-	"help.taglist": "모든 태그를 나열합니다.",
-	"help.transfer": "배정된 티켓을 다른 사용자에게 전송합니다.",
-	"help.unclaim": "현재 티켓의 배정을 제거합니다.",
-	"help.viewstaff": "스태프 및 역할을 나열합니다.",
-	"help.vote": "무료 프리미엄을 위해 투표할 수 있는 링크를 제공합니다.",
-	"open.success": "새 티켓을 열었습니다: %s",
-	"setup.auto.category.failure": "`채널 관리`권한이 없습니다.",
-	"setup.auto.category.success": "티켓 카테고리를 만들었습니다.",
-	"setup.auto.completed": "설정이 완료되었습니다! [여기](https://dashboard.ticketsbot.cloud/manage/%d/panels)를 클릭해 반응 패널을 설정해 보시고, 스태프 멤버를 <@&%d>, <@&%d> 역할에 추가해 보세요",
-	"setup.auto.roles.failure": "`역할 관리` 권한이 없습니다.",
-	"setup.auto.roles.success": "`티켓 관리자` 및 `티켓 지원` 역할을 생성했습니다.",
-	"setup.auto.transcript.failure": "`채널 관리`권한이 없습니다.",
-	"setup.auto.transcript.success": "<#%d> 채널을 만들었습니다.",
-	"setup.ticket_limit.success": "티켓 제한이 `%d`로 업데이트되었습니다.",
-	"setup.transcript.invalid": "서버의 유효한 채널(예: <#%d>)을 멘션해야 합니다.\\n** 예시:** `/setup transcripts #logs`",
-	"setup.transcript.success": "채팅 기록 채널이 <#%d>로 변경되었습니다.",
-	"commands.language.help_wanted": "당신은 다른 언어를 할 줄 아나요? 봇을 더 많은 언어로 번역하는 데 관심이 있으신 경우 [지원 서버](https://discord.gg/ticketsbot)에 가입하세요!",
-	"commands.rename.too_long": "채널 이름은 100자를 초과할 수 없습니다.",
-	"commands.autoclose.configure": "[대시보드](https://dashboard.ticketsbot.cloud/manage/%d/settings)에 방문해 자동 닫기 설정을 변경하세요",
-	"help.autoclose": "자동 닫기 관련 명령어",
-	"help.autoclose.exclude": "현재 티켓을 자동 닫힘에서 제외합니다.",
-	"help.autoclose.configure": "자동 닫기 관련 설정 편집",
-	"commands.autoclose.exclude.success": "이 티켓은 자동 닫힘에서 제외되었습니다.",
-	"commands.claim.no_permission": "스태프만 티켓을 배정할 수 있습니다.",
-	"commands.open.from": "이 티켓은 [이 메시지](%s) 에서 열렸습니다. <@%d>는 <#%d>에서 ```%s```라고 말했습니다.",
-	"commands.open.from.moved": "대화가 티켓으로 이동되었습니다(<#%d>).",
-	"help.close_request": "사용자에게 티켓을 닫을지 확인하는 메시지를 보냅니다.",
-	"close.reason_too_long": "이유는 255자를 초과할 수 없습니다.",
-	"commands.close_request.no_reason": "<@%d>님이 이 티켓을 닫도록 요청했습니다. 아래 단추 사용에 동의하거나 거부하십시오.",
-	"commands.close_request.with_reason": "<@%d>님이 이 티켓을 닫도록 요청했습니다. 이유: \n```\n%s\n``` 아래 단추 사용에 동의하거나 거부하십시오.",
-	"commands.close_request.no_permission": "티켓을 연 사용자만 닫기 요청에 응답할 수 있습니다.",
-	"commands.close_request.denied": "<@%d>이(가) 종료 요청을 거부했습니다.",
-	"generic.error": "오류",
-	"feedback.disabled": "이 서버에서 피드백을 사용할 수 없도록 설정했습니다.",
-	"feedback.success": "의견을 보냈습니다.",
-	"generic.success": "성공",
-	"button.guild_only": "이 버튼은 서버에서 사용해야 합니다.",
-	"button.dms_only": "이 버튼은 Dm에서 사용해야 합니다.",
-	"commands.tag.generic": "태그",
-	"commands.tags.delete.success": "`%s` 태그가 삭제되었습니다.",
-	"generic.ticket": "티켓",
-	"generic.title.premium_only": "프리미엄 전용 커맨드",
-	"generic.admin": "관리자",
-	"commands.tags.create.success": "태그 생성됨 - `/tag %s`을(를) 실행하여 사용할 수 있습니다.",
-	"generic.title.about": "정보",
-	"generic.title.vote": "투표",
-	"generic.title.tags": "태그",
-	"generic.title.autoclose": "자동닫기",
-	"generic.title.invite": "초대",
-	"generic.title.close": "닫기",
-	"generic.title.claim": "배정",
-	"generic.title.blacklisted": "블랙 리스트됨",
-	"generic.title.blacklist": "블랙리스트",
-	"generic.error.blacklisted": "당신은 이 서버에서 블랙리스트입니다.",
-	"commands.blacklist.add.success": "<@%d>가 블랙리스트에 추가되었습니다.",
-	"commands.blacklist.remove.success": "<@%d>가 블랙리스트에서 삭제되었습니다.",
-	"generic.title.add_admin": "관리자 추가",
-	"generic.title.add_support": "지원 추가",
-	"generic.title.remove_admin": "관리자 제거",
-	"generic.title.remove_support": "지원 제거",
-	"commands.addsupport.success": "지원 담당자가 추가되었습니다.",
-	"generic.title.language": "언어",
-	"commands.removesupport.success": "지원 담당자가 제거되었습니다.",
-	"commands.addadmin.success": "관리자가 추가되었습니다",
-	"commands.removeadmin.success": "관리자가 제거되었습니다.",
-	"generic.title.setup": "설치",
-	"generic.title.premium": "프리미엄",
-	"generic.title.panel": "패널",
-	"generic.title.rename": "이름 변경",
-	"generic.title.remove": "제거",
-	"generic.title.help": "도움말",
-	"generic.title.close_confirmation": "닫기 확인",
-	"close.confirmation": "이 티켓을 종료할지 확인하십시오.",
-	"generic.title.close_request": "요청 닫기",
-	"commands.close_request.accept": "수락및 닫기",
-	"commands.close_request.deny": "거부및 오픈 유지",
-	"commands.premium.success": "프리미엄이 **%d**일 동안 활성화되었습니다.",
-	"generic.title.claimed": "배정된 티켓",
-	"generic.title.unclaimed": "배정안된 티켓",
-	"generic.title.add": "추가",
-	"commands.add.success": "<@%d>가 <#%d>에 추가되었습니다.",
-	"commands.remove.success": "<@%d>가 <#%d>에서 제거되었습니다.",
-	"open.ratelimited": "이 서버에서 티켓이 너무 빨리 열리고 있습니다.",
-	"commands.claim.thread": "디스코드의 제한으로 인해 배정이 스레드를 지원하지 않아요.",
-	"generic.join_support_server": "지원 서버 참가",
-	"commands.open.guild_channel_limit": "이 서버는 Discord의 한계인 500채널에 도달했습니다.",
-	"commands.open.missing_form_answer": "질문 `%s`에 답해야 합니다.",
-	"close.no_permission": "당신은 이 티켓을 닫을 수 없습니다.",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.add.no_members": "You need to mention members to add to the ticket",
+	"commands.add.no_permission": "You don't have permission to add people to this ticket",
+	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
+	"commands.addadmin.owner": "The server owner is already an administrator",
+	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
+	"commands.blacklist.self": "You cannot blacklist yourself",
+	"commands.claim.success": "Your ticket will be handled by %s",
+	"commands.invite": "[Click here](<https://invite.ticketsbot.cloud>)",
+	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
+	"commands.open.ticket_limit": "You are only able to open %d %s at once",
+	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.cloud> to get premium free for 24 hours",
+	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
+	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
+	"commands.remove.staff": "You cannot remove staff from a ticket",
+	"commands.removeadmin.no_members": "You need to mention a user or name a role to revoke admin privileges from",
+	"commands.removeadmin.owner": "The guild owner must be an admin",
+	"commands.removeadmin.self": "You cannot revoke your own privileges",
+	"commands.removesupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.rename.missing_name": "You need to specify a new name for this ticket",
+	"commands.rename.success": "This ticket has been renamed to <#%d>",
+	"commands.tags.create.already_exists": "A tag with the ID `%s` already exists. You can delete the tag using `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "You must specify a tag ID and contents",
+	"commands.tags.create.too_long": "Tag IDs cannot be longer than 16 characters",
+	"commands.tags.delete.invalid_arguments": "You must specify a tag ID to delete",
+	"commands.tags.delete.not_exist": "A tag with the ID `%s` could not be found",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
+	"commands.unclaim.not_claimed": "This ticket is not claimed",
+	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
+	"commands.unclaim.success": "All support representatives can now respond to the ticket",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"generic.invalid_argument": "Invalid argument: refer to usage",
+	"generic.invalid_user": "Couldn't find the target user",
+	"generic.no_permission": "You do not have permission for this",
+	"generic.not_ticket": "This is not a ticket channel",
+	"generic.owner_only": "This command is reserved for the bot owner only",
+	"help.about": "Tells you information about the bot",
+	"help.add": "Adds a user to a ticket",
+	"help.addadmin": "Grants a user or role admin privileges",
+	"help.addsupport": "Adds a user or role as a support representative",
+	"help.admin": "Bot management",
+	"help.admin.blacklist": "Blacklist a guild from using the bot",
+	"help.admin.check_premium": "Check the premium status of a server",
+	"help.admin.generate_premium": "Generate premium keys",
+	"help.admin.get_owner": "Gets the owner of a server",
+	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
+	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
+	"help.cancel": "Cancels the setup process",
+	"help.claim": "Assigns a single staff member to a ticket",
+	"help.close": "Closes the current ticket",
+	"help.help": "Shows you a list of commands",
+	"help.invite": "Provides an invite link for the bot",
+	"help.language": "Changes the language the bot uses",
+	"help.managetags": "Add, delete or list tags",
+	"help.open": "Opens a new ticket",
+	"help.panel": "Creates a panel to enable users to open a ticket with 1 click",
+	"help.premium": "Run this command after purchasing premium to activate it",
+	"help.remove": "Removes a user from a ticket",
+	"help.removeadmin": "Revokes a user's or role's admin privileges",
+	"help.removesupport": "Revokes a user's or role's support representative privileges",
+	"help.rename": "Renames the current ticket",
+	"help.setup": "Allows you to easily configure the bot",
+	"help.stats": "Shows you statistics about users, support staff and the server",
+	"help.statsserver": "Shows you statistics about the server",
+	"help.tag": "Sends a message snippet",
+	"help.tagdelete": "Deletes a tag",
+	"help.taggadd": "Adds a new tag",
+	"help.taglist": "Lists all tags",
+	"help.transfer": "Transfers a claimed ticket to another user",
+	"help.unclaim": "Removes the claim on the current ticket",
+	"help.viewstaff": "Lists the staff members and roles",
+	"help.vote": "Gives you a link to vote for free premium",
+	"open.success": "Opened a new ticket: %s",
+	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.category.success": "Created Tickets category",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
+	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
+	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.transcript.success": "Created <#%d> channel",
+	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
+	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
+	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
+	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"help.autoclose": "Autoclose related commands",
+	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
+	"help.autoclose.configure": "Edit autoclose related settings",
+	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
+	"commands.claim.no_permission": "Only staff members can claim tickets",
+	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
+	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
+	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
+	"close.reason_too_long": "The reason cannot be longer than 255 characters",
+	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
+	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
+	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
+	"commands.close_request.denied": "<@%d> denied the close request",
+	"generic.error": "Error",
+	"feedback.disabled": "This server has feedback disabled",
+	"feedback.success": "Your feedback has been recorded",
+	"generic.success": "Success",
+	"button.guild_only": "This button must be used in a server",
+	"button.dms_only": "This button must be used in direct messages",
+	"commands.tag.generic": "Tag",
+	"commands.tags.delete.success": "Tag `%s` has been deleted",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Premium Only Command",
+	"generic.admin": "Admin",
+	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
+	"generic.title.about": "About",
+	"generic.title.vote": "Vote",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autoclose",
+	"generic.title.invite": "Invite",
+	"generic.title.close": "Close",
+	"generic.title.claim": "Claim",
+	"generic.title.blacklisted": "Blacklisted",
+	"generic.title.blacklist": "Blacklist",
+	"generic.error.blacklisted": "You are blacklisted in this server",
+	"commands.blacklist.add.success": "<@%d> has been blacklisted",
+	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
+	"generic.title.add_admin": "Add Admin",
+	"generic.title.add_support": "Add Support",
+	"generic.title.remove_admin": "Remove Admin",
+	"generic.title.remove_support": "Remove Support",
+	"commands.addsupport.success": "Support representative added successfully",
+	"generic.title.language": "Language",
+	"commands.removesupport.success": "Support representative removed successfully",
+	"commands.addadmin.success": "Admin added successfully",
+	"commands.removeadmin.success": "Admin removed successfully",
+	"generic.title.setup": "Setup",
+	"generic.title.premium": "Premium",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Rename",
+	"generic.title.remove": "Remove",
+	"generic.title.help": "Help",
+	"generic.title.close_confirmation": "Close Confirmation",
+	"close.confirmation": "Please confirm that you want to close this ticket",
+	"generic.title.close_request": "Close Request",
+	"commands.close_request.accept": "Accept & Close",
+	"commands.close_request.deny": "Deny & Keep Open",
+	"commands.premium.success": "Premium has been activated for **%d** days",
+	"generic.title.claimed": "Claimed Ticket",
+	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.add": "Add",
+	"commands.add.success": "<@%d> has been added to <#%d>",
+	"commands.remove.success": "<@%d> has been removed from <#%d>",
+	"open.ratelimited": "Tickets are being opened too quickly in this server",
+	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
+	"generic.join_support_server": "Join Support Server",
+	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
+	"commands.open.missing_form_answer": "You must answer the question `%s`",
+	"close.no_permission": "You are not permitted to close this ticket",
 	"": {
-		"generic.title.close_with_reason": "사유와 함께 종료",
-		"generic.reason": "사유"
+		"generic.title.close_with_reason": "Close With Reason",
+		"generic.reason": "Reason"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "티켓을 닫는 이유(예: \"해결됨\")"
+			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
 		},
-		"success": "<@%d>님이 티켓을 닫으셨어요.",
+		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "%s의 지원 담당자이기 때문에 이 티켓을 평가할 수 없습니다",
-				"empty": "아무 메시지도 보내지 않았기 때문에 이 티켓을 평가할 수 없습니다"
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": "이 서버에서 `/open` 명령을 사용할 수 없습니다. 티켓 패널을 사용하여 티켓을 여세요.",
+			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
-				"cant_see_parent_channel": "티켓에 <@%d>을(를) 추가할 수 없어요. 스레드의 상위 채널(<#%d>)를 볼 수 있는 권한이 있는지 확인해주세요.",
-				"cant_message_in_threads": "티켓을 열기에 필요한, `스레드에서 메시지 보내기` 권한이 없습니다. 서버 관리자에게 권한을 부여하라고 요청해 주세요. 그리고 다시 시도하세요."
+				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "잘못된 패널: 드롭다운에서 하나를 선택해야 합니다.",
-			"success": "이 티켓은 `@%d`에 의해 `%s` 패널로 전환되었습니다."
+			"invalid_panel": "Invalid panel: You must select one from the dropdown",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		},
 		"blacklist": {
-			"staff": "스태프를 블랙리스트에 올릴 수 없습니다.",
+			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
-				"success": "<@&%d>가 블랙리스트에 추가되었습니다.",
-				"limit": "역할 블랙리스트 개수 제한에 도달했어요 (%d)"
+				"success": "<@&%d> has been blacklisted",
+				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
-				"limit": "사용자 블랙리스트 개수 제한에 도달했어요 (%d): 역할을 대신 사용해 보세요"
+				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "이 티켓에는 환영 메시지가 없습니다.",
-			"content": "티켓 맨 위로 이동하려면 아래 버튼을 클릭하십시오."
+			"no_welcome_message": "This ticket does not have a welcome message",
+			"content": "Click the button below to jump to the top of the ticket"
 		},
 		"addsupport": {
-			"confirm": "기본 지원 담당자 팀에 %s을(를) 추가할지 확인하세요.",
-			"everyone": "`@everyone` 역할을 관리자로 추가할 수 없어요"
+			"confirm": "Please confirm that you want to add %s to the default support representative team",
+			"everyone": "You cannot add the `@everyone` role as staff"
 		},
 		"addadmin": {
-			"confirm": "%s을(를) 봇 관리자로 추가할지 확인하세요"
+			"confirm": "Please confirm that you want to add %s as a bot administrator"
 		},
 		"tags": {
 			"create": {
-				"limit": "태그 제한에 도달했어요 (%d)"
+				"limit": "You have reached the tag limit (%d)"
 			},
 			"get": {
-				"requires_premium": "사용자 지정 명령어를 사용하려면 프리미엄이 필요합니다(태그 별칭)"
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
-			"content": "사용 가능한 언어와 번역 진행도는 다음과 같아요. %s",
-			"success": "서버 언어가 **%s**으(로) 변경됐어요 (%s)",
-			"select": "언어를 선택하세요 (%c-%c)"
+			"content": "The available languages and their translation progress are as follows:\n%s",
+			"success": "The server language has been changed to **%s** (%s)",
+			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "'/on-call'은 스레드 모드에서만 사용할 수 있어요. 스레드에 대한 자세한 내용은 [문서](http://https://docs.ticketsbot.cloud/features/thread-mode) 를 참조해주세요.",
-			"success": "대기 중 상태입니다",
-			"remove_success": "대기 중 상태가 아닙니다"
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"success": "You are now on call",
+			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
-			"not_found": "티켓을 찾을 수 없습니다",
-			"no_permission": "티켓을 다시 열 권한이 없어요",
-			"already_open": "이 티켓은 이미 열렸어요.",
-			"not_thread": "스레드만 다시 열 수 있어요.",
-			"thread_deleted": "티켓이 영구적으로 삭제되었어요.",
-			"success": "티켓 %d가 다시 열렸어요: <#%d>",
-			"in_ticket": "<@%d>님이 이 티켓을 다시 열었습니다"
+			"not_found": "Ticket not found",
+			"no_permission": "You do not have permission to reopen this ticket",
+			"already_open": "This ticket is already open",
+			"not_thread": "Only threads can be reopened",
+			"thread_deleted": "The ticket has been permanently deleted",
+			"success": "Ticket %d reopened: <#%d>",
+			"in_ticket": "This ticket has been reopened by <@%d>"
 		},
 		"premium": {
-			"key": "키",
-			"check_again": "다시 확인하세요",
-			"subscription_found": "구독을 찾았습니다!",
-			"subscription_found_content": "이 서버에 구독을 적용하시려면, 서버 소유자(<@%d>)님이 당신을 </addadmin:%d> 명령어를 통해 어드민 **사용자**(역할은 무시됨)로 추가해야 합니다.\\n\\n</viewstaff:%d> 명령어로 어드민 사용자로 추가되었는지 확인할 수 있습니다.",
-			"activate_key": "프리미엄 키 활성화",
-			"checking": "프리미엄 상태 확인 중...",
-			"please_wait": "잠시 기다려 주세요...",
-			"success_after_check": "프리미엄이 이 서버에서 활성화되었습니다!",
-			"link_patreon_account": "Patreon 계정 연동",
-			"no_subscription": "Discord 계정과 연결된 활성 Patreon 구독을 찾지 못했습니다. [Patreon과 Discord 계정을 연동했는지](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) 다시 확인해 주세요. 그리고, 10분 정도를 기다려 주세요.",
-			"open_form": "양식 열기",
-			"open_form_description": "양식을 다시 열려면 아래 버튼을 누르세요",
-			"use_key_anyway": "그래도 프리미엄 키 사용하기",
-			"already_purchased_title": "이미 프리미엄을 구매하셨나요?",
-			"already_purchased_description": "이미 프리미엄을 구매하셨다면, 드롭다운에서 결제 수단을 선택해 시작해 보세요",
-			"giveaway_key": "나눔 키",
+			"key": "Key",
+			"check_again": "Check Again",
+			"subscription_found": "Subscription Found!",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
+			"activate_key": "Activate A Premium Key",
+			"checking": "Checking Premium Status...",
+			"please_wait": "Please wait...",
+			"success_after_check": "Premium is now active in this server!",
+			"link_patreon_account": "Link Patreon Account",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"open_form": "Open Form",
+			"open_form_description": "Press the button below to reopen the form",
+			"use_key_anyway": "Use Premium Key Anyway",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
 			"selector": {
-				"description": "어떤 방식으로 프리미엄을 획득할지 선택하세요",
+				"description": "Select which method you used to obtain premium",
 				"key": {
-					"description": "나눔 키를 받았다면 이 옵션을 선택하세요"
+					"description": "Select this option if you were given a giveaway key"
 				},
 				"patreon": {
-					"description": "Patreon에서 구매했다면 이 옵션을 선택하세요"
+					"description": "Select this option if you made your purchase on Patreon"
 				},
 				"discord": {
-					"description": "Discord 앱 내 스토어에서 구매했다면 이 옵션을 선택하세요"
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "프리미엄은 더 많은 패널, 통계, 사용자 지정 봇 등을 줍니다! 저희의 [웹 사이트](https://ticketsbot.cloud/premium)에 방문해 자세히 알아보세요.",
-			"already_activated": "좋은 소식입니다! 프리미엄이 이미 이 서버에서 활성화되었습니다.",
-			"already_activated_whitelabel": "좋은 소식입니다! 프리미엄이 이미 이 서버에서 활성화되었습니다.\n\n흰색 레이블 시작에 도움이 필요하시다면, [저희의 흰색 레이블 설정 가이드]\n(https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide)를 읽어보세요.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "프리미엄은 직접적으로 Discord 내에서 구매할 수 있습니다. 구독 관리 페이지를 열려면 이 아래 메시지의 버튼을 누르세요.\n\n구매가 완료되셨다면, 구독이 감지될 때까지 최대 5분 정도 기다려 주십시오."
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
 			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
 			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
-			"added_to_existing": "이미 존재하는 노트 스레드에 추가되었습니다: <#%d>",
-			"thread_name": "노트",
-			"created": "이 티켓용 노트 스레드가 생성되었습니다: <#%d>"
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Discord의 제한으로 인해, 티켓은 10분마다 이름을 변경할 수 있습니다"
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
-			"redeem_credits": "크레딧 교환",
-			"no_credits": "교환 실패: 투표 크레딧이 없습니다.",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
-					"plural": "투표 크레딧으로 프리미엄 **%d**일만큼 교환했습니다.",
-					"singular": "투표 크레딧으로 프리미엄 **%d**일만큼 교환했습니다."
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "투표 크레딧 **%d**개가 있습니다. 아래의 \"크레딧 교환\" 버튼을 눌러 이 서버에서 프리미엄 %d일만큼 교환하세요.",
-				"singular": "투표 크레딧 **%d**개가 있습니다. 아래의 \"크레딧 교환\" 버튼을 눌러 이 서버에서 프리미엄 %d일만큼 교환하세요."
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "티켓 패널 전환됨",
-			"jump_to_top": "위로 올라가기",
-			"reopened": "티켓이 다시 열림",
-			"ticket_closed": "티켓이 닫힘"
+			"panel_switched": "Ticket Panel Switched",
+			"jump_to_top": "Jump To Top",
+			"reopened": "Ticket Reopened",
+			"ticket_closed": "Ticket Closed"
 		},
-		"click_here": "여기를 클릭",
-		"confirm": "확인",
-		"website": "웹 사이트"
+		"click_here": "Click Here",
+		"confirm": "Confirm",
+		"website": "Our Website"
 	},
 	"help": {
-		"switch_panel": "티켓을 다른 티켓 패널로 전환하여 카테고리, 지원 팀 등을 변경합니다.",
-		"jump_to_top": "티켓 맨 위로 이동할 수 있는 버튼을 제공합니다.",
-		"on_call": "대기 중 상태로 표시합니다. 모든 신규 티켓에서 추가 및 핑될 수 있습니다",
-		"reopen": "이전에 닫힌 티켓을 다시 엽니다",
-		"notes": "지원 담당자 간의 비공개 논의용 스레드를 생성합니다"
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
+		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
+		"reopen": "Reopens a ticket that was previously closed",
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d>가 블랙리스트에서 삭제되었습니다."
+				"successcklisted": "<@&%d> has been unblacklisted"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "더 많은 것을 확인하고 싶으신가요? [문서](https://docs.ticketsbot.cloud)에서 봇의 모든것을 구성하는 방법을 알려드립니다!"
+			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
-			"no_notification_channel": "티켓 알림 채널을 제공해야 합니다",
-			"notification_channel_type": "티켓 알림 채널은 텍스트 채널이어야 합니다",
-			"success": "스레드 모드를 사용합니다",
-			"disabled": "스레드 모드를 사용하지 않습니다"
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "티켓이 이미 닫혔습니다",
-			"no_permission": "이 유형의 티켓을 볼 권한이 없습니다",
-			"already_joined": "이미 이 티켓에 참여했습니다(<#%d>)",
-			"success": "당신을 티켓에 추가했습니다: <#%d>"
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
+			"already_joined": "You have already joined this ticket (<#%d>)",
+			"success": "Added you to the ticket: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "스레드는 공지 채널에서 생성할 수 없습니다",
-		"panel_force_disabled": "패널이 사용 중지되었습니다. 서버 어드민에게 프리미엄을 다시 활성화해달라고 요청해 주세요. 그리고 이 패널을 다시 사용하려면 %s 명령어를 실행하세요",
-		"panel_disabled": "서버 어드민이 이 유형의 티켓을 열지 못하도록 했습니다",
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
-			"no_allow_rules": "모든 역할이 이 유형의 티켓에 접근하지 못하도록 했습니다",
-			"deny_listed": "<@&%d> 역할이 있기 때문에 이 유형의 티켓을 열 수 없습니다",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "이 유형의 티켓을 열려면 다음 중 하나의 역할이 필요합니다: %s",
-				"single": "이 유형의 티켓을 열려면 %s 역할이 필요해요."
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "노트 스레드는 채널 모드에서만 지원됩니다"
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }
