@@ -270,8 +270,8 @@
 			"discord": {
 				"no_subscription": "Το Premium μπορεί να αγοραστεί απευθείας στο Discord. Κάντε κλικ στο κουμπί κάτω από αυτό το μήνυμα για να ανοίξετε τη σελίδα διαχείρισης συνδρομής.\n\nΈνα αγορασμένο, αφήστε έως και 5 λεπτά για να εντοπιστεί η συνδρομή."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
 			"added_to_existing": "Έχετε προστεθεί στο υπάρχον νήμα σημειώσεων: <#%d>",
