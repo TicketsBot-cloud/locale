@@ -1,173 +1,173 @@
 {
-	"commands.about": "Tickets este un bot pentru tichete și suport, ușor de folosit și foarte ușor de configurat.\\nServerul pentru suport: https://discord.gg/ticketsbot\\nComenzi: Tastează `/help`\\nÎncepe prin a rula `/setup`",
-	"commands.add.no_members": "Trebuie să menționezi membri pentru a-i adăuga în tichet",
-	"commands.add.no_permission": "Nu ai permisiunea de a adăuga persoane în acest tichet",
-	"commands.addadmin.no_members": "Trebuie să menționezi un utilizator sau să numești un rol pentru a-i acorda privilegii de admin",
-	"commands.addadmin.owner": "Proprietarul serverului este deja un administrator",
-	"commands.addsupport.no_members": "Trebuie să menționezi un utilizator sau să numești un rol pentru a-i acorda privilegii de reprezentant de suport",
-	"commands.blacklist.no_members": "Trebuie să menționezi un utilizator pentru a-i comuta statutul de pe lista neagră",
-	"commands.blacklist.self": "Nu te poți pune pe tine pe lista neagră",
-	"commands.claim.success": "Tichetul tău va fi preluat de %s",
-	"commands.invite": "[Dă click aici](<https://invite.ticketsbot.cloud>)",
-	"commands.language.invalid": "Trebuie să specifici un cod de limbă sau un steag. Limbi disponibile:\\n%s",
-	"commands.open.ticket_limit": "Poți deschide doar %d %s deodată",
-	"commands.open.too_many_tickets": "Există prea multe tichete în categoria cu tichete. Cere-i unui admin să închidă unele, să le mute într-o altă categorie sau să configureze o categorie pentru excedent.\n\nAceasta este o limită impusă de **Discord** de 50 de canale pe categorie.",
-	"commands.panel": "Vizitează <https://dashboard.ticketsbot.cloud/manage/%d/panels> pentru a configura un panou",
-	"commands.premium": "Poți achiziționa un abonament premium de pe <https://www.patreon.com/ticketsbot-cloud>.\\nPremium oferă multe beneficii, cum ar fi:\\n```diff\\n+ Creează panouri nelimitate pentru tichete\\n+ Personalizează numele botului, avatarul și statusul (whitelabel)\\n+ Statistici detaliate despre server, utilizatori și stafful de suport\\n+ Fără branding în subsolul mesajelor\\n+ Sprijină dezvoltarea și ajută-mă să plătesc costurile serverului\\n```\\n\\nCa alternativă, poți vota la <https://vote.ticketsbot.cloud> pentru a obține premium gratuit timp de 24 de ore",
-	"commands.premium.invalid_key": "Cheie nevalidă. Asigură-te că ai copiat-o corect.",
-	"commands.remove.no_permission": "Nu ai permisiunea de a elimina persoane din acest tichet",
-	"commands.remove.staff": "Nu poți elimina stafful dintr-un tichet",
-	"commands.removeadmin.no_members": "Trebuie să menționezi un utilizator sau să numești un rol pentru a-i revoca privilegiile de admin",
-	"commands.removeadmin.owner": "Proprietarul serverului trebuie să fie un admin",
-	"commands.removeadmin.self": "Nu îți poți revoca propriile privilegii",
-	"commands.removesupport.no_members": "Trebuie să menționezi un utilizator sau să numești un rol pentru a-i acorda privilegii de reprezentant de suport",
-	"commands.rename.missing_name": "Trebuie să specifici un nou nume pentru acest tichet",
-	"commands.rename.success": "Acest tichet a fost redenumit în <#%d>",
-	"commands.tags.create.already_exists": "Un tag cu ID-ul `%s` există deja. Poți șterge tagul folosind `/tag delete %s`",
-	"commands.tags.create.invalid_arguments": "Trebuie să specifici un ID al tagului și conținutul",
-	"commands.tags.create.too_long": "ID-urile tagurilor nu pot fi mai lungi de 16 caractere",
-	"commands.tags.delete.invalid_arguments": "Trebuie să specifici un ID al unui tag pentru a-l șterge",
-	"commands.tags.delete.not_exist": "Un tag cu ID-ul `%s` nu a putut fi găsit",
-	"commands.tags.get.invalid_arguments": "Trebuie să furnizezi ID-ul tagului. Pentru mai mult ajutor privind tagurile, vizitează <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Tag nevalid. Pentru mai mult ajutor privind tagurile, vizitează <https://ticketsbot.cloud/tags>.",
-	"commands.tags.list": "ID-urile pentru toate tagurile: \\n%s\\nPentru a vedea conținutul unui tag, rulează `%stag <ID>`",
-	"commands.unclaim.not_claimed": "Acest tichet nu este revendicat",
-	"commands.unclaim.not_claimer": "Numai adminii și utilizatorul care a revendicat tichetul pot anula revendicarea tichetului",
-	"commands.unclaim.success": "Toți reprezentanții de suport pot răspunde acum la tichet",
-	"commands.vote": "Dă click aici pentru a vota pentru 24 de ore de premium gratuit:\\n<https://vote.ticketsbot.cloud>",
-	"generic.invalid_argument": "Argument nevalid: consultă utilizarea",
-	"generic.invalid_user": "Nu s-a putut găsi utilizatorul țintă",
-	"generic.no_permission": "Nu ai permisiunea pentru acest lucru",
-	"generic.not_ticket": "Acesta nu este un canal al unui tichet",
-	"generic.owner_only": "Această comandă este rezervată doar proprietarului botului",
-	"help.about": "Îți spune informații despre bot",
-	"help.add": "Adaugă un utilizator într-un tichet",
-	"help.addadmin": "Acordă unui utilizator sau unui rol privilegii de admin",
-	"help.addsupport": "Adaugă un utilizator sau un rol ca reprezentant de suport",
-	"help.admin": "Managementul botului",
-	"help.admin.blacklist": "Pune un server pe lista neagră pentru a-l împiedica să folosească botul",
-	"help.admin.check_premium": "Verifică statusul premium al unui server",
-	"help.admin.generate_premium": "Generează chei premium",
-	"help.admin.get_owner": "Obține proprietarul unui server",
-	"help.admin.unblacklist": "Elimină un server din lista neagră a serverelor",
-	"help.blacklist": "Comută dacă utilizatorilor li se permite să interacționeze cu botul",
-	"help.cancel": "Anulează procesul de configurare",
-	"help.claim": "Atribuie un singur membru din staff unui tichet",
-	"help.close": "Închide tichetul actual",
-	"help.help": "Îți afișează o listă de comenzi",
-	"help.invite": "Furnizează un link de invitație pentru bot",
-	"help.language": "Schimbă limba pe care o folosește botul",
-	"help.managetags": "Adaugă, șterge sau listează taguri",
-	"help.open": "Deschide un nou tichet",
-	"help.panel": "Creează un panou pentru a permite utilizatorilor să deschidă un tichet cu 1 click",
-	"help.premium": "Rulează această comandă după ce ai achiziționat premium pentru a-l activa",
-	"help.remove": "Elimină un utilizator dintr-un tichet",
-	"help.removeadmin": "Revocă privilegiile de admin ale unui utilizator sau ale unui rol",
-	"help.removesupport": "Revocă privilegiile de reprezentant de suport ale unui utilizator sau ale unui rol",
-	"help.rename": "Redenumește tichetul actual",
-	"help.setup": "Îți permite să configurezi cu ușurință botul",
-	"help.stats": "Îți afișează statistici despre utilizatori, stafful de suport și server",
-	"help.statsserver": "Îți afișează statistici despre server",
-	"help.tag": "Trimite un fragment de mesaje",
-	"help.tagdelete": "Șterge un tag",
-	"help.taggadd": "Adaugă un nou tag",
-	"help.taglist": "Listează toate tagurile",
-	"help.transfer": "Transferă un tichet revendicat unui alt utilizator",
-	"help.unclaim": "Elimină revendicarea de pe tichetul actual",
-	"help.viewstaff": "Listează membrii staffului și rolurile",
-	"help.vote": "Îți dă un link pentru a vota gratuit pentru premium gratuit",
-	"open.success": "A deschis un nou tichet: %s",
-	"setup.auto.category.failure": "Îmi lipsește permisiunea `Manage Channels`",
-	"setup.auto.category.success": "Categoria de tichete a fost creată",
-	"setup.auto.completed": "Configurare finalizată! Dă click [aici](https://dashboard.ticketsbot.cloud/manage/%d/panels) pentru a configura un panou de reacție și adaugă rolurile <@&%d> și <@&%d> membrilor staffului tău",
-	"setup.auto.roles.failure": "Îmi lipsește permisiunea `Manage Channels`",
-	"setup.auto.roles.success": "Rolurile `Tickets Admin` și `Tickets Support` au fost create",
-	"setup.auto.transcript.failure": "Îmi lipsește permisiunea `Manage Channels`",
-	"setup.auto.transcript.success": "Canalul <#%d> a fost creat",
-	"setup.ticket_limit.success": "Limita de tichete a fost actualizată la `%d`",
-	"setup.transcript.invalid": "Trebuie să menționezi un canal valid în server (de ex., <#%d>)\\n**Exemplu:** `/setup transcripts #logs`",
-	"setup.transcript.success": "Canalul transcripturilor a fost schimbat în <#%d>",
-	"commands.language.help_wanted": "Vorbești altă limbă? Alătură-te [serverului nostru de suport](https://discord.gg/ticketsbot) dacă ești interesat să ajuți la traducerea botului în mai multe limbi",
-	"commands.rename.too_long": "Numele canalelor nu pot fi mai lungi de 100 de caractere",
-	"commands.autoclose.configure": "Vizitează [tabloul de bord](https://dashboard.ticketsbot.cloud/manage/%d/settings) pentru a modifica setările de închidere automată",
-	"help.autoclose": "Comenzi aferente închiderii automate",
-	"help.autoclose.exclude": "Exclude tichetul actual de la a fi închis automat",
-	"help.autoclose.configure": "Editează setările aferente închiderii automate",
-	"commands.autoclose.exclude.success": "Acest tichet a fost exclus de la a fi închis automat",
-	"commands.claim.no_permission": "Doar membrii staffului pot revendica tichete",
-	"commands.open.from": "Acest tichet a fost deschis de la [acest mesaj](%s).\n\n<@%d> a spus în <#%d>:\n```%s```",
-	"commands.open.from.moved": "Conversația a fost mutată într-un tichet (<#%d>)",
-	"help.close_request": "Trimite un mesaj prin care i se cere utilizatorului să confirme că tichetul poate fi închis",
-	"close.reason_too_long": "Motivul nu poate fi mai lung de 255 de caractere",
-	"commands.close_request.no_reason": "<@%d> a cerut închiderea acestui tichet.\n\nTe rugăm să accepți sau să refuzi folosind butoanele de mai jos.",
-	"commands.close_request.with_reason": "<@%d> a cerut închiderea acestui tichet. Motivul:\n```\n%s\n```\nTe rugăm să accepți sau să refuzi folosind butoanele de mai jos.",
-	"commands.close_request.no_permission": "Numai utilizatorul care a deschis tichetul poate răspunde la cererea de închidere",
-	"commands.close_request.denied": "<@%d> a refuzat cererea de închidere",
-	"generic.error": "Eroare",
-	"feedback.disabled": "Acest server are feedbackul dezactivat",
-	"feedback.success": "Feedbackul tău a fost înregistrat",
-	"generic.success": "Succes",
-	"button.guild_only": "Acest buton trebuie folosit într-un server",
-	"button.dms_only": "Acest buton trebuie folosit în mesajele directe",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.add.no_members": "You need to mention members to add to the ticket",
+	"commands.add.no_permission": "You don't have permission to add people to this ticket",
+	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
+	"commands.addadmin.owner": "The server owner is already an administrator",
+	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
+	"commands.blacklist.self": "You cannot blacklist yourself",
+	"commands.claim.success": "Your ticket will be handled by %s",
+	"commands.invite": "[Click here](<https://invite.ticketsbot.cloud>)",
+	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
+	"commands.open.ticket_limit": "You are only able to open %d %s at once",
+	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.cloud> to get premium free for 24 hours",
+	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
+	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
+	"commands.remove.staff": "You cannot remove staff from a ticket",
+	"commands.removeadmin.no_members": "You need to mention a user or name a role to revoke admin privileges from",
+	"commands.removeadmin.owner": "The guild owner must be an admin",
+	"commands.removeadmin.self": "You cannot revoke your own privileges",
+	"commands.removesupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.rename.missing_name": "You need to specify a new name for this ticket",
+	"commands.rename.success": "This ticket has been renamed to <#%d>",
+	"commands.tags.create.already_exists": "A tag with the ID `%s` already exists. You can delete the tag using `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "You must specify a tag ID and contents",
+	"commands.tags.create.too_long": "Tag IDs cannot be longer than 16 characters",
+	"commands.tags.delete.invalid_arguments": "You must specify a tag ID to delete",
+	"commands.tags.delete.not_exist": "A tag with the ID `%s` could not be found",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
+	"commands.unclaim.not_claimed": "This ticket is not claimed",
+	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
+	"commands.unclaim.success": "All support representatives can now respond to the ticket",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"generic.invalid_argument": "Invalid argument: refer to usage",
+	"generic.invalid_user": "Couldn't find the target user",
+	"generic.no_permission": "You do not have permission for this",
+	"generic.not_ticket": "This is not a ticket channel",
+	"generic.owner_only": "This command is reserved for the bot owner only",
+	"help.about": "Tells you information about the bot",
+	"help.add": "Adds a user to a ticket",
+	"help.addadmin": "Grants a user or role admin privileges",
+	"help.addsupport": "Adds a user or role as a support representative",
+	"help.admin": "Bot management",
+	"help.admin.blacklist": "Blacklist a guild from using the bot",
+	"help.admin.check_premium": "Check the premium status of a server",
+	"help.admin.generate_premium": "Generate premium keys",
+	"help.admin.get_owner": "Gets the owner of a server",
+	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
+	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
+	"help.cancel": "Cancels the setup process",
+	"help.claim": "Assigns a single staff member to a ticket",
+	"help.close": "Closes the current ticket",
+	"help.help": "Shows you a list of commands",
+	"help.invite": "Provides an invite link for the bot",
+	"help.language": "Changes the language the bot uses",
+	"help.managetags": "Add, delete or list tags",
+	"help.open": "Opens a new ticket",
+	"help.panel": "Creates a panel to enable users to open a ticket with 1 click",
+	"help.premium": "Run this command after purchasing premium to activate it",
+	"help.remove": "Removes a user from a ticket",
+	"help.removeadmin": "Revokes a user's or role's admin privileges",
+	"help.removesupport": "Revokes a user's or role's support representative privileges",
+	"help.rename": "Renames the current ticket",
+	"help.setup": "Allows you to easily configure the bot",
+	"help.stats": "Shows you statistics about users, support staff and the server",
+	"help.statsserver": "Shows you statistics about the server",
+	"help.tag": "Sends a message snippet",
+	"help.tagdelete": "Deletes a tag",
+	"help.taggadd": "Adds a new tag",
+	"help.taglist": "Lists all tags",
+	"help.transfer": "Transfers a claimed ticket to another user",
+	"help.unclaim": "Removes the claim on the current ticket",
+	"help.viewstaff": "Lists the staff members and roles",
+	"help.vote": "Gives you a link to vote for free premium",
+	"open.success": "Opened a new ticket: %s",
+	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.category.success": "Created Tickets category",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
+	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
+	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.transcript.success": "Created <#%d> channel",
+	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
+	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
+	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
+	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"help.autoclose": "Autoclose related commands",
+	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
+	"help.autoclose.configure": "Edit autoclose related settings",
+	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
+	"commands.claim.no_permission": "Only staff members can claim tickets",
+	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
+	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
+	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
+	"close.reason_too_long": "The reason cannot be longer than 255 characters",
+	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
+	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
+	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
+	"commands.close_request.denied": "<@%d> denied the close request",
+	"generic.error": "Error",
+	"feedback.disabled": "This server has feedback disabled",
+	"feedback.success": "Your feedback has been recorded",
+	"generic.success": "Success",
+	"button.guild_only": "This button must be used in a server",
+	"button.dms_only": "This button must be used in direct messages",
 	"commands.tag.generic": "Tag",
-	"commands.tags.delete.success": "Tagul `%s` a fost șters",
-	"generic.ticket": "Tichet",
-	"generic.title.premium_only": "Comandă doar Premium",
+	"commands.tags.delete.success": "Tag `%s` has been deleted",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Premium Only Command",
 	"generic.admin": "Admin",
-	"commands.tags.create.success": "Tag creat - îl poți folosi rulând `/tag %s`",
-	"generic.title.about": "Despre",
-	"generic.title.vote": "Votează",
-	"generic.title.tags": "Taguri",
-	"generic.title.autoclose": "Închidere automată",
-	"generic.title.invite": "Invitație",
-	"generic.title.close": "Închide",
-	"generic.title.claim": "Revendică",
-	"generic.title.blacklisted": "Adăugat în lista neagră",
-	"generic.title.blacklist": "Listă neagră",
-	"generic.error.blacklisted": "Ești pe lista neagră pe acest server",
-	"commands.blacklist.add.success": "<@%d> a fost adăugat în lista neagră",
-	"commands.blacklist.remove.success": "<@%d> a fost scos de pe lista neagră",
-	"generic.title.add_admin": "Adaugă un admin",
-	"generic.title.add_support": "Adaugă un reprezentant de suport",
-	"generic.title.remove_admin": "Elimină un admin",
-	"generic.title.remove_support": "Elimină un reprezentant de suport",
-	"commands.addsupport.success": "Reprezentantul de suport a fost adăugat cu succes",
-	"generic.title.language": "Limbă",
-	"commands.removesupport.success": "Reprezentantul de suport a fost eliminat cu succes",
-	"commands.addadmin.success": "Adminul a fost adăugat cu succes",
-	"commands.removeadmin.success": "Adminul a fost eliminat cu succes",
-	"generic.title.setup": "Configurare",
+	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
+	"generic.title.about": "About",
+	"generic.title.vote": "Vote",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autoclose",
+	"generic.title.invite": "Invite",
+	"generic.title.close": "Close",
+	"generic.title.claim": "Claim",
+	"generic.title.blacklisted": "Blacklisted",
+	"generic.title.blacklist": "Blacklist",
+	"generic.error.blacklisted": "You are blacklisted in this server",
+	"commands.blacklist.add.success": "<@%d> has been blacklisted",
+	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
+	"generic.title.add_admin": "Add Admin",
+	"generic.title.add_support": "Add Support",
+	"generic.title.remove_admin": "Remove Admin",
+	"generic.title.remove_support": "Remove Support",
+	"commands.addsupport.success": "Support representative added successfully",
+	"generic.title.language": "Language",
+	"commands.removesupport.success": "Support representative removed successfully",
+	"commands.addadmin.success": "Admin added successfully",
+	"commands.removeadmin.success": "Admin removed successfully",
+	"generic.title.setup": "Setup",
 	"generic.title.premium": "Premium",
-	"generic.title.panel": "Panou",
-	"generic.title.rename": "Redenumește",
-	"generic.title.remove": "Elimină",
-	"generic.title.help": "Ajutor",
-	"generic.title.close_confirmation": "Confirmă închiderea",
-	"close.confirmation": "Te rugăm să confirmi că vrei să închizi acest tichet",
-	"generic.title.close_request": "Cerere de închidere",
-	"commands.close_request.accept": "Acceptă și închide",
-	"commands.close_request.deny": "Refuză și ține deschis",
-	"commands.premium.success": "Premium a fost activat pentru **%d** zile",
-	"generic.title.claimed": "Tichet revendicat",
-	"generic.title.unclaimed": "Tichet nerevendicat",
-	"generic.title.add": "Adaugă",
-	"commands.add.success": "<@%d> a fost adăugat în <#%d>",
-	"commands.remove.success": "<@%d> a fost eliminat din <#%d>",
-	"open.ratelimited": "Tichetele sunt deschise prea repede în acest server",
-	"commands.claim.thread": "Din cauza limitărilor Discord, nu este posibil să revendici threaduri",
-	"generic.join_support_server": "Alătură-te serverului de suport",
-	"commands.open.guild_channel_limit": "Acest server a atins limita Discord de 500 de canale",
-	"commands.open.missing_form_answer": "Trebuie să răspunzi la întrebarea `%s`",
-	"close.no_permission": "Nu îți este permis să închizi acest tichet",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Rename",
+	"generic.title.remove": "Remove",
+	"generic.title.help": "Help",
+	"generic.title.close_confirmation": "Close Confirmation",
+	"close.confirmation": "Please confirm that you want to close this ticket",
+	"generic.title.close_request": "Close Request",
+	"commands.close_request.accept": "Accept & Close",
+	"commands.close_request.deny": "Deny & Keep Open",
+	"commands.premium.success": "Premium has been activated for **%d** days",
+	"generic.title.claimed": "Claimed Ticket",
+	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.add": "Add",
+	"commands.add.success": "<@%d> has been added to <#%d>",
+	"commands.remove.success": "<@%d> has been removed from <#%d>",
+	"open.ratelimited": "Tickets are being opened too quickly in this server",
+	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
+	"generic.join_support_server": "Join Support Server",
+	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
+	"commands.open.missing_form_answer": "You must answer the question `%s`",
+	"close.no_permission": "You are not permitted to close this ticket",
 	"": {
-		"generic.title.close_with_reason": "Închide cu un motiv",
-		"generic.reason": "Motiv"
+		"generic.title.close_with_reason": "Close With Reason",
+		"generic.reason": "Reason"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Motivul închiderii tichetului, de ex., „Rezolvat”"
+			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
 		},
-		"success": "Tichetul a fost închis de <@%d>",
+		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
 				"staff": "You cannot rate this ticket because you are a support representative in %s",
@@ -177,96 +177,96 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Comanda `/open` este dezactivată în acest server: te rugăm să folosești un panou de tichete pentru a deschide un tichet",
+			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
-				"cant_see_parent_channel": "Nu s-a putut adăuga <@%d> în tichet: Asigură-te că au permisiunea de a vedea canalul părinte al threadului (<#%d>)",
+				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
 				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "Panou nevalid: Trebuie să selectezi unul din lista derulantă",
-			"success": "Acest tichet a fost comutat la panoul `%s` de <@%d>"
+			"invalid_panel": "Invalid panel: You must select one from the dropdown",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		},
 		"blacklist": {
-			"staff": "Membrii staffului nu pot fi adăugați în lista neagră",
+			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
-				"success": "<@&%d> a fost adăugat în lista neagră",
-				"limit": "Ai atins limita de roluri de pe lista neagră (%d)"
+				"success": "<@&%d> has been blacklisted",
+				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
-				"limit": "Ai atins limita de utilizatori de pe lista neagră (%d): ia în considerare folosirea unui rol în schimb"
+				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "Acest tichet nu are un mesaj de bun venit",
-			"content": "Dă click pe butonul de mai jos pentru a sări în partea de sus a tichetului"
+			"no_welcome_message": "This ticket does not have a welcome message",
+			"content": "Click the button below to jump to the top of the ticket"
 		},
 		"addsupport": {
-			"confirm": "Te rugăm să confirmi că vrei să adaugi pe %s în echipa implicită a reprezentaților de suport",
-			"everyone": "Nu poți adăuga rolul `@everyone` ca staff"
+			"confirm": "Please confirm that you want to add %s to the default support representative team",
+			"everyone": "You cannot add the `@everyone` role as staff"
 		},
 		"addadmin": {
-			"confirm": "Te rugăm să confirmi că vrei să adaugi pe %s ca administrator de bot"
+			"confirm": "Please confirm that you want to add %s as a bot administrator"
 		},
 		"tags": {
 			"create": {
-				"limit": "Ai atins limita de taguri (%d)"
+				"limit": "You have reached the tag limit (%d)"
 			},
 			"get": {
 				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
-			"content": "Limbile disponibile și progresul traducerii acestora sunt după cum urmează:\n%s",
-			"success": "Limba serverului a fost schimbată în **%s** (%s)",
-			"select": "Selectează o limbă (%c-%c)"
+			"content": "The available languages and their translation progress are as follows:\n%s",
+			"success": "The server language has been changed to **%s** (%s)",
+			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` poate fi folosit numai în modul thread. Vizitează-ne [documentația](https://docs.ticketsbot.cloud/features/thread-mode) pentru a afla mai multe despre threaduri",
-			"success": "Acum ești la datorie",
-			"remove_success": "Nu mai ești la datorie"
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"success": "You are now on call",
+			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
-			"not_found": "Tichetul nu a fost găsit",
-			"no_permission": "Nu ai permisiunea de a redeschide acest tichet",
-			"already_open": "Acest tichet este deja deschis",
-			"not_thread": "Doar threadurile pot fi redeschise",
-			"thread_deleted": "Tichetul a fost șters definitiv",
-			"success": "Tichetul %d a fost redeschis: <#%d>",
-			"in_ticket": "Acest tichet a fost redeschis de <@%d>"
+			"not_found": "Ticket not found",
+			"no_permission": "You do not have permission to reopen this ticket",
+			"already_open": "This ticket is already open",
+			"not_thread": "Only threads can be reopened",
+			"thread_deleted": "The ticket has been permanently deleted",
+			"success": "Ticket %d reopened: <#%d>",
+			"in_ticket": "This ticket has been reopened by <@%d>"
 		},
 		"premium": {
-			"key": "Cheie",
-			"check_again": "Verifică din nou",
-			"subscription_found": "Abonamentul a fost găsit!",
-			"subscription_found_content": "Pentru a-ți aplica abonamentul pe acest server, proprietarul serverului (<@%d>) trebuie să te adauge ca **utilizator** admin (rolurile sunt ignorate) prin intermediul comenzii </addadmin:%d>.\\n\\nPoți verifica dacă ai fost adăugat ca utilizator admin rulând </viewstaff:%d>.",
-			"activate_key": "Activează o cheie premium",
-			"checking": "Se verifică statusul premium...",
-			"please_wait": "Te rugăm să aștepți...",
-			"success_after_check": "Premium este acum activ în acest server!",
-			"link_patreon_account": "Leagă contul de Patreon",
-			"no_subscription": "Nu s-a putut găsi un abonament Patreon activ legat de contul tău de Discord. Asigură-te că [ți-ai legat conturile Patreon și Discord](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) și că ai așteptat încă 10 minute.",
-			"open_form": "Deschide formularul",
-			"open_form_description": "Apasă pe butonul de mai jos pentru a redeschide formularul",
-			"use_key_anyway": "Folosește cheia premium oricum",
-			"already_purchased_title": "Ai achiziționat deja premium?",
-			"already_purchased_description": "Dacă ai achiziționat deja premium, selectează metoda de plată din lista derulantă pentru a începe",
-			"giveaway_key": "Cheie la giveaway",
+			"key": "Key",
+			"check_again": "Check Again",
+			"subscription_found": "Subscription Found!",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
+			"activate_key": "Activate A Premium Key",
+			"checking": "Checking Premium Status...",
+			"please_wait": "Please wait...",
+			"success_after_check": "Premium is now active in this server!",
+			"link_patreon_account": "Link Patreon Account",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"open_form": "Open Form",
+			"open_form_description": "Press the button below to reopen the form",
+			"use_key_anyway": "Use Premium Key Anyway",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
 			"selector": {
-				"description": "Selectează metoda pe care ai folosit-o pentru a obține premium",
+				"description": "Select which method you used to obtain premium",
 				"key": {
-					"description": "Selectează această opțiune dacă ți s-a dat o cheie la un giveaway"
+					"description": "Select this option if you were given a giveaway key"
 				},
 				"patreon": {
-					"description": "Selectează această opțiune dacă ai făcut achiziția pe Patreon"
+					"description": "Select this option if you made your purchase on Patreon"
 				},
 				"discord": {
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium îți oferă acces la mai multe panouri, statistici, un bot personalizat și multe altele! Vizitează-ne [site-ul web](https://ticketsbot.cloud/premium) pentru a afla mai multe.",
-			"already_activated": "Vești bune! Premium este deja activ pe acest server.",
-			"already_activated_whitelabel": "Vești bune! Premium este deja activ pe acest server.\n\nPentru ajutor privind începerea folosirii whitelabelului, citește-ne [ghidul de configurare pentru whitelabel](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -274,12 +274,12 @@
 			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
-			"added_to_existing": "Ai fost adăugat într-un thread cu notițe existent: <#%d>",
-			"thread_name": "notițe",
-			"created": "A fost creat un thread cu notițe pentru acest tichet: <#%d>"
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Din cauza limitărilor impuse de Discord, tichetele pot fi redenumite doar de două ori la fiecare 10 minute"
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
 			"redeem_credits": "Redeem Credits",
@@ -298,64 +298,64 @@
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Panoul de tichete a fost comutat",
-			"jump_to_top": "Sari în partea de sus",
-			"reopened": "Tichet redeschis",
-			"ticket_closed": "Tichet închis"
+			"panel_switched": "Ticket Panel Switched",
+			"jump_to_top": "Jump To Top",
+			"reopened": "Ticket Reopened",
+			"ticket_closed": "Ticket Closed"
 		},
-		"click_here": "Click aici",
-		"confirm": "Confirmă",
-		"website": "Site-ul nostru web"
+		"click_here": "Click Here",
+		"confirm": "Confirm",
+		"website": "Our Website"
 	},
 	"help": {
-		"switch_panel": "Comută un tichet la un alt panou de tichete, schimbând categoria canalelor, echipele de suport, etc.",
-		"jump_to_top": "Îți furnizează un buton pentru a sări în partea de sus a tichetului",
-		"on_call": "Te marchează ca fiind la datorie, pentru a fi adăugat și a primi pinguri în toate tichetele noi",
-		"reopen": "Redeschide un tichet care a fost închis anterior",
-		"notes": "Creează un thread pentru discuții private între reprezentanții de suport"
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
+		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
+		"reopen": "Reopens a ticket that was previously closed",
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> a fost scos de pe lista neagră"
+				"successcklisted": "<@&%d> has been unblacklisted"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "Vrei să explorezi mai multe? [Documentația](https://docs.ticketsbot.cloud) noastră te va învăța cum să configurezi fiecare aspect al botului!"
+			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
-			"no_notification_channel": "Trebuie să furnizezi un canal de notificare a tichetelor",
-			"notification_channel_type": "Canalul de notificare a tichetelor trebuie să fie un canal text",
-			"success": "Modul thread a fost activat",
-			"disabled": "Modul thread a fost dezactivat"
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "Acest tichet a fost deja închis",
-			"no_permission": "Nu ai permisiunea de a vedea acest tip de tichet",
-			"already_joined": "Te-ai alăturat deja acestui tichet (<#%d>)",
-			"success": "Te-a adăugat în tichetul: <#%d>"
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
+			"already_joined": "You have already joined this ticket (<#%d>)",
+			"success": "Added you to the ticket: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Threadurile nu pot fi create în canalele de anunțuri",
-		"panel_force_disabled": "Acest panou a fost dezactivat. Te rugăm să ceri unui admin al serverului să reactiveze premium și să ruleze %s pentru a reactiva acest panou.",
-		"panel_disabled": "Adminii serverului au dezactivat deschiderea acestui tip de tichet",
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
-			"no_allow_rules": "Accesul la acest tip de tichet a fost dezactivat pentru toate rolurile",
-			"deny_listed": "Nu poți deschide acest tip de tichet deoarece ai rolul <@&%d>",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "Ai nevoie de unul dintre următoarele roluri pentru a deschide acest tip de tichet: %s",
-				"single": "Ai nevoie de următorul rol pentru a deschide acest tip de tichet: %s"
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Threadurile cu notițe sunt suportate numai în modul canal"
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }
