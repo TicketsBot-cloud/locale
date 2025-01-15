@@ -1,173 +1,173 @@
 {
-	"commands.about": "Tickets là một botdễ dùng và có thể thiết lập theo ý của bạn.\\nNhóm hỗ trợ: https://discord.gg/ticketsbot\\nLệnh: Gõ `/help`\\nBắt đầu bằng lệnh `/setup`\\n",
-	"commands.add.no_members": "Bạn cần nhắc đến các thành viên mà bạn muốn thêm vào phiếu hỗ trợ",
-	"commands.add.no_permission": "Bạn không có quyền thêm người khác vào phiếu hỗ trợ này",
-	"commands.addadmin.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để trao quyền quản trị viên",
-	"commands.addadmin.owner": "Chủ của kênh đã là quản trị viên theo mặc định",
-	"commands.addsupport.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để trao quyền đại diện hỗ trợ viên",
-	"commands.blacklist.no_members": "Bạn cần nhắc đến một thành viên để chuyển đổi trạng thái chặn",
-	"commands.blacklist.self": "Bạn không thể chặn chính mình",
-	"commands.claim.success": "%s sẽ xử lý phiếu hỗ trợ của bạn",
-	"commands.invite": "[Ấn vào đây](<https://invite.ticketsbot.cloud>)",
-	"commands.language.invalid": "Bạn cần ghi rõ mã của ngôn ngữ hoặc cờ hiệu. Các ngôn ngữ đang khả dụng:\\n%s",
-	"commands.open.ticket_limit": "Bạn chỉ có thể mở %d %s một lúc",
-	"commands.open.too_many_tickets": "Hiện có quá nhiều phiếu hỗ trợ đang được mở. Hãy nhờ quản trị viên đóng bớt chúng hoặc di chuyển chúng qua mục khác",
-	"commands.panel": "Hãy truy cập <https://dashboard.ticketsbot.cloud/manage/%d/panels> để cài đặt với giao diện trực quan",
-	"commands.premium": "Bạn có thể mua phiên bản cao cấp tại <https://www.patreon.com/ticketsbot-cloud>.\\nPhiên bản trả phí mang lại nhiều quyền lợi như:\\n```diff\\n+ Tạo bảng phiếu hỗ trợ không giới hạn\\n+ Thay đổi tên, ảnh đjai diện & trạng thái (nhãn trằng)\\n+ Thông tin chi tiết về hội, thành viên và hỗ trợ viên\\n+ Không có quản cáo thương hiệu ở cuối tin nhắn\\n+ Giúp đỡ đội ngũ phát triển và giúp mình trả phí người máy\\n```\\n\\nNgoài ra, bạn có thể đánh giá tại <https://vote.ticketsbot.cloud> để nhận phiên bản cao cấp miễn phí trong vòng 24 giờ",
-	"commands.premium.invalid_key": "Mã kích hoạt sai. Hãy kiểm tra xem bạn có chép nó đúng không.",
-	"commands.remove.no_permission": "Bạn không có quyền để loại bỏ người khác khỏi phiếu hỗ trợ này",
-	"commands.remove.staff": "Bạn không thể gỡ các quản lý khỏi phiếu hỗ trợ này",
-	"commands.removeadmin.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để gỡ bỏ quyền quản trị viên",
-	"commands.removeadmin.owner": "Chủ của hội luôn luôn là quản trị viên",
-	"commands.removeadmin.self": "Bạn không thể gỡ quyền của bản thân",
-	"commands.removesupport.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để gỡ quyền đại diện hỗ trợ viên",
-	"commands.rename.missing_name": "Bạn cần ghi rõ tên mới cho phiếu hỗ trợ này",
-	"commands.rename.success": "Phiếu hỗ trợ này đã được đổi tên thành <#%d>",
-	"commands.tags.create.already_exists": "Thẻ tên với ID `%s` đã được sử dụng. Có thể xóa thẻ tên đó bằng lệnh `/tag delete %s`",
-	"commands.tags.create.invalid_arguments": "Bạn phải chỉ rõ ID của thẻ và nội dung trong đó",
-	"commands.tags.create.too_long": "ID của thẻ không thể dài hơn 16 ký tự",
-	"commands.tags.delete.invalid_arguments": "Phải chỉ rõ ID của thẻ để xóa",
-	"commands.tags.delete.not_exist": "Không tìm thấy thẻ tên có ID `%s`",
-	"commands.tags.get.invalid_arguments": "Bạn phải cung cấp ID của thẻ. Để hiểu hơn về thẻ, hãy đọc <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Thẻ tên không hợp lệ. Xem chi tiết về thẻ tên tại <https://ticketsbot.cloud/tags>.",
-	"commands.tags.list": "ID của các thẻ: \\n%s\\nĐể thấy được nội dung của một thẻ, dùng lệnh `%stag <ID>`",
-	"commands.unclaim.not_claimed": "Phiếu hỗ trợ này chưa được nhận",
-	"commands.unclaim.not_claimer": "Chỉ quản trị viên vào người nhận phiếu hỗ trợ mới có thể hủy nhận phiếu hỗ trợ",
-	"commands.unclaim.success": "Tất cả các đại diện hỗ trợ giờ có thể trả lời phiếu hỗ trợ",
-	"commands.vote": "Nhấn vào đây để đánh giá và nhận 24 giờ của phiên bản cao cấp miễn phí:\\n<https://vote.ticketsbot.cloud>",
-	"generic.invalid_argument": "Lựa chọn không hợp lệ: đọc lại hướng dẫn",
-	"generic.invalid_user": "Không thể tìm ra người này",
-	"generic.no_permission": "Bạn không có quyền làm chuyện này",
-	"generic.not_ticket": "Đây không phải là một phiếu hỗ trợ",
-	"generic.owner_only": "Lệnh này chỉ dành cho người sáng tạo ra người máy",
-	"help.about": "Nêu thông tin về người máy",
-	"help.add": "Thêm một người vào phiếu hỗ trợ",
-	"help.addadmin": "Cho một người hoặc vai trò quyền quản trị viên",
-	"help.addsupport": "Thêm một người hoặc một vai trò vào đại diện hỗ trợ viên",
-	"help.admin": "Quản lý người máy",
-	"help.admin.blacklist": "Chặn một hội khỏi việc dùng người máy",
-	"help.admin.check_premium": "Kiểm tra trạng thái phiên bản cao cấp của một hội",
-	"help.admin.generate_premium": "Tạo các mã của bản cao cấp",
-	"help.admin.get_owner": "Lấy thông tin về chủ của một hội",
-	"help.admin.unblacklist": "Gỡ một hội ra khỏi danh sách chặn hội bị chặn",
-	"help.blacklist": "Chuyển đổi để cho phép các thành viên có thể tương tác với người máy hay không",
-	"help.cancel": "Hủy quy trình cài đặt",
-	"help.claim": "Chỉ định một thành viên quản lý vào một phiếu hỗ trợ",
-	"help.close": "Đóng phiếu hỗ trợ này",
-	"help.help": "Hiển thị danh sách lệnh",
-	"help.invite": "Cung cấp đường dẫn để mời người máy",
-	"help.language": "Thay đổi ngôn ngữ mà người máy dùng",
-	"help.managetags": "Thêm, xóa hoặc xem các thẻ tên",
-	"help.open": "Mở một phiếu hỗ trợ mới",
-	"help.panel": "Tạo một bảng để cho thành viên tạo phiếu hỗ trợ chỉ với một nút nhấn",
-	"help.premium": "Sử dụng lệnh này sau khi mua bản cao cấp để kích hoạt",
-	"help.remove": "Gỡ một người khỏi một phiếu hỗ trợ",
-	"help.removeadmin": "Thu lại quyền quản trị viên của một người hoặc vai trò",
-	"help.removesupport": "Thu lại quyền đại diện hỗ trợ viên từ một người hoặc vai trò",
-	"help.rename": "Đổi tên phiếu hỗ trợ này",
-	"help.setup": "Giúp bạn dễ dàng cài đặt người máy",
-	"help.stats": "Hiện thị các chỉ số về thành viên, các quản lý và hội",
-	"help.statsserver": "Hiển thị thông tin số liệu về hội",
-	"help.tag": "Gửi một đoạn trích tin nhắn có sẵn",
-	"help.tagdelete": "Xóa một thẻ tên",
-	"help.taggadd": "Thêm một thẻ mới",
-	"help.taglist": "Danh sách tất cả các thẻ",
-	"help.transfer": "Chuyển phiếu hỗ trợ đã được nhận tới một thành viên khác",
-	"help.unclaim": "Gỡ nhặn trong phiếu hỗ trợ hiện tại",
-	"help.viewstaff": "Danh sách các thành viên quản lý và các vai trò",
-	"help.vote": "Gửi cho bạn một đường dẫn để đánh giá và nhận phiên bản cao cấp miễn phí",
-	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
-	"setup.auto.category.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
-	"setup.auto.category.success": "Tạo một mục kênh cho các phiếu hỗ trợ",
-	"setup.auto.completed": "Đã thiết lập thành công! Nhấn vào [đây](https://panel.ticketsbot.cloud/manage/%d/panels) để thiết lập một bảng reaction, và thêm <@&%d> và <@&%d> là vai trò cho các thành viên quản lý",
-	"setup.auto.roles.failure": "Tôi đang thiếu quyền `Quản lý vai trò`",
-	"setup.auto.roles.success": "Đã tạo vai trò `Tickets Admin` & `Tickets Support`",
-	"setup.auto.transcript.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
-	"setup.auto.transcript.success": "Đã tạo kênh <#%d>",
-	"setup.ticket_limit.success": "Giới hạn phiếu hỗ trợ đã được thay đổi thành `%d`",
-	"setup.transcript.invalid": "Bạn phải nhắc đến một kênh hợp lệ bên trong hội (e.g. <#%d>)\\n**Ví dụ:** `/setup transcripts #logs`",
-	"setup.transcript.success": "Kênh lưu các bản chép lại đã được thay đổi thành <#%d>",
-	"commands.language.help_wanted": "Bạn dùng ngôn ngữ khác? Tham gia [hội hỗ trợ](https://discord.gg/ticketsbot) nếu bạn muốn giúp phiên dịch thêm ngôn ngữ cho người máy",
-	"commands.rename.too_long": "Tên của kênh không thể dài hơn 100 ký tự",
-	"commands.autoclose.configure": "Hãy xem [dashboard](https://panel.ticketsbot.cloud/manage/%d/settings) để thay đổi các cài đặt về tự động đóng",
-	"help.autoclose": "Tự động đóng các lệnh liên quan",
-	"help.autoclose.exclude": "Thêm ngoại lệ cho phiếu hỗ trợ không tự động đóng",
-	"help.autoclose.configure": "Chỉnh sửa các cài đặt liên quan đến tự động đóng",
-	"commands.autoclose.exclude.success": "Phiếu hỗ trợ này đã được ngoại lệ về tự động đóng",
-	"commands.claim.no_permission": "Chỉ các thành viên quản lý mới có thể nhận các phiếu hỗ trợ",
-	"commands.open.from": "Phiếu hỗ trợ này được mở từ [tin nhắn này](%s).\n\n<@%d> được nói tại <#%d>:\n```%s```",
-	"commands.open.from.moved": "Cuộc hội thoại đã được chuyển đến một phiếu hỗ trợ (<#%d>)",
-	"help.close_request": "Gửi một tin nhắn hỏi thành viên xác nhận có thể đóng phiếu hỗ trợ này",
-	"close.reason_too_long": "Lý do không được dài hơn 255 ký tự",
-	"commands.close_request.no_reason": "<@%d> đã yêu cầu đóng phiếu hỗ trợ này.\n\nHãy đồng ý hoặc từ chối với các nút bên dưới.",
-	"commands.close_request.with_reason": "<@%d> đã yêu cầu đóng phiếu hỗ trợ này. Lý do:\n```\n%s\n```\nHãy đồng ý hoặc từ chối với các nút bên dưới.",
-	"commands.close_request.no_permission": "Chỉ người mở phiếu hỗ trợ này mới có thể trả lời yêu cầu đóng phiếu hỗ trợ",
-	"commands.close_request.denied": "<@%d> đã từ chối yêu cầu đóng phiếu hỗ trợ",
-	"generic.error": "Lỗi",
-	"feedback.disabled": "Hội này đã tắt chức năng đánh giá",
-	"feedback.success": "Đánh giá bạn đã được ghi lại",
-	"generic.success": "Thành công",
-	"button.guild_only": "Nút này phải được dùng bên trong một hội",
-	"button.dms_only": "Nút này phải được dùng trong tin nhắn riêng trực tiếp",
-	"commands.tag.generic": "Thẻ tên",
-	"commands.tags.delete.success": "Thẻ tên `%s` đã được xóa đi",
-	"generic.ticket": "Phiếu hỗ trợ",
-	"generic.title.premium_only": "Lệnh chỉ dành cho phiên bản cao cấp",
-	"generic.admin": "Quản trị viên",
-	"commands.tags.create.success": "Thẻ đã được tạo - bạn có thể dùng nó với lệnh `/tag %s`",
-	"generic.title.about": "Thông tin",
-	"generic.title.vote": "Đánh giá",
-	"generic.title.tags": "Các thẻ tên",
-	"generic.title.autoclose": "Tự động đóng",
-	"generic.title.invite": "Mời",
-	"generic.title.close": "Đóng",
-	"generic.title.claim": "Nhận",
-	"generic.title.blacklisted": "Đã bị chặn",
-	"generic.title.blacklist": "Danh sách bị chặn",
-	"generic.error.blacklisted": "Bạn bị chặn trong hội này",
-	"commands.blacklist.add.success": "<@%d> đã bị chặn",
-	"commands.blacklist.remove.success": "<@%d> đã được gỡ chặn",
-	"generic.title.add_admin": "Thêm quản trị viên",
-	"generic.title.add_support": "Thêm hỗ trợ viên",
-	"generic.title.remove_admin": "Gỡ quản trị viên",
-	"generic.title.remove_support": "Gỡ hỗ trợ viên",
-	"commands.addsupport.success": "Đã thêm thành công đại diện hỗ trợ viên",
-	"generic.title.language": "Ngôn ngữ",
-	"commands.removesupport.success": "Đã gỡ thành công đại diện hỗ trợ viên",
-	"commands.addadmin.success": "Thêm quản trị viên thành công",
-	"commands.removeadmin.success": "Đã gỡ bỏ thành công quản trị viên",
-	"generic.title.setup": "Thiết lập",
-	"generic.title.premium": "Phiên bản cao cấp",
-	"generic.title.panel": "Bảng điều khiển",
-	"generic.title.rename": "Đổi tên",
-	"generic.title.remove": "Gỡ",
-	"generic.title.help": "Giúp đỡ",
-	"generic.title.close_confirmation": "Xác nhận đóng",
-	"close.confirmation": "Hãy xác nhận rằng bạn muốn đóng phiếu hỗ trợ này",
-	"generic.title.close_request": "Yêu cầu đóng",
-	"commands.close_request.accept": "Chấp nhận và đóng",
-	"commands.close_request.deny": "Từ chối và giữ trạng thái mở",
-	"commands.premium.success": "Phiên bản cao cấp đã được kích hoạt trong **%d** ngày",
-	"generic.title.claimed": "Đã nhận phiếu hỗ trợ",
-	"generic.title.unclaimed": "Đã hủy nhận phiếu hỗ trợ",
-	"generic.title.add": "Thêm",
-	"commands.add.success": "<@%d> đã được thêm vào <#%d>",
-	"commands.remove.success": "<@%d> đã được gỡ khỏi <#%d>",
-	"open.ratelimited": "Các phiếu hỗ trợ đang được mở quá nhanh trong hội này",
-	"commands.claim.thread": "Vì giới hạn của Discord, không thể nhận phiếu hỗ trợ bên trong các tin nhắn luồng con",
-	"generic.join_support_server": "Tham gia máy chủ hỗ trợ",
-	"commands.open.guild_channel_limit": "Server Discord này đã đạt giớ hạn 500 kênh",
-	"commands.open.missing_form_answer": "Bạn phải trả lời câu hỏi `%s`",
-	"close.no_permission": "Bạn không có quyền đóng phiếu hỗ trợ này",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.add.no_members": "You need to mention members to add to the ticket",
+	"commands.add.no_permission": "You don't have permission to add people to this ticket",
+	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
+	"commands.addadmin.owner": "The server owner is already an administrator",
+	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
+	"commands.blacklist.self": "You cannot blacklist yourself",
+	"commands.claim.success": "Your ticket will be handled by %s",
+	"commands.invite": "[Click here](<https://invite.ticketsbot.cloud>)",
+	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
+	"commands.open.ticket_limit": "You are only able to open %d %s at once",
+	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.cloud> to get premium free for 24 hours",
+	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
+	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
+	"commands.remove.staff": "You cannot remove staff from a ticket",
+	"commands.removeadmin.no_members": "You need to mention a user or name a role to revoke admin privileges from",
+	"commands.removeadmin.owner": "The guild owner must be an admin",
+	"commands.removeadmin.self": "You cannot revoke your own privileges",
+	"commands.removesupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.rename.missing_name": "You need to specify a new name for this ticket",
+	"commands.rename.success": "This ticket has been renamed to <#%d>",
+	"commands.tags.create.already_exists": "A tag with the ID `%s` already exists. You can delete the tag using `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "You must specify a tag ID and contents",
+	"commands.tags.create.too_long": "Tag IDs cannot be longer than 16 characters",
+	"commands.tags.delete.invalid_arguments": "You must specify a tag ID to delete",
+	"commands.tags.delete.not_exist": "A tag with the ID `%s` could not be found",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
+	"commands.unclaim.not_claimed": "This ticket is not claimed",
+	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
+	"commands.unclaim.success": "All support representatives can now respond to the ticket",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"generic.invalid_argument": "Invalid argument: refer to usage",
+	"generic.invalid_user": "Couldn't find the target user",
+	"generic.no_permission": "You do not have permission for this",
+	"generic.not_ticket": "This is not a ticket channel",
+	"generic.owner_only": "This command is reserved for the bot owner only",
+	"help.about": "Tells you information about the bot",
+	"help.add": "Adds a user to a ticket",
+	"help.addadmin": "Grants a user or role admin privileges",
+	"help.addsupport": "Adds a user or role as a support representative",
+	"help.admin": "Bot management",
+	"help.admin.blacklist": "Blacklist a guild from using the bot",
+	"help.admin.check_premium": "Check the premium status of a server",
+	"help.admin.generate_premium": "Generate premium keys",
+	"help.admin.get_owner": "Gets the owner of a server",
+	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
+	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
+	"help.cancel": "Cancels the setup process",
+	"help.claim": "Assigns a single staff member to a ticket",
+	"help.close": "Closes the current ticket",
+	"help.help": "Shows you a list of commands",
+	"help.invite": "Provides an invite link for the bot",
+	"help.language": "Changes the language the bot uses",
+	"help.managetags": "Add, delete or list tags",
+	"help.open": "Opens a new ticket",
+	"help.panel": "Creates a panel to enable users to open a ticket with 1 click",
+	"help.premium": "Run this command after purchasing premium to activate it",
+	"help.remove": "Removes a user from a ticket",
+	"help.removeadmin": "Revokes a user's or role's admin privileges",
+	"help.removesupport": "Revokes a user's or role's support representative privileges",
+	"help.rename": "Renames the current ticket",
+	"help.setup": "Allows you to easily configure the bot",
+	"help.stats": "Shows you statistics about users, support staff and the server",
+	"help.statsserver": "Shows you statistics about the server",
+	"help.tag": "Sends a message snippet",
+	"help.tagdelete": "Deletes a tag",
+	"help.taggadd": "Adds a new tag",
+	"help.taglist": "Lists all tags",
+	"help.transfer": "Transfers a claimed ticket to another user",
+	"help.unclaim": "Removes the claim on the current ticket",
+	"help.viewstaff": "Lists the staff members and roles",
+	"help.vote": "Gives you a link to vote for free premium",
+	"open.success": "Opened a new ticket: %s",
+	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.category.success": "Created Tickets category",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
+	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
+	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.transcript.success": "Created <#%d> channel",
+	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
+	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
+	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
+	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"help.autoclose": "Autoclose related commands",
+	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
+	"help.autoclose.configure": "Edit autoclose related settings",
+	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
+	"commands.claim.no_permission": "Only staff members can claim tickets",
+	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
+	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
+	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
+	"close.reason_too_long": "The reason cannot be longer than 255 characters",
+	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
+	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
+	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
+	"commands.close_request.denied": "<@%d> denied the close request",
+	"generic.error": "Error",
+	"feedback.disabled": "This server has feedback disabled",
+	"feedback.success": "Your feedback has been recorded",
+	"generic.success": "Success",
+	"button.guild_only": "This button must be used in a server",
+	"button.dms_only": "This button must be used in direct messages",
+	"commands.tag.generic": "Tag",
+	"commands.tags.delete.success": "Tag `%s` has been deleted",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Premium Only Command",
+	"generic.admin": "Admin",
+	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
+	"generic.title.about": "About",
+	"generic.title.vote": "Vote",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autoclose",
+	"generic.title.invite": "Invite",
+	"generic.title.close": "Close",
+	"generic.title.claim": "Claim",
+	"generic.title.blacklisted": "Blacklisted",
+	"generic.title.blacklist": "Blacklist",
+	"generic.error.blacklisted": "You are blacklisted in this server",
+	"commands.blacklist.add.success": "<@%d> has been blacklisted",
+	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
+	"generic.title.add_admin": "Add Admin",
+	"generic.title.add_support": "Add Support",
+	"generic.title.remove_admin": "Remove Admin",
+	"generic.title.remove_support": "Remove Support",
+	"commands.addsupport.success": "Support representative added successfully",
+	"generic.title.language": "Language",
+	"commands.removesupport.success": "Support representative removed successfully",
+	"commands.addadmin.success": "Admin added successfully",
+	"commands.removeadmin.success": "Admin removed successfully",
+	"generic.title.setup": "Setup",
+	"generic.title.premium": "Premium",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Rename",
+	"generic.title.remove": "Remove",
+	"generic.title.help": "Help",
+	"generic.title.close_confirmation": "Close Confirmation",
+	"close.confirmation": "Please confirm that you want to close this ticket",
+	"generic.title.close_request": "Close Request",
+	"commands.close_request.accept": "Accept & Close",
+	"commands.close_request.deny": "Deny & Keep Open",
+	"commands.premium.success": "Premium has been activated for **%d** days",
+	"generic.title.claimed": "Claimed Ticket",
+	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.add": "Add",
+	"commands.add.success": "<@%d> has been added to <#%d>",
+	"commands.remove.success": "<@%d> has been removed from <#%d>",
+	"open.ratelimited": "Tickets are being opened too quickly in this server",
+	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
+	"generic.join_support_server": "Join Support Server",
+	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
+	"commands.open.missing_form_answer": "You must answer the question `%s`",
+	"close.no_permission": "You are not permitted to close this ticket",
 	"": {
-		"generic.title.close_with_reason": "Đóng với lý do",
-		"generic.reason": "Lý do"
+		"generic.title.close_with_reason": "Close With Reason",
+		"generic.reason": "Reason"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Lý do đóng phiếu hỗ trợ, vd: \"Đã giải quyết xong\""
+			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
 		},
-		"success": "Phiếu hỗ trợ này đã được đóng bởi <@%d>",
+		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
 				"staff": "You cannot rate this ticket because you are a support representative in %s",
@@ -177,96 +177,96 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Lệnh '/open' đã bị tắt trong máy chủ này, hãy sử dụng bảng tạo phiếu hỗ trợ để mở",
+			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
-				"cant_see_parent_channel": "Không thể thêm <@%d> vào phiếu hỗ trợ: Hãy chắc chắn họ có quyền để xem kênh chứa chủ đề (<#%d>)",
+				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
 				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "Bảng không hợp lệ: Bạn cần chọn 1 từ mục dưới",
-			"success": "Phiếu hỗ trợ này đã được chuyển sang bảng \"%s' bởi <@%d>"
+			"invalid_panel": "Invalid panel: You must select one from the dropdown",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		},
 		"blacklist": {
-			"staff": "Quản lí không thể bị cho vào danh sách đen",
+			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
-				"success": "<@&%d> đã bị cho vào danh sách đen",
-				"limit": "Bạn đã sử dụng hết giới hạn của danh sách đen vai trò (%d)"
+				"success": "<@&%d> has been blacklisted",
+				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
-				"limit": "Bạn đã sử dụng hết %d giới hạn danh sách đen người dùng: hãy thử sử dụng vai trò để thay vào"
+				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "Phiếu hỗ trợ này không có tin nhắn chào mừng",
-			"content": "Bấm nút phía dưới để nhảy lên tin nhắn đầu tiên của phiếu hỗ trợ"
+			"no_welcome_message": "This ticket does not have a welcome message",
+			"content": "Click the button below to jump to the top of the ticket"
 		},
 		"addsupport": {
-			"confirm": "Hãy xác nhận rằng bạn muốn thêm %s vào nhóm hỗ trợ mặc định",
-			"everyone": "Bạn không thể thêm vai trò `@everyone` thành quản lí"
+			"confirm": "Please confirm that you want to add %s to the default support representative team",
+			"everyone": "You cannot add the `@everyone` role as staff"
 		},
 		"addadmin": {
-			"confirm": "Hãy xác minh rằng bạn muốn thêm %s thành quản lí của bot"
+			"confirm": "Please confirm that you want to add %s as a bot administrator"
 		},
 		"tags": {
 			"create": {
-				"limit": "Bạn đã sử dụng hết %d giới hạn gắn thẻ"
+				"limit": "You have reached the tag limit (%d)"
 			},
 			"get": {
 				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
-			"content": "Các ngôn ngữ khả dụng và tiến độ dịch thuật:\n%s",
-			"success": "Ngôn ngữ của máy chủ đã được đổi từ **%s** thành (%s)",
-			"select": "Chọn ngôn ngữ (%c-%c)"
+			"content": "The available languages and their translation progress are as follows:\n%s",
+			"success": "The server language has been changed to **%s** (%s)",
+			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` chỉ có thể sử dụng khi dùng chế độ chủ đề. Tham khảo [docs](https://docs.ticketsbot.cloud/features/thread-mode) để tìm hiểu thêm",
-			"success": "Bạn đã được gắn thẻ",
-			"remove_success": "Bạn đã được gỡ thẻ"
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"success": "You are now on call",
+			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
-			"not_found": "Không tìm thấy phiếu hỗ trợ",
-			"no_permission": "Bạn không có quyền để mở lại phiếu hỗ trợ",
-			"already_open": "Phiếu hỗ trợ này đã được mở rồi",
-			"not_thread": "Chỉ chủ đề mới có thể được mở lại",
-			"thread_deleted": "Phiếu hỗ trợ đã được xóa vĩnh viễn",
-			"success": "Phiếu hỗ trợ %d đã được mở lại: <#%d>",
-			"in_ticket": "Phiếu hỗ trợ này đã được mở lại bởi <@%d>"
+			"not_found": "Ticket not found",
+			"no_permission": "You do not have permission to reopen this ticket",
+			"already_open": "This ticket is already open",
+			"not_thread": "Only threads can be reopened",
+			"thread_deleted": "The ticket has been permanently deleted",
+			"success": "Ticket %d reopened: <#%d>",
+			"in_ticket": "This ticket has been reopened by <@%d>"
 		},
 		"premium": {
-			"key": "Mã kích hoạt",
-			"check_again": "Kiểm tra lại",
-			"subscription_found": "Đã tìm thấy gói đăng kí!",
-			"subscription_found_content": "Để có thể áp dụng gói đăng kí trên máy chủ này, chủ sở hữu máy chủ (<@%d>) cần thêm bạn vào **Quản lí** (vai trò sẽ bị bỏ qua) bằng lệnh </addadmin:%d>.\\n\\nBạn có thể kiểm tra bằng lệnh </viewstaff:%d>.",
-			"activate_key": "Kích hoạt mã cho bản cao cấp",
-			"checking": "Đang kiểm tra trạng thái nâng cấp...",
-			"please_wait": "Chờ chút...",
-			"success_after_check": "Phiên bản cao cấp đã được kích hoạt thành công trên máy chủ này!",
-			"link_patreon_account": "Liên kết tài khoản Patreon",
-			"no_subscription": "Không thể tìm thấy gói đăng kí Patreon được liên kết với tài khoản Discord. [Chắc chắn rằng bạn đã liên kết tài khoản Patreon với tài khoản Discord](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), và chờ khoảng 10 phút.",
-			"open_form": "Mở biểu mẫu",
-			"open_form_description": "Bấm nút phía dưới để mở lại biểu mẫu",
-			"use_key_anyway": "Dùng Mã kích hoạt để nâng cấp",
-			"already_purchased_title": "Đã sử dụng phiên bản nâng cấp rồi?",
-			"already_purchased_description": "Nếu bạn đã mua nâng cấp trước đó, hãy lựa chọn phương thức thanh toán trong mục bên dưới để bắt đầu",
-			"giveaway_key": "Giveaway Mã kích hoạt",
+			"key": "Key",
+			"check_again": "Check Again",
+			"subscription_found": "Subscription Found!",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
+			"activate_key": "Activate A Premium Key",
+			"checking": "Checking Premium Status...",
+			"please_wait": "Please wait...",
+			"success_after_check": "Premium is now active in this server!",
+			"link_patreon_account": "Link Patreon Account",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"open_form": "Open Form",
+			"open_form_description": "Press the button below to reopen the form",
+			"use_key_anyway": "Use Premium Key Anyway",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
 			"selector": {
-				"description": "Chọn phương thức mà bạn đã sử dụng để nhận nâng cấp",
+				"description": "Select which method you used to obtain premium",
 				"key": {
-					"description": "Chọn tuỳ chọn này nếu bạn nhận được Mã kích hoạt được giveaway"
+					"description": "Select this option if you were given a giveaway key"
 				},
 				"patreon": {
-					"description": "Chọn tuỳ chọn này nếu bạn đã thực hiện thanh toán qua Patreon"
+					"description": "Select this option if you made your purchase on Patreon"
 				},
 				"discord": {
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Nâng cấp cho bạn truy cập thêm bảng, số liệu, bot tuỳ chỉnh và nhiều hơn! Truy cập [website] (https://ticketsbot.cloud/premium) để tìm hiểu thêm.",
-			"already_activated": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.",
-			"already_activated_whitelabel": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.\n\nCần trợ giúp để bắt đầu sử dụng nhãn trắng? Đọc [hướng dẫn cài đặt](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -274,12 +274,12 @@
 			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
-			"added_to_existing": "Bạn đã được thêm vào chủ đề ghi chú có sẵn: <#%d>",
-			"thread_name": "ghi chú",
-			"created": "Một chủ đề ghi chú đã được tạo cho phiếu hỗ trợ này: <#%d>"
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Vì một số giới hạn của Discord, phiếu hỗ trợ chỉ có thể đổi tên 2 lần mỗi 10 phút"
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
 			"redeem_credits": "Redeem Credits",
@@ -298,64 +298,64 @@
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Đã đổi bảng",
-			"jump_to_top": "Nhảy lên tin nhắn đầu tiên",
-			"reopened": "Phiếu hỗ trợ đã được mở lại",
-			"ticket_closed": "Đã đóng phiếu hỗ trợ"
+			"panel_switched": "Ticket Panel Switched",
+			"jump_to_top": "Jump To Top",
+			"reopened": "Ticket Reopened",
+			"ticket_closed": "Ticket Closed"
 		},
-		"click_here": "Nhấn vào đây",
-		"confirm": "Xác nhận",
-		"website": "Website của chúng tôi"
+		"click_here": "Click Here",
+		"confirm": "Confirm",
+		"website": "Our Website"
 	},
 	"help": {
-		"switch_panel": "Chuyển phiếu hỗ trợ này sang bảng khác, đổi mục của kênh, nhóm hỗ trợ, v.v",
-		"jump_to_top": "Thêm nút để có thể nhảy lên tin nhắn đầu tiên của phiếu hỗ trợ",
-		"on_call": "Thêm bạn là đang sẵn sàng, được thêm và ping trong các phiếu hỗ trợ mới",
-		"reopen": "Mở lại phiếu hỗ trợ mà trước đó đã đóng",
-		"notes": "Tạo chủ đề để thảo luận riêng tư giữa các hỗ trợ viên"
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
+		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
+		"reopen": "Reopens a ticket that was previously closed",
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> đã được xoá khỏi danh sách đen"
+				"successcklisted": "<@&%d> has been unblacklisted"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "Bạn muốn khám phá thêm? [documentation](https://docs.ticketsbot.cloud) có thể giúp bạn tuỳ chỉnh các chức năng của bot!"
+			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
-			"no_notification_channel": "Bạn cần cung cấp kênh thông báo cho phiếu hỗ trợ",
-			"notification_channel_type": "Kênh thông báo cho phiếu hỗ trợ phải là kênh Text",
-			"success": "Chế độ chủ đề đã được bật",
-			"disabled": "Chế độ chủ đề đã bị tắt"
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "Phiếu hỗ trợ này đã được đóng",
-			"no_permission": "Bạn không được cấp quyền để xem loại phiếu hỗ trợ này",
-			"already_joined": "Bạn đã tham gia vào phiếu hỗ trợ này rồi (<#%d>)",
-			"success": "Đã thêm bạn vào phiếu hỗ trợ: <#%d>"
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
+			"already_joined": "You have already joined this ticket (<#%d>)",
+			"success": "Added you to the ticket: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Không thể tạo chủ đề trong kênh thông báo",
-		"panel_force_disabled": "Bảng này đã bị tắt. Hãy thử hỏi quản lí máy chủ kích hoạt lại bản cao cấp, và chạy lại lệnh %s để kích hoạt lại bảng này.",
-		"panel_disabled": "Admin máy chủ đã tắt việc mở loại phiếu hỗ trợ này",
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
-			"no_allow_rules": "Mở loại phiếu hỗ trợ này đã bị tắt cho tất cả các vai trò",
-			"deny_listed": "Bạn không thể mở loại phiếu hỗ trợ này vì bạn có vai trò <@&%d>",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "Bạn cần mỗi trong những vai trò sau để mở lại phiếu hỗ trợ này: %s",
-				"single": "Bạn cần những vai trò sau để mở lại phiếu hỗ trợ này: %s"
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Ghi chú bằng chủ đề chỉ được hỗ trợ khi dùng chế độ kênh"
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }
