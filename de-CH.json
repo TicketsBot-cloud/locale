@@ -1,0 +1,361 @@
+{
+	"commands.about": "Tickets isch en eifach z'bedienende Ticket- und Support-Bot mit sehr vil Konfigurationsmöglichkeite.\\nSupport Server: https://discord.gg/ticketsbot\\nBefehl: Schriib `/help`\\nFang aa, idem du `/setup` bruuchsch",
+	"commands.add.no_members": "Du muesch Benutzer erwähne, um sie zum Ticket hinzuezfüege",
+	"commands.add.no_permission": "Du hesch kei Berechtigung, um Benutzer zu dem Ticket hinzuezfüege",
+	"commands.addadmin.no_members": "Du muesch en Benutzer bzw. e Rolle erwähne, um ihne Administratorberechtigunge z'erteile",
+	"commands.addadmin.owner": "De Serverbsitzer isch scho en Administrator",
+	"commands.addsupport.no_members": "Du muesch Benutzer bzw. Rollene erwähne, um sie als Support-Mitarbeiter hinzuezfüege",
+	"commands.blacklist.no_members": "Du muesch en Benutzer erwähne, um ihn vo de Sperrliste z'lösche oder zu de Sperrliste hinzuezfüege",
+	"commands.blacklist.self": "Du chasch Dich nöd selber uf d'Sperrliste tue",
+	"commands.claim.success": "Dis Ticket wird vo %s bearbeitet",
+	"commands.invite": "[Da klicke](<https://invite.ticketsbot.cloud>)",
+	"commands.language.invalid": "Du muesch en Sprach-Code oder e Flagge aageh. Verfüegbari Sprache:\\n%s",
+	"commands.open.ticket_limit": "Du chasch nur %d %s uf eimal uufmache",
+	"commands.open.too_many_tickets": "Es sind z'vil TIckets i de Ticket-Kategorie. Frög en Administrator, es paar Tickets z'schlüsse, oder es paar Tickets in e anderi Kategorie z'verschiebe.\n\n50 Kanäl pro Kategorie isch es Limit, wo vo Discord erzwunge wird.",
+	"commands.panel": "Gahn uf <https://dashboard.ticketsbot.cloud/manage/%d/panels>, um en Panel z'konfiguriere",
+	"commands.premium": "Du chasch es Premium-Abo uf <https://www.patreon.com/ticketsbot-cloud> chaufe.\\nPremium git Dir vili Vorteil, da es paar Bispil:\\n```diff\\n+ Erstelle vo unlimitierte Ticket-Panels\\n+ Aapasse vom Bot-Name, Avatar und Status (Whitelabel)\\n+ Detaillierti Statistike über de Server, Benutzer und Support-Mitarbeiter\\n+ Kei branding am Endi vo Nachrichte\\n+ Unterstütze d'Entwicklig und hilf mir, d'Server-Chöste z'decke\\n```\\n\\nAls Alternative chasch Du uf <https://vote.ticketsbot.cloud> abstimme, um e begrenzti Version vo Premium für 24 Stund gratis z'übercho",
+	"commands.premium.invalid_key": "Ungültige Schlüssel. Lueg, dass Du de Schlüssel richtig kopiert hesch.",
+	"commands.remove.no_permission": "Du hesch kei Berechtigunge, um Benutzer vo dem Ticket z'entferne",
+	"commands.remove.staff": "Du chasch Support-Mitarbeiter nöd vomne Ticket entferne",
+	"commands.removeadmin.no_members": "Du muesch en Benutzer oder e Rolle erwähne, um d'Administratoreberechtigunge z'entferne",
+	"commands.removeadmin.owner": "De Server-Inhaber muess en Administrator si",
+	"commands.removeadmin.self": "Du chasch Dini eigene Berechtigunge nöd zruggzieh",
+	"commands.removesupport.no_members": "Du muesch en Benutzer oder e Rolle erwähne, um ihne Support-Berechtigunge z'erteile",
+	"commands.rename.missing_name": "Du muesch en neue Name für's Ticket iigeh",
+	"commands.rename.success": "S'Ticket isch in <#%d> umbenennt worde",
+	"commands.tags.create.already_exists": "En Tag mit de ID `%s` existiert scho. Du chasch de Tag lösche, idem Du `/tag delete %s` bruuchsch",
+	"commands.tags.create.invalid_arguments": "Du muesch e Tag-ID und en Inhalt iigeh",
+	"commands.tags.create.too_long": "Tag IDs chönd nöd länger als 16 Zeiche si",
+	"commands.tags.delete.invalid_arguments": "Du muesch e Tag-ID aageh, um de Tag z'lösche",
+	"commands.tags.delete.not_exist": "En Tag mit de ID `%s` het nöd chöne gfunde werde",
+	"commands.tags.get.invalid_arguments": "Du muesch d'ID vomne Tag aageh. Für wiiteri Hilf mit Tags lueg Dir <https://ticketsbot.cloud/tags> aa.",
+	"commands.tags.get.invalid_tag": "Ungültige Tag. Für wiiteri Hilf mit Tags lueg Dir <https://ticketsbot.cloud/tags> aa.",
+	"commands.tags.list": "IDs für all Tags: \\n%s\\nZum de Inhalt vomne Tag aazluege, bruuch `%stag <ID>`",
+	"commands.unclaim.not_claimed": "S'Ticket wird vo niemertem bearbeitet",
+	"commands.unclaim.not_claimer": "Nur Administratore und de Benutzer, wo s'Ticket bearbeitet, chönd s'Ticket freigeh",
+	"commands.unclaim.success": "Alli Support-Mitarbeiter chönd ab sofort uf s'Ticket antworte",
+	"commands.vote": "Druck uf de Chnopf une, um für de Bot abzstimme und 24 Stund lang gratis e begrenzti Version vo Premium z'übercho.\n\nWenn du abgstimmt hesch, füehr de %s Befehl nomal uus, um Dini Stimm-Guetschrift iizlöse.",
+	"generic.invalid_argument": "Ungültigs Argument: Lueg Dir d'Verwendig aa",
+	"generic.invalid_user": "De Benutzer cha nöd gfunde werde",
+	"generic.no_permission": "Du hesch nöd die nötige Berechtigunge, um Dir das aazluege",
+	"generic.not_ticket": "De Kanal isch kein Ticket-Kanal",
+	"generic.owner_only": "De Befehl isch reserviert für de Bot-Inhaber",
+	"help.about": "Zeigt Dir Informatione über de Bot aa",
+	"help.add": "Tuet en Benutzer zumne Ticket hinzue",
+	"help.addadmin": "Git eme Benutzer oder ere Rolle Administratoreberechtigunge",
+	"help.addsupport": "Tuet en Benutzer oder e Rolle als Support-Mitarbeiter hinzuefüege",
+	"help.admin": "Bot-Verwaltig",
+	"help.admin.blacklist": "Verhinderet d'Verwendig vom Bot für en Server",
+	"help.admin.check_premium": "Überprüef de Premium-Status vomne Server",
+	"help.admin.generate_premium": "Generier Premium-Schlüssel",
+	"help.admin.get_owner": "Zeigt de Bsitzer vomne Server aa",
+	"help.admin.unblacklist": "Entfern en Server vo de Sperrliste",
+	"help.blacklist": "Reglet, ob Benutzer dörfed mit em Bot interagiere",
+	"help.cancel": "Bricht de Iirichtigsprozess ab",
+	"help.claim": "Ordnet en Support-Mitarbeiter eme Ticket zue",
+	"help.close": "Schlüsst s'aktuelle Ticket",
+	"help.help": "Zeigt Dir e Liste vo allne Befehl aa",
+	"help.invite": "Stellt en Iiladigslink für de Bot parat",
+	"help.language": "Wechslet d'Sprach, wo de Bot bruucht",
+	"help.managetags": "Hinzuefüege, Lösche oder Aazeige vo Tags",
+	"help.open": "Macht es neus Ticket uuf",
+	"help.panel": "Erstellt en Panel, wo Benutzer mit eim Klick es neus Ticket uufmache chönd",
+	"help.premium": "Füehr de Befehl uus, nachdem Du Premium kauft hesch, um's z'aktiviere",
+	"help.remove": "Entfernt en Benutzer vomne Ticket",
+	"help.removeadmin": "Zieht d'Administratoreberechtigunge vomne Benutzer oder ere Rolle zrugg",
+	"help.removesupport": "Zieht d'Support-Berechtigunge vomne Benutzer oder ere Rolle zrugg",
+	"help.rename": "Tuet s'aktuelle Ticket umbenenne",
+	"help.setup": "Laht Dich de Bot ganz eifach konfiguriere",
+	"help.stats": "Zeigt Dir Statistike über Benutzer, Support-Mitarbeiter und de Server",
+	"help.statsserver": "Zeigt Dir Statistike über de Server",
+	"help.tag": "Schickt en Nachrichte-Uusschnitt",
+	"help.tagdelete": "Löscht en Tag",
+	"help.taggadd": "Tuet en neue Tag hinzuefüege",
+	"help.taglist": "Zeigt alli Tags aa",
+	"help.transfer": "Übertreit es Ticket zumne andere Benutzer",
+	"help.unclaim": "Entfernt de Aaspruch uf s'aktuelle Ticket",
+	"help.viewstaff": "Listet d'Support-Mitarbeiter und Rollene uuf",
+	"help.vote": "Zeigt Dir en Link zum abstimme für e gratis und begrenzti Version vo Premium",
+	"open.success": "Neus Ticket uufgmacht: %s",
+	"setup.auto.category.failure": "Ich bruuche d'`Kanäle verwalten` Berechtigung",
+	"setup.auto.category.success": "Ticket-Kategorie erstellt",
+	"setup.auto.completed": "Iirichtig abgschlosse! Klick [da](https://dashboard.ticketsbot.cloud/manage/%d/panels), um en Reaktions-Panel iizrichte und d'<@&%d> und <@&%d> Rollene zu Dine Mitarbeiter hinzuezfüege",
+	"setup.auto.roles.failure": "Ich bruuche d'`Rollen verwalten` Berechtigung",
+	"setup.auto.roles.success": "`Tickets Admin` & `Tickets Support` Rolle sind erstellt worde",
+	"setup.auto.transcript.failure": "Ich bruuche d'`Kanäle verwalten` Berechtigung",
+	"setup.auto.transcript.success": "<#%d> Kanal isch erstellt worde",
+	"setup.ticket_limit.success": "S'Ticket-Limit isch uf `%d` aktualisiert worde",
+	"setup.transcript.invalid": "Du muesch en gültige Kanal im Server erwähne (z.B. <#%d>)\\n**Bispil:** `/setup transcripts #logs`",
+	"setup.transcript.success": "De Transkript-Kanal isch uf <#%d> gänderet worde",
+	"commands.language.help_wanted": "Redsch Du e anderi Sprach? Chum doch zu eusem [Support-Server](https://discord.gg/ticketsbot), wenn Du dra interessiert bisch, de Bot i wiiteri Sprache z'übersetze",
+	"commands.rename.too_long": "De Name vom Kanal dörf nöd länger als 100 Zeiche si",
+	"commands.autoclose.configure": "Gahn uf s'[Dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings), um d'Iistellige für di automatischi Schlüssig z'ändere",
+	"help.autoclose": "Befehl bezüglich automatischi Schlüssig",
+	"help.autoclose.exclude": "Schlüsst s'aktuelle Ticket vom automatische Schlüsse uus",
+	"help.autoclose.configure": "Bearbeite vo de Iistellige für s'automatische Schlüsse",
+	"commands.autoclose.exclude.success": "S'Ticket isch vom automatische Schlüsse uusgschlosse worde",
+	"commands.claim.no_permission": "Nur Support-Mitarbeiter chönd Tickets beaspruche",
+	"commands.open.from": "S'Ticket isch uufgmacht worde vo [dere Nachricht](%s).\n\n<@%d> seit in <#%d>:\n```%s```",
+	"commands.open.from.moved": "D'Unterhaltig isch zumne Ticket verschobe worde (<#%d>)",
+	"help.close_request": "Schickt e Nachricht, wo de Benutzer betet wird, s'Ticket z'schlüsse",
+	"close.reason_too_long": "De Grund dörf nöd länger als 255 Zeiche si",
+	"commands.close_request.no_reason": "<@%d> het s'Schlüsse vom Ticket aagforderet.\n\nBitte akzeptier oder verweigere mit de untestehende Chnöpf.",
+	"commands.close_request.with_reason": "<@%d> het s'Schlüsse vom Ticket aagforderet. Grund:\n```\n%s\n```\nBitte akzeptier oder verweigere mit de untestehende Chnöpf.",
+	"commands.close_request.no_permission": "Nur de Benutzer, wo s'Ticket uufgmacht het, cha uf d'Schlüssigsaafrag antworte",
+	"commands.close_request.denied": "<@%d> het d'Schlüssigsaafrag abglehnt",
+	"generic.error": "Fehler",
+	"feedback.disabled": "De Server het Rückmeldige deaktiviert",
+	"feedback.success": "Dini Rückmeldig isch dokumentiert worde",
+	"generic.success": "Erfolg",
+	"button.guild_only": "De Chnopf muess imne Server bruucht werde",
+	"button.dms_only": "De Chnopf muess i de Direktnachrichte bruucht werde",
+	"commands.tag.generic": "Tag",
+	"commands.tags.delete.success": "Tag `%s` isch glöscht worde",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Premium Befehl",
+	"generic.admin": "Administrator",
+	"commands.tags.create.success": "Tag isch erstellt worde - Du chasch en verwende idem Du `/tag %s` bruuchsch",
+	"generic.title.about": "Über",
+	"generic.title.vote": "Abstimmig",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Automatischi Schlüssig",
+	"generic.title.invite": "Iiladig",
+	"generic.title.close": "Schlüsse",
+	"generic.title.claim": "Beaspruche",
+	"generic.title.blacklisted": "Gsperrt",
+	"generic.title.blacklist": "Sperrliste",
+	"generic.error.blacklisted": "Du bisch i dem Server gsperrt",
+	"commands.blacklist.add.success": "<@%d> isch gsperrt worde",
+	"commands.blacklist.remove.success": "<@%d> isch entsperrt worde",
+	"generic.title.add_admin": "Administrator hinzuefüege",
+	"generic.title.add_support": "Support hinzuefüege",
+	"generic.title.remove_admin": "Administrator entferne",
+	"generic.title.remove_support": "Support entferne",
+	"commands.addsupport.success": "Support-Vertreter isch erfolgriich hinzuegfüegt worde",
+	"generic.title.language": "Sprach",
+	"commands.removesupport.success": "Support-Vertreter isch erfolgriich entfernt worde",
+	"commands.addadmin.success": "Administrator erfolgriich hinzuegfüegt",
+	"commands.removeadmin.success": "Administrator erfolgriich entfernt",
+	"generic.title.setup": "Iirichtig",
+	"generic.title.premium": "Premium",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Umbenenne",
+	"generic.title.remove": "Entferne",
+	"generic.title.help": "Hilf",
+	"generic.title.close_confirmation": "Schlüss-Bestätigung",
+	"close.confirmation": "Bitte bestätige, dass Du s'Ticket schlüsse wetsch",
+	"generic.title.close_request": "Schlüss-Aafrag",
+	"commands.close_request.accept": "Akzeptiere & Schlüsse",
+	"commands.close_request.deny": "Ablehne & Offe Lah",
+	"commands.premium.success": "Premium isch aktiviert worde für **%d** Täg",
+	"generic.title.claimed": "Beaspruchts Ticket",
+	"generic.title.unclaimed": "Unbeaspruchts Ticket",
+	"generic.title.add": "Hinzuefüege",
+	"commands.add.success": "<@%d> isch zu <#%d> hinzuegfüegt worde",
+	"commands.remove.success": "<@%d> isch vo <#%d> entfernt worde",
+	"open.ratelimited": "Tickets werdet z'schnell i dem Server göffnet",
+	"commands.claim.thread": "Ufgrund vo Discord-Iischränkige unterstützt s'Beaspruche kei Threads",
+	"generic.join_support_server": "Tritt am Support-Server bi",
+	"commands.open.guild_channel_limit": "De Server het s'Limit vo Discord vo 500 Kanäl erreicht",
+	"commands.open.missing_form_answer": "Du muesch d'Frag `%s` beantworte",
+	"close.no_permission": "Du bisch nöd berechtigt, s'Ticket z'schlüsse",
+	"": {
+		"generic.title.close_with_reason": "Schlüsse mit Begründig",
+		"generic.reason": "Begründig"
+	},
+	"close": {
+		"reason": {
+			"placeholder": "Grund für s'Schlüsse vom Ticket, z.B. \"abgschlosse\""
+		},
+		"success": "S'Ticket isch vo <@%d> gschlosse worde",
+		"rate": {
+			"not_allowed": {
+				"staff": "Du chasch s'Ticket nöd bewerte, wil Du en Support-Mitarbeiter in %s bisch",
+				"empty": "Du chasch s'Ticket nöd bewerte, wil Du kei Nachrichte gschickt hesch"
+			}
+		}
+	},
+	"commands": {
+		"open": {
+			"disabled": "De `/open` Befehl isch uf dem Server deaktiviert: Bitte bruuch en Ticket-Panel, um es Ticket uufzmache",
+			"threads": {
+				"cant_see_parent_channel": "<@%d> het nöd chöne zum Ticket hinzuegfüegt werde: Stell sicher, dass de Benutzer Recht het, de Haupt-Kanal (<#%d>) vom Thread z'gseh",
+				"cant_message_in_threads": "Dir fehlt d'Berechtigung `Nachrichten in Threads senden`, wo benötigt wird, um es Ticket uufzmache. Bitte frög en Server-Administrator, wo Dir d'Berechtigung cha geh und versuechs nomal."
+			}
+		},
+		"switch_panel": {
+			"invalid_panel": "Ungültige Panel: Du muesch en Panel us em Dropdown-Menü uuswähle",
+			"success": "S'Ticket isch vo <@%d> zum `%s` Panel verschobe worde"
+		},
+		"blacklist": {
+			"staff": "Mitarbeiter chönd nöd gsperrt werde",
+			"add_role": {
+				"success": "<@&%d> isch gsperrt worde",
+				"limit": "Du hesch s'Limit für d'Aazahl Rollene i de Sperrliste erreicht (%d)"
+			},
+			"add": {
+				"limit": "Du hesch s'Benutzer-Limit für d'Sperrliste erreicht (%d): Überleg Dir stattdesse, e Rolle z'verwende"
+			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": "S'Ticket het kei Willkommensnachricht",
+			"content": "Druck uf de Chnopf une, um ufe z'gumpe"
+		},
+		"addsupport": {
+			"confirm": "Bitte bestätige, dass Du %s zum Standard Support-Team hinzuefüege möchtisch",
+			"everyone": "Du chasch d'`@everyone` Rolle nöd als Mitarbeiter hinzuefüege"
+		},
+		"addadmin": {
+			"confirm": "Bitte bestätige, dass Du %s als Bot-Administrator hinzuefüege möchtisch"
+		},
+		"tags": {
+			"create": {
+				"limit": "Du hesch s'Tag-Limit erreicht (%d)"
+			},
+			"get": {
+				"requires_premium": "Premium wird benötigt, um benutzerdefinierti Befehl z'nutze (Tag-Alias)"
+			}
+		},
+		"language": {
+			"content": "Die verfüegbare Sprache und dere Übersetzigsfortschritt sind wie folgt:\n%s",
+			"success": "D'Server-Sprach isch zu **%s** (%s) gänderet worde",
+			"select": "Wähl e Sprach (%c-%c)"
+		},
+		"on_call": {
+			"channel_mode": "`/on-call` cha nur im Thread-Modus verwendet werde. Lueg i eusi [Dokumentation](https://docs.ticketsbot.cloud/features/thread-mode), um meh über Threads z'erfahre",
+			"success": "Du bisch ab sofort verfüegbar",
+			"remove_success": "Du bisch ab sofort nüm verfüegbar"
+		},
+		"reopen": {
+			"not_found": "S'Ticket isch nöd gfunde worde",
+			"no_permission": "Du hesch kei Berechtigung s'Ticket nomal uufzmache",
+			"already_open": "S'Ticket isch scho offe",
+			"not_thread": "Es chönd nur Threads nomal uufgmacht werde",
+			"thread_deleted": "The ticket has been permanently deleted",
+			"success": "Ticket %d reopened: <#%d>",
+			"in_ticket": "This ticket has been reopened by <@%d>"
+		},
+		"premium": {
+			"key": "Key",
+			"check_again": "Check Again",
+			"subscription_found": "Subscription Found!",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
+			"activate_key": "Activate A Premium Key",
+			"checking": "Checking Premium Status...",
+			"please_wait": "Please wait...",
+			"success_after_check": "Premium is now active in this server!",
+			"link_patreon_account": "Link Patreon Account",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"open_form": "Open Form",
+			"open_form_description": "Press the button below to reopen the form",
+			"use_key_anyway": "Use Premium Key Anyway",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
+			"selector": {
+				"description": "Select which method you used to obtain premium",
+				"key": {
+					"description": "Select this option if you were given a giveaway key"
+				},
+				"patreon": {
+					"description": "Select this option if you made your purchase on Patreon"
+				},
+				"discord": {
+					"description": "Select this option if you made your purchase within the Discord in-app store"
+				}
+			},
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+			},
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
+		},
+		"notes": {
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
+		},
+		"rename": {
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+		},
+		"vote": {
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem": {
+				"success": {
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+				}
+			},
+			"with_credits": {
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": "Ticket Panel Switched",
+			"jump_to_top": "Jump To Top",
+			"reopened": "Ticket Reopened",
+			"ticket_closed": "Ticket Closed"
+		},
+		"click_here": "Click Here",
+		"confirm": "Confirm",
+		"website": "Our Website"
+	},
+	"help": {
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
+		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
+		"reopen": "Reopens a ticket that was previously closed",
+		"notes": "Creates a thread for private discussion between support representatives"
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> has been unblacklisted"
+			}
+		}
+	},
+	"setup": {
+		"auto": {
+			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
+		},
+		"threads": {
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
+			"already_joined": "You have already joined this ticket (<#%d>)",
+			"success": "Added you to the ticket: <#%d>"
+		}
+	},
+	"open": {
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
+		"acl": {
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
+			"not_allow_listed": {
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
+			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
+		}
+	}
+}
