@@ -1,205 +1,205 @@
 {
-	"commands.about": "Tickets on helppokäyttöinen ja helposti muokattavissa oleva lippu- ja tukibotti.\\nTukipalvelin: https://discord.gg/ticketsbot\\nKomennot: Kirjoita `/help`\\nAloita suorittamalla `/setup`",
-	"commands.add.no_members": "Sinun täytyy mainita jäseniä, jotka haluat lisätä lippuun",
-	"commands.add.no_permission": "Sinulla ei ole oikeuksia lisätä ihmisiä tähän lippuun",
-	"commands.addadmin.no_members": "Sinun täytyy mainita käyttäjä tai roolin nimi, jolle myönnät järjestelmänvalvojan oikeudet",
-	"commands.addadmin.owner": "Palvelimen omistaja on jo järjestelmänvalvoja",
-	"commands.addsupport.no_members": "Sinun on mainittava käyttäjä tai rooli, jolle myönnät tukihenkilön oikeudet",
-	"commands.blacklist.no_members": "Sinun täytyy mainita käyttäjä vaihtaaksesi mustan listan tilaa",
-	"commands.blacklist.self": "Et voi mustalistata itseäsi",
-	"commands.claim.success": "%s käsittelee sinun lippusi",
-	"commands.invite": "[Klikkaa tästä](<https://invite.ticketsbot.cloud>)",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.add.no_members": "You need to mention members to add to the ticket",
+	"commands.add.no_permission": "You don't have permission to add people to this ticket",
+	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
+	"commands.addadmin.owner": "The server owner is already an administrator",
+	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
+	"commands.blacklist.self": "You cannot blacklist yourself",
+	"commands.claim.success": "Your ticket will be handled by %s",
+	"commands.invite": "[Click here](<https://invite.ticketsbot.cloud>)",
 	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
-	"commands.open.ticket_limit": "Voit avata vain %d %s kerrallaan",
-	"commands.open.too_many_tickets": "Lippukategoriassa on liian monta lippua. Pyydä ylläpitäjää sulkemaan joitakin, siirtämään ne toiseen kategoriaan tai asettamaan ylivuotokategoria.\n\nTämä on **Discordin asettama raja** 50 kanavaa yhteen kategoriaan.",
-	"commands.panel": "Vieraile <https://dashboard.ticketsbot.cloud/manage/%d/panels> määrittääksesi paneeli",
-	"commands.premium": "Voit ostaa Premium-tilauksen osoitteesta <https://www.patreon.com/ticketsbot-cloud>.\\nPremium tarjoaa monia etuja, kuten:\\n````diff\\n+ Luo rajattomasti lippupaneelit\\n+ Mukauta botin nimeä, avatar & status (whitelabel)\\n+ Yksityiskohtaiset tilastot palvelimesta, käyttäjistä ja tukihenkilöistä\\n+ Ei brändäystä viestien alatunnisteessa\\n+ Tue kehitystä ja auta minua maksamaan palvelimen kustannukset\\n```\\n\\nVaihtoehtoisesti, voit äänestää osoitteessa <https://vote.ticketsbot.cloud> saadaksesi premiumin ilmaiseksi 24 tunniksi",
-	"commands.premium.invalid_key": "Virheellinen avain. Varmista, että olet kopioinut sen oikein.",
-	"commands.remove.no_permission": "Sinulla ei ole oikeuksia poistaa ihmisiä tästä lipusta",
-	"commands.remove.staff": "Et voi poistaa ylläpitäjiä lipusta",
-	"commands.removeadmin.no_members": "Sinun täytyy mainita käyttäjä tai roolin nimi, jolta haluat poistaa ylläpito-oikeudet",
+	"commands.open.ticket_limit": "You are only able to open %d %s at once",
+	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.cloud> to get premium free for 24 hours",
+	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
+	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
+	"commands.remove.staff": "You cannot remove staff from a ticket",
+	"commands.removeadmin.no_members": "You need to mention a user or name a role to revoke admin privileges from",
 	"commands.removeadmin.owner": "The guild owner must be an admin",
-	"commands.removeadmin.self": "Et voi poistaa itseltäsi oikeuksia",
-	"commands.removesupport.no_members": "Sinun on mainittava käyttäjä tai roolin nimi, jolle myönnät auttajan oikeudet",
-	"commands.rename.missing_name": "Sinun täytyy määrittää uusi nimi tälle lipulle",
-	"commands.rename.success": "Tämä lippu on nimetty uudelleen <#%d>",
-	"commands.tags.create.already_exists": "Tunnuksella `%s` on jo olemassa. Voit poistaa tagin käyttämällä komentoa `/tag poista %s`",
-	"commands.tags.create.invalid_arguments": "Sinun on määritettävä tag ID ja sisältö",
-	"commands.tags.create.too_long": "Tunnisteessa voi olla enintään 16 merkkiä",
-	"commands.tags.delete.invalid_arguments": "Sinun on määritettävä tag ID poistaaksesi",
-	"commands.tags.delete.not_exist": "Tunnistetta ID llä `%s` ei löytynyt",
-	"commands.tags.get.invalid_arguments": "Sinun on annettava ID tunnisteelle. Lisää apua saat osoitteesta <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Virheellinen tunniste. Apua tunnisteitten käytöstä saat osoitteesta <https://ticketsbot.cloud/tags>.",
-	"commands.tags.list": "Tunnukset kaikille tunnisteille: \\n%s\\nNähdäksesi tagin sisällön, suorita `%stag <ID>`",
-	"commands.unclaim.not_claimed": "Tätä lippua ei ole lunastettu",
-	"commands.unclaim.not_claimer": "Vain ylläpitäjät ja käyttäjät, jotka lunastivat lipun voivat hylätä lipun",
-	"commands.unclaim.success": "Kaikki tukihenkilöt voivat nyt vastata lippuun",
-	"commands.vote": "Klikkaa alla olevaa painiketta äänestääksesi bottia, saadaksesi 24-tuntia premium ilmaiseksi.\n\nKun olet äänestänyt, suorita %s -komento uudelleen lunastaaksesi premiumin.",
-	"generic.invalid_argument": "Virheellinen argumentti: viittaa käyttöön",
-	"generic.invalid_user": "Käyttäjää ei löydetty",
-	"generic.no_permission": "Sinulla ei ole oikeutta tähän",
-	"generic.not_ticket": "Tämä ei ole lippu kanava",
-	"generic.owner_only": "Tämä komento on tarkoitettu vain botin omistajalle",
-	"help.about": "Kertoo tietoa botista",
-	"help.add": "Lisää käyttäjä lippuun",
-	"help.addadmin": "Antaa käyttäjälle tai roolille järjestelmänvalvojan oikeudet",
-	"help.addsupport": "Lisää käyttäjä tai rooli tukihenkilöksi",
-	"help.admin": "Botin hallinta",
-	"help.admin.blacklist": "Estä guild käyttämästä bottia",
-	"help.admin.check_premium": "Tarkista palvelimesi Premium-tila",
-	"help.admin.generate_premium": "Luo Premium avaimet",
-	"help.admin.get_owner": "Ota palvelimen omistaja",
-	"help.admin.unblacklist": "Poista guild mustalta listalta",
-	"help.blacklist": "Valitse mitkä käyttäjät voivat olla vuorovaikutuksessa botin kanssa",
-	"help.cancel": "Peruuttaa asetusprosessin",
-	"help.claim": "Asettaa yhden henkilökunnan jäsenen lippuun",
-	"help.close": "Sulje nykyinen lippu",
-	"help.help": "Näyttää sinulle listan komennoista",
-	"help.invite": "Tarjoaa kutsulinkin botille",
-	"help.language": "Muuttaa kieltä, jota botti käyttää",
-	"help.managetags": "Lisää, poista tai listaa tunnisteita",
-	"help.open": "Avaa uuden lipun",
-	"help.panel": "Luo paneeli jotta käyttäjät voivat avata lipun yhdellä painalluksella",
-	"help.premium": "Suorita tämä komento Premium-ostoksen jälkeen aktivoidaksesi se",
-	"help.remove": "Poistaa käyttäjän lipusta",
-	"help.removeadmin": "Peruuttaa käyttäjän tai roolin ylläpitäjän oikeudet",
-	"help.removesupport": "Peruuttaa käyttäjän tai roolin tuk ioikeudet",
-	"help.rename": "Nimeä uudelleen nykyinen lippu",
-	"help.setup": "Mahdollistaa botin määrittämisen helposti",
-	"help.stats": "Näyttää sinulle tilastotietoja käyttäjistä, tukihenkilöstöstä ja palvelimesta",
-	"help.statsserver": "Näyttää sinulle palvelimen tilastoja",
-	"help.tag": "Lähettää leikkauksen viestistä",
-	"help.tagdelete": "Poistaa tunnisteen",
-	"help.taggadd": "Lisää uuden tunnisteen",
-	"help.taglist": "Listaa kaikki tunnisteet",
-	"help.transfer": "Siirtää otetun tiketin toiselle käyttäjälle",
-	"help.unclaim": "Poistaa omistajuuden nykyisestä lipukkeesta",
-	"help.viewstaff": "Luettele henkilöstön jäsenet ja roolit",
-	"help.vote": "Antaa sinulle linkin äänestääksesi ilmaisesta Premiumista",
-	"open.success": "Avattu uusi lippu: %s",
-	"setup.auto.category.failure": "Minulta puuttuu `Hallinnoi Kanavia` oikeus",
-	"setup.auto.category.success": "Luotu liput kategoria",
-	"setup.auto.completed": "Asennus on valmis! Paina [tästä](https://dashboard.ticketsbot. et/manage/%d/panels) määrittääksesi reaktiopaneeli ja lisätäksesi <@&%d> ja <@&%d> roolit henkilökunnalle",
-	"setup.auto.roles.failure": "Minulta puuttuu `Hallinnoi Rooleja` oikeus",
-	"setup.auto.roles.success": "Luotu `Lippujen Järjestelmänvalvoja` & `Lippujen Tukihenkilö` roolit",
-	"setup.auto.transcript.failure": "Minulta puuttuu `Hallinnoi Kanavia` oikeus",
-	"setup.auto.transcript.success": "Luotu <#%d> kanava",
-	"setup.ticket_limit.success": "Lippujen määrä on päivitetty `%d`",
-	"setup.transcript.invalid": "Sinun täytyy mainita kelvollinen kanava palvelimella (e.g. <#%d>)\\n**Esimerkki:** `/setup transcripts #logs`",
-	"setup.transcript.success": "Transkript kanava on muutettu <#%d>",
-	"commands.language.help_wanted": "Puhutko toista kieltä? Liity [tukipalvelimeemme](https://discord.gg/ticketsbot) jos olet kiinnostunut auttamaan botin kääntämisessä useammille kielille",
-	"commands.rename.too_long": "Kanavan nimessä ei voi olla yli 100 merkkiä",
-	"commands.autoclose.configure": "Vieraile [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) vaihtaaksesi automaattisen sulkemisen asetuksia",
-	"help.autoclose": "Sulje liittyvät komennot automaattisesti",
-	"help.autoclose.exclude": "Estää nykyisen tiketin automaattisen sulkemisen",
-	"help.autoclose.configure": "Muokkaa automaattisen sulkemisen asetuksia",
-	"commands.autoclose.exclude.success": "Tämä lipuke on poistettu automaattisesta sulkemisesta",
-	"commands.claim.no_permission": "Vain henkilökunnan jäsenet voivat lunastaa lippuja",
-	"commands.open.from": "Tämä lipuke on avattu [tästä viestistä](%s).\n\n<@%d> sanoi <#%d>:\n```%s```",
-	"commands.open.from.moved": "Keskustelu on siirretty lipukkeeseen (<#%d>)",
-	"help.close_request": "Lähettää viestin, jossa pyydetään käyttäjää vahvistamaan, että lipuke voidaan sulkea",
-	"close.reason_too_long": "Syyssä ei voi olla yli 255-kirjainta",
-	"commands.close_request.no_reason": "<@%d> on pyytänyt tämän lipun sulkemista.\n\nHyväksy tai hylkää alla olevien painikkeiden avulla.",
-	"commands.close_request.with_reason": "<@%d> on pyytänyt tämän lipun sulkemista. Syyllä:\n```\n%s\n```\nHyväksy tai hylkää alla olevista napeista.",
-	"commands.close_request.no_permission": "Vain käyttäjä, joka on avannut lipun voi vastata sulkemis pyyntöön",
-	"commands.close_request.denied": "<@%d> sulkemis pyyntä hylätty",
-	"generic.error": "Virhe",
-	"feedback.disabled": "Tämän palvelimen palaute on suljettu",
-	"feedback.success": "Palautteesi on tallennettu",
-	"generic.success": "Suoritettu",
-	"button.guild_only": "Tätä painiketta on käytettävä palvelimella",
-	"button.dms_only": "Tätä painiketta on käytettävä yksityis viesteissä",
-	"commands.tag.generic": "Tunniste",
-	"commands.tags.delete.success": "Tunniste `%s` on poistettu",
-	"generic.ticket": "Lippu",
-	"generic.title.premium_only": "Vain Premium Komento",
-	"generic.admin": "Järjestelmänvalvoja",
-	"commands.tags.create.success": "Tunniste luotu - voit käyttää sitä suorittamalla `/tag %s`",
-	"generic.title.about": "Tietoja",
-	"generic.title.vote": "Äänestä",
-	"generic.title.tags": "Tunnisteet",
-	"generic.title.autoclose": "Automaattinen sulkeminen",
-	"generic.title.invite": "Kutsu",
-	"generic.title.close": "Sulje",
-	"generic.title.claim": "Lunasta",
-	"generic.title.blacklisted": "Mustalistattu",
-	"generic.title.blacklist": "Mustalista",
-	"generic.error.blacklisted": "Olet tämän palvelimen mustallalistalla",
-	"commands.blacklist.add.success": "<@%d> on estetty",
-	"commands.blacklist.remove.success": "<@%d> on otettu pois mustaltalistalta",
-	"generic.title.add_admin": "Lisää järjestelmänvalvoja",
-	"generic.title.add_support": "Lisää tukihenkilö",
-	"generic.title.remove_admin": "Poista järjestelmänvalvoja",
-	"generic.title.remove_support": "Poista Tukihenkilö",
-	"commands.addsupport.success": "Tuki oikeudet lisätty onnistuneesti",
-	"generic.title.language": "Kieli",
-	"commands.removesupport.success": "Tuki oikeudet poistettu onnistuneesti",
-	"commands.addadmin.success": "Järjestelmänvalvoja lisätty onnistuneesti",
-	"commands.removeadmin.success": "Järjestelmänvalvoja poistettu onnistuneesti",
-	"generic.title.setup": "Asetukset",
+	"commands.removeadmin.self": "You cannot revoke your own privileges",
+	"commands.removesupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.rename.missing_name": "You need to specify a new name for this ticket",
+	"commands.rename.success": "This ticket has been renamed to <#%d>",
+	"commands.tags.create.already_exists": "A tag with the ID `%s` already exists. You can delete the tag using `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "You must specify a tag ID and contents",
+	"commands.tags.create.too_long": "Tag IDs cannot be longer than 16 characters",
+	"commands.tags.delete.invalid_arguments": "You must specify a tag ID to delete",
+	"commands.tags.delete.not_exist": "A tag with the ID `%s` could not be found",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
+	"commands.unclaim.not_claimed": "This ticket is not claimed",
+	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
+	"commands.unclaim.success": "All support representatives can now respond to the ticket",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"generic.invalid_argument": "Invalid argument: refer to usage",
+	"generic.invalid_user": "Couldn't find the target user",
+	"generic.no_permission": "You do not have permission for this",
+	"generic.not_ticket": "This is not a ticket channel",
+	"generic.owner_only": "This command is reserved for the bot owner only",
+	"help.about": "Tells you information about the bot",
+	"help.add": "Adds a user to a ticket",
+	"help.addadmin": "Grants a user or role admin privileges",
+	"help.addsupport": "Adds a user or role as a support representative",
+	"help.admin": "Bot management",
+	"help.admin.blacklist": "Blacklist a guild from using the bot",
+	"help.admin.check_premium": "Check the premium status of a server",
+	"help.admin.generate_premium": "Generate premium keys",
+	"help.admin.get_owner": "Gets the owner of a server",
+	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
+	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
+	"help.cancel": "Cancels the setup process",
+	"help.claim": "Assigns a single staff member to a ticket",
+	"help.close": "Closes the current ticket",
+	"help.help": "Shows you a list of commands",
+	"help.invite": "Provides an invite link for the bot",
+	"help.language": "Changes the language the bot uses",
+	"help.managetags": "Add, delete or list tags",
+	"help.open": "Opens a new ticket",
+	"help.panel": "Creates a panel to enable users to open a ticket with 1 click",
+	"help.premium": "Run this command after purchasing premium to activate it",
+	"help.remove": "Removes a user from a ticket",
+	"help.removeadmin": "Revokes a user's or role's admin privileges",
+	"help.removesupport": "Revokes a user's or role's support representative privileges",
+	"help.rename": "Renames the current ticket",
+	"help.setup": "Allows you to easily configure the bot",
+	"help.stats": "Shows you statistics about users, support staff and the server",
+	"help.statsserver": "Shows you statistics about the server",
+	"help.tag": "Sends a message snippet",
+	"help.tagdelete": "Deletes a tag",
+	"help.taggadd": "Adds a new tag",
+	"help.taglist": "Lists all tags",
+	"help.transfer": "Transfers a claimed ticket to another user",
+	"help.unclaim": "Removes the claim on the current ticket",
+	"help.viewstaff": "Lists the staff members and roles",
+	"help.vote": "Gives you a link to vote for free premium",
+	"open.success": "Opened a new ticket: %s",
+	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.category.success": "Created Tickets category",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
+	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
+	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.transcript.success": "Created <#%d> channel",
+	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
+	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
+	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
+	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"help.autoclose": "Autoclose related commands",
+	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
+	"help.autoclose.configure": "Edit autoclose related settings",
+	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
+	"commands.claim.no_permission": "Only staff members can claim tickets",
+	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
+	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
+	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
+	"close.reason_too_long": "The reason cannot be longer than 255 characters",
+	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
+	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
+	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
+	"commands.close_request.denied": "<@%d> denied the close request",
+	"generic.error": "Error",
+	"feedback.disabled": "This server has feedback disabled",
+	"feedback.success": "Your feedback has been recorded",
+	"generic.success": "Success",
+	"button.guild_only": "This button must be used in a server",
+	"button.dms_only": "This button must be used in direct messages",
+	"commands.tag.generic": "Tag",
+	"commands.tags.delete.success": "Tag `%s` has been deleted",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Premium Only Command",
+	"generic.admin": "Admin",
+	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
+	"generic.title.about": "About",
+	"generic.title.vote": "Vote",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autoclose",
+	"generic.title.invite": "Invite",
+	"generic.title.close": "Close",
+	"generic.title.claim": "Claim",
+	"generic.title.blacklisted": "Blacklisted",
+	"generic.title.blacklist": "Blacklist",
+	"generic.error.blacklisted": "You are blacklisted in this server",
+	"commands.blacklist.add.success": "<@%d> has been blacklisted",
+	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
+	"generic.title.add_admin": "Add Admin",
+	"generic.title.add_support": "Add Support",
+	"generic.title.remove_admin": "Remove Admin",
+	"generic.title.remove_support": "Remove Support",
+	"commands.addsupport.success": "Support representative added successfully",
+	"generic.title.language": "Language",
+	"commands.removesupport.success": "Support representative removed successfully",
+	"commands.addadmin.success": "Admin added successfully",
+	"commands.removeadmin.success": "Admin removed successfully",
+	"generic.title.setup": "Setup",
 	"generic.title.premium": "Premium",
-	"generic.title.panel": "Paneeli",
-	"generic.title.rename": "Nimeä uudelleen",
-	"generic.title.remove": "Poista",
-	"generic.title.help": "Tuki",
-	"generic.title.close_confirmation": "Sulje Vahvistus",
-	"close.confirmation": "Vahvista että haluat sulkea tämän lipun",
-	"generic.title.close_request": "Sulkemis Pyyntö",
-	"commands.close_request.accept": "Hyväksy Ja Sulje",
-	"commands.close_request.deny": "Hylkää & Pidä Avattuna",
-	"commands.premium.success": "Premium on aktivoitu **%d** päiväksi",
-	"generic.title.claimed": "Lunastettu Lipuke",
-	"generic.title.unclaimed": "Lunastamaton Lipuke",
-	"generic.title.add": "Lisää",
-	"commands.add.success": "<@%d> on lisätty <#%d>",
-	"commands.remove.success": "<@%d> on poistettu <#%d>",
-	"open.ratelimited": "Lipukkeet avataan liian nopeasti tällä palvelimella",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Rename",
+	"generic.title.remove": "Remove",
+	"generic.title.help": "Help",
+	"generic.title.close_confirmation": "Close Confirmation",
+	"close.confirmation": "Please confirm that you want to close this ticket",
+	"generic.title.close_request": "Close Request",
+	"commands.close_request.accept": "Accept & Close",
+	"commands.close_request.deny": "Deny & Keep Open",
+	"commands.premium.success": "Premium has been activated for **%d** days",
+	"generic.title.claimed": "Claimed Ticket",
+	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.add": "Add",
+	"commands.add.success": "<@%d> has been added to <#%d>",
+	"commands.remove.success": "<@%d> has been removed from <#%d>",
+	"open.ratelimited": "Tickets are being opened too quickly in this server",
 	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
-	"generic.join_support_server": "Liity Tukipalvelimelle",
-	"commands.open.guild_channel_limit": "Tämä palvelin on saavuttanut Discordin 500 kanavan rajan",
-	"commands.open.missing_form_answer": "Sinun täytyy vastata kysymykseen `%s`",
-	"close.no_permission": "Sinulla ei ole oikeuksia sulkea tätä lipuketta",
+	"generic.join_support_server": "Join Support Server",
+	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
+	"commands.open.missing_form_answer": "You must answer the question `%s`",
+	"close.no_permission": "You are not permitted to close this ticket",
 	"": {
-		"generic.title.close_with_reason": "Sulje perusteluilla",
-		"generic.reason": "Perustelu"
+		"generic.title.close_with_reason": "Close With Reason",
+		"generic.reason": "Reason"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Lipun sulkemisen perustelu, esim. \"Ratkaistu\""
+			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
 		},
 		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
 				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "Et voi arvostella tätä lipuketta, koska et lähettänyt yhtään viestiä"
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": "`/avaa` komento on poistettu käytöstä tällä palvelimella: ole hyvä ja käytä lipukepaneelia avataksesi lipukkeen",
+			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
 				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
-				"cant_message_in_threads": "Sinulta puuttuu `Lähetä viestejä ketjuissa` oikeus, joka vaaditaan lipukkeen avaamiseksi. Pyydä palvelimen järjestelmänvalvojaa antamaan tämä lupa sinulle ja yritä uudelleen."
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "Virheellinen paneeli: Sinun on valittava yksi pudotusvalikosta",
+			"invalid_panel": "Invalid panel: You must select one from the dropdown",
 			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		},
 		"blacklist": {
-			"staff": "Henkilöstön jäseniä ei voi olla mustalla listalla",
+			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
-				"success": "<@&%d> on asetettu mustallelistalle",
+				"success": "<@&%d> has been blacklisted",
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
-				"limit": "Olet saavuttanut käyttäjien mustanlistan rajan (%d): harkitse roolin käyttöä sen sijaan"
+				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "Tällä lipukkeella ei ole tervetulo viestiä",
-			"content": "Paina alla olevaa painiketta hypätäksesi lipun yläreunaan"
+			"no_welcome_message": "This ticket does not have a welcome message",
+			"content": "Click the button below to jump to the top of the ticket"
 		},
 		"addsupport": {
 			"confirm": "Please confirm that you want to add %s to the default support representative team",
@@ -227,51 +227,51 @@
 			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
-			"not_found": "Lippua ei löydy",
+			"not_found": "Ticket not found",
 			"no_permission": "You do not have permission to reopen this ticket",
 			"already_open": "This ticket is already open",
 			"not_thread": "Only threads can be reopened",
 			"thread_deleted": "The ticket has been permanently deleted",
-			"success": "Lipuke %d uudelleen avattu: <#%d>",
-			"in_ticket": "Tämä lippu on avattu uudelleen <#%d>"
+			"success": "Ticket %d reopened: <#%d>",
+			"in_ticket": "This ticket has been reopened by <@%d>"
 		},
 		"premium": {
-			"key": "Avain",
-			"check_again": "Tarkista uudelleen",
-			"subscription_found": "Tilaus Löydetty!",
+			"key": "Key",
+			"check_again": "Check Again",
+			"subscription_found": "Subscription Found!",
 			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
-			"activate_key": "Aktivoi Premium-avain",
-			"checking": "Tarkistetaan Premiumin tilaa...",
-			"please_wait": "Ole hyvä ja odota...",
-			"success_after_check": "Premium on nyt aktivoitu tällä palvelimella!",
-			"link_patreon_account": "Linkitä Patreon tili",
-			"no_subscription": "Aktiivista Patreon tilausta ei löytynyt linkitettynä Discord-tiliisi. Varmista, että [olet linkittänyt Patreon- ja Discord-tilisi](https://support. atreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), ja odota vielä 10 minuuttia.",
-			"open_form": "Avaa Lomake",
-			"open_form_description": "Avaa lomake uudelleen painamalla alla olevaa painiketta",
-			"use_key_anyway": "Käytä Premium avainta Silti",
-			"already_purchased_title": "Oletko jo ostanut Premium?",
-			"already_purchased_description": "Jos olet jo ostanut Premium, valitse maksutapa valikosta päästäksesi alkuun",
-			"giveaway_key": "Arvonta Avain",
+			"activate_key": "Activate A Premium Key",
+			"checking": "Checking Premium Status...",
+			"please_wait": "Please wait...",
+			"success_after_check": "Premium is now active in this server!",
+			"link_patreon_account": "Link Patreon Account",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"open_form": "Open Form",
+			"open_form_description": "Press the button below to reopen the form",
+			"use_key_anyway": "Use Premium Key Anyway",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
 			"selector": {
-				"description": "Valitse menetelmä, jota käytit Premium saamiseen",
+				"description": "Select which method you used to obtain premium",
 				"key": {
-					"description": "Valitse tämä vaihtoehto, jos sinulle on annettu arvonta avain"
+					"description": "Select this option if you were given a giveaway key"
 				},
 				"patreon": {
-					"description": "Valitse tämä vaihtoehto, jos olet tehnyt ostoksesi Patreonissa"
+					"description": "Select this option if you made your purchase on Patreon"
 				},
 				"discord": {
-					"description": "Valitse tämä vaihtoehto, jos olet tehnyt ostoksesi Discordin sisäisessä kaupassa"
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium antaa sinulle pääsyn useampiin paneeleihin, tilastoihin, mukautettuun bottiin ja paljon muuta! Vieraile meidän [verkkosivu](https://ticketsbot.cloud/premium) saadaksesi lisätietoja.",
-			"already_activated": "Hyviä uutisia! Premium on jo aktiivinen tällä palvelimella.",
-			"already_activated_whitelabel": "Hyviä uutisia! Premium on jo aktiivinen tällä palvelimella.\n\nSaadaksesi apua aloittaaksesi whitelabelin kanssa, lue [whitelabelin asennus ohje](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premiumin voi ostaa suoraan Discordista. Avaa tilauksen hallintasivu napsauttamalla alla olevaa painiketta.\n\nYksi ostettu, salli enintään 5 minuuttia tilauksen havaitsemiseksi."
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "Sinun Patreon-tilauksesi on löytynyt. Ole hyvä ja paima alla olevaa \"Avaa palvelinvalinta\" -painiketta avataksesi hallintapaneeli, valitaksesi ne palvelimet, joita haluat käyttää Premium-tilauksessasi.",
-			"open_server_selector": "Avaa Palvelimen Valitsin"
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
 			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
@@ -279,83 +279,83 @@
 			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Discordin asettamien rajoitusten vuoksi liput voidaan nimetä uudelleen vain kahdesti 10 minuutin välein"
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
-			"redeem_credits": "Lunasta Krediitit",
-			"no_credits": "Lunastaminen epäonnistui: sinulla ei ole äänestys krediittejä!",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
 					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Äänestämis krediittisi on lunastettu **%d** päivän premium!"
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "Sinulla on **%d** äänestämis krediittejä. Paina \"Lunasta Krediitit\" näppäintä alhaalta lunastaaksesi %d päivää premiumia tälle serverille.",
-				"singular": "Sinulla on **%d** äänestämis krediitti. Paina \"Lunasta Krediitit\" näppäintä alhaalta lunastaaksesi %d päivä premiumia tälle serverille."
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Lipukkeen Paneeli Vaihdettu",
-			"jump_to_top": "Siirry Ylhäälle",
-			"reopened": "Lipuke uudelleen avattu",
-			"ticket_closed": "Lipuke Suljettu"
+			"panel_switched": "Ticket Panel Switched",
+			"jump_to_top": "Jump To Top",
+			"reopened": "Ticket Reopened",
+			"ticket_closed": "Ticket Closed"
 		},
-		"click_here": "Paina Tästä",
-		"confirm": "Vahvista",
-		"website": "Meidän Verkkosivuiltamme"
+		"click_here": "Click Here",
+		"confirm": "Confirm",
+		"website": "Our Website"
 	},
 	"help": {
-		"switch_panel": "Vaihtaa lipukkeen toiseen lippupaneeliin, vaihtaen kanavaluokan, tukitiimit jne.",
-		"jump_to_top": "Tarjoaa sinulle painikkeen, jonka avulla voit hypätä lipun alkuun",
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
 		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
-		"reopen": "Avaa lipukkeen, joka oli aiemmin suljettu",
-		"notes": "Luo viestiketjun yksityiseen keskusteluun tukijoiden välillä"
+		"reopen": "Reopens a ticket that was previously closed",
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> on poistettu mustaltalistalta"
+				"successcklisted": "<@&%d> has been unblacklisted"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "Haluatko tutkia lisää? Meidän [documentation](https://docs.ticketsbot.cloud) opettaa sinulle kuinka määrittää kaikki botin ominaisuudet!"
+			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
-			"no_notification_channel": "Sinun on annettava lipukkeiden ilmoitus kanava",
-			"notification_channel_type": "Lipukkeen ilmoitus kanavan on oltava tekstikanava",
-			"success": "Ketju tila on otettu käyttöön",
-			"disabled": "Ketju tila on poistettu käytöstä"
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "Tämä lipuke on jo suljettu",
-			"no_permission": "Sinulla ei ole oikeuksia tarkastella tämäntyyppistä lipuketta",
-			"already_joined": "Olet jo liittynyt tähän lippuun (<#%d>)",
-			"success": "Lisäsi sinut lippuun: <#%d>"
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
+			"already_joined": "You have already joined this ticket (<#%d>)",
+			"success": "Added you to the ticket: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Ketjuja ei voi luoda ilmoituskanavilla",
-		"panel_force_disabled": "Tämä paneeli on poistettu käytöstä. Pyydä palvelimen ylläpitäjää aktivoimaan premium ja suorita %s ottaaksesi tämän paneelin uudelleen käyttöön.",
-		"panel_disabled": "Palvelimen ylläpitäjät ovat poistaneet tämän tyyppisen lipukkeen avaamisen",
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
-			"no_allow_rules": "Oikeus avata tämäntyyppinen lippu on poistettu kaikilta rooleilta",
-			"deny_listed": "Et voi avata tällaista lippua, koska sinulla on rooli <@&%d>",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "Tarvitset yhden seuraavista rooleista avataksesi tämäntyyppisen lipukkeen: %s",
-				"single": "Tarvitset seuraavan roolin, avataksesi lipukkeen: %s"
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Muistiinpanojen ketjut ovat tuettuja vain kanava tilassa"
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }
