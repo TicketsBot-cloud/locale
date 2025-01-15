@@ -1,7 +1,7 @@
 {
-	"commands.about": "टिकटहरू प्रयोग गर्न सजिलो र उच्च कन्फिगर योग्य टिकट र समर्थन बोट हो।\\nसपोर्ट सर्भर: https://discord.gg/ticketsbot\\nआदेशहरू: टाइप `/help`\\n`/setup` चलाएर सुरु गर्नुहोस्\n\nContextrequest",
-	"commands.add.no_members": "तपाईंले टिकटमा थप्न सदस्यहरू उल्लेख गर्न आवश्यक छ",
-	"commands.add.no_permission": "तपाईंसँग यो टिकटमा मानिसहरू थप्ने अनुमति छैन",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.add.no_members": "You need to mention members to add to the ticket",
+	"commands.add.no_permission": "You don't have permission to add people to this ticket",
 	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
 	"commands.addadmin.owner": "The server owner is already an administrator",
 	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
