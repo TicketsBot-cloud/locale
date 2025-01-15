@@ -1,361 +1,361 @@
 {
-	"commands.about": "Tickets 是一個易於使用且幾乎可以完全自定義的問題單機器人\\n支援頻道: https://discord.gg/ticketsbot\\n指令: 請輸入 `t!help`\\n輸入`t!setup`開始設定吧！",
-	"commands.add.no_members": "你必須標註一個人嗄",
-	"commands.add.no_permission": "你沒有權限添加該成員到問題單",
-	"commands.addadmin.no_members": "您需要提及一個用戶或一個身份組來授予管理員權限",
-	"commands.addadmin.owner": "伺服器創建者本來就有管理員權限咯~",
-	"commands.addsupport.no_members": "您需要提及用戶或命身份組以授予支持代表權限",
-	"commands.blacklist.no_members": "您需要提及一個用戶來切換黑名單狀態",
-	"commands.blacklist.self": "你想不開是不是？幹嘛黑名單自己",
-	"commands.claim.success": "你的問題單將由 %s 為您服務",
-	"commands.invite": "[點我邀請機器人](<https://invite.ticketsbot.cloud>)",
-	"commands.language.invalid": "您需要指定語言代碼或標誌。可用語言:\\n%s",
-	"commands.open.ticket_limit": "您一次只能打開 %d %s",
-	"commands.open.too_many_tickets": "客服單類別中的客服單過多。要求管理員關閉一些，或將它們移到另一個類別，否則將無法開啟\n\n這是 **Discord 的限制**，每個類別最多 50 個頻道。",
-	"commands.panel": "查看 <https://dashboard.ticketsbot.cloud/manage/%d/panels> 以設定面板",
-	"commands.premium": "您可以從 <https://www.patreon.com/ticketsbot-cloud> 購買高級訂閱。\\nPremium 提供許多好處，例如：\\n```diff\\n+ 創建無限制的問題單面板\\n+ 自定義機器人名稱、頭像和狀態\\n+ 關於伺服器、用戶和支持人員的詳細統計\\n+ 沒有品牌顯示\\n+ 支持開發並幫助我支付服務器費用\\n```\\n\\n或者，您可以投票<https://vote.ticketsbot.cloud> 獲得 24 小時免費高級版",
-	"commands.premium.invalid_key": "無效的密鑰。確保您已正確複製它。",
-	"commands.remove.no_permission": "沒有權限踢掉他唷",
-	"commands.remove.staff": "不能移除工作人員",
-	"commands.removeadmin.no_members": "您需要提及一個用戶或身份組來撤銷其管理員權限",
-	"commands.removeadmin.owner": "伺服器所有者必須是管理員",
-	"commands.removeadmin.self": "不能撤銷你自己的權限",
-	"commands.removesupport.no_members": "您需要提及用戶或身份組以授予支持代表權限",
-	"commands.rename.missing_name": "您需要為此問題單指定一個新名稱",
-	"commands.rename.success": "該問題單以重新命名為 <#%d>",
-	"commands.tags.create.already_exists": "ID 為“%s”的標籤已存在。您可以使用 `t!tag delete %s` 刪除標籤",
-	"commands.tags.create.invalid_arguments": "您必須指定標籤 ID 和內容",
-	"commands.tags.create.too_long": "標籤 ID 不能超過 16 個字符",
-	"commands.tags.delete.invalid_arguments": "您必須指定要刪除的標籤 ID",
-	"commands.tags.delete.not_exist": "找不到 ID 為\"%s\"的標籤",
-	"commands.tags.get.invalid_arguments": "您必須提供標籤的 ID。有關標籤的更多幫助，請訪問 <https://ticketsbot.cloud/tags>。",
-	"commands.tags.get.invalid_tag": "標籤無效。有關標籤的更多幫助，請訪問 <https://ticketsbot.cloud/tags>。",
-	"commands.tags.list": "所有標籤的 ID：\\n%s\\n要查看標籤的內容，請運行 `%stag <ID>`",
-	"commands.unclaim.not_claimed": "目前問題單還沒被指派",
-	"commands.unclaim.not_claimer": "只有管理者會已被分配到的人才可以解除分配",
-	"commands.unclaim.success": "所有支持者現在都可以回復問題單",
-	"commands.vote": "投票獲得24小時的高級方案！\\n<https://vote.ticketsbot.cloud>",
-	"generic.invalid_argument": "無效參數：參考用法",
-	"generic.invalid_user": "找不到目標成員",
-	"generic.no_permission": "沒有權限使用唷",
-	"generic.not_ticket": "這不是問題單啊",
-	"generic.owner_only": "這指令只能由機器人作者使用",
-	"help.about": "告訴您有關機器人的信息",
-	"help.add": "將用戶添加到問題單",
-	"help.addadmin": "授予用戶或身份組管理員權限",
-	"help.addsupport": "添加用戶或身份組作為問題單支持小組",
-	"help.admin": "機器人管理",
-	"help.admin.blacklist": "將伺服器使用機器人列入黑名單",
-	"help.admin.check_premium": "檢查伺服器是否有開通高級版",
-	"help.admin.generate_premium": "產生高級版代碼",
-	"help.admin.get_owner": "獲取伺服器的擁有者資訊",
-	"help.admin.unblacklist": "將該伺服器從黑名單移除",
-	"help.blacklist": "切換是否允許用戶與機器人互動（表情符號回饋等等）",
-	"help.cancel": "取消設定精靈",
-	"help.claim": "將成員分配到該問題單中",
-	"help.close": "關閉現有問題單",
-	"help.help": "顯示所有可以用的指令",
-	"help.invite": "提供機器人的邀請連結",
-	"help.language": "更換語言",
-	"help.managetags": "添加、刪除或顯示所有標籤",
-	"help.open": "開啟一個新的問題單",
-	"help.panel": "創建表情符號回饋面板讓成員們能夠輕鬆點擊創建問題單",
-	"help.premium": "購買 Premium 後，請執行此指令以啟用它",
-	"help.remove": "將成員從問題單移除",
-	"help.removeadmin": "撤銷某人或某身份組的問題單管理權限",
-	"help.removesupport": "撤銷某人或某身份組的問題單支持權限",
-	"help.rename": "重新命名問題單",
-	"help.setup": "讓你輕鬆設定機器人",
-	"help.stats": "顯示有​​關用戶、支持人員和伺服器的統計信息",
-	"help.statsserver": "顯示伺服器數據",
-	"help.tag": "傳送標籤（也就是罐頭信息）",
-	"help.tagdelete": "刪除標籤",
-	"help.taggadd": "添加新標籤",
-	"help.taglist": "顯示所有標籤",
-	"help.transfer": "將已被分配的問題單移交給另外一個人",
-	"help.unclaim": "撤銷原本分配到該問題單的人",
-	"help.viewstaff": "顯示問題單工作人員跟支持人員",
-	"help.vote": "給你一個投票連結讓你獲得免費高級版的資格",
-	"open.success": "開了一張問題單：%s",
-	"setup.auto.category.failure": "我沒有 `管理頻道` 的權限唷",
-	"setup.auto.category.success": "創建問題單類別",
-	"setup.auto.completed": "設定完成！按一下 [這裡](https://dashboard.ticketsbot.cloud/manage/%d/panels) 以設定反應面板，然後將 <@&%d> 和 <@&%d> 身分組給你的工作人員",
-	"setup.auto.roles.failure": "我沒有 `管理身份組` 的權限唷",
-	"setup.auto.roles.success": "創建 `問題單管理者` & `問題單支持者` 的身份組",
-	"setup.auto.transcript.failure": "我沒有 `管理頻道` 的權限唷",
-	"setup.auto.transcript.success": "創建 <#%d> 頻道",
-	"setup.ticket_limit.success": "問題單限制已經更改為`%d`",
-	"setup.transcript.invalid": "您必須提供伺服器的有效頻道（例如 <#%d>）\\n**Example:** `t!setup transcripts #logs`",
-	"setup.transcript.success": "問題單記錄頻道已更改到 <#%d>",
-	"commands.language.help_wanted": "如果你想一起翻譯，就加入 [Ticket Bot 官方群組](https://discord.gg/ticketsbot) 吧！",
-	"commands.rename.too_long": "頻道名稱不能超過 100 個字啦",
-	"commands.autoclose.configure": "查看 [控制面板](https://dashboard.ticketsbot.cloud/manage/%d/panels) 以變更自動關閉設定",
-	"help.autoclose": "自動關閉相關指令",
-	"help.autoclose.exclude": "避免目前客服單被自動關閉",
-	"help.autoclose.configure": "更改自動關閉選項",
-	"commands.autoclose.exclude.success": "此客服單已被從自動關閉的惡夢中解脫出來",
-	"commands.claim.no_permission": "只有協助人員可以被指定支援此客服單唷",
-	"commands.open.from": "客服單已在 [this message](%s) 開啟.\n\n<@%d> 於<#%d> 說：\n```%s```",
-	"commands.open.from.moved": "目前對話已被移到 (<#%d>)",
-	"help.close_request": "發送一條消息，讓使用者可以在正式關閉客服單前在確定一次，以免關閉錯誤，釀成悲劇。",
-	"close.reason_too_long": "關閉原因不能超過 255 個字，你是要打作文嗎？",
-	"commands.close_request.no_reason": "<@%d> 已經要求關閉客服單\n\n請點擊下方按鈕以便確定關閉或是取消關閉客服單",
-	"commands.close_request.with_reason": "<@%d> 已經要求關閉客服單，因為 %s\n\n請點擊下方按鈕以便確定關閉或是取消關閉客服單",
-	"commands.close_request.no_permission": "只有開客服單的人可以回應關閉客服單請求唷",
-	"commands.close_request.denied": "<@%d> 拒絕關閉客服單",
-	"generic.error": "發生錯誤",
-	"feedback.disabled": "此伺服器已經關閉評價功能",
-	"feedback.success": "你的評價已發送",
-	"generic.success": "成功",
-	"button.guild_only": "需要在伺服器按下此按鈕唷",
-	"button.dms_only": "這按鈕只能在私訊中使用",
-	"commands.tag.generic": "標籤",
-	"commands.tags.delete.success": "%s 標籤已被刪除",
-	"generic.ticket": "客服單",
-	"generic.title.premium_only": "Premium 用戶專屬指令",
-	"generic.admin": "管理員",
-	"commands.tags.create.success": "已創建快速回覆標籤，您可以用 /tag %s 來使用",
-	"generic.title.about": "介紹",
-	"generic.title.vote": "投票",
-	"generic.title.tags": "快速回覆標籤",
-	"generic.title.autoclose": "自動關閉",
-	"generic.title.invite": "邀請",
-	"generic.title.close": "關閉",
-	"generic.title.claim": "接手客服單",
-	"generic.title.blacklisted": "添加到黑名單",
-	"generic.title.blacklist": "黑名單",
-	"generic.error.blacklisted": "你已經是目前群組的黑名單唷",
-	"commands.blacklist.add.success": "<@%d> 已被列入黑名單",
-	"commands.blacklist.remove.success": "<@%d> 已被解除黑名單",
-	"generic.title.add_admin": "加入管理員",
-	"generic.title.add_support": "加入協助人員",
-	"generic.title.remove_admin": "移除管理員",
-	"generic.title.remove_support": "移除協助人員",
-	"commands.addsupport.success": "協助人員添加成功",
-	"generic.title.language": "語言",
-	"commands.removesupport.success": "已移除協助人員",
-	"commands.addadmin.success": "添加管理員成功",
-	"commands.removeadmin.success": "移除管理員成功",
-	"generic.title.setup": "設定",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.add.no_members": "You need to mention members to add to the ticket",
+	"commands.add.no_permission": "You don't have permission to add people to this ticket",
+	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
+	"commands.addadmin.owner": "The server owner is already an administrator",
+	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
+	"commands.blacklist.self": "You cannot blacklist yourself",
+	"commands.claim.success": "Your ticket will be handled by %s",
+	"commands.invite": "[Click here](<https://invite.ticketsbot.cloud>)",
+	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
+	"commands.open.ticket_limit": "You are only able to open %d %s at once",
+	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.cloud> to get premium free for 24 hours",
+	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
+	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
+	"commands.remove.staff": "You cannot remove staff from a ticket",
+	"commands.removeadmin.no_members": "You need to mention a user or name a role to revoke admin privileges from",
+	"commands.removeadmin.owner": "The guild owner must be an admin",
+	"commands.removeadmin.self": "You cannot revoke your own privileges",
+	"commands.removesupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.rename.missing_name": "You need to specify a new name for this ticket",
+	"commands.rename.success": "This ticket has been renamed to <#%d>",
+	"commands.tags.create.already_exists": "A tag with the ID `%s` already exists. You can delete the tag using `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "You must specify a tag ID and contents",
+	"commands.tags.create.too_long": "Tag IDs cannot be longer than 16 characters",
+	"commands.tags.delete.invalid_arguments": "You must specify a tag ID to delete",
+	"commands.tags.delete.not_exist": "A tag with the ID `%s` could not be found",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
+	"commands.unclaim.not_claimed": "This ticket is not claimed",
+	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
+	"commands.unclaim.success": "All support representatives can now respond to the ticket",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"generic.invalid_argument": "Invalid argument: refer to usage",
+	"generic.invalid_user": "Couldn't find the target user",
+	"generic.no_permission": "You do not have permission for this",
+	"generic.not_ticket": "This is not a ticket channel",
+	"generic.owner_only": "This command is reserved for the bot owner only",
+	"help.about": "Tells you information about the bot",
+	"help.add": "Adds a user to a ticket",
+	"help.addadmin": "Grants a user or role admin privileges",
+	"help.addsupport": "Adds a user or role as a support representative",
+	"help.admin": "Bot management",
+	"help.admin.blacklist": "Blacklist a guild from using the bot",
+	"help.admin.check_premium": "Check the premium status of a server",
+	"help.admin.generate_premium": "Generate premium keys",
+	"help.admin.get_owner": "Gets the owner of a server",
+	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
+	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
+	"help.cancel": "Cancels the setup process",
+	"help.claim": "Assigns a single staff member to a ticket",
+	"help.close": "Closes the current ticket",
+	"help.help": "Shows you a list of commands",
+	"help.invite": "Provides an invite link for the bot",
+	"help.language": "Changes the language the bot uses",
+	"help.managetags": "Add, delete or list tags",
+	"help.open": "Opens a new ticket",
+	"help.panel": "Creates a panel to enable users to open a ticket with 1 click",
+	"help.premium": "Run this command after purchasing premium to activate it",
+	"help.remove": "Removes a user from a ticket",
+	"help.removeadmin": "Revokes a user's or role's admin privileges",
+	"help.removesupport": "Revokes a user's or role's support representative privileges",
+	"help.rename": "Renames the current ticket",
+	"help.setup": "Allows you to easily configure the bot",
+	"help.stats": "Shows you statistics about users, support staff and the server",
+	"help.statsserver": "Shows you statistics about the server",
+	"help.tag": "Sends a message snippet",
+	"help.tagdelete": "Deletes a tag",
+	"help.taggadd": "Adds a new tag",
+	"help.taglist": "Lists all tags",
+	"help.transfer": "Transfers a claimed ticket to another user",
+	"help.unclaim": "Removes the claim on the current ticket",
+	"help.viewstaff": "Lists the staff members and roles",
+	"help.vote": "Gives you a link to vote for free premium",
+	"open.success": "Opened a new ticket: %s",
+	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.category.success": "Created Tickets category",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
+	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
+	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.transcript.success": "Created <#%d> channel",
+	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
+	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
+	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
+	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"help.autoclose": "Autoclose related commands",
+	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
+	"help.autoclose.configure": "Edit autoclose related settings",
+	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
+	"commands.claim.no_permission": "Only staff members can claim tickets",
+	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
+	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
+	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
+	"close.reason_too_long": "The reason cannot be longer than 255 characters",
+	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
+	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
+	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
+	"commands.close_request.denied": "<@%d> denied the close request",
+	"generic.error": "Error",
+	"feedback.disabled": "This server has feedback disabled",
+	"feedback.success": "Your feedback has been recorded",
+	"generic.success": "Success",
+	"button.guild_only": "This button must be used in a server",
+	"button.dms_only": "This button must be used in direct messages",
+	"commands.tag.generic": "Tag",
+	"commands.tags.delete.success": "Tag `%s` has been deleted",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Premium Only Command",
+	"generic.admin": "Admin",
+	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
+	"generic.title.about": "About",
+	"generic.title.vote": "Vote",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autoclose",
+	"generic.title.invite": "Invite",
+	"generic.title.close": "Close",
+	"generic.title.claim": "Claim",
+	"generic.title.blacklisted": "Blacklisted",
+	"generic.title.blacklist": "Blacklist",
+	"generic.error.blacklisted": "You are blacklisted in this server",
+	"commands.blacklist.add.success": "<@%d> has been blacklisted",
+	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
+	"generic.title.add_admin": "Add Admin",
+	"generic.title.add_support": "Add Support",
+	"generic.title.remove_admin": "Remove Admin",
+	"generic.title.remove_support": "Remove Support",
+	"commands.addsupport.success": "Support representative added successfully",
+	"generic.title.language": "Language",
+	"commands.removesupport.success": "Support representative removed successfully",
+	"commands.addadmin.success": "Admin added successfully",
+	"commands.removeadmin.success": "Admin removed successfully",
+	"generic.title.setup": "Setup",
 	"generic.title.premium": "Premium",
-	"generic.title.panel": "控制面板",
-	"generic.title.rename": "重新命名",
-	"generic.title.remove": "移除",
-	"generic.title.help": "幫助",
-	"generic.title.close_confirmation": "確認關閉",
-	"close.confirmation": "請確定你真的要關閉客服單",
-	"generic.title.close_request": "要求關閉",
-	"commands.close_request.accept": "允許關閉客服單",
-	"commands.close_request.deny": "拒絕關閉客服單",
-	"commands.premium.success": "增加 Premium 天數 **%d** 天",
-	"generic.title.claimed": "接手客服單",
-	"generic.title.unclaimed": "取消接手客服單",
-	"generic.title.add": "增加",
-	"commands.add.success": "<@%d> 已加入 <#%d>",
-	"commands.remove.success": "<@%d> 已從 <#%d> 移除",
-	"open.ratelimited": "該伺服器短時間創建太多客服單，請稍後~~在~~再創建",
-	"commands.claim.thread": "礙於Discord 限制，接手客服單無法創建討論串",
-	"generic.join_support_server": "加入官方Discord",
-	"commands.open.guild_channel_limit": "該伺服器已經達到 Discord 限制的 500 個伺服器",
-	"commands.open.missing_form_answer": "請回答 `%s`",
-	"close.no_permission": "你無法關閉此客服單",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Rename",
+	"generic.title.remove": "Remove",
+	"generic.title.help": "Help",
+	"generic.title.close_confirmation": "Close Confirmation",
+	"close.confirmation": "Please confirm that you want to close this ticket",
+	"generic.title.close_request": "Close Request",
+	"commands.close_request.accept": "Accept & Close",
+	"commands.close_request.deny": "Deny & Keep Open",
+	"commands.premium.success": "Premium has been activated for **%d** days",
+	"generic.title.claimed": "Claimed Ticket",
+	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.add": "Add",
+	"commands.add.success": "<@%d> has been added to <#%d>",
+	"commands.remove.success": "<@%d> has been removed from <#%d>",
+	"open.ratelimited": "Tickets are being opened too quickly in this server",
+	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
+	"generic.join_support_server": "Join Support Server",
+	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
+	"commands.open.missing_form_answer": "You must answer the question `%s`",
+	"close.no_permission": "You are not permitted to close this ticket",
 	"": {
-		"generic.title.close_with_reason": "有原因的關閉客服單",
-		"generic.reason": "原因"
+		"generic.title.close_with_reason": "Close With Reason",
+		"generic.reason": "Reason"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "為甚麼要關閉這個客服單"
+			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
 		},
-		"success": "客服單被 <@%d> 關閉",
+		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "您無法評價這個客服單，因為您是 %s 的客服代表。",
-				"empty": "您無法評價這個客服單，因為您沒有傳送任何訊息。"
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": "/open 指令已經在這伺服器取消使用了唷",
+			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
-				"cant_see_parent_channel": "不能將 <@%d> 增加至客服單：請確保他們有權限查看討論串的父頻道（<#%d>）",
-				"cant_message_in_threads": "您缺少開啟客服單所需的「在討論串中傳送訊息」權限。請要求伺服器管理員授予您此權限，然後再試一次。"
+				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "請選擇選單中任一個",
-			"success": "此客服單已被 <@%d> 切換到 `%s` 類別"
+			"invalid_panel": "Invalid panel: You must select one from the dropdown",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		},
 		"blacklist": {
-			"staff": "管理員不能被黑名單唷",
+			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
-				"success": "<@&%d> 已經被黑名單",
-				"limit": "您達到了身分組黑名單限制（%d）"
+				"success": "<@&%d> has been blacklisted",
+				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
-				"limit": "您達到了使用者黑名單限制 (%d)：考慮使用身分組代替"
+				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "這個客服單沒有歡迎訊息",
-			"content": "按一下以下按鈕以跳到這個客服單的頂端"
+			"no_welcome_message": "This ticket does not have a welcome message",
+			"content": "Click the button below to jump to the top of the ticket"
 		},
 		"addsupport": {
-			"confirm": "請確認您想要將 %s 加入預設支持代表團隊",
-			"everyone": "您不能將 `@everyone` 身分組設定為工作人員"
+			"confirm": "Please confirm that you want to add %s to the default support representative team",
+			"everyone": "You cannot add the `@everyone` role as staff"
 		},
 		"addadmin": {
-			"confirm": "請確認您想將 %s 新增為機器人管理員"
+			"confirm": "Please confirm that you want to add %s as a bot administrator"
 		},
 		"tags": {
 			"create": {
-				"limit": "您達到了標籤限制（%d）"
+				"limit": "You have reached the tag limit (%d)"
 			},
 			"get": {
-				"requires_premium": "使用自訂指令 (標籤別名) 需要 Premium。"
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
-			"content": "可用的語言和其翻譯進度如下所示：\n%s",
-			"success": "伺服器語言已更改成 **%s**（%s）",
-			"select": "選擇一個語言（%c-%c）"
+			"content": "The available languages and their translation progress are as follows:\n%s",
+			"success": "The server language has been changed to **%s** (%s)",
+			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` 只能在討論串模式中使用，查看我們的 [文件](https://docs.ticketsbot.cloud/features/thread-mode) 來找到更多關於討論串的資訊",
-			"success": "您現在處於在線狀態",
-			"remove_success": "您現在已經不再處於在線狀態"
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"success": "You are now on call",
+			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
-			"not_found": "找不到客服單",
-			"no_permission": "您沒有權限重新開啟這個客服單",
-			"already_open": "這個客服單已經開啟了",
-			"not_thread": "只有討論串可以重新開啟",
-			"thread_deleted": "客服單已永久刪除",
-			"success": "客服單 %d 重新開啟：<#%d>",
-			"in_ticket": "這個客服單被 <@%d> 重新開啟"
+			"not_found": "Ticket not found",
+			"no_permission": "You do not have permission to reopen this ticket",
+			"already_open": "This ticket is already open",
+			"not_thread": "Only threads can be reopened",
+			"thread_deleted": "The ticket has been permanently deleted",
+			"success": "Ticket %d reopened: <#%d>",
+			"in_ticket": "This ticket has been reopened by <@%d>"
 		},
 		"premium": {
-			"key": "金鑰",
-			"check_again": "再次檢查",
-			"subscription_found": "找到訂閱！",
-			"subscription_found_content": "為了在此伺服器上套用您的訂閱，伺服器擁有者 (<@%d>) 必須透過 </addadmin:%d> 指令將您新增為管理員**使用者**（身分組將被忽略）。\\n\\n您可以通過執行 </viewstaff:%d> 指令來驗證您已被新增為管理員使用者。",
-			"activate_key": "啟用 Premium 訂閱金鑰",
-			"checking": "檢查 Premium 訂閱狀態...",
-			"please_wait": "請稍等...",
-			"success_after_check": "Premium 已在這個伺服器啟用！",
-			"link_patreon_account": "連結 Patreon 帳號",
-			"no_subscription": "找不到與您的 Discord 帳號連結的有效 Patreon 訂閱。請確定您 [已經連結你的 Patreon 和 Discord 帳號](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role)，並等待 10 分鐘。",
-			"open_form": "開啟表格",
-			"open_form_description": "按一下以下按鈕重新打開表格",
-			"use_key_anyway": "仍然使用 Premium 訂閱金鑰",
-			"already_purchased_title": "已經購買 Premium 訂閱？",
-			"already_purchased_description": "如果您已經購買了 Premium 訂閱，請在下拉式選單中選擇付款方式來開始",
-			"giveaway_key": "抽獎金鑰",
+			"key": "Key",
+			"check_again": "Check Again",
+			"subscription_found": "Subscription Found!",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
+			"activate_key": "Activate A Premium Key",
+			"checking": "Checking Premium Status...",
+			"please_wait": "Please wait...",
+			"success_after_check": "Premium is now active in this server!",
+			"link_patreon_account": "Link Patreon Account",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"open_form": "Open Form",
+			"open_form_description": "Press the button below to reopen the form",
+			"use_key_anyway": "Use Premium Key Anyway",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
 			"selector": {
-				"description": "選擇您取得 Premium 訂閱的方法",
+				"description": "Select which method you used to obtain premium",
 				"key": {
-					"description": "如果您已獲得抽獎金鑰，請選擇此選項。"
+					"description": "Select this option if you were given a giveaway key"
 				},
 				"patreon": {
-					"description": "如果您在 Patreon 上購買，請選擇此選項"
+					"description": "Select this option if you made your purchase on Patreon"
 				},
 				"discord": {
-					"description": "如果您是在 Discord 應用程式內商店購買，請選擇這項選項。"
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium 可以讓您存取更多的面板、統計、自訂機器人等功能！請訪問我們的 [網站](https://ticketsbot.cloud/premium) 以了解更多資訊。",
-			"already_activated": "好消息！Premium 已在此伺服器啟用。",
-			"already_activated_whitelabel": "好消息！Premium 已在此伺服器啟用。\n\n有關如何使用自訂機器人，請閱讀 [我們的自訂機器人設定指南](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide)。",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium 可以直接在 Discord 購買。按下下方按鈕前往訂閱管理頁面。\n\n購買後，系統可能需要最多 5 分鐘才能偵測到您的訂閱，請耐心等候。"
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "您的 Patreon 訂閱已成功連結。請按一下下方「開啟伺服器選單」按鈕，以開啟選單並選擇您要套用 Premium 訂閱的伺服器。",
-			"open_server_selector": "開啟伺服器選單"
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
-			"added_to_existing": "你已被加入到現有的註釋串中：<#%d>",
-			"thread_name": "註釋",
-			"created": "已為此客服單建立了一個註釋串：<#%d>"
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "由於 Discord 的限制，客服單每 10 分鐘只能重新命名兩次。"
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
-			"redeem_credits": "兌換投票點數",
-			"no_credits": "兌換失敗：您沒有任何投票點數！",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
-					"plural": "您的投票點數已成功兌換 **%d** 天的 Premium！",
-					"singular": "您的投票點數已成功兌換 **%d** 天的 Premium！"
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "您目前擁有 **%d** 點投票點數。按一下下方的「兌換投票點數」按鈕，即可兌換成 **%d** 天的伺服器 Premium。",
-				"singular": "您目前擁有 **%d** 點投票點數。按一下下方的「兌換投票點數」按鈕，即可兌換成 **%d** 天的伺服器 Premium。"
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "更換客服單類別",
-			"jump_to_top": "跳至頂部",
-			"reopened": "客服單已重新開啟",
-			"ticket_closed": "客服單已關閉"
+			"panel_switched": "Ticket Panel Switched",
+			"jump_to_top": "Jump To Top",
+			"reopened": "Ticket Reopened",
+			"ticket_closed": "Ticket Closed"
 		},
-		"click_here": "按一下此處",
-		"confirm": "確認",
-		"website": "我們的網站"
+		"click_here": "Click Here",
+		"confirm": "Confirm",
+		"website": "Our Website"
 	},
 	"help": {
-		"switch_panel": "將客服單切換到另一個客服單面板，更改頻道類別、支持團隊等。",
-		"jump_to_top": "按一下以下按鈕跳到客服單頂端",
-		"on_call": "將您標註為線上狀態，以便在所有新的客服單中加入並被通知。",
-		"reopen": "重新開啟之前關閉的客服單",
-		"notes": "建立一個供支援團隊之間進行私人討論的串"
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
+		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
+		"reopen": "Reopens a ticket that was previously closed",
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> 已從黑名單中移出"
+				"successcklisted": "<@&%d> has been unblacklisted"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "想要進一步了解更多嗎？我們的 [文件](https://docs.ticketsbot.cloud) 將教您如何設定機器人！"
+			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
-			"no_notification_channel": "您必須提供一個客服單通知頻道",
-			"notification_channel_type": "客服單通知頻道必須是文字頻道",
-			"success": "討論串模式已啟用",
-			"disabled": "討論串模式已停用"
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "這個客服單已關閉",
-			"no_permission": "您沒有查看此類型客服單的權限",
-			"already_joined": "您已經加入了這個客服單（<#%d>）",
-			"success": "將您加入到客服單：<#%d>"
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
+			"already_joined": "You have already joined this ticket (<#%d>)",
+			"success": "Added you to the ticket: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "討論串不能在公告頻道中建立",
-		"panel_force_disabled": "這個面板已停用。請詢問伺服器管理員以重新啟用 Premium ，並執行 %s 以重新啟用此面板。",
-		"panel_disabled": "伺服器管理員已停用開啟此類型的客服單",
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
-			"no_allow_rules": "停用了所有身分組開啟此類客服單的存取權限",
-			"deny_listed": "你無法開啟此類客服單，因為你擁有身分組 <@&%d>",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "要開啟此類客服單，你需要擁有以下身分組之一：%s",
-				"single": "要開啟此類客服單，你需要擁有以下身分組：%s"
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "註釋串僅在頻道模式支援"
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }
