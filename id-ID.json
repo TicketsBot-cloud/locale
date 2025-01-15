@@ -1,361 +1,361 @@
 {
-	"commands.about": "Ticket adalah bot tiket dan dukugan yang mudah digunakan dan sangat dikonfigurasi.\\nServer dukungan: https://discord.gg/ticketsbot\\nPerintah: Ketik `/help`\\nMulai dengan menjalankan `/setup`",
-	"commands.add.no_members": "Anda perlu menyebutkan anggota untuk ditambahkan ke tiket",
-	"commands.add.no_permission": "Anda tidak memiliki izin untuk menambahkan orang ke tiket ini",
-	"commands.addadmin.no_members": "Anda perlu menyebutkan pengguna atau memberi nama peran untuk memberikan hak istimewa admin",
-	"commands.addadmin.owner": "Pemilik server sudah menjadi administrator",
-	"commands.addsupport.no_members": "Anda perlu menyebutkan pengguna atau menyebutkan peran untuk memberikan hak istimewa kepada perwakilan dukungan",
-	"commands.blacklist.no_members": "Anda perlu menyebutkan pengguna untuk mengaktifkan status daftar hitam",
-	"commands.blacklist.self": "Anda tidak dapat memasukkan diri Anda sendiri ke dalam daftar hitam",
-	"commands.claim.success": "Tiket Anda akan ditangani oleh %s",
-	"commands.invite": "[Klik disini](<https://invite.ticketsbot.cloud>)",
-	"commands.language.invalid": "Anda perlu menentukan kode atau tanda bahasa. Bahasa yang tersedia:\\n%s",
-	"commands.open.ticket_limit": "Anda hanya dapat membuka %d %s sekaligus",
-	"commands.open.too_many_tickets": "Anda terlalu banyak tiket di kategori tiket. Minta admin untuk menutup beberapa, memindahkannya ke kategori lain, atau mgrenyiapkan kategori tambahan.\n\nIni adalah **Batas yang diberlakukan Discord** sebanyak 50 saluran per kategori.",
-	"commands.panel": "Kunjungi <https://dashboard.ticketsbot.cloud/manage/%d/panels> untuk mungonfigurasi panel",
-	"commands.premium": "Anda dapat membeli langganan premium dari <https://www.patreon.com/ticketsbot-cloud>.\\nPremium memberikan banyak keuntungan, seperti\\n```diff\\n+Membuat panel tiket tanpa batas\\n+ Sesuaikan nama bot, avatar & status (label putih)\\n+Statistik terperinci tentang server, pengguna, dan staf pendukung\\n+ Tidak ada merek di footer pesan\\n+Mendukung pengembangan dan membantu saya membayar biaya server\\n```\\n\\nAtau, Anda dapat memilih di <https://vote.ticketsbot.cloud> untuk mendapatkan premium gratis selama 24 jam",
-	"commands.premium.invalid_key": "Kunci tidak sesuai. Pastikan Anda telah menyalinnya dengan benar.",
-	"commands.remove.no_permission": "Anda tidak memiliki izin untuk menghapus orang dari tiket ini",
-	"commands.remove.staff": "Anda tidak dapat menghapus staf dari ticket",
-	"commands.removeadmin.no_members": "Anda perlu menyebutkan pengguna atau memberi nama peran untuk mencabut hak istimewa admin",
-	"commands.removeadmin.owner": "Pemilik guild harus menjadi admin",
-	"commands.removeadmin.self": "Anda tidak dapat mencabut hak istimewa Anda sendiri",
-	"commands.removesupport.no_members": "Anda perlu menyebutkan pengguna atau menyebutkan peran untuk memberikan hak istimewa kepada perwakilan dukungan",
-	"commands.rename.missing_name": "Anda perlu menentukan nama baru untuk tiket ini",
-	"commands.rename.success": "Ticket ini telah diubah namanya menjadi <#%d>",
-	"commands.tags.create.already_exists": "Tag dengan ID `%s` sudah ada. Anda dapat menghapus tag menggunakan `/tag delete %s`",
-	"commands.tags.create.invalid_arguments": "Anda harus menentukan ID tag dan isinya",
-	"commands.tags.create.too_long": "ID Tag tidak boleh lebih dari 16 karakter",
-	"commands.tags.delete.invalid_arguments": "Anda harus menentukan ID tag yang akan dihapus",
-	"commands.tags.delete.not_exist": "Tag dengan ID `%s` tidak dapat ditemukan",
-	"commands.tags.get.invalid_arguments": "Anda harus memberikan ID tag. Untuk bantuan lebih lanjut mengenai tag, kunjungi <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Tag tidak valid. Untuk bantuan lebih lanjut mengenai tag, kunjungi <https://ticketsbot.cloud/tags>.",
-	"commands.tags.list": "ID untuk semua tag: \\n%s\\nUntuk melihat konten tag, jalankan `/%stag <ID>`",
-	"commands.unclaim.not_claimed": "Tidak ini tidak diklaim",
-	"commands.unclaim.not_claimer": "Hanya admin dan pengguna yang mengklaim tiket yang dapat membatalkan klaim tiket tersebut",
-	"commands.unclaim.success": "Semua perwakilan dukungan sekarang dapat merespons tiket tersebut",
-	"commands.vote": "Klik di sini untuk memilih premium gratis 27 jam:\\n<https://vote.ticketsbot.cloud>",
-	"generic.invalid_argument": "Argumen tidak valid: lihat penggunaan",
-	"generic.invalid_user": "Tidak dapat menemukan pengguna target",
-	"generic.no_permission": "Anda tidak memiliki izin untuk ini",
-	"generic.not_ticket": "Ini bukan saluran tiket",
-	"generic.owner_only": "Perintah ini hanya diperuntukkan bagi pemilik bbot",
-	"help.about": "Memberi tahu Anda informasi tentang bot",
-	"help.add": "Menambahkan pengguna ke tiket",
-	"help.addadmin": "Memberikan hak istimewa kepada pengguna atau peran admin",
-	"help.addsupport": "Menambahkan pengguna atau peran sebagai perwakilan dukungan",
-	"help.admin": "Manajemen bot",
-	"help.admin.blacklist": "Daftar hitamkan guild agar tidak menggunakan bot",
-	"help.admin.check_premium": "Periksa status premium server",
-	"help.admin.generate_premium": "Hasilkan kunci premium",
-	"help.admin.get_owner": "Mendapatkan pemilik server",
-	"help.admin.unblacklist": "Menghaps guild dari daftar hitam guild",
-	"help.blacklist": "Mengalihkan apakah pengguna diizinkan berinteraksi dengan bot",
-	"help.cancel": "Membatalkan proses pengaturan",
-	"help.claim": "Menguaskan satu anggota staf ke tiket",
-	"help.close": "Menutup tiket saat ini",
-	"help.help": "Menunjukkan kepada Anda daftar perintah",
-	"help.invite": "Memberitahukan tautan undangan untuk bot",
-	"help.language": "Mengubah bahasa yang digunakan bot",
-	"help.managetags": "Tambahkan, hapus, atau daftarkan tag",
-	"help.open": "Membuka tiket baru",
-	"help.panel": "Membuat panel untuk memungkinkan pengguna membuka tiket dengan 1 klik",
-	"help.premium": "Jalankan perintah ini setelah membeli premium untuk mengaktifkannya",
-	"help.remove": "Menghapus pengguna dari tiket",
-	"help.removeadmin": "Mencabut hak istimewa admin pengguna atau peran",
-	"help.removesupport": "Mencabut hak istimewa perwakilan dukungan pengguna atau peran",
-	"help.rename": "Mengganti nama tiket saat ini",
-	"help.setup": "Memungkinkan Anda mengonfigurasi bot dengan mudah",
-	"help.stats": "Menampilkan statistik tentang pengguna, staf pendukung, dan server",
-	"help.statsserver": "Menunjukkan kepada Anda statistik tentang server",
-	"help.tag": "Mengirim cuplikan pesan",
-	"help.tagdelete": "Menghapus tag",
-	"help.taggadd": "Menambahkan tag baru",
-	"help.taglist": "Daftar semua tag",
-	"help.transfer": "Mentransfer tiket yangn diklaim ke pengguna lain",
-	"help.unclaim": "Menghapus klaim pada tiket saat ini",
-	"help.viewstaff": "Daftar anggota staf dan peran",
-	"help.vote": "Memberi Anda tautan untuk memilih premium gratis",
-	"open.success": "Membuka tiket baru: %s",
-	"setup.auto.category.failure": "Saya kehilangan izin `Kelola Saluran`",
-	"setup.auto.category.success": "Kategori Tiket yang Dibuat",
-	"setup.auto.completed": "Penyiapan selesai! Klik [di sini](https://dashboard.ticketsbot.cloud/manage/%d/panels) untuk menyiapkan panel reaksi, dan menambahkan peran <@&%d> dan <@&%d> ke anggota staf Anda",
-	"setup.auto.roles.failure": "Saya kehilangan izin `Kelola Peran`",
-	"setup.auto.roles.success": "Membuat peran `Admin Ticket` & `Dukungan Tiket`",
-	"setup.auto.transcript.failure": "Saya kehilangan izin `Kelola Saluran`",
-	"setup.auto.transcript.success": "Membuat saluran <#%d>",
-	"setup.ticket_limit.success": "Batas tiket telah diperbarui menjadi `%d`",
-	"setup.transcript.invalid": "Anda harus menyebutkan saluran valid di server (misalnya <#%d>)\\n**Contoh:** `/setup transcripts #logs`",
-	"setup.transcript.success": "Saluran transkrip telah diubah menjadi <#%d>",
-	"commands.language.help_wanted": "Apakah Anda berbicara bahasa lain? Bergabunglah dengan [server dukungan](https://discord.gg/ticketsbot) kami jika Anda tertarik membantu menerjemahkan bot ke lebih banyak bahasa",
-	"commands.rename.too_long": "Nama saluran tidak boleh lebih dari 100 karakter",
-	"commands.autoclose.configure": "Kunjungi [dasbor](https://dashboard.ticketsbot.cloud/manage/%d/settings) untuk mengubah pengaturan tutup otomatis",
-	"help.autoclose": "Perintah terkait tutup otomatis",
-	"help.autoclose.exclude": "Tidak termasuk tiket saat ini agar tidak tutup secara otomatis",
-	"help.autoclose.configure": "Edit pengaturan terkait tutup otomatis",
-	"commands.autoclose.exclude.success": "Tiket ini telah dikecualikan dari penutupan otomatis",
-	"commands.claim.no_permission": "Hanya anggota staf yang dapat mengklaim tiket",
-	"commands.open.from": "Tiket ini dibuka dari [pesan ini](%s).\n\n<@%d> berkata di <#%d>:\n```%s```",
-	"commands.open.from.moved": "Percakapan telah dipindahkan ke tiket (<#%d>)",
-	"help.close_request": "Mengirimkan pesan yang meminta pengguna untuk mengonfirmasi bahwa tiket dapat ditutup",
-	"close.reason_too_long": "Alasannya tidak boleh lebih dari 255 karakter",
-	"commands.close_request.no_reason": "<@%d> telah meminta untuk menutup tiket ini.\n\nSilaka terima atau tolak menggunakan tombol di bawah.",
-	"commands.close_request.with_reason": "<@%d> telah meminta untuk menutup tiket ini. Alasan:\n```\n%s\n```\nSilakan terima atau tolak menggunakan tombol di bawah.",
-	"commands.close_request.no_permission": "Hanya pengguna yang membuka tiket yang dapat menanggapi permintaan penutupan",
-	"commands.close_request.denied": "<@%d> menolak permintaan penutupan",
-	"generic.error": "Kesalahan",
-	"feedback.disabled": "Umpan balik di server ini dinonaktifkan",
-	"feedback.success": "Masukkan Anda telah dicatat",
-	"generic.success": "Berhasil",
-	"button.guild_only": "Tombol ini harus digunakan di server",
-	"button.dms_only": "Tombol ini harus digunakan dalam pesan langsung",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.add.no_members": "You need to mention members to add to the ticket",
+	"commands.add.no_permission": "You don't have permission to add people to this ticket",
+	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
+	"commands.addadmin.owner": "The server owner is already an administrator",
+	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
+	"commands.blacklist.self": "You cannot blacklist yourself",
+	"commands.claim.success": "Your ticket will be handled by %s",
+	"commands.invite": "[Click here](<https://invite.ticketsbot.cloud>)",
+	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
+	"commands.open.ticket_limit": "You are only able to open %d %s at once",
+	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.cloud> to get premium free for 24 hours",
+	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
+	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
+	"commands.remove.staff": "You cannot remove staff from a ticket",
+	"commands.removeadmin.no_members": "You need to mention a user or name a role to revoke admin privileges from",
+	"commands.removeadmin.owner": "The guild owner must be an admin",
+	"commands.removeadmin.self": "You cannot revoke your own privileges",
+	"commands.removesupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.rename.missing_name": "You need to specify a new name for this ticket",
+	"commands.rename.success": "This ticket has been renamed to <#%d>",
+	"commands.tags.create.already_exists": "A tag with the ID `%s` already exists. You can delete the tag using `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "You must specify a tag ID and contents",
+	"commands.tags.create.too_long": "Tag IDs cannot be longer than 16 characters",
+	"commands.tags.delete.invalid_arguments": "You must specify a tag ID to delete",
+	"commands.tags.delete.not_exist": "A tag with the ID `%s` could not be found",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
+	"commands.unclaim.not_claimed": "This ticket is not claimed",
+	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
+	"commands.unclaim.success": "All support representatives can now respond to the ticket",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"generic.invalid_argument": "Invalid argument: refer to usage",
+	"generic.invalid_user": "Couldn't find the target user",
+	"generic.no_permission": "You do not have permission for this",
+	"generic.not_ticket": "This is not a ticket channel",
+	"generic.owner_only": "This command is reserved for the bot owner only",
+	"help.about": "Tells you information about the bot",
+	"help.add": "Adds a user to a ticket",
+	"help.addadmin": "Grants a user or role admin privileges",
+	"help.addsupport": "Adds a user or role as a support representative",
+	"help.admin": "Bot management",
+	"help.admin.blacklist": "Blacklist a guild from using the bot",
+	"help.admin.check_premium": "Check the premium status of a server",
+	"help.admin.generate_premium": "Generate premium keys",
+	"help.admin.get_owner": "Gets the owner of a server",
+	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
+	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
+	"help.cancel": "Cancels the setup process",
+	"help.claim": "Assigns a single staff member to a ticket",
+	"help.close": "Closes the current ticket",
+	"help.help": "Shows you a list of commands",
+	"help.invite": "Provides an invite link for the bot",
+	"help.language": "Changes the language the bot uses",
+	"help.managetags": "Add, delete or list tags",
+	"help.open": "Opens a new ticket",
+	"help.panel": "Creates a panel to enable users to open a ticket with 1 click",
+	"help.premium": "Run this command after purchasing premium to activate it",
+	"help.remove": "Removes a user from a ticket",
+	"help.removeadmin": "Revokes a user's or role's admin privileges",
+	"help.removesupport": "Revokes a user's or role's support representative privileges",
+	"help.rename": "Renames the current ticket",
+	"help.setup": "Allows you to easily configure the bot",
+	"help.stats": "Shows you statistics about users, support staff and the server",
+	"help.statsserver": "Shows you statistics about the server",
+	"help.tag": "Sends a message snippet",
+	"help.tagdelete": "Deletes a tag",
+	"help.taggadd": "Adds a new tag",
+	"help.taglist": "Lists all tags",
+	"help.transfer": "Transfers a claimed ticket to another user",
+	"help.unclaim": "Removes the claim on the current ticket",
+	"help.viewstaff": "Lists the staff members and roles",
+	"help.vote": "Gives you a link to vote for free premium",
+	"open.success": "Opened a new ticket: %s",
+	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.category.success": "Created Tickets category",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
+	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
+	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.transcript.success": "Created <#%d> channel",
+	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
+	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
+	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
+	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"help.autoclose": "Autoclose related commands",
+	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
+	"help.autoclose.configure": "Edit autoclose related settings",
+	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
+	"commands.claim.no_permission": "Only staff members can claim tickets",
+	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
+	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
+	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
+	"close.reason_too_long": "The reason cannot be longer than 255 characters",
+	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
+	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
+	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
+	"commands.close_request.denied": "<@%d> denied the close request",
+	"generic.error": "Error",
+	"feedback.disabled": "This server has feedback disabled",
+	"feedback.success": "Your feedback has been recorded",
+	"generic.success": "Success",
+	"button.guild_only": "This button must be used in a server",
+	"button.dms_only": "This button must be used in direct messages",
 	"commands.tag.generic": "Tag",
-	"commands.tags.delete.success": "Tag `%s` telah dihapus",
-	"generic.ticket": "Tiket",
-	"generic.title.premium_only": "Perintah Khusus Premium",
+	"commands.tags.delete.success": "Tag `%s` has been deleted",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Premium Only Command",
 	"generic.admin": "Admin",
-	"commands.tags.create.success": "Tag dibuat - Anda dapat menggunakannya dengan menjalankan `/tag %s`",
-	"generic.title.about": "Tentang",
-	"generic.title.vote": "Pilih",
-	"generic.title.tags": "Tag",
-	"generic.title.autoclose": "Tutup otomatis",
-	"generic.title.invite": "Mengundang",
-	"generic.title.close": "Tutup",
-	"generic.title.claim": "Klaim",
-	"generic.title.blacklisted": "Daftar Hitam",
-	"generic.title.blacklist": "Daftar Hitam",
-	"generic.error.blacklisted": "Anda masuk daftar hitam di server ini",
-	"commands.blacklist.add.success": "<@%d> telah masuk daftar hitam",
-	"commands.blacklist.remove.success": "<@%d> telah dibatalkan daftar hitamnya",
-	"generic.title.add_admin": "Tambahkan Admin",
-	"generic.title.add_support": "Tambahkan Dukungan",
-	"generic.title.remove_admin": "Hapus Admin",
-	"generic.title.remove_support": "Hapus Dukungan",
-	"commands.addsupport.success": "Perwakilan dukungan berhasil ditambahkan",
-	"generic.title.language": "Bahasa",
-	"commands.removesupport.success": "Perwakilan dukungan berhasil ditambahkan",
-	"commands.addadmin.success": "Admin berhasil menambahkan",
-	"commands.removeadmin.success": "Admin berhasil dihapus",
-	"generic.title.setup": "Mempersiapkan",
+	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
+	"generic.title.about": "About",
+	"generic.title.vote": "Vote",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autoclose",
+	"generic.title.invite": "Invite",
+	"generic.title.close": "Close",
+	"generic.title.claim": "Claim",
+	"generic.title.blacklisted": "Blacklisted",
+	"generic.title.blacklist": "Blacklist",
+	"generic.error.blacklisted": "You are blacklisted in this server",
+	"commands.blacklist.add.success": "<@%d> has been blacklisted",
+	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
+	"generic.title.add_admin": "Add Admin",
+	"generic.title.add_support": "Add Support",
+	"generic.title.remove_admin": "Remove Admin",
+	"generic.title.remove_support": "Remove Support",
+	"commands.addsupport.success": "Support representative added successfully",
+	"generic.title.language": "Language",
+	"commands.removesupport.success": "Support representative removed successfully",
+	"commands.addadmin.success": "Admin added successfully",
+	"commands.removeadmin.success": "Admin removed successfully",
+	"generic.title.setup": "Setup",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panel",
-	"generic.title.rename": "Ganti nama",
-	"generic.title.remove": "Menghapus",
-	"generic.title.help": "Membantu",
-	"generic.title.close_confirmation": "Tutup Konfirmasi",
-	"close.confirmation": "Harap konfirmasi bahwa Anda ingin menutup tiket ini",
-	"generic.title.close_request": "Tutup Permintaan",
-	"commands.close_request.accept": "Terima & Tutup",
-	"commands.close_request.deny": "Tolak & Tetap Terbuka",
-	"commands.premium.success": "Premium telah diaktifkan selama **%d** hari",
-	"generic.title.claimed": "Tiket yang Diklaim",
-	"generic.title.unclaimed": "Tiket Tidak Diklaim",
-	"generic.title.add": "Menambahkan",
-	"commands.add.success": "<@%d> telah ditambahkan ke <#%d>",
-	"commands.remove.success": "<@%d> telah dihapus dari <#%d>",
-	"open.ratelimited": "Tiket dibuka terlalu cepat di server ini",
-	"commands.claim.thread": "Karena keterbatasan Discord, klaim tidak mendukung thread",
-	"generic.join_support_server": "Bergabunglah dengan Server Dukungan",
-	"commands.open.guild_channel_limit": "Server ini telah mencapai batas 500 saluran Discord",
-	"commands.open.missing_form_answer": "Anda harus menjawab pertanyaan `%s`",
-	"close.no_permission": "Anda tidak diperbolehkan menutup tiket ini",
+	"generic.title.rename": "Rename",
+	"generic.title.remove": "Remove",
+	"generic.title.help": "Help",
+	"generic.title.close_confirmation": "Close Confirmation",
+	"close.confirmation": "Please confirm that you want to close this ticket",
+	"generic.title.close_request": "Close Request",
+	"commands.close_request.accept": "Accept & Close",
+	"commands.close_request.deny": "Deny & Keep Open",
+	"commands.premium.success": "Premium has been activated for **%d** days",
+	"generic.title.claimed": "Claimed Ticket",
+	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.add": "Add",
+	"commands.add.success": "<@%d> has been added to <#%d>",
+	"commands.remove.success": "<@%d> has been removed from <#%d>",
+	"open.ratelimited": "Tickets are being opened too quickly in this server",
+	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
+	"generic.join_support_server": "Join Support Server",
+	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
+	"commands.open.missing_form_answer": "You must answer the question `%s`",
+	"close.no_permission": "You are not permitted to close this ticket",
 	"": {
-		"generic.title.close_with_reason": "Tutup Dengan Alasan",
-		"generic.reason": "Alasan"
+		"generic.title.close_with_reason": "Close With Reason",
+		"generic.reason": "Reason"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Alasan penutupan tiket, mis. \"Terselesaikan\""
+			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
 		},
-		"success": "Tiket ditutup oleh <@%d>",
+		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "Anda tidak dapat menilai tiket ini karena Anda adalah perwakilan dukungan di %s",
-				"empty": "Anda tidak dapat menilai tiket ini karena Anda tidak mengirim pesan apa pun"
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": "Perintah `/open` dinonaktifka di server ini: silakan gunakan panel tiket untuk membuka tiket",
+			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
-				"cant_see_parent_channel": "Tidak dapat menambahkan <@%d> ke tiket: Pastikan mereka memiliki izin untuk melihat saluran induk thread (<#%d>)",
-				"cant_message_in_threads": "Anda tidak memiliki izin `Kirim Pesan di Thread`, yang diperlukan untuk membuka tiket. Harap minta administrator server untuk memberikan izin ini kepada Anda lalu coba lagi."
+				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "Panel tidak valid: Anda harus memilih salah satu dari dropdown",
-			"success": "Tiket ini telah dialihkan ke panel `%s` oleh <@%d>"
+			"invalid_panel": "Invalid panel: You must select one from the dropdown",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		},
 		"blacklist": {
-			"staff": "Anggota staf tidak dapat dimasukkan dalam daftar hitam",
+			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
-				"success": "<@&%d> telah masuk daftar hitam",
-				"limit": "Anda telah mencapai batas daftar hitam peran (%d)"
+				"success": "<@&%d> has been blacklisted",
+				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
-				"limit": "Anda telah mencapai batas daftar hitam pengguna (%d): pertimbangkan untuk menggunakan peran saja"
+				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "Tiket ini tidak memiliki pesan selamat datang",
-			"content": "Klik tombol di bawah untuk melompat ke bagian atas tiket"
+			"no_welcome_message": "This ticket does not have a welcome message",
+			"content": "Click the button below to jump to the top of the ticket"
 		},
 		"addsupport": {
-			"confirm": "Harap konfirmasikan bahwa Anda ingin menambahkan %s ke tim perwakilan dukungan default",
-			"everyone": "Anda tidak dapat menambahkan peran `@semua orang` sebagai staf"
+			"confirm": "Please confirm that you want to add %s to the default support representative team",
+			"everyone": "You cannot add the `@everyone` role as staff"
 		},
 		"addadmin": {
-			"confirm": "Harap konfirmasi bahwa Anda ingin menambahkan %s sebagai administrator bot"
+			"confirm": "Please confirm that you want to add %s as a bot administrator"
 		},
 		"tags": {
 			"create": {
-				"limit": "Anda telah mencapai batas tag (%d)"
+				"limit": "You have reached the tag limit (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium diperlukan untuk menggunakan perintah khusus (alias tag)"
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
-			"content": "Bahasa yang tersedia dan kemajuan terjemahannya adalah sebagai berikut:\n%s",
-			"success": "Bahasa server telah diubah menjadi **%s** (%s)",
-			"select": "Pilih bahasa (%c-%c)"
+			"content": "The available languages and their translation progress are as follows:\n%s",
+			"success": "The server language has been changed to **%s** (%s)",
+			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` hanya dapat digunakan dalam mode thread. Kunjungi [dokumen](https://docs.ticketsbot.cloud/features/thread-mode) untuk mengetahui lebih lanjut tentang rangkaian pesan",
-			"success": "Anda sekarang sedang dihubungi",
-			"remove_success": "Anda tidak lagi dapat dihubungi"
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"success": "You are now on call",
+			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
-			"not_found": "Tiket tidak ditemukan",
-			"no_permission": "Anda tidak memiliki izin untuk membuka kembali tiket ini",
-			"already_open": "Tiket ini sudah dibuka",
-			"not_thread": "Hanya thread yang bisa dibuka kembali",
-			"thread_deleted": "Tiket telah dihapus secara permanen",
-			"success": "Tiket %d dibuka kembali: <#%d>",
-			"in_ticket": "Tidak ini telah dibuka kembali oleh <@%d>"
+			"not_found": "Ticket not found",
+			"no_permission": "You do not have permission to reopen this ticket",
+			"already_open": "This ticket is already open",
+			"not_thread": "Only threads can be reopened",
+			"thread_deleted": "The ticket has been permanently deleted",
+			"success": "Ticket %d reopened: <#%d>",
+			"in_ticket": "This ticket has been reopened by <@%d>"
 		},
 		"premium": {
-			"key": "Kunci",
-			"check_again": "Periksa Kembali",
-			"subscription_found": "Langganan Ditemukan!",
-			"subscription_found_content": "Untuk menerapkan langganan Anda ke server ini, pemilik server (<@%d>) harus menambahkan Anda sebagai Amdin **pengguna** (peran diabaikan) melalu perintah </addadmin:%d>.\\n\\nAnda dapat memverifikasi bahwa Anda telah ditambahkan sebagai pengguna admin dengan menjalankan </viewstaff:%d>.",
-			"activate_key": "Aktifkan Kunci Premium",
-			"checking": "Memeriksa Status Premium...",
-			"please_wait": "Mohon tunggu...",
-			"success_after_check": "Premium sekarang aktif di server ini!",
-			"link_patreon_account": "Tautkan Akun Patreon",
-			"no_subscription": "Tidak dapat menemukan langganan Patreon aktif yang tertaut ke akun Discord Anda. Pastikan Anda [telah menautkan akun Patreon dan Discord Anda](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), dan tunggu 10 menit lagi.",
-			"open_form": "Buka Formulir",
-			"open_form_description": "Tekan tombol di bawah untuk membuka kembali formulir",
-			"use_key_anyway": "Tetap gunakan Kunci Premium",
-			"already_purchased_title": "Sudah membeli premium?",
-			"already_purchased_description": "Jika Anda sudah membeli premium, pilih metode pembayaran dari dropdown untuk memulai",
-			"giveaway_key": "Kunci Hadiah",
+			"key": "Key",
+			"check_again": "Check Again",
+			"subscription_found": "Subscription Found!",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
+			"activate_key": "Activate A Premium Key",
+			"checking": "Checking Premium Status...",
+			"please_wait": "Please wait...",
+			"success_after_check": "Premium is now active in this server!",
+			"link_patreon_account": "Link Patreon Account",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"open_form": "Open Form",
+			"open_form_description": "Press the button below to reopen the form",
+			"use_key_anyway": "Use Premium Key Anyway",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
 			"selector": {
-				"description": "Pilih metode mana yang Anda gunakan untuk mendapatkan premi",
+				"description": "Select which method you used to obtain premium",
 				"key": {
-					"description": "Pilih opsi ini jika Anda diberi kunci giveaway"
+					"description": "Select this option if you were given a giveaway key"
 				},
 				"patreon": {
-					"description": "Pilih opsi ini jika Anda melakukan pembelian dari Patreon"
+					"description": "Select this option if you made your purchase on Patreon"
 				},
 				"discord": {
-					"description": "Pilih opsi ini jika Anda melakukan pembelian di toko dalam aplikasi Discord"
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium memberi Anda akses ke lebih banyak panel, statistik, bot khusu, dan banyak lagi! Kunjungi [situs web](https://ticketsbot.cloud/premium) untuk mengetahui lebih lanjut.",
-			"already_activated": "Kabar bait! Premium sudah aktif di server ini.",
-			"already_activated_whitelabel": "Kabar baik! Premium sudah aktif di server ini.\n\nUntuk bantuan memulai whitelabel, baca [panduan penyiapan whitelabel kami](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium dapat dibeli langsung di Discord. Klik tombol di bawah pesan ini untuk membuka halaman manajemen langganan.\n\nSetelah dibeli, harap tunggu hingga 5 menit agar langganan terdeteksi."
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "Langganan Patreon Anda telah ditemukan. Silakan klik tombol \"Buka Pemilih Server\" di bawah ini untuk membuka dasbor guna memilih server mana yang ingin Anda terapkan langganan premium Anda.",
-			"open_server_selector": "Buka Pemilih Server"
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
-			"added_to_existing": "Anda telah ditambahkan ke rangkaian catatan yang ada: <#%d>",
-			"thread_name": "catatan",
-			"created": "Rangkaian catatan telah dibuat untuk tiket ini: <#%d>"
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Karena batasan yang diberlakukan oleh Discord, tiket hanya dapat diganti dua kali setiap 10 menit"
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
-			"redeem_credits": "Tukarkan Kredit",
-			"no_credits": "Penukaran gagal: Anda tidak memiliki kredit suara!",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
-					"plural": "Kredit suara Anda telah ditukarkan selama **%d** hari premium!",
-					"singular": "Kredit suara Anda telah ditukarkan untuk **%d** hari premium!"
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "Anda memiliki **%d** kredit suara. Klik tombol \"Tukarkan Kredit\" di bawah ini untuk menebusnya selama %d hari premium di server ini.",
-				"singular": "Anda memiliki **%d** kredit suara. Klik tombol \"Tukarkan Kredit\" di bawah ini untuk menukarkannya dengan %d hari premium di server ini."
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Panel Tiket Beralih",
-			"jump_to_top": "Lompat Ke Atas",
-			"reopened": "Tiket Dibuka Kembali",
-			"ticket_closed": "Tiket Ditutup"
+			"panel_switched": "Ticket Panel Switched",
+			"jump_to_top": "Jump To Top",
+			"reopened": "Ticket Reopened",
+			"ticket_closed": "Ticket Closed"
 		},
-		"click_here": "Klik Disini",
-		"confirm": "Konfirmasi",
-		"website": "Situs Web Kami"
+		"click_here": "Click Here",
+		"confirm": "Confirm",
+		"website": "Our Website"
 	},
 	"help": {
-		"switch_panel": "Mengalihkan tiket ke panel tiket lain, mengubah kategori saluran, tim dukungan, dll.",
-		"jump_to_top": "Memberi Anda tombol untuk melompak ke atas tiket",
-		"on_call": "Menandai Anda sebagai sedang dipanggil, untuk ditambahkan dan di-ping di semua tiket baru",
-		"reopen": "Membuka kembali tiket yang sebelumnya ditutup",
-		"notes": "Membuat thread untuk diskusi pribadi antara pewakilan dukungan"
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
+		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
+		"reopen": "Reopens a ticket that was previously closed",
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> telah dibatalkan dari daftar hitam"
+				"successcklisted": "<@&%d> has been unblacklisted"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "Ingin menjelajahi lebih jauh? [Dokumentasi](https://docs.ticketsbot.cloud) kami akan mengajari Anda cara mengonfigurasi setiap aspek bot!"
+			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
-			"no_notification_channel": "Anda harus menyediakan saluran notifikasi tiket",
-			"notification_channel_type": "Saluran notifikasi tiket harus berupa saluran teks",
-			"success": "Mode thread telah diaktifkan",
-			"disabled": "Mode thread telah dinonaktifkan"
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "Tiket ini sudah ditutup",
-			"no_permission": "Anda tidak memiliki izin untuk melihat jenis tiket ini",
-			"already_joined": "Anda sudah bergabung dengan tiket ini (<#%d>)",
-			"success": "Menambahkan Anda ke tiket: <#%d>"
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
+			"already_joined": "You have already joined this ticket (<#%d>)",
+			"success": "Added you to the ticket: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Thread tidak dapat dibuat di saluran pengumuman",
-		"panel_force_disabled": "Panel ini telah dinonaktifkan. Silakan minta admin server untuk mengaktifkan kembali premium, dan jalankan %s untuk mengaktifkan kembali panel ini.",
-		"panel_disabled": "Admin server telah menonaktifkan pembukaan tiket jenis ini",
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
-			"no_allow_rules": "Akses untuk membuka tiket jenis ini telah dinonaktifkan untuk semua peran",
-			"deny_listed": "Anda tidak dapat membuka tiket jenis ini karena Anda memiliki peran <@&%d>",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "Anda memerlukan salah satu peran berikut untuk membuka tiket jenis ini: %s",
-				"single": "Anda memerlukan salah satu peran berikut utuk membuka tiket jenis ini: %s"
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Catatan threads hanya didukung dalam mode saluran"
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }
