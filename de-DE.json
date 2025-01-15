@@ -6,7 +6,7 @@
 	"commands.addadmin.owner": "Der Serverbesitzer ist bereits ein Administrator",
 	"commands.addsupport.no_members": "Du musst Benutzer bzw. Rollen erwähnen, um sie als Support-Mitarbeiter hinzuzufügen",
 	"commands.blacklist.no_members": "Du musst einen Benutzer erwähnen, um ihn von der Blacklist zu löschen oder zur Blacklist hinzuzufügen",
-	"commands.blacklist.self": "Du kannst Dich nicht selbst auf die Blacklist setzen",
+	"commands.blacklist.self": "Du kannst dich nicht selbst auf die Blacklist setzen",
 	"commands.claim.success": "Dein Ticket wird von %s bearbeitet",
 	"commands.invite": "[Hier klicken](<https://invite.ticketsbot.cloud>)",
 	"commands.language.invalid": "Du musst einen Sprach-Code oder Flagge angeben. Verfügbare Sprachen:\\n%s",
