@@ -1,272 +1,272 @@
 {
-	"commands.about": "Tickets on lihtne bot mida kasutada ning see on hästi konfigureeritav abibot.\\nAbi server: https://discord.gg/ticketsbot\\nkäsud: Kirjuta `/help`\\nAlustamiseks kirjuta `/setup`",
-	"commands.add.no_members": "Sa pead mentionima kasutajaid keda lisada abipileti kanalisse",
-	"commands.add.no_permission": "Sul ei ole luba, et inimesi siia abipileti kanalisse lisada",
-	"commands.addadmin.no_members": "Sa pead mentionima kasutajat või rolli millele administraatori õigused anda",
-	"commands.addadmin.owner": "Serveri omanik on juba administraator",
-	"commands.addsupport.no_members": "Sa pead mentionima kasutajat või rolli millele abi andja õigused anda",
-	"commands.blacklist.no_members": "Sa pead mentionima kasutajat, millel blacklisti staatust muuta",
-	"commands.blacklist.self": "Sa ei saa ennast blacklistida",
-	"commands.claim.success": "Sinu abipiletiga tegeleb %s",
-	"commands.invite": "[Vajuta siia](<https://invite.ticketsbot.cloud>)",
-	"commands.language.invalid": "Sa pead täpsustama keele koodi või lippu. Saadavad keeled:\\n%s",
-	"commands.open.ticket_limit": "Sa saad ainult avada %d %s korraga",
-	"commands.open.too_many_tickets": "Abipiletite kategooria all on liiga palju abipileti kanaleid. Küsi, et administraator paneks mõned kinni, liigutaks neid teise kategooria alla või seadistaks ületäitumiskategooria.\n\nSee on **Discordi kehtestatud limiit** ehk maksimaalselt 50 kanalit igas kategoorias.",
-	"commands.panel": "Külasta\n<https://dashboard.ticketsbot.cloud/manage/%d/panels> et konfigureerida paneele",
-	"commands.premium": "Sa saad osta premium tellimuse siit: <https://www.patreon.com/ticketsbot-cloud>.\\nPremium annab palju kasulikke asju, nag näiteks:\\n```diff\\n+ Teha ükskõik kui palju abipiletite paneele\\n+\nMuuta boti nime, pilti ja staatust(whitelabel)\\n+ Detailsed statistikad serveri kohta, kasutajad ja abi personaale\\n+ Bränding puudub jaluse osas\\n+ Toetada arengut ja aitada mul maksta serveri maksud\\n```\\n\\nAlternatiivselt, saad sa hääletada siin <https://vote.ticketsbot.cloud> et saada premium 24-ks tunniks tasuta",
-	"commands.premium.invalid_key": "Ebasobiv võti. Tee kindlaks, et sa kopeerisid selle õigesti.",
-	"commands.remove.no_permission": "Sul ei ole luba, et inimesi siit abipileti kanalist ära võtta",
-	"commands.remove.staff": "Sa ei saa personaale abipiletist ära võtta",
-	"commands.removeadmin.no_members": "Sa pead mentionima kasutaja või rolli millelt administraatori õigused ära võtta",
-	"commands.removeadmin.owner": "Serveri omanik peab olema administraator",
-	"commands.removeadmin.self": "Sa ei saa endalt õigusi ära võtta",
-	"commands.removesupport.no_members": "Sa pead mentionima kasutaja või rolli millele abipersonaali õigused lisada",
-	"commands.rename.missing_name": "Sa pead täpsustama uue nime sellele abipiletite",
-	"commands.rename.success": "Abipileti nimi on muudetud: <#%d>",
-	"commands.tags.create.already_exists": "Silt, mille ID on `%s` juba eksisteerib. Sa saad silti kustutada koos `/tag kustuta %s`",
-	"commands.tags.create.invalid_arguments": "Sa pead täpsustama mingi sildi ID ja sisu",
-	"commands.tags.create.too_long": "Sildi ID'd ei tohi olla pikem kui 16 tähemärki",
-	"commands.tags.delete.invalid_arguments": "Sa pead täpsustama sildi ID mida kustutada",
-	"commands.tags.delete.not_exist": "Silt mille ID on `%s` ei leitud",
-	"commands.tags.get.invalid_arguments": "Sa pead edastama sildi ID. Kui on rohkem abi siltidega vaja, külasta <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Ebasobiv silt. Kui on rohkem abi siltidega vaja, külasta <https://ticketsbot.cloud/tags>.",
-	"commands.tags.list": "ID'd kõikide siltide jaoks: \\n%s\\nEt vaadata siltide sisu, käivitada `%ssilt <ID>`",
-	"commands.unclaim.not_claimed": "See abipilet pole võetud",
-	"commands.unclaim.not_claimer": "Ainult administraatorid ja kasutaja kes võttis abipileti saab ära anda abipileti",
-	"commands.unclaim.success": "Kõik abipersonaalid saavad nüüd vastata abipiletile",
-	"commands.vote": "Vajuta siia, et hääletada ning saada 24 tundi tasuta premium:\\n<https://vote.ticketsbot.cloud>",
-	"generic.invalid_argument": "Ebasobiv argument: vaata kasutust",
-	"generic.invalid_user": "Ei leidnud otsidud kasutajat",
-	"generic.no_permission": "Sul ei ole õigust selle jaoks",
-	"generic.not_ticket": "See pole abipileti kanal",
-	"generic.owner_only": "See käsk on reserveeritud ainult boti omanikule",
-	"help.about": "Ütleb sulle boti kohta informatsiooni",
-	"help.add": "Lisab mingi kasutaja abipiletisse",
-	"help.addadmin": "Annab mingile kasutajale või rollile administraatori õigused",
-	"help.addsupport": "Lisab mingi kasutaja või rolli abipersonaaliks",
-	"help.admin": "Boti muutmine",
-	"help.admin.blacklist": "Blacklisti mingi server boti kasutamisest",
-	"help.admin.check_premium": "Vaata mingi serveri premiumi staatust",
-	"help.admin.generate_premium": "Genereeri premium võti",
-	"help.admin.get_owner": "Saab mingi serveri omaniku",
-	"help.admin.unblacklist": "Võtab mingi serveri serveri blacklistist",
-	"help.blacklist": "Muudab kas kasutajad saavad botiga tegeleda",
-	"help.cancel": "Tühistab seadistamis protsessi",
-	"help.claim": "Paneb abipiletile üksiku personaali",
-	"help.close": "Paneb praeguse abipileti kinni",
-	"help.help": "Näitab sulle käskude listi",
-	"help.invite": "Annab sulle boti invite lingi",
-	"help.language": "Muuda mis keelt bot kasutab",
-	"help.managetags": "Lisa, kustuta või näita silte",
-	"help.open": "Avab uue abipileti",
-	"help.panel": "Teeb paneeli mis lubab kasutajatel avada abipilet 1-he vajutusega",
-	"help.premium": "Kasuta seda käsku pärast premiumi ostmist et seda aktiveerida",
-	"help.remove": "Eemaldab mingi kasutaja abipiletist",
-	"help.removeadmin": "Võtab ära mingi kasutaja või rolli administraatori õigused",
-	"help.removesupport": "Võtab ära mingi kasutaja või rolli abipersonaali õigused",
-	"help.rename": "Muudab praeguse abipileti nime",
-	"help.setup": "Laseb sul lihtsalt boti konfigureerida",
-	"help.stats": "Näitab sulle statistikat kasutajate, abipersonaalide, ja serveri kohta",
-	"help.statsserver": "Näitab sulle serveri statistikat",
-	"help.tag": "Saadab kirja katkendi",
-	"help.tagdelete": "Kustutab sildi",
-	"help.taggadd": "Lisab uue sildi",
-	"help.taglist": "Näitab kõiki silte",
-	"help.transfer": "Annab võetud abipileti mingile teisele kasutajale",
-	"help.unclaim": "Võtab ära claimi praeguselt abipiletilt",
-	"help.viewstaff": "Näitab personaale ja rolle",
-	"help.vote": "Annab sulle linki hääletamiseks et saada tasuta premium",
-	"open.success": "Avas uue pileti: %s",
-	"setup.auto.category.failure": "Mul on puudu \"Manage Channels\" luba",
-	"setup.auto.category.success": "Tegin Tickets kategooria",
-	"setup.auto.completed": "Seadistamine valmis! Vajuta [siia] (https://dashboard.ticketsbot.cloud/manage/%d/panels) et seadistada reaktsiooni paneel <@&%d> ja <@&%d> rollid sinu personaalidele",
-	"setup.auto.roles.failure": "Mul puudub \"Manage Roles\" luba",
-	"setup.auto.roles.success": "Tegin `Tickets Admin` ja `Tickets Support` rollid",
-	"setup.auto.transcript.failure": "Mul puudub \"Manage Channels\" luba",
-	"setup.auto.transcript.success": "Tegin <#%d> kanali",
-	"setup.ticket_limit.success": "Abipiletite limiit on muudetud järgmisele: `%d`",
-	"setup.transcript.invalid": "Sa pead mentionima sobiva kanali serveris (e.g. <#%d>)\\n**Näide:** `/setup koopiad #logs`",
-	"setup.transcript.success": "Koopiate kanal on muudetud järgmiseks: <#%d>",
-	"commands.language.help_wanted": "Kas sa räägid mingit teist keelt? Liitu meie [abi serveriga](https://discord.gg/ticketsbot) kui sa oled huvitatud boti tõlkimisega rohkem keeltesse aitada",
-	"commands.rename.too_long": "Kanali nimed ei saa olla pikemas kui 100 tähemärki",
-	"commands.autoclose.configure": "Külasta [dashboardi](https://dashboard.ticketsbot.cloud/manage/%d/settings) et muuta automaatse kinni minemise sätteid",
-	"help.autoclose": "Automaatse kinni minemisega seotud käsud",
-	"help.autoclose.exclude": "Välistab praeguse abipileti automaatsest kinni minemisest",
-	"help.autoclose.configure": "Muuda automaatse kinni minemise sätteid",
-	"commands.autoclose.exclude.success": "Praegune abipilet on välistatud automaatselt kinni minemisest",
-	"commands.claim.no_permission": "Ainult personaalid saavad võtta abipileteid",
-	"commands.open.from": "Praegune pilet oli avatud [sellest kirjast](%s).\n\n<@%d> ütles siin <#%d>:\n```%s```",
-	"commands.open.from.moved": "Vestlus oli lükatud piletisse (<#%d>)",
-	"help.close_request": "Saadab kirja, mis küsib et kasutaja kinnitaks kas abipileti võib kinni panna",
-	"close.reason_too_long": "Põhjus ei saa olla pikem kui 255 tähemärki",
-	"commands.close_request.no_reason": "<@%d> on palunud et abipilet pannakse kinni\n\nLubage või keelake kasutades alumisi nuppe.",
-	"commands.close_request.with_reason": "<@%d> on palunud et abipilet pannakse kinni. Põhjus:\n```\n%s\n```\nLubage või keelake kasutades alumisi nuppe.",
-	"commands.close_request.no_permission": "Ainult kasutaja kes pileti avas saab vastata kinni panemise soovile",
-	"commands.close_request.denied": "<@%d> keelas kinni panemise soovi",
-	"generic.error": "Viga",
-	"feedback.disabled": "Selle serveri tagasiside on maha võetud",
-	"feedback.success": "Sinu tagasiside on kirja pandud",
-	"generic.success": "Õnnestus",
-	"button.guild_only": "See nupp peab olema kasutatud serveris",
-	"button.dms_only": "See nupp peab olema kasutatud omavahelistes vestlustes",
-	"commands.tag.generic": "Silt",
-	"commands.tags.delete.success": "Silt `%s` on kustutatud",
-	"generic.ticket": "Abipilet",
-	"generic.title.premium_only": "Ainult premiumi käsk",
-	"generic.admin": "Administraator",
-	"commands.tags.create.success": "Silt tehtud - sa saad seda kasutada kasutades käsku `/tag %s`",
-	"generic.title.about": "Teave",
-	"generic.title.vote": "Hääleta",
-	"generic.title.tags": "Sildid",
-	"generic.title.autoclose": "Automaatne kinni minemine",
-	"generic.title.invite": "Kutse",
-	"generic.title.close": "Sulge",
-	"generic.title.claim": "Võta",
-	"generic.title.blacklisted": "Musta nimekirja pandud",
-	"generic.title.blacklist": "Must nimekiri",
-	"generic.error.blacklisted": "Sa oled selles serveris mustas nimekirjas",
-	"commands.blacklist.add.success": "<@%d> on musta nimekirja pandud",
-	"commands.blacklist.remove.success": "<@%d> on mustast nimekirjast välja võetud",
-	"generic.title.add_admin": "Lisa Administraator",
-	"generic.title.add_support": "Lisa Abipersonaal",
-	"generic.title.remove_admin": "Eemalda Administraator",
-	"generic.title.remove_support": "Eemalda Abipersonaal",
-	"commands.addsupport.success": "Abipersonaal lisatud edukalt",
-	"generic.title.language": "Keel",
-	"commands.removesupport.success": "Abipersonaal eemaldatud edukalt",
-	"commands.addadmin.success": "Administraator lisatud edukalt",
-	"commands.removeadmin.success": "Administraator eemaldatud edukalt",
-	"generic.title.setup": "Seadista",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.add.no_members": "You need to mention members to add to the ticket",
+	"commands.add.no_permission": "You don't have permission to add people to this ticket",
+	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
+	"commands.addadmin.owner": "The server owner is already an administrator",
+	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
+	"commands.blacklist.self": "You cannot blacklist yourself",
+	"commands.claim.success": "Your ticket will be handled by %s",
+	"commands.invite": "[Click here](<https://invite.ticketsbot.cloud>)",
+	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
+	"commands.open.ticket_limit": "You are only able to open %d %s at once",
+	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.cloud> to get premium free for 24 hours",
+	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
+	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
+	"commands.remove.staff": "You cannot remove staff from a ticket",
+	"commands.removeadmin.no_members": "You need to mention a user or name a role to revoke admin privileges from",
+	"commands.removeadmin.owner": "The guild owner must be an admin",
+	"commands.removeadmin.self": "You cannot revoke your own privileges",
+	"commands.removesupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.rename.missing_name": "You need to specify a new name for this ticket",
+	"commands.rename.success": "This ticket has been renamed to <#%d>",
+	"commands.tags.create.already_exists": "A tag with the ID `%s` already exists. You can delete the tag using `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "You must specify a tag ID and contents",
+	"commands.tags.create.too_long": "Tag IDs cannot be longer than 16 characters",
+	"commands.tags.delete.invalid_arguments": "You must specify a tag ID to delete",
+	"commands.tags.delete.not_exist": "A tag with the ID `%s` could not be found",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
+	"commands.unclaim.not_claimed": "This ticket is not claimed",
+	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
+	"commands.unclaim.success": "All support representatives can now respond to the ticket",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"generic.invalid_argument": "Invalid argument: refer to usage",
+	"generic.invalid_user": "Couldn't find the target user",
+	"generic.no_permission": "You do not have permission for this",
+	"generic.not_ticket": "This is not a ticket channel",
+	"generic.owner_only": "This command is reserved for the bot owner only",
+	"help.about": "Tells you information about the bot",
+	"help.add": "Adds a user to a ticket",
+	"help.addadmin": "Grants a user or role admin privileges",
+	"help.addsupport": "Adds a user or role as a support representative",
+	"help.admin": "Bot management",
+	"help.admin.blacklist": "Blacklist a guild from using the bot",
+	"help.admin.check_premium": "Check the premium status of a server",
+	"help.admin.generate_premium": "Generate premium keys",
+	"help.admin.get_owner": "Gets the owner of a server",
+	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
+	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
+	"help.cancel": "Cancels the setup process",
+	"help.claim": "Assigns a single staff member to a ticket",
+	"help.close": "Closes the current ticket",
+	"help.help": "Shows you a list of commands",
+	"help.invite": "Provides an invite link for the bot",
+	"help.language": "Changes the language the bot uses",
+	"help.managetags": "Add, delete or list tags",
+	"help.open": "Opens a new ticket",
+	"help.panel": "Creates a panel to enable users to open a ticket with 1 click",
+	"help.premium": "Run this command after purchasing premium to activate it",
+	"help.remove": "Removes a user from a ticket",
+	"help.removeadmin": "Revokes a user's or role's admin privileges",
+	"help.removesupport": "Revokes a user's or role's support representative privileges",
+	"help.rename": "Renames the current ticket",
+	"help.setup": "Allows you to easily configure the bot",
+	"help.stats": "Shows you statistics about users, support staff and the server",
+	"help.statsserver": "Shows you statistics about the server",
+	"help.tag": "Sends a message snippet",
+	"help.tagdelete": "Deletes a tag",
+	"help.taggadd": "Adds a new tag",
+	"help.taglist": "Lists all tags",
+	"help.transfer": "Transfers a claimed ticket to another user",
+	"help.unclaim": "Removes the claim on the current ticket",
+	"help.viewstaff": "Lists the staff members and roles",
+	"help.vote": "Gives you a link to vote for free premium",
+	"open.success": "Opened a new ticket: %s",
+	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.category.success": "Created Tickets category",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
+	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
+	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.transcript.success": "Created <#%d> channel",
+	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
+	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
+	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
+	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"help.autoclose": "Autoclose related commands",
+	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
+	"help.autoclose.configure": "Edit autoclose related settings",
+	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
+	"commands.claim.no_permission": "Only staff members can claim tickets",
+	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
+	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
+	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
+	"close.reason_too_long": "The reason cannot be longer than 255 characters",
+	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
+	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
+	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
+	"commands.close_request.denied": "<@%d> denied the close request",
+	"generic.error": "Error",
+	"feedback.disabled": "This server has feedback disabled",
+	"feedback.success": "Your feedback has been recorded",
+	"generic.success": "Success",
+	"button.guild_only": "This button must be used in a server",
+	"button.dms_only": "This button must be used in direct messages",
+	"commands.tag.generic": "Tag",
+	"commands.tags.delete.success": "Tag `%s` has been deleted",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Premium Only Command",
+	"generic.admin": "Admin",
+	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
+	"generic.title.about": "About",
+	"generic.title.vote": "Vote",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autoclose",
+	"generic.title.invite": "Invite",
+	"generic.title.close": "Close",
+	"generic.title.claim": "Claim",
+	"generic.title.blacklisted": "Blacklisted",
+	"generic.title.blacklist": "Blacklist",
+	"generic.error.blacklisted": "You are blacklisted in this server",
+	"commands.blacklist.add.success": "<@%d> has been blacklisted",
+	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
+	"generic.title.add_admin": "Add Admin",
+	"generic.title.add_support": "Add Support",
+	"generic.title.remove_admin": "Remove Admin",
+	"generic.title.remove_support": "Remove Support",
+	"commands.addsupport.success": "Support representative added successfully",
+	"generic.title.language": "Language",
+	"commands.removesupport.success": "Support representative removed successfully",
+	"commands.addadmin.success": "Admin added successfully",
+	"commands.removeadmin.success": "Admin removed successfully",
+	"generic.title.setup": "Setup",
 	"generic.title.premium": "Premium",
-	"generic.title.panel": "Paneel",
-	"generic.title.rename": "Nimeta ümber",
-	"generic.title.remove": "Eemalda",
-	"generic.title.help": "Abi",
-	"generic.title.close_confirmation": "Kinni panemise Kinnitamine",
-	"close.confirmation": "Palun kinnita et sa soovid seda abipiletit sulgeda",
-	"generic.title.close_request": "Kinni panemise Soov",
-	"commands.close_request.accept": "Aktsepteeri & Sulge",
-	"commands.close_request.deny": "Keela & Hoia Lahti",
-	"commands.premium.success": "Premium on aktiveeritud **%d** päevaks",
-	"generic.title.claimed": "Võetud Abipilet",
-	"generic.title.unclaimed": "Vaba Abipilet",
-	"generic.title.add": "Lisa",
-	"commands.add.success": "<@%d> on lisatud <#%d>",
-	"commands.remove.success": "<@%d> on eemaldatud <#%d>",
-	"open.ratelimited": "Abipileteid avatakse selles serveris liiga kiiresti",
-	"commands.claim.thread": "Discordi limiitide tõttu, võtmine ei toeta threade",
-	"generic.join_support_server": "Liitu Abi Serveriga",
-	"commands.open.guild_channel_limit": "See server on jõudnud Discordi 500 kanali limiidini",
-	"commands.open.missing_form_answer": "Sa pead vastama küsimusele `%s`",
-	"close.no_permission": "Sul ei ole luba et seda abipiletit kinni panna",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Rename",
+	"generic.title.remove": "Remove",
+	"generic.title.help": "Help",
+	"generic.title.close_confirmation": "Close Confirmation",
+	"close.confirmation": "Please confirm that you want to close this ticket",
+	"generic.title.close_request": "Close Request",
+	"commands.close_request.accept": "Accept & Close",
+	"commands.close_request.deny": "Deny & Keep Open",
+	"commands.premium.success": "Premium has been activated for **%d** days",
+	"generic.title.claimed": "Claimed Ticket",
+	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.add": "Add",
+	"commands.add.success": "<@%d> has been added to <#%d>",
+	"commands.remove.success": "<@%d> has been removed from <#%d>",
+	"open.ratelimited": "Tickets are being opened too quickly in this server",
+	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
+	"generic.join_support_server": "Join Support Server",
+	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
+	"commands.open.missing_form_answer": "You must answer the question `%s`",
+	"close.no_permission": "You are not permitted to close this ticket",
 	"": {
-		"generic.title.close_with_reason": "Sulge Põhjusega",
-		"generic.reason": "Põhjus"
+		"generic.title.close_with_reason": "Close With Reason",
+		"generic.reason": "Reason"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Põhjus abipileti sulgemiseks, nt \"Lahendatud\""
+			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
 		},
-		"success": "Abipileti sulges <@%d>",
+		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "Sa ei saa seda abipiletit hinnata sest sa oled abi andja selles kohas: %s",
-				"empty": "Sa ei saa hinnata seda abipiletit sest sa ei saatnud ühtegi sõnumit"
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": "`/open` käsk on välja lülitatud selles serveris: palun kasuta abipileti paneeli et abipiletit avada",
+			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
-				"cant_see_parent_channel": "Ei saanud lisada <@%d> abipiletisse: Kinnitage et neil on luba vaadata threadi alguskanalit (<#%d>)",
-				"cant_message_in_threads": "Sul puudub `Kirjade Saatmine Threadides` luba, mis on vajalik abipileti avamiseks. Palun küsi serveri adminstraatorilt et nad sulle selle loa annaks, siis proovi uuesti."
+				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "Ebasobiv paneel: Sa pead valima ühe rippmenüüst",
-			"success": "Abipilet on muudetud paneelile `%s` <@%d> poolt"
+			"invalid_panel": "Invalid panel: You must select one from the dropdown",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		},
 		"blacklist": {
-			"staff": "Personaale ei saa musta nimekirja panna",
+			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
-				"success": "<@&%d> on musta nimekirja pandud",
-				"limit": "Sa oled jõudnud rolli musta nimekirja limiidini (%d)"
+				"success": "<@&%d> has been blacklisted",
+				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
-				"limit": "Sa oled jõudnud kasutaja musta nimekirja limiidini (%d): kaalu rolli kasutamist"
+				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "Sellel abipiletil ei ole \"tere tulemast\" kirja",
-			"content": "Vajuta alumist nuppu et hüpata abipileti tippu"
+			"no_welcome_message": "This ticket does not have a welcome message",
+			"content": "Click the button below to jump to the top of the ticket"
 		},
 		"addsupport": {
-			"confirm": "Palun kinnita et sa tahad lisada %s algabipersonaalide tiimi",
-			"everyone": "Sa ei saa lisada `@everyone` rolli personaalina"
+			"confirm": "Please confirm that you want to add %s to the default support representative team",
+			"everyone": "You cannot add the `@everyone` role as staff"
 		},
 		"addadmin": {
-			"confirm": "Palun kinnita et sa tahad lisada %s boti administraatoriks"
+			"confirm": "Please confirm that you want to add %s as a bot administrator"
 		},
 		"tags": {
 			"create": {
-				"limit": "Sa oled jõudnud sildi limiidini (%d)"
+				"limit": "You have reached the tag limit (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium on vajalik et kasutada kohandatud käske (siltide aliased)"
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
-			"content": "Saadaval olevad keeled ja nende tõlkimise progressid on järgmised:\n%s",
-			"success": "Selle serveri keel on muudetud järgmisele: **%s** (%s)",
-			"select": "Vali keel (%c-%c)"
+			"content": "The available languages and their translation progress are as follows:\n%s",
+			"success": "The server language has been changed to **%s** (%s)",
+			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` saab olla kasutatud ainult thread moodil. Külasta meie [docse](https://docs.ticketsbot.cloud/features/thread-mode) et saada rohkem teada threadide kohta",
-			"success": "Sa oled nüüd \"on call\"",
-			"remove_success": "Sa ei ole rohkem \"on call\""
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"success": "You are now on call",
+			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
-			"not_found": "Abipiletit ei leitud",
-			"no_permission": "Teil pole luba et seda abipiletit uuesti avada",
-			"already_open": "See abipilet on juba lahti",
-			"not_thread": "Ainult threadid saavad olla uuesti avatud",
-			"thread_deleted": "See abipilet on jäädavalt kustutatud",
-			"success": "Abipilet %d uuesti avatud: <#%d>",
-			"in_ticket": "See abipilet on uuesti avatud järgmise inimese poolt: <@%d>"
+			"not_found": "Ticket not found",
+			"no_permission": "You do not have permission to reopen this ticket",
+			"already_open": "This ticket is already open",
+			"not_thread": "Only threads can be reopened",
+			"thread_deleted": "The ticket has been permanently deleted",
+			"success": "Ticket %d reopened: <#%d>",
+			"in_ticket": "This ticket has been reopened by <@%d>"
 		},
 		"premium": {
-			"key": "Võti",
-			"check_again": "Kontrolli Uuesti",
-			"subscription_found": "Tellimus Leitud!",
-			"subscription_found_content": "Et lisada tellimus sellele serverile, peah serveri omanik (<@%d>) sind lisama administraatori **kasutajaks** (rollid on ignoreeritud) kasutades </addadmin:%d> käsku.\\n\\nSa saad kinnitada et sind on administraatoriks lisatud kasutades </viewstaff:%d>.",
-			"activate_key": "Aktiveeri Premiumi Võti",
-			"checking": "Kontrollime Premiumi Staatust...",
-			"please_wait": "Palun oodake...",
-			"success_after_check": "Premium on nüüd aktiveeritud selles serveris!",
-			"link_patreon_account": "Ühendage Patreoni Kasutaja",
-			"no_subscription": "Ei leidnud aktiivset Patreoni tellimust sinu Discordi kasutajaga ühendatud. Kinnita et sa [ühendasid oma Patreoni ja Discordi kasutajad](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), ja oota vähemalt 10 minutit.",
-			"open_form": "Ava Form",
-			"open_form_description": "Vajuta alumist nuppu et uuesti avada form",
-			"use_key_anyway": "Kasuta Premium Võtit Ikkagi",
-			"already_purchased_title": "Juba ostsid premiumi?",
-			"already_purchased_description": "Kui sa oled juba premiumi ostnud, vali maksemeetod rippmenüüst et alustada",
-			"giveaway_key": "Kingi Ära Võti",
+			"key": "Key",
+			"check_again": "Check Again",
+			"subscription_found": "Subscription Found!",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
+			"activate_key": "Activate A Premium Key",
+			"checking": "Checking Premium Status...",
+			"please_wait": "Please wait...",
+			"success_after_check": "Premium is now active in this server!",
+			"link_patreon_account": "Link Patreon Account",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"open_form": "Open Form",
+			"open_form_description": "Press the button below to reopen the form",
+			"use_key_anyway": "Use Premium Key Anyway",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
 			"selector": {
-				"description": "Vali millist meetodit sa kasutasid et saada premium",
+				"description": "Select which method you used to obtain premium",
 				"key": {
-					"description": "Vali see valik kui sa said kingi võtme"
+					"description": "Select this option if you were given a giveaway key"
 				},
 				"patreon": {
-					"description": "Vali see valik kui sa tegid oma tellimuse Patreonis"
+					"description": "Select this option if you made your purchase on Patreon"
 				},
 				"discord": {
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium annab sulle juurdepääsu rohkem paneelidele, statistikale, kohandatud boti ja rohkem! Külasta meie [veebilehte](https://ticketsbot.cloud/premium) et saada rohkem teada.",
-			"already_activated": "Head uudised! Premium on selles serveris juba aktiivne.",
-			"already_activated_whitelabel": "Head uudised! Premium on selles serveris juba aktiivne.\n\nEt saada abi whitelabeliga alustamisega, loe [meie whitelabeli seadistamisõpetust](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -274,12 +274,12 @@
 			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
-			"added_to_existing": "Sind on lisatud ekisteerivasse märkmete threadi: <#%d>",
-			"thread_name": "märkmed",
-			"created": "Märkmete thread on selle abipileti jaoks tehtud: <#%d>"
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Discordi liimitide tõttu saab abipiletite nime vahetada 2 korda iga 10 minuti jooksul"
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
 			"redeem_credits": "Redeem Credits",
@@ -298,64 +298,64 @@
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Abipileti Paneel Muudetud",
-			"jump_to_top": "Hüppa Tippu",
-			"reopened": "Abipilet Uuesti avatud",
-			"ticket_closed": "Abipilet suletud"
+			"panel_switched": "Ticket Panel Switched",
+			"jump_to_top": "Jump To Top",
+			"reopened": "Ticket Reopened",
+			"ticket_closed": "Ticket Closed"
 		},
-		"click_here": "Vajuta Siia",
-		"confirm": "Kinnita",
-		"website": "Meie Veebileht"
+		"click_here": "Click Here",
+		"confirm": "Confirm",
+		"website": "Our Website"
 	},
 	"help": {
-		"switch_panel": "Muudab abipileti teisele abipileti paneelile, muudab kanali kategooria, abitiime, jne.",
-		"jump_to_top": "Annab sulle nupu millega abipileti tippu hüpata",
-		"on_call": "Paneb sind \"on call\", et sind oleks võimalik lisada ja mentionida uutes abipiletites",
-		"reopen": "Avab uuesti abipileti mis oli varem suletud",
-		"notes": "Teeb threadi privaatseteks vestlusteks abipersonaalide vahel"
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
+		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
+		"reopen": "Reopens a ticket that was previously closed",
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> on mustast nimekirjast välja võetud"
+				"successcklisted": "<@&%d> has been unblacklisted"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "Tahad uurida rohkem? Meie [dokumenteerimine](https://docs.ticketsbot.cloud) õpetab sulle kuidas konfigureerida igat osa botist!"
+			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
-			"no_notification_channel": "Sa pead andma abipileti märguande kanali",
-			"notification_channel_type": "Abipileti märguande kanal peab olema teksti kanal",
-			"success": "Threadi mood on sisse lülitatud",
-			"disabled": "Threadi mood on välja lülitatud"
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "See abipilet on juba suletud",
-			"no_permission": "Sul ei ole luba et seda tüüpi abipiletit vaadata",
-			"already_joined": "Sa oled selle abipiletiga juba liitunud (<#%d>)",
-			"success": "Lisasin sinu abipiletisse: <#%d>"
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
+			"already_joined": "You have already joined this ticket (<#%d>)",
+			"success": "Added you to the ticket: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Threadid ei saa olla tehtud teadaannete kanalites",
-		"panel_force_disabled": "See paneel on välja lülitatud. Palun küsige mingilt serveri administraatorilt et nad käivitaks uuesti premiumi ja käivitaks %s et seda paneeli uuesti sisse lülitada.",
-		"panel_disabled": "Serveri administraatorid on välja lülitatud seda tüüpi abipiletite avamise",
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
-			"no_allow_rules": "Juurdepääs selle abipileti avamisele on välja lülitatud kõikidel rollidel",
-			"deny_listed": "Sa ei saa seda tüüpi abipiletit avada sest sul on roll <@&%d>",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "Sul peab olema üks järgnevatest rollidest et avada seda tüüpi abipiletit: %s",
-				"single": "Sul peab olema järgnev roll et avada seda tüüpi abipiletit: %s"
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Märkus: threadid on toetatud kanali moodis"
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }
