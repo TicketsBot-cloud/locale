@@ -1,173 +1,173 @@
 {
-	"commands.about": "Tickety jsou snadné na použití, a vysoce konfigurovatelný ticket, podpora bota.\\nPomocný server: https://discord.gg/ticketsbot\\nPříkazy: Napište `/help`\\nZačněte spuštěním `/setup`",
-	"commands.add.no_members": "Musíte zmínit členy pro přidání do ticketu",
-	"commands.add.no_permission": "Nemáte dostatečná oprávnění k přidání lidí k tomuto účtu",
-	"commands.addadmin.no_members": "Musíte uvést uživatele nebo jméno role pro udělení oprávnění administrátora",
-	"commands.addadmin.owner": "Vlastník serveru je již administrátor",
-	"commands.addsupport.no_members": "Musíte uvést uživatele nebo jméno role pro udělení oprávnění administrátora",
-	"commands.blacklist.no_members": "Musíte zmínit uživatele pro zapnutí stavu černé listiny na",
-	"commands.blacklist.self": "Nemůžeš dát na černou listinu sám sebe",
-	"commands.claim.success": "Váš ticket bude řešit uživatel %s",
-	"commands.invite": "[Klikněte zde](<https://invite.ticketsbot.cloud>)",
-	"commands.language.invalid": "Musíte zadat kód jazyka nebo vlajku. Dostupné jazyky:\\n%s",
-	"commands.open.ticket_limit": "Jsi schopen otevřít pouze %d %s najednou",
-	"commands.open.too_many_tickets": "V kategorii ticketu je příliš mnoho ticketů. Požádejte admina, aby některé uzavřel nebo je přesunul do jiné kategorie",
-	"commands.panel": "Pro otevření konfiguračního palelu navšťivte <https://dashboard.ticketsbot.cloud/manage/%d/panels>",
-	"commands.premium": "Prémiové předplatné si můžete zakoupit od <https://www.patreon.com/ticketsbot-cloud>.\\nPremium poskytuje mnoho výhod, například:\\n```diff\\n+ Vytvořit neomezený počet ticketových panelů\\n+ Přizpůsobit název bota, avatar & status (whitelabel)\\n+ Podrobné statistiky o serveru, uživatelé a podporovatelný personál\\n+ Žádná značka v zápatí zpráv\\n+ Podpořte vývoj a pomozte mi uhradit náklady serveru\\n```\\n\\nmůžete hlasovat na <https://vote.ticketsbot.cloud> a získat prémiovou verzi zdarma na 24 hodin",
-	"commands.premium.invalid_key": "Neplatný klíč. Ujistěte se, že jste jej zkopírovali správně.",
-	"commands.remove.no_permission": "Nemáte dostatečná oprávnění k odstranění lidí od tohohle ticketu",
-	"commands.remove.staff": "Nemůžete odstranit Staff z ticketu",
-	"commands.removeadmin.no_members": "Musíte uvést uživatele nebo jméno role pro odebrání oprávnění administrátora",
-	"commands.removeadmin.owner": "Vlastník projektu musí být admin",
-	"commands.removeadmin.self": "Nemůžete zrušit svá vlastní oprávnění",
-	"commands.removesupport.no_members": "Musíte uvést uživatele nebo jméno role pro udělení oprávnění pro podporu",
-	"commands.rename.missing_name": "Musíte zadat nový název pro tento ticket",
-	"commands.rename.success": "Tento ticket byl přejmenován na <#%d>",
-	"commands.tags.create.already_exists": "Štítek s ID `%s` již existuje. Tag můžete odstranit pomocí `/tag delete %s`",
-	"commands.tags.create.invalid_arguments": "Musíte zadat identitu štítku a obsahu",
-	"commands.tags.create.too_long": "Id Tagu, nemůže být delší než 16 písmen",
-	"commands.tags.delete.invalid_arguments": "Pro smazání musíte zadat ID tagu",
-	"commands.tags.delete.not_exist": "Štítek s ID `%s` nebyl nalezen",
-	"commands.tags.get.invalid_arguments": "Musíte zadat ID štítku. Pro více nápovědy navštivte <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Neplatný štítek. Pro více nápovědy se štítky navštivte <https://ticketsbot.cloud/tags>.",
-	"commands.tags.list": "ID pro všechny tagy: \\n%s\\nPro zobrazení obsahu tagu spusťte `%stag <ID>`",
-	"commands.unclaim.not_claimed": "Tento ticket není claimnut",
-	"commands.unclaim.not_claimer": "Pouze administrátoři a uživatel, který si vyžádal tiket, mohou zrušit claim tiketu",
-	"commands.unclaim.success": "Všichni zástupci podpory mohou nyní odpovědět na ticket",
-	"commands.vote": "Klikněte zde pro hlasování po dobu 24 hodin zdarma prémiového účtu:\\n<https://vote.ticketsbot.cloud>",
-	"generic.invalid_argument": "Neplatný argument: odkazuje na použití",
-	"generic.invalid_user": "Cílový uživatel nebyl nalezen",
-	"generic.no_permission": "Nemáte dostatečná oprávnění",
-	"generic.not_ticket": "Toto není kanál ticketu",
-	"generic.owner_only": "Tento příkaz je vyhrazen pouze pro vlastníka bota",
-	"help.about": "Řekne vám informace o botu",
-	"help.add": "Přidá uživatele do ticketu",
-	"help.addadmin": "Uděluje uživatelská nebo uživatelská práva administrátora",
-	"help.addsupport": "Přidá uživatele nebo roli jako zástupce podpory",
-	"help.admin": "Správa bota",
-	"help.admin.blacklist": "Černá listina a skupin z používání bota",
-	"help.admin.check_premium": "Zkontrolujte prémiový status serveru",
-	"help.admin.generate_premium": "Vygenerovat prémiové klíče",
-	"help.admin.get_owner": "Získá vlastníka serveru",
-	"help.admin.unblacklist": "Odebrat skupinu z černé listiny skupiny",
-	"help.blacklist": "Určuje, zda mohou uživatelé interaktovat s botem",
-	"help.cancel": "Zruší proces nastavení",
-	"help.claim": "Přiřadí jednoho zaměstnance na ticket",
-	"help.close": "Zavírá aktuální ticket",
-	"help.help": "Zobrazí vám seznam příkazů",
-	"help.invite": "Poskytuje pozvánku pro bota",
-	"help.language": "Změní jazyk, který bota používá",
-	"help.managetags": "Přidat, odstranit nebo zobrazit tagy",
-	"help.open": "Otevře nový ticket",
-	"help.panel": "Vytvoří panel, který umožní uživatelům otevřít ticket jedním kliknutím",
-	"help.premium": "Tento příkaz lze spustit po aktivaci premium",
-	"help.remove": "Odebere uživatele z ticketu",
-	"help.removeadmin": "Zruší oprávnění uživatele nebo role administrátora",
-	"help.removesupport": "Zruší oprávnění uživatele nebo role na podporu",
-	"help.rename": "Přejmenuje aktuální tiket",
-	"help.setup": "Umožňuje snadno nakonfigurovat bota",
-	"help.stats": "Zobrazí statistiky o uživatelích, podporovaných staff a serveru",
-	"help.statsserver": "Zobrazí statistiky o serveru",
-	"help.tag": "Odešle snippet zprávy",
-	"help.tagdelete": "Odstraní tag",
-	"help.taggadd": "Přidá nový štítek",
-	"help.taglist": "Zobrazí všechny štítky",
-	"help.transfer": "Převede požadovaný tiket jinému uživateli",
-	"help.unclaim": "Odstraní claim na aktuálním ticketu",
-	"help.viewstaff": "Zobrazí seznam staff a rolí",
-	"help.vote": "Dá vám odkaz k hlasování pro prémium zdarma",
-	"open.success": "Otevřel nový ticket: %s",
-	"setup.auto.category.failure": "Chybí mi oprávnění `Manage Channels`",
-	"setup.auto.category.success": "Vytvořená kategorie ticketů",
-	"setup.auto.completed": "Prvotní nastavení hotovo! Pro další konfiguraci navštivte [here](https://dashboard.ticketsbot.cloud/manage/%d/panels). Pro nastavení reakčních panelů a přidání <@&%d> a <@&%d> rolí do správců",
-	"setup.auto.roles.failure": "Chybí mi oprávnění `Manage Roles`",
-	"setup.auto.roles.success": "Vytvořena role `Ticket Admin` a `Podpora ticketů`",
-	"setup.auto.transcript.failure": "Chybí mi oprávnění `Manage Channels`",
-	"setup.auto.transcript.success": "Vytvořen <#%d> kanál",
-	"setup.ticket_limit.success": "Limit ticketu byl aktualizován na `%d`",
-	"setup.transcript.invalid": "Musíte uvést platný kanál na serveru (např. <#%d>)\\n**Příklad:** `/setup transcripts #logs`",
-	"setup.transcript.success": "Přepsací kanál byl změněn na <#%d>",
-	"commands.language.help_wanted": "Mluvíš jiným jazykem? Připoj se k našemu [podporovatlnému serveru](https://discord.gg/ticketsbot), pokud chceš pomoci přeložit bota do více jazyků",
-	"commands.rename.too_long": "Název kanálu nesmí být delší než 100 znaků",
-	"commands.autoclose.configure": "Pro upravení nastavení automatického navštivte [Administračním panelu](https://dashboard.ticketsbot.cloud/manage/%d/settings)",
-	"help.autoclose": "Automatické ukládání souvisejících příkazů",
-	"help.autoclose.exclude": "Nezahrnuje aktuální ticket z automatického zavření",
-	"help.autoclose.configure": "Upravit nastavení související s automatickým uzavřením",
-	"commands.autoclose.exclude.success": "Tento tiket byl vyloučen z automatického uzavření",
-	"commands.claim.no_permission": "Pouze Staff se mohou zaujmout ticketu",
-	"commands.open.from": "Tento tiket byl otevřen z [this message](%s).\n\n<@%d> v <#%d>:\n```%s```",
-	"commands.open.from.moved": "Konverzace byla přesunuta do ticketu (<#%d>)",
-	"help.close_request": "Odešle zprávu s žádostí uživatele o potvrzení, že ticket může být uzavřen",
-	"close.reason_too_long": "Důvod nemůže být delší než 255 znaků",
-	"commands.close_request.no_reason": "<@%d> požádal o uzavření tohoto ticketu.\n\nPřijměte nebo odmítněte pomocí tlačítek níže.",
-	"commands.close_request.with_reason": "<@%d> požádal o uzavření tohoto tiketu. Důvod:\n```\n%s\n```\nProsím, přijměte nebo odmítněte pomocí tlačítek níže.",
-	"commands.close_request.no_permission": "Pouze uživatel, který otevřel ticket, může odpovědět na žádost o uzavření",
-	"commands.close_request.denied": "<@%d> zamítl žádost o uzavření",
-	"generic.error": "Chyba",
-	"feedback.disabled": "Tento server má vypnutou zpětnou vazbu",
-	"feedback.success": "Vaše zpětná vazba byla zaznamenána",
-	"generic.success": "Úspěch",
-	"button.guild_only": "Toto tlačítko musí být použito na serveru",
-	"button.dms_only": "Toto tlačítko musí být použito v přímých zprávách",
-	"commands.tag.generic": "Štítek",
-	"commands.tags.delete.success": "Štítek `%s` byl odstraněn",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.add.no_members": "You need to mention members to add to the ticket",
+	"commands.add.no_permission": "You don't have permission to add people to this ticket",
+	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
+	"commands.addadmin.owner": "The server owner is already an administrator",
+	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
+	"commands.blacklist.self": "You cannot blacklist yourself",
+	"commands.claim.success": "Your ticket will be handled by %s",
+	"commands.invite": "[Click here](<https://invite.ticketsbot.cloud>)",
+	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
+	"commands.open.ticket_limit": "You are only able to open %d %s at once",
+	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.cloud> to get premium free for 24 hours",
+	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
+	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
+	"commands.remove.staff": "You cannot remove staff from a ticket",
+	"commands.removeadmin.no_members": "You need to mention a user or name a role to revoke admin privileges from",
+	"commands.removeadmin.owner": "The guild owner must be an admin",
+	"commands.removeadmin.self": "You cannot revoke your own privileges",
+	"commands.removesupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
+	"commands.rename.missing_name": "You need to specify a new name for this ticket",
+	"commands.rename.success": "This ticket has been renamed to <#%d>",
+	"commands.tags.create.already_exists": "A tag with the ID `%s` already exists. You can delete the tag using `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "You must specify a tag ID and contents",
+	"commands.tags.create.too_long": "Tag IDs cannot be longer than 16 characters",
+	"commands.tags.delete.invalid_arguments": "You must specify a tag ID to delete",
+	"commands.tags.delete.not_exist": "A tag with the ID `%s` could not be found",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://ticketsbot.cloud/tags>.",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
+	"commands.unclaim.not_claimed": "This ticket is not claimed",
+	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
+	"commands.unclaim.success": "All support representatives can now respond to the ticket",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"generic.invalid_argument": "Invalid argument: refer to usage",
+	"generic.invalid_user": "Couldn't find the target user",
+	"generic.no_permission": "You do not have permission for this",
+	"generic.not_ticket": "This is not a ticket channel",
+	"generic.owner_only": "This command is reserved for the bot owner only",
+	"help.about": "Tells you information about the bot",
+	"help.add": "Adds a user to a ticket",
+	"help.addadmin": "Grants a user or role admin privileges",
+	"help.addsupport": "Adds a user or role as a support representative",
+	"help.admin": "Bot management",
+	"help.admin.blacklist": "Blacklist a guild from using the bot",
+	"help.admin.check_premium": "Check the premium status of a server",
+	"help.admin.generate_premium": "Generate premium keys",
+	"help.admin.get_owner": "Gets the owner of a server",
+	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
+	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
+	"help.cancel": "Cancels the setup process",
+	"help.claim": "Assigns a single staff member to a ticket",
+	"help.close": "Closes the current ticket",
+	"help.help": "Shows you a list of commands",
+	"help.invite": "Provides an invite link for the bot",
+	"help.language": "Changes the language the bot uses",
+	"help.managetags": "Add, delete or list tags",
+	"help.open": "Opens a new ticket",
+	"help.panel": "Creates a panel to enable users to open a ticket with 1 click",
+	"help.premium": "Run this command after purchasing premium to activate it",
+	"help.remove": "Removes a user from a ticket",
+	"help.removeadmin": "Revokes a user's or role's admin privileges",
+	"help.removesupport": "Revokes a user's or role's support representative privileges",
+	"help.rename": "Renames the current ticket",
+	"help.setup": "Allows you to easily configure the bot",
+	"help.stats": "Shows you statistics about users, support staff and the server",
+	"help.statsserver": "Shows you statistics about the server",
+	"help.tag": "Sends a message snippet",
+	"help.tagdelete": "Deletes a tag",
+	"help.taggadd": "Adds a new tag",
+	"help.taglist": "Lists all tags",
+	"help.transfer": "Transfers a claimed ticket to another user",
+	"help.unclaim": "Removes the claim on the current ticket",
+	"help.viewstaff": "Lists the staff members and roles",
+	"help.vote": "Gives you a link to vote for free premium",
+	"open.success": "Opened a new ticket: %s",
+	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.category.success": "Created Tickets category",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
+	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
+	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
+	"setup.auto.transcript.success": "Created <#%d> channel",
+	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
+	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
+	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
+	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"help.autoclose": "Autoclose related commands",
+	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
+	"help.autoclose.configure": "Edit autoclose related settings",
+	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
+	"commands.claim.no_permission": "Only staff members can claim tickets",
+	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
+	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
+	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
+	"close.reason_too_long": "The reason cannot be longer than 255 characters",
+	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
+	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
+	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
+	"commands.close_request.denied": "<@%d> denied the close request",
+	"generic.error": "Error",
+	"feedback.disabled": "This server has feedback disabled",
+	"feedback.success": "Your feedback has been recorded",
+	"generic.success": "Success",
+	"button.guild_only": "This button must be used in a server",
+	"button.dms_only": "This button must be used in direct messages",
+	"commands.tag.generic": "Tag",
+	"commands.tags.delete.success": "Tag `%s` has been deleted",
 	"generic.ticket": "Ticket",
-	"generic.title.premium_only": "Pouze Prémiový příkaz",
-	"generic.admin": "Administrátor",
-	"commands.tags.create.success": "Tag vytvořen - můžete jej použít spuštěním `/tag %s`",
+	"generic.title.premium_only": "Premium Only Command",
+	"generic.admin": "Admin",
+	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
 	"generic.title.about": "About",
-	"generic.title.vote": "Hlasovat",
-	"generic.title.tags": "Štítky",
-	"generic.title.autoclose": "Automatický uzavření",
-	"generic.title.invite": "Pozvat",
-	"generic.title.close": "Zavřít",
-	"generic.title.claim": "Vyzvednout",
+	"generic.title.vote": "Vote",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autoclose",
+	"generic.title.invite": "Invite",
+	"generic.title.close": "Close",
+	"generic.title.claim": "Claim",
 	"generic.title.blacklisted": "Blacklisted",
-	"generic.title.blacklist": "Černá listina",
-	"generic.error.blacklisted": "Jsi blacklisted na tomhle serveru",
-	"commands.blacklist.add.success": "<@%d> je nyní na černé listině",
-	"commands.blacklist.remove.success": "<@%d> již není černé listině",
-	"generic.title.add_admin": "Přidat administrátora",
-	"generic.title.add_support": "Přidat podporu",
-	"generic.title.remove_admin": "Odebrat admina",
-	"generic.title.remove_support": "Odstranit podporu",
-	"commands.addsupport.success": "Zástupce podpory byl úspěšně přidán",
-	"generic.title.language": "Jazyk",
-	"commands.removesupport.success": "Zástupce podpory byl úspěšně odstraněn",
-	"commands.addadmin.success": "Admin úspěšně přidán",
-	"commands.removeadmin.success": "Admin byl úspěšně odstraněn",
-	"generic.title.setup": "Instalace",
+	"generic.title.blacklist": "Blacklist",
+	"generic.error.blacklisted": "You are blacklisted in this server",
+	"commands.blacklist.add.success": "<@%d> has been blacklisted",
+	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
+	"generic.title.add_admin": "Add Admin",
+	"generic.title.add_support": "Add Support",
+	"generic.title.remove_admin": "Remove Admin",
+	"generic.title.remove_support": "Remove Support",
+	"commands.addsupport.success": "Support representative added successfully",
+	"generic.title.language": "Language",
+	"commands.removesupport.success": "Support representative removed successfully",
+	"commands.addadmin.success": "Admin added successfully",
+	"commands.removeadmin.success": "Admin removed successfully",
+	"generic.title.setup": "Setup",
 	"generic.title.premium": "Premium",
-	"generic.title.panel": "Ovládací panel",
-	"generic.title.rename": "Přejmenovat",
-	"generic.title.remove": "Odstranit",
-	"generic.title.help": "Pomoc",
-	"generic.title.close_confirmation": "Potvrzení o ukončení",
-	"close.confirmation": "Potvrďte prosím, že chcete uzavřít tento ticket",
-	"generic.title.close_request": "Zavřít požadavek",
-	"commands.close_request.accept": "Přijmout a zavřít",
-	"commands.close_request.deny": "Zakázat a zachovat otevřené",
-	"commands.premium.success": "Prémium bylo aktivováno na **%d** dní",
-	"generic.title.claimed": "Ticket zabrán",
-	"generic.title.unclaimed": "Ticket nevyzvednut",
-	"generic.title.add": "Přidat",
-	"commands.add.success": "<@%d> byl přidán do <#%d>",
-	"commands.remove.success": "<@%d> byl odstraněn z <#%d>",
-	"open.ratelimited": "Tickety jsou na tomto serveru otevřeny příliš rychle",
-	"commands.claim.thread": "Z důvodu omezení Discordu, tvrzení nepodporuje vlákna",
-	"generic.join_support_server": "Připojit se na server podpory",
-	"commands.open.guild_channel_limit": "Tento server dosáhl limitu 500 kanálů",
-	"commands.open.missing_form_answer": "Musíte odpovědět na otázku `%s`",
-	"close.no_permission": "Nemáte dostatečné oprávnění na zavření ticketu.",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Rename",
+	"generic.title.remove": "Remove",
+	"generic.title.help": "Help",
+	"generic.title.close_confirmation": "Close Confirmation",
+	"close.confirmation": "Please confirm that you want to close this ticket",
+	"generic.title.close_request": "Close Request",
+	"commands.close_request.accept": "Accept & Close",
+	"commands.close_request.deny": "Deny & Keep Open",
+	"commands.premium.success": "Premium has been activated for **%d** days",
+	"generic.title.claimed": "Claimed Ticket",
+	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.add": "Add",
+	"commands.add.success": "<@%d> has been added to <#%d>",
+	"commands.remove.success": "<@%d> has been removed from <#%d>",
+	"open.ratelimited": "Tickets are being opened too quickly in this server",
+	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
+	"generic.join_support_server": "Join Support Server",
+	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
+	"commands.open.missing_form_answer": "You must answer the question `%s`",
+	"close.no_permission": "You are not permitted to close this ticket",
 	"": {
-		"generic.title.close_with_reason": "Zavřít s uvedeným důvodem",
-		"generic.reason": "Důvod"
+		"generic.title.close_with_reason": "Close With Reason",
+		"generic.reason": "Reason"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Důvod zavření ticketu, např. \"Vyřešeno\""
+			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
 		},
-		"success": "Ticket byl uzavřen uživatelem <@%d>",
+		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
 				"staff": "You cannot rate this ticket because you are a support representative in %s",
@@ -177,96 +177,96 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Příkaz \"/open\" je na tomto serveru vypnutý, vytvoř si ticket pomocí ticket panelu.",
+			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
-				"cant_see_parent_channel": "Nelze přidat <@%d> k tiketu: ujistěte se, že mají oprávnění k zobrazení nadřazeného kanálu (<#%d>)",
+				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
 				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "Neplatný panel: Musíte vybrat jeden z nabídky",
-			"success": "<@%d> Přepnul tento ticket na `%s` panel"
+			"invalid_panel": "Invalid panel: You must select one from the dropdown",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		},
 		"blacklist": {
-			"staff": "Nemůžete zařadit člena vedení na černou listinu",
+			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
-				"success": "<@&%d> je nyní na černé listině",
-				"limit": "Překročili jste limit role černé listiny (%d)"
+				"success": "<@&%d> has been blacklisted",
+				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
-				"limit": "Dosáhli jste limitu pro maximální počet lidí na černé listině (%d): Můžete vytvořit roli pro černou listinu"
+				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "Tento ticket nemá uvítací zprávu",
-			"content": "Tlačítko níže vás vezme nahoru"
+			"no_welcome_message": "This ticket does not have a welcome message",
+			"content": "Click the button below to jump to the top of the ticket"
 		},
 		"addsupport": {
-			"confirm": "Prosím potvrďte, že chcete přidat %s do základního týmu podpory",
-			"everyone": "Nemůžete přidat roli `@everyone` jako personál"
+			"confirm": "Please confirm that you want to add %s to the default support representative team",
+			"everyone": "You cannot add the `@everyone` role as staff"
 		},
 		"addadmin": {
-			"confirm": "Prosím potvrďte, že chcete přidat %s jako bota pro správu"
+			"confirm": "Please confirm that you want to add %s as a bot administrator"
 		},
 		"tags": {
 			"create": {
-				"limit": "Překročil jste limit tagů (%d)"
+				"limit": "You have reached the tag limit (%d)"
 			},
 			"get": {
 				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
-			"content": "Dostupné jazyky a jejich průběh překladu jsou:\n%s",
-			"success": "Jazyk serveru byl změněn na **%s** (%s)",
-			"select": "Vyberte jazyk (%c-%c)"
+			"content": "The available languages and their translation progress are as follows:\n%s",
+			"success": "The server language has been changed to **%s** (%s)",
+			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` může být použito pouze v režimu vlákna. Navštivte naši [docs](https://docs.ticketsbot.cloud/features/thread-mode) pro více informací o vláknech",
-			"success": "Nyní jste v hovoru",
-			"remove_success": "Již nejste v hovoru"
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"success": "You are now on call",
+			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
-			"not_found": "Ticket nebyl nalezen",
-			"no_permission": "Nemáte oprávnění k znovuotevření tohoto ticketu",
-			"already_open": "Tento ticket je již otevřený",
-			"not_thread": "Pouze vlákna mohou být znovu otevřena",
-			"thread_deleted": "Ticket byl trvale odstraněn",
-			"success": "Tiket %d byl znovu otevřen: <#%d>",
-			"in_ticket": "Tento ticket byl znovu otevřen < @%d>"
+			"not_found": "Ticket not found",
+			"no_permission": "You do not have permission to reopen this ticket",
+			"already_open": "This ticket is already open",
+			"not_thread": "Only threads can be reopened",
+			"thread_deleted": "The ticket has been permanently deleted",
+			"success": "Ticket %d reopened: <#%d>",
+			"in_ticket": "This ticket has been reopened by <@%d>"
 		},
 		"premium": {
-			"key": "Klíč",
-			"check_again": "Znovu zkontrolovat",
-			"subscription_found": "Odběr nalezen!",
-			"subscription_found_content": "Aby bylo možné použít předplatné na tento server, majitel serveru (<@%d>) vás musí přidat jako administrátora **uživatele** (role jsou ignorovány) pomocí příkazu </addadmin:%d>. \\n\\nMůžete si ověřit, že jste byli přidáni jako administrátor spuštěním </viewstaff:%d>.",
-			"activate_key": "Aktivovat prémiový klíč",
-			"checking": "Kontrola prémiového stavu...",
-			"please_wait": "Počkejte prosím...",
-			"success_after_check": "Prémiové členství je nyní aktivní na tomto serveru!",
-			"link_patreon_account": "Propojení účtu Patreon",
-			"no_subscription": "Nelze najít aktivní předplatné Patreonu, které je propojeno s vaším Discord účtem. Ujistěte se, že [jste propojili své Patreon a Discord účty](https://support. atreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) a dalších 10 minut.",
-			"open_form": "Otevřít formulář",
-			"open_form_description": "Stiskněte tlačítko níže pro opětovné otevření formuláře",
-			"use_key_anyway": "Přesto použít prémiový klíč",
-			"already_purchased_title": "Již jste zakoupili prémiovou verzi?",
-			"already_purchased_description": "Pokud jste již zakoupili prémiový účet, vyberte způsob platby z rozbalovacího seznamu",
-			"giveaway_key": "Klíč ze soutěže",
+			"key": "Key",
+			"check_again": "Check Again",
+			"subscription_found": "Subscription Found!",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
+			"activate_key": "Activate A Premium Key",
+			"checking": "Checking Premium Status...",
+			"please_wait": "Please wait...",
+			"success_after_check": "Premium is now active in this server!",
+			"link_patreon_account": "Link Patreon Account",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"open_form": "Open Form",
+			"open_form_description": "Press the button below to reopen the form",
+			"use_key_anyway": "Use Premium Key Anyway",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
 			"selector": {
-				"description": "Vyberte použitou metodu pro získání prémiového účtu",
+				"description": "Select which method you used to obtain premium",
 				"key": {
-					"description": "Vyberte tuto možnost, pokud jste dostali výherní klíč"
+					"description": "Select this option if you were given a giveaway key"
 				},
 				"patreon": {
-					"description": "Vyberte tuto možnost, pokud jste provedli nákup na Patreonu"
+					"description": "Select this option if you made your purchase on Patreon"
 				},
 				"discord": {
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium vám umožní přístup k více panelům, statistikám, vlastnímu botovi a dalšímu! Navštivte naši [website](https://ticketsbot.cloud/premium), abyste se dozvěděli více.",
-			"already_activated": "Super! Premium je na tomto serveru už aktivováno.",
-			"already_activated_whitelabel": "Super! Premium je na tomto serveru už aktivováno.\n\nPokud potřebujete další pomoc při nastavení whitelabelů, přečtěte si naší [dokumentaci o whitelabelech](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -274,12 +274,12 @@
 			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
-			"added_to_existing": "Byl/a jsi přidán/a do již existujícího vlákna <#%d>",
-			"thread_name": "poznámky",
-			"created": "Bylo vytořeno vlákno pro tento ticket <#%d>"
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Vzhledem k omezením společnosti Discord lze tickety přejmenovat pouze dvakrát za 10 minut."
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
 			"redeem_credits": "Redeem Credits",
@@ -298,64 +298,64 @@
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Panel ticketů byl přepnut",
-			"jump_to_top": "Vem mě nahoru",
-			"reopened": "Ticket byl znovu otevřen",
-			"ticket_closed": "Ticket byl uzavřen"
+			"panel_switched": "Ticket Panel Switched",
+			"jump_to_top": "Jump To Top",
+			"reopened": "Ticket Reopened",
+			"ticket_closed": "Ticket Closed"
 		},
-		"click_here": "Klikni sem",
-		"confirm": "Potvrdit",
-		"website": "Naše webové stránky"
+		"click_here": "Click Here",
+		"confirm": "Confirm",
+		"website": "Our Website"
 	},
 	"help": {
-		"switch_panel": "Přepne ticket na jiný panel, změní se tak support team, kategorie, atd.",
-		"jump_to_top": "Vezme vás na začátek ticketu",
-		"on_call": "Označuje vás jako při hovoru, bude přidán a přidán ve všech nových ticketů",
-		"reopen": "Znovu otevře ticket, který byl dříve uzavřen",
-		"notes": "Vytvoří soukromé vlákno pro privátní konverzaci mezi podporou"
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
+		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
+		"reopen": "Reopens a ticket that was previously closed",
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> byl odstraňen z černé listiny"
+				"successcklisted": "<@&%d> has been unblacklisted"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "Chcete se dozvědět víc? Naše [dokumentace] (https://docs.ticketbot.net) vás provede kompletní konfigurací!"
+			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
-			"no_notification_channel": "Musíte zadat kanál oznámení ticketu",
-			"notification_channel_type": "Kanál oznámení tiketu musí být textový kanál",
-			"success": "Režim vlákna byl povolen",
-			"disabled": "Režim vlákna byl zakázán"
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "Tento ticket byl již uzavřen",
-			"no_permission": "Nemáte oprávnění k zobrazení tohoto ticketu",
-			"already_joined": "Již jste se připojili k tomuto ticketu (<#%d>)",
-			"success": "Přidán k ticketu: <#%d>"
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
+			"already_joined": "You have already joined this ticket (<#%d>)",
+			"success": "Added you to the ticket: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Vlákna nelze vytvořit v oznamovacích kanálech",
-		"panel_force_disabled": "Tento panel není povolený, požádejte administrátora o obnovení premium účtu, a spusťte %s, abyste znovu povolili tento panel.",
-		"panel_disabled": "Admin serveru zakázal otevírání tohoto typu ticketu",
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
+		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
+		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
-			"no_allow_rules": "Přístup k tomuto druhu ticketu byl pro všechny role omezen",
-			"deny_listed": "S vaší rolí (<@&%d>) nemůžete vytvořit tento typ ticketu",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "Pro otevření tohoto typu ticketu potřebujete mít jednu z následujících rolí\" %s",
-				"single": "Pro otevření tohoto typu ticketu potřebujete mít jednu z následujících rolí\" %s"
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Vlákna jsou povolena pouze v kanálovém režimu"
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }
