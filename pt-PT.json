@@ -12,7 +12,7 @@
 	"commands.language.invalid": "Tu precisas de especificar um código de idioma ou bandeira. Idiomas disponíveis:\\n%s",
 	"commands.open.ticket_limit": "Tu só podes abrir %d %s de uma só vez",
 	"commands.open.too_many_tickets": "Há muitos bilhetes na categoria de bilhetes. Pede a um administrador para fechar alguns, movê-los para outra categoria ou configura uma categoria de saída.\n\nEste é um **limite imposto pelo Discord** de 50 canais por categoria.",
-	"commands.panel": "",
+	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
 	"commands.premium": "Tu podes comprar uma assinatura premium de <https://www.patreon.com/ticketsbot-cloud>.\\nO premium fornece muitos benefícios, tais como:\\n```diff\\n+ Criar painéis de bilhete ilimitados\\n+ Personalizar o nome do bot, avatar e estado (whitelabel)\\n+ Estatísticas detalhadas sobre o servidor, utilizadores e equipe de suporte\\n+ Sem marca no rodapé de mensagens\\n+ Apoiar o desenvolvimento e ajudar-me a pagar o servidor custa\\n```\\n\\nAlternadamente, tu podes votar <https://vote.ticketsbot.cloud> para ganhares premium grátis por 24 horas",
 	"commands.premium.invalid_key": "Chave inválida. Assegura-te que a copiaste corretamente.",
 	"commands.remove.no_permission": "Tu não tens permissões para remover pessoas deste bilhete",
@@ -79,7 +79,7 @@
 	"open.success": "Foi aberto um novo bilhete: %s",
 	"setup.auto.category.failure": "Eu não tenho a permissão `Gerir Canais`",
 	"setup.auto.category.success": "Categoria de bilhetes criada",
-	"setup.auto.completed": "",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Eu não tenho a permissão `Gerir Cargos`",
 	"setup.auto.roles.success": "Os cargos `Tickets Admin` & `Tickets Support` foram criados",
 	"setup.auto.transcript.failure": "Eu não tenho a permissão `Gerir Canais`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "O canal das transcrições foi alterado para <#%d>",
 	"commands.language.help_wanted": "Tu falas outra língua? Entra no nosso [servidor de suporte](https://discord.gg/ticketsbot) se estiveres interessado em ajudar a traduzir o bot para mais línguas",
 	"commands.rename.too_long": "Os nomes dos canais não podem ter mais de 100 caracteres",
-	"commands.autoclose.configure": "",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Comandos relacionados com o fecho automático",
 	"help.autoclose.exclude": "Exclui o bilhete atual de ser fechado automaticamente",
 	"help.autoclose.configure": "Edita definições relacionadas com o fecho automático",
@@ -170,8 +170,8 @@
 		"success": "O bilhete foi fechado por <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "O comando `/open` está desativado neste servidor: por favor, usa um painel de bilhete para abrir um bilhete",
 			"threads": {
 				"cant_see_parent_channel": "Não foi possível adicionar <@%d> a este bilhete: Assegura-te que ele/a tem permissão para ver o canal principal do tópico (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Atingiste o limite de etiquetas (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
@@ -261,38 +261,38 @@
 					"description": "Seleciona esta opção se tu fizeste a tua compra no Patreon"
 				},
 				"discord": {
-					"description": ""
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
 			"about": "O premium fornece-te acesso a mais painéis, estatísticas, um bot personalizado e mais! Visita o nosso [website](https://ticketsbot.cloud/premium) para saberes mais.",
-			"already_activated": "",
-			"already_activated_whitelabel": "",
+			"already_activated": "Good news! Premium is already active in this server.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
@@ -312,7 +312,7 @@
 		"jump_to_top": "Fornece-te um botão para ires para o topo do bilhete",
 		"on_call": "Marca-te como em alerta, para seres adicionado/a e mencionado/a em todos os novos bilhetes",
 		"reopen": "Reabre um bilhete que estava previamente fechado",
-		"notes": ""
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -345,17 +345,17 @@
 		"panel_force_disabled": "Este painel foi desativado. Por favor, pede a um administrador do servidor para reativar o premium, e executa %s para reativar este painel.",
 		"panel_disabled": "Os administradores do servidor desativaram a abertura deste tipo de bilhetes",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "You need one of the following roles to open this type of ticket: %s",
+				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }
