@@ -34,10 +34,10 @@
 	"commands.unclaim.not_claimed": "S'Ticket wird vo niemertem bearbeitet",
 	"commands.unclaim.not_claimer": "Nur Administratore und de Benutzer, wo s'Ticket bearbeitet, chönd s'Ticket freigeh",
 	"commands.unclaim.success": "Alli Support-Mitarbeiter chönd ab sofort uf s'Ticket antworte",
-	"commands.vote": "Druck uf de Chnopf une, um für de Bot abzstimme und 24 Stund lang gratis e begrenzti Version vo Premium z'übercho.\n\nWenn du abgstimmt hesch, füehr de %s Befehl nomal uus, um Dini Stimm-Guetschrift iizlöse.",
+	"commands.vote": "Druck uf de Chnopf une, um für de Bot abzstimme und 24 Stund lang gratis e begrenzti Version vo Premium z'übercho.\n\nWenn du abgstimmt hesch, füehr de %s Befehl nomal uus, um Dis Stimm-Guethabe iizlöse.",
 	"generic.invalid_argument": "Ungültigs Argument: Lueg Dir d'Verwendig aa",
 	"generic.invalid_user": "De Benutzer cha nöd gfunde werde",
-	"generic.no_permission": "Du hesch nöd die nötige Berechtigunge, um Dir das aazluege",
+	"generic.no_permission": "Du hesch nöd die nötige Berechtigunge",
 	"generic.not_ticket": "De Kanal isch kein Ticket-Kanal",
 	"generic.owner_only": "De Befehl isch reserviert für de Bot-Inhaber",
 	"help.about": "Zeigt Dir Informatione über de Bot aa",
@@ -125,8 +125,8 @@
 	"generic.title.blacklisted": "Gsperrt",
 	"generic.title.blacklist": "Sperrliste",
 	"generic.error.blacklisted": "Du bisch i dem Server gsperrt",
-	"commands.blacklist.add.success": "<@%d> isch gsperrt worde",
-	"commands.blacklist.remove.success": "<@%d> isch entsperrt worde",
+	"commands.blacklist.add.success": "<@%d> isch zu de Sperrliste hinzuegfüegt worde",
+	"commands.blacklist.remove.success": "<@%d> isch vo de Sperrliste entfernt worde",
 	"generic.title.add_admin": "Administrator hinzuefüege",
 	"generic.title.add_support": "Support hinzuefüege",
 	"generic.title.remove_admin": "Administrator entferne",
@@ -190,7 +190,7 @@
 		"blacklist": {
 			"staff": "Mitarbeiter chönd nöd gsperrt werde",
 			"add_role": {
-				"success": "<@&%d> isch gsperrt worde",
+				"success": "<@&%d> isch zu de Sperrliste hinzuegfüegt worde",
 				"limit": "Du hesch s'Limit für d'Aazahl Rollene i de Sperrliste erreicht (%d)"
 			},
 			"add": {
@@ -241,121 +241,121 @@
 			"subscription_found": "Abo gfunde!",
 			"subscription_found_content": "Um Dis Abo uf dem Server z'aktiviere, muess Dich de Server-Inhaber als (<@%d>) **Admin-User** (Rolle werdet ignoriert) über de </addadmin:%d> Befehl hinzuefüege.\\n\\nDu chasch mit em Befehl </viewstaff:%d> luege, ob Du als Admin-User hinzuegfüegt worde bisch.",
 			"activate_key": "Aktivier en Premium-Schlüssel",
-			"checking": "Checking Premium Status...",
-			"please_wait": "Please wait...",
-			"success_after_check": "Premium is now active in this server!",
-			"link_patreon_account": "Link Patreon Account",
-			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
-			"open_form": "Open Form",
-			"open_form_description": "Press the button below to reopen the form",
-			"use_key_anyway": "Use Premium Key Anyway",
-			"already_purchased_title": "Already purchased premium?",
-			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
-			"giveaway_key": "Giveaway Key",
+			"checking": "Premium-Status wird überprüeft...",
+			"please_wait": "Bitte warte...",
+			"success_after_check": "Premium isch ab sofort uf dem Server aktiviert!",
+			"link_patreon_account": "Verbind Din Patreon-Account",
+			"no_subscription": "Es het keis aktivs Patreon-Abo chöne gfunde werde, wo mit Dim Discord-Account verbunde isch. Stell sicher, dass Du [Din Patreon- mit Dim Discord-Account verbunde](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) und wiiteri 10 Minute gwartet hesch.",
+			"open_form": "Formular uufmache",
+			"open_form_description": "Druck de Chnopf une, um s'Formular nomal uufzmache",
+			"use_key_anyway": "Bruuch trozdem en Premium-Schlüssel",
+			"already_purchased_title": "Hesch scho Premium gchauft?",
+			"already_purchased_description": "Falls Du Premium scho gchauft hesch, wähl d'Zahligsmethode us de Dropdown-Liste uus, um aazfange",
+			"giveaway_key": "Gwünnspiel-Schlüssel",
 			"selector": {
-				"description": "Select which method you used to obtain premium",
+				"description": "Wähl uus, weli Methode Du bruucht hesch, um Premium z'erhalte",
 				"key": {
-					"description": "Select this option if you were given a giveaway key"
+					"description": "Wähl die Option, wenn Du en Gwünnspiel-Schlüssel übercho hesch"
 				},
 				"patreon": {
-					"description": "Select this option if you made your purchase on Patreon"
+					"description": "Wähl die Option, wenn Du Premium über Patreon gchauft hesch"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Wähl die Option, wenn Du Premium im Discord In-App Store gchauft hesch"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
-			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"about": "Premium git Dir Zuegang zu meh Panels, Statistike, eme personalisierte Bot und meh! Bsuech eusi [Website](https://ticketsbot.cloud/premium), um meh z'erfahre.",
+			"already_activated": "Gueti Nachrichte! Premium isch scho uf dem Server aktiviert.",
+			"already_activated_whitelabel": "Gueti Nachrichte! Premium isch scho uf dem Server aktiviert.\n\nFür Hilf mit Whitelabel, lis [eusi Whitelabel-Aaleitig](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Premium cha direkt in Discord gchauft werde. Druck uf de Chnopf under dere Nachricht, um d'Abo-Verwaltig uufzmache.\n\nWenn's gchauft hesch, bitte gib eus bis zu 5 Minute Ziit, um s'Abo z'erkenne."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Dis Patreon-Abo isch gfunde worde. Bitte druck une uf de Chnopf „Serveruuswahl uufmache“, um s'Dashboard uufzmache und d'Server uuszwähle, für die Du Dis Premium-Abo verwende möchtisch.",
+			"open_server_selector": "Serveruuswahl uufmache"
 		},
 		"notes": {
-			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
-			"thread_name": "notes",
-			"created": "A notes thread has been created for this ticket: <#%d>"
+			"added_to_existing": "Du bisch am bestehende Notiz-Thread hinzuegfüegt worde: <#%d>",
+			"thread_name": "Notize",
+			"created": "Für das Ticket isch es Notiz-Thread erstellt worde: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "Ufgrund vo Iischränkige dur Discord chönd Tickets nur zweimal all 10 Minute umbenennt werde"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Guethabe iilöse",
+			"no_credits": "Iilöse fehlgschlage: Du hesch kei Stimm-Guethabe!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Dis Stimm-Guethabe isch für **%d** Tag Premium iiglöst worde!",
+					"singular": "Dis Stimm-Guethabe isch für **%d** Täg Premium iiglöst worde!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Du hesch **%d** Stimm-Guethabe. Druck une uf de Chnopf \"Guethabe Iilöse\", um's für %d Täg Premium uf dem Server iizlöse.",
+				"singular": "Du hesch **%d** Stimm-Guethabe. Druck une uf de Chnopf \"Guethabe Iilöse\", um's für %d Tag Premium uf dem Server iizlöse."
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Ticket Panel Switched",
-			"jump_to_top": "Jump To Top",
-			"reopened": "Ticket Reopened",
-			"ticket_closed": "Ticket Closed"
+			"panel_switched": "Ticket-Panel gwechslet",
+			"jump_to_top": "Ufe springe",
+			"reopened": "Ticket nomal uufgmacht",
+			"ticket_closed": "Ticket gschlosse"
 		},
-		"click_here": "Click Here",
-		"confirm": "Confirm",
-		"website": "Our Website"
+		"click_here": "Klick da",
+		"confirm": "Bestätige",
+		"website": "Eusi Website"
 	},
 	"help": {
-		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
-		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
-		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
-		"reopen": "Reopens a ticket that was previously closed",
-		"notes": "Creates a thread for private discussion between support representatives"
+		"switch_panel": "Wechslet es Ticket zumne andere Ticket-Panel, und änderet d'Kanal-Kategorie, Support-Teams, etc.",
+		"jump_to_top": "Zeigt en Chnopf, um zum Aafang vom Ticket z'gumpe",
+		"on_call": "Markiert Dich als verfüegbar, um i neue Tickets automatisch hinzuegfüegt und markiert z'werde",
+		"reopen": "Macht es gschlossnigs Ticket wieder uuf",
+		"notes": "Erstellt es Thread für privati Diskussione zwüsche Support-Mitarbeiter"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> has been unblacklisted"
+				"successcklisted": "<@&%d> isch vo de Sperrliste entfernt worde"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
+			"docs": "Möchtisch meh entdecke? Eusi [Dokumentation](https://docs.ticketsbot.cloud) wird Dir zeige, wie Du all Aspekt vom Bot konfiguriere chasch!"
 		},
 		"threads": {
-			"no_notification_channel": "You must provide a ticket notification channel",
-			"notification_channel_type": "The ticket notification channel must be a text channel",
-			"success": "Thread mode has been enabled",
-			"disabled": "Thread mode has been disabled"
+			"no_notification_channel": "Du muesch en Ticket-Benachrichtigungskanal aageh",
+			"notification_channel_type": "De Ticket-Benachrichtigungskanal muess en Text-Kanal si",
+			"success": "Thread-Modus isch aktiviert worde",
+			"disabled": "Thread-Modus isch deaktiviert worde"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "This ticket has already been closed",
-			"no_permission": "You do not have permission to view this type of ticket",
-			"already_joined": "You have already joined this ticket (<#%d>)",
-			"success": "Added you to the ticket: <#%d>"
+			"closed_ticket": "S'Ticket isch scho gschlosse worde",
+			"no_permission": "Du hesch kei Berechtigunge, um es Ticket vo dere Art aazluege",
+			"already_joined": "Du bisch scho am Ticket (<#%d>) biitrete",
+			"success": "Du bisch zum Ticket hinzuegfüegt worde: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
-		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
-		"panel_disabled": "The server admins have disabled opening this type of ticket",
+		"thread_in_announcement_channel": "I Aakündigungs-Kanäl chönd kei Threads erstellt werde",
+		"panel_force_disabled": "De Panel isch deaktiviert worde. Bitte frög en Server-Administrator, Premium nomal z'aktiviere und %s uuszfüehre, um de Panel wieder z'aktiviere.",
+		"panel_disabled": "D'Server-Administratore hend s'Uufmache vo dem Ticket-Typ deaktiviert",
 		"acl": {
-			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
-			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
+			"no_allow_rules": "De Zuegriff uf die Art vo Ticket isch für all Rollene deaktiviert worde",
+			"deny_listed": "Du chasch die Art vo Ticket nöd uufmache, wil Du d'Rolle <@&%d> hesch",
 			"not_allow_listed": {
-				"multiple": "You need one of the following roles to open this type of ticket: %s",
-				"single": "You need the following role to open this type of ticket: %s"
+				"multiple": "Du bruuchsch eine vo de folgende Rolle, um de Ticket-Typ uufzmache: %s",
+				"single": "Du bruuchsch di folgendi Rolle, um es Ticket vo dem Typ uufzmache: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
+			"channel_mode_onlye only supported in channel mode": "Notiz-Threads werdet nur im Kanal-Modus unterstützt"
 		}
 	}
 }
