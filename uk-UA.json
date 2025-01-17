@@ -171,7 +171,7 @@
 		"rate": {
 			"not_allowed": {
 				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"empty": "Ви не можете надати оцінку цьому тікету, бо ви не надіслали жодного повідомлення"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "Команду `/open` відключено на цьому сервері. Будь ласка, використуйте панель заяки, щоб відкрити заявку",
 			"threads": {
 				"cant_see_parent_channel": "Не вдалося додати <@%d> до цієї заявки: Переконайтеся, що вони мають дозвіл на перегляд початкового каналу гілки. (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "У вас відсутнє право \"Надсилати повідомлення у гілки\", яке є необхідним для відкриття гілки. Зв'яжіться з адміністратором сервера, аби вам надалі наведені права та спробуйте знов."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Ви досягли ліміту міток (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Для використування користувацьких команд потрібен преміум статус (псевдоніми)"
 			}
 		},
 		"language": {
@@ -261,17 +261,17 @@
 					"description": "Виберіть цю опцію якщо ви зробили покупку на Patreon"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Оберіть це, якщо ви провели оплату у додатку Discord"
 				}
 			},
 			"about": "Premium дає вам доступ до розширенних налаштувань, статистик, властного бота та більше! Відвідайте наш [website](https://ticketsbot.cloud/premium) щоб дізнатися більше.",
 			"already_activated": "Гарні новини! Premium вже активний на цьому сервері.",
 			"already_activated_whitelabel": "Гарні новини! Premium вже активований на цьому сервері.\n\nПеред налаштуванням whitelabel прочитайте [наш гайд про налаштування whitelabel](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Преміум тепер може бути придбаний через Discord. Натисніть на кнопку нижче, аби відкрити сторінку керування підписками.\n\nЯкщо ви придбали преміум, то зачекайте 5 хвилини поки ми активуємо вашу підписку."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Ваша підписка Patreon була знайдена. Будь ласка, натисність на \"Обрати сервер\" нижче, аби відкрити контрольну панель та обрати той сервер, де ви хочете активувати свою преміум підписку.",
+			"open_server_selector": "Обрати сервер"
 		},
 		"notes": {
 			"added_to_existing": "Ви були додані до існуючої гілки нотаток: <#%d>",
@@ -279,15 +279,15 @@
 			"created": "Нотатки для теми були створення для цього тікету: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "Через обмеження Discord, запити можуть бути перейменовані тільки два рази кожні 10 хвилин"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Використати кредити",
+			"no_credits": "Помилка: У вас немає кредитів!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Ви активували свої кредити та отримали **%d** днів преміуму!",
+					"singular": "Ви активували свої кредити та отримали **%d** день преміуму!"
 				}
 			},
 			"with_credits": {
