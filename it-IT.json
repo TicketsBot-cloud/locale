@@ -113,7 +113,7 @@
 	"commands.tags.delete.success": "Il tag `%s` è stato elimitato",
 	"generic.ticket": "Ticket",
 	"generic.title.premium_only": "Comando solo per premium",
-	"generic.admin": "Admin",
+	"generic.admin": "Amministratore",
 	"commands.tags.create.success": "Tag creato - puoi usarlo eseguendo `/tag %s`",
 	"generic.title.about": "Circa",
 	"generic.title.vote": "Vota",
@@ -270,8 +270,8 @@
 			"discord": {
 				"no_subscription": "Il servizio premium può essere acquistato direttamente su Discord. Clicca il pulsante sotto questo messaggio per aprire la pagina di gestione dell'abbonamento.\n\nNel momento in cui viene acquistato, si prega di consentire al bot fino a 5 minuti per rilevare l'abbonamento."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Il tuo abbonamento a Patreon è stato trovato. Clicca sul tasto \"Apri selettore server\", qui sotto, in modo da aprire la dashboard per selezionare a quali server vuoi applicare il tuo abbonamento premium.",
+			"open_server_selector": "Apri selettore server"
 		},
 		"notes": {
 			"added_to_existing": "Sei stato aggiunto al thread delle note seguente: <#%d>",
