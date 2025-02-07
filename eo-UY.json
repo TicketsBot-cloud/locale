@@ -227,21 +227,21 @@
 			"remove_success": "You are no longer on call"
 		},
 		"reopen": {
-			"not_found": "Ticket not found",
-			"no_permission": "You do not have permission to reopen this ticket",
-			"already_open": "This ticket is already open",
-			"not_thread": "Only threads can be reopened",
-			"thread_deleted": "The ticket has been permanently deleted",
-			"success": "Ticket %d reopened: <#%d>",
-			"in_ticket": "This ticket has been reopened by <@%d>"
+			"not_found": "Bileto ne estas trovita",
+			"no_permission": "Vi ne havas permeson por reotigi tiun bileton",
+			"already_open": "Ĉi tiu bileto jam estas fermita ",
+			"not_thread": "Nur fadenoj povas esti reotigitaj",
+			"thread_deleted": "La bileto estis permanente forigita",
+			"success": "Bileto %d estas refermita: <#%d>",
+			"in_ticket": "Ĉi tiu bileto estis refermita de  <@%d>"
 		},
 		"premium": {
-			"key": "Key",
-			"check_again": "Check Again",
-			"subscription_found": "Subscription Found!",
-			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
-			"activate_key": "Activate A Premium Key",
-			"checking": "Checking Premium Status...",
+			"key": "Ŝlosilo",
+			"check_again": "Kontrolu denove",
+			"subscription_found": "Abono trovita!",
+			"subscription_found_content": "Por apliki vian abonon al ĉi tiu servilo, la servila posedanto (<@%d>) devas aldoni vin kiel administranton uzanto (rolaj permesoj estas ignorataj) per la komando </addadmin:%d>. \\n\\nVi povas certigi, ke vi estis aldonita kiel administranto uzante la komandon </viewstaff:%d>.",
+			"activate_key": "Aktivigu premiuman ŝlosilon",
+			"checking": "Kontrolante premiuman statuson...",
 			"please_wait": "Please wait...",
 			"success_after_check": "Premium is now active in this server!",
 			"link_patreon_account": "Link Patreon Account",
@@ -308,54 +308,54 @@
 		"website": "Our Website"
 	},
 	"help": {
-		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
-		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
-		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
-		"reopen": "Reopens a ticket that was previously closed",
-		"notes": "Creates a thread for private discussion between support representatives"
+		"switch_panel": "Ŝanĝas bileton al alia bileta panelo, ŝanĝante la kanalan kategorion, subtenajn teamojn, ktp",
+		"jump_to_top": "Provizas al vi butonon por salti al la supro de la bileto",
+		"on_call": "Markas vin kiel deĵoranto, por esti aldonita kaj pingita en ĉiuj novaj biletoj",
+		"reopen": "Reotigas bileton, kiu antaŭe estis fermita",
+		"notes": "Kreas fadenon por privata diskuto inter subtenaj reprezentantoj"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> has been unblacklisted"
+				"successcklisted": "<@&%d> estis elnigrigita"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
+			"docs": "Ĉu vi volas esplori pli? Nia [dokumentaro](https://docs.ticketsbot.cloud) instruos al vi kiel agordi ĉiun aspekton de la roboto!"
 		},
 		"threads": {
-			"no_notification_channel": "You must provide a ticket notification channel",
-			"notification_channel_type": "The ticket notification channel must be a text channel",
-			"success": "Thread mode has been enabled",
-			"disabled": "Thread mode has been disabled"
+			"no_notification_channel": "Vi devas provizi biletan sciigan kanalon",
+			"notification_channel_type": "La bileta sciiga kanalo devas esti teksta kanalo",
+			"success": "Fadena reĝimo estis ŝaltita",
+			"disabled": "Fadena reĝimo estis malŝaltita"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "This ticket has already been closed",
-			"no_permission": "You do not have permission to view this type of ticket",
-			"already_joined": "You have already joined this ticket (<#%d>)",
-			"success": "Added you to the ticket: <#%d>"
+			"closed_ticket": "Ĉi tiu bileto jam estis fermita",
+			"no_permission": "Vi ne havas permeson vidi ĉi tiun tipon de bileto",
+			"already_joined": "Vi jam aliĝis al ĉi tiu bileto (<#%d>)",
+			"success": "Aldonis vin al la bileto: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
-		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
-		"panel_disabled": "The server admins have disabled opening this type of ticket",
+		"thread_in_announcement_channel": "Fadenoj ne povas esti kreitaj en anoncaj kanaloj",
+		"panel_force_disabled": "Ĉi tiu panelo estis malŝaltita. Bonvolu peti al servila administranto reaktivigi premiuma abano kaj ruli %s por reaktivigi ĉi tiun panelon.",
+		"panel_disabled": "La servilaj administrantoj malebligis la malfermon de ĉi tiu tipa bileto",
 		"acl": {
-			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
-			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
+			"no_allow_rules": "Aliro por malfermi ĉi tiun tipon de bileto estis malŝaltita por ĉiuj roloj",
+			"deny_listed": "Vi ne povas malfermi ĉi tiun tipon de bileto ĉar vi havas la rolon <@&%d>",
 			"not_allow_listed": {
-				"multiple": "You need one of the following roles to open this type of ticket: %s",
-				"single": "You need the following role to open this type of ticket: %s"
+				"multiple": "Vi bezonas la jenajn rolojn por malfermi ĉi tiun tipon de bileto: %s",
+				"single": "Vi bezonas la jenan rolon por malfermi ĉi tiun tipon de bileto: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
+			"channel_mode_onlye only supported in channel mode": "Noto-fadenoj nur estas subtenataj en kanala reĝimo"
 		}
 	}
 }
