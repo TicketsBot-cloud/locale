@@ -1,16 +1,16 @@
 {
-	"commands.about": "A jegyrendszer bot egy könnyen kezelhető és jól konfigurálható jegy és támogató bot.\\nTámogató szerver: https://discord.gg/ticketsbot\\nParancsok: Írja be a `/help` parancsot\\nKezdje el a `/setup` parancsal",
-	"commands.add.no_members": "Meg kell említenie a tagokat, hogy hozzá lehessen adni a jegyhez.",
-	"commands.add.no_permission": "Nincs engedélye hozzáadni személyeket ehhez a jegyhez.",
-	"commands.addadmin.no_members": "Meg kell említened egy felhasználót vagy meg kell neveznie egy szerepkört, amelyhez adminisztrátori jogosultságokat biztosít.",
-	"commands.addadmin.owner": "A tulajdonos már rendelkezik adminisztrátor jogkörrel",
-	"commands.addsupport.no_members": "Meg kell említened egy felhasználót vagy meg kell neveznie egy szerepkört, amelyhez kisegítői jogosultságokat biztosít.",
-	"commands.blacklist.no_members": "Meg kell említened azt a felhasználót amelyiket feketelistára szeretnéd tenni.",
-	"commands.blacklist.self": "Nem teheted feketelistára saját magad.",
-	"commands.claim.success": "A jegyed kivizsgálását %s kezdte el!",
-	"commands.invite": "[Kattintson ide](<https://invite.ticketsbot.cloud>)",
+	"commands.about": "A jegyrendszer bot egy könnyen kezelhető és jól konfigurálható jegy és segítségnyújtó bot.\\nTámogató szerver: https://discord.gg/ticketsbot\\nParancsok: Írd be a `/help` parancsot\\nKezdd el a `/setup` paranccsal",
+	"commands.add.no_members": "Meg kell említened a tagokat, hogy hozzáadd őket a jegyhez",
+	"commands.add.no_permission": "Nincs engedélyed tagokat hozzáadni ehhez a jegyhez",
+	"commands.addadmin.no_members": "Meg kell említened egy felhasználót vagy szerepkört, hogy adminisztrátori jogosultságokat adj neki",
+	"commands.addadmin.owner": "A tulajdonos már rendelkezik adminisztrátori jogkörrel",
+	"commands.addsupport.no_members": "Meg kell említened egy felhasználót vagy szerepkört, hogy kezelői jogosultságokat adj neki",
+	"commands.blacklist.no_members": "Meg kell említened azt a felhasználót akit feketelistára szeretnél tenni",
+	"commands.blacklist.self": "Nem teheted feketelistára saját magadat",
+	"commands.claim.success": "A jegyedet %s kezdte el kezelni",
+	"commands.invite": "[Kattints ide](<https://invite.ticketsbot.cloud>)",
 	"commands.language.invalid": "Meg kell adnia egy nyelvi kódot vagy zászlót. Elérhető nyelvek:\\n%s",
-	"commands.open.ticket_limit": "Csak %d %s számú jegy nyitható meg egyszerre!",
+	"commands.open.ticket_limit": "Csak %d %s számú jegy nyitható meg egyszerre",
 	"commands.open.too_many_tickets": "Túl sok jegy van a jegykategóriában. Kérjen meg egy rendszergazdát, hogy zárjon be néhányat, vagy helyezzen át egy másik kategóriába.",
 	"commands.panel": "Látogasd meg a <https://dashboard.ticketsbot.cloud/manage/%d/panels> weboldalt, hogy szerkeszthesd a panelt",
 	"commands.premium": "Prémium előfizetést vásárolhat <https://www.patreon.com/ticketsbot-cloud>.\\nA prémium számos előnnyel jár, mint pl:\\n```diff\\n+ Korlátlan jegypanel\\n+ Személyreszabható bot név, kép (whitelabel)\\n+ Részletes statisztikák a szerverről, a felhasználókról és a staffokról\\n+ Lábrészben szereplő vízjel eltávolítása.\\n+ Támogassa a fejlesztést, és segítsen a szerver költségeinek kifizetésében\\n```\\n\\nAlternatív megoldásként szavazhat itt: <https://vote.ticketsbot.cloud> Szerezz ingyenes prémiumot 24 óráig.",
@@ -171,7 +171,7 @@
 		"rate": {
 			"not_allowed": {
 				"staff": "Nem értékelheted ezt a jegyet, mert kezelőként a(z) %s kategóriába tartozol",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"empty": "Nem értékelheted ezt a jegyet, mivel nem küldtél még üzenetet"
 			}
 		}
 	},
@@ -261,17 +261,17 @@
 					"description": "Válaszd ezt a lehetőséget ha a vásárlásodat Patreonon végezted el"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Válaszd ezt a lehetőségett, ha a vásárlásodat a Discord alkalmazáson belüli áruházban végezted"
 				}
 			},
 			"about": "A prémium ad jogot több panelhez, statisztikához, egy különböző bothoz és még sok minden máshoz! Nézd meg a [website](https://ticketsbot.cloud/premium) a részletekért.",
 			"already_activated": "Jó hír! A prémium már aktív ezen a szerveren.",
 			"already_activated_whitelabel": "Jó hír! A prémium már aktív ezen a szerveren.\n\nSegítségért a whitelabellel, olvasd el a [a whitelabel összerakási útmutatónkat](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "A prémium előfizetés közvetlenül a Discordon belül megvásárolható. Kattints az alábbi gombra az előfizetést kezelő oldal megnyitásához.\n\nA vásárlás után kérlek, várj 5 percet, amíg az előfizetés észlelésre kerül."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Megtaláltuk a Patreon előfizetésedet. Kérlek, kattints az alábbi „Open Server Selector” gombra, hogy megnyisd a vezérlőpultot, ahol kiválaszthatod, mely szervereken szeretnéd alkalmazni a prémium előfizetésedet.",
+			"open_server_selector": "Szerverválasztó megnyitása"
 		},
 		"notes": {
 			"added_to_existing": "Hozzá lettél adva a meglévő jegyzetekhez: <#%d>",
@@ -279,20 +279,20 @@
 			"created": "Egy jegyzet lett készítve a tickethez: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "A Discord korlátozásai miatt a jegyeket 10 percenként csak kétszer lehet átnevezni"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Kreditek beváltása",
+			"no_credits": "A beváltás sikertelen: nincs szavazati kredited!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "A szavazati krediteid **%d** nap prémium előfizetésre lettek beváltva!",
+					"singular": "A szavazati krediteid **%d** nap prémium előfizetésre lettek beváltva!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "%d szavazati kredited van. Kattints az alábbi „Kreditek beváltása” gombra, hogy beváltsd őket %d nap prémiumra ezen a szerveren.",
+				"singular": "%d szavazati kredited van. Kattints az alábbi „Kreditek beváltása” gombra, hogy beváltsd őket %d nap prémiumra ezen a szerveren."
 			}
 		}
 	},
