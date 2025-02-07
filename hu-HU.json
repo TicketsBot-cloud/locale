@@ -170,7 +170,7 @@
 		"success": "A ticket be lett zárva <@%d> által",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"staff": "Nem értékelheted ezt a jegyet, mert kezelőként a(z) %s kategóriába tartozol",
 				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
@@ -180,7 +180,7 @@
 			"disabled": "Az `/open` parancs ki van kapcsolva ezen a szerveren: kérlek, használd a jegy panelt egy jegy nyitásához",
 			"threads": {
 				"cant_see_parent_channel": "Nem tudtam hozzáadni <@%d> felhasználót a tickethez. Győződj meg arról, hogy van joga a csatornákat megtekinteni (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "Hiányzik a `Send Messages in Threads` jogosultságod, amely egy jegy megnyitásához szükséges. Kérj meg egy szerveradminisztrátort, hogy biztosítsa a jogot számodra, majd próbáld meg újra."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Elérted a maximális tagszámot (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Prémium előfizetés szükséges az egyéni parancsok (címkealiasok) használatához"
 			}
 		},
 		"language": {
