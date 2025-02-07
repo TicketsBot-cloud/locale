@@ -170,8 +170,8 @@
 		"success": "Phiếu hỗ trợ này đã được đóng bởi <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "Bạn không thể đánh giá phiếu hỗ trợ này này vì bạn là người hỗ trợ trong %s",
+				"empty": "Bạn không thể đánh giá phiếu hỗ trợ này vì bạn không gửi tin nhắn nào trong phiếu đó"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "Lệnh '/open' đã bị tắt trong máy chủ này, hãy sử dụng bảng tạo phiếu hỗ trợ để mở",
 			"threads": {
 				"cant_see_parent_channel": "Không thể thêm <@%d> vào phiếu hỗ trợ: Hãy chắc chắn họ có quyền để xem kênh chứa chủ đề (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "Bạn đang thiếu quyền \"Gửi Tin Nhắn trong Chủ Đề\", cần có quyền này để mở phiếu hỗ trợ. Vui lòng hỏi quản trị viên để thêm quyền lợi cho bạn và thử lại sau."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Bạn đã sử dụng hết %d giới hạn gắn thẻ"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Yêu cầu phiên bản cao cấp để sử dụng lệnh tùy chỉnh (bao gồm cả thẻ lệnh)"
 			}
 		},
 		"language": {
@@ -261,17 +261,17 @@
 					"description": "Chọn tuỳ chọn này nếu bạn đã thực hiện thanh toán qua Patreon"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Chọn tùy chọn này nếu bạn đã thanh toán trực tiếp qua cửa hàng trên ứng dụng Discord"
 				}
 			},
 			"about": "Nâng cấp cho bạn truy cập thêm bảng, số liệu, bot tuỳ chỉnh và nhiều hơn! Truy cập [website] (https://ticketsbot.cloud/premium) để tìm hiểu thêm.",
 			"already_activated": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.",
 			"already_activated_whitelabel": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.\n\nCần trợ giúp để bắt đầu sử dụng nhãn trắng? Đọc [hướng dẫn cài đặt](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Phiên bản cao cấp có thể được mua trực tiếp trên Discord. Bấm vào nút phía dưới tin nhắn để mở trang quản lý gói đăng ký.\n\nSau khi thanh toán, vui lòng đợi tầm 5 phút để gói đăng ký có thể được kích hoạt."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Đã tìm thấy gói đăng ký Patreon của bạn. Vui lòng bấm vào nút \"Lựa chọn máy chủ\" phía dưới để mở trang quản lý và chọn máy chủ bạn muốn áp dụng gói đăng ký cao cấp của bạn vào.",
+			"open_server_selector": "Lựa chọn máy chủ"
 		},
 		"notes": {
 			"added_to_existing": "Bạn đã được thêm vào chủ đề ghi chú có sẵn: <#%d>",
@@ -282,17 +282,17 @@
 			"ratelimited": "Vì một số giới hạn của Discord, phiếu hỗ trợ chỉ có thể đổi tên 2 lần mỗi 10 phút"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Quy đổi điểm",
+			"no_credits": "Quy đổi thất bại: Bạn không có điểm đánh giá nào cả!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Điểm đánh giá của bạn đã được quy đổi sang **%d** ngày có hiệu lực dành cho gói cao cấp!",
+					"singular": "Điểm đánh giá của bạn đã được quy đổi sang **%d** ngày có hiệu lực dành cho gói cao cấp!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Bạn hiện đang có **%d** điểm đánh giá. Bấm vào nút \"Quy đổi điểm\" bên dưới để quy đổi điểm sang %d ngày có hiệu lực dành cho phiên bản cao cấp trong máy chủ này.",
+				"singular": "Bạn hiện đang có **%d** điểm đánh giá. Bấm vào nút \"Quy đổi điểm\" bên dưới để quy đổi điểm sang %d ngày có hiệu lực dành cho phiên bản cao cấp trong máy chủ này."
 			}
 		}
 	},
