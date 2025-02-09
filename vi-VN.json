@@ -34,7 +34,7 @@
 	"commands.unclaim.not_claimed": "Phiếu hỗ trợ này chưa được nhận",
 	"commands.unclaim.not_claimer": "Chỉ quản trị viên vào người nhận phiếu hỗ trợ mới có thể hủy nhận phiếu hỗ trợ",
 	"commands.unclaim.success": "Tất cả các đại diện hỗ trợ giờ có thể trả lời phiếu hỗ trợ",
-	"commands.vote": "Nhấn vào đây để đánh giá và nhận 24 giờ của phiên bản cao cấp miễn phí:\\n<https://vote.ticketsbot.cloud>",
+	"commands.vote": "Nhấn vào nút bên dưới để đánh giá bot và sử dụng bản cao cấp miễn phí trong vòng 24 giờ.\n\nSau khi bạn đã đánh giá, sử dụng lại lệnh %s để quy đổi điểm đánh giá.",
 	"generic.invalid_argument": "Lựa chọn không hợp lệ: đọc lại hướng dẫn",
 	"generic.invalid_user": "Không thể tìm ra người này",
 	"generic.no_permission": "Bạn không có quyền làm chuyện này",
