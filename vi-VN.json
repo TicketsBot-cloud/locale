@@ -255,7 +255,7 @@
 			"selector": {
 				"description": "Chọn phương thức mà bạn đã sử dụng để nhận nâng cấp",
 				"key": {
-					"description": "Chọn tuỳ chọn này nếu bạn nhận được Mã kích hoạt được giveaway"
+					"description": "Chọn tuỳ chọn này nếu bạn nhận được mã kích hoạt được giveaway"
 				},
 				"patreon": {
 					"description": "Chọn tuỳ chọn này nếu bạn đã thực hiện thanh toán qua Patreon"
