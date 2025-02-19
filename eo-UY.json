@@ -136,61 +136,61 @@
 	"commands.removesupport.success": "Support representative removed successfully",
 	"commands.addadmin.success": "Admin added successfully",
 	"commands.removeadmin.success": "Admin removed successfully",
-	"generic.title.setup": "Setup",
-	"generic.title.premium": "Premium",
-	"generic.title.panel": "Panel",
-	"generic.title.rename": "Rename",
-	"generic.title.remove": "Remove",
-	"generic.title.help": "Help",
-	"generic.title.close_confirmation": "Close Confirmation",
-	"close.confirmation": "Please confirm that you want to close this ticket",
-	"generic.title.close_request": "Close Request",
-	"commands.close_request.accept": "Accept & Close",
-	"commands.close_request.deny": "Deny & Keep Open",
-	"commands.premium.success": "Premium has been activated for **%d** days",
-	"generic.title.claimed": "Claimed Ticket",
-	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.setup": "Agordo",
+	"generic.title.premium": "Premiumo",
+	"generic.title.panel": "Panelo",
+	"generic.title.rename": "Renomi",
+	"generic.title.remove": "Forigi",
+	"generic.title.help": "Helpo",
+	"generic.title.close_confirmation": "Konfirmo pri Fermo",
+	"close.confirmation": "Bonvolu konfirmi ke vi volas fermi ĉi tiun bileton",
+	"generic.title.close_request": "Peticio por Fermo",
+	"commands.close_request.accept": "Akcepti & Fermi",
+	"commands.close_request.deny": "Malakcepti & Lasu Malfermita",
+	"commands.premium.success": "Premiumo estis aktivigita por **%d** tagoj",
+	"generic.title.claimed": "Pretigita Bileto",
+	"generic.title.unclaimed": "Nepretigita Bileto",
 	"generic.title.add": "Aldoni",
-	"commands.add.success": "<@%d> has been added to <#%d>",
-	"commands.remove.success": "<@%d> has been removed from <#%d>",
-	"open.ratelimited": "Tickets are being opened too quickly in this server",
-	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
-	"generic.join_support_server": "Join Support Server",
-	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
-	"commands.open.missing_form_answer": "You must answer the question `%s`",
-	"close.no_permission": "You are not permitted to close this ticket",
+	"commands.add.success": "<@%d> estis aldonita al <#%d>",
+	"commands.remove.success": "<@%d> estis forigita de <#%d>",
+	"open.ratelimited": "Biletoj estas malfermitaj tro rapide en ĉi tiu servilo",
+	"commands.claim.thread": "Pro Discord-limigoj, pretigo ne subtenas fadenojn",
+	"generic.join_support_server": "Aliĝu al Subtena Servilo",
+	"commands.open.guild_channel_limit": "Ĉi tiu servilo atingis la limon de 500 kanaloj en Discord",
+	"commands.open.missing_form_answer": "Vi devas respondi al la demando `%s`",
+	"close.no_permission": "Vi ne rajtas fermi ĉi tiun bileton",
 	"": {
-		"generic.title.close_with_reason": "Close With Reason",
-		"generic.reason": "Reason"
+		"generic.title.close_with_reason": "Fermi kun Kialon",
+		"generic.reason": "Kialo"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
+			"placeholder": "Kialo por fermi la bileton, ekzemple \"Solvita\""
 		},
-		"success": "The ticket was closed by <@%d>",
+		"success": "La bileto estis fermita de <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "Vi ne povas taksi ĉi tiun bileton ĉar vi estas subtena reprezentanto en %s",
+				"empty": "Vi ne povas taksi ĉi tiun bileton ĉar vi ne sendis iujn mesaĝojn"
 			}
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
+			"disabled": "La komando `/open` estas malaktivigita en ĉi tiu servilo: bonvolu uzi bileta panelo por malfermi bileton",
 			"threads": {
-				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_see_parent_channel": "Ne eblis aldoni <@%d> al la bileto: Certiĝu, ke ili havas permeson vidi la gepatran kanalon de la fadeno (<#%d>)",
+				"cant_message_in_threads": "Vi mankas la permeson `Send Messages in Threads`, kiu estas necesa por malfermi bileton. Bonvolu peti servilan administranton doni al vi ĉi tiun permeson kaj provi denove."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "Invalid panel: You must select one from the dropdown",
-			"success": "This ticket has been switched to the `%s` panel by <@%d>"
+			"invalid_panel": "Nevalida panelo: Vi devas elekti unu el la menuo.",
+			"success": "Ĉi tiu bileto estis ŝanĝita al la `%s` panelo de <@%d>."
 		},
 		"blacklist": {
-			"staff": "Staff members cannot be blacklisted",
+			"staff": "Stabaj membroj ne povas esti nigre-listigitaj",
 			"add_role": {
-				"success": "<@&%d> has been blacklisted",
+				"success": "<@&%d> estis nigre-listigita",
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
@@ -242,70 +242,70 @@
 			"subscription_found_content": "Por apliki vian abonon al ĉi tiu servilo, la servila posedanto (<@%d>) devas aldoni vin kiel administranton uzanto (rolaj permesoj estas ignorataj) per la komando </addadmin:%d>. \\n\\nVi povas certigi, ke vi estis aldonita kiel administranto uzante la komandon </viewstaff:%d>.",
 			"activate_key": "Aktivigu premiuman ŝlosilon",
 			"checking": "Kontrolante premiuman statuson...",
-			"please_wait": "Please wait...",
-			"success_after_check": "Premium is now active in this server!",
-			"link_patreon_account": "Link Patreon Account",
-			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
-			"open_form": "Open Form",
-			"open_form_description": "Press the button below to reopen the form",
-			"use_key_anyway": "Use Premium Key Anyway",
-			"already_purchased_title": "Already purchased premium?",
-			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
-			"giveaway_key": "Giveaway Key",
+			"please_wait": "Bonvolu atendi...",
+			"success_after_check": "Premiumo nun estas aktiva en ĉi tiu servilo!",
+			"link_patreon_account": "Ligi Patreon-Konton",
+			"no_subscription": "Ne eblis trovi aktivan Patreon-abonadon ligitan al via Discord-konto. Certiĝu, ke vi [ligis viajn Patreon kaj Discord-kontojn] (https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), kaj atendi pliajn 10 minutojn.",
+			"open_form": "Malfermi Formularon",
+			"open_form_description": "Premu la butonon sube por remalfermi la formularon",
+			"use_key_anyway": "Uzu Premium-klavon ĉiuokaze",
+			"already_purchased_title": "Jam aĉetis premiumon?",
+			"already_purchased_description": "Se vi jam aĉetis premiumon, elektu la pagmanieron el la menuo por komenci",
+			"giveaway_key": "Donaco-klavo",
 			"selector": {
-				"description": "Select which method you used to obtain premium",
+				"description": "Elektu kiun metodon vi uzis por akiri premiumon",
 				"key": {
-					"description": "Select this option if you were given a giveaway key"
+					"description": "Elektu ĉi tiun opcion se vi ricevis donacon-klavon"
 				},
 				"patreon": {
-					"description": "Select this option if you made your purchase on Patreon"
+					"description": "Elektu ĉi tiun opcion se vi aĉetis en Patreon"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Elektu ĉi tiun opcion se vi aĉetis en la Discord-aplika vendejo"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
-			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"about": "Premiumo donas aliron al pli da paneloj, statistiko, kutima roboto kaj pli! Vizitu nian retejon (https://ticketsbot.cloud/premium) por lerni pli.",
+			"already_activated": "Bonaj novaĵoj! Premiumo jam estas aktiva en ĉi tiu servilo.",
+			"already_activated_whitelabel": "Bonaj novaĵoj! Premiumo jam estas aktiva en ĉi tiu servilo.\n\nPor helpo pri komencado kun whitelabel, legu [nian whitelabel agordan gvidilon].",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Premiumo povas esti aĉetita rekte en Discord. Alklaku la butonon sube ĉi tiu mesaĝo por malfermi la paĝon de abona administrado.\n\nPost aĉetado, bonvolu atendi ĝis 5 minutoj por ke la abono estu detektita."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Via Patreon-abonado estis trovita. Bonvolu alklaki la butonon \"Malfermi Servilan selektanton\" sube por malfermi la panelon kaj elekti, kiujn servilojn vi volas apliki al via premiumo.",
+			"open_server_selector": "Malfermi Servilan Selektanton"
 		},
 		"notes": {
-			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
-			"thread_name": "notes",
-			"created": "A notes thread has been created for this ticket: <#%d>"
+			"added_to_existing": "Vi estis aldonita al la ekzistanta fadeno de notoj: <#%d>",
+			"thread_name": "notoj",
+			"created": "Fadeno de notoj estis kreita por ĉi tiu bileto: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "Pro la limigoj metitaj de Discord, biletoj povas esti renomitaj nur du fojojn ĉiu 10 minutoj"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Redonigi kreditojn",
+			"no_credits": "Redonigo malsukcesis: vi ne havas voĉajn kreditojn!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Via voĉaj kreditoj estis kontentigitaj por **%d** tagoj de premiumo!",
+					"singular": "Via voĉaj kreditoj estis kontentigitaj por **%d** tago de premiumo!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Vi havas **%d** voĉajn kreditojn. Alklaku la butonon \"Redeem Credits\" sube por kontenti ilin por %d tagoj de premiumo en ĉi tiu servilo.",
+				"singular": "Vi havas **%d** voĉajn kreditojn. Alklaku la butonon \"Redeem Credits\" sube por redoni ilin por %d tagoj de premiumo en ĉi tiu servilo."
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Ticket Panel Switched",
-			"jump_to_top": "Jump To Top",
-			"reopened": "Ticket Reopened",
-			"ticket_closed": "Ticket Closed"
+			"panel_switched": "Panelo de bileto ŝanĝita",
+			"jump_to_top": "Sali al supra",
+			"reopened": "Bileto remalfermita",
+			"ticket_closed": "Bileto fermita"
 		},
-		"click_here": "Click Here",
-		"confirm": "Confirm",
-		"website": "Our Website"
+		"click_here": "Alklaku ĉi tie",
+		"confirm": "Akcepti",
+		"website": "Nia Retligo"
 	},
 	"help": {
 		"switch_panel": "Ŝanĝas bileton al alia bileta panelo, ŝanĝante la kanalan kategorion, subtenajn teamojn, ktp",
