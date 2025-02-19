@@ -1,24 +1,24 @@
 {
-	"commands.about": "Tickets là một botdễ dùng và có thể thiết lập theo ý của bạn.\\nNhóm hỗ trợ: https://discord.gg/ticketsbot\\nLệnh: Gõ `/help`\\nBắt đầu bằng lệnh `/setup`\\n",
+	"commands.about": "Tickets là một bot sử dụng và có thể thiết lập theo ý của bạn.\\nNhóm hỗ trợ: https://discord.gg/ticketsbot\\nLệnh: Gõ `/help`\\nBắt đầu bằng lệnh `/setup`\\n",
 	"commands.add.no_members": "Bạn cần nhắc đến các thành viên mà bạn muốn thêm vào phiếu hỗ trợ",
 	"commands.add.no_permission": "Bạn không có quyền thêm người khác vào phiếu hỗ trợ này",
 	"commands.addadmin.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để trao quyền quản trị viên",
-	"commands.addadmin.owner": "Chủ của kênh đã là quản trị viên theo mặc định",
+	"commands.addadmin.owner": "Chủ của hội đã là quản trị viên theo mặc định",
 	"commands.addsupport.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để trao quyền đại diện hỗ trợ viên",
-	"commands.blacklist.no_members": "Bạn cần nhắc đến một thành viên để chuyển đổi trạng thái chặn",
-	"commands.blacklist.self": "Bạn không thể chặn chính mình",
+	"commands.blacklist.no_members": "Bạn cần nhắc đề cập một thành viên để chuyển đổi trạng thái trong danh sách đen",
+	"commands.blacklist.self": "Bạn không thể thêm chính mình vào danh sách đen",
 	"commands.claim.success": "%s sẽ xử lý phiếu hỗ trợ của bạn",
 	"commands.invite": "[Ấn vào đây](<https://invite.ticketsbot.cloud>)",
 	"commands.language.invalid": "Bạn cần ghi rõ mã của ngôn ngữ hoặc cờ hiệu. Các ngôn ngữ đang khả dụng:\\n%s",
 	"commands.open.ticket_limit": "Bạn chỉ có thể mở %d %s một lúc",
-	"commands.open.too_many_tickets": "Hiện có quá nhiều phiếu hỗ trợ đang được mở. Hãy nhờ quản trị viên đóng bớt chúng hoặc di chuyển chúng qua mục khác",
+	"commands.open.too_many_tickets": "Hiện có quá nhiều phiếu hỗ trợ đang được mở trong danh mục. Hãy nhờ quản trị viên đóng bớt chúng hoặc di chuyển chúng qua mục khác.\n\n**Discord giới hạn** mỗi danh mục chỉ có thể chứa 50 kênh.",
 	"commands.panel": "Hãy truy cập <https://dashboard.ticketsbot.cloud/manage/%d/panels> để cài đặt với giao diện trực quan",
-	"commands.premium": "Bạn có thể mua phiên bản cao cấp tại <https://www.patreon.com/ticketsbot-cloud>.\\nPhiên bản trả phí mang lại nhiều quyền lợi như:\\n```diff\\n+ Tạo bảng phiếu hỗ trợ không giới hạn\\n+ Thay đổi tên, ảnh đjai diện & trạng thái (nhãn trằng)\\n+ Thông tin chi tiết về hội, thành viên và hỗ trợ viên\\n+ Không có quản cáo thương hiệu ở cuối tin nhắn\\n+ Giúp đỡ đội ngũ phát triển và giúp mình trả phí người máy\\n```\\n\\nNgoài ra, bạn có thể đánh giá tại <https://vote.ticketsbot.cloud> để nhận phiên bản cao cấp miễn phí trong vòng 24 giờ",
-	"commands.premium.invalid_key": "Mã kích hoạt sai. Hãy kiểm tra xem bạn có chép nó đúng không.",
+	"commands.premium": "Bạn có thể mua phiên bản cao cấp tại <https://www.patreon.com/ticketsbot-cloud>.\\nPhiên bản trả phí mang lại nhiều quyền lợi như:\\n```diff\\n+ Tạo bảng phiếu hỗ trợ không giới hạn\\n+ Thay đổi tên, ảnh đại diện & trạng thái (whitelabel)\\n+ Thông tin chi tiết về hội, thành viên và hỗ trợ viên\\n+ Không có quảng cáo thương hiệu ở cuối tin nhắn\\n+ Giúp đỡ đội ngũ phát triển và giúp trả phí chạy máy chủ cho bot\\n```\\n\\nNgoài ra, bạn có thể đánh giá tại <https://vote.ticketsbot.cloud> để nhận phiên bản cao cấp miễn phí trong vòng 24 giờ",
+	"commands.premium.invalid_key": "Mã kích hoạt sai. Hãy kiểm tra xem bạn đã sao chép đúng mã không.",
 	"commands.remove.no_permission": "Bạn không có quyền để loại bỏ người khác khỏi phiếu hỗ trợ này",
 	"commands.remove.staff": "Bạn không thể gỡ các quản lý khỏi phiếu hỗ trợ này",
 	"commands.removeadmin.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để gỡ bỏ quyền quản trị viên",
-	"commands.removeadmin.owner": "Chủ của hội luôn luôn là quản trị viên",
+	"commands.removeadmin.owner": "Chủ của hội bắt buộc phải là quản trị viên",
 	"commands.removeadmin.self": "Bạn không thể gỡ quyền của bản thân",
 	"commands.removesupport.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để gỡ quyền đại diện hỗ trợ viên",
 	"commands.rename.missing_name": "Bạn cần ghi rõ tên mới cho phiếu hỗ trợ này",
@@ -32,24 +32,24 @@
 	"commands.tags.get.invalid_tag": "Thẻ tên không hợp lệ. Xem chi tiết về thẻ tên tại <https://ticketsbot.cloud/tags>.",
 	"commands.tags.list": "ID của các thẻ: \\n%s\\nĐể thấy được nội dung của một thẻ, dùng lệnh `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Phiếu hỗ trợ này chưa được nhận",
-	"commands.unclaim.not_claimer": "Chỉ quản trị viên vào người nhận phiếu hỗ trợ mới có thể hủy nhận phiếu hỗ trợ",
+	"commands.unclaim.not_claimer": "Chỉ quản trị viên và người nhận phiếu hỗ trợ mới có thể hủy nhận phiếu hỗ trợ",
 	"commands.unclaim.success": "Tất cả các đại diện hỗ trợ giờ có thể trả lời phiếu hỗ trợ",
 	"commands.vote": "Nhấn vào nút bên dưới để đánh giá bot và sử dụng bản cao cấp miễn phí trong vòng 24 giờ.\n\nSau khi bạn đã đánh giá, sử dụng lại lệnh %s để quy đổi điểm đánh giá.",
 	"generic.invalid_argument": "Lựa chọn không hợp lệ: đọc lại hướng dẫn",
-	"generic.invalid_user": "Không thể tìm ra người này",
-	"generic.no_permission": "Bạn không có quyền làm chuyện này",
+	"generic.invalid_user": "Không thể tìm ra người dùng",
+	"generic.no_permission": "Bạn không có quyền để thực hiện thao tác",
 	"generic.not_ticket": "Đây không phải là một phiếu hỗ trợ",
-	"generic.owner_only": "Lệnh này chỉ dành cho người sáng tạo ra người máy",
+	"generic.owner_only": "Lệnh này chỉ dành cho người chủ sở hữu bot",
 	"help.about": "Nêu thông tin về người máy",
-	"help.add": "Thêm một người vào phiếu hỗ trợ",
-	"help.addadmin": "Cho một người hoặc vai trò quyền quản trị viên",
+	"help.add": "Thêm một người dùng vào phiếu hỗ trợ",
+	"help.addadmin": "Cấp quyền một người hoặc vai trò quyền quản trị viên",
 	"help.addsupport": "Thêm một người hoặc một vai trò vào đại diện hỗ trợ viên",
 	"help.admin": "Quản lý người máy",
 	"help.admin.blacklist": "Chặn một hội khỏi việc dùng người máy",
 	"help.admin.check_premium": "Kiểm tra trạng thái phiên bản cao cấp của một hội",
-	"help.admin.generate_premium": "Tạo các mã của bản cao cấp",
+	"help.admin.generate_premium": "Tạo các mã dành cho bản cao cấp",
 	"help.admin.get_owner": "Lấy thông tin về chủ của một hội",
-	"help.admin.unblacklist": "Gỡ một hội ra khỏi danh sách chặn hội bị chặn",
+	"help.admin.unblacklist": "Gỡ một hội ra khỏi danh sách hội bị chặn",
 	"help.blacklist": "Chuyển đổi để cho phép các thành viên có thể tương tác với người máy hay không",
 	"help.cancel": "Hủy quy trình cài đặt",
 	"help.claim": "Chỉ định một thành viên quản lý vào một phiếu hỗ trợ",
@@ -73,12 +73,12 @@
 	"help.taggadd": "Thêm một thẻ mới",
 	"help.taglist": "Danh sách tất cả các thẻ",
 	"help.transfer": "Chuyển phiếu hỗ trợ đã được nhận tới một thành viên khác",
-	"help.unclaim": "Gỡ nhặn trong phiếu hỗ trợ hiện tại",
+	"help.unclaim": "Gỡ nhận trong phiếu hỗ trợ hiện tại",
 	"help.viewstaff": "Danh sách các thành viên quản lý và các vai trò",
 	"help.vote": "Gửi cho bạn một đường dẫn để đánh giá và nhận phiên bản cao cấp miễn phí",
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
 	"setup.auto.category.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
-	"setup.auto.category.success": "Tạo một mục kênh cho các phiếu hỗ trợ",
+	"setup.auto.category.success": "Đã tạo một mục kênh cho các phiếu hỗ trợ",
 	"setup.auto.completed": "Đã thiết lập thành công! Nhấn vào [đây](https://panel.ticketsbot.cloud/manage/%d/panels) để thiết lập một bảng reaction, và thêm <@&%d> và <@&%d> là vai trò cho các thành viên quản lý",
 	"setup.auto.roles.failure": "Tôi đang thiếu quyền `Quản lý vai trò`",
 	"setup.auto.roles.success": "Đã tạo vai trò `Tickets Admin` & `Tickets Support`",
@@ -86,16 +86,16 @@
 	"setup.auto.transcript.success": "Đã tạo kênh <#%d>",
 	"setup.ticket_limit.success": "Giới hạn phiếu hỗ trợ đã được thay đổi thành `%d`",
 	"setup.transcript.invalid": "Bạn phải nhắc đến một kênh hợp lệ bên trong hội (e.g. <#%d>)\\n**Ví dụ:** `/setup transcripts #logs`",
-	"setup.transcript.success": "Kênh lưu các bản chép lại đã được thay đổi thành <#%d>",
-	"commands.language.help_wanted": "Bạn dùng ngôn ngữ khác? Tham gia [hội hỗ trợ](https://discord.gg/ticketsbot) nếu bạn muốn giúp phiên dịch thêm ngôn ngữ cho người máy",
+	"setup.transcript.success": "Kênh dành các bản ghi chép đã được thay đổi thành <#%d>",
+	"commands.language.help_wanted": "Bạn dùng ngôn ngữ khác? Tham gia [máy chủ hỗ trợ](https://discord.gg/ticketsbot) nếu bạn muốn giúp phiên dịch thêm ngôn ngữ cho người máy",
 	"commands.rename.too_long": "Tên của kênh không thể dài hơn 100 ký tự",
-	"commands.autoclose.configure": "Hãy xem [dashboard](https://panel.ticketsbot.cloud/manage/%d/settings) để thay đổi các cài đặt về tự động đóng",
-	"help.autoclose": "Tự động đóng các lệnh liên quan",
+	"commands.autoclose.configure": "Hãy xem [dashboard](https://panel.ticketsbot.cloud/manage/%d/settings) để thay đổi các cài đặt về tự động đóng phiếu",
+	"help.autoclose": "Các lệnh liên quan đến tính năng tự động đóng",
 	"help.autoclose.exclude": "Thêm ngoại lệ cho phiếu hỗ trợ không tự động đóng",
 	"help.autoclose.configure": "Chỉnh sửa các cài đặt liên quan đến tự động đóng",
-	"commands.autoclose.exclude.success": "Phiếu hỗ trợ này đã được ngoại lệ về tự động đóng",
+	"commands.autoclose.exclude.success": "Phiếu hỗ trợ này đã được ngoại lệ khỏi bị tự động đóng",
 	"commands.claim.no_permission": "Chỉ các thành viên quản lý mới có thể nhận các phiếu hỗ trợ",
-	"commands.open.from": "Phiếu hỗ trợ này được mở từ [tin nhắn này](%s).\n\n<@%d> được nói tại <#%d>:\n```%s```",
+	"commands.open.from": "Phiếu hỗ trợ này được mở từ [tin nhắn này](%s).\n\n<@%d> đã nói trong <#%d>:\n```%s```",
 	"commands.open.from.moved": "Cuộc hội thoại đã được chuyển đến một phiếu hỗ trợ (<#%d>)",
 	"help.close_request": "Gửi một tin nhắn hỏi thành viên xác nhận có thể đóng phiếu hỗ trợ này",
 	"close.reason_too_long": "Lý do không được dài hơn 255 ký tự",
@@ -154,9 +154,9 @@
 	"commands.add.success": "<@%d> đã được thêm vào <#%d>",
 	"commands.remove.success": "<@%d> đã được gỡ khỏi <#%d>",
 	"open.ratelimited": "Các phiếu hỗ trợ đang được mở quá nhanh trong hội này",
-	"commands.claim.thread": "Vì giới hạn của Discord, không thể nhận phiếu hỗ trợ bên trong các tin nhắn luồng con",
+	"commands.claim.thread": "Vì giới hạn của Discord, không thể nhận phiếu hỗ trợ bên trong kênh Chủ Đề",
 	"generic.join_support_server": "Tham gia máy chủ hỗ trợ",
-	"commands.open.guild_channel_limit": "Server Discord này đã đạt giớ hạn 500 kênh",
+	"commands.open.guild_channel_limit": "Máy chủ Discord này đã đạt giới hạn 500 kênh",
 	"commands.open.missing_form_answer": "Bạn phải trả lời câu hỏi `%s`",
 	"close.no_permission": "Bạn không có quyền đóng phiếu hỗ trợ này",
 	"": {
@@ -194,7 +194,7 @@
 				"limit": "Bạn đã sử dụng hết giới hạn của danh sách đen vai trò (%d)"
 			},
 			"add": {
-				"limit": "Bạn đã sử dụng hết %d giới hạn danh sách đen người dùng: hãy thử sử dụng vai trò để thay vào"
+				"limit": "Bạn đạt giới hạn số người dùng có thể thêm vào danh sách đen (%d): thay vào đó hãy sử dụng vai trò"
 			}
 		},
 		"jump_to_top": {
@@ -203,14 +203,14 @@
 		},
 		"addsupport": {
 			"confirm": "Hãy xác nhận rằng bạn muốn thêm %s vào nhóm hỗ trợ mặc định",
-			"everyone": "Bạn không thể thêm vai trò `@everyone` thành quản lí"
+			"everyone": "Bạn không thể thêm `@everyone` với vai trò quản trị"
 		},
 		"addadmin": {
 			"confirm": "Hãy xác minh rằng bạn muốn thêm %s thành quản lí của bot"
 		},
 		"tags": {
 			"create": {
-				"limit": "Bạn đã sử dụng hết %d giới hạn gắn thẻ"
+				"limit": "Bạn đã đạt giới hạn số thẻ có thể tạo (%d)"
 			},
 			"get": {
 				"requires_premium": "Yêu cầu phiên bản cao cấp để sử dụng lệnh tùy chỉnh (bao gồm cả thẻ lệnh)"
@@ -223,14 +223,14 @@
 		},
 		"on_call": {
 			"channel_mode": "`/on-call` chỉ có thể sử dụng khi dùng chế độ chủ đề. Tham khảo [docs](https://docs.ticketsbot.cloud/features/thread-mode) để tìm hiểu thêm",
-			"success": "Bạn đã được gắn thẻ",
-			"remove_success": "Bạn đã được gỡ thẻ"
+			"success": "Bạn đã bắt đầu tiếp nhận hỗ trợ",
+			"remove_success": "Bạn đã ngừng tiếp nhận hỗ trợ"
 		},
 		"reopen": {
 			"not_found": "Không tìm thấy phiếu hỗ trợ",
 			"no_permission": "Bạn không có quyền để mở lại phiếu hỗ trợ",
 			"already_open": "Phiếu hỗ trợ này đã được mở rồi",
-			"not_thread": "Chỉ chủ đề mới có thể được mở lại",
+			"not_thread": "Chỉ kênh chủ đề mới có thể được mở lại",
 			"thread_deleted": "Phiếu hỗ trợ đã được xóa vĩnh viễn",
 			"success": "Phiếu hỗ trợ %d đã được mở lại: <#%d>",
 			"in_ticket": "Phiếu hỗ trợ này đã được mở lại bởi <@%d>"
@@ -249,11 +249,11 @@
 			"open_form": "Mở biểu mẫu",
 			"open_form_description": "Bấm nút phía dưới để mở lại biểu mẫu",
 			"use_key_anyway": "Dùng Mã kích hoạt để nâng cấp",
-			"already_purchased_title": "Đã sử dụng phiên bản nâng cấp rồi?",
+			"already_purchased_title": "Đã mua phiên bản nâng cấp rồi?",
 			"already_purchased_description": "Nếu bạn đã mua nâng cấp trước đó, hãy lựa chọn phương thức thanh toán trong mục bên dưới để bắt đầu",
 			"giveaway_key": "Giveaway Mã kích hoạt",
 			"selector": {
-				"description": "Chọn phương thức mà bạn đã sử dụng để nhận nâng cấp",
+				"description": "Chọn phương thức mà bạn đã sử dụng để sở hữu phiên bản nâng cấp",
 				"key": {
 					"description": "Chọn tuỳ chọn này nếu bạn nhận được mã kích hoạt được giveaway"
 				},
@@ -276,7 +276,7 @@
 		"notes": {
 			"added_to_existing": "Bạn đã được thêm vào chủ đề ghi chú có sẵn: <#%d>",
 			"thread_name": "ghi chú",
-			"created": "Một chủ đề ghi chú đã được tạo cho phiếu hỗ trợ này: <#%d>"
+			"created": "Một kênh chủ đề ghi chú đã được tạo cho phiếu hỗ trợ này: <#%d>"
 		},
 		"rename": {
 			"ratelimited": "Vì một số giới hạn của Discord, phiếu hỗ trợ chỉ có thể đổi tên 2 lần mỗi 10 phút"
@@ -312,7 +312,7 @@
 		"jump_to_top": "Thêm nút để có thể nhảy lên tin nhắn đầu tiên của phiếu hỗ trợ",
 		"on_call": "Thêm bạn là đang sẵn sàng, được thêm và ping trong các phiếu hỗ trợ mới",
 		"reopen": "Mở lại phiếu hỗ trợ mà trước đó đã đóng",
-		"notes": "Tạo chủ đề để thảo luận riêng tư giữa các hỗ trợ viên"
+		"notes": "Tạo một kênh chủ đề để thảo luận riêng tư giữa các hỗ trợ viên"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -341,21 +341,21 @@
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Không thể tạo chủ đề trong kênh thông báo",
+		"thread_in_announcement_channel": "Không thể kênh tạo chủ đề trong kênh thông báo",
 		"panel_force_disabled": "Bảng này đã bị tắt. Hãy thử hỏi quản lí máy chủ kích hoạt lại bản cao cấp, và chạy lại lệnh %s để kích hoạt lại bảng này.",
-		"panel_disabled": "Admin máy chủ đã tắt việc mở loại phiếu hỗ trợ này",
+		"panel_disabled": "Quản lí máy chủ đã tắt việc mở loại phiếu hỗ trợ này",
 		"acl": {
-			"no_allow_rules": "Mở loại phiếu hỗ trợ này đã bị tắt cho tất cả các vai trò",
+			"no_allow_rules": "Quyền mở loại phiếu hỗ trợ này đã bị tắt cho tất cả các vai trò",
 			"deny_listed": "Bạn không thể mở loại phiếu hỗ trợ này vì bạn có vai trò <@&%d>",
 			"not_allow_listed": {
-				"multiple": "Bạn cần mỗi trong những vai trò sau để mở lại phiếu hỗ trợ này: %s",
-				"single": "Bạn cần những vai trò sau để mở lại phiếu hỗ trợ này: %s"
+				"multiple": "Bạn cần một trong những vai trò sau để mở dạng phiếu hỗ trợ này: %s",
+				"single": "Bạn cần những vai trò sau để mở dạng phiếu hỗ trợ này: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Ghi chú bằng chủ đề chỉ được hỗ trợ khi dùng chế độ kênh"
+			"channel_mode_onlye only supported in channel mode": "Ghi chú bằng kênh chủ đề chỉ được hỗ trợ sử dụng trong chế độ kênh"
 		}
 	}
 }
