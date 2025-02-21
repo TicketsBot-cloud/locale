@@ -121,9 +121,9 @@
 	"generic.title.autoclose": "Autoluk",
 	"generic.title.invite": "Inviter",
 	"generic.title.close": "Luk",
-	"generic.title.claim": "Claim",
+	"generic.title.claim": "Gør krav på",
 	"generic.title.blacklisted": "Blacklistet",
-	"generic.title.blacklist": "Blacklist",
+	"generic.title.blacklist": "Sortlist",
 	"generic.error.blacklisted": "Du er ikke whitelistet på denne server",
 	"commands.blacklist.add.success": "<@%d> er blevet blacklistet",
 	"commands.blacklist.remove.success": "<@%d> er blevet fjernet fra blacklisten",
@@ -170,8 +170,8 @@
 		"success": "Ticketen blev lukket af <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "Du kan ikke bedømme denne ticket, fordi du er en supportrepræsentant i %s",
+				"empty": "Du kan ikke bedømme denne ticket, fordi du ikke har sendt nogen beskeder"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "Kommandoen `/open` er deaktiveret på denne server: Brug venligst et ticketpanel til at åbne en ticket",
 			"threads": {
 				"cant_see_parent_channel": "Kunne ikke tilføje <@%d> til ticketen: Sørg for, at de har tilladelse til at se trådens overordnede kanal (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "Du mangler tilladelsen `Send beskeder i tråde`, som kræves for at åbne en ticket. Bed venligst en server administrator om at give denne tilladelse til dig og prøv igen."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Du har nået tag-grænsen (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Premium er påkrævet for at bruge brugerdefinerede kommandoer (tag aliaser)"
 			}
 		},
 		"language": {
