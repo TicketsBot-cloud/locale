@@ -171,7 +171,7 @@
 		"rate": {
 			"not_allowed": {
 				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"empty": "U kunt dit ticket niet beoordelen omdat u geen berichten heeft verstuurd"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "Het `/open` commando is uitgeschakeld in deze server: gebruik een ticketpaneel om een ticket te openen",
 			"threads": {
 				"cant_see_parent_channel": "Kon <@%d> niet toevoegen aan de ticket: Zorg ervoor dat ze toestemming hebben om het hoofdkanaal van het gesprek te bekijken (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "U mist de 'Send Messages in Threads' permissie, die nodig is om een ticket te openen. Vraag aan een server administrator om u deze permissie te verlenen en probeer het vervolgens opnieuw."
 			}
 		},
 		"switch_panel": {
@@ -270,7 +270,7 @@
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"subscription_found_content_modern": "Uw Patreon abonnement is gevonden. Klik op de \"Open Server Selector\" knop om het dashboard te openen waar u kunt selecteren in welke servers u het premium abonnement wilt gebruiken.",
 			"open_server_selector": "Open Server Selector"
 		},
 		"notes": {
@@ -282,7 +282,7 @@
 			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
+			"redeem_credits": "Credits inwisselen",
 			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": {
