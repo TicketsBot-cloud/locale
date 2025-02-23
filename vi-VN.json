@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets là một bot sử dụng và có thể thiết lập theo ý của bạn.\\nNhóm hỗ trợ: https://discord.gg/ticketsbot\\nLệnh: Gõ `/help`\\nBắt đầu bằng lệnh `/setup`\\n",
+	"commands.about": "Tickets là một bot dễ sử dụng và có thể thiết lập theo ý của bạn.\\nNhóm hỗ trợ: https://discord.gg/ticketsbot\\nLệnh: Gõ `/help`\\nBắt đầu bằng lệnh `/setup`\\n",
 	"commands.add.no_members": "Bạn cần nhắc đến các thành viên mà bạn muốn thêm vào phiếu hỗ trợ",
 	"commands.add.no_permission": "Bạn không có quyền thêm người khác vào phiếu hỗ trợ này",
 	"commands.addadmin.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để trao quyền quản trị viên",
