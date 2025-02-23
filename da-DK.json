@@ -261,17 +261,17 @@
 					"description": "Vælg denne mulighed, hvis du har foretaget et køb på vores Patreon"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Vælg denne mulighed, hvis du har foretaget dit køb i Discord in-app butikken"
 				}
 			},
 			"about": "Premium giver dig adgang til flere paneler, statistikker, en brugerdefineret bot og meget mere! Besøg vores [hjemmeside](https://ticketsbot.cloud/premium) for mere viden.",
 			"already_activated": "Gode nyheder! Premium er allerede aktiv i denne server.",
 			"already_activated_whitelabel": "Gode nyheder! Premium er allerede aktiv i denne server.\n\nFor hjælp til at komme i gang med whitelabel, læs [vores guide til opsætning af whitelabel](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Premium kan købes i Discord direkte. Klik på knappen nedenfor denne meddelelse for at åbne siden for abonnementshåndtering.\n\nEfter købet er fuldført, vent venligst op til 5 minutter før abonnementet er registeret."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Dit Patreon-abonnement er blevet fundet. Klik venligst på knappen \"Åbn Server Vælger\" nedenfor for at åbne dashboardet for at vælge, hvilke servere du ønsker at anvende dit premium abonnement på.",
+			"open_server_selector": "Åben Servervælger"
 		},
 		"notes": {
 			"added_to_existing": "Du er blevet tilføjet til den eksisterende notetråd: <#%d>",
@@ -279,11 +279,11 @@
 			"created": "Der er blevet oprettet en notetråd til denne ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "På grund af begrænsninger pålagt af Discord, kan tickets kun omdøbes to gange hvert 10. minut"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Indløs Kredit",
+			"no_credits": "Indløsning mislykkedes: Du har ingen stemmekredit!",
 			"redeem": {
 				"success": {
 					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
