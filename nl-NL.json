@@ -109,21 +109,21 @@
 	"generic.success": "Succes",
 	"button.guild_only": "Deze knop moet worden gebruikt in een server",
 	"button.dms_only": "Deze knop moet worden gebruikt in directe berichten",
-	"commands.tag.generic": "Tag",
+	"commands.tag.generic": "Label",
 	"commands.tags.delete.success": "Tag `%s` is verwijderd",
 	"generic.ticket": "Ticket",
 	"generic.title.premium_only": "Premium Only Commando",
 	"generic.admin": "Beheerder",
 	"commands.tags.create.success": "Tag aangemaakt - u kunt deze gebruiken door `/tag %s ` uit te voeren",
 	"generic.title.about": "Over ons",
-	"generic.title.vote": "Vote",
-	"generic.title.tags": "Tags",
+	"generic.title.vote": "Stem",
+	"generic.title.tags": "Labels",
 	"generic.title.autoclose": "Automatisch sluiten",
 	"generic.title.invite": "Uitnodigen",
 	"generic.title.close": "Sluiten",
 	"generic.title.claim": "Opeisen",
-	"generic.title.blacklisted": "Blacklisted",
-	"generic.title.blacklist": "Blacklist",
+	"generic.title.blacklisted": "Verbannen",
+	"generic.title.blacklist": "Zwarte Lijst",
 	"generic.error.blacklisted": "U bent geblacklist in deze server",
 	"commands.blacklist.add.success": "<@%d> is op de blacklist gezet",
 	"commands.blacklist.remove.success": "<@%d> is uit de blacklist gehaald",
@@ -170,7 +170,7 @@
 		"success": "De ticket is gesloten door <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"staff": "U kunt dit ticket niet beoordelen omdat u een ondersteuningsmedewerker bent in %s",
 				"empty": "U kunt dit ticket niet beoordelen omdat u geen berichten heeft verstuurd"
 			}
 		}
@@ -213,7 +213,7 @@
 				"limit": "Je hebt het tag-limiet bereikt (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Premium is vereist om aangepaste commando's te gebruiken"
 			}
 		},
 		"language": {
@@ -261,17 +261,17 @@
 					"description": "Selecteer deze optie als je je aankoop hebt gedaan op Patreon"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Selecteer deze optie als u uw aankoop heeft gemaakt in de Discord winkel"
 				}
 			},
 			"about": "Premium geeft je toegang tot meer panelen, statistieken, een aangepaste bot en meer! Bezoek onze [website](https://ticketsbot.cloud/premium) voor meer informatie.",
 			"already_activated": "Goed nieuws! Premium is al actief in deze server.",
 			"already_activated_whitelabel": "Goed nieuws! Premium is al actief in deze server.\n\nVoor hulp bij het gebruik van whitelabel, zie [onze whitelabel installatiehandleiding](https://docs.ticketsbot/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Premium kan rechtstreeks vanuit Discord worden gekocht. Klik op de knop in dit bericht om de abonnementen beheer pagina te openen.\n\nHet kan tot 5 minuten nadat u een aankoop heeft gedaan duren voordat het abonnement gedetecteerd wordt."
 			},
 			"subscription_found_content_modern": "Uw Patreon abonnement is gevonden. Klik op de \"Open Server Selector\" knop om het dashboard te openen waar u kunt selecteren in welke servers u het premium abonnement wilt gebruiken.",
-			"open_server_selector": "Open Server Selector"
+			"open_server_selector": "Open het server selectie menu"
 		},
 		"notes": {
 			"added_to_existing": "Je bent toegevoegd aan de bestaande notitiethread: <#%d>",
@@ -279,20 +279,20 @@
 			"created": "Voor deze ticket is een notitie gemaakt: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "Wegens beperkingen door Discord kan tickets slecht twee keer per 10 minuten worden hernoemd"
 		},
 		"vote": {
 			"redeem_credits": "Credits inwisselen",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"no_credits": "Inwisseling mislukt: u heeft niet genoeg credits!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Uw stem credits zijn ingewisseld voor **%d** dagen premium!",
+					"singular": "Uw stem credits zijn ingewisseld voor **%d** dag premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "U heeft **%d** stem credits. Klik op de \"Credits Inwisselen\" knop hieronder om ze in te wisselen voor **%d** dagen premium in deze server.",
+				"singular": "U heeft **%d** stem credit. Klik op de \"Credits Inwisselen\" knop hieronder om deze in te wisselen voor **%d** dag premium in deze server."
 			}
 		}
 	},
