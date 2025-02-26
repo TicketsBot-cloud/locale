@@ -286,13 +286,13 @@
 			"no_credits": "Indløsning mislykkedes: Du har ingen stemmekredit!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Dine stemmekreditter er blevet indløst i **%d** for premium!",
+					"singular": "Dine stemmekreditter er blevet indløst i **%d** for premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Du har **%d** stemmekreditter. Klik på knappen \"Indløs Kreditter\" nedenfor for at indløse dem for %d dage med premium på denne server.",
+				"singular": "Du har **%d** stemmekreditter. Klik på knappen \"Indløs Kreditter\" nedenfor for at indløse dem for %d dage med premium på denne server."
 			}
 		}
 	},
