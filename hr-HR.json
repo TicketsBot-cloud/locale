@@ -44,7 +44,7 @@
 	"help.add": "Dodajte korisnika u tiket",
 	"help.addadmin": "Daje korisniku ili ulozi administratorske povlastice",
 	"help.addsupport": "Dodaje korisnika ili ulogu predstavnika podrške",
-	"help.admin": "Bot management",
+	"help.admin": "Upravljanje botom",
 	"help.admin.blacklist": "Blacklist ceh od korištenja bot-a",
 	"help.admin.check_premium": "Provjerite premium status servera",
 	"help.admin.generate_premium": "Generirajte premium keys",
@@ -109,7 +109,7 @@
 	"generic.success": "Uspjeh",
 	"button.guild_only": "Ovaj gumb mora se koristiti na serveru",
 	"button.dms_only": "Ovaj se gumb mora koristiti u izravnim porukama",
-	"commands.tag.generic": "Tag",
+	"commands.tag.generic": "Oznaka",
 	"commands.tags.delete.success": "`%s` je izbrisan",
 	"generic.ticket": "Tiket",
 	"generic.title.premium_only": "Premium Only naredba",
@@ -137,7 +137,7 @@
 	"commands.addadmin.success": "Uspješno dodan Admin",
 	"commands.removeadmin.success": "Uspješno uklonjen Admin",
 	"generic.title.setup": "Postavljanje",
-	"generic.title.premium": "Premium",
+	"generic.title.premium": "Premija",
 	"generic.title.panel": "Ploča",
 	"generic.title.rename": "Preimenuj",
 	"generic.title.remove": "Ukloniti",
@@ -170,8 +170,8 @@
 		"success": "Tiket je zatvorio <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "Ne možete ocijeniti ovaj tiket jer ste predstavnik podrške u %s",
+				"empty": "Ne možete ocijeniti ovaj tiket jer niste poslali nikakve poruke"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "Naredba `/open` je onemogućena na ovom serveru: molimo koristite ploču s tiketima za otvaranje tiketa",
 			"threads": {
 				"cant_see_parent_channel": "Nije moguće dodati <@%d> u tiket: Provjerite ima li dopuštenje za pregled nadređenog kanala niti (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "Nedostaje vam dopuštenje 'Slanje poruka u threads', koje je potrebno za otvaranje tiketa. Zamolite administratora poslužitelja da vam odobri to dopuštenje i pokušajte ponovno."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Dosegli ste ograničenje tagova (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Premium je potreban za korištenje prilagođenih naredbi (tag aliases)"
 			}
 		},
 		"language": {
@@ -261,17 +261,17 @@
 					"description": "Odaberite ovu opciju ako ste kupili na Patreonu"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Odaberite ovu opciju ako ste kupnju obavili u Discord trgovini unutar aplikacija"
 				}
 			},
 			"about": "Premium vam daje pristup većem broju ploča, statistikama, prilagođenom botu i više! Posjetite našu [web-stranicu](https://ticketsbot.cloud/premium) kako biste saznali više.",
 			"already_activated": "Dobre vijesti! Premium je već aktiviran u ovom serveru.",
 			"already_activated_whitelabel": "Dobre vijesti! Premium je već aktivan na ovom poslužitelju.\n\nZa pomoć pri početku rada s whitelabelom pročitajte [naš vodič za postavljanje whitelabela](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Premium se može kupiti izravno unutar Discorda. Kliknite gumb ispod ove poruke da biste otvorili stranicu za upravljanje pretplatom.\n\nNakon kupnje pričekajte do 5 minuta da pretplata počne."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Pronađena je vaša pretplata na Patreon. Kliknite na gumb \"Otvori izbornik poslužitelja\" u nastavku kako biste otvorili nadzornu ploču i odabrali na koje poslužitelje želite primijeniti svoju premium pretplatu.",
+			"open_server_selector": "Otvorite izbornik poslužitelja"
 		},
 		"notes": {
 			"added_to_existing": "Dodani ste u postojeću nit bilješki: <#%d>",
@@ -279,20 +279,20 @@
 			"created": "Nit bilješki stvorena je za ovaj tiket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "Zbog ograničenja koja nameće Discord, tickets se mogu preimenovati samo dva puta svakih 10 minuta"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Iskoristite kredite",
+			"no_credits": "Nije uspio: nemate kredita od glasanja!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Vaši glasovni krediti su iskorišteni za **%d** dana premije!",
+					"singular": "Vaši glasovni krediti su iskorišteni za **%d** dan premije!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Imate **%d** zasluga za glasovanje. Kliknite gumb \"Iskoristi kredite\" u nastavku kako biste ih iskoristili za %d dana premije na ovom poslužitelju.",
+				"singular": "Imate **%d** zasluge za glasanje. Kliknite gumb \"Iskoristi kredite\" u nastavku kako biste ih iskoristili za %d dan premije na ovom poslužitelju."
 			}
 		}
 	},
