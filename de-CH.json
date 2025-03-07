@@ -34,10 +34,10 @@
 	"commands.unclaim.not_claimed": "S'Ticket wird vo niemertem bearbeitet",
 	"commands.unclaim.not_claimer": "Nur Administratore und de Benutzer, wo s'Ticket bearbeitet, chönd s'Ticket freigeh",
 	"commands.unclaim.success": "Alli Support-Mitarbeiter chönd ab sofort uf s'Ticket antworte",
-	"commands.vote": "Druck uf de Chnopf une, um für de Bot abzstimme und 24 Stund lang gratis e begrenzti Version vo Premium z'übercho.\n\nWenn du abgstimmt hesch, füehr de %s Befehl nomal uus, um Dini Stimm-Guetschrift iizlöse.",
+	"commands.vote": "Druck uf de Chnopf une, um für de Bot abzstimme und 24 Stund lang gratis e begrenzti Version vo Premium z'übercho.\n\nWenn du abgstimmt hesch, füehr de %s Befehl nomal uus, um Dis Stimm-Guethabe iizlöse.",
 	"generic.invalid_argument": "Ungültigs Argument: Lueg Dir d'Verwendig aa",
 	"generic.invalid_user": "De Benutzer cha nöd gfunde werde",
-	"generic.no_permission": "Du hesch nöd die nötige Berechtigunge, um Dir das aazluege",
+	"generic.no_permission": "Du hesch nöd die nötige Berechtigunge",
 	"generic.not_ticket": "De Kanal isch kein Ticket-Kanal",
 	"generic.owner_only": "De Befehl isch reserviert für de Bot-Inhaber",
 	"help.about": "Zeigt Dir Informatione über de Bot aa",
@@ -125,8 +125,8 @@
 	"generic.title.blacklisted": "Gsperrt",
 	"generic.title.blacklist": "Sperrliste",
 	"generic.error.blacklisted": "Du bisch i dem Server gsperrt",
-	"commands.blacklist.add.success": "<@%d> isch gsperrt worde",
-	"commands.blacklist.remove.success": "<@%d> isch entsperrt worde",
+	"commands.blacklist.add.success": "<@%d> isch zu de Sperrliste hinzuegfüegt worde",
+	"commands.blacklist.remove.success": "<@%d> isch vo de Sperrliste entfernt worde",
 	"generic.title.add_admin": "Administrator hinzuefüege",
 	"generic.title.add_support": "Support hinzuefüege",
 	"generic.title.remove_admin": "Administrator entferne",
@@ -190,7 +190,7 @@
 		"blacklist": {
 			"staff": "Mitarbeiter chönd nöd gsperrt werde",
 			"add_role": {
-				"success": "<@&%d> isch gsperrt worde",
+				"success": "<@&%d> isch zu de Sperrliste hinzuegfüegt worde",
 				"limit": "Du hesch s'Limit für d'Aazahl Rollene i de Sperrliste erreicht (%d)"
 			},
 			"add": {
