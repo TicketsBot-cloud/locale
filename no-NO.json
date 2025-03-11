@@ -12,7 +12,7 @@
 	"commands.language.invalid": "Du må oppgi en språkkode eller et flagg. Tilgjengelige språk:\\n%s",
 	"commands.open.ticket_limit": "Du kan bare åpne %d %s om gangen",
 	"commands.open.too_many_tickets": "Det er for mange støtteforespurseler i støttekategorien. Spør en administrator om å lukke noen eller flytte dem til en annen kategori",
-	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
+	"commands.panel": "Gå til <https://dashboard.ticketsbot.cloud/manage/%d/panels> for å konfigurere ett panel",
 	"commands.premium": "Du kan kjøpe premiumsabonnement fra <https://www.patreon.com/ticketsbot-cloud>.\\nPremium gir mange fordeler, som:\\n```diff\\n+ Lage ubegrensede støtteforespurselspaneler\\n+ Endre robot navn, avatar og status (ser som din egen)\\n+ Detaljert statistikk om sørveren, brukere og stabmedlemmer\\n+ Ingen reklame på slutten av meldinger\\n+ Støtte utviklinga og hjelpe meg med å betale regingene\\n```\\n\\nOm dette ikke passer, kan du stemme for roboten på <https://vote.ticketsbot.cloud> for å få premium gratis for ett døgn",
 	"commands.premium.invalid_key": "Ugyldig nøkkel. Pass på at du kopierte nøkkelen ordentlig",
 	"commands.remove.no_permission": "Du har ikke lov til å fjerne folk fra denne støtteforespurselen",
@@ -60,7 +60,7 @@
 	"help.managetags": "Legg til, fjern eller list knagger",
 	"help.open": "Åpner en ny støtteforespursel",
 	"help.panel": "Lager et panel for å la brukere lage en ny støtteforespursel med ett klikk",
-	"help.premium": "Run this command after purchasing premium to activate it",
+	"help.premium": "Kjør denne kommandoen etter å ha kjøpt premium for å aktivere den",
 	"help.remove": "Fjerner en bruker fra en støtteforespursel",
 	"help.removeadmin": "Fjerner en bruker eller rolles administratorprivilegier",
 	"help.removesupport": "Fjerner en bruker eller rolles støttekontaktprivilegier",
@@ -79,7 +79,7 @@
 	"open.success": "Åpnet en ny støtteforespursel: %s",
 	"setup.auto.category.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
 	"setup.auto.category.success": "Opprett ticket kategori",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Konfigurasjon fullført! Trykk [her] (https://dashboard.ticketsbot.cloud/manage/%d/panels) for å sette opp ett reaksjonspanel, og legg til <@&%d> and <@&%d> roller til dine ansatte",
 	"setup.auto.roles.failure": "Jeg mangler tillatelsen `Administrer Roller`",
 	"setup.auto.roles.success": "Opprettet `Ticket Admin` og `Ticket Support` roller",
 	"setup.auto.transcript.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Transkripsjons kanalen har blitt endret til <#%d>",
 	"commands.language.help_wanted": "Snakker du et annet språk? Bli med i vår [support server](https://discord.gg/ticketsbot) hvis du er interessert i å hjelpe til å oversette boten til flere språk",
 	"commands.rename.too_long": "Kanal navn kan ikke være lengre enn 100 tegn",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Besøk [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) for å endre innstillingene på autolukking",
 	"help.autoclose": "Autoclose relaterte kommandoer",
 	"help.autoclose.exclude": "Ekskluderer gjeldende ticket fra å bli automatisk lukket",
 	"help.autoclose.configure": "Rediger autoclose relaterte innstillinger",
@@ -109,19 +109,19 @@
 	"generic.success": "Suksess",
 	"button.guild_only": "Denne knappen må være i en serveren",
 	"button.dms_only": "Denne knappen må brukes i direktemeldinger",
-	"commands.tag.generic": "Tag",
+	"commands.tag.generic": "Tagg",
 	"commands.tags.delete.success": "Tag `%s` har blitt slettet",
-	"generic.ticket": "Ticket",
+	"generic.ticket": "Sak",
 	"generic.title.premium_only": "Bare premium kommando",
-	"generic.admin": "Admin",
+	"generic.admin": "Administrator",
 	"commands.tags.create.success": "Taggen er opprettet - du kan bruke den ved å kjøre `/tag %s`",
 	"generic.title.about": "Om",
 	"generic.title.vote": "Stem",
-	"generic.title.tags": "Tags",
-	"generic.title.autoclose": "Autoclose",
+	"generic.title.tags": "Etiketter",
+	"generic.title.autoclose": "Autolukke",
 	"generic.title.invite": "Inviter",
 	"generic.title.close": "Lukk",
-	"generic.title.claim": "Claim",
+	"generic.title.claim": "Ta over",
 	"generic.title.blacklisted": "Svartelistet",
 	"generic.title.blacklist": "Svarteliste",
 	"generic.error.blacklisted": "Du er svartelistet i denne serveren",
@@ -148,8 +148,8 @@
 	"commands.close_request.accept": "Aksepter & Lukk",
 	"commands.close_request.deny": "Avslå & Hold åpen",
 	"commands.premium.success": "Premium har blitt aktivert i *%d** dager",
-	"generic.title.claimed": "Claimed Ticket",
-	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.claimed": "Påtatt sak",
+	"generic.title.unclaimed": "Ikke tatt ticket",
 	"generic.title.add": "Legg til",
 	"commands.add.success": "<@%d> har blitt lagt til <#%d>",
 	"commands.remove.success": "<@%d> er fjernet fra <#%d>",
@@ -167,11 +167,11 @@
 		"reason": {
 			"placeholder": "Grunn for å stenge ticketen, f.eks \"Løst\""
 		},
-		"success": "The ticket was closed by <@%d>",
+		"success": "Ticketen ble lukket av <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "Du kan ikke vurdere denne ticketen, fordi du er en støtterepresentant i %s",
+				"empty": "Du kan ikke vurdere denne ticketen fordi du ikke har sendt noen meldinger"
 			}
 		}
 	},
@@ -179,8 +179,8 @@
 		"open": {
 			"disabled": "`/open` kommandoen er deaktivert i denne serveren: Vennligst bruk ticket panelet for å åpne en ticket",
 			"threads": {
-				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_see_parent_channel": "Kunne ikke legge til <@%d> i ticketen: Pass på at de har tilganger til å se kanalen til tråden (<#%d>)",
+				"cant_message_in_threads": "Du mangler \"Send Meldinger i Tråder\" tillatelse, som kreves for å åpne en sak. Vennligst be Server Administratoren om å gi deg tilgang, og prøv på nytt"
 			}
 		},
 		"switch_panel": {
