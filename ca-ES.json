@@ -34,7 +34,7 @@
 	"commands.unclaim.not_claimed": "Aquest tiquet no ha estat reclamat",
 	"commands.unclaim.not_claimer": "Només els administradors i usuaris que hagin reclamat el tiquet el poden alliberar",
 	"commands.unclaim.success": "Ara, tots els integrants de suport poden respondre al tiquet",
-	"commands.vote": "Clica aquí per votar per tenir 24 hores de Premium gratis:\\n<https://vote.ticketsbot.cloud>",
+	"commands.vote": "Clica el botó de sota per tenir 24 hores gratis de Prèmium.\n\nQuan hagis votat, fes servir l'ordre %s altre cop per reclamar els crèdits.",
 	"generic.invalid_argument": "Argument no vàlid: consulta l'ajuda d'ús",
 	"generic.invalid_user": "No s'ha trobat l'usuari especificat",
 	"generic.no_permission": "No teniu permís per això",
