@@ -11,11 +11,11 @@
 	"commands.invite": "[Paspauskite čia](<https://invite.ticketsbot.cloud>)",
 	"commands.language.invalid": "Jūs turite nurodyti kalbos kodą arba vėliavėlę. Galimos kalbos:\\n%s",
 	"commands.open.ticket_limit": "Vienu metu galite atidaryti tik %d %s",
-	"commands.open.too_many_tickets": "Bilietų kategorijoje yra per daug bilietų. Paprašykite administracijos, kad uždarytu kelis arba perkeltu į kitą kategoriją.\n\nTai yra **Discord nustatytas limitas**, 50 kanalų vienoje kategorijoje.",
+	"commands.open.too_many_tickets": "Bilietų kategorijoje yra per daug bilietų. Paprašykite administracijos, kad uždarytų kelis arba perkeltų į kitą kategoriją.\n\nTai yra **Discord nustatytas limitas**, 50 kanalų vienoje kategorijoje.",
 	"commands.panel": "Apsilankykite <https://dashboard.ticketsbot.cloud/manage/%d/panels>, kad sukonfiguruotumėte skydelį",
 	"commands.premium": "Galite įsigyti premium prenumeratą iš <https://www.patreon.com/ticketsbot-cloud>.\\nPremium suteikia daug papildomų privalumų, tokių kaip:\\n```diff\\n+ Galėsite sukurti neribotą kiekį skydelių \\n+ Galėsite pakeisti roboto pavadinimą, paveikslėlį ir būsėną į jums patinkantį\\n+ Detali statistika apie serverį, vartotojus ir pagalbos narius\\n+ Pranešime nebus mūsų žymėjimo\\n+ Prisidėsite prie plėtros ir padėtis išlaikyti roboto išlaidas\\n```\\n\\nGalite prabalsuoti nuėję į <https://vote.ticketsbot.cloud>, kad gautumėte premium nemokamai 24 valandom",
 	"commands.premium.invalid_key": "Neteisingas kodas. Įsitikinkite, kad nukopijavote teisingai.",
-	"commands.remove.no_permission": "Jūs neturite privilegijos, kad galėtumėte pašalinti vartotoja iš šio bilieto",
+	"commands.remove.no_permission": "Jūs neturite privilegijos, kad galėtumėte pašalinti vartotoją iš šio bilieto",
 	"commands.remove.staff": "Jūs negalite pašalinti pagalbą suteikiančių narių iš šio bilieto",
 	"commands.removeadmin.no_members": "Jūs turite paminėti vartotoja arba rolę, kad galėtumėte pašalinti administracijos privilegijas",
 	"commands.removeadmin.owner": "Serverio savininkas turi būti administratorius",
@@ -72,7 +72,7 @@
 	"help.tagdelete": "Panaikina žymą",
 	"help.taggadd": "Prideda naują žymą",
 	"help.taglist": "Visų žymų sąrašas",
-	"help.transfer": "Perleisti apsiimta bilietą kitam vartotojui",
+	"help.transfer": "Perleisti apsiimtą bilietą kitam vartotojui",
 	"help.unclaim": "Nebeapsiimti dabartiniu bilietu",
 	"help.viewstaff": "Pagalbos narių ir rolių sąrašas",
 	"help.vote": "Suteikia nuorodą, kad prabalsuotuvėte už nemokamą premium prenumeratą",
@@ -93,27 +93,27 @@
 	"help.autoclose": "Susijusios komandos su automatiniu uždarymu",
 	"help.autoclose.exclude": "Dabartinis bilietas nebus automatiškai uždarytas",
 	"help.autoclose.configure": "Redaguoti su automatiniu uždarymu susijusius nustatymus",
-	"commands.autoclose.exclude.success": "Šis bilietas nebus automatiškai uždarytas",
+	"commands.autoclose.exclude.success": "Šis bilietas negali būti automatiškai uždarytas",
 	"commands.claim.no_permission": "Tik pagalbos nariai gali apsiimti bilietais",
 	"commands.open.from": "Šis bilietas atidarytas iš [šio pranešimo](%s).\n\n<@%d> Parašė į <#%d>:\n```%s```",
 	"commands.open.from.moved": "Pokalbis buvo perkeltas į bilietą (<#%d>)",
-	"help.close_request": "Nusiunčia pranešima vartotojui, kad patvirtintu ar galima uždaryti bilietą",
+	"help.close_request": "Nusiunčia pranešima vartotojui, kad patvirtintų ar galima uždaryti bilietą",
 	"close.reason_too_long": "Priežastis negali būti ilgesnė nei 255 simboliai",
-	"commands.close_request.no_reason": "<@%d> prašo uždaryti bilietą.\n\nPriimkite arba atmeskite prašyma naudodami žemiau esančius mygtukus.",
-	"commands.close_request.with_reason": "<@%d> prašo uždaryti bilietą. Priežastis:\n```\n%s\n```\nPriimkite arba atmeskite prašyma naudodami žemiau esančius mygtukus.",
+	"commands.close_request.no_reason": "<@%d> prašo uždaryti bilietą.\n\nPriimkite arba atmeskite prašymą naudodami žemiau esančius mygtukus.",
+	"commands.close_request.with_reason": "<@%d> prašo uždaryti bilietą. Priežastis:\n```\n%s\n```\nPriimkite arba atmeskite prašymą naudodami žemiau esančius mygtukus.",
 	"commands.close_request.no_permission": "Tik vartotojas kuris atidarė bilietą gali atsakyti į prašymą",
-	"commands.close_request.denied": "<@%d> atmetė prašyma uždaryti bilietą",
+	"commands.close_request.denied": "<@%d> atmetė prašymą uždaryti bilietą",
 	"generic.error": "Klaida",
 	"feedback.disabled": "Šiame serveryje atsiliepimai yra išjungti",
-	"feedback.success": "Jūsų atsiliepimas buvo užfiksuotas",
+	"feedback.success": "Jūsų atsiliepimas buvo įrašytas",
 	"generic.success": "Sėkmingai",
 	"button.guild_only": "Šis mygtukas turi būti naudojamas serveryje",
 	"button.dms_only": "Šis mygtukas turi būti naudojamas tiesioginėje žinutėje",
 	"commands.tag.generic": "Žyma",
-	"commands.tags.delete.success": "Žymą `%s` buvo pašalinta",
+	"commands.tags.delete.success": "Žyma `%s` buvo pašalinta",
 	"generic.ticket": "Bilietas",
 	"generic.title.premium_only": "Komanda tik Premium prenumeratoriams",
-	"generic.admin": "Admin",
+	"generic.admin": "Administratorius",
 	"commands.tags.create.success": "Žyma sukurta – galite ją panaudoti `/tag %s`",
 	"generic.title.about": "Apie",
 	"generic.title.vote": "Balsuoti",
@@ -142,8 +142,8 @@
 	"generic.title.rename": "Pervardyti",
 	"generic.title.remove": "Pašalinti",
 	"generic.title.help": "Pagalba",
-	"generic.title.close_confirmation": "Uždaryti patvirtinimą",
-	"close.confirmation": "Prašom patvirtinkite, kad norite uždaryti bilietą",
+	"generic.title.close_confirmation": "Patvirtinti bilieto uždarymą",
+	"close.confirmation": "Prašome patvirtinti, jog norite uždaryti bilietą",
 	"generic.title.close_request": "Klausti dėl bilieto uždarymo",
 	"commands.close_request.accept": "Priimti ir uždaryti",
 	"commands.close_request.deny": "Atmesti ir palikti atidaryta",
@@ -167,20 +167,20 @@
 		"reason": {
 			"placeholder": "Priežastis kodėl uždarote bilieta, pvz., \"Išspręsta\""
 		},
-		"success": "Šiį bilietą uždarė <@%d>",
+		"success": "Šį bilietą uždarė <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "Jūs negalite įvertinti šio bilieto, kadangi esate pagalbininkas %s",
+				"empty": "Jūs negalite įvertinti šio bilieto, kadangi nesiuntėte jokio pranešimo"
 			}
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": "`/atidaryti` komanda yra išjungta šiame serveryje, prašome naudokite bilietų kanale sukurtu mygtuku",
+			"disabled": "`/atidaryti` komanda yra išjungta šiame serveryje, prašome naudotis bilietų kanale sukurtu mygtuku",
 			"threads": {
 				"cant_see_parent_channel": "Nepavyko pridėti <@%d> prie bilieto. Įsitikinkite, kad jie turi leidimą peržiūrėti pagrindinį grupės kanalą (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "Jums trūksta \"Send Messages in Threads\" leidimo, kuris yra reikalingas, jog atidarytumėte bilietą. Kreipkitės į serverio administratorių ir bandykite dar kartą."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Jūs pasiekėte žymų limitą (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Premium yra būtinas, kad naudoti custom komandas (žymų slapyvardžius)"
 			}
 		},
 		"language": {
@@ -239,7 +239,7 @@
 			"key": "Raktas",
 			"check_again": "Patikrinkite iš naujo",
 			"subscription_found": "Rasta prenumerata!",
-			"subscription_found_content": "Kad aktyvuotumėte savo prenumeratą šiame serveryje, savininkas (<@%d>) turi pridėti jus kaip administruojanti vartotoja (rolės yra ignoruojamos) su komanda </addadmin:%d>.\\n\\nJūs galite pasitikrinti, kad jūs buvote pridėtas kaip administruojantis vartotojas, parašykite </viewstaff:%d>.",
+			"subscription_found_content": "Kad aktyvuotumėte savo prenumeratą šiame serveryje, savininkas (<@%d>) turi pridėti jus kaip administruojantį vartotoją (rolės yra ignoruojamos) su komanda </addadmin:%d>.\\n\\nJūs galite pasitikrinti, kad jūs buvote pridėtas kaip administruojantis vartotojas, parašydami </viewstaff:%d>.",
 			"activate_key": "Aktyvuokite Premium raktą",
 			"checking": "Tikrinamas Premium statusas...",
 			"please_wait": "Prašome palaukti...",
@@ -261,38 +261,38 @@
 					"description": "Pasirinkite šią parinktį, jei pirkote per Patreon"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Pasirinkite šį variantą jei pirkote per Discord platformą"
 				}
 			},
 			"about": "Premium suteikia prieigą prie daugiau skydelių, statistikos, koreaguojamo roboto ir dar daugiau! Apsilankykite mūsų [website](https://ticketsbot.cloud/premium), kad pasiskaitytumėte daugiau.",
 			"already_activated": "Geros naujienos! Premium jau aktyvuotas serveryje.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Geros naujienos! Premium jau yra aktyvus šiame serveryje.\n\nSiekiant gauti pagalbos pradžioje, perskaitykite [pradžios sąranką](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Premium gali būti perkamas tiesiogiai per Discord. Paspauskite mygtuką po pranešimu, jog atidarytumėte pirkimo langą.\n\nNusipirkus prašome palaukti iki 5 minučių, jog prenumerata būtų aptikta."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Jūsų Pateron prenumerata buvo rasta. Prašome paspausti ant \"Atidaryti serverių pasirinkimą\" mygtuko žemiau siekiant atidaryti panelę ir pasirinkti serverį kuriame norite aktyvuoti premium prenumeratą.",
+			"open_server_selector": "Atidaryti serverių pasirinkimą"
 		},
 		"notes": {
-			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
-			"thread_name": "notes",
-			"created": "A notes thread has been created for this ticket: <#%d>"
+			"added_to_existing": "Jūs buvote pridėtas į giją <#%d>",
+			"thread_name": "užrašai",
+			"created": "Užrašų gija buvo sukurta bilietui: <#%d>"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "Dėl Discord limitų bilietai gali būti pervadinti du kartus per 10 minučių"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Atsiimti kreditus",
+			"no_credits": "Atsiėmimas nepavyko: jūs neturite jokių kreditų!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Jūsų balsavimo kreditai buvo iškeisti į **%d** dienų Premium prenumeratos!",
+					"singular": "Jūsų balsavimo kreditai buvo iškeisti į **%d** dieną Premium prenumeratos!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Jūs turite **%d** balsavimo kreditų. Spauskite \"Atsiimti kreditus\" mygtuką žemiau, jog atsiimtumėte juos dėl %d dienų Premium prenumeratos šiame serveryje.",
+				"singular": "Jūs turite **%d** balsavimo kreditų. Spauskite \"Atsiimti kreditus\" mygtuką žemiau, jog atsiimtumėte juos dėl %d dienos Premium prenumeratos šiame serveryje."
 			}
 		}
 	},
@@ -312,7 +312,7 @@
 		"jump_to_top": "Pateikiamas mygtukas, leidžiantis pereiti į bilieto viršų",
 		"on_call": "Pažymi, kad esate budėjime, kad būtumėte pridėtas ir paminėtas visuose naujuose bilietuose",
 		"reopen": "Atidaro iš naujo bilietą, kuris anksčiau buvo uždarytas",
-		"notes": "Creates a thread for private discussion between support representatives"
+		"notes": "Sukuria giją privačiai diskusijai tarp pagalbos narių"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -343,19 +343,19 @@
 	"open": {
 		"thread_in_announcement_channel": "Gijos negali būti sukurtos pranešimų kanaluose",
 		"panel_force_disabled": "Šis skydelis buvo išjungtas. Paprašykite serverio administracijos, kad iš naujo aktyvuotu premium ir paleistu %s, kad įjungtu skydelį.",
-		"panel_disabled": "Serverio administracija išjunge atidarymą tokio tipo bilietų",
+		"panel_disabled": "Serverio administracija išjungė tokio tipo bilietų atidarymą",
 		"acl": {
-			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
-			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
+			"no_allow_rules": "Prieiga atidaryti šio tipo bilietą buvo išjungta visoms rolėms",
+			"deny_listed": "Jūs negalite atidaryti šio tipo bilieto nes jūs turite rolę <@&%d>",
 			"not_allow_listed": {
-				"multiple": "You need one of the following roles to open this type of ticket: %s",
-				"single": "You need the following role to open this type of ticket: %s"
+				"multiple": "Jums reikia vienos iš paminėtų rolių, jog atidarytumėte šio tipo bilietą: %s",
+				"single": "Jums reikia paminėtos rolės, jog atidarytumėte šio tipo bilietą: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
+			"channel_mode_onlye only supported in channel mode": "Užrašų gijos yra palaikomos tik kanalų režime"
 		}
 	}
 }
