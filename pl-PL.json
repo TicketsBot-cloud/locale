@@ -34,7 +34,7 @@
 	"commands.unclaim.not_claimed": "To zgłoszenie nie jest przejęte",
 	"commands.unclaim.not_claimer": "Tylko administracja i użytkownicy, którzy przejęli zgłoszenie mogą usunąć przypisanie",
 	"commands.unclaim.success": "Wszyscy reprezentanci wsparcia mogą teraz odpowiedzieć na zgłoszenie",
-	"commands.vote": "Kliknij tutaj, aby zagłosować w zamian za darmowe premium na 24 godziny:\\n<https://vote.ticketsbot.cloud>",
+	"commands.vote": "Kliknij przycisk poniżej, aby zagłosować na bota i otrzymać 24 godziny darmowego premium.\n\nPo zagłosowaniu użyj komendy %s, aby zrealizować kredyty za głosowanie.",
 	"generic.invalid_argument": "Nieprawidłowy argument: patrz użycie",
 	"generic.invalid_user": "Nie można znaleźć użytkownika",
 	"generic.no_permission": "Nie masz uprawnień, aby to zrobić",
