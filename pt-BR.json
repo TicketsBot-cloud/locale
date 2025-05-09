@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Você foi adicionado ao tópico das notas existentes: <#%d>",
 			"thread_name": "notas",
-			"created": "Um tópico de notas foi criado para este ticket: <#%d>"
+			"created": "Um tópico de notas foi criado para este ticket: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Devido a limitações impostas pelo Discord, tickets só podem ser renomeados duas vezes a cada 10 minutos"
@@ -351,11 +352,6 @@
 				"multiple": "Você precisa da seguinte função para abrir essa categoria de \"ticket\": %s",
 				"single": "Você precisa do seguinte cargo para abrir essa categoria de \"ticket\": %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Tópicos de notas só são suportados no modo de canal"
 		}
 	}
 }
