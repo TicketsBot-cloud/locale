@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Vi estis aldonita al la ekzistanta fadeno de notoj: <#%d>",
 			"thread_name": "notoj",
-			"created": "Fadeno de notoj estis kreita por ĉi tiu bileto: <#%d>"
+			"created": "Fadeno de notoj estis kreita por ĉi tiu bileto: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Pro la limigoj metitaj de Discord, biletoj povas esti renomitaj nur du fojojn ĉiu 10 minutoj"
@@ -351,11 +352,6 @@
 				"multiple": "Vi bezonas la jenajn rolojn por malfermi ĉi tiun tipon de bileto: %s",
 				"single": "Vi bezonas la jenan rolon por malfermi ĉi tiun tipon de bileto: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Noto-fadenoj nur estas subtenataj en kanala reĝimo"
 		}
 	}
 }
