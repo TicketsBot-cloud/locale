@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "你已被加入到現有的註釋串中：<#%d>",
 			"thread_name": "註釋",
-			"created": "已為此客服單建立了一個註釋串：<#%d>"
+			"created": "已為此客服單建立了一個註釋串：<#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "由於 Discord 的限制，客服單每 10 分鐘只能重新命名兩次。"
@@ -351,11 +352,6 @@
 				"multiple": "要開啟此類客服單，你需要擁有以下身分組之一：%s",
 				"single": "要開啟此類客服單，你需要擁有以下身分組：%s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "註釋串僅在頻道模式支援"
 		}
 	}
 }
