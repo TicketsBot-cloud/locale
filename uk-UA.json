@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Ви були додані до існуючої гілки нотаток: <#%d>",
 			"thread_name": "нотатки",
-			"created": "Нотатки для теми були створення для цього тікету: <#%d>"
+			"created": "Нотатки для теми були створення для цього тікету: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Через обмеження Discord, запити можуть бути перейменовані тільки два рази кожні 10 хвилин"
@@ -351,11 +352,6 @@
 				"multiple": "Вам потрібна одна з наступних ролей, щоб відкрити цей тип заявки: %s",
 				"single": "Вам потрібна наступна роль, щоб відкрити цей тип заявки: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Нотатки для теми підтримуються тільки в режимі каналу"
 		}
 	}
 }
