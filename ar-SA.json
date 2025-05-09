@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "لقد تم اضافتك الى موضوع الملاحظات الحالية: <#%d>",
 			"thread_name": "ملاحظة",
-			"created": "تم إنشاء موضوع ملاحظات لهذه التذكرة: <#%d>"
+			"created": "تم إنشاء موضوع ملاحظات لهذه التذكرة: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
@@ -351,11 +352,6 @@
 				"multiple": "تحتاج إلى واحد من الأدوار التالية لفتح هذا النوع من التذكرة: %s",
 				"single": "أنت بحاجة إلى الدور التالي لفتح هذا النوع من التذاكر: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "نقاط الملاحظة مدعومة فقط في وضع القناة"
 		}
 	}
 }
