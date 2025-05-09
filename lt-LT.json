@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Jūs buvote pridėtas į giją <#%d>",
 			"thread_name": "užrašai",
-			"created": "Užrašų gija buvo sukurta bilietui: <#%d>"
+			"created": "Užrašų gija buvo sukurta bilietui: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Dėl Discord limitų bilietai gali būti pervadinti du kartus per 10 minučių"
@@ -351,11 +352,6 @@
 				"multiple": "Jums reikia vienos iš paminėtų rolių, jog atidarytumėte šio tipo bilietą: %s",
 				"single": "Jums reikia paminėtos rolės, jog atidarytumėte šio tipo bilietą: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Užrašų gijos yra palaikomos tik kanalų režime"
 		}
 	}
 }
