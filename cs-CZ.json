@@ -111,18 +111,18 @@
 	"button.dms_only": "Toto tlačítko musí být použito v přímých zprávách",
 	"commands.tag.generic": "Štítek",
 	"commands.tags.delete.success": "Štítek `%s` byl odstraněn",
-	"generic.ticket": "Ticket",
+	"generic.ticket": "Lístek",
 	"generic.title.premium_only": "Pouze Prémiový příkaz",
 	"generic.admin": "Administrátor",
 	"commands.tags.create.success": "Tag vytvořen - můžete jej použít spuštěním `/tag %s`",
-	"generic.title.about": "About",
+	"generic.title.about": "Informace",
 	"generic.title.vote": "Hlasovat",
 	"generic.title.tags": "Štítky",
 	"generic.title.autoclose": "Automatický uzavření",
 	"generic.title.invite": "Pozvat",
 	"generic.title.close": "Zavřít",
 	"generic.title.claim": "Vyzvednout",
-	"generic.title.blacklisted": "Blacklisted",
+	"generic.title.blacklisted": "Černá listina",
 	"generic.title.blacklist": "Černá listina",
 	"generic.error.blacklisted": "Jsi blacklisted na tomhle serveru",
 	"commands.blacklist.add.success": "<@%d> je nyní na černé listině",
@@ -170,8 +170,8 @@
 		"success": "Ticket byl uzavřen uživatelem <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "Tento lístek nemůžete hodnotit, protože jste zástupcem podpory ve skupině %s",
+				"empty": "Tento lístek nelze hodnotit, protože jste neodeslali žádné zprávy"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "Příkaz \"/open\" je na tomto serveru vypnutý, vytvoř si ticket pomocí ticket panelu.",
 			"threads": {
 				"cant_see_parent_channel": "Nelze přidat <@%d> k tiketu: ujistěte se, že mají oprávnění k zobrazení nadřazeného kanálu (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "Chybí vám oprávnění `Odesílat zprávy ve vláknech`, které je nutné pro otevření lístku. Požádejte prosím správce serveru, aby vám toto oprávnění přidělil, a zkuste to znovu."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Překročil jste limit tagů (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Pro použití vlastních příkazů (aliasů značek) je vyžadováno Premium"
 			}
 		},
 		"language": {
@@ -261,17 +261,17 @@
 					"description": "Vyberte tuto možnost, pokud jste provedli nákup na Patreonu"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Tuto možnost vyberte, pokud jste nákup provedli v obchodě v aplikaci Discord"
 				}
 			},
 			"about": "Premium vám umožní přístup k více panelům, statistikám, vlastnímu botovi a dalšímu! Navštivte naši [website](https://ticketsbot.cloud/premium), abyste se dozvěděli více.",
 			"already_activated": "Super! Premium je na tomto serveru už aktivováno.",
 			"already_activated_whitelabel": "Super! Premium je na tomto serveru už aktivováno.\n\nPokud potřebujete další pomoc při nastavení whitelabelů, přečtěte si naší [dokumentaci o whitelabelech](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Prémium lze zakoupit přímo v rámci služby Discord. Kliknutím na tlačítko pod touto zprávou otevřete stránku pro správu předplatného.\n\nPo zakoupení vyčkejte až 5 minut, než bude předplatné detekováno."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Vaše předplatné Patreonu bylo nalezeno. Kliknutím na tlačítko „Výběr otevřeného serveru“ níže otevřete ovládací panel a vyberte servery, na které chcete uplatnit své prémiové předplatné.",
+			"open_server_selector": "Výběr otevřeného serveru"
 		},
 		"notes": {
 			"added_to_existing": "Byl/a jsi přidán/a do již existujícího vlákna <#%d>",
@@ -283,17 +283,17 @@
 			"ratelimited": "Vzhledem k omezením společnosti Discord lze tickety přejmenovat pouze dvakrát za 10 minut."
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Uplatnění kreditů",
+			"no_credits": "Uplatnění se nezdařilo: nemáte žádné hlasovací kredity!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Vaše hlasovací kredity byly vyměněny za **%d** dnů prémium!",
+					"singular": "Vaše hlasovací kredity byly vyměněny za **%d** den prémium!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Máte **%d** hlasovacích kreditů. Klikněte na tlačítko „Uplatnit kredity“ níže a vyměňte je za %d dní premium na tomto serveru.",
+				"singular": "Máte **%d** hlasovacího kreditu. Kliknutím na tlačítko „Uplatnit kredity“ níže je uplatníte za %d den premium na tomto serveru."
 			}
 		}
 	},
