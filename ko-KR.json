@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "이미 존재하는 노트 스레드에 추가되었습니다: <#%d>",
 			"thread_name": "노트",
-			"created": "이 티켓용 노트 스레드가 생성되었습니다: <#%d>"
+			"created": "이 티켓용 노트 스레드가 생성되었습니다: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Discord의 제한으로 인해, 티켓은 10분마다 이름을 변경할 수 있습니다"
@@ -351,11 +352,6 @@
 				"multiple": "이 유형의 티켓을 열려면 다음 중 하나의 역할이 필요합니다: %s",
 				"single": "이 유형의 티켓을 열려면 %s 역할이 필요해요."
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "노트 스레드는 채널 모드에서만 지원됩니다"
 		}
 	}
 }
