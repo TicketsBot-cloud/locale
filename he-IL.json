@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "נוספת לשרשור ההערות הקיים: <#%d>",
 			"thread_name": "הערות",
-			"created": "נוצר שרשור הערות עבור כרטיס זה: <#%d>"
+			"created": "נוצר שרשור הערות עבור כרטיס זה: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "עקב מגבלות של דיסקורד, ניתן לשנות את שם הכרטיסים רק פעמיים בכל 10 דקות"
@@ -351,11 +352,6 @@
 				"multiple": "אתה צריך את אחד מהתפקידים הבאים בכדי לפתוח את הסוג הזה של טיקט: %s",
 				"single": "אתה צריך את התפקיד הבא כדי לפתוח את סוג הכרטיס הזה: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "שרשורי הערות נתמכים רק במצב צ'אנל"
 		}
 	}
 }
