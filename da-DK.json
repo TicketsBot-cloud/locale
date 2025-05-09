@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Du er blevet tilføjet til den eksisterende notetråd: <#%d>",
 			"thread_name": "noter",
-			"created": "Der er blevet oprettet en notetråd til denne ticket: <#%d>"
+			"created": "Der er blevet oprettet en notetråd til denne ticket: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "På grund af begrænsninger pålagt af Discord, kan tickets kun omdøbes to gange hvert 10. minut"
@@ -351,11 +352,6 @@
 				"multiple": "Du skal have en af følgende roller for at åbne denne type af ticket: %s",
 				"single": "Du skal have følgende rolle for at åbne denne type af ticket: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Tråde er kun understøttet i kanaltilstand"
 		}
 	}
 }
