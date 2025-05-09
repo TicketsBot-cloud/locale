@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Te han añadido al hilo de notas existente: <#%d>",
 			"thread_name": "notas",
-			"created": "Se ha creado un hilo de notas para este ticket: <#%d>"
+			"created": "Se ha creado un hilo de notas para este ticket: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Debido a limitaciones impuestas por Discord, los tickets solo pueden ser renombrados dos veces cada 10 minutos"
@@ -351,11 +352,6 @@
 				"multiple": "Necesitas uno de los siguientes roles para abrir este tipo de ticket: %s",
 				"single": "Necesitas el siguiente rol para abrir este tipo de ticket: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Los hilos de notas solo son compatibles con el modo canal"
 		}
 	}
 }
