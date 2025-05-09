@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Du har lagts till den befintliga tråden: <#%d>",
 			"thread_name": "anteckningar",
-			"created": "En tråd för anteckningar har skapats för detta ärende: <#%d>"
+			"created": "En tråd för anteckningar har skapats för detta ärende: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "På grund av begränsningar som har införts av Discord kan tickets bara ändra namn två gånger var 10 minut"
@@ -351,11 +352,6 @@
 				"multiple": "Du behöver en av följande roller för att öppna denna typ av ärenden: %s",
 				"single": "Du behöver en av följande roller för att öppna denna typ av ärenden: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Anteckningstrådar stöds bara i kanalläge"
 		}
 	}
 }
