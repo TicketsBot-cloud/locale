@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "您已被添加到现有的备注主题中：<#%d>",
 			"thread_name": "备注",
-			"created": "已为此Ticket创建了一个备注主题：<#%d>"
+			"created": "已为此Ticket创建了一个备注主题：<#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "由于 Discord 限制，您仅可在 10 分钟内重命名工单两次"
@@ -351,11 +352,6 @@
 				"multiple": "你需要以下任意一个身份组才能打开这个Ticket：%s",
 				"single": "你需要以下身份组才能打开此Ticket：%s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Note功能仅在频道模式才可以创建"
 		}
 	}
 }
