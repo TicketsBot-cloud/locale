@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Mevcut not başlığına eklendiniz: <#%d>",
 			"thread_name": "notlar",
-			"created": "Bu bilet için bir not başlığı oluşturuldu: <#%d>"
+			"created": "Bu bilet için bir not başlığı oluşturuldu: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
@@ -351,11 +352,6 @@
 				"multiple": "Bu tür bir bilet açmak için aşağıdaki rollerden birine ihtiyacınız var: %s",
 				"single": "Bu tür bir bilet açmak için aşağıdaki role ihtiyacınız var: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Not başlıklarının yalnızca kanal modunda desteklendiğini unutmayın"
 		}
 	}
 }
