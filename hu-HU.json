@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Hozzá lettél adva a meglévő jegyzetekhez: <#%d>",
 			"thread_name": "jegyzetek",
-			"created": "Egy jegyzet lett készítve a tickethez: <#%d>"
+			"created": "Egy jegyzet lett készítve a tickethez: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "A Discord korlátozásai miatt a jegyeket 10 percenként csak kétszer lehet átnevezni"
@@ -351,11 +352,6 @@
 				"multiple": "Kell, hogy legyen rajtad egy, a következő rangok közül: %s",
 				"single": "Ez a rang kell ahhoz, hogy nyiss egy ilyen típusú ticketet: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "A jegyzetek csak csatorna módban elérhetőek"
 		}
 	}
 }
