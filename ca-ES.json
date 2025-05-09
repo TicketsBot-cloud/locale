@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Has estat afegit a un fil de notes existent: <#%d>",
 			"thread_name": "notes",
-			"created": "S'ha creat un fil de notes pel tiquet: <#%d>"
+			"created": "S'ha creat un fil de notes pel tiquet: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Per limitacions imposades per Discord, els tiquets només es poden reanomenar 2 vegades cada 10 minuts"
@@ -351,11 +352,6 @@
 				"multiple": "Necessites un dels següents rols per obrir aquest tipus de tiquet: %s",
 				"single": "Necessites el següent rol per obrir aquest tipus de tiquet: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Tingues en compte que els fils només són compatibles amb el mode canal"
 		}
 	}
 }
