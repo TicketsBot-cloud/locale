@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Sind on lisatud ekisteerivasse märkmete threadi: <#%d>",
 			"thread_name": "märkmed",
-			"created": "Märkmete thread on selle abipileti jaoks tehtud: <#%d>"
+			"created": "Märkmete thread on selle abipileti jaoks tehtud: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Discordi liimitide tõttu saab abipiletite nime vahetada 2 korda iga 10 minuti jooksul"
@@ -351,11 +352,6 @@
 				"multiple": "Sul peab olema üks järgnevatest rollidest et avada seda tüüpi abipiletit: %s",
 				"single": "Sul peab olema järgnev roll et avada seda tüüpi abipiletit: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Märkus: threadid on toetatud kanali moodis"
 		}
 	}
 }
