@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Boli ste pridaní do existujúceho vlákna poznámok: <#%d>",
 			"thread_name": "poznámky",
-			"created": "Pre tento lístok bolo vytvorené vlákno poznámok: <#%d>"
+			"created": "Pre tento lístok bolo vytvorené vlákno poznámok: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Vzhľadom na obmedzenia spoločnosti Discord je možné tickety premenovať len dvakrát za 10 minút."
@@ -351,11 +352,6 @@
 				"multiple": "Na otvorenie tohto typu tiketu potrebujete jednu z nasledujúcich rolí: %s",
 				"single": "Na otvorenie tohto typu lístka potrebujete nasledujúcu rolu: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Vlákna sú podporované len v režime kanála"
 		}
 	}
 }
