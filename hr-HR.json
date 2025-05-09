@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Dodani ste u postojeću nit bilješki: <#%d>",
 			"thread_name": "bilješke",
-			"created": "Nit bilješki stvorena je za ovaj tiket: <#%d>"
+			"created": "Nit bilješki stvorena je za ovaj tiket: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Zbog ograničenja koja nameće Discord, tickets se mogu preimenovati samo dva puta svakih 10 minuta"
@@ -351,11 +352,6 @@
 				"multiple": "Potrebna vam je jedna od sljedećih uloga za otvaranje ove vrste tiketa: %s",
 				"single": "Potrebna vam je jedna od sljedećih uloga za otvaranje ove vrste tiketa: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Napomene niti su podržane samo u kanalnom načinu"
 		}
 	}
 }
