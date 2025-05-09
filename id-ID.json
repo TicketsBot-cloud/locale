@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Anda telah ditambahkan ke rangkaian catatan yang ada: <#%d>",
 			"thread_name": "catatan",
-			"created": "Rangkaian catatan telah dibuat untuk tiket ini: <#%d>"
+			"created": "Rangkaian catatan telah dibuat untuk tiket ini: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Karena batasan yang diberlakukan oleh Discord, tiket hanya dapat diganti dua kali setiap 10 menit"
@@ -351,11 +352,6 @@
 				"multiple": "Anda memerlukan salah satu peran berikut untuk membuka tiket jenis ini: %s",
 				"single": "Anda memerlukan salah satu peran berikut utuk membuka tiket jenis ini: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Catatan threads hanya didukung dalam mode saluran"
 		}
 	}
 }
