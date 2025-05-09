@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Bạn đã được thêm vào chủ đề ghi chú có sẵn: <#%d>",
 			"thread_name": "ghi chú",
-			"created": "Một kênh chủ đề ghi chú đã được tạo cho phiếu hỗ trợ này: <#%d>"
+			"created": "Một kênh chủ đề ghi chú đã được tạo cho phiếu hỗ trợ này: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Vì một số giới hạn của Discord, phiếu hỗ trợ chỉ có thể đổi tên 2 lần mỗi 10 phút"
@@ -351,11 +352,6 @@
 				"multiple": "Bạn cần một trong những vai trò sau để mở dạng phiếu hỗ trợ này: %s",
 				"single": "Bạn cần những vai trò sau để mở dạng phiếu hỗ trợ này: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Ghi chú bằng kênh chủ đề chỉ được hỗ trợ sử dụng trong chế độ kênh"
 		}
 	}
 }
