@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "ノートスレッドに追加されました: <#%d>",
 			"thread_name": "ノート",
-			"created": "このチケットのノートスレッドが作成されました: <#%d>"
+			"created": "このチケットのノートスレッドが作成されました: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Discord によって課された制限により、チケットの名前は 10 分ごとに 2 回のみ変更できます"
@@ -351,11 +352,6 @@
 				"multiple": "このタイプのチケットを開くには次のいずれかのロールが必要です: %s",
 				"single": "このタイプのチケットを開くには次のロールが必要です: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "ノートスレッドはチャンネルモードでのみサポートされています"
 		}
 	}
 }
