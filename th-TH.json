@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "คุณได้ถูกเพิ่มเข้าในเธรดโน๊ตที่มีอยู่: <#%d>",
 			"thread_name": "โน๊ต",
-			"created": "เธรดโน๊ตได้ถูกสร้างขึ้นแล้วสำหรับตั๋วนี้: <#%d>"
+			"created": "เธรดโน๊ตได้ถูกสร้างขึ้นแล้วสำหรับตั๋วนี้: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
@@ -351,11 +352,6 @@
 				"multiple": "คุณต้องมีบทบาทอย่างใดอย่างหนึ่งต่อไปนี้เพื่อเปิดตั๋วประเททนี้: %s",
 				"single": "คุณต้องมีบทบาทดังต่อไปนี้เพื่อเปิดตั๋วประเภทนี้: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "เธรดโน๊ตจะสามารถรองรับในโหมดช่องข้อความเท่านั้น"
 		}
 	}
 }
