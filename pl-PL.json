@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Zostałeś dodany do istniejącego wątku notatek: <#%d>",
 			"thread_name": "notatki",
-			"created": "Wątek notatek został utworzony dla tego zgłoszenia: <#%d>"
+			"created": "Wątek notatek został utworzony dla tego zgłoszenia: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Ze względu na ograniczenia nałożone przez Discorda, nazwy zgłoszeń można zmieniać tylko dwa razy na 10 minut"
@@ -351,11 +352,6 @@
 				"multiple": "Potrzebujesz jednej z następujących ról, aby otworzyć ten typ zgłoszenia: %s",
 				"single": "Potrzebujesz następującej roli, aby otworzyć ten typ zgłoszenia: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Wątki notatek są wspierane tylko w trybie kanałowym"
 		}
 	}
 }
