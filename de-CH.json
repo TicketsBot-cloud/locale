@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Du bisch am bestehende Notiz-Thread hinzuegfüegt worde: <#%d>",
 			"thread_name": "Notize",
-			"created": "Für das Ticket isch es Notiz-Thread erstellt worde: <#%d>"
+			"created": "Für das Ticket isch es Notiz-Thread erstellt worde: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Ufgrund vo Iischränkige dur Discord chönd Tickets nur zweimal all 10 Minute umbenennt werde"
@@ -351,11 +352,6 @@
 				"multiple": "Du bruuchsch eine vo de folgende Rolle, um de Ticket-Typ uufzmache: %s",
 				"single": "Du bruuchsch di folgendi Rolle, um es Ticket vo dem Typ uufzmache: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Notiz-Threads werdet nur im Kanal-Modus unterstützt"
 		}
 	}
 }
