@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Ai fost adăugat într-un thread cu notițe existent: <#%d>",
 			"thread_name": "notițe",
-			"created": "A fost creat un thread cu notițe pentru acest tichet: <#%d>"
+			"created": "A fost creat un thread cu notițe pentru acest tichet: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Din cauza limitărilor impuse de Discord, tichetele pot fi redenumite doar de două ori la fiecare 10 minute"
@@ -351,11 +352,6 @@
 				"multiple": "Ai nevoie de unul dintre următoarele roluri pentru a deschide acest tip de tichet: %s",
 				"single": "Ai nevoie de următorul rol pentru a deschide acest tip de tichet: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Threadurile cu notițe sunt suportate numai în modul canal"
 		}
 	}
 }
