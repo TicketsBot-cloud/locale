@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Je bent toegevoegd aan de bestaande notitiethread: <#%d>",
 			"thread_name": "notities",
-			"created": "Voor deze ticket is een notitie gemaakt: <#%d>"
+			"created": "Voor deze ticket is een notitie gemaakt: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Wegens beperkingen door Discord kan tickets slecht twee keer per 10 minuten worden hernoemd"
@@ -351,11 +352,6 @@
 				"multiple": "U heeft een van de volgende rollen nodig om deze type ticket te openen: %s",
 				"single": "Je moet de volgende rol hebben om een ticket te openen: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Threads worden alleen in kanaalmodus ondersteund"
 		}
 	}
 }
