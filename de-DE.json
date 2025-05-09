@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "Du wurdest dem bestehenden Notiz-Thread hinzugefügt: <#%d>",
 			"thread_name": "Notizen",
-			"created": "Für dieses Ticket wurde ein Notiz-Thread erstellt: <#%d>"
+			"created": "Für dieses Ticket wurde ein Notiz-Thread erstellt: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Aufgrund von Einschränkungen durch Discord können Tickets nur zweimal alle 10 Minuten umbenannt werden"
@@ -351,11 +352,6 @@
 				"multiple": "Du benötigst eine der folgenden Rollen, um diesen Ticket-Typ zu öffnen: %s",
 				"single": "Du benötigst folgende Rolle, um ein Ticket dieses Typs zu öffnen: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Notiz-Threads werden nur im Kanal-Modus unterstützt"
 		}
 	}
 }
