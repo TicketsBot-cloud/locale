@@ -276,7 +276,8 @@
 		"notes": {
 			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
 			"thread_name": "notes",
-			"created": "A notes thread has been created for this ticket: <#%d>"
+			"created": "A notes thread has been created for this ticket: <#%d>",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Discordin asettamien rajoitusten vuoksi liput voidaan nimetä uudelleen vain kahdesti 10 minuutin välein"
@@ -351,11 +352,6 @@
 				"multiple": "Tarvitset yhden seuraavista rooleista avataksesi tämäntyyppisen lipukkeen: %s",
 				"single": "Tarvitset seuraavan roolin, avataksesi lipukkeen: %s"
 			}
-		}
-	},
-	"Private notes arcommands": {
-		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Muistiinpanojen ketjut ovat tuettuja vain kanava tilassa"
 		}
 	}
 }
