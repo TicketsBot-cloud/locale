@@ -295,6 +295,24 @@
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"user_format": "• <@%d> (`%d`)\n",
+			"role_format": "• <@&%d> (`%d`)\n",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_users": "No support users",
+				"no_roles": "No support roles",
+				"users_warning": "**Warning:** Users in support teams are now deprecated. Please migrate to roles."
+			}
 		}
 	},
 	"generic": {
