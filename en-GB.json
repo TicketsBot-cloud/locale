@@ -298,8 +298,8 @@
 		},
 		"viewstaff": {
 			"title": "Staff",
-			"user_format": "• <@%d> (`%d`)\n",
-			"role_format": "• <@&%d> (`%d`)\n",
+			"user_format": "- <@%d> (`%d`)\n",
+			"role_format": "- <@&%d> (`%d`)\n",
 			"admin": {
 				"users": "Admin Users",
 				"roles": "Admin Roles",
@@ -309,9 +309,8 @@
 			"support": {
 				"users": "Support Users",
 				"roles": "Support Roles",
-				"no_users": "No support users",
 				"no_roles": "No support roles",
-				"users_warning": "**Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		}
 	},
