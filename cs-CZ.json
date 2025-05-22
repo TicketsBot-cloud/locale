@@ -185,7 +185,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Neplatný panel: Musíte vybrat jeden z nabídky",
-			"success": "<@%d> Přepnul tento ticket na `%s` panel"
+			"success": "Tento ticket byl přepnut na panel `%s` uživatelem <@%d>"
 		},
 		"blacklist": {
 			"staff": "Nemůžete zařadit člena vedení na černou listinu",
