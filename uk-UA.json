@@ -170,7 +170,7 @@
 		"success": "Ця заявка була закрита <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"staff": "Ви не можете поставити оцінку цьому запиту, тому що ви вже є агентом підтримки в %s",
 				"empty": "Ви не можете надати оцінку цьому тікету, бо ви не надіслали жодного повідомлення"
 			}
 		}
@@ -277,7 +277,7 @@
 			"added_to_existing": "Ви були додані до існуючої гілки нотаток: <#%d>",
 			"thread_name": "нотатки",
 			"created": "Нотатки для теми були створення для цього тікету: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Гілка для нотаток підтримуються тільки у режимі каналу"
 		},
 		"rename": {
 			"ratelimited": "Через обмеження Discord, запити можуть бути перейменовані тільки два рази кожні 10 хвилин"
@@ -292,8 +292,8 @@
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "У вас залишилося **%d** кредитів. Натисніть \"Використати кредити\" нижче, аби активувати %d днів преміуму на цьому сервері.",
+				"singular": "У вас залишилося **%d** кредит. Натисніть \"Використати кредити\" нижче, аби активувати %d днів преміуму на цьому сервері."
 			}
 		}
 	},
