@@ -277,7 +277,7 @@
 			"added_to_existing": "Vous avez été ajouté au fil de notes suivant : <#%d>",
 			"thread_name": "notes",
 			"created": "Un fil de notes a été créé pour ce ticket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Les fils de notes ne sont pris en charge qu'en mode salon"
 		},
 		"rename": {
 			"ratelimited": "En raison des limitations imposées par Discord, les tickets ne peuvent être renommés que deux fois toutes les 10 minutes"
