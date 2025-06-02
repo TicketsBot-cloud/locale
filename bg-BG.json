@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Трябва да споменете потребителя, на който желаете да дадете блеклист",
 	"commands.blacklist.self": "Не можете да блеклистнете себе си",
 	"commands.claim.success": "Вашият билет ще бъде поет от %s",
-	"commands.invite": "[Натисни тук](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Трябва да поясните език или знаме. Достъпните езици са",
 	"commands.open.ticket_limit": "Вие можете да отворите само %d %s тикет наведнъж",
 	"commands.open.too_many_tickets": "Има твърде много тикети в тази категорията. Помолете администратор да затвори няколко или да ги премести в друга категория",
-	"commands.panel": "Посетете <https://dashboard.tickets.bot/manage/%d/panels>, за да можете да конфигурирате панела",
-	"commands.premium": "Можете да си закупите премиум абонамент от https://www.patreon.com/ticketsbot-cloud\nПремумът Ви дава повече възможности, като: \n- Неограничени тикет панели\n- Възможност да модифицирате името на бота и статуса му (Важи само за Whitelabel) \n- Детайлни статистики за сървъра, потребителите му и елипа му\n- Премахнати имена на бота и икони в съобщенята, които изпраща\n- Подпомагате бъдещото развитие на бота\n\nАко желаете, можете да гласувате за бота на https://vote.tickets.bot за да получите безплатен премум за 24 часа",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "Неправилен бутон, моля уверете се, че е копиран правилно.",
 	"commands.remove.no_permission": "Нямате привилегии да премахвате потребители от този тикет",
 	"commands.remove.staff": "Не можете да премахнете член на екипа от тикет",
@@ -28,13 +28,13 @@
 	"commands.tags.create.too_long": "Таг ИД-то не може да бъде повече от 16 символа",
 	"commands.tags.delete.invalid_arguments": "Трябва да поясните ИД-то на тага, който желаете да изтриете",
 	"commands.tags.delete.not_exist": "Таг с ИД `%s` не е намерен",
-	"commands.tags.get.invalid_arguments": "Трябва да поясните ИД-то на тага. За съдействие с таговете, посетете <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Невалиден таг. За помощ с тагове посетете https://tickets.bot/tags.",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "Идентификатори за всички тагове: \n%s\nЗа да видите съдържанията в един таг, използвайте `%tag <ID>`",
 	"commands.unclaim.not_claimed": "Този тикет не е поет",
 	"commands.unclaim.not_claimer": "Само администраторите или потребителят, поел тикета може да отнеме поемането",
 	"commands.unclaim.success": "Всички потребители с привилегии съпорт вече могат да отговарят на тикета",
-	"commands.vote": "Натиснете тук, за да гласувате за бота и да получите безплатни 24 часа премиум https://vote.tickets.bot",
+	"commands.vote": "Натиснете тук, за да гласувате за бота и да получите безплатни 24 часа премиум https://vote.ticketsbot.cloud",
 	"generic.invalid_argument": "Неправилна употреба",
 	"generic.invalid_user": "Не може да се открие споменатия потребител",
 	"generic.no_permission": "Нямате привилегия за това",
@@ -79,7 +79,7 @@
 	"open.success": "Отворен е нов тикет: %s",
 	"setup.auto.category.failure": "Нямам привилегия `Manage Channels`",
 	"setup.auto.category.success": "Създадена е катеогрия Билети",
-	"setup.auto.completed": "Сетъп-а е готов! Натисни [тук](https://dashboard.tickets.bot/manage/%d/panels) to, за да създадеш панел с реакции, и добави <@&%d> и <@&%d> роли за твоя екип",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Нямам привилегия `Manage Roles`",
 	"setup.auto.roles.success": "Направени са Tickets Admin & Tickets Support роли",
 	"setup.auto.transcript.failure": "Нямам привилегия `Manage Channels`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Каналът за тикет логове е променен на <#%d>",
 	"commands.language.help_wanted": "Говорите друг език? Може да посетите дискорда ни https://discord.gg/ticketsbot ако имате интерес да помогнете в превода на бота на повече езици",
 	"commands.rename.too_long": "Имената на каналите не трябва да са повече от 100 символа",
-	"commands.autoclose.configure": "Посетете [dashboard](https://dashboard tickets.bot/manage/%d/panels), за да промените настройките на автоматичното затваряне",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Подобни команди на autoclose",
 	"help.autoclose.exclude": "Добавя изключение този тикет да не бъде затварян автоматично",
 	"help.autoclose.configure": "Модифициране на настройките на autoclose",
@@ -222,7 +222,7 @@
 			"select": "Избери език (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`on-call` може да се използва само в теми. Посети нашия [docs] (https://docs.tickets.bot/features/thread-mode), за да намериш повече относно темите",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "Ти сега говориш ",
 			"remove_success": "Ти вече не говориш"
 		},
@@ -264,9 +264,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Премиум, Ви дава възможност за повече панели, статистики, къстъм бот и още много неща! Посети нашия [website] (https://tickets.bot/premium), за да научиш повече.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Добри новини! Премиум вече е активен в този сървър.",
-			"already_activated_whitelabel": "Добри новини! Премиум вече е активен в този сървър.\nЗа да получите помощ при стартиране с whitelabel, прочетете [нашия whitelabel сетъп](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Искаш да научиш повече? Нашата [documentation] (https://docs.tickets.bot), ще ви научи как да конфигурирате всичко възможно на бота!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Трябва да направиш канал за известия на тикетите",
