@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "คุณต้องระบุผู้ใช้ที่สลับสถานะบัญชีดำ",
 	"commands.blacklist.self": "คุณไม่สามารถขึ้นบัญชีดำตัวเองได้",
 	"commands.claim.success": "Ticket ของคุณจะถูกให้บริการโดย %s",
-	"commands.invite": "[คลิกที่นี่](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "คุณต้องระบุรหัสภาษา หรือ ธง. ภาษาที่สามารถใช้ได้: \\n%s",
 	"commands.open.ticket_limit": "คุณสามารถที่จะเปิด %d %s ได้ในหนึ่งครั้ง",
 	"commands.open.too_many_tickets": "มีตั๋วมากเกินไปในหมวดหมู่ตั๋ว, ขอให้ผู้ดูแลระบบปิดไปบางส่วน, ย้ายไปยังหมวดหมู่อื่น หรือ ตั้งค่าหมวดหมู่เพิ่มเติม\n\nนี่คือ **ข้อจำกัดที่กำหนดโดย ดิสคอร์ด** ที่สามารถมีช่องได้ไม่เกิน 50 ช่องต่อหมวดหมู่",
-	"commands.panel": "ไปที่ <https://dashboard.tickets.bot/manage/%d/panels> เพื่อปรับแต่งแผง",
-	"commands.premium": "คุณสามารถสมัครสมาชิกพรีเมี่ยมจาก <https://www.patreon.com/ticketsbot-cloud> \\nพรีเมี่ยมมอบสิทธิมากมาย เช่น:\\n```diff\\n+ สร้างแผงตั๋วแบบไม่จำกัด\\n+ กำหนดชื่อ อวาตาร์ และสถานะ (whitelabel) ของบอทเอง\\n+ สถิติเกี่ยวกับเซิร์ฟเวอร์อย่างละเอียด ผู้ใช้และพนักงานฝ่ายสนับสนุน\\n+ ไม่มีการทำการค้าในส่วนท้ายของข้อความ\\n+ ช่วยสนับสนุนการพัฒนาและช่วยให้ฉันสามารถจ่ายค่าเซิร์ฟเวอร์ได้\\n```\\n\\nและอีกทางหนึ่ง คุณสามารถโหวตที่ <https://vote.tickets.bot> เพื่อรับพรีเมี่ยมฟรี 24 ชั่วโมง",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "ไม่พบกุญแจ, โปรดตรวจสอบให้แน่ใจว่าคุณได้คัดลอกมันอย่างถูกต้อง",
 	"commands.remove.no_permission": "คุณไม่ได้รับสิทธิ์ให้ลบบุคคลออกจากตั๋วนี้",
 	"commands.remove.staff": "คุณไม่สามารถลบพนักงานออกจากตั๋วได้",
@@ -28,13 +28,13 @@
 	"commands.tags.create.too_long": "รหัสแท็กต้องมีความยาวไม่เกิน 16 อักขระ",
 	"commands.tags.delete.invalid_arguments": "คุณต้องระบุรหัสแท็กที่จะลบ",
 	"commands.tags.delete.not_exist": "ไม่พบแท็กที่มี ID นี้ `%s`",
-	"commands.tags.get.invalid_arguments": "คุณต้องระบุ ID ของแท็ก หากต้องการความช่วยเหลือเพิ่มเติมเกี่ยวกับแท็ก, โปรดไปที่ <https://tickets.bot/tags>",
-	"commands.tags.get.invalid_tag": "แท็กไม่ถูกต้อง, หากต้องการความช่วยเหลือเพิ่มเติมเกี่ยวกับแท็ก, โปรดไปที่ <https://tickets.bot/tags>",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "รหัสสำหรับแท็กทั้งหมด: \\n%s\\nหากต้องการดูเนื้อหาของแท็ก, ให้เรียกใช้ `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Ticket นี้ยังไม่ได้รับการอ้างสิทธิ์",
 	"commands.unclaim.not_claimer": "เฉพาะผู้ดูแลระบบ และ ผู้ใช้ที่อ้างสิทธิ์ใน ticket เท่านั้น, ที่สามารถยกเลิกการอ้างสิทธิ์ใน ticket ได้",
 	"commands.unclaim.success": "ตัวแทนฝ่ายสนับสนุนทั้งหมดสามารถตอบกลับ ticket ได้แล้ว",
-	"commands.vote": "คลิกที่นี่เพื่อโหวตรับพรีเมียมฟรี 24 ชั่วโมง:\\n<https://vote.tickets.bot>",
+	"commands.vote": "คลิกที่นี่เพื่อโหวตรับพรีเมียมฟรี 24 ชั่วโมง:\\n<https://vote.ticketsbot.cloud>",
 	"generic.invalid_argument": "อาร์กิวเมนต์ไม่ถูกต้อง: อ้างถึงการใช้งาน",
 	"generic.invalid_user": "ไม่พบเป้าหมายผู้ใช้",
 	"generic.no_permission": "คุณไม่ได้รับสิทธิ์สำหรับสิ่งนี้",
@@ -79,7 +79,7 @@
 	"open.success": "เปิด ticket ใหม่: %s",
 	"setup.auto.category.failure": "ฉันไม่ได้รับสิทธิ์ `จัดการช่อง`",
 	"setup.auto.category.success": "สร้าง Category `Tickets` เรียบร้อยแล้ว",
-	"setup.auto.completed": "ตั้งค่าเสร็จแล้ว! คลิก[ที่นี่](https://dashboard.tickets.bot/manage/%d/panels)เพื่อตั้งค่าแผงรีแอคชั่น และเพิ่มบทบาท <@&%d> และ <@&%d> ให้กับพนักงานของคุณ",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "ฉันไม่ได้รับสิทธิ์ `จัดการบทบาท`",
 	"setup.auto.roles.success": "สร้าง Roles `Tickets Admin` และ `Tickets Support` เรียบร้อยแล้ว",
 	"setup.auto.transcript.failure": "ฉันไม่ได้รับสิทธิ์ `จัดการช่อง`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "เปลี่ยนช่องการถอดสคริปต์เป็น <#%d>",
 	"commands.language.help_wanted": "คุณพูดสามารถพูดภาษาอื่นได้? เข้าร่วม [เซิร์ฟเวอร์สนับสนุน](https://discord.gg/ticketsbot) ของเรา หากคุณสนใจที่จะช่วยแปลบอทเป็นภาษาอื่นๆ",
 	"commands.rename.too_long": "ชื่อช่องต้องมีความยาวไม่เกิน 100 อักขระ",
-	"commands.autoclose.configure": "ไปยัง[แผงควบคุม](https://dashboard.tickets.bot/manage/%d/panels)เพื่อเปลี่ยนการตั้งค่าการปิดอัตโนมัติ",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "คำสั่งที่เกี่ยวข้องกับการปิดอัตโนมัติ",
 	"help.autoclose.exclude": "ไม่รวม ticket ปัจจุบันจากการถูกปิดโดยอัตโนมัติ",
 	"help.autoclose.configure": "แก้ไขการตั้งค่าที่เกี่ยวข้องกับการปิดอัตโนมัติ",
@@ -222,7 +222,7 @@
 			"select": "เลือกภาษา (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` ใช้ได้เฉพาะในโหมดเธรดเท่านั้น ไปที่ [docs](https://docs.tickets.bot/features/thread-mode) เพื่อดูข้อมูลเพิ่มเติมเกี่ยวกับเธรด",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "ตอนนี้คุณอยู่ในสาย",
 			"remove_success": "คุณไม่ได้อยู่ในสายอีกต่อไป"
 		},
@@ -264,9 +264,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "พรีเมียมช่วยให้คุณเข้าถึงพาเนล สถิติ บอทแบบกำหนดเอง และอื่นๆ อีกมากมาย! เยี่ยมชม [เว็บไซต์](https://tickets.bot/premium) ของเราเพื่อดูข้อมูลเพิ่มเติม",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "มีข่าวดี! พรีเมี่ยมถูกเปิดใช้งานไปแล้วในเซิร์ฟเวอร์นี้",
-			"already_activated_whitelabel": "มีข่าวดี! พรีเมี่ยมถูกเปิดใช้งานไปแล้วในเซิร์ฟเวอร์นี้\n\nสำหรับการช่วยเหลือในการเริ่มต้นใช้งาน Whitelabel ให้อ่าน[คู่มือการตั้งค่า Whitelabel ของเรา](https://docs.tickets.bot/premium/whitelabel-setup-guide)",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "ต้องการสำรวจเพิ่มเติมหรือไม่ [เอกสารประกอบ](https://docs.tickets.bot) ของเราจะสอนวิธีกำหนดค่าบอทในทุกๆแง่มุม"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "คุณต้องระบุบช่องการเเจ้งเตือน ticket",
