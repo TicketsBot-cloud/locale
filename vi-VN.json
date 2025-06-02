@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Bạn cần nhắc đề cập một thành viên để chuyển đổi trạng thái trong danh sách đen",
 	"commands.blacklist.self": "Bạn không thể thêm chính mình vào danh sách đen",
 	"commands.claim.success": "%s sẽ xử lý phiếu hỗ trợ của bạn",
-	"commands.invite": "[Ấn vào đây](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Bạn cần ghi rõ mã của ngôn ngữ hoặc cờ hiệu. Các ngôn ngữ đang khả dụng:\\n%s",
 	"commands.open.ticket_limit": "Bạn chỉ có thể mở %d %s một lúc",
 	"commands.open.too_many_tickets": "Hiện có quá nhiều phiếu hỗ trợ đang được mở trong danh mục. Hãy nhờ quản trị viên đóng bớt chúng hoặc di chuyển chúng qua mục khác.\n\n**Discord giới hạn** mỗi danh mục chỉ có thể chứa 50 kênh.",
-	"commands.panel": "Hãy truy cập <https://dashboard.tickets.bot/manage/%d/panels> để cài đặt với giao diện trực quan",
-	"commands.premium": "Bạn có thể mua phiên bản cao cấp tại <https://www.patreon.com/ticketsbot-cloud>.\\nPhiên bản trả phí mang lại nhiều quyền lợi như:\\n```diff\\n+ Tạo bảng phiếu hỗ trợ không giới hạn\\n+ Thay đổi tên, ảnh đại diện & trạng thái (whitelabel)\\n+ Thông tin chi tiết về hội, thành viên và hỗ trợ viên\\n+ Không có quảng cáo thương hiệu ở cuối tin nhắn\\n+ Giúp đỡ đội ngũ phát triển và giúp trả phí chạy máy chủ cho bot\\n```\\n\\nNgoài ra, bạn có thể đánh giá tại <https://vote.tickets.bot> để nhận phiên bản cao cấp miễn phí trong vòng 24 giờ",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "Mã kích hoạt sai. Hãy kiểm tra xem bạn đã sao chép đúng mã không.",
 	"commands.remove.no_permission": "Bạn không có quyền để loại bỏ người khác khỏi phiếu hỗ trợ này",
 	"commands.remove.staff": "Bạn không thể gỡ các quản lý khỏi phiếu hỗ trợ này",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "ID của thẻ không thể dài hơn 16 ký tự",
 	"commands.tags.delete.invalid_arguments": "Phải chỉ rõ ID của thẻ để xóa",
 	"commands.tags.delete.not_exist": "Không tìm thấy thẻ tên có ID `%s`",
-	"commands.tags.get.invalid_arguments": "Bạn phải cung cấp ID của thẻ. Để hiểu hơn về thẻ, hãy đọc <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Thẻ tên không hợp lệ. Xem chi tiết về thẻ tên tại <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "ID của các thẻ: \\n%s\\nĐể thấy được nội dung của một thẻ, dùng lệnh `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Phiếu hỗ trợ này chưa được nhận",
 	"commands.unclaim.not_claimer": "Chỉ quản trị viên và người nhận phiếu hỗ trợ mới có thể hủy nhận phiếu hỗ trợ",
@@ -79,7 +79,7 @@
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
 	"setup.auto.category.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
 	"setup.auto.category.success": "Đã tạo một mục kênh cho các phiếu hỗ trợ",
-	"setup.auto.completed": "Đã thiết lập thành công! Nhấn vào [đây](https://panel.tickets.bot/manage/%d/panels) để thiết lập một bảng reaction, và thêm <@&%d> và <@&%d> là vai trò cho các thành viên quản lý",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Tôi đang thiếu quyền `Quản lý vai trò`",
 	"setup.auto.roles.success": "Đã tạo vai trò `Tickets Admin` & `Tickets Support`",
 	"setup.auto.transcript.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Kênh dành các bản ghi chép đã được thay đổi thành <#%d>",
 	"commands.language.help_wanted": "Bạn dùng ngôn ngữ khác? Tham gia [máy chủ hỗ trợ](https://discord.gg/ticketsbot) nếu bạn muốn giúp phiên dịch thêm ngôn ngữ cho người máy",
 	"commands.rename.too_long": "Tên của kênh không thể dài hơn 100 ký tự",
-	"commands.autoclose.configure": "Hãy xem [dashboard](https://panel.tickets.bot/manage/%d/settings) để thay đổi các cài đặt về tự động đóng phiếu",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Các lệnh liên quan đến tính năng tự động đóng",
 	"help.autoclose.exclude": "Thêm ngoại lệ cho phiếu hỗ trợ không tự động đóng",
 	"help.autoclose.configure": "Chỉnh sửa các cài đặt liên quan đến tự động đóng",
@@ -222,7 +222,7 @@
 			"select": "Chọn ngôn ngữ (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` chỉ có thể sử dụng khi dùng chế độ chủ đề. Tham khảo [docs](https://docs.tickets.bot/features/thread-mode) để tìm hiểu thêm",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "Bạn đã bắt đầu tiếp nhận hỗ trợ",
 			"remove_success": "Bạn đã ngừng tiếp nhận hỗ trợ"
 		},
@@ -264,9 +264,9 @@
 					"description": "Chọn tùy chọn này nếu bạn đã thanh toán trực tiếp qua cửa hàng trên ứng dụng Discord"
 				}
 			},
-			"about": "Nâng cấp cho bạn truy cập thêm bảng, số liệu, bot tuỳ chỉnh và nhiều hơn! Truy cập [website] (https://tickets.bot/premium) để tìm hiểu thêm.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.",
-			"already_activated_whitelabel": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.\n\nCần trợ giúp để bắt đầu sử dụng nhãn trắng? Đọc [hướng dẫn cài đặt](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Phiên bản cao cấp có thể được mua trực tiếp trên Discord. Bấm vào nút phía dưới tin nhắn để mở trang quản lý gói đăng ký.\n\nSau khi thanh toán, vui lòng đợi tầm 5 phút để gói đăng ký có thể được kích hoạt."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Bạn muốn khám phá thêm? [documentation](https://docs.tickets.bot) có thể giúp bạn tuỳ chỉnh các chức năng của bot!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Bạn cần cung cấp kênh thông báo cho phiếu hỗ trợ",
