@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Jūs turite paminėti vartotoja, kad įtrauktumėte į juodąjį šąrašą",
 	"commands.blacklist.self": "Jūs negalite savęs įtraukti į juodąjį sąrašą",
 	"commands.claim.success": "Jūsų bilietu apsiims %s",
-	"commands.invite": "[Paspauskite čia](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Jūs turite nurodyti kalbos kodą arba vėliavėlę. Galimos kalbos:\\n%s",
 	"commands.open.ticket_limit": "Vienu metu galite atidaryti tik %d %s",
 	"commands.open.too_many_tickets": "Bilietų kategorijoje yra per daug bilietų. Paprašykite administracijos, kad uždarytų kelis arba perkeltų į kitą kategoriją.\n\nTai yra **Discord nustatytas limitas**, 50 kanalų vienoje kategorijoje.",
-	"commands.panel": "Apsilankykite <https://dashboard.tickets.bot/manage/%d/panels>, kad sukonfiguruotumėte skydelį",
-	"commands.premium": "Galite įsigyti premium prenumeratą iš <https://www.patreon.com/ticketsbot-cloud>.\\nPremium suteikia daug papildomų privalumų, tokių kaip:\\n```diff\\n+ Galėsite sukurti neribotą kiekį skydelių \\n+ Galėsite pakeisti roboto pavadinimą, paveikslėlį ir būsėną į jums patinkantį\\n+ Detali statistika apie serverį, vartotojus ir pagalbos narius\\n+ Pranešime nebus mūsų žymėjimo\\n+ Prisidėsite prie plėtros ir padėtis išlaikyti roboto išlaidas\\n```\\n\\nGalite prabalsuoti nuėję į <https://vote.tickets.bot>, kad gautumėte premium nemokamai 24 valandom",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "Neteisingas kodas. Įsitikinkite, kad nukopijavote teisingai.",
 	"commands.remove.no_permission": "Jūs neturite privilegijos, kad galėtumėte pašalinti vartotoją iš šio bilieto",
 	"commands.remove.staff": "Jūs negalite pašalinti pagalbą suteikiančių narių iš šio bilieto",
@@ -28,13 +28,13 @@
 	"commands.tags.create.too_long": "Žymos ID negali būti ilgesnis nei 16 simbolių",
 	"commands.tags.delete.invalid_arguments": "Jūs turite nurodyti žymos ID, kad galėtumėte panaikinti",
 	"commands.tags.delete.not_exist": "Nepavyko rasti žymos, kurios ID `%s`",
-	"commands.tags.get.invalid_arguments": "Jūs turite nurodyti žymos ID. Jeigu reikia daugiau pagalbos, aplankykite <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Netinkama žyma. Jeigu reikia daugiau pagalbos, apsilankykite <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "Visų žymų ID: \\n%s\\nKad peržiūrėtumėte žymos turinį, naudokite `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Dar niekas neapsiėmė šiuo bilietu",
 	"commands.unclaim.not_claimer": "Tik administracija ir vartotojai kurie apsiėmė šiuo bilietu gali juo nebeapsiimti",
 	"commands.unclaim.success": "Dabar visi pagalbos nariai gali atsakyti į šį bilietą",
-	"commands.vote": "Paspauskite čia, kad prabalsuotumėte už 24 valandų nemokamą premium prenumeratą:\\n<https://vote.tickets.bot>",
+	"commands.vote": "Paspauskite čia, kad prabalsuotumėte už 24 valandų nemokamą premium prenumeratą:\\n<https://vote.ticketsbot.cloud>",
 	"generic.invalid_argument": "Netinkamas argumentas: nurodykite tinkamą",
 	"generic.invalid_user": "Nepavyko rasti nurodyto vartotojo",
 	"generic.no_permission": "Jūs neturite privilegijų tam atlikti",
@@ -79,7 +79,7 @@
 	"open.success": "Atidarytas naujas bilietas: %s",
 	"setup.auto.category.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
 	"setup.auto.category.success": "Sukurta bilietų kategorija",
-	"setup.auto.completed": "Konfiguracija pabaigta! Paspauskite [here](https://dashboard.tickets.bot/manage/%d/panels), kad sukonfiguruotumėte reakcijos skydelį ir pridėtumėte <@&%d> ir <@&%d> roles prie pagalbos narių",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Man trūksta `Tvarkyti roles (Manage Roles)` privilegijų",
 	"setup.auto.roles.success": "Sukurtos `Bilietų administracija` ir `Bilietų pagalba` rolės",
 	"setup.auto.transcript.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Įrašų kanalas buvo pakeistas į <#%d>",
 	"commands.language.help_wanted": "Ar tu kalbi kita kalba? Prisijunk prie mūsų [pagalbos serverio](https://discord.gg/ticketsbot) jeigu tau įdomu ir nori mums padėti išversti mūsų robota į daugiau kalbų",
 	"commands.rename.too_long": "Kanalo pavadinimas negali būti ilgesnis nei 100 simbolių",
-	"commands.autoclose.configure": "Apsilankykite mūsų [dashboard](https://dashboard.tickets.bot/manage/%d/settings), kad pakeistumėte automatinio uždarymo nustatymus",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Susijusios komandos su automatiniu uždarymu",
 	"help.autoclose.exclude": "Dabartinis bilietas nebus automatiškai uždarytas",
 	"help.autoclose.configure": "Redaguoti su automatiniu uždarymu susijusius nustatymus",
@@ -222,7 +222,7 @@
 			"select": "Pasirinkite kalbą (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/budėjimas` gali būti naudojamas tik gijų režime. Apsilankykite mūsų [docs](https://docs.tickets.bot/features/thread-mode), kad rastumėte daugiau informacijos apie gijas",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "Dabar jūs esate budėjime",
 			"remove_success": "Dabar jūs nebesate budėjime"
 		},
@@ -264,9 +264,9 @@
 					"description": "Pasirinkite šį variantą jei pirkote per Discord platformą"
 				}
 			},
-			"about": "Premium suteikia prieigą prie daugiau skydelių, statistikos, koreaguojamo roboto ir dar daugiau! Apsilankykite mūsų [website](https://tickets.bot/premium), kad pasiskaitytumėte daugiau.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Geros naujienos! Premium jau aktyvuotas serveryje.",
-			"already_activated_whitelabel": "Geros naujienos! Premium jau yra aktyvus šiame serveryje.\n\nSiekiant gauti pagalbos pradžioje, perskaitykite [pradžios sąranką](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium gali būti perkamas tiesiogiai per Discord. Paspauskite mygtuką po pranešimu, jog atidarytumėte pirkimo langą.\n\nNusipirkus prašome palaukti iki 5 minučių, jog prenumerata būtų aptikta."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Nori sužinoti daugiau? Mūsų [documentation](https://docs.tickets.bot) išmokys tave kaip viską sukonfiguruoti!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Turite nurodyti bilietų pranešimų kanalą",
