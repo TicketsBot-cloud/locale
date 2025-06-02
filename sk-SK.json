@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Musíte uviesť používateľa, ktorý prepína stav čiernej listiny pre",
 	"commands.blacklist.self": "Nemôžete sa zaradiť na čiernu listinu",
 	"commands.claim.success": "Váš ticket spracuje %s",
-	"commands.invite": "[Kliknite sem](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Musíte zadať kód jazyka alebo vlajku. Dostupné jazyky:\\n%s",
 	"commands.open.ticket_limit": "Naraz môžete otvoriť iba %d %s",
 	"commands.open.too_many_tickets": "V kategórii ticketov je príliš veľa ticketov. Požiadajte správcu, aby niektoré z nich zatvoril, presunul do inej kategórie alebo vytvoril kategóriu preplnených lístkov.\n\nIde o **Discordom stanovený limit** 50 kanálov na kategóriu.",
-	"commands.panel": "Navštívte stránku <https://dashboard.tickets.bot/manage/%d/panels> a nakonfigurujte panel",
-	"commands.premium": "Prémiové predplatné si môžete zakúpiť na <https://www.patreon.com/ticketsbot-cloud>.\\nPremium poskytuje mnoho výhod, ako napríklad:\\n````diff\\n+ Vytváranie neobmedzeného počtu panelov tiketov\\n+ Prispôsobenie mena bota, avatara a statusu (whitelabel)\\n+ Podrobné štatistiky o serveri, používateľoch a pracovníkoch podpory\\n+ Žiadny branding v pätičke správ\\n+ Podpora vývoja a pomoc pri platení nákladov na server\\n````\\nAlternatívne môžete hlasovať na <https://vote.tickets.bot> a získať premium zadarmo na 24 hodín",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "Neplatný kľúč. Skontrolujte, či ste ho skopírovali správne.",
 	"commands.remove.no_permission": "Nemáte povolenie odstraňovať ľudí z tohto ticketu",
 	"commands.remove.staff": "Zamestnancov nemôžete z ticketu odobrať",
@@ -28,13 +28,13 @@
 	"commands.tags.create.too_long": "ID značky nemôže byť dlhšie ako 16 znakov",
 	"commands.tags.delete.invalid_arguments": "Musíte zadať ID značky, ktorú chcete vymazať",
 	"commands.tags.delete.not_exist": "Značku s ID `%s` sa nepodarilo nájsť",
-	"commands.tags.get.invalid_arguments": "Musíte uviesť ID značky. Viac informácií o značke nájdete na stránke <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Neplatná značka. Viac informácií o značkách nájdete na stránke <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "ID pre všetky značky: \\Ak chcete zobraziť obsah značky, spustite príkaz `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Tento lístok nie je nárokovaný",
 	"commands.unclaim.not_claimer": "Odhlásiť ticket môžu len administrátori a používateľ, ktorý ho nárokoval",
 	"commands.unclaim.success": "Všetci zástupcovia podpory teraz môžu reagovať na ticket",
-	"commands.vote": "Kliknutím sem môžete hlasovať za 24 hodín prémiových služieb zadarmo:\\n<https://vote.tickets.bot>",
+	"commands.vote": "Kliknutím sem môžete hlasovať za 24 hodín prémiových služieb zadarmo:\\n<https://vote.ticketsbot.cloud>",
 	"generic.invalid_argument": "Neplatný argument: pozri použitie",
 	"generic.invalid_user": "Nepodarilo sa nájsť cieľového používateľa",
 	"generic.no_permission": "Nemáte na to povolenie",
@@ -79,7 +79,7 @@
 	"open.success": "Otvorený nový ticket: %s",
 	"setup.auto.category.failure": "Chýba mi oprávnenie `Manage Channels`",
 	"setup.auto.category.success": "Kategória tickety vytvorená",
-	"setup.auto.completed": "Nastavenie dokončené! Kliknutím na [here](https://dashboard.tickets.bot/manage/%d/panels) nastavte reakčný panel a pridajte roly <@&%d> a <@&%d> svojim zamestnancom.",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Chýba mi oprávnenie `Manage Roles`",
 	"setup.auto.roles.success": "Vytvorené role `Tickets Admin` a `Tickets Support`",
 	"setup.auto.transcript.failure": "Chýba mi oprávnenie `Manage Channels`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Kanál prepisov bol zmenený na <#%d>",
 	"commands.language.help_wanted": "Hovoríte iným jazykom? Pripojte sa k nášmu [serveru podpory](https://discord.gg/ticketsbot), ak máte záujem pomôcť pri preklade bota do viacerých jazykov",
 	"commands.rename.too_long": "Názvy kanálov nemôžu byť dlhšie ako 100 znakov",
-	"commands.autoclose.configure": "Ak chcete zmeniť nastavenia automatického zatvárania, navštívte [dashboard](https://dashboard.tickets.bot/manage/%d/settings)",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Príkazy súvisiace s automatickým zatvorením",
 	"help.autoclose.exclude": "Vylúči automatické uzavretie aktuálneho ticketu",
 	"help.autoclose.configure": "Úprava nastavení súvisiacich s automatickým zatváraním",
@@ -222,7 +222,7 @@
 			"select": "Vyberte jazyk (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` možno použiť len v režime vlákna. Navštívte naše [docs](https://docs.tickets.bot/features/thread-mode) a dozviete sa viac o vláknach",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "Teraz ste v hovore",
 			"remove_success": "Už nie ste v hovore"
 		},
@@ -264,9 +264,9 @@
 					"description": "Túto možnosť vyberte, ak ste nákup uskutočnili v obchode v aplikácii Discord"
 				}
 			},
-			"about": "Premium vám poskytne prístup k ďalším panelom, štatistikám, vlastnému botovi a ďalším funkciám! Navštívte našu [webovú stránku](https://tickets.bot/premium) a dozviete sa viac.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Dobré správy! Premium je už na tomto serveri aktívne.",
-			"already_activated_whitelabel": "Dobré správy! Premium je už na tomto serveri aktívne.\n\nAk chcete získať pomoc pri začatí používania whitelabel, prečítajte si [nášho sprievodcu nastavením whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Prémium si môžete zakúpiť priamo v službe Discord. Kliknutím na tlačidlo pod touto správou otvoríte stránku správy predplatného.\n\nPo zakúpení predplatného počkajte do 5 minút, kým sa predplatné zistí."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Chcete preskúmať viac? Naša [dokumentácia](https://docs.tickets.bot) vás naučí, ako nakonfigurovať každý aspekt bota!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Musíte poskytnúť kanál na oznamovanie upozornení",
