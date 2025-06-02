@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Morate spomenuti korisnika za kojeg želite prebaciti stanje crne liste",
 	"commands.blacklist.self": "Ne možete sebe staviti na crnu listu",
 	"commands.claim.success": "Vašom ulaznicom rukovat će %s",
-	"commands.invite": "[Kliknite ovdje](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Morate navesti šifru jezika ili zastavicu. Dostupni jezici:\\n%s",
 	"commands.open.ticket_limit": "Možete otvoriti samo %d %s odjednom",
 	"commands.open.too_many_tickets": "Previše je ulaznica u kategoriji ticket. Zatražite od administratora da neke zatvori ili da ih premjesti u drugu kategoriju",
-	"commands.panel": "<https://dashboard.tickets.bot/manage/%d/panels> Da podesite panel",
-	"commands.premium": "Možete kupiti premium pretplatu od <https://www.patreon.com/ticketsbot-cloud>.\\nPremium ti pruža mnoge prednosti kao što su:\\n```diff\\n+ Napraviti beskonačno ticket panela\\n+ prilagoditi bot ime, avatar & status(whitelabel)\\n+ Detaljne statistike o serveru, korisniku i podrška timu\\n+ Nema brendiranja u podnožju poruka\\n+ podržati razvoj i pomoći mi platiti server troškove\\n```\\n\\nAlternativno, možete glasati na <https://vote.tickets.bot> da dobijete premium besplatno na 24 sata",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "Nevaljan ključ. Pobrinite se da ste ga točno kopirali.",
 	"commands.remove.no_permission": "Nemate dozvolu da uklonite osobe iz ovog tiketa",
 	"commands.remove.staff": "Ne može ukloniti radnika iz ovog tiketa",
@@ -28,13 +28,13 @@
 	"commands.tags.create.too_long": "Tag ne može biti dulji od 16 znakova",
 	"commands.tags.delete.invalid_arguments": "Morate specifirati tag ID da obrišete",
 	"commands.tags.delete.not_exist": "Tag sa ID-om `%s` se ne može pronaći",
-	"commands.tags.get.invalid_arguments": "Morate pružiti ID od tag-a. Za dodatnu pomoć s tag-om posjetite <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Netočan tag. Za dodatnu pomoć sa tagovima, posjetite<https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "ID-ovi za sve tagove: \\n%s\\nDa biste vidjeli sadržaj taga, pokrenite `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Ovaj tiket nije preuzet",
 	"commands.unclaim.not_claimer": "Samo admini i korisnik koji je preuzeo tiket može ne-preuzeti tiket",
 	"commands.unclaim.success": "Svi predstavnici podrške sada mogu odgovoriti na tiket",
-	"commands.vote": "Kliknite ovdje da glasate za 24 sata besplatan premium:\\n<https://vote.tickets.bot>",
+	"commands.vote": "Kliknite ovdje da glasate za 24 sata besplatan premium:\\n<https://vote.ticketsbot.cloud>",
 	"generic.invalid_argument": "Nevažeći argument: odnosi se na upotrebu",
 	"generic.invalid_user": "Nije moguće pronaći ciljanog korisnika",
 	"generic.no_permission": "Nemate dozvolu za ovo",
@@ -79,7 +79,7 @@
 	"open.success": "Otvorio novi tiket: %s",
 	"setup.auto.category.failure": "Nedostaje mi `upravljaj kanalima' dozvola",
 	"setup.auto.category.success": "Napravio novu tiket kategoriju",
-	"setup.auto.completed": "Setup dovršen! Kliknite [ovdje](https://dashboard.tickets.bot/manage/%d/panels) da uradite reakcijski panel, I dodateb<@&%d> i <@&%d> uloge u vaš staff tim",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Nedostaje mi `upravljanje ulogama` dopuštenje",
 	"setup.auto.roles.success": "Napravio `Tiket Admin` & `Tiket Pomoć` uloge",
 	"setup.auto.transcript.failure": "Nedostaje mi `upravljanje kanalima` dopuštenje",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Kanal za transkripte je promijenjen u <#%d>",
 	"commands.language.help_wanted": "Govorite li neki drugi jezik? Pridružite se našem [Serveru za podršku](https://discord.gg/ticketsbot) ako ste zainteresirani pomoći u prevođenju bota na više jezika",
 	"commands.rename.too_long": "Imena kanala ne mogu biti duža od 100 znakova",
-	"commands.autoclose.configure": "Posjetite [nadzornu ploču](https://dashboard.tickets.bot/manage/%d/settings) da promijenite autoclose postavku",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Autoclose povezane naredbe",
 	"help.autoclose.exclude": "Isključuje automatsko zatvaranje trenutnog tiketa",
 	"help.autoclose.configure": "Uredi auto zatvaranje postavke",
@@ -222,7 +222,7 @@
 			"select": "Odaberi jezik (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` se može koristiti samo u načinu niti. Posjetite naše [dokumente](https://docs.tickets.bot/features/thread-mode) da saznate više o nitima",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "Sada ste na pozivu",
 			"remove_success": "Niste više u pozivu"
 		},
@@ -264,9 +264,9 @@
 					"description": "Odaberite ovu opciju ako ste kupnju obavili u Discord trgovini unutar aplikacija"
 				}
 			},
-			"about": "Premium vam daje pristup većem broju ploča, statistikama, prilagođenom botu i više! Posjetite našu [web-stranicu](https://tickets.bot/premium) kako biste saznali više.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Dobre vijesti! Premium je već aktiviran u ovom serveru.",
-			"already_activated_whitelabel": "Dobre vijesti! Premium je već aktivan na ovom poslužitelju.\n\nZa pomoć pri početku rada s whitelabelom pročitajte [naš vodič za postavljanje whitelabela](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium se može kupiti izravno unutar Discorda. Kliknite gumb ispod ove poruke da biste otvorili stranicu za upravljanje pretplatom.\n\nNakon kupnje pričekajte do 5 minuta da pretplata počne."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Želite li istražiti više? Naša [dokumentacija](https://docs.tickets.bot) će vas naučiti kako konfigurirati svaki aspekt bota!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Morate osigurati kanal za obavijest o tiketima",
