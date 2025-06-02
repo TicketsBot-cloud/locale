@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Has de mencionar un usuari per commutar-li l'estat de llista negra",
 	"commands.blacklist.self": "No et pots posar a tu mateix/a a la llista negra",
 	"commands.claim.success": "El teu tiquet serà atès per %s",
-	"commands.invite": "[Clica aquí](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Has d'especificar un codi o etiqueta d'idioma. Idiomes disponibles:\\n%s",
 	"commands.open.ticket_limit": "Només pots obrir %d %s a la vegada",
 	"commands.open.too_many_tickets": "Hi ha massa tiquets en aquesta categoria. Demana a un administrador que en tanqui alguns, els mogui a una altra categoria, o configuri una categoria de sobreeiximent.\n\nHi ha un **límit establert per Discord** de 50 canals per categoria.",
-	"commands.panel": "Visita <https://dashboard.tickets.bot/manage/%d/panels> per configurar un panell",
-	"commands.premium": "Pots comprar una subscripció prèmium a <https://www.patreon.com/ticketsbot-cloud>.\\nLa subscripció prèmium aporta molts beneficis, com:\\n```diff\\n+ Crear panells de tiquets il·limitats\\n+ Personalitzar el nom, la imatge i l'estat del bot (marca blanca)\\n+ Estadístiques detallades del servidor, usuaris i equip de suport\\n+ Sense informació del bot al peu dels missatges\\n+ Mostrar el teu suport al desenvolupament i ajudar a pagar els costos de servidor\\n```\\n\\nDe forma alternativa, pots votar a <https://vote.tickets.bot> per aconseguir 24 hores prèmium gratis",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "Codi no vàlid. Assegura't que l'has copiat correctament.",
 	"commands.remove.no_permission": "No tens permís per treure persones d'aquest tiquet",
 	"commands.remove.staff": "No pots treure l'equip de suport d'un tiquet",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "L'identificador de l'etiqueta no pot tenir més de 16 caràcters",
 	"commands.tags.delete.invalid_arguments": "Has de proporcionar l'identificador de l'etiqueta que vols eliminar",
 	"commands.tags.delete.not_exist": "No s'ha trobat cap etiqueta amb l'identificador `%s`",
-	"commands.tags.get.invalid_arguments": "Has de proporcionar l'identificador per l'etiqueta. Per més ajuda sobre les etiquetes, visita <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Etiqueta no vàlida. Per més ajuda sobre les etiquetes, visita <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "Identificadors de totes les etiquetes: \\n%s\\nPer veure el contingut d'una etiqueta, executeu `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Aquest tiquet no ha estat reclamat",
 	"commands.unclaim.not_claimer": "Només els administradors i usuaris que hagin reclamat el tiquet el poden alliberar",
@@ -79,7 +79,7 @@
 	"open.success": "S'ha obert un nou tiquet: %s",
 	"setup.auto.category.failure": "Trobo a faltar el permís per gestionar canals (`Manage Channels`)",
 	"setup.auto.category.success": "S'ha creat la categoria de Tickets",
-	"setup.auto.completed": "Configuració completada! Clica [aquí](https://dashboard.tickets.bot/manage/%d/panels) per configurar un panell on reaccionar, i afegeix els rols <@&%d> i <@&%d> els membres del teu equip",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Trobo a faltar el permís per gestionar rols `Manage Roles`",
 	"setup.auto.roles.success": "S'ha creat els rols `Tickets Admin` i `Tickets Support`",
 	"setup.auto.transcript.failure": "Trobo a faltar el permís per gestionar canals `Manage Channels`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "El canal de transcripcions s'ha actualitzat a <#%d>",
 	"commands.language.help_wanted": "Parles un altre idioma? Uneix-te al nostre [servidor de suport](https://discord.gg/ticketsbot) si t'interessa ajudar a traduir el bot a altres idiomes",
 	"commands.rename.too_long": "Els noms dels canals no poden tenir més de 100 caràcters",
-	"commands.autoclose.configure": "Visita el [tauler de control](https://dashboard.tickets.bot/manage/%d/settings) per canviar la configuració de tancament automàtic",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Ordres relacionades amb el tancament automàtic",
 	"help.autoclose.exclude": "Exclou el tiquet actual del tancament automàtic",
 	"help.autoclose.configure": "Editar la configuració del tancament automàtic",
@@ -222,7 +222,7 @@
 			"select": "Selecciona un idioma (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` només es pot utilitzar en el mode fil. Visita la nostra [documentació](https://docs.tickets.bot/features/thread-mode) per conèixer més sobre els fils",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "Ara estàs disponible",
 			"remove_success": "Ara ja no estàs disponible"
 		},
@@ -264,9 +264,9 @@
 					"description": "Selecciona aquesta opció si has fet la compra a través de la botiga integrada de Discord"
 				}
 			},
-			"about": "Premium et dona accés a més panells, estadístiques, un bot personalitzat i més! Visita la nostra [web](https://tickets.bot/premium) per més informació.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Bones notícies! Premium ja està activat en aquest servidor.",
-			"already_activated_whitelabel": "Bones notícies! Prèmium ja està activat en aquest servidor.\n\nPer ajuda sobre com fer servir Whitelabel, llegeix la nostra [guia de configuració de Whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "La subscripció Prèmium es pot fer directament a través de Discord. Clica el botó de sota per obrir el gestor de subscripcions.\n\nUn cop comprat, pot trigar fins a 5 minuts a detectar-se la subscripció."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Vols descobrir més? La nostra [documentació](https://docs.tickets.bot) t'ensenyarà com configurar cada aspecte del bot!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Has de proporcionar un canal de notificació de tiquet",
