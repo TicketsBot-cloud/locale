@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "您需要提及一个用户来切换黑名单状态",
 	"commands.blacklist.self": "你想不开是不是？干嘛黑名单自己",
 	"commands.claim.success": "你的问题单将由 %s 为您服务",
-	"commands.invite": "[点击此处](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "您需要指定语言代码或标志。可用语言:\\n%s",
 	"commands.open.ticket_limit": "您一次只能打开 %d %s",
 	"commands.open.too_many_tickets": "问题单类别中的问题单过多。要求管理员关闭一些，或将它们移到另一个类别，否则将无法开启",
-	"commands.panel": "请前往 <https://panel.tickets.bot/manage/%d/panels>配置一个票据模板",
-	"commands.premium": "您可以从 <https://www.patreon.com/ticketsbot-cloud> 购买高级订阅。\\nPremium 提供许多好处，例如：\\n```diff\\n+ 创建无限制的问题单面板\\n+ 自定义机器人名称、头像和状态\\n+ 关于服务器、用户和支持人员的详细统计\\n+ 没有品牌显示\\n+ 支持开发并帮助我支付服务器费用\\n```\\n\\n或者，您可以投票<https://vote.tickets.bot> 获得 24 小时免费高级版",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "无效的密钥。确保您已正确复制它。",
 	"commands.remove.no_permission": "没有权限踢掉他唷",
 	"commands.remove.staff": "不能移除工作人员",
@@ -28,13 +28,13 @@
 	"commands.tags.create.too_long": "标籤 ID 不能超过 16 个字符",
 	"commands.tags.delete.invalid_arguments": "您必须指定要删除的标籤 ID",
 	"commands.tags.delete.not_exist": "找不到 ID 为\"%s\"的标籤",
-	"commands.tags.get.invalid_arguments": "您必须提供标籤的 ID。有关标籤的更多帮助，请访问 <https://tickets.bot/tags>。",
-	"commands.tags.get.invalid_tag": "标籤无效。有关标籤的更多帮助，请访问 <https://tickets.bot/tags>。",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "所有标籤的 ID：\\n%s\\n要查看标籤的内容，请运行 `%stag <ID>`",
 	"commands.unclaim.not_claimed": "目前问题单还没被指派",
 	"commands.unclaim.not_claimer": "只有管理者会已被分配到的人才可以解除分配",
 	"commands.unclaim.success": "所有支持者现在都可以回复问题单",
-	"commands.vote": "投票获得24小时的高级方案！\\n<https://vote.tickets.bot>",
+	"commands.vote": "投票获得24小时的高级方案！\\n<https://vote.ticketsbot.cloud>",
 	"generic.invalid_argument": "无效参数：参考用法",
 	"generic.invalid_user": "找不到目标成员",
 	"generic.no_permission": "没有权限使用唷",
@@ -79,7 +79,7 @@
 	"open.success": "开了一张问题单：%s",
 	"setup.auto.category.failure": "我没有 `管理频道` 的权限唷",
 	"setup.auto.category.success": "创建问题单类别",
-	"setup.auto.completed": "配置完成，点击 [这里](https://panel.tickets.bot/manage/%d/panels) 去创建工单模板, 并给你工作团队添加 <@&%d> 和 <@&%d>的身份组。",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "我没有 `管理身份组` 的权限唷",
 	"setup.auto.roles.success": "创建 `问题单管理者` & `问题单支持者` 的身份组",
 	"setup.auto.transcript.failure": "我没有 `管理频道` 的权限唷",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "问题单记录频道已更改到 <#%d>",
 	"commands.language.help_wanted": "您是否使用另一种语言？如果您有兴趣帮助将机器人翻译成更多语言，请加入我们的 [支持服务器](https://discord.gg/ticketsbot)",
 	"commands.rename.too_long": "频道名称不能长于 100 个字符",
-	"commands.autoclose.configure": "前往 [网页面板](https://panel.tickets.bot/manage/%d/panels) 设置有关自动关闭的设定",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "有关**自动关闭**的命令",
 	"help.autoclose.exclude": "停用当前工单自动被关闭",
 	"help.autoclose.configure": "编辑自动关闭相关的设置",
@@ -222,7 +222,7 @@
 			"select": "选择语言(%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "“/on-call” 只能用于子区模式。访问我们的 [docs](https://docs.tickets.bot/features/thread-mode) 以了解更多关于子区的信息",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "你现在是在线状态",
 			"remove_success": "你不再是在线状态"
 		},
@@ -264,9 +264,9 @@
 					"description": "如果您在 Discord 内商店购买，请选择此选项"
 				}
 			},
-			"about": "高级订阅可以让您访问更多的面板、统计、自定义机器人等！访问我们的 [官网](https://tickets.bot/premium) 来了解更多信息。",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "好消息！高级订阅已经在此服务器上激活。",
-			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[配置自定义机器人](https://docs.tickets.bot/prem/whitlabel-setup-guide)。",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "高级版可以直接在 Discord 中购买。点击此消息下方的按钮打开订阅管理页面。\n\n购买一个，请在5分钟内完成购买。"
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "想要探索更多？我们的 [documentation](https://docs.tickets.bot) 将教你如何配置机器人！"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "您必须提供(设置)一个工单通知频道",
