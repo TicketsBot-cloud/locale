@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Tu precisas de mencionar um utilizador para alterar o estado da lista negra para",
 	"commands.blacklist.self": "Não te podes colocar a ti mesmo na lista negra",
 	"commands.claim.success": "O teu bilhete será tratado por %s",
-	"commands.invite": "[Clica aqui](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Tu precisas de especificar um código de idioma ou bandeira. Idiomas disponíveis:\\n%s",
 	"commands.open.ticket_limit": "Tu só podes abrir %d %s de uma só vez",
 	"commands.open.too_many_tickets": "Há muitos bilhetes na categoria de bilhetes. Pede a um administrador para fechar alguns, movê-los para outra categoria ou configura uma categoria de saída.\n\nEste é um **limite imposto pelo Discord** de 50 canais por categoria.",
 	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "Tu podes comprar uma assinatura premium de <https://www.patreon.com/ticketsbot-cloud>.\\nO premium fornece muitos benefícios, tais como:\\n```diff\\n+ Criar painéis de bilhete ilimitados\\n+ Personalizar o nome do bot, avatar e estado (whitelabel)\\n+ Estatísticas detalhadas sobre o servidor, utilizadores e equipe de suporte\\n+ Sem marca no rodapé de mensagens\\n+ Apoiar o desenvolvimento e ajudar-me a pagar o servidor custa\\n```\\n\\nAlternadamente, tu podes votar <https://vote.tickets.bot> para ganhares premium grátis por 24 horas",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "Chave inválida. Assegura-te que a copiaste corretamente.",
 	"commands.remove.no_permission": "Tu não tens permissões para remover pessoas deste bilhete",
 	"commands.remove.staff": "Tu não podes remover membros da equipa de um bilhete",
@@ -28,13 +28,13 @@
 	"commands.tags.create.too_long": "IDs de etiquetas não podem ter mais de 16 caracteres",
 	"commands.tags.delete.invalid_arguments": "Tu tens que especificar o ID de uma etiqueta para apagar",
 	"commands.tags.delete.not_exist": "Uma etiqueta com o ID `%s` não pôde ser encontrada",
-	"commands.tags.get.invalid_arguments": "Tu tens de fornecer o ID da etiqueta. Para mais ajuda com etiquetas, visita <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Etiqueta inválida. Para mais ajuda com etiquetas, visita <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "IDs para todas as etiquetas: \\n%s\\nPara ver o conteúdo de uma etiqueta, executa `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Este bilhete não foi reivindicado",
 	"commands.unclaim.not_claimer": "Apenas administradores e o utilizador que reivindicou o bilhete podem cancelar a reivindicação do bilhete",
 	"commands.unclaim.success": "Todos os representantes do suporte podem agora responder ao bilhete",
-	"commands.vote": "Clica aqui para votares para obteres 24 horas de premium grátis:\\n<https://vote.tickets.bot>",
+	"commands.vote": "Clica aqui para votares para obteres 24 horas de premium grátis:\\n<https://vote.ticketsbot.cloud>",
 	"generic.invalid_argument": "Argumento inválido: refere-se ao uso",
 	"generic.invalid_user": "Não foi possível encontrar o utilizador",
 	"generic.no_permission": "Não tens permissão para isto",
@@ -222,7 +222,7 @@
 			"select": "Seleciona um idioma (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` só pode ser utilizado no modo de tópico. Visita o nosso [docs](https://docs.tickets.bot/features/thread-mode) para saberes mais sobre tópicos",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "Tu estás agora em alerta",
 			"remove_success": "Tu não estás mais em alerta"
 		},
@@ -264,7 +264,7 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "O premium fornece-te acesso a mais painéis, estatísticas, um bot personalizado e mais! Visita o nosso [website](https://tickets.bot/premium) para saberes mais.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Good news! Premium is already active in this server.",
 			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Queres explorar mais? A nossa [documentation](https://docs.tickets.bot) vai ensinar-te como configurar qualquer aspeto do bot!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Tu tens que fornecer um canal de notificação de bilhetes",
