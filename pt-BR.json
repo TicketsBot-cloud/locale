@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Você precisa mencionar um usuário para alternar o seu estado de bloqueio",
 	"commands.blacklist.self": "Você não pode bloquear a si mesmo",
 	"commands.claim.success": "O seu ticket será atendido por %s",
-	"commands.invite": "[Clique aqui](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Você precisa especificar uma código de idioma ou uma bandeira. Idiomas disponíveis:\\n%s",
 	"commands.open.ticket_limit": "Você só pode abrir %d %s de uma vez",
 	"commands.open.too_many_tickets": "Existem tickets demais na categoria de tickets. Peça pra um admin fechar alguns, ou movê-los para outra categoria",
-	"commands.panel": "Visite <https://dashboard.tickets.bot/manage/%d/panels> para configurar o painel",
-	"commands.premium": "Você pode comprar uma assinatura premium subscription em <https://www.patreon.com/ticketsbot-cloud>.\\nO premium fornece vários benefícios, como:\\n```diff\\n+ Criar painéis de ticket ilimitados\\n+ Customizar o nome, avatar e status do bot (whitelabel)\\n+ Estatísticas detalhadas sobre o servidor, usuários e equipe de suporte\\n+ Sem propaganda no rodapé das mensagens\\n+ Apoia o desenvolvimento e me ajuda a pagar os custos com servidores\\n```\\n\\nAlternativamente, você pode votar em <https://vote.tickets.bot> para obter o premium gratuitamente por 24 horas.",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "Chave inválida. Certifique-se de que a copiou ela corretamente.",
 	"commands.remove.no_permission": "Você não tem permissão para remover usuários deste ticket",
 	"commands.remove.staff": "Você não pode remover membros da equipe de um ticket",
@@ -28,13 +28,13 @@
 	"commands.tags.create.too_long": "IDs de tags não podem ter mais de 16 caracteres",
 	"commands.tags.delete.invalid_arguments": "Você precisa especificar um ID de tag para remover",
 	"commands.tags.delete.not_exist": "Não foi possível encontrar uma tag com o ID `%s`",
-	"commands.tags.get.invalid_arguments": "Você precisa informar o ID da tag. Para mais ajuda com tags, acesse <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Tag inválida. Para mais ajuda com tags, acesse <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "IDs para todas as tags: \\n%s\\nPara ver o conteúdo de uma tag, digite `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Este ticket não foi atribuído",
 	"commands.unclaim.not_claimer": "Somente admins e o usuário que está atribuído ao ticket podem remover a atribuição",
 	"commands.unclaim.success": "Todos os atendentes de suporte podem agora responder ao ticket",
-	"commands.vote": "Clique aqui para votar e obter 24 horas de premium grátis:\\n<https://vote.tickets.bot>",
+	"commands.vote": "Clique aqui para votar e obter 24 horas de premium grátis:\\n<https://vote.ticketsbot.cloud>",
 	"generic.invalid_argument": "Argumento inválido: confira o uso correto",
 	"generic.invalid_user": "Usuário não encontrado",
 	"generic.no_permission": "Você não tem permissão para fazer isso",
@@ -79,7 +79,7 @@
 	"open.success": "Abriu um novo ticket: %s",
 	"setup.auto.category.failure": "Eu estou sem a permissão `Gerenciar Canais` ",
 	"setup.auto.category.success": "Categoria de Tickets criada",
-	"setup.auto.completed": "Configuração concluída! Clique [aqui](https://panel.tickets.bot/manage/%d/panels) para configurar um painel de reações, e adicione os cargos <@&%d> e <@&%d> para os seus membros da equipe",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Eu estou sem a permissão `Gerenciar Cargos` ",
 	"setup.auto.roles.success": "Cargos `Tickets Admin` & `Tickets Support` criados",
 	"setup.auto.transcript.failure": "Eu estou sem a permissão `Gerenciar Canais` ",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "O canal de transcrições foi alterado para <#%d>",
 	"commands.language.help_wanted": "Você fala outra língua? Junte-se ao nosso [servidor de suporte](https://discord.gg/ticketsbot) se você estiver interessado em traduzir o bot para mais idiomas",
 	"commands.rename.too_long": "Nomes de canais não podem ter mais de 100 caracteres",
-	"commands.autoclose.configure": "Visite o [painel de controle](https://panel.tickets.bot/manage/%d/settings) para alterar as configurações de fechamento automático",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Comandos relacionados ao fechamento automático",
 	"help.autoclose.exclude": "Exclui o ticket atual de ser fechado automaticamente",
 	"help.autoclose.configure": "Editar configurações relacionadas ao fechamento automático",
@@ -222,7 +222,7 @@
 			"select": "Selecione um idioma (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` só pode ser usado no modo thread. Visite o nossa [doc](https://docs.tickets.bot/features/thread-mode) para saber mais sobre tópicos",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "Você agora está em chamada",
 			"remove_success": "Você não está mais em chamada"
 		},
@@ -264,9 +264,9 @@
 					"description": "Selecione esta opção se você fez sua compra na loja Discord"
 				}
 			},
-			"about": "O Premium lhe dá acesso a mais painéis, estatísticas, um bot personalizado e muito mais! Visite o nosso [website](https://tickets.bot/premium) para saber mais.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Boas notícias! O Premium já está ativo neste servidor.",
-			"already_activated_whitelabel": "Boas notícias! Premium já está ativo neste servidor.\n\nPara ajudar a começar com whitelabel, leia [nosso guia de instalação de whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "O premium pode ser comprado diretamente sem usar o Discord. Clique no botão logo após essa mensagem para abrir a página de gerenciamento de assinaturas.\n\nUma vez comprado, pode demorar até 5 minutos para a inscrição ser detectada."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Quer explorar mais? Nossa [documentação](https://docs.tickets.bot) vai lhe ensinar como configurar todos os aspectos do bot!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Você deve fornecer um canal de notificação de ticket",
