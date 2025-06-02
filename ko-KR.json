@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "블랙리스트 상태를 전환하려면 사용자를 멘션해야 해요",
 	"commands.blacklist.self": "나 자신을 블랙리스트에 추가할 수 없어요",
 	"commands.claim.success": "내 티켓을 %s님이 담당해요",
-	"commands.invite": "[여길 누르세요](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "언어 코드 또는 플래그를 지정해야 합니다. 사용 가능한 언어:\\n%s",
 	"commands.open.ticket_limit": "한 번에 %d %s만 열 수 있습니다.",
 	"commands.open.too_many_tickets": "티켓 카테고리에 티켓이 너무 많습니다. 관리자에게 일부를 닫거나 다른 카테고리로 이동하도록 요청하세요.",
-	"commands.panel": "<https://dashboard.tickets.bot/manage/%d/panels>을 방문해 패널을 구성하세요",
-	"commands.premium": "프리미엄 구독은 <https://www.patreon.com/ticketsbot-cloud>에서 구입할 수 있습니다.\\n프리미엄은 다음과 같은 많은 혜택을 제공합니다.\\n\\n\\```diff\\n+ 무제한 티켓 패널 만들기\\n+ 사용자 및 상태 사용자 지정 봇 이름, 상태(흰색 레이블)\\n+ 서버, 사용자 및 지원 담당자에 대한 자세한 통계\\n+ 지원 개발 메시지 아래에 브랜드 없음 및 서버 비용 지불을 도와드립니다.\\n```\\n\\n<https://vote.tickets.bot>에서 24시간 동안 프리미엄 무료 제공받을 수 있습니다.",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "잘못된 키입니다. 올바르게 복사했는지 확인해주세요.",
 	"commands.remove.no_permission": "이 티켓에서 사용자를 제거할 수 있는 권한이 없습니다.",
 	"commands.remove.staff": "스태프를 티켓에서 제거할 수 없습니다.",
@@ -28,13 +28,13 @@
 	"commands.tags.create.too_long": "태그 ID는 16자를 초과할 수 없습니다.",
 	"commands.tags.delete.invalid_arguments": "삭제할 태그 ID를 지정해야 합니다.",
 	"commands.tags.delete.not_exist": "ID가 `%s`인 태그를 찾을 수 없습니다.",
-	"commands.tags.get.invalid_arguments": "태그의 ID를 제공해야 합니다. 태그에 대한 자세한 내용은 <https://tickets.bot/tags>을 참조하십시오.",
-	"commands.tags.get.invalid_tag": "잘못된 태그입니다. 태그에 대한 자세한 도움말을 보려면 <https://tickets.bot/tags>을 방문하십시오.",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
 	"commands.tags.list": "모든 태그의 ID: \\n%s\\n태그 내용을 보려면 `%stag <ID>`",
 	"commands.unclaim.not_claimed": "이 티켓은 배정되지 않았습니다.",
 	"commands.unclaim.not_claimer": "관리자 및 티켓을 연 사용자만 티켓 배정를 취소할 수 있습니다.",
 	"commands.unclaim.success": "이제 모든 지원 담당자가 티켓에 응답할 수 있습니다.",
-	"commands.vote": "24시간 무료 프리미엄을 위해 투표하려면 여기를 클릭하십시오.\\n<https://vote.tickets.bot>",
+	"commands.vote": "24시간 무료 프리미엄을 위해 투표하려면 여기를 클릭하십시오.\\n<https://vote.ticketsbot.cloud>",
 	"generic.invalid_argument": "잘못된 인수: 사용법을 참조하십시오.",
 	"generic.invalid_user": "대상 사용자를 찾을 수 없습니다.",
 	"generic.no_permission": "당신은 권한이 없어요.",
@@ -79,7 +79,7 @@
 	"open.success": "새 티켓을 열었습니다: %s",
 	"setup.auto.category.failure": "`채널 관리`권한이 없습니다.",
 	"setup.auto.category.success": "티켓 카테고리를 만들었습니다.",
-	"setup.auto.completed": "설정이 완료되었습니다! [여기](https://dashboard.tickets.bot/manage/%d/panels)를 클릭해 반응 패널을 설정해 보시고, 스태프 멤버를 <@&%d>, <@&%d> 역할에 추가해 보세요",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "`역할 관리` 권한이 없습니다.",
 	"setup.auto.roles.success": "`티켓 관리자` 및 `티켓 지원` 역할을 생성했습니다.",
 	"setup.auto.transcript.failure": "`채널 관리`권한이 없습니다.",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "채팅 기록 채널이 <#%d>로 변경되었습니다.",
 	"commands.language.help_wanted": "당신은 다른 언어를 할 줄 아나요? 봇을 더 많은 언어로 번역하는 데 관심이 있으신 경우 [지원 서버](https://discord.gg/ticketsbot)에 가입하세요!",
 	"commands.rename.too_long": "채널 이름은 100자를 초과할 수 없습니다.",
-	"commands.autoclose.configure": "[대시보드](https://dashboard.tickets.bot/manage/%d/settings)에 방문해 자동 닫기 설정을 변경하세요",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "자동 닫기 관련 명령어",
 	"help.autoclose.exclude": "현재 티켓을 자동 닫힘에서 제외합니다.",
 	"help.autoclose.configure": "자동 닫기 관련 설정 편집",
@@ -222,7 +222,7 @@
 			"select": "언어를 선택하세요 (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "'/on-call'은 스레드 모드에서만 사용할 수 있어요. 스레드에 대한 자세한 내용은 [문서](http://https://docs.tickets.bot/features/thread-mode) 를 참조해주세요.",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "대기 중 상태입니다",
 			"remove_success": "대기 중 상태가 아닙니다"
 		},
@@ -264,9 +264,9 @@
 					"description": "Discord 앱 내 스토어에서 구매했다면 이 옵션을 선택하세요"
 				}
 			},
-			"about": "프리미엄은 더 많은 패널, 통계, 사용자 지정 봇 등을 줍니다! 저희의 [웹 사이트](https://tickets.bot/premium)에 방문해 자세히 알아보세요.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "좋은 소식입니다! 프리미엄이 이미 이 서버에서 활성화되었습니다.",
-			"already_activated_whitelabel": "좋은 소식입니다! 프리미엄이 이미 이 서버에서 활성화되었습니다.\n\n흰색 레이블 시작에 도움이 필요하시다면, [저희의 흰색 레이블 설정 가이드]\n(https://docs.tickets.bot/premium/whitelabel-setup-guide)를 읽어보세요.",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "프리미엄은 직접적으로 Discord 내에서 구매할 수 있습니다. 구독 관리 페이지를 열려면 이 아래 메시지의 버튼을 누르세요.\n\n구매가 완료되셨다면, 구독이 감지될 때까지 최대 5분 정도 기다려 주십시오."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "더 많은 것을 확인하고 싶으신가요? [문서](https://docs.tickets.bot)에서 봇의 모든것을 구성하는 방법을 알려드립니다!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "티켓 알림 채널을 제공해야 합니다",
