@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Razgovor je premješten u tiket (<#%d>)",
 	"help.close_request": "Šalje poruku tražeći od korisnika potvrdu da se tiket može zatvoriti",
 	"close.reason_too_long": "Razlog ne može biti dulji od 255 znakova",
-	"commands.close_request.no_reason": "<@%d> je zatražio zatvaranje ovog tiketa.\n\nPrihvatite ili odbijte korištenjem donjih gumba.",
-	"commands.close_request.with_reason": "<@%d> je zatražio zatvaranje ovog tiketa. Razlog:\n```\n%s\n```\nPrihvatite ili odbijte korištenjem donjih gumba.",
-	"commands.close_request.no_permission": "Na zahtjev za zatvaranje može odgovoriti samo korisnik koji je otvorio kartu",
-	"commands.close_request.denied": "<@%d> je odbio zahtjev za zatvaranje",
 	"generic.error": "Pogreška",
 	"feedback.disabled": "Ovaj poslužitelj ima onemogućene povratne informacije",
 	"feedback.success": "Vaše povratne informacije su zabilježene",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Potvrda za zatvaranje",
 	"close.confirmation": "Molimo vas potvrdite da želite zatvoriti ovaj tiket",
 	"generic.title.close_request": "Zahtijev za zatvaranje",
-	"commands.close_request.accept": "Prihvati i zatvori",
-	"commands.close_request.deny": "Odbij i ostavi otvoreno",
 	"commands.premium.success": "Premium je aktiviran na **%d** dana",
 	"generic.title.claimed": "Preuzet tiket",
 	"generic.title.unclaimed": "Ne-preuzet tiket",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Imate **%d** zasluga za glasovanje. Kliknite gumb \"Iskoristi kredite\" u nastavku kako biste ih iskoristili za %d dana premije na ovom poslužitelju.",
 				"singular": "Imate **%d** zasluge za glasanje. Kliknite gumb \"Iskoristi kredite\" u nastavku kako biste ih iskoristili za %d dan premije na ovom poslužitelju."
+			}
+		},
+		"close_request": {
+			"no_permission": "Na zahtjev za zatvaranje može odgovoriti samo korisnik koji je otvorio kartu",
+			"denied": "<@%d> je odbio zahtjev za zatvaranje.",
+			"buttons": {
+				"accept": "Prihvati i zatvori",
+				"deny": "Odbij i ostavi otvoreno"
 			}
 		}
 	},

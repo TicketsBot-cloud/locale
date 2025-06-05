@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "目前對話已被移到 (<#%d>)",
 	"help.close_request": "發送一條消息，讓使用者可以在正式關閉客服單前在確定一次，以免關閉錯誤，釀成悲劇。",
 	"close.reason_too_long": "關閉原因不能超過 255 個字，你是要打作文嗎？",
-	"commands.close_request.no_reason": "<@%d> 已經要求關閉客服單\n\n請點擊下方按鈕以便確定關閉或是取消關閉客服單",
-	"commands.close_request.with_reason": "<@%d> 已經要求關閉客服單，因為 %s\n\n請點擊下方按鈕以便確定關閉或是取消關閉客服單",
-	"commands.close_request.no_permission": "只有開客服單的人可以回應關閉客服單請求唷",
-	"commands.close_request.denied": "<@%d> 拒絕關閉客服單",
 	"generic.error": "發生錯誤",
 	"feedback.disabled": "此伺服器已經關閉評價功能",
 	"feedback.success": "你的評價已發送",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "確認關閉",
 	"close.confirmation": "請確定你真的要關閉客服單",
 	"generic.title.close_request": "要求關閉",
-	"commands.close_request.accept": "允許關閉客服單",
-	"commands.close_request.deny": "拒絕關閉客服單",
 	"commands.premium.success": "增加 Premium 天數 **%d** 天",
 	"generic.title.claimed": "接手客服單",
 	"generic.title.unclaimed": "取消接手客服單",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "您目前擁有 **%d** 點投票點數。按一下下方的「兌換投票點數」按鈕，即可兌換成 **%d** 天的伺服器 Premium。",
 				"singular": "您目前擁有 **%d** 點投票點數。按一下下方的「兌換投票點數」按鈕，即可兌換成 **%d** 天的伺服器 Premium。"
+			}
+		},
+		"close_request": {
+			"no_permission": "只有開客服單的人可以回應關閉客服單請求唷",
+			"denied": "<@%d> 拒絕關閉客服單.",
+			"buttons": {
+				"accept": "允許關閉客服單",
+				"deny": "拒絕關閉客服單"
 			}
 		}
 	},

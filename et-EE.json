@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Vestlus oli lükatud piletisse (<#%d>)",
 	"help.close_request": "Saadab kirja, mis küsib et kasutaja kinnitaks kas abipileti võib kinni panna",
 	"close.reason_too_long": "Põhjus ei saa olla pikem kui 255 tähemärki",
-	"commands.close_request.no_reason": "<@%d> on palunud et abipilet pannakse kinni\n\nLubage või keelake kasutades alumisi nuppe.",
-	"commands.close_request.with_reason": "<@%d> on palunud et abipilet pannakse kinni. Põhjus:\n```\n%s\n```\nLubage või keelake kasutades alumisi nuppe.",
-	"commands.close_request.no_permission": "Ainult kasutaja kes pileti avas saab vastata kinni panemise soovile",
-	"commands.close_request.denied": "<@%d> keelas kinni panemise soovi",
 	"generic.error": "Viga",
 	"feedback.disabled": "Selle serveri tagasiside on maha võetud",
 	"feedback.success": "Sinu tagasiside on kirja pandud",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Kinni panemise Kinnitamine",
 	"close.confirmation": "Palun kinnita et sa soovid seda abipiletit sulgeda",
 	"generic.title.close_request": "Kinni panemise Soov",
-	"commands.close_request.accept": "Aktsepteeri & Sulge",
-	"commands.close_request.deny": "Keela & Hoia Lahti",
 	"commands.premium.success": "Premium on aktiveeritud **%d** päevaks",
 	"generic.title.claimed": "Võetud Abipilet",
 	"generic.title.unclaimed": "Vaba Abipilet",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Ainult kasutaja kes pileti avas saab vastata kinni panemise soovile",
+			"denied": "<@%d> keelas kinni panemise soovi.",
+			"buttons": {
+				"accept": "Aktsepteeri & Sulge",
+				"deny": "Keela & Hoia Lahti"
 			}
 		}
 	},

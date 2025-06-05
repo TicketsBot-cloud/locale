@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Conversația a fost mutată într-un tichet (<#%d>)",
 	"help.close_request": "Trimite un mesaj prin care i se cere utilizatorului să confirme că tichetul poate fi închis",
 	"close.reason_too_long": "Motivul nu poate fi mai lung de 255 de caractere",
-	"commands.close_request.no_reason": "<@%d> a cerut închiderea acestui tichet.\n\nTe rugăm să accepți sau să refuzi folosind butoanele de mai jos.",
-	"commands.close_request.with_reason": "<@%d> a cerut închiderea acestui tichet. Motivul:\n```\n%s\n```\nTe rugăm să accepți sau să refuzi folosind butoanele de mai jos.",
-	"commands.close_request.no_permission": "Numai utilizatorul care a deschis tichetul poate răspunde la cererea de închidere",
-	"commands.close_request.denied": "<@%d> a refuzat cererea de închidere",
 	"generic.error": "Eroare",
 	"feedback.disabled": "Acest server are feedbackul dezactivat",
 	"feedback.success": "Feedbackul tău a fost înregistrat",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Confirmă închiderea",
 	"close.confirmation": "Te rugăm să confirmi că vrei să închizi acest tichet",
 	"generic.title.close_request": "Cerere de închidere",
-	"commands.close_request.accept": "Acceptă și închide",
-	"commands.close_request.deny": "Refuză și ține deschis",
 	"commands.premium.success": "Premium a fost activat pentru **%d** zile",
 	"generic.title.claimed": "Tichet revendicat",
 	"generic.title.unclaimed": "Tichet nerevendicat",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Numai utilizatorul care a deschis tichetul poate răspunde la cererea de închidere",
+			"denied": "<@%d> a refuzat cererea de închidere.",
+			"buttons": {
+				"accept": "Acceptă și închide",
+				"deny": "Refuză și ține deschis"
 			}
 		}
 	},

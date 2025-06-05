@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "تم نقل المحادثة إلى تذكرة (<%d#>)",
 	"help.close_request": "يرسل رسالة يطلب من المستخدم تأكيد أن التذكرة يمكن أن تكون مغلقة",
 	"close.reason_too_long": "السبب لا يمكن ان يكون أطول من 255 حرف",
-	"commands.close_request.no_reason": "لقد طلب <@%d> إغلاق هذه التذكرة.\n\nالرجاء القبول أو الرفض باستخدام الأزرار أدناه.",
-	"commands.close_request.with_reason": "لقد طلب <@%d> إغلاق هذه التذكرة. السبب:\n```\n%s\n```\nيرجى القبول أو الرفض باستخدام الأزرار أدناه.",
-	"commands.close_request.no_permission": "فقط المستخدم الذي فتح التذكرة يمكنه الرد على طلب الإغلاق",
-	"commands.close_request.denied": "<@%d> رفض طلب الإغلاق",
 	"generic.error": "خطأ",
 	"feedback.disabled": "تم تعطيل التعليقات لهذا الخادم",
 	"feedback.success": "تم تسجيل تعليقك",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "تأكيد الإغلاق",
 	"close.confirmation": "الرجاء تأكيد أنك تريد إغلاق هذه التذكرة",
 	"generic.title.close_request": "إغلاق الطلب",
-	"commands.close_request.accept": "قبول وإغلاق",
-	"commands.close_request.deny": "رفض & الابقاء مفتوح",
 	"commands.premium.success": "تم تفعيل البريميوم لـ**%d** يوم",
 	"generic.title.claimed": "تَذْكِرَة مستلمة",
 	"generic.title.unclaimed": "تذكرة غير مستلمة",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "فقط المستخدم الذي فتح التذكرة يمكنه الرد على طلب الإغلاق",
+			"denied": "<@%d> رفض طلب الإغلاق.",
+			"buttons": {
+				"accept": "قبول وإغلاق",
+				"deny": "رفض & الابقاء مفتوح"
 			}
 		}
 	},

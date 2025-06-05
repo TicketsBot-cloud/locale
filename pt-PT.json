@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "A conversa foi movida para um bilhete (<#%d>)",
 	"help.close_request": "Envia uma mensagem ao utilizador a pedir que confirme que o bilhete pode ser fechado",
 	"close.reason_too_long": "A razão não pode ter mais de 255 caracteres",
-	"commands.close_request.no_reason": "<@%d> pediu para fechar este bilhete.\n\nPor favor, aceita ou recusa utilizando os botões abaixo.",
-	"commands.close_request.with_reason": "<@%d> pediu para fechar este bilhete. Razão:\n```\n%s\n```\nPor favor, aceita ou recusa utilizando os botões abaixo.",
-	"commands.close_request.no_permission": "Só o utilizador que abriu este bilhete pode responder ao pedido de encerramento",
-	"commands.close_request.denied": "<@%d> recusou o pedido de encerramento",
 	"generic.error": "Erro",
 	"feedback.disabled": "Este servidor desativou o feedback",
 	"feedback.success": "O teu feedback foi enviado",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Confirmação de fecho",
 	"close.confirmation": "Por favor, confirma que queres fechar este bilhete",
 	"generic.title.close_request": "Fechar Pedido",
-	"commands.close_request.accept": "Aceitar & Fechar",
-	"commands.close_request.deny": "Recusar & Continuar Aberto",
 	"commands.premium.success": "O premium foi ativado por **%d** dias",
 	"generic.title.claimed": "Bilhete Reivindicado",
 	"generic.title.unclaimed": "Bilhete Não Reivindicado",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Só o utilizador que abriu este bilhete pode responder ao pedido de encerramento",
+			"denied": "<@%d> recusou o pedido de encerramento.",
+			"buttons": {
+				"accept": "Aceitar & Fechar",
+				"deny": "Recusar & Continuar Aberto"
 			}
 		}
 	},

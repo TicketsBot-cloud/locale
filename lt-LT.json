@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Pokalbis buvo perkeltas į bilietą (<#%d>)",
 	"help.close_request": "Nusiunčia pranešima vartotojui, kad patvirtintų ar galima uždaryti bilietą",
 	"close.reason_too_long": "Priežastis negali būti ilgesnė nei 255 simboliai",
-	"commands.close_request.no_reason": "<@%d> prašo uždaryti bilietą.\n\nPriimkite arba atmeskite prašymą naudodami žemiau esančius mygtukus.",
-	"commands.close_request.with_reason": "<@%d> prašo uždaryti bilietą. Priežastis:\n```\n%s\n```\nPriimkite arba atmeskite prašymą naudodami žemiau esančius mygtukus.",
-	"commands.close_request.no_permission": "Tik vartotojas kuris atidarė bilietą gali atsakyti į prašymą",
-	"commands.close_request.denied": "<@%d> atmetė prašymą uždaryti bilietą",
 	"generic.error": "Klaida",
 	"feedback.disabled": "Šiame serveryje atsiliepimai yra išjungti",
 	"feedback.success": "Jūsų atsiliepimas buvo įrašytas",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Patvirtinti bilieto uždarymą",
 	"close.confirmation": "Prašome patvirtinti, jog norite uždaryti bilietą",
 	"generic.title.close_request": "Klausti dėl bilieto uždarymo",
-	"commands.close_request.accept": "Priimti ir uždaryti",
-	"commands.close_request.deny": "Atmesti ir palikti atidaryta",
 	"commands.premium.success": "Premium buvo aktyvuotas **%d** dienom(-ų)",
 	"generic.title.claimed": "Apsiimtas bilietas",
 	"generic.title.unclaimed": "Neapsiimtas bilietas",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Jūs turite **%d** balsavimo kreditų. Spauskite \"Atsiimti kreditus\" mygtuką žemiau, jog atsiimtumėte juos dėl %d dienų Premium prenumeratos šiame serveryje.",
 				"singular": "Jūs turite **%d** balsavimo kreditų. Spauskite \"Atsiimti kreditus\" mygtuką žemiau, jog atsiimtumėte juos dėl %d dienos Premium prenumeratos šiame serveryje."
+			}
+		},
+		"close_request": {
+			"no_permission": "Tik vartotojas kuris atidarė bilietą gali atsakyti į prašymą",
+			"denied": "<@%d> atmetė prašymą uždaryti bilietą.",
+			"buttons": {
+				"accept": "Priimti ir uždaryti",
+				"deny": "Atmesti ir palikti atidaryta"
 			}
 		}
 	},

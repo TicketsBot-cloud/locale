@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "会話はチケットに移動されました (<#%d>)",
 	"help.close_request": "チケットのクローズをユーザーに確認するメッセージを送信します。",
 	"close.reason_too_long": "理由を 255 文字以上にすることはできません。",
-	"commands.close_request.no_reason": "<@%d> はこのチケットのクローズをリクエストしました。\n\n以下のボタンを押して承認または拒否してください。",
-	"commands.close_request.with_reason": "<@%d> がこのチケットをクローズするようリクエストしています。理由:\n```\n%s\n```\n以下のボタンを押して承認または拒否してください。",
-	"commands.close_request.no_permission": "チケットを開いたユーザーのみがクローズリクエストに応答できます",
-	"commands.close_request.denied": "<@%d> がクローズリクエストを拒否しました。",
 	"generic.error": "エラー",
 	"feedback.disabled": "このサーバーはフィードバックが無効になっています。",
 	"feedback.success": "フィードバックが送信されました。",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "チケットクローズの確認",
 	"close.confirmation": "このチケットをクローズしてもよろしいですか？",
 	"generic.title.close_request": "クローズのリクエスト",
-	"commands.close_request.accept": "承諾して閉じる",
-	"commands.close_request.deny": "拒否して開いたままにする",
 	"commands.premium.success": "プレミアムは **%d** 日間有効です。",
 	"generic.title.claimed": "チケットの担当者",
 	"generic.title.unclaimed": "チケット担当者の取り消し",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "チケットを開いたユーザーのみがクローズリクエストに応答できます",
+			"denied": "<@%d> がクローズリクエストを拒否しました。.",
+			"buttons": {
+				"accept": "承諾して閉じる",
+				"deny": "拒否して開いたままにする"
 			}
 		}
 	},

@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Die Unterhaltung wurde zu einem Ticket verschoben (<#%d>)",
 	"help.close_request": "Sendet eine Nachricht, in der der Benutzer gebeten wird, das Ticket zu schliessen",
 	"close.reason_too_long": "Der Grund darf nicht länger als 255 Zeichen sein",
-	"commands.close_request.no_reason": "<@%d> hat das Schliessen dieses Tickets angefordert.\n\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
-	"commands.close_request.with_reason": "<@%d> hat das Schliessen dieses Tickets angefordert. Grund:\n```\n%s\n```\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
-	"commands.close_request.no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schliessungsanfrage antworten",
-	"commands.close_request.denied": "<@%d> hat die Schliessungsanfrage abgelehnt",
 	"generic.error": "Fehler",
 	"feedback.disabled": "Dieser Server hat Rückmeldungen deaktiviert",
 	"feedback.success": "Deine Rückmeldung wurde dokumentiert",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Schliess-Bestätigung",
 	"close.confirmation": "Bitte bestätige, dass Du dieses Ticket schliessen möchtest",
 	"generic.title.close_request": "Schliess-Anfrage",
-	"commands.close_request.accept": "Akzeptieren & Schliessen",
-	"commands.close_request.deny": "Ablehnen & Offen lassen",
 	"commands.premium.success": "Premium wurde für **%d** Tage aktiviert",
 	"generic.title.claimed": "Beanspruchtes Ticket",
 	"generic.title.unclaimed": "Unbeanspruchtes Ticket",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Du hast **%d** Stimm-Guthaben. Klicke unten auf die Schaltfläche \"Guthaben Einlösen\", um es für %d Tage Premium auf diesem Server einzulösen.",
 				"singular": "Du hast **%d** Stimm-Guthaben. Klicke unten auf die Schaltfläche \"Guthaben Einlösen\", um es für %d Tag Premium auf diesem Server einzulösen."
+			}
+		},
+		"close_request": {
+			"no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schliessungsanfrage antworten",
+			"denied": "<@%d> hat die Schliessungsanfrage abgelehnt.",
+			"buttons": {
+				"accept": "Akzeptieren & Schliessen",
+				"deny": "Ablehnen & Offen lassen"
 			}
 		}
 	},

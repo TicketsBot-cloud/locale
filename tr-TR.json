@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Görüşme şu bilete taşındı: (<#%d>)",
 	"help.close_request": "Kullanıcıdan biletin kapatılabileceğini onaylamasını isteyen bir mesaj gönderir",
 	"close.reason_too_long": "Talebi kapatma nedeni 255 karakterden uzun olamaz",
-	"commands.close_request.no_reason": "<@%d> Bu biletin kapatılmasını istedi.\n\nLütfen aşağıdaki butonları kullanarak onay verin yada reddedin.",
-	"commands.close_request.with_reason": "<@%d>, biletin kapatılmasını istedi. Sebep:\n```\n%s\n```\nLütfen aşağıdaki butonları kullanarak onay verin ya da reddedin.",
-	"commands.close_request.no_permission": "Destek talebini kapatma isteğine sadece talebi açan kullanıcı yanıt verebilir",
-	"commands.close_request.denied": "<@%d>, destek talebini kapatma isteğini reddetti",
 	"generic.error": "Hata",
 	"feedback.disabled": "Bu sunucuda geri bildirim devre dışı bırakıldı",
 	"feedback.success": "Geri bildiriminiz kaydedildi",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Kapatmayı onayla",
 	"close.confirmation": "Destek talebini kapatmak istediğinizi onaylıyor musunuz?",
 	"generic.title.close_request": "İsteği kapat",
-	"commands.close_request.accept": "Kabul et ve kapat",
-	"commands.close_request.deny": "Reddet ve açık tut",
 	"commands.premium.success": "Premium **%d** günlüğüne aktifleştirildi",
 	"generic.title.claimed": "Destek Ver",
 	"generic.title.unclaimed": "Destek Vermeyi Sonlandır",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Destek talebini kapatma isteğine sadece talebi açan kullanıcı yanıt verebilir",
+			"denied": "<@%d>, destek talebini kapatma isteğini reddetti.",
+			"buttons": {
+				"accept": "Kabul et ve kapat",
+				"deny": "Reddet ve açık tut"
 			}
 		}
 	},

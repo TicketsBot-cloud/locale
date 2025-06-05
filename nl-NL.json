@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Gesprek is verplaatst naar een ticket (<#%d>)",
 	"help.close_request": "Stuurt een bericht waarin de gebruiker wordt gevraagd te bevestigen dat de ticket kan worden gesloten",
 	"close.reason_too_long": "De reden kan niet langer zijn dan 255 tekens",
-	"commands.close_request.no_reason": "<@%d> heeft gevraagd om dit ticket te sluiten.\n\nAccepteer of weiger met de knoppen hieronder.",
-	"commands.close_request.with_reason": "<@%d> heeft gevraagd om dit ticket te sluiten. Reden:\n```\n%s\n```\nAccepteer of weiger met de knoppen hieronder.",
-	"commands.close_request.no_permission": "Alleen de gebruiker die het ticket heeft geopend kan reageren op de sluitingsaanvraag",
-	"commands.close_request.denied": "<@%d> heeft het sluitingsverzoek geweigerd",
 	"generic.error": "Foutmelding",
 	"feedback.disabled": "Feedback op deze server is uitgeschakeld",
 	"feedback.success": "Uw feedback is doorgegeven",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Sluitbevestiging",
 	"close.confirmation": "Bevestig dat u dit ticket wil sluiten",
 	"generic.title.close_request": "Sluitingsverzoek",
-	"commands.close_request.accept": "Accepteren & Sluiten",
-	"commands.close_request.deny": "Weigeren en open houden",
 	"commands.premium.success": "Premium is geactiveerd voor **%d** dagen",
 	"generic.title.claimed": "Ticket opgeëist",
 	"generic.title.unclaimed": "Onopgeëist ticket",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "U heeft **%d** stem credits. Klik op de \"Credits Inwisselen\" knop hieronder om ze in te wisselen voor **%d** dagen premium in deze server.",
 				"singular": "U heeft **%d** stem credit. Klik op de \"Credits Inwisselen\" knop hieronder om deze in te wisselen voor **%d** dag premium in deze server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Alleen de gebruiker die het ticket heeft geopend kan reageren op de sluitingsaanvraag",
+			"denied": "<@%d> heeft het sluitingsverzoek geweigerd.",
+			"buttons": {
+				"accept": "Accepteren & Sluiten",
+				"deny": "Weigeren en open houden"
 			}
 		}
 	},

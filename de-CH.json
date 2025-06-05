@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "D'Unterhaltig isch zumne Ticket verschobe worde (<#%d>)",
 	"help.close_request": "Schickt e Nachricht, wo de Benutzer betet wird, s'Ticket z'schlüsse",
 	"close.reason_too_long": "De Grund dörf nöd länger als 255 Zeiche si",
-	"commands.close_request.no_reason": "<@%d> het s'Schlüsse vom Ticket aagforderet.\n\nBitte akzeptier oder verweigere mit de untestehende Chnöpf.",
-	"commands.close_request.with_reason": "<@%d> het s'Schlüsse vom Ticket aagforderet. Grund:\n```\n%s\n```\nBitte akzeptier oder verweigere mit de untestehende Chnöpf.",
-	"commands.close_request.no_permission": "Nur de Benutzer, wo s'Ticket uufgmacht het, cha uf d'Schlüssigsaafrag antworte",
-	"commands.close_request.denied": "<@%d> het d'Schlüssigsaafrag abglehnt",
 	"generic.error": "Fehler",
 	"feedback.disabled": "De Server het Rückmeldige deaktiviert",
 	"feedback.success": "Dini Rückmeldig isch dokumentiert worde",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Schlüss-Bestätigung",
 	"close.confirmation": "Bitte bestätige, dass Du s'Ticket schlüsse wetsch",
 	"generic.title.close_request": "Schlüss-Aafrag",
-	"commands.close_request.accept": "Akzeptiere & Schlüsse",
-	"commands.close_request.deny": "Ablehne & Offe Lah",
 	"commands.premium.success": "Premium isch aktiviert worde für **%d** Täg",
 	"generic.title.claimed": "Beaspruchts Ticket",
 	"generic.title.unclaimed": "Unbeaspruchts Ticket",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Du hesch **%d** Stimm-Guethabe. Druck une uf de Chnopf \"Guethabe Iilöse\", um's für %d Täg Premium uf dem Server iizlöse.",
 				"singular": "Du hesch **%d** Stimm-Guethabe. Druck une uf de Chnopf \"Guethabe Iilöse\", um's für %d Tag Premium uf dem Server iizlöse."
+			}
+		},
+		"close_request": {
+			"no_permission": "Nur de Benutzer, wo s'Ticket uufgmacht het, cha uf d'Schlüssigsaafrag antworte",
+			"denied": "<@%d> het d'Schlüssigsaafrag abglehnt.",
+			"buttons": {
+				"accept": "Akzeptiere & Schlüsse",
+				"deny": "Ablehne & Offe Lah"
 			}
 		}
 	},

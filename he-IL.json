@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "השיחה הועברה לכרטיס (<#%d>)",
 	"help.close_request": "שולח הודעה המבקשת מהמשתמש לאשר שניתן לסגור את הכרטיס",
 	"close.reason_too_long": "הסיבה לא יכולה להיות יותר מ-255 תווים",
-	"commands.close_request.no_reason": "<@%d> ביקש לסגור כרטיס זה.\n\nאנא קבל או דחה באמצעות הכפתורים למטה.",
-	"commands.close_request.with_reason": "<@%d> ביקש לסגור כרטיס זה. סיבה:\n```\n%s\n```\nאנא קבל או דחה באמצעות הכפתורים למטה.",
-	"commands.close_request.no_permission": "רק המשתמש שפתח את הכרטיס יכול להגיב לבקשת הסגירה",
-	"commands.close_request.denied": "<@%d> דחה את בקשת הסגירה",
 	"generic.error": "תקלה",
 	"feedback.disabled": "המשוב סגור בשרת זה",
 	"feedback.success": "המשוב שלך נשלח",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "אשר סגירה",
 	"close.confirmation": "אנא אשר שברצונך לסגור כרטיס זה",
 	"generic.title.close_request": "בקשת סגירה",
-	"commands.close_request.accept": "אשר & סגור",
-	"commands.close_request.deny": "דחה & תמשיך לפתוח",
 	"commands.premium.success": "פרימיום הופעל במשך **%d** ימים",
 	"generic.title.claimed": "קבל טיקט",
 	"generic.title.unclaimed": "טיקט נלקח",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "יש לך **%d** זיכויי הצבעה. לחצו על הלחצן \"פדה קרדיטים\" למטה כדי לממש אותם עבור %d ימי פרימיום בשרת הזה.",
 				"singular": "יש לך **%d** זיכויי הצבעה. לחצו על הלחצן \"פדה קרדיטים\" למטה כדי לממש אותם עבור %d ימי פרימיום בשרת הזה."
+			}
+		},
+		"close_request": {
+			"no_permission": "רק המשתמש שפתח את הכרטיס יכול להגיב לבקשת הסגירה",
+			"denied": "<@%d> דחה את בקשת הסגירה.",
+			"buttons": {
+				"accept": "אשר & סגור",
+				"deny": "דחה & תמשיך לפתוח"
 			}
 		}
 	},

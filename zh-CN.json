@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "对话已移动到新工单(<#%d>)",
 	"help.close_request": "发送消息，请用户确认工单能被关闭",
 	"close.reason_too_long": "原因不能超过 255 个字符",
-	"commands.close_request.no_reason": "<@%d> 请求关闭此工单。\n\n请使用下面的按钮确认或拒绝。",
-	"commands.close_request.with_reason": "<@%d> 请求关闭此工单。原因：\n```\n%s\n```\n请使用下面的按钮确认或拒绝。",
-	"commands.close_request.no_permission": "只有打开工单的用户才可以响应关闭请求",
-	"commands.close_request.denied": "<@%d> 拒绝了关闭请求",
 	"generic.error": "错误",
 	"feedback.disabled": "此服务器已禁用反馈",
 	"feedback.success": "已收到您的反馈",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "关闭确认",
 	"close.confirmation": "请再次确认您是否想关闭此工单",
 	"generic.title.close_request": "关闭请求",
-	"commands.close_request.accept": "接受并关闭",
-	"commands.close_request.deny": "拒绝并保持开启",
 	"commands.premium.success": "高级版已激活**%d** 天",
 	"generic.title.claimed": "已认领的工单",
 	"generic.title.unclaimed": "未认领的工单",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "您有 **%d**投票积分。点击下面的“兑换积分”按钮，在此服务器上使用 %d 天的高级版计划。",
 				"singular": "您有 **%d**投票积分。点击下面的“兑换积分”按钮，在此服务器上将其兑换 %d 天的高级版计划。"
+			}
+		},
+		"close_request": {
+			"no_permission": "只有打开工单的用户才可以响应关闭请求",
+			"denied": "<@%d> 拒绝了关闭请求.",
+			"buttons": {
+				"accept": "接受并关闭",
+				"deny": "拒绝并保持开启"
 			}
 		}
 	},

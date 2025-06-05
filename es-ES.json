@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "La conversación se ha movido a un ticket (<#%d>)",
 	"help.close_request": "Envía un mensaje pidiendo al usuario que confirme que el ticket puede cerrarse",
 	"close.reason_too_long": "La razón no puede tener una longitud superior a 255 caracteres",
-	"commands.close_request.no_reason": "<@%d> ha solicitado cerrar este ticket.\n\nPor favor acepte o niegue usando los botones de abajo.",
-	"commands.close_request.with_reason": "<@%d> ha solicitado cerrar este ticket. Razón:\n```\n%s\n```\nPor favor acepte o niegue usando los botones de abajo.",
-	"commands.close_request.no_permission": "Solo el usuario que abrió el ticket puede responder a la solicitud de cierre",
-	"commands.close_request.denied": "<@%d> rechazó la solicitud de cierre",
 	"generic.error": "Error",
 	"feedback.disabled": "Este servidor tiene el feedback deshabilitado",
 	"feedback.success": "Tu feedback ha sido registrado",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Confirmación de cierre",
 	"close.confirmation": "Por favor, confirma que quieres cerrar este ticket",
 	"generic.title.close_request": "Petición de cierre",
-	"commands.close_request.accept": "Aceptar y cerrar",
-	"commands.close_request.deny": "Rechazar y mantener abierto",
 	"commands.premium.success": "Se ha activado Premium por **%d** días",
 	"generic.title.claimed": "Ticket reclamado",
 	"generic.title.unclaimed": "Ticket liberado",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Tienes **%d** créditos de voto. Haz clic en el botón \"Canjear créditos\" para canjearlos por %d días de premium en este servidor.",
 				"singular": "Tienes **%d** créditos de voto. Haz clic en el botón \"Canjear créditos\" para canjearlos por %d día de premium en este servidor."
+			}
+		},
+		"close_request": {
+			"no_permission": "Solo el usuario que abrió el ticket puede responder a la solicitud de cierre",
+			"denied": "<@%d> rechazó la solicitud de cierre.",
+			"buttons": {
+				"accept": "Aceptar y cerrar",
+				"deny": "Rechazar y mantener abierto"
 			}
 		}
 	},

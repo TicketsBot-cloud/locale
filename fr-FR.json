@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "La conversation a été déplacée vers un ticket (<#%d>)",
 	"help.close_request": "Envoie un message demandant à l'utilisateur de confirmer la fermeture du ticket",
 	"close.reason_too_long": "La raison ne peut pas excéder 255 caractères",
-	"commands.close_request.no_reason": "<@%d> a demandé la fermeture du ticket.\n\nVeuillez accepter ou refuser en utilisant les boutons ci-dessous.",
-	"commands.close_request.with_reason": "<@%d> a demandé la fermeture du ticket. Raison :\n```%s```\n\nVeuillez accepter ou refuser en utilisant les boutons ci-dessous.",
-	"commands.close_request.no_permission": "Seul l'utilisateur qui a ouvert le ticket peut répondre à la demande de clôture",
-	"commands.close_request.denied": "<@%d> a refusé la demande de clôture",
 	"generic.error": "Erreur",
 	"feedback.disabled": "Ce serveur a les commentaires désactivés",
 	"feedback.success": "Votre commentaire a été enregistré",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Confirmation de clôture",
 	"close.confirmation": "Veuillez confirmer que vous souhaitez fermer ce ticket",
 	"generic.title.close_request": "Demande de clôture",
-	"commands.close_request.accept": "Accepter et fermer",
-	"commands.close_request.deny": "Refuser et garder ouvert",
 	"commands.premium.success": "Premium activé pour **%d** jours",
 	"generic.title.claimed": "Ticket réclamé",
 	"generic.title.unclaimed": "Ticket non réclamé",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Vous avez **%d** crédits de vote. Cliquez sur le bouton \"Échanger mes crédits\" ci-dessous pour les échanger contre %d jours de Premium sur ce serveur.",
 				"singular": "Vous avez **%d** crédits de vote. Cliquez sur le bouton \"Échanger mes crédits\" ci-dessous pour les échanger contre %d jour de Premium sur ce serveur."
+			}
+		},
+		"close_request": {
+			"no_permission": "Seul l'utilisateur qui a ouvert le ticket peut répondre à la demande de clôture",
+			"denied": "<@%d> a refusé la demande de clôture.",
+			"buttons": {
+				"accept": "Accepter et fermer",
+				"deny": "Refuser et garder ouvert"
 			}
 		}
 	},

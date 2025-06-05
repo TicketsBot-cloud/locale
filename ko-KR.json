@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "대화가 티켓으로 이동되었습니다(<#%d>).",
 	"help.close_request": "사용자에게 티켓을 닫을지 확인하는 메시지를 보냅니다.",
 	"close.reason_too_long": "이유는 255자를 초과할 수 없습니다.",
-	"commands.close_request.no_reason": "<@%d>님이 이 티켓을 닫도록 요청했습니다. 아래 단추 사용에 동의하거나 거부하십시오.",
-	"commands.close_request.with_reason": "<@%d>님이 이 티켓을 닫도록 요청했습니다. 이유: \n```\n%s\n``` 아래 단추 사용에 동의하거나 거부하십시오.",
-	"commands.close_request.no_permission": "티켓을 연 사용자만 닫기 요청에 응답할 수 있습니다.",
-	"commands.close_request.denied": "<@%d>이(가) 종료 요청을 거부했습니다.",
 	"generic.error": "오류",
 	"feedback.disabled": "이 서버에서 피드백을 사용할 수 없도록 설정했습니다.",
 	"feedback.success": "의견을 보냈습니다.",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "닫기 확인",
 	"close.confirmation": "이 티켓을 종료할지 확인하십시오.",
 	"generic.title.close_request": "요청 닫기",
-	"commands.close_request.accept": "수락및 닫기",
-	"commands.close_request.deny": "거부및 오픈 유지",
 	"commands.premium.success": "프리미엄이 **%d**일 동안 활성화되었습니다.",
 	"generic.title.claimed": "배정된 티켓",
 	"generic.title.unclaimed": "배정안된 티켓",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "투표 크레딧 **%d**개가 있습니다. 아래의 \"크레딧 교환\" 버튼을 눌러 이 서버에서 프리미엄 %d일만큼 교환하세요.",
 				"singular": "투표 크레딧 **%d**개가 있습니다. 아래의 \"크레딧 교환\" 버튼을 눌러 이 서버에서 프리미엄 %d일만큼 교환하세요."
+			}
+		},
+		"close_request": {
+			"no_permission": "티켓을 연 사용자만 닫기 요청에 응답할 수 있습니다.",
+			"denied": "<@%d>이(가) 종료 요청을 거부했습니다.",
+			"buttons": {
+				"accept": "수락및 닫기",
+				"deny": "거부및 오픈 유지"
 			}
 		}
 	},

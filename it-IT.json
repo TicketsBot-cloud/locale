@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "La conversazione è stata spostata in un ticket (<#%d>)",
 	"help.close_request": "Invia un messaggio chiedendo all'utente di confermare che il ticket può essere chiuso",
 	"close.reason_too_long": "Il motivo non può essere più lungo di 255 caratteri",
-	"commands.close_request.no_reason": "<@%d> ha richiesto di chiudere questo ticket\n\nSi prega di accettare o rifiutare usando i pulsanti qui sotto.",
-	"commands.close_request.with_reason": "<@%d> ha richiesto di chiudere questo ticket.\nMotivo:\n```\n%s\n```\nSi prega di accettare o rifiutare usando i pulsanti qui sotto.",
-	"commands.close_request.no_permission": "Solo l'utente che ha aperto questo ticket può rispondere alla richiesta di chiusura",
-	"commands.close_request.denied": "<@%d> ha rifiutato la richiesta di chiusura",
 	"generic.error": "Errore",
 	"feedback.disabled": "Questo server ha i feedback disabilitati",
 	"feedback.success": "Il tuo feedback è stato registrato",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Conferma chiusura",
 	"close.confirmation": "Si prega di confermare di voler chiudere questo ticket",
 	"generic.title.close_request": "Richiesta di chiusura",
-	"commands.close_request.accept": "Accetta e chiudi",
-	"commands.close_request.deny": "Rifiuta e mantieni aperto",
 	"commands.premium.success": "Premium è stato attivato per **%d** giorni",
 	"generic.title.claimed": "Ticket rivendicato",
 	"generic.title.unclaimed": "Ticket non rivendicato",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Hai **%d** crediti di voto. Clicca il pulsante \"Riscatta Crediti\" qui sotto per riscattarli per %d giorni di premium in questo server.",
 				"singular": "Hai **%d** credito di voto. Clicca il tasto \"Riscatta Crediti\" qui sotto per riscattarlo per %d giorno di premium in questo server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Solo l'utente che ha aperto questo ticket può rispondere alla richiesta di chiusura",
+			"denied": "<@%d> ha rifiutato la richiesta di chiusura.",
+			"buttons": {
+				"accept": "Accetta e chiudi",
+				"deny": "Rifiuta e mantieni aperto"
 			}
 		}
 	},

@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "A conversa foi movida para um ticket (<#%d>)",
 	"help.close_request": "Envia uma mensagem pedindo ao usuário para confirmar que o ticket pode ser fechado",
 	"close.reason_too_long": "O motivo não pode ter mais de 255 caracteres",
-	"commands.close_request.no_reason": "<@%d> pediu para fechar este ticket.\n\nPor favor, aceite ou negue usando os botões abaixo.",
-	"commands.close_request.with_reason": "<@%d> pediu para fechar este ticket. Motivo:\n```\n%s\n```\nPor favor, aceite ou negue usando os botões abaixo.",
-	"commands.close_request.no_permission": "Apenas o usuário que abriu o ticket pode responder à solicitação de fechamento",
-	"commands.close_request.denied": "<@%d> negou a solicitação de fechamento",
 	"generic.error": "Erro",
 	"feedback.disabled": "Este servidor está com feedback desativado",
 	"feedback.success": "Seu feedback foi enviado",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Confirmação para Fechar",
 	"close.confirmation": "Por favor, confirme que você deseja fechar este ticket",
 	"generic.title.close_request": "Solicitação de Fechamento",
-	"commands.close_request.accept": "Aceitar & Fechar",
-	"commands.close_request.deny": "Recusar & Manter Aberto",
 	"commands.premium.success": "Premium foi ativado por **%d** dias",
 	"generic.title.claimed": "Ticket Reivindicado",
 	"generic.title.unclaimed": "Ticket Não Reivindicado",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Você tem **%d** créditos de voto. Clique no botão \"Resgatar Créditos\" abaixo para resgatá-los por %d dias de premium neste servidor.",
 				"singular": "Você tem crédito de voto **%d. Clique no botão \"Resgatar Créditos\" abaixo para resgatá-los por um dia %d de premium neste servidor."
+			}
+		},
+		"close_request": {
+			"no_permission": "Apenas o usuário que abriu o ticket pode responder à solicitação de fechamento",
+			"denied": "<@%d> negou a solicitação de fechamento.",
+			"buttons": {
+				"accept": "Aceitar & Fechar",
+				"deny": "Recusar & Manter Aberto"
 			}
 		}
 	},

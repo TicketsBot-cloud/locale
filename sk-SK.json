@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Konverzácia bola presunutá do ticketu (<#%d>)",
 	"help.close_request": "Odošle správu so žiadosťou, aby používateľ potvrdil, že je možné ticket uzavrieť",
 	"close.reason_too_long": "Dôvod nemôže byť dlhší ako 255 znakov",
-	"commands.close_request.no_reason": "<@%d> požiadal o uzavretie tohto tipu.\n\nProsím, prijmite alebo zamietnite ho pomocou tlačidiel nižšie.",
-	"commands.close_request.with_reason": "<@%d> požiadal o uzavretie tohto tipu. Dôvod:\n```\n%s\n```\nProsím, prijmite alebo zamietnite ho pomocou tlačidiel nižšie.",
-	"commands.close_request.no_permission": "Na žiadosť o uzavretie môže reagovať len používateľ, ktorý lístok otvoril",
-	"commands.close_request.denied": "<@%d> zamietol žiadosť o uzavretie",
 	"generic.error": "Chyba",
 	"feedback.disabled": "Tento server má vypnutú spätnú väzbu",
 	"feedback.success": "Vaša spätná väzba bola zaznamenaná",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Potvrdenie zatvorenia",
 	"close.confirmation": "Potvrďte, prosím, že chcete tento ticket zatvoriť",
 	"generic.title.close_request": "Zatvoriť žiadosť",
-	"commands.close_request.accept": "Prijatie a zatvorenie",
-	"commands.close_request.deny": "Odmietnuť a ponechať otvorené",
 	"commands.premium.success": "Prémium bolo aktivované na **%d** dní",
 	"generic.title.claimed": "Prevzatý ticket",
 	"generic.title.unclaimed": "Neprevziatý ticket",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Máte **%d** hlasovacích kreditov. Kliknutím na tlačidlo „Uplatnenie kreditov“ nižšie ich môžete vymeniť za %d dní prémium na tomto serveri.",
 				"singular": "Máte **%d** hlasovacieho kreditu. Kliknutím na tlačidlo „Uplatnenie kreditov“ nižšie ich uplatníte na %d deň prémium na tomto serveri."
+			}
+		},
+		"close_request": {
+			"no_permission": "Na žiadosť o uzavretie môže reagovať len používateľ, ktorý lístok otvoril",
+			"denied": "<@%d> zamietol žiadosť o uzavretie.",
+			"buttons": {
+				"accept": "Prijatie a zatvorenie",
+				"deny": "Odmietnuť a ponechať otvorené"
 			}
 		}
 	},

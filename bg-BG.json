@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Дискусията беше преместена в тикет (<#%d>)",
 	"help.close_request": "Изпраща съобщение със запитване дали текущия тикет да бъде затворен",
 	"close.reason_too_long": "Причината не може да е по-дълга от 255 символа",
-	"commands.close_request.no_reason": "<@%d> заяви затваряне на този тикет\n\nМоля потвърдете, че проблемът е решен, използвайки бутоните отдолу",
-	"commands.close_request.with_reason": "<@%d> заяви затваряне на този тикет\nПричина: ```%s```\nМоля потвърдете, че проблемът е решен, използвайки бутоните отдолу",
-	"commands.close_request.no_permission": "Само човекът, който е отворил тикета може да отговори на заявката",
-	"commands.close_request.denied": "<@%d> отхвърли заявката за затваряне на тикета",
 	"generic.error": "Грешка",
 	"feedback.disabled": "Този сървър няма функция за изпращане на обратна връзка",
 	"feedback.success": "Вашето мнение е записано, благодарим Ви!",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Потвърждение за затваряне на тикет",
 	"close.confirmation": "Моля потвърдете, че желаете да затворите този тикет",
 	"generic.title.close_request": "Заявка за затваряне на тикет",
-	"commands.close_request.accept": "Затваряне на тикет",
-	"commands.close_request.deny": "Оставяне на тикет отворен",
 	"commands.premium.success": "Премиумът е активиран за **%d** дни",
 	"generic.title.claimed": "Поет тикет",
 	"generic.title.unclaimed": "Поемането на тикета е отхвърено",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Само човекът, който е отворил тикета може да отговори на заявката",
+			"denied": "<@%d> отхвърли заявката за затваряне на тикета.",
+			"buttons": {
+				"accept": "Затваряне на тикет",
+				"deny": "Оставяне на тикет отворен"
 			}
 		}
 	},

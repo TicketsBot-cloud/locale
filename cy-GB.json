@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
 	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
 	"close.reason_too_long": "The reason cannot be longer than 255 characters",
-	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
-	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
-	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
-	"commands.close_request.denied": "<@%d> denied the close request",
 	"generic.error": "Error",
 	"feedback.disabled": "This server has feedback disabled",
 	"feedback.success": "Your feedback has been recorded",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Close Confirmation",
 	"close.confirmation": "Please confirm that you want to close this ticket",
 	"generic.title.close_request": "Close Request",
-	"commands.close_request.accept": "Accept & Close",
-	"commands.close_request.deny": "Deny & Keep Open",
 	"commands.premium.success": "Premium has been activated for **%d** days",
 	"generic.title.claimed": "Claimed Ticket",
 	"generic.title.unclaimed": "Unclaimed Ticket",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Only the user who opened the ticket can respond to the close request",
+			"denied": "<@%d> denied the close request.",
+			"buttons": {
+				"accept": "Accept & Close",
+				"deny": "Deny & Keep Open"
 			}
 		}
 	},

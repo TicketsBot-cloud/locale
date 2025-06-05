@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Разговор је пребачен на карту (<#%d>)",
 	"help.close_request": "Шаље поруку кориснику да потврди да је карта затворена",
 	"close.reason_too_long": "Идентификација не може бити дужа од 255 знакова",
-	"commands.close_request.no_reason": "<@%d> Затражио је да затворимо ову карту.\n\nМолим вас, прихватите или одбијте да користите дугмад испод.",
-	"commands.close_request.with_reason": "<@%d> Затражио је да затворимо ову карту.\n```\n%s\n```\nМолим вас, прихватите или одбијте да користите дугмад испод.",
-	"commands.close_request.no_permission": "Само корисник који је отворио карту може да одговори на захтев",
-	"commands.close_request.denied": "<@%d> Одбијен захтев за затварање",
 	"generic.error": "Грешка",
 	"feedback.disabled": "Овај сервер је онеспособљен",
 	"feedback.success": "Ваша повратна информација је снимљена",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Затварање потврде",
 	"close.confirmation": "Молим потврдите да желите да затворите ову карту",
 	"generic.title.close_request": "Затворени захтев",
-	"commands.close_request.accept": "Прихвати и затвори",
-	"commands.close_request.deny": "Негирај и остани отворен",
 	"commands.premium.success": "Премија је активирана за **%d** Данима",
 	"generic.title.claimed": "Захтјев за улазницу",
 	"generic.title.unclaimed": "Нетражена карта",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Само корисник који је отворио карту може да одговори на захтев",
+			"denied": "<@%d> Одбијен захтев за затварање.",
+			"buttons": {
+				"accept": "Прихвати и затвори",
+				"deny": "Негирај и остани отворен"
 			}
 		}
 	},

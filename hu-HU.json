@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "A beszélgetés a jegyben folytatódik (<%d>)",
 	"help.close_request": "Üzenetet küld a felhasználónak, hogy megerősítse a jegy lezárását",
 	"close.reason_too_long": "A lezárás oka nem lehet hosszabb 255 karakternél",
-	"commands.close_request.no_reason": "<@%d> le szeretné zárni a jegyet.\n\nFogadd el vagy utasítsd el az alábbi gombokkal.",
-	"commands.close_request.with_reason": "<@%d> le szeretné zárni a jegyet. Ennek oka:\n```\n%s\n```\nFogadd el vagy utasítsd el az alábbi gombokkal.",
-	"commands.close_request.no_permission": "Csak az a felhasználó tud válaszolni a lezárási kérelemre aki nyitotta a jegyet",
-	"commands.close_request.denied": "<@%d> elutastította a lezárási kérelmet",
 	"generic.error": "Hiba",
 	"feedback.disabled": "A visszajelzés ki van kapcsolva",
 	"feedback.success": "A visszajelzést rögzítettük",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Lezárás megerősítése",
 	"close.confirmation": "Erősítsd meg, hogy le szeretnéd-e zárni a jegyet",
 	"generic.title.close_request": "Lezárási kérelem",
-	"commands.close_request.accept": "Elfogad & lezár",
-	"commands.close_request.deny": "Elutasít & maradjon nyitva",
 	"commands.premium.success": "Prémium szolgáltatás aktiválva lett **%d** napig",
 	"generic.title.claimed": "Elvállalt jegy",
 	"generic.title.unclaimed": "Szabad jegy",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "%d szavazati kredited van. Kattints az alábbi „Kreditek beváltása” gombra, hogy beváltsd őket %d nap prémiumra ezen a szerveren.",
 				"singular": "%d szavazati kredited van. Kattints az alábbi „Kreditek beváltása” gombra, hogy beváltsd őket %d nap prémiumra ezen a szerveren."
+			}
+		},
+		"close_request": {
+			"no_permission": "Csak az a felhasználó tud válaszolni a lezárási kérelemre aki nyitotta a jegyet",
+			"denied": "<@%d> elutastította a lezárási kérelmet.",
+			"buttons": {
+				"accept": "Elfogad & lezár",
+				"deny": "Elutasít & maradjon nyitva"
 			}
 		}
 	},

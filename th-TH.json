@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "การสนทนาถูกย้ายไปยังตั๋ว (<#%d>)",
 	"help.close_request": "ส่งข้อความขอให้ผู้ใช้ยืนยันว่าสามารถปิดตั๋วได้",
 	"close.reason_too_long": "เหตุผลต้องไม่เกิน 255 ตัวอักษร",
-	"commands.close_request.no_reason": "<@%d> ได้ร้องขอให้ปิด Ticket นี้\n\nโปรดยอมรับหรือปฏิเสธโดยใช้ปุ่มด้านล่าง",
-	"commands.close_request.with_reason": "<@%d> ได้ร้องขอให้ปิด Ticket นี้ เหตุผล:\n```\n%s\n```\nโปรดยอมรับหรือปฏิเสธโดยใช้ปุ่มด้านล่าง",
-	"commands.close_request.no_permission": "เฉพาะผู้ใช้ที่เปิดตั๋วเท่านั้นที่สามารถตอบสนองคำขอปิดได้",
-	"commands.close_request.denied": "<@%d> ปฏิเสธคำขอการปิด",
 	"generic.error": "เกิดข้อผิดพลาด",
 	"feedback.disabled": "เซิร์ฟเวอร์นี้ปิดใช้งานข้อเสนอแนะ",
 	"feedback.success": "ความคิดเห็นของคุณได้รับการบันทึกแล้ว",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "ยืนยันการปิด",
 	"close.confirmation": "โปรดยืนยันว่าคุณต้องการปิด Ticket นี้",
 	"generic.title.close_request": "คำขอการปิด",
-	"commands.close_request.accept": "อนุมัติ เเละ ปิด",
-	"commands.close_request.deny": "ไม่อนุมัติ เเละ ยังเปิดต่อ",
 	"commands.premium.success": "เปิดใช้งานพรีเมี่ยมเป็นเวลา **%d** วัน",
 	"generic.title.claimed": "เคลมตั๋วเเล้ว",
 	"generic.title.unclaimed": "ตั๋วที่ไม่มีผู้อ้างสิทธิ์",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "เฉพาะผู้ใช้ที่เปิดตั๋วเท่านั้นที่สามารถตอบสนองคำขอปิดได้",
+			"denied": "<@%d> ปฏิเสธคำขอการปิด.",
+			"buttons": {
+				"accept": "อนุมัติ เเละ ปิด",
+				"deny": "ไม่อนุมัติ เเละ ยังเปิดต่อ"
 			}
 		}
 	},

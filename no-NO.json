@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Samtalen har blitt flyttet til ticketen (<#%d>)",
 	"help.close_request": "Sender en melding som spør brukeren om å bekrefte at ticketen kan lukkes",
 	"close.reason_too_long": "Årsaken kan ikke være lengre enn 255 tegn",
-	"commands.close_request.no_reason": "<@%d> har bedt om å lukke denne ticketen.\n\nVennligst godta eller avslå ved bruk av knappene nedenfor.",
-	"commands.close_request.with_reason": "<@%d> har bedt om å lukke denne ticketen. Årsak:\n```\n%s\n```\nVennligst aksepter eller avslå ved bruk av knappene nedenfor.",
-	"commands.close_request.no_permission": "Bare brukeren som åpnet ticketen kan svare på den lukke forespørselen",
-	"commands.close_request.denied": "<@%d> avviste lukkeforespørselen",
 	"generic.error": "Feil",
 	"feedback.disabled": "Denne serveren har deaktivert tilbakemelding",
 	"feedback.success": "Din tilbakemelding har blitt sendt",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Bekreft lukkingen",
 	"close.confirmation": "Vennligst bekreft at du vil lukke denne ticketen",
 	"generic.title.close_request": "Lukk forespørsel",
-	"commands.close_request.accept": "Aksepter & Lukk",
-	"commands.close_request.deny": "Avslå & Hold åpen",
 	"commands.premium.success": "Premium har blitt aktivert i *%d** dager",
 	"generic.title.claimed": "Påtatt sak",
 	"generic.title.unclaimed": "Ikke tatt ticket",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Bare brukeren som åpnet ticketen kan svare på den lukke forespørselen",
+			"denied": "<@%d> avviste lukkeforespørselen.",
+			"buttons": {
+				"accept": "Aksepter & Lukk",
+				"deny": "Avslå & Hold åpen"
 			}
 		}
 	},

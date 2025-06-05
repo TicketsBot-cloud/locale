@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "La conversa s'ha desplaçat a un tiquet (<#%d>)",
 	"help.close_request": "Envia un missatge preguntant a l'usuari que confirmi si el tiquet es pot tancar",
 	"close.reason_too_long": "La raó no pot superar els 255 caràcters",
-	"commands.close_request.no_reason": "<@%d> Ha demanat tancar el tiquet.\n\nSi us plau, accepta o rebutja la petició amb els botons de sota.",
-	"commands.close_request.with_reason": "<@%d> ha demanat tancar el tiquet. Raó proporcionada:\n```\n%s\n```\nSi us plau, accepta o rebutja la petició amb els botons de sota.",
-	"commands.close_request.no_permission": "Només l'usuari que ha obert el tiquet pot respondre la petició de tancament",
-	"commands.close_request.denied": "<@%d> ha rebutjat tancar el tiquet",
 	"generic.error": "Error",
 	"feedback.disabled": "Aquest servidor té les valoracions desactivades",
 	"feedback.success": "La teva valoració ha estat registrada",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Confirmació de tancament",
 	"close.confirmation": "Si us plau, confirma si vols tancar aquest tiquet",
 	"generic.title.close_request": "Petició de tancament",
-	"commands.close_request.accept": "Acceptar & Tancar",
-	"commands.close_request.deny": "Denegar & Mantenir Obert",
 	"commands.premium.success": "S'ha activat Premium per **%d** dies",
 	"generic.title.claimed": "Tiquet Reclamat",
 	"generic.title.unclaimed": "Tiquet Alliberat",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Tens **%d** Crèdits de vot. Clica el botó \"Bescanviar Crèdits\" per reclamar %d dies Prèmium en aquest servidor.",
 				"singular": "Tens **%d** Crèdit de vot. Clica el botó \"Bescanviar Crèdits\" per reclamar %d dia Prèmium en aquest servidor."
+			}
+		},
+		"close_request": {
+			"no_permission": "Només l'usuari que ha obert el tiquet pot respondre la petició de tancament",
+			"denied": "<@%d> ha rebutjat tancar el tiquet.",
+			"buttons": {
+				"accept": "Acceptar & Tancar",
+				"deny": "Denegar & Mantenir Obert"
 			}
 		}
 	},

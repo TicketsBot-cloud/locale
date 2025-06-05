@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Percakapan telah dipindahkan ke tiket (<#%d>)",
 	"help.close_request": "Mengirimkan pesan yang meminta pengguna untuk mengonfirmasi bahwa tiket dapat ditutup",
 	"close.reason_too_long": "Alasannya tidak boleh lebih dari 255 karakter",
-	"commands.close_request.no_reason": "<@%d> telah meminta untuk menutup tiket ini.\n\nSilaka terima atau tolak menggunakan tombol di bawah.",
-	"commands.close_request.with_reason": "<@%d> telah meminta untuk menutup tiket ini. Alasan:\n```\n%s\n```\nSilakan terima atau tolak menggunakan tombol di bawah.",
-	"commands.close_request.no_permission": "Hanya pengguna yang membuka tiket yang dapat menanggapi permintaan penutupan",
-	"commands.close_request.denied": "<@%d> menolak permintaan penutupan",
 	"generic.error": "Kesalahan",
 	"feedback.disabled": "Umpan balik di server ini dinonaktifkan",
 	"feedback.success": "Masukkan Anda telah dicatat",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Tutup Konfirmasi",
 	"close.confirmation": "Harap konfirmasi bahwa Anda ingin menutup tiket ini",
 	"generic.title.close_request": "Tutup Permintaan",
-	"commands.close_request.accept": "Terima & Tutup",
-	"commands.close_request.deny": "Tolak & Tetap Terbuka",
 	"commands.premium.success": "Premium telah diaktifkan selama **%d** hari",
 	"generic.title.claimed": "Tiket yang Diklaim",
 	"generic.title.unclaimed": "Tiket Tidak Diklaim",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Anda memiliki **%d** kredit suara. Klik tombol \"Tukarkan Kredit\" di bawah ini untuk menebusnya selama %d hari premium di server ini.",
 				"singular": "Anda memiliki **%d** kredit suara. Klik tombol \"Tukarkan Kredit\" di bawah ini untuk menukarkannya dengan %d hari premium di server ini."
+			}
+		},
+		"close_request": {
+			"no_permission": "Hanya pengguna yang membuka tiket yang dapat menanggapi permintaan penutupan",
+			"denied": "<@%d> menolak permintaan penutupan.",
+			"buttons": {
+				"accept": "Terima & Tutup",
+				"deny": "Tolak & Tetap Terbuka"
 			}
 		}
 	},

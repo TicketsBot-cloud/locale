@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Samtalen er blevet flyttet til en ticket (<#%d>)",
 	"help.close_request": "Sender en besked, der beder brugeren om at bekræfte, at den gældende ticket kan blive lukket",
 	"close.reason_too_long": "Årsagen kan ikke være længere end 255 tegn",
-	"commands.close_request.no_reason": "<@%d> har anmodet om at lukke denne ticket.\n\nAcceptér eller afvis ved hjælp af knapperne nedenfor.",
-	"commands.close_request.with_reason": "<@%d> har anmodet om at lukke denne ticket. Årsag:\n```\n%s\n```\nAcceptér eller afvis ved hjælp af knapperne nedenfor.",
-	"commands.close_request.no_permission": "Kun den bruger, der åbnede denne ticket, kan respondere på anmodningen om at lukke den",
-	"commands.close_request.denied": "<@%d> afviste at lukke denne ticket",
 	"generic.error": "Fejl",
 	"feedback.disabled": "Denne server har feedback deaktiveret",
 	"feedback.success": "Din feedback er blevet sendt",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Bekræft lukning",
 	"close.confirmation": "Bekræft venligst at du ønsker at lukke denne ticket",
 	"generic.title.close_request": "Anmodning om at lukke",
-	"commands.close_request.accept": "Accepter & Luk",
-	"commands.close_request.deny": "Afvis & Behold Åben",
 	"commands.premium.success": "Premium er blevet aktiveret i **%d** dage",
 	"generic.title.claimed": "Taget Ticket",
 	"generic.title.unclaimed": "Ukrævet Ticket",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Du har **%d** stemmekreditter. Klik på knappen \"Indløs Kreditter\" nedenfor for at indløse dem for %d dage med premium på denne server.",
 				"singular": "Du har **%d** stemmekreditter. Klik på knappen \"Indløs Kreditter\" nedenfor for at indløse dem for %d dage med premium på denne server."
+			}
+		},
+		"close_request": {
+			"no_permission": "Kun den bruger, der åbnede denne ticket, kan respondere på anmodningen om at lukke den",
+			"denied": "<@%d> afviste at lukke denne ticket.",
+			"buttons": {
+				"accept": "Accepter & Luk",
+				"deny": "Afvis & Behold Åben"
 			}
 		}
 	},
