@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Kullanıcının kara liste durumunu değiştirmek için kullanıcıyı etiketlemeniz gerekir.",
 	"commands.blacklist.self": "Kendinizi kara listeye alamazsınız.",
 	"commands.claim.success": "Talebin ile yetkili %s ilgilenecek.",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "Botu davet etmek için [tıklayın.](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Bir dil kodu veya bayrak belirtmeniz gerekir. Mevcut diller:\n%s",
 	"commands.open.ticket_limit": "Aynı anda yalnızca %d %s talep açabilirsiniz.",
 	"commands.open.too_many_tickets": "Talep kategorisinde çok fazla talep var. Bir yöneticiden bazılarını kapatmasını veya başka bir yere taşımasını isteyin.",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "Bir paneli yapılandırmak için <https://panel.tickets.bot/manage/%d/panels> bağlantısını ziyaret edin.",
+	"commands.premium": "<https://www.patreon.com/ticketsbot-cloud> bağlantısından premium abonelik satın alabilirsiniz.\nPremium abonelik şu özellikler gibi bir çok özellik sağlar:\n```diff\n+ Sınırsız talep paneli oluşturun.\n+ Botun ismini, avatarını ve durumunu kişiselleştirin (whitelabel)\n+ Sunucu, kullanıcılar ve yetkililer hakkında detaylı istatistikler\n+ Mesajların altında bot bilgisi bulunmaz\n+ Botun gelişimini destekleyin ve sunucu masraflarına katkı sağlayın\n```\n\nAlternatif olarak, <https://vote.tickets.bot> bağlantısından oy kullanarak 1 günlük ücretsiz premium ayrıcalıklarına sahip olabilirsin.",
 	"commands.premium.invalid_key": "Geçersiz anahtar. Doğru bir şekilde kopyaladığınızdan emin olun.",
 	"commands.remove.no_permission": "Talepten kullanıcı çıkarmak için izniniz yok.",
 	"commands.remove.staff": "Talepten yetkilileri çıkaramazsın!",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Etiket ID'si, 16 karakterden uzun olamaz.",
 	"commands.tags.delete.invalid_arguments": "Silme eylemini yapabilmek için bir ID belirtmelisiniz.",
 	"commands.tags.delete.not_exist": "`%s` ID'sine sahip bir etiket bulunamıyor.",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Etiket ID'sini belirtmeniz gerekiyor. Etiketler ile alakalı daha fazla bilgi için;\n <https://tickets.bot/tags> bağlantısını ziyaret edin.",
+	"commands.tags.get.invalid_tag": "Bilinmeyen etiket. Etiketler ile alakalı daha fazla bilgi için;\n <https://tickets.bot/tags> bağlantısını ziyaret edin.",
 	"commands.tags.list": "Mevcut olan tüm etiketlerin ID'leri: \n%s\nEtiketin içeriğini görüntülemek için, `%stag <ID>` komutunu kullanın.",
 	"commands.unclaim.not_claimed": "Bu talep zaten sahiplenilmemiş.",
 	"commands.unclaim.not_claimer": "Yalnızca yöneticiler ve sahiplenen kullanıcı sahiplenmeyi iptal edebilir.",
@@ -79,7 +79,7 @@
 	"open.success": "Talebin oluşturuldu: %s",
 	"setup.auto.category.failure": "Kanalları yönet iznine sahip değil",
 	"setup.auto.category.success": "Destek kategorisi oluşturuldu",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Kurulum tamamlandı! Bir reaksiyon paneli kurmak için [buraya] (https://dashboard.tickets.bot/manage/%d/panels) tıklayın ve personel üyelerinize <@&%d> ve <@&%d> rollerini ekleyin",
 	"setup.auto.roles.failure": "Rolleri yönet iznine sahip değil",
 	"setup.auto.roles.success": "Bilet yöneticisi ve bilet destek rolleri oluşturuldu",
 	"setup.auto.transcript.failure": "Kanalları yönet yetkisine sahip değil",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Transkript kanalı <#%d> olarak güncellendi",
 	"commands.language.help_wanted": "Başka bir dil biliyor musun? Botun daha fazla dile çevrilmesine yardımcı olmakla ilgileniyorsanız [destek sunucumuza](https://discord.gg/ticketsbot) katılın",
 	"commands.rename.too_long": "Kanal isimleri 100 karakterden uzun olamaz",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Otomatik kapatma ayarlarını değiştirmek için [gösterge paneli](https://dashboard.tickets.bot/manage/%d/settings) adresini ziyaret edin",
 	"help.autoclose": "Otomatik bilet kapatma ile ilgili komutlar",
 	"help.autoclose.exclude": "Geçerli biletin otomatik kapatılmasını devre dışı bırakır",
 	"help.autoclose.configure": "Otomatik kapatma ile ilgili ayarları düzenleyin",
@@ -222,7 +222,7 @@
 			"select": "Bir dil seçin (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` komutu yalnızca alt başlık modunda kullanılabilir. Alt başlıklar hakkında daha fazla bilgi almak için [belgelerimizi](https://docs.tickets.bot/features/thread-mode) ziyaret edin",
 			"success": "Şu anda görevdesiniz",
 			"remove_success": "Artık görevde değilsiniz"
 		},
@@ -264,9 +264,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Premium daha fazla panele, istatistiklere, özel bir bota ve daha fazlasına erişim sağlar! Daha fazlasını öğrenmek için [web sitemizi](https://tickets.bot/premium) ziyaret edin.",
 			"already_activated": "İyi haber! Premium zaten bu sunucuda aktif.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "İyi haber! Premium zaten bu sunucuda aktif.\n\nSunucunuza özel botu kullanmaya başlama konusunda yardım almak için [özel bot kurulumu kılavuzumuzu](https://docs.tickets.bot/premium/whitelabel-setup-guide) okuyun.",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Daha fazlasını keşfetmek ister misiniz? [Belgeler](https://docs.tickets.bot) size, botun her yönünü nasıl yapılandırılacağını öğretecek!"
 		},
 		"threads": {
 			"no_notification_channel": "Bir bilet bildirimi kanalı sağlamalısınız",
