@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Vi bezonas ke mencii uzanto por baskulu la nigralistŝtaton",
 	"commands.blacklist.self": "Vi ne povas nigralistigi vin mem",
 	"commands.claim.success": "Via bileto estus respondita de %s",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[Klaku ĉi tie](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Vi bezonas elekti lingvokodon aŭ flagon. Disponeblaj lingvoj:\\n%s",
 	"commands.open.ticket_limit": "Vi nur kapablas malfermi %d %s samtempe",
 	"commands.open.too_many_tickets": "Estas tre multaj biletoj en la kategorio de biletoj. Vi povas demandi al administranto por fermi iom el la biletoj, moviĝi iom al alia kategorio, aŭ agordi superfluan kategorion.\n\nĈi tio estas **Diskordo-trudita limo** de 50 kanalojn en ĉiu kategorio.",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "Vizitu <https://dashboard.tickets.bot/manage/%d/panels> por agordi panelon",
+	"commands.premium": "Vi povas aĉeti premian abonon el <https://www.patreon.com/ticketsbot-cloud>.\\nPremia abono provizas multajn profitojn, inkluzive de:\\n```diff\\n+ Krei panelojn de biletoj sen limo\\n+ Personecigi la nomon, profila foton, kaj statuso de la aplikaĵo (blanketikedo)\\n+ Detala statistiko sur la servilo, ĝiaj uzantoj, kaj ĝiaj subtenpersonaroj\\n+ Neniu markigo en la piedlinio de mesaĝojn\\n+ Subteni evoluon kaj helpi min pagi la kostojn de la servilo\\n```\\n\\nAlternative, vi povas voĉdoni en <https://vote.tickets.bot> por akiri la premian version senpage por 24 horoj",
 	"commands.premium.invalid_key": "Ĉi tiu ŝlosilo estas nevalida. Certigu ke vi kopiis ĝin ĝuste.",
 	"commands.remove.no_permission": "Vi ne havas permeson por forigi uzantoj el la bileto",
 	"commands.remove.staff": "Vi ne povas forigi stabanojn el bileto",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Identigaj nombroj de etikedoj ne povas esti pli longa ol 16 signoj",
 	"commands.tags.delete.invalid_arguments": "Vi devas specifi la identigan nombron de la etikedo por forigi ĝin",
 	"commands.tags.delete.not_exist": "Etikedo kun la identiga nombro `%s` ne estis trovita",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Vi devas havigi la identigan nombron de la etikedo. Por pli da helpo kun etikedoj, viziti <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Ĉi tiu etikedo estas nevalida. Por pli da helpo kun etikedoj, viziti <https://tickets.bot/tags>.",
 	"commands.tags.list": "Identigaj nombroj de ĉiuj etikedoj: \\n%s\\nPor vidi la enhavon de etikedo, rulu `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Ĉi tiu bileto ne estis respondecita",
 	"commands.unclaim.not_claimer": "Nur administrantoj kaj la respondeculo povas nerespondeci la bileton",
@@ -264,9 +264,9 @@
 					"description": "Elektu ĉi tiun opcion se vi aĉetis en la Discord-aplika vendejo"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Premiumo donas aliron al pli da paneloj, statistiko, kutima roboto kaj pli! Vizitu nian retejon (https://tickets.bot/premium) por lerni pli.",
 			"already_activated": "Bonaj novaĵoj! Premiumo jam estas aktiva en ĉi tiu servilo.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Bonaj novaĵoj! Premiumo jam estas aktiva en ĉi tiu servilo.\n\nPor helpo pri komencado kun whitelabel, legu [nian whitelabel agordan gvidilon].",
 			"discord": {
 				"no_subscription": "Premiumo povas esti aĉetita rekte en Discord. Alklaku la butonon sube ĉi tiu mesaĝo por malfermi la paĝon de abona administrado.\n\nPost aĉetado, bonvolu atendi ĝis 5 minutoj por ke la abono estu detektita."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Ĉu vi volas esplori pli? Nia [dokumentaro](https://docs.tickets.bot) instruos al vi kiel agordi ĉiun aspekton de la roboto!"
 		},
 		"threads": {
 			"no_notification_channel": "Vi devas provizi biletan sciigan kanalon",
