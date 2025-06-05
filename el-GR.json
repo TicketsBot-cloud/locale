@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Πρέπει να αναφέρετε έναν χρήστη για την εναλλαγή της κατάστασης στην μαύρη λίστα",
 	"commands.blacklist.self": "Δεν μπορείς να βάλεις τον εαυτό σου στην μαύρη λίστα",
 	"commands.claim.success": "Το ticket σας θα εξυπηρετηθεί από τον/την %s",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[Πάτα εδώ](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Πρέπει να διαλέξετε μια γλώσσα ή σημαία. Διαθέσιμες γλώσσες:\\n%s",
 	"commands.open.ticket_limit": "Μπορείς να ανοίξεις %d %s μόνο μία φορά",
 	"commands.open.too_many_tickets": "Υπάρχουν πολλά tickets στην κατηγορία των tickets, ζητά από έναν διαχειριστή να κλείσει μερικά ή να τα μεταφέρει σε άλλη κατηγορία",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "Επισκεφτείτε το <https://dashboard.tickets.bot/manage/%d/panels> για να διαμορφώσετε έναν πίνακα",
+	"commands.premium": "Μπορείς να αγοράσεις premium συνδρομή στο <https://www.patreon.com/ticketsbot-cloud>.\\nΤο premium σου παρέχει πολλά οφέλη, όπως:\\n```diff\\n+Δημιουργία απεριόριστων ticket πίνακες\\n+Προσαρμογή ονόματος, avatar και status του bot (whitelabel)\\n+ Λεπτομερή στατιστικά στοιχεία για το διακομιστή, χρήστες και το προσωπικό υποστήριξης\\n+ Χωρίς εμπορικό σήμα στο υποσέλιδο των μηνυμάτων\\n+ Υποστηρίζει την ανάπτυξη και βοηθάει να πληρώσω το κόστος του διακοσμητή\\n```\\n\\nΕναλλακτικά, μπορείτε να ψηφίσετε στο <https://vote.tickets.bot> για να πάρεις δωρεάν premium για 24 ώρες",
 	"commands.premium.invalid_key": "Λανθασμένο κλειδί, σιγουρευτείτε ότι το αντιγράψετε σωστά.",
 	"commands.remove.no_permission": "Δεν έχεις άδεια να αφαιρέσεις χρήστες από το ticket",
 	"commands.remove.staff": "Δεν μπορείς να αφαιρέσεις το προσωπικό από το ticket",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Το αναγνωριστικό της ετικετ δεν μπορεί να είναι μεγαλύτερο από 16 χαρακτήρες",
 	"commands.tags.delete.invalid_arguments": "Πρέπει να καθορίσεις το αναγνωριστικό της ετικέτας για διαγραφή",
 	"commands.tags.delete.not_exist": "Δεν ήταν δυνατή η εύρεση μιας ετικέτας με αναγνωριστικό `%s`",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Πρέπει να δώσετε το αναγνωριστικό της ετικέτας. Για περισσότερη βοήθεια με την ετικέτα, επισκεφθείτε <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Μη έγκυρη ετικέτα. Για περισσότερη βοήθεια με ετικέτες, επισκεφθείτε <https://tickets.bot/tags>.",
 	"commands.tags.list": "Αναγνωριστικά για όλες τις ετικέτες: \\n%s\\nΓια να δείτε τα περιεχόμενα μιας ετικέτας, εκτελέστε `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Αυτό το ticket δεν έχει υποστηρικτή",
 	"commands.unclaim.not_claimer": "Μόνο οι διαχειριστές και ο υποστηρικτής που υποστηρίζει το ticket μπορεί να βγάλει τον υποστηρικτή από το ticket",
@@ -79,7 +79,7 @@
 	"open.success": "Άνοιξε ένα νέο ticket: %s",
 	"setup.auto.category.failure": "Μου λείπει το δικαίωμα `Manage Channels`",
 	"setup.auto.category.success": "Δημιουργήθηκε Tickets κατηγορία",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Η εγκατάσταση ολοκληρώθηκε! Κάντε κλικ [εδώ](https://dashboard.tickets.bot/manage/%d/panels) για να ρυθμίσετε ένα πλαίσιο αντιδράσεων και προσθέστε τους ρόλους <@&%d> και <@&%d> στα μέλη του προσωπικού σας",
 	"setup.auto.roles.failure": "Μου λείπει το δικαίωμα `Manage Roles`",
 	"setup.auto.roles.success": "Δημιουργήθηκαν `Tickets Admin` και `Tickets Support` ρόλοι",
 	"setup.auto.transcript.failure": "Μου λείπει το δικαίωμα `Manage Channels`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Το κανάλι μεταγραφών έχει αλλάξει στο <#%d>",
 	"commands.language.help_wanted": "Μιλάτε μια άλλη γλώσσα? Γίνετε μέλος του [διακομιστή υποστήριξης](https://discord.gg/ticketsbot) αν ενδιαφέρεστε να βοηθήσετε το bot στη μετάφραση σε περισσότερες γλώσσες",
 	"commands.rename.too_long": "Το όνομα του καναλιού δεν μπορεί να είναι μεγαλύτερο από 100 χαρακτήρες",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Επισκεφτείτε το [dashboard](https://dashboard.tickets.bot/manage/%d/settings) για να αλλάξετε τις ρυθμίσεις αυτόματου κλεισίματος",
 	"help.autoclose": "Σχετικές εντολές αυτόματου κλεισίματος",
 	"help.autoclose.exclude": "Αποκλείει το τρέχον ticket από το να κλείσει αυτόματα",
 	"help.autoclose.configure": "Επεξεργασία σχετικών ρυθμίσεων αυτόματου κλεισίματος",
@@ -222,7 +222,7 @@
 			"select": "Επιλέξτε μια γλώσσα (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` μπορεί να χρησιμοποιηθεί μόνο σε λειτουργία thread. Επισκεφθείτε το [docs](https://docs.tickets.bot/features/thread-mode) για να μάθετε περισσότερα σχετικά με τα threads",
 			"success": "Είσαι τώρα σε υπηρεσία",
 			"remove_success": "Δεν είσαι πλέον σε υπηρεσία"
 		},
@@ -264,9 +264,9 @@
 					"description": "Ενεργοποιήστε αυτήν την επιλογή εάν κάνατε την αγορά σας μέσα από το Discord in-app store"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Το Premium σάς δίνει πρόσβαση σε περισσότερα panels, στατιστικά, ένα προσαρμοσμένο bot και πολλά άλλα! Επισκεφθείτε το [website](https://tickets.bot/premium) για να μάθετε περισσότερα.",
 			"already_activated": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν το διακομιστή.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν τον διακομιστή.\n\nΓια βοήθεια ξεκινήματος του whitelabel, διαβάστε [τον οδηγό εγκατάστασης του whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Το Premium μπορεί να αγοραστεί απευθείας στο Discord. Κάντε κλικ στο κουμπί κάτω από αυτό το μήνυμα για να ανοίξετε τη σελίδα διαχείρισης συνδρομής.\n\nΈνα αγορασμένο, αφήστε έως και 5 λεπτά για να εντοπιστεί η συνδρομή."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Θέλετε να εξερευνήσετε περισσότερο; Το [documentation](https://docs.ticketbot.net) θα σας διδάξει πως να ρυθμίσετε κάθε πτυχή του bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Πρέπει να παρέχετε ένα κανάλι ειδοποιήσεων των ticket",
