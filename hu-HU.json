@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Meg kell említened azt a felhasználót akit feketelistára szeretnél tenni",
 	"commands.blacklist.self": "Nem teheted feketelistára saját magadat",
 	"commands.claim.success": "A jegyedet %s kezdte el kezelni",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[Kattints ide](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Meg kell adnia egy nyelvi kódot vagy zászlót. Elérhető nyelvek:\\n%s",
 	"commands.open.ticket_limit": "Csak %d %s számú jegy nyitható meg egyszerre",
 	"commands.open.too_many_tickets": "Túl sok jegy van a jegykategóriában. Kérjen meg egy rendszergazdát, hogy zárjon be néhányat, vagy helyezzen át egy másik kategóriába.",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "Látogasd meg a <https://dashboard.tickets.bot/manage/%d/panels> weboldalt, hogy szerkeszthesd a panelt",
+	"commands.premium": "Prémium előfizetést vásárolhat <https://www.patreon.com/ticketsbot-cloud>.\\nA prémium számos előnnyel jár, mint pl:\\n```diff\\n+ Korlátlan jegypanel\\n+ Személyreszabható bot név, kép (whitelabel)\\n+ Részletes statisztikák a szerverről, a felhasználókról és a staffokról\\n+ Lábrészben szereplő vízjel eltávolítása.\\n+ Támogassa a fejlesztést, és segítsen a szerver költségeinek kifizetésében\\n```\\n\\nAlternatív megoldásként szavazhat itt: <https://vote.tickets.bot> Szerezz ingyenes prémiumot 24 óráig.",
 	"commands.premium.invalid_key": "Hibás kulcs. Győződjön meg arról, hogy helyesen másolta-e be.",
 	"commands.remove.no_permission": "Nincs jogosúltságod személyek eltávolításához.",
 	"commands.remove.staff": "Staff tagot nem távolíthatsz el.",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "A címkeazonosítók nem lehetnek hosszabbak, mint 16 karakter.",
 	"commands.tags.delete.invalid_arguments": "Add meg a törölni kívánt cimkét.",
 	"commands.tags.delete.not_exist": "A következő cimke nem található: `%s`.",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Meg kell adnia a címke azonosítóját. Ha további segítségre van szüksége a címkével kapcsolatban, látogasson el a <https://tickets.bot/tags> oldalra.",
+	"commands.tags.get.invalid_tag": "Érvénytelen címke. Ha további segítségre van szüksége a címkékkel kapcsolatban, látogasson el a <https://tickets.bot/tags> oldalra.",
 	"commands.tags.list": "Elérhető cimkék: \\n%s\\nHogy megnézd a tartalmukat vagy kiírd használd ezt a parancsot: `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Ez a jegy még nem lett lefoglalva.",
 	"commands.unclaim.not_claimer": "Csak az adminisztrátorok, jegyet lefoglaló vagy megnyitó személy nyithatja ki azt.",
@@ -79,7 +79,7 @@
 	"open.success": "Új jegyet nyitottál: %s",
 	"setup.auto.category.failure": "Hiányzik a `Csatornák kezelése` engedély.",
 	"setup.auto.category.success": "Jegyek számára fentartott kategória létrehozva.",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Telepítés sikeres! Kattints [ide](https://panel.tickets.bot/manage/%d/panels) a reakciópanelek beállításához, és add meg a <@&%d> és <@&%d> rangokat a vezetőségi tagjaidnak",
 	"setup.auto.roles.failure": "Hiányzik a \"Szerepek kezelése\" engedély",
 	"setup.auto.roles.success": "`Tickets Admin` & `Tickets Support` jogosúltságok létrehozva.",
 	"setup.auto.transcript.failure": "Hiányzik a `Csatornák kezelése` engedély",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "A naplózásra létrehozott csatorna ez lett: <#%d>",
 	"commands.language.help_wanted": "Más nyelven beszélsz? Csatlakozz a [szerverünkhöz](https://discord.gg/ticketsbot) ha szeretnél segteni a fordításban",
 	"commands.rename.too_long": "Csatorna nevek nem lehetnek hosszabbak 100 karakternél",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Látogass el a [dashboard](https://panel.tickets.bot/manage/%d/settings) weboldalra, hogy megváltoztasd az automata lezárás beállításait",
 	"help.autoclose": "Automata lezárással kapcsolatos parancsok",
 	"help.autoclose.exclude": "Megakadályozza a jelenlegi jegy automatikus lezárását",
 	"help.autoclose.configure": "Automata lezárással kapcsolatos beállítások szerkesztése",
@@ -222,7 +222,7 @@
 			"select": "Válassz ki egy nyelvet (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` csak a thread módban használható. Nézz rá a [docs](https://docs.tickets.bot/features/thread-mode), hogy többet tudj meg a threadekről",
 			"success": "Mostantól hívásban vagy",
 			"remove_success": "Mostmár nem vagy hívásban"
 		},
@@ -264,9 +264,9 @@
 					"description": "Válaszd ezt a lehetőségett, ha a vásárlásodat a Discord alkalmazáson belüli áruházban végezted"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "A prémium ad jogot több panelhez, statisztikához, egy különböző bothoz és még sok minden máshoz! Nézd meg a [website](https://tickets.bot/premium) a részletekért.",
 			"already_activated": "Jó hír! A prémium már aktív ezen a szerveren.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Jó hír! A prémium már aktív ezen a szerveren.\n\nSegítségért a whitelabellel, olvasd el a [a whitelabel összerakási útmutatónkat](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "A prémium előfizetés közvetlenül a Discordon belül megvásárolható. Kattints az alábbi gombra az előfizetést kezelő oldal megnyitásához.\n\nA vásárlás után kérlek, várj 5 percet, amíg az előfizetés észlelésre kerül."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Fel akarsz fedezni többet? A mi [documentation](https://docs.tickets.bot) megtanít, hogyan konfiguráld a botot!"
 		},
 		"threads": {
 			"no_notification_channel": "Muszáj egy ticket értesítési csatornát beállítanod",
