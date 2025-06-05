@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Du måste nämna en användare att förbjuda användaren att öppna en ticket",
 	"commands.blacklist.self": "Du kan inte bannlysa dig själv",
 	"commands.claim.success": "Ditt ärende kommer att hanteras av %s",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[Klicka här](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Du måste ange en språkkod eller flagga. Tillgängliga språk:\\n%s",
 	"commands.open.ticket_limit": "Du kan bara öppna %d %s på en gång",
 	"commands.open.too_many_tickets": "Det finns för många tickets i ticketkategorin. Be en administratör att stänga några eller flytta dom till en annan kategori",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "Besök <https://dashboard.tickets.bot/manage/%d/panels> för att konfigurera en panel",
+	"commands.premium": "Du kan köpa premium från <https://www.patreon.com/ticketsbot-cloud>.\\nPremium ger många fördelar, som:\\n```diff\\n+ Skapa oändligt med ticketpaneler\\n+ Ändra botnamn, avatar & status (whitelabel)\\n+ Detaljerad statistik om servern, användare och support-staff\\n+ Inget märke längst nere på meddelanden\\n+Stöd utveckling och hjälp mig att betala serverkostnaderna\\n```\\n\\nEller så kan du rösta på <https://vote.tickets.bot> för att få gratis premium i 24 timmar",
 	"commands.premium.invalid_key": "Ogiltig nyckel. Se till att du har kopierat det korrekt.",
 	"commands.remove.no_permission": "Du har inte behörighet att ta bort personer från den här ticketen",
 	"commands.remove.staff": "Du kan inte ta bort staff från den här ticketen",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Taggens namn kan inte vara längre än 16 tecken",
 	"commands.tags.delete.invalid_arguments": "Du måste ange ett tagg-ID för att ta bort",
 	"commands.tags.delete.not_exist": "En tagg med ID `%s` kunde inte hittas",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Du måste ange taggens ID. För mer hjälp om taggar, besök <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Ogiltig tagg, för mer hjälp besök <https://tickets.bot/tags>.",
 	"commands.tags.list": "IDs för alla taggar: \n%s\nFör att se innehållet av en tagg, använd `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Den här ticketen har inte blivit claimad",
 	"commands.unclaim.not_claimer": "Endast administratörer och användaren som skapade ticketen kan unclaima den",
@@ -79,7 +79,7 @@
 	"open.success": "Öppnade en ny ticket: %s",
 	"setup.auto.category.failure": "Jag saknar behörigheten `Hantera kanaler`",
 	"setup.auto.category.success": "Skapade ärendekategori",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Uppstart färdig! Klicka [here] (https://dashboard.tickets.bot/manage/%d/panels) för att starta upp en reaktions panel, och lägg till <@&%d> och <@&%d> roller till dina personal roller",
 	"setup.auto.roles.failure": "Jag saknar behörigheten `Hantera roller`",
 	"setup.auto.roles.success": "Skapade `Tickets Admin` & `Tickets Support` roller",
 	"setup.auto.transcript.failure": "Jag saknar behörigheten `Hantera kanaler`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Kanalen för utskrifter har ändrats till <#%d>",
 	"commands.language.help_wanted": "Talar du ett annat språk? Gå med i vår [supportserver](https://discord.gg/ticketsbot) om du är intresserad av att hjälpa till att översätta boten till fler språk",
 	"commands.rename.too_long": "Kanalnamn kan inte vara längre än 100 tecken",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Besök [dashboard](https://dashboard.tickets.bot/manage/%d/settings) för att byta automatisk stängning inställningar",
 	"help.autoclose": "Autoclose relaterade kommandon",
 	"help.autoclose.exclude": "Exkluderar det aktuella ärendet från att automatiskt stängas",
 	"help.autoclose.configure": "Redigera autoclose relaterade inställningar",
@@ -170,7 +170,7 @@
 		"success": "Ärendet avslutades av <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"staff": "Du kan inte betygsätta detta ärende eftersom du är en supportrepresentant i %s",
 				"empty": "Du kan inte betygsätta denna ticket eftersom du inte skickade några meddelanden"
 			}
 		}
@@ -180,7 +180,7 @@
 			"disabled": "Kommandot `/open` är inaktiverat i denna server: använd ärendepanelen för att öppna ett ärende",
 			"threads": {
 				"cant_see_parent_channel": "Kunde inte lägga till <@%d> till ärendet: Se till att de har behörighet att visa trådens överordnade kanal (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "Du saknar behörigheten `Skicka meddelanden i trådar` som krävs för att öppna ett ärende. Be en serveradministratör att ge dig denna behörighet och försök igen."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Du har nått gränsvärdet för tag (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Premium krävs för att använda anpassade kommandon (tagg-alias)"
 			}
 		},
 		"language": {
@@ -222,7 +222,7 @@
 			"select": "Välj ett språk (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` kan endast användas i trådläge. Besök vår [docs](https://docs.tickets.bot/features/thread-mode) för att läsa mer om trådar",
 			"success": "Du är nu i samtal",
 			"remove_success": "Du är inte längre i samtal"
 		},
@@ -261,33 +261,33 @@
 					"description": "Välj det här alternativet om du gjorde ditt köp på Patreon"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Välj det här alternativet om du gjorde ditt köp i Discords butik"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Premium ger dig tillgång till fler paneler, statistik, en anpassad bot och mer! Besök vår [website](https://tickets.bot/premium) för att ta reda på mer.",
 			"already_activated": "Goda nyheter! Premium är redan aktiv på denna server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Goda nyheter! Premium är redan aktiv på denna server.\n\nFör att komma igång med whitelabel, läs [vår whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Premium kan köpas i Discord direkt. Klicka på knappen nedan för att öppna sidan för prenumerationshantering.\n\nEtt köpt, vänligen låt upp till 5 minuter för att prenumerationen ska upptäckas."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Din Patreon-prenumeration har hittats. Klicka på knappen \"Öppna Server Selector\" nedan för att öppna instrumentpanelen för att välja vilka servrar du vill tillämpa din premiumprenumeration på.",
+			"open_server_selector": "Öppna serverväljare"
 		},
 		"notes": {
 			"added_to_existing": "Du har lagts till den befintliga tråden: <#%d>",
 			"thread_name": "anteckningar",
 			"created": "En tråd för anteckningar har skapats för detta ärende: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Anteckningstrådar stöds endast i kanalläge"
 		},
 		"rename": {
 			"ratelimited": "På grund av begränsningar som har införts av Discord kan tickets bara ändra namn två gånger var 10 minut"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Lös in krediter",
+			"no_credits": "Inlösen misslyckades: du har inga röstkrediter!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"plural": "Dina rösttillgodohavanden har lösts in för **%d** dagars premium!",
 					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Vill du utforska mer? Vår [documentation](https://docs.tickets.bot) lär dig hur du konfigurerar varje aspekt av boten!"
 		},
 		"threads": {
 			"no_notification_channel": "Du måste ange en kanal för ärendeavisering",
