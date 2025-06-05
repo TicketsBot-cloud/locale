@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "您需要提及一個用戶來切換黑名單狀態",
 	"commands.blacklist.self": "你想不開是不是？幹嘛黑名單自己",
 	"commands.claim.success": "你的問題單將由 %s 為您服務",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[點我邀請機器人](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "您需要指定語言代碼或標誌。可用語言:\\n%s",
 	"commands.open.ticket_limit": "您一次只能打開 %d %s",
 	"commands.open.too_many_tickets": "客服單類別中的客服單過多。要求管理員關閉一些，或將它們移到另一個類別，否則將無法開啟\n\n這是 **Discord 的限制**，每個類別最多 50 個頻道。",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "查看 <https://dashboard.tickets.bot/manage/%d/panels> 以設定面板",
+	"commands.premium": "您可以從 <https://www.patreon.com/ticketsbot-cloud> 購買高級訂閱。\\nPremium 提供許多好處，例如：\\n```diff\\n+ 創建無限制的問題單面板\\n+ 自定義機器人名稱、頭像和狀態\\n+ 關於伺服器、用戶和支持人員的詳細統計\\n+ 沒有品牌顯示\\n+ 支持開發並幫助我支付服務器費用\\n```\\n\\n或者，您可以投票<https://vote.tickets.bot> 獲得 24 小時免費高級版",
 	"commands.premium.invalid_key": "無效的密鑰。確保您已正確複製它。",
 	"commands.remove.no_permission": "沒有權限踢掉他唷",
 	"commands.remove.staff": "不能移除工作人員",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "標籤 ID 不能超過 16 個字符",
 	"commands.tags.delete.invalid_arguments": "您必須指定要刪除的標籤 ID",
 	"commands.tags.delete.not_exist": "找不到 ID 為\"%s\"的標籤",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "您必須提供標籤的 ID。有關標籤的更多幫助，請訪問 <https://tickets.bot/tags>。",
+	"commands.tags.get.invalid_tag": "標籤無效。有關標籤的更多幫助，請訪問 <https://tickets.bot/tags>。",
 	"commands.tags.list": "所有標籤的 ID：\\n%s\\n要查看標籤的內容，請運行 `%stag <ID>`",
 	"commands.unclaim.not_claimed": "目前問題單還沒被指派",
 	"commands.unclaim.not_claimer": "只有管理者會已被分配到的人才可以解除分配",
@@ -79,7 +79,7 @@
 	"open.success": "開了一張問題單：%s",
 	"setup.auto.category.failure": "我沒有 `管理頻道` 的權限唷",
 	"setup.auto.category.success": "創建問題單類別",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "設定完成！按一下 [這裡](https://dashboard.tickets.bot/manage/%d/panels) 以設定反應面板，然後將 <@&%d> 和 <@&%d> 身分組給你的工作人員",
 	"setup.auto.roles.failure": "我沒有 `管理身份組` 的權限唷",
 	"setup.auto.roles.success": "創建 `問題單管理者` & `問題單支持者` 的身份組",
 	"setup.auto.transcript.failure": "我沒有 `管理頻道` 的權限唷",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "問題單記錄頻道已更改到 <#%d>",
 	"commands.language.help_wanted": "如果你想一起翻譯，就加入 [Ticket Bot 官方群組](https://discord.gg/ticketsbot) 吧！",
 	"commands.rename.too_long": "頻道名稱不能超過 100 個字啦",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "查看 [控制面板](https://dashboard.tickets.bot/manage/%d/panels) 以變更自動關閉設定",
 	"help.autoclose": "自動關閉相關指令",
 	"help.autoclose.exclude": "避免目前客服單被自動關閉",
 	"help.autoclose.configure": "更改自動關閉選項",
@@ -222,7 +222,7 @@
 			"select": "選擇一個語言（%c-%c）"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` 只能在討論串模式中使用，查看我們的 [文件](https://docs.tickets.bot/features/thread-mode) 來找到更多關於討論串的資訊",
 			"success": "您現在處於在線狀態",
 			"remove_success": "您現在已經不再處於在線狀態"
 		},
@@ -264,9 +264,9 @@
 					"description": "如果您是在 Discord 應用程式內商店購買，請選擇這項選項。"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Premium 可以讓您存取更多的面板、統計、自訂機器人等功能！請訪問我們的 [網站](https://tickets.bot/premium) 以了解更多資訊。",
 			"already_activated": "好消息！Premium 已在此伺服器啟用。",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "好消息！Premium 已在此伺服器啟用。\n\n有關如何使用自訂機器人，請閱讀 [我們的自訂機器人設定指南](https://docs.tickets.bot/premium/whitelabel-setup-guide)。",
 			"discord": {
 				"no_subscription": "Premium 可以直接在 Discord 購買。按下下方按鈕前往訂閱管理頁面。\n\n購買後，系統可能需要最多 5 分鐘才能偵測到您的訂閱，請耐心等候。"
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "想要進一步了解更多嗎？我們的 [文件](https://docs.tickets.bot) 將教您如何設定機器人！"
 		},
 		"threads": {
 			"no_notification_channel": "您必須提供一個客服單通知頻道",
