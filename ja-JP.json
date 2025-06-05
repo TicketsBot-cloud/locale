@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "ブラックリストの状態を切り替えるには、ユーザーにメンションする必要があります。",
 	"commands.blacklist.self": "自分自身をブラックリストに追加することはできません",
 	"commands.claim.success": "あなたのチケットは %s が対応します。",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[ここをクリック](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "言語コードまたはフラグを指定する必要があります。利用可能な言語:\\n%s",
 	"commands.open.ticket_limit": "一度に開くことができるのは、%d %s だけです。",
 	"commands.open.too_many_tickets": "チケットカテゴリにチケットが多すぎます。管理者に依頼していくつかのチケットを閉じるか、他のカテゴリに移動してください。",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "パネルの設定は、<https://dashboard.tickets.bot/manage/%d/panels>を参照してください。",
+	"commands.premium": "プレミアムサブスクリプションは<https://www.patreon.com/ticketsbot-cloud>から購入できます。\\nプレミアムでは、以下のような多くの特典があります。\\n```diff\\n+チケットパネルを無制限に作成可能\\n+ ボット名、アバター、ステータスのカスタマイズが可能（ホワイトラベルのみ）\\n+ サーバー、ユーザー、サポートスタッフに関する詳細な統計情報\\n+ メッセージフッターのブランド名を非表示\\n+ 開発のサポートやサーバーコストの支払いに支払いに当てられます\\n```\\n\\n<https://vote.tickets.bot>で投票することにより、プレミアムを24時間無料で入手することもできます",
 	"commands.premium.invalid_key": "無効なキーです。正しくコピーされているか確認してください。",
 	"commands.remove.no_permission": "このチケットから人を削除する権限がありません。",
 	"commands.remove.staff": "チケットからスタッフを削除することはできません。",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "タグIDは16文字以下にする必要があります。",
 	"commands.tags.delete.invalid_arguments": "削除するタグIDを指定する必要があります。",
 	"commands.tags.delete.not_exist": "`%s` という名前のタグが見つかりませんでした。",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "タグのIDを入力する必要があります。タグの詳細については、 <https://tickets.bot/tags> を参照してください。",
+	"commands.tags.get.invalid_tag": "無効なタグです。タグの詳細については、 <https://tickets.bot/tags> を参照してください。",
 	"commands.tags.list": "すべてのタグのID: \\n%s\\nタグの内容を表示するには、 `%stag <ID> ` を実行してください",
 	"commands.unclaim.not_claimed": "このチケットはまだ担当者に割り当てられていません。",
 	"commands.unclaim.not_claimer": "チケットの担当者解除は、管理者と担当に割り当てられたユーザーだけが行えます。",
@@ -79,7 +79,7 @@
 	"open.success": "新しいチケットを開きました: %s",
 	"setup.auto.category.failure": "`チャンネルの管理` 権限がありません。",
 	"setup.auto.category.success": "作成されたチケットのカテゴリー",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "セットアップが完了しました！[here](https://dashboard.tickets.bot/manage/%d/panels) クリックしてリアクションパネルを設定し、スタッフに<@&%d> と <@&%d> のロールを追加してください。",
 	"setup.auto.roles.failure": "`ロールの管理` 権限がありません",
 	"setup.auto.roles.success": "`チケット管理者` と `チケットサポート` のロールを作成しました",
 	"setup.auto.transcript.failure": "`チャンネルの管理` 権限がありません。",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "トランスクリプトチャンネルが <#%d > に変更されました",
 	"commands.language.help_wanted": "他の言語を話せますか？もしあなたがボットをより多くの言語に翻訳することに興味があるなら、私たちの[support server](https://discord.gg/ticketsbot)に参加してください。",
 	"commands.rename.too_long": "チャンネル名を100文字以上にすることはできません。",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "[dashboard](https://dashboard.tickets.bot/manage/%d/settings) にアクセスして、自動クローズの設定を変更してください。",
 	"help.autoclose": "オートクローズの関連コマンド",
 	"help.autoclose.exclude": "現在のチケットが自動的にクローズされないようにします",
 	"help.autoclose.configure": "自動クローズの関連設定を編集",
@@ -222,7 +222,7 @@
 			"select": "言語を選択 (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` はスレッドモードでのみ使用できます。 [ドキュメント](https://docs.tickets.bot/features/thread-mode) にアクセスしてスレッドの詳細を確認してください。",
 			"success": "現在通話中です",
 			"remove_success": "通話中ではありません"
 		},
@@ -264,9 +264,9 @@
 					"description": "アプリ内Discordストア内で購入した場合は、このオプションを選択します"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "プレミアムは、より多くのパネル、統計情報、カスタムボットなどにアクセスできます！詳細については、 [公式サイト](https://tickets.bot/premium) をご覧ください。",
 			"already_activated": "良いお知らせです！プレミアムは既にこのサーバーで有効になっています。",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "良いお知らせです！プレミアムはこのサーバーで既に有効になっています。\n\nホワイトラベルの使い方については、 [ホワイトラベルのセットアップガイド](https://docs.tickets.bot/premium/whiteabel-setup-guide)をご覧ください。",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "もっと詳しく知りたいですか？私たちの [ドキュメンテーション](https://docs.tickets.bot) は、ボットのあらゆる側面を設定する方法を教えてくれます！"
 		},
 		"threads": {
 			"no_notification_channel": "チケット通知チャンネルを入力してください",
