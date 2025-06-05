@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Вам нужно указать пользователя, которого хотите добавить или убрать из чёрного списка.",
 	"commands.blacklist.self": "Вы не можете заблокировать себя.",
 	"commands.claim.success": "Ваше обращение будет обработано %s.",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[Нажми сюда](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Вам нужно указать код языка или флаг. Доступные языки:\\n%s",
 	"commands.open.ticket_limit": "Вы можете открыть только %d %s одновременных обращений.",
 	"commands.open.too_many_tickets": "Слишком много каналов в категории для обращений. Попросите администратора закрыть некоторые, переместить их в другую категорию или настроить категорию для переполнения.\\n\\nЭто **установленное Discord ограничение** в 50 каналов на категорию.",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "Воспользуйтесь <https://dashboard.tickets.bot/manage/%d/panels> для настройки панелей.",
+	"commands.premium": "Вы можете приобрести премиум-подписку на <https://www.patreon.com/ticketsbot-cloud>.\\nПремиум предоставляет множество преимуществ, таких как:\\n```diff\\n+ Безлимитные панели для создания обращений\\n+ Настройка имени, аватара и статуса бота (собственный брендинг)\\n+ Подробная статистика о сервере, пользователях и службе поддержки\\n+ Отсутсвие брендинга в сообщениях бота\\n+ Поддержка разработки и помощь в оплате сервера\\n```\\n\\nКроме того, вы можете проголосовать на <https://vote.tickets.bot>, чтобы получить бесплатный премиум на 24 часа.",
 	"commands.premium.invalid_key": "Неверный ключ. Убедитесь, что вы правильно скопировали его.",
 	"commands.remove.no_permission": "У вас нет прав на исключение пользователей из этого обращения.",
 	"commands.remove.staff": "Вы не можете исключить поддержку из обращения.",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "ID тега не может быть длиннее 16 символов.",
 	"commands.tags.delete.invalid_arguments": "Вы должны указать ID тега, чтобы удалить его.",
 	"commands.tags.delete.not_exist": "Тег с ID `%s` не был найден.",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Вы должны указать ID тега. Для получения дополнительной информации по тегам посетите <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Неверный тег. Для получения дополнительной информации по тегам посетите <https://tickets.bot/tags>.",
 	"commands.tags.list": "ID всех тегов: \\n%s\\nЧтобы отправить содержимое тега, воспользуйтесь `/tag <ID>`",
 	"commands.unclaim.not_claimed": "Данное обращение не было принято вами, вы не можете отказаться от него.",
 	"commands.unclaim.not_claimer": "Только администраторы и пользователи, которые приняли данное обращение, могут отказаться от него.",
@@ -79,7 +79,7 @@
 	"open.success": "Открыто новое обращение: %s.",
 	"setup.auto.category.failure": "У меня нет прав на `Управление каналами`.",
 	"setup.auto.category.success": "Создана категория Tickets для обращений.",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Настройка завершена! Нажмите [сюда](https://dashboard.tickets.bot/manage/%d/panels), чтобы настроить панель реакций, и добавить роли <@&%d> и <@&%d> для представителей поддержки.",
 	"setup.auto.roles.failure": "У меня нет прав на `Управление ролями`.",
 	"setup.auto.roles.success": "Созданы роли `Tickets Admin` и `Tickets Support`.",
 	"setup.auto.transcript.failure": "У меня нет прав на `Управление каналами`.",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Канал хранения записей обращений был изменен на <#%d>.",
 	"commands.language.help_wanted": "Говорите на другом языке? Присоединяйтесь к нашему [серверу поддержки](https://discord.gg/ticketsbot), если вы заинтересованы в переводе бота на другие языки.",
 	"commands.rename.too_long": "Название канала не может быть длиннее 100 символов.",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Воспользуйтесь [панелью управления](https://dashboard.tickets.bot/manage/%d/settings) для изменения настроек авто-закрытия.",
 	"help.autoclose": "Команды, связанные с авто-закрытием.",
 	"help.autoclose.exclude": "Исключает данное обращение из авто-закрываемых.",
 	"help.autoclose.configure": "Редактирование настроек авто-закрытия.",
@@ -222,7 +222,7 @@
 			"select": "Выберите язык (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` может быть использован только в режиме веток. Посетите [документацию](https://docs.tickets.bot/features/thread-mode), чтобы узнать больше о ветках.",
 			"success": "Теперь вы отслеживаете обращения.",
 			"remove_success": "Вы прекратили отслеживать обращения."
 		},
@@ -264,9 +264,9 @@
 					"description": "Выберите эту опцию, если вы совершили покупку во встроенном магазине Discord"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Премиум дает вам доступ к большему количеству панелей, статистике, брендированному боту и многому другому! Посетите [наш сайт](https://tickets.bot/premium), чтобы узнать больше.",
 			"already_activated": "Отличные новости! Премиум уже активирован на этом сервере.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Хорошие новости! Премиум уже активирован на этом сервере.\n\nОтличные новости! Премиум уже активирован на этом сервере.\\n\\nОзнакомьтесь с нашим [руководством по настройке брендирования](https://docs.tickets.bot/premium/whitelabel-setup-guide), если вам нужна помощь.",
 			"discord": {
 				"no_subscription": "Премиум подписку можно приобрести напрямую в Discord. Нажмите на кнопку внизу этого сообщения, чтобы открыть страницу управлениями подписками.\n\nОбнаружение подписки может занять до 5 минут после покупки. Будьте терпеливы."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Хотите узнать больше? Наша [документация](https://docs.tickets.bot) научит вас, как настроить каждый аспект бота!"
 		},
 		"threads": {
 			"no_notification_channel": "Вы должны указать канал уведомлений для обращений.",
