@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Trebuie să menționezi un utilizator pentru a-i comuta statutul de pe lista neagră",
 	"commands.blacklist.self": "Nu te poți pune pe tine pe lista neagră",
 	"commands.claim.success": "Tichetul tău va fi preluat de %s",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[Dă click aici](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Trebuie să specifici un cod de limbă sau un steag. Limbi disponibile:\\n%s",
 	"commands.open.ticket_limit": "Poți deschide doar %d %s deodată",
 	"commands.open.too_many_tickets": "Există prea multe tichete în categoria cu tichete. Cere-i unui admin să închidă unele, să le mute într-o altă categorie sau să configureze o categorie pentru excedent.\n\nAceasta este o limită impusă de **Discord** de 50 de canale pe categorie.",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "Vizitează <https://dashboard.tickets.bot/manage/%d/panels> pentru a configura un panou",
+	"commands.premium": "Poți achiziționa un abonament premium de pe <https://www.patreon.com/ticketsbot-cloud>.\\nPremium oferă multe beneficii, cum ar fi:\\n```diff\\n+ Creează panouri nelimitate pentru tichete\\n+ Personalizează numele botului, avatarul și statusul (whitelabel)\\n+ Statistici detaliate despre server, utilizatori și stafful de suport\\n+ Fără branding în subsolul mesajelor\\n+ Sprijină dezvoltarea și ajută-mă să plătesc costurile serverului\\n```\\n\\nCa alternativă, poți vota la <https://vote.tickets.bot> pentru a obține premium gratuit timp de 24 de ore",
 	"commands.premium.invalid_key": "Cheie nevalidă. Asigură-te că ai copiat-o corect.",
 	"commands.remove.no_permission": "Nu ai permisiunea de a elimina persoane din acest tichet",
 	"commands.remove.staff": "Nu poți elimina stafful dintr-un tichet",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "ID-urile tagurilor nu pot fi mai lungi de 16 caractere",
 	"commands.tags.delete.invalid_arguments": "Trebuie să specifici un ID al unui tag pentru a-l șterge",
 	"commands.tags.delete.not_exist": "Un tag cu ID-ul `%s` nu a putut fi găsit",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Trebuie să furnizezi ID-ul tagului. Pentru mai mult ajutor privind tagurile, vizitează <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Tag nevalid. Pentru mai mult ajutor privind tagurile, vizitează <https://tickets.bot/tags>.",
 	"commands.tags.list": "ID-urile pentru toate tagurile: \\n%s\\nPentru a vedea conținutul unui tag, rulează `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Acest tichet nu este revendicat",
 	"commands.unclaim.not_claimer": "Numai adminii și utilizatorul care a revendicat tichetul pot anula revendicarea tichetului",
@@ -79,7 +79,7 @@
 	"open.success": "A deschis un nou tichet: %s",
 	"setup.auto.category.failure": "Îmi lipsește permisiunea `Manage Channels`",
 	"setup.auto.category.success": "Categoria de tichete a fost creată",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Configurare finalizată! Dă click [aici](https://dashboard.tickets.bot/manage/%d/panels) pentru a configura un panou de reacție și adaugă rolurile <@&%d> și <@&%d> membrilor staffului tău",
 	"setup.auto.roles.failure": "Îmi lipsește permisiunea `Manage Channels`",
 	"setup.auto.roles.success": "Rolurile `Tickets Admin` și `Tickets Support` au fost create",
 	"setup.auto.transcript.failure": "Îmi lipsește permisiunea `Manage Channels`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Canalul transcripturilor a fost schimbat în <#%d>",
 	"commands.language.help_wanted": "Vorbești altă limbă? Alătură-te [serverului nostru de suport](https://discord.gg/ticketsbot) dacă ești interesat să ajuți la traducerea botului în mai multe limbi",
 	"commands.rename.too_long": "Numele canalelor nu pot fi mai lungi de 100 de caractere",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Vizitează [tabloul de bord](https://dashboard.tickets.bot/manage/%d/settings) pentru a modifica setările de închidere automată",
 	"help.autoclose": "Comenzi aferente închiderii automate",
 	"help.autoclose.exclude": "Exclude tichetul actual de la a fi închis automat",
 	"help.autoclose.configure": "Editează setările aferente închiderii automate",
@@ -222,7 +222,7 @@
 			"select": "Selectează o limbă (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` poate fi folosit numai în modul thread. Vizitează-ne [documentația](https://docs.tickets.bot/features/thread-mode) pentru a afla mai multe despre threaduri",
 			"success": "Acum ești la datorie",
 			"remove_success": "Nu mai ești la datorie"
 		},
@@ -264,9 +264,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Premium îți oferă acces la mai multe panouri, statistici, un bot personalizat și multe altele! Vizitează-ne [site-ul web](https://tickets.bot/premium) pentru a afla mai multe.",
 			"already_activated": "Vești bune! Premium este deja activ pe acest server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Vești bune! Premium este deja activ pe acest server.\n\nPentru ajutor privind începerea folosirii whitelabelului, citește-ne [ghidul de configurare pentru whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Vrei să explorezi mai multe? [Documentația](https://docs.tickets.bot) noastră te va învăța cum să configurezi fiecare aspect al botului!"
 		},
 		"threads": {
 			"no_notification_channel": "Trebuie să furnizezi un canal de notificare a tichetelor",
