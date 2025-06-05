@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "تحتاج إلى ذكر مستخدم لتبديل حالة القائمة السوداء من أجل",
 	"commands.blacklist.self": "لا يمكنك وضع نفسك في القائمة السوداء",
 	"commands.claim.success": " %s سيتم التعامل مع تذكرتك من قبل ",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[انقر هنا](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "\n%s :الرجاء تحديد رمز اللغة او علم . اللغات المتوفرة",
 	"commands.open.ticket_limit": "في الوقت ذاته %d %s يمكن فتح ",
 	"commands.open.too_many_tickets": "هناك عدد كبير من التذاكر في فئة التذاكر هذه. اطلب من الاّدمن إغلاق البعض أو نقلهم إلى فئة أخرى",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "افتح <https://dashboard.tickets.bot/manage/%d/panels> لتعديل لوحة",
+	"commands.premium": "للحصول على النسخة المميزة لمدة 24 ساعة <https://vote.tickets.bot> ولكن يمكنك التصويت في  \n```\n\n تدعم مطورينا وتدعمنا ماديا \n+ خالي من الاعلانات \n+ ومعلومات دقيقة عن السيرفر والمستخدمين والموظفين (whitelabel)\n+ يمكنك تخصيص اسم البوت والصورة والحالة \n+يمكنك عمل لوحات لتذاكر بشكل لانهائي  \n```diff\n+  :الإشتراك المميز لديه العديد من الخواص ,مثل \n <https://www.patreon.com/ticketsbot-cloud> يمكنك شراء اشتراك مميز من ",
 	"commands.premium.invalid_key": "الرمز غير صالح .الرجاء التأكد من نسخخها بشكل صحيح ",
 	"commands.remove.no_permission": "لا تملك الصلاحية لإزالة أشخاص من هذه التذكرة ",
 	"commands.remove.staff": "لا يمكنك إزالة الموظف من التذكرة",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "ان يكون اطول من 16 حرف IDsلا يمكن لشعار ال",
 	"commands.tags.delete.invalid_arguments": "لحذفه IDيجب عليك تحديد شعار ال",
 	"commands.tags.delete.not_exist": "لم يتم العثور عليه `%s` لشعار معين ID ",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "للمزيد من المساعدة بالشعار , قم بزيارة <https://tickets.bot/tags>.  .الشعار IDعليك تزويدنا ب ",
+	"commands.tags.get.invalid_tag": " شعار غير صالح.  للمزيد من المساعدة ، قم بزيارة <https://tickets.bot/tags>.",
 	"commands.tags.list": ": \n%s\n لعرض محتويات شعار , افتح `%stag <ID>` :لكل الشعارات  IDs ",
 	"commands.unclaim.not_claimed": "هذه التذكرة لم تؤخذ بعد ",
 	"commands.unclaim.not_claimer": " فقط الموظفيين (الاّدمن) والمستخدمين من امتلكوا التذكرة يمكنهم تركها",
@@ -79,7 +79,7 @@
 	"open.success": "تم فتح تذكرة جديدة: %s",
 	"setup.auto.category.failure": "انا افتقد إذن \"إدارة القنوات\"",
 	"setup.auto.category.success": "تم إنشاء فئة التذاكر",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "اكتمل الإعداد! انقر [هنا](https://panel.ticketsbot. et/manage/%d/panels) لإعداد لوحة التفاعل، وإضافة الأدوار <@&%d> و <@&%d> لموظفيك",
 	"setup.auto.roles.failure": "انا افتقد إذن \"إدارة الأدوار\"",
 	"setup.auto.roles.success": "تم انشاء أدوار `مشرف التذاكر` & `دعم التذاكر`",
 	"setup.auto.transcript.failure": "انا افتقد إذن \"إدارة القنوات\"",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "تم تغيير قناة النصوص إلى <#%d>",
 	"commands.language.help_wanted": "هل تتحدث لغة أخرى؟ انضم إلى [خادم الدعم](https://discord.gg/ticketsbot) الخاص بنا إذا كنت مهتما بترجمة البوت إلى لغات أكثر",
 	"commands.rename.too_long": "اسماء القنوات لا يمكن ان تكون اطول من 100 حرف",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "قم بزيارة [dashboard](https://dashboard.tickets.bot/manage/%d/settings) لتغيير إعدادات الإغلاق التلقائي",
 	"help.autoclose": "إغلاق تلقائي للإوامر ذات الصلة",
 	"help.autoclose.exclude": "يستبعد التذكرة الحالية من أن تغلق تلقائياً",
 	"help.autoclose.configure": "تعديل إعدادات الإغلاق التلقائي",
@@ -222,7 +222,7 @@
 			"select": "اختر لغة (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "تستطيع استخدام امر `/on-call` فقط في المواضيع (الثريدات), قم بزيادة [docs] (https://docs.tickets.bot/features/thread-mode) لإكتشاف المزيد عن المواضيع (الثريدات)",
 			"success": "انت الأن في مكالمة",
 			"remove_success": "انت لم تعد في مكالمة"
 		},
@@ -264,9 +264,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "البريموم يعطيك الصلاحية للمزيد من اللوحات والاحصائيات , وبوت خاص بك , والمزيد!\nقم بزيارة الموقع الإلكتروني الخاص بنا (https://tickets.bot/premium) لإكتشاف المزيد",
 			"already_activated": "أخبار جيدة! بريميوم نشط بالفعل في هذا الخادم.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "أخبار سارّة! تم بالفعل تفعيل البريميوم لهذا السيرفر\n\nللحصول على مساعدة في البدء بالتخصيص, قم بقراءة [الدليل الخاص بنا لاستخدام التخصيص](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "هل تريد إكتشاف المزيد ؟ [documentation] (https://docs.tickets.bot) ستجد بها جميع الشروحات التي تخص اعداد وتشغيل البوت"
 		},
 		"threads": {
 			"no_notification_channel": "يجب عليك توفير قناة إشعار التذكرة",
