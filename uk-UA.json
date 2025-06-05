@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Вам потрібно вказати користувача, щоб перемикнути стан чорного списку для",
 	"commands.blacklist.self": "Ви не можете заблокувати самого себе",
 	"commands.claim.success": "Вашу заявку обробляє %s",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[Натисніть сюди](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Вам необхідно вказати код мови або прапор. Доступні мови:\\n%s",
 	"commands.open.ticket_limit": "Ви можете відкрити тільки %d %s одночасно",
 	"commands.open.too_many_tickets": "У категорії заявок занадто багато заявок. Попросіть адміністратора закрити деякі з них або перемістити їх в іншу категорію",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "Перейдіть за посиланням <https://dashboard.tickets.bot/manage/%d/panels>, щоб налаштувати панель",
+	"commands.premium": "Ви можете придбати преміум підписку на <https://www.patreon.com/ticketsbot-cloud>.\\nПреміум надає багато переваг, зокрема:\\n```diff\\n+ Створення безлічі панелей заявок\\n+ Редагування імені, аватару та статусу бота(whitelabel)\\n+ Детальна статистика про сервер, користувачів та персонал підтримки\\n+ Прибираються знаки організації в колонтитулі повідомлень\\n+ Підтримка розробки та допомога мені в сплаті рахунків за утримання сервера\\n```\\n\\n Крім того, ви можете проголосувати на <https://vote.tickets.bot> щоб отримати безкоштовний преміум на 24 години",
 	"commands.premium.invalid_key": "Невірний ключ. Переконайтеся, що ви скопіювали його правильно.",
 	"commands.remove.no_permission": "У вас недостатньо прав щоб видаляти людей з даної заявки",
 	"commands.remove.staff": "Ви не можете видалити адміна з заявки",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Довжина ідентифікаторів тегів не може перевищувати 16 символів",
 	"commands.tags.delete.invalid_arguments": "Ви повинні вказати ідентифікатор тега для видалення",
 	"commands.tags.delete.not_exist": "Не вдалося знайти тег з ідентифікатором `%s`",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Ви повинні вказати ідентифікатор тега. Для отримання додаткової допомоги з тегом відвідайте <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Неприпустимий тег. Для отримання додаткової допомоги з тегами відвідайте <https://tickets.bot/tags>.",
 	"commands.tags.list": "ID для всіх тегів: \\n%s\\nДля перегляду вмісту тегу, запустіть `%sтег<ID>`",
 	"commands.unclaim.not_claimed": "Ця заявка не прийнята",
 	"commands.unclaim.not_claimer": "Тільки адміни й користувач прийняв заявку може її відхилити",
@@ -79,7 +79,7 @@
 	"open.success": "Відкрита нова заявка: %s",
 	"setup.auto.category.failure": "Мені не вистачає дозволу \"Керувати каналами\"",
 	"setup.auto.category.success": "Створено категорію для заявок",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Налаштування завершено! Натисніть [here](https://panel.ticketsbot. et/manage/%d/panels) для налаштування панелі реакцій і додайте <@&%d> та <@&%d> ролі для співробітників",
 	"setup.auto.roles.failure": "У мене немає прав на \"Керувати ролями\"",
 	"setup.auto.roles.success": "Створено ролі `Tickets Admin` та `Tickets Support`",
 	"setup.auto.transcript.failure": "Мені не вистачає дозволу `Керувати каналами`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Канал з журналом дій був змінений на <#%d>",
 	"commands.language.help_wanted": "Говорите іншою мовою? Приєднуйтеся до нашого [сервера допомоги](https://discord.gg/ticketsbot) якщо ви цікавитеся допомогою в перекладанні боті на інші мови",
 	"commands.rename.too_long": "Назва каналу не може бути довшою за 100 символів",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Відвідайте [dashboard](https://panel.tickets.bot/manage/%d/settings) щоб змінити параметри автозакриття заявки",
 	"help.autoclose": "Команди пов'язані з авто закриттям",
 	"help.autoclose.exclude": "Виключає дану заявку від автоматичного закриття",
 	"help.autoclose.configure": "Редагувати Налаштування автозакриття",
@@ -222,7 +222,7 @@
 			"select": "Оберіть мову (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` може використовуватись лише у режимі гілки. Відвідайте нашу [документацію](https://docs.tickets.bot/features/thread-mode), щоб дізнатися більше про гілки",
 			"success": "Ви зараз в дзвінку",
 			"remove_success": "Ви більше не в дзвінку"
 		},
@@ -264,9 +264,9 @@
 					"description": "Оберіть це, якщо ви провели оплату у додатку Discord"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Premium дає вам доступ до розширенних налаштувань, статистик, властного бота та більше! Відвідайте наш [website](https://tickets.bot/premium) щоб дізнатися більше.",
 			"already_activated": "Гарні новини! Premium вже активний на цьому сервері.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Гарні новини! Premium вже активований на цьому сервері.\n\nПеред налаштуванням whitelabel прочитайте [наш гайд про налаштування whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Преміум тепер може бути придбаний через Discord. Натисніть на кнопку нижче, аби відкрити сторінку керування підписками.\n\nЯкщо ви придбали преміум, то зачекайте 5 хвилини поки ми активуємо вашу підписку."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Хочете дізнатись більше? Наша [documentation](https://docs.tickets.bot) навчить вас, як налаштувати кожен аспект цього бота!"
 		},
 		"threads": {
 			"no_notification_channel": "Ви повінні надати канал сповіщень про запити",
