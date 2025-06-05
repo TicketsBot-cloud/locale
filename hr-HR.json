@@ -29,7 +29,7 @@
 	"commands.tags.delete.invalid_arguments": "Morate specifirati tag ID da obrišete",
 	"commands.tags.delete.not_exist": "Tag sa ID-om `%s` se ne može pronaći",
 	"commands.tags.get.invalid_arguments": "Morate pružiti ID od tag-a. Za dodatnu pomoć s tag-om posjetite <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Netočan tag. Za dodatnu pomoć sa tagovima, posjetite<https://tickets.bot/tags>.",
 	"commands.tags.list": "ID-ovi za sve tagove: \\n%s\\nDa biste vidjeli sadržaj taga, pokrenite `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Ovaj tiket nije preuzet",
 	"commands.unclaim.not_claimer": "Samo admini i korisnik koji je preuzeo tiket može ne-preuzeti tiket",
@@ -79,7 +79,7 @@
 	"open.success": "Otvorio novi tiket: %s",
 	"setup.auto.category.failure": "Nedostaje mi `upravljaj kanalima' dozvola",
 	"setup.auto.category.success": "Napravio novu tiket kategoriju",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Setup dovršen! Kliknite [ovdje](https://dashboard.tickets.bot/manage/%d/panels) da uradite reakcijski panel, I dodateb<@&%d> i <@&%d> uloge u vaš staff tim",
 	"setup.auto.roles.failure": "Nedostaje mi `upravljanje ulogama` dopuštenje",
 	"setup.auto.roles.success": "Napravio `Tiket Admin` & `Tiket Pomoć` uloge",
 	"setup.auto.transcript.failure": "Nedostaje mi `upravljanje kanalima` dopuštenje",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Kanal za transkripte je promijenjen u <#%d>",
 	"commands.language.help_wanted": "Govorite li neki drugi jezik? Pridružite se našem [Serveru za podršku](https://discord.gg/ticketsbot) ako ste zainteresirani pomoći u prevođenju bota na više jezika",
 	"commands.rename.too_long": "Imena kanala ne mogu biti duža od 100 znakova",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Posjetite [nadzornu ploču](https://dashboard.tickets.bot/manage/%d/settings) da promijenite autoclose postavku",
 	"help.autoclose": "Autoclose povezane naredbe",
 	"help.autoclose.exclude": "Isključuje automatsko zatvaranje trenutnog tiketa",
 	"help.autoclose.configure": "Uredi auto zatvaranje postavke",
@@ -222,7 +222,7 @@
 			"select": "Odaberi jezik (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` se može koristiti samo u načinu niti. Posjetite naše [dokumente](https://docs.tickets.bot/features/thread-mode) da saznate više o nitima",
 			"success": "Sada ste na pozivu",
 			"remove_success": "Niste više u pozivu"
 		},
@@ -264,9 +264,9 @@
 					"description": "Odaberite ovu opciju ako ste kupnju obavili u Discord trgovini unutar aplikacija"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Premium vam daje pristup većem broju ploča, statistikama, prilagođenom botu i više! Posjetite našu [web-stranicu](https://tickets.bot/premium) kako biste saznali više.",
 			"already_activated": "Dobre vijesti! Premium je već aktiviran u ovom serveru.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Dobre vijesti! Premium je već aktivan na ovom poslužitelju.\n\nZa pomoć pri početku rada s whitelabelom pročitajte [naš vodič za postavljanje whitelabela](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium se može kupiti izravno unutar Discorda. Kliknite gumb ispod ove poruke da biste otvorili stranicu za upravljanje pretplatom.\n\nNakon kupnje pričekajte do 5 minuta da pretplata počne."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Želite li istražiti više? Naša [dokumentacija](https://docs.tickets.bot) će vas naučiti kako konfigurirati svaki aspekt bota!"
 		},
 		"threads": {
 			"no_notification_channel": "Morate osigurati kanal za obavijest o tiketima",
