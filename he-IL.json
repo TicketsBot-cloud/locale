@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "עליך לתייג את שם המשתמש כדי להחליף את מצב הרשימה השחורה עבורו",
 	"commands.blacklist.self": "אתה לא יכול לרשום את עצמך ברשימה השחורה",
 	"commands.claim.success": "הכרטיס שלך יטופל על ידי %s",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[לחצו כאן](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "עליך לציין את קוד השפה או דגל השפה. שפות זמינות:\\n%s",
 	"commands.open.ticket_limit": "אתה מורשה בלבד לפתוח %d %s רק בפעם אחת",
 	"commands.open.too_many_tickets": "יש יותר מדי כרטיסים בקטגוריית הכרטיסים. בקש ממנהללסגור חלק, להעביר אותם לקטגוריה אחרת, או להגדיר קטגוריית הצפה.\n\nזוהי **הגבלה שהוטלה על ידי דיסקורד** של 50 ערוצים לקטגוריה.",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "בקר ב-<https://dashboard.tickets.bot/manage/%d/panels> כדי להגדיר פאנל",
+	"commands.premium": "אתה יכול לרכוש מנוי פרימיום מ-<https://www.patreon.com/ticketsbot-cloud>.\\nPremium מספקת הטבות רבות, כגון:\\n```diff\\n+ צור לוחות כרטיסים ללא הגבלה\\n+ התאם אישית את שם הבוט, הדמות & סטטוס (תווית לבנה)\\n+ סטטיסטיקות מפורטות על השרת, המשתמשים וצוות התמיכה\\n+ אין מיתוג בכותרת התחתונה של ההודעות\\n+ תמכו בפיתוח ועזרו לי לשלם את עלויות השרת\\n```\\n\\nלחילופין, תוכלו להצביע בכתובת <https://vote.tickets.bot> כדי לקבל פרימיום בחינם למשך 24 שעות",
 	"commands.premium.invalid_key": "המפתח לא עובד. ודא שהעתקת אותו נכון.",
 	"commands.remove.no_permission": "אין לך הרשאה להסיר אנשים מהכרטיס הזה",
 	"commands.remove.staff": "לא ניתן להסיר צוות מהכרטיס",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "קודי תגים אינם יכולים להיות יותר מ-16 תווים",
 	"commands.tags.delete.invalid_arguments": "עליך לציין קוד תג למחיקה",
 	"commands.tags.delete.not_exist": "תג עם הקוד `%s` לא נמצא",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "עליך לספק את התג של הקוד. לעזרה נוספת עם תגים, בקר בכתובת <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "תג לא נכון. לעזרה נוספת עם תגים, בקר בכתובת <https://tickets.bot/tags>.",
 	"commands.tags.list": "קודים עבור כל התגים: \\n%s\\nכדי להציג את התוכן של תג, הפעל `%stag <ID>`",
 	"commands.unclaim.not_claimed": "כרטיס זה אינו לקוח",
 	"commands.unclaim.not_claimer": "רק מנהלי מערכת והמשתמש שפתח את הכרטיס יכולים לגרום לסגירת הכרטיס",
@@ -79,7 +79,7 @@
 	"open.success": "פתח כרטיס חדש: %s",
 	"setup.auto.category.failure": "חסרה לי ההרשאה 'Manage Channels'",
 	"setup.auto.category.success": "נוצר קטגוריית כרטיסים",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "ההגדרה הושלמה! לחץ [here](https://dashboard.tickets.bot/manage/%d/panels) כדי להגדיר פאנל תגובה, והוסף את התפקידים <@&%d> ו-<@&%d> לחברי הצוות שלך",
 	"setup.auto.roles.failure": "חסרה לי הרשאת 'Manage Roles'",
 	"setup.auto.roles.success": "יצר את תפקידי 'ניהול כרטיסים' & 'תמיכה בכרטיסים'",
 	"setup.auto.transcript.failure": "חסרה לי ההרשאה 'Manage Channels'",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "חדר התמלילים שונה ל-<#%d>",
 	"commands.language.help_wanted": "האם אתה מדבר שפה נוספת? הצטרף ל[שרת התמיכה] שלנו (https://discord.gg/ticketsbot) אם אתה מעוניין לעזור בתרגום הבוט לשפות נוספות",
 	"commands.rename.too_long": "שמות החדרים אינם יכולים להיות יותר מ-100 תווים",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "בקר ב[dashboard](https://dashboard.tickets.bot/manage/%d/settings) כדי לשנות את הגדרות הסגירה האוטומטית",
 	"help.autoclose": "סגירה אוטומטית של פקודות הקשורות",
 	"help.autoclose.exclude": "לא כולל את הכרטיס הנוכחי מסגירה אוטומטית",
 	"help.autoclose.configure": "ערוך הגדרות הקשורות לסגירה אוטומטית",
@@ -222,7 +222,7 @@
 			"select": "בחר שפה (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "'on-call/' יכול לשמש רק במצב פורומים. בקר ב-[docs](https://docs.tickets.bot/features/thread-mode) שלנו למידע נוסף על פורומים",
 			"success": "אתה עכשיו בשיחה",
 			"remove_success": "אתה כבר לא בשיחה"
 		},
@@ -264,9 +264,9 @@
 					"description": "בחר באפשרות זו אם ביצעת את הרכישה שלך בחנות של דיסקורד בתוך האפליקציה"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Premium נותן לך גישה ליותר פאנלים, סטטיסטיקות, בוט מותאם אישית ועוד! בקר ב[website](https://tickets.bot/premium) כדי לגלות עוד.",
 			"already_activated": "חדשות טובות! פרימיום כבר פעיל בשרת זה.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "חדשות טובות! פרימיום כבר פעיל בשרת הזה.\n\nלקבלת עזרה בתחילת העבודה עם התווית הלבנה, קרא את [מדריך ההתקנה של התווית הלבנה שלנו](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "ניתן לרכוש פרימיום ישירות בדיסקורד. לחצו על הלחצן מתחת להודעה זו כדי לפתוח את דף ניהול המנויים.\n\nלאחר הרכישה, אנא המתינו עד 5 דקות לזיהוי המנוי."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "רוצה לחקור עוד? [documentation](https://docs.tickets.bot) שלנו ילמד אותך כיצד להגדיר כל עיצוב של הבוט!"
 		},
 		"threads": {
 			"no_notification_channel": "עליך לספק חדר הודעות על כרטיסים",
