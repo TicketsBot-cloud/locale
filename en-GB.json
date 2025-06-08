@@ -298,8 +298,6 @@
 		},
 		"viewstaff": {
 			"title": "Staff",
-			"user_format": "- <@%d> (`%d`)\n",
-			"role_format": "- <@&%d> (`%d`)\n",
 			"admin": {
 				"users": "Admin Users",
 				"roles": "Admin Roles",
