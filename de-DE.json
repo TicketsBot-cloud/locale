@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Du musst einen Benutzer erwähnen, um ihn von der Sperrliste zu löschen oder zur Sperrliste hinzuzufügen",
 	"commands.blacklist.self": "Du kannst Dich nicht selbst auf die Sperrliste setzen",
 	"commands.claim.success": "Dein Ticket wird von %s bearbeitet",
-	"commands.invite": "[Hier klicken](<https://invite.ticketsbot.cloud>)",
+	"commands.invite": "[Hier klicken](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Du musst einen Sprach-Code oder Flagge angeben. Verfügbare Sprachen:\\n%s",
 	"commands.open.ticket_limit": "Du kannst nur %d %s auf einmal öffnen",
 	"commands.open.too_many_tickets": "Es existieren zu viele Tickets in der Ticket-Kategorie. Frage einen Administrator, ein paar Tickets zu schliessen, oder ein paar Tickets in eine andere Kategorie zu verschieben.\n\n50 Kanäle pro Kategorie ist ein Limit, welches **von Discord erzwingt wird**.",
-	"commands.panel": "Besuche <https://dashboard.ticketsbot.cloud/manage/%d/panels>, um ein Panel zu konfigurieren",
-	"commands.premium": "Du kannst ein Premium-Abonnement auf <https://www.patreon.com/ticketsbot-cloud> kaufen.\\nPremium gibt Dir viele Vorteile, hier ein paar Beispiele:\\n```diff\\n+ Erstellen von unlimitierten Ticket-Panels\\n+ Anpassen des Bot-Namen, Avatar und Status (Whitelabel)\\n+ Detaillierte Statistiken über den Server, Benutzer und Support-Mitarbeiter\\n+ Kein Branding am Ende von Nachrichten\\n+ Unterstütze die Enwicklung und hilf mir, die Server-Kosten zu decken\\n```\\n\\nAls Alternative kannst Du auf <https://vote.ticketsbot.cloud> abstimmen, um eine begrenzte Premium-Version für 24 Stunden gratis zu erhalten",
+	"commands.panel": "Besuche <https://dashboard.tickets.bot/manage/%d/panels>, um ein Panel zu konfigurieren",
+	"commands.premium": "Du kannst ein Premium-Abonnement auf <https://www.patreon.com/ticketsbot-cloud> kaufen.\\nPremium gibt Dir viele Vorteile, hier ein paar Beispiele:\\n```diff\\n+ Erstellen von unlimitierten Ticket-Panels\\n+ Anpassen des Bot-Namen, Avatar und Status (Whitelabel)\\n+ Detaillierte Statistiken über den Server, Benutzer und Support-Mitarbeiter\\n+ Kein Branding am Ende von Nachrichten\\n+ Unterstütze die Enwicklung und hilf mir, die Server-Kosten zu decken\\n```\\n\\nAls Alternative kannst Du auf <https://vote.tickets.bot> abstimmen, um eine begrenzte Premium-Version für 24 Stunden gratis zu erhalten",
 	"commands.premium.invalid_key": "Ungültiger Schlüssel. Stelle sicher, dass Du den Schlüssel richtig kopiert hast.",
 	"commands.remove.no_permission": "Du hast keine Berechtigungen, um Benutzer von diesem Ticket zu entfernen",
 	"commands.remove.staff": "Du kannst Support-Mitarbeiter nicht von einem Ticket entfernen",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Tag-IDs können nicht länger als 16 Zeichen sein",
 	"commands.tags.delete.invalid_arguments": "Du musst eine Tag-ID angeben, um den Tag zu löschen",
 	"commands.tags.delete.not_exist": "Ein Tag mit der ID `%s` konnte nicht gefunden werden",
-	"commands.tags.get.invalid_arguments": "Du musst die ID des Tags angeben. Für weitere Hilfe mit Tags schau Dir <https://ticketsbot.cloud/tags> an.",
-	"commands.tags.get.invalid_tag": "Ungültiger Tag. Für weitere Hilfe mit Tags schau Dir <https://ticketsbot.cloud/tags> an.",
+	"commands.tags.get.invalid_arguments": "Du musst die ID des Tags angeben. Für weitere Hilfe mit Tags schau Dir <https://tickets.bot/tags> an.",
+	"commands.tags.get.invalid_tag": "Ungültiger Tag. Für weitere Hilfe mit Tags schau Dir <https://tickets.bot/tags> an.",
 	"commands.tags.list": "IDs für alle Tags: \\n%s\\nUm den Inhalt eines Tags anzusehen, benutze `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Dieses Ticket wird von niemandem bearbeitet",
 	"commands.unclaim.not_claimer": "Nur Administratoren und der Benutzer, der dieses Ticket bearbeitet, können dieses Ticket freigeben",
@@ -79,7 +79,7 @@
 	"open.success": "Neues Ticket geöffnet: %s",
 	"setup.auto.category.failure": "Ich benötige die `Kanäle verwalten` Berechtigung",
 	"setup.auto.category.success": "Ticket-Kategorie wurde erstellt",
-	"setup.auto.completed": "Einrichtung abgeschlossen! Klicke [hier](https://dashboard.ticketsbot.cloud/manage/%d/panels), um einen Reaktions-Panel einzurichten und die <@&%d> und <@&%d> Rollen zu Deinen Mitarbeitern hinzuzufügen",
+	"setup.auto.completed": "Einrichtung abgeschlossen! Klicke [hier](https://dashboard.tickets.bot/manage/%d/panels), um einen Reaktions-Panel einzurichten und die <@&%d> und <@&%d> Rollen zu Deinen Mitarbeitern hinzuzufügen",
 	"setup.auto.roles.failure": "Ich benötige die `Rollen verwalten` Berechtigung",
 	"setup.auto.roles.success": "`Tickets Admin` & `Tickets Support` Rollen wurden erstellt",
 	"setup.auto.transcript.failure": "Ich benötige die `Kanäle verwalten` Berechtigung",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Der Transkript-Kanal wurde auf <#%d> geändert",
 	"commands.language.help_wanted": "Sprichst Du eine andere Sprache? Trete unserem [Support-Server](https://discord.gg/ticketsbot) bei, wenn Du daran interessiert bist, den Bot in weitere Sprachen zu übersetzen",
 	"commands.rename.too_long": "Der Name des Kanals darf nicht länger als 100 Zeichen sein",
-	"commands.autoclose.configure": "Besuche das [Dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings), um die Einstellungen für das automatische Schliessen zu ändern",
+	"commands.autoclose.configure": "Besuche das [Dashboard](https://dashboard.tickets.bot/manage/%d/settings), um die Einstellungen für das automatische Schliessen zu ändern",
 	"help.autoclose": "Befehle bezüglich automatisches Schliessen",
 	"help.autoclose.exclude": "Schliesst das aktuelle Ticket vom automatischen Schliessen aus",
 	"help.autoclose.configure": "Bearbeite Einstellungen für das automatische Schliessen",
@@ -222,7 +222,7 @@
 			"select": "Wähle eine Sprache (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` kann nur im Thread-Modus verwendet werden. Schau in unsere [Dokumentation](https://docs.ticketsbot.cloud/features/thread-mode), um mehr über Threads herauszufinden",
+			"channel_mode": "`/on-call` kann nur im Thread-Modus verwendet werden. Schau in unsere [Dokumentation](https://docs.tickets.bot/features/thread-mode), um mehr über Threads herauszufinden",
 			"success": "Du bist nun verfügbar",
 			"remove_success": "Du bist nun nicht mehr verfügbar"
 		},
@@ -264,9 +264,9 @@
 					"description": "Wähle diese Option, wenn Du Premium im Discord In-App Store gekauft hast"
 				}
 			},
-			"about": "Premium gibt Dir Zugang zu mehr Panels, Statistiken, einem personalisierten Bot und mehr! Besuche unsere [Webseite](https://ticketsbot.cloud/premium), um mehr zu erfahren.",
+			"about": "Premium gibt Dir Zugang zu mehr Panels, Statistiken, einem personalisierten Bot und mehr! Besuche unsere [Webseite](https://tickets.bot/premium), um mehr zu erfahren.",
 			"already_activated": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.",
-			"already_activated_whitelabel": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.\n\nFür Hilfe mit Whitelabel, lese [unsere Whitelabel-Anleitung](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.\n\nFür Hilfe mit Whitelabel, lese [unsere Whitelabel-Anleitung](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium kann direkt in Discord gekauft werden. Klicke auf die Schaltfläche unter dieser Nachricht, um die Abonnement-Verwaltung zu öffnen.\n\nWenn gekauft, bitte gib uns bis zu 5 Minuten Zeit, um das Abonnement zu erkennen."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Möchtest Du mehr entdecken? Unsere [Dokumentation](https://docs.ticketsbot.cloud) wird Dir zeigen, wie Du alle Aspekte des Bot konfigurieren kannst!"
+			"docs": "Möchtest Du mehr entdecken? Unsere [Dokumentation](https://docs.tickets.bot) wird Dir zeigen, wie Du alle Aspekte des Bot konfigurieren kannst!"
 		},
 		"threads": {
 			"no_notification_channel": "Du musst einen Ticket-Benachrichtigungskanal angeben",

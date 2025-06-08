@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Du muesch en Benutzer erwähne, um ihn vo de Sperrliste z'lösche oder zu de Sperrliste hinzuezfüege",
 	"commands.blacklist.self": "Du chasch Dich nöd selber uf d'Sperrliste tue",
 	"commands.claim.success": "Dis Ticket wird vo %s bearbeitet",
-	"commands.invite": "[Da klicke](<https://invite.ticketsbot.cloud>)",
+	"commands.invite": "[Da klicke](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Du muesch en Sprach-Code oder e Flagge aageh. Verfüegbari Sprache:\\n%s",
 	"commands.open.ticket_limit": "Du chasch nur %d %s uf eimal uufmache",
 	"commands.open.too_many_tickets": "Es sind z'vil TIckets i de Ticket-Kategorie. Frög en Administrator, es paar Tickets z'schlüsse, oder es paar Tickets in e anderi Kategorie z'verschiebe.\n\n50 Kanäl pro Kategorie isch es Limit, wo vo Discord erzwunge wird.",
-	"commands.panel": "Gahn uf <https://dashboard.ticketsbot.cloud/manage/%d/panels>, um en Panel z'konfiguriere",
-	"commands.premium": "Du chasch es Premium-Abo uf <https://www.patreon.com/ticketsbot-cloud> chaufe.\\nPremium git Dir vili Vorteil, da es paar Bispil:\\n```diff\\n+ Erstelle vo unlimitierte Ticket-Panels\\n+ Aapasse vom Bot-Name, Avatar und Status (Whitelabel)\\n+ Detaillierti Statistike über de Server, Benutzer und Support-Mitarbeiter\\n+ Kei branding am Endi vo Nachrichte\\n+ Unterstütze d'Entwicklig und hilf mir, d'Server-Chöste z'decke\\n```\\n\\nAls Alternative chasch Du uf <https://vote.ticketsbot.cloud> abstimme, um e begrenzti Version vo Premium für 24 Stund gratis z'übercho",
+	"commands.panel": "Gahn uf <https://dashboard.tickets.bot/manage/%d/panels>, um en Panel z'konfiguriere",
+	"commands.premium": "Du chasch es Premium-Abo uf <https://www.patreon.com/ticketsbot-cloud> chaufe.\\nPremium git Dir vili Vorteil, da es paar Bispil:\\n```diff\\n+ Erstelle vo unlimitierte Ticket-Panels\\n+ Aapasse vom Bot-Name, Avatar und Status (Whitelabel)\\n+ Detaillierti Statistike über de Server, Benutzer und Support-Mitarbeiter\\n+ Kei branding am Endi vo Nachrichte\\n+ Unterstütze d'Entwicklig und hilf mir, d'Server-Chöste z'decke\\n```\\n\\nAls Alternative chasch Du uf <https://vote.tickets.bot> abstimme, um e begrenzti Version vo Premium für 24 Stund gratis z'übercho",
 	"commands.premium.invalid_key": "Ungültige Schlüssel. Lueg, dass Du de Schlüssel richtig kopiert hesch.",
 	"commands.remove.no_permission": "Du hesch kei Berechtigunge, um Benutzer vo dem Ticket z'entferne",
 	"commands.remove.staff": "Du chasch Support-Mitarbeiter nöd vomne Ticket entferne",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Tag IDs chönd nöd länger als 16 Zeiche si",
 	"commands.tags.delete.invalid_arguments": "Du muesch e Tag-ID aageh, um de Tag z'lösche",
 	"commands.tags.delete.not_exist": "En Tag mit de ID `%s` het nöd chöne gfunde werde",
-	"commands.tags.get.invalid_arguments": "Du muesch d'ID vomne Tag aageh. Für wiiteri Hilf mit Tags lueg Dir <https://ticketsbot.cloud/tags> aa.",
-	"commands.tags.get.invalid_tag": "Ungültige Tag. Für wiiteri Hilf mit Tags lueg Dir <https://ticketsbot.cloud/tags> aa.",
+	"commands.tags.get.invalid_arguments": "Du muesch d'ID vomne Tag aageh. Für wiiteri Hilf mit Tags lueg Dir <https://tickets.bot/tags> aa.",
+	"commands.tags.get.invalid_tag": "Ungültige Tag. Für wiiteri Hilf mit Tags lueg Dir <https://tickets.bot/tags> aa.",
 	"commands.tags.list": "IDs für all Tags: \\n%s\\nZum de Inhalt vomne Tag aazluege, bruuch `%stag <ID>`",
 	"commands.unclaim.not_claimed": "S'Ticket wird vo niemertem bearbeitet",
 	"commands.unclaim.not_claimer": "Nur Administratore und de Benutzer, wo s'Ticket bearbeitet, chönd s'Ticket freigeh",
@@ -79,7 +79,7 @@
 	"open.success": "Neus Ticket uufgmacht: %s",
 	"setup.auto.category.failure": "Ich bruuche d'`Kanäle verwalten` Berechtigung",
 	"setup.auto.category.success": "Ticket-Kategorie erstellt",
-	"setup.auto.completed": "Iirichtig abgschlosse! Klick [da](https://dashboard.ticketsbot.cloud/manage/%d/panels), um en Reaktions-Panel iizrichte und d'<@&%d> und <@&%d> Rollene zu Dine Mitarbeiter hinzuezfüege",
+	"setup.auto.completed": "Iirichtig abgschlosse! Klick [da](https://dashboard.tickets.bot/manage/%d/panels), um en Reaktions-Panel iizrichte und d'<@&%d> und <@&%d> Rollene zu Dine Mitarbeiter hinzuezfüege",
 	"setup.auto.roles.failure": "Ich bruuche d'`Rollen verwalten` Berechtigung",
 	"setup.auto.roles.success": "`Tickets Admin` & `Tickets Support` Rolle sind erstellt worde",
 	"setup.auto.transcript.failure": "Ich bruuche d'`Kanäle verwalten` Berechtigung",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "De Transkript-Kanal isch uf <#%d> gänderet worde",
 	"commands.language.help_wanted": "Redsch Du e anderi Sprach? Chum doch zu eusem [Support-Server](https://discord.gg/ticketsbot), wenn Du dra interessiert bisch, de Bot i wiiteri Sprache z'übersetze",
 	"commands.rename.too_long": "De Name vom Kanal dörf nöd länger als 100 Zeiche si",
-	"commands.autoclose.configure": "Gahn uf s'[Dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings), um d'Iistellige für di automatischi Schlüssig z'ändere",
+	"commands.autoclose.configure": "Gahn uf s'[Dashboard](https://dashboard.tickets.bot/manage/%d/settings), um d'Iistellige für di automatischi Schlüssig z'ändere",
 	"help.autoclose": "Befehl bezüglich automatischi Schlüssig",
 	"help.autoclose.exclude": "Schlüsst s'aktuelle Ticket vom automatische Schlüsse uus",
 	"help.autoclose.configure": "Bearbeite vo de Iistellige für s'automatische Schlüsse",
@@ -222,7 +222,7 @@
 			"select": "Wähl e Sprach (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` cha nur im Thread-Modus verwendet werde. Lueg i eusi [Dokumentation](https://docs.ticketsbot.cloud/features/thread-mode), um meh über Threads z'erfahre",
+			"channel_mode": "`/on-call` cha nur im Thread-Modus verwendet werde. Lueg i eusi [Dokumentation](https://docs.tickets.bot/features/thread-mode), um meh über Threads z'erfahre",
 			"success": "Du bisch ab sofort verfüegbar",
 			"remove_success": "Du bisch ab sofort nüm verfüegbar"
 		},
@@ -264,9 +264,9 @@
 					"description": "Wähl die Option, wenn Du Premium im Discord In-App Store gchauft hesch"
 				}
 			},
-			"about": "Premium git Dir Zuegang zu meh Panels, Statistike, eme personalisierte Bot und meh! Bsuech eusi [Website](https://ticketsbot.cloud/premium), um meh z'erfahre.",
+			"about": "Premium git Dir Zuegang zu meh Panels, Statistike, eme personalisierte Bot und meh! Bsuech eusi [Website](https://tickets.bot/premium), um meh z'erfahre.",
 			"already_activated": "Gueti Nachrichte! Premium isch scho uf dem Server aktiviert.",
-			"already_activated_whitelabel": "Gueti Nachrichte! Premium isch scho uf dem Server aktiviert.\n\nFür Hilf mit Whitelabel, lis [eusi Whitelabel-Aaleitig](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Gueti Nachrichte! Premium isch scho uf dem Server aktiviert.\n\nFür Hilf mit Whitelabel, lis [eusi Whitelabel-Aaleitig](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium cha direkt in Discord gchauft werde. Druck uf de Chnopf under dere Nachricht, um d'Abo-Verwaltig uufzmache.\n\nWenn's gchauft hesch, bitte gib eus bis zu 5 Minute Ziit, um s'Abo z'erkenne."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Möchtisch meh entdecke? Eusi [Dokumentation](https://docs.ticketsbot.cloud) wird Dir zeige, wie Du all Aspekt vom Bot konfiguriere chasch!"
+			"docs": "Möchtisch meh entdecke? Eusi [Dokumentation](https://docs.tickets.bot) wird Dir zeige, wie Du all Aspekt vom Bot konfiguriere chasch!"
 		},
 		"threads": {
 			"no_notification_channel": "Du muesch en Ticket-Benachrichtigungskanal aageh",

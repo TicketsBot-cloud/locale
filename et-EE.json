@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Sa pead mentionima kasutajat, millel blacklisti staatust muuta",
 	"commands.blacklist.self": "Sa ei saa ennast blacklistida",
 	"commands.claim.success": "Sinu abipiletiga tegeleb %s",
-	"commands.invite": "[Vajuta siia](<https://invite.ticketsbot.cloud>)",
+	"commands.invite": "[Vajuta siia](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Sa pead täpsustama keele koodi või lippu. Saadavad keeled:\\n%s",
 	"commands.open.ticket_limit": "Sa saad ainult avada %d %s korraga",
 	"commands.open.too_many_tickets": "Abipiletite kategooria all on liiga palju abipileti kanaleid. Küsi, et administraator paneks mõned kinni, liigutaks neid teise kategooria alla või seadistaks ületäitumiskategooria.\n\nSee on **Discordi kehtestatud limiit** ehk maksimaalselt 50 kanalit igas kategoorias.",
-	"commands.panel": "Külasta\n<https://dashboard.ticketsbot.cloud/manage/%d/panels> et konfigureerida paneele",
-	"commands.premium": "Sa saad osta premium tellimuse siit: <https://www.patreon.com/ticketsbot-cloud>.\\nPremium annab palju kasulikke asju, nag näiteks:\\n```diff\\n+ Teha ükskõik kui palju abipiletite paneele\\n+\nMuuta boti nime, pilti ja staatust(whitelabel)\\n+ Detailsed statistikad serveri kohta, kasutajad ja abi personaale\\n+ Bränding puudub jaluse osas\\n+ Toetada arengut ja aitada mul maksta serveri maksud\\n```\\n\\nAlternatiivselt, saad sa hääletada siin <https://vote.ticketsbot.cloud> et saada premium 24-ks tunniks tasuta",
+	"commands.panel": "Külasta\n<https://dashboard.tickets.bot/manage/%d/panels> et konfigureerida paneele",
+	"commands.premium": "Sa saad osta premium tellimuse siit: <https://www.patreon.com/ticketsbot-cloud>.\\nPremium annab palju kasulikke asju, nag näiteks:\\n```diff\\n+ Teha ükskõik kui palju abipiletite paneele\\n+\nMuuta boti nime, pilti ja staatust(whitelabel)\\n+ Detailsed statistikad serveri kohta, kasutajad ja abi personaale\\n+ Bränding puudub jaluse osas\\n+ Toetada arengut ja aitada mul maksta serveri maksud\\n```\\n\\nAlternatiivselt, saad sa hääletada siin <https://vote.tickets.bot> et saada premium 24-ks tunniks tasuta",
 	"commands.premium.invalid_key": "Ebasobiv võti. Tee kindlaks, et sa kopeerisid selle õigesti.",
 	"commands.remove.no_permission": "Sul ei ole luba, et inimesi siit abipileti kanalist ära võtta",
 	"commands.remove.staff": "Sa ei saa personaale abipiletist ära võtta",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Sildi ID'd ei tohi olla pikem kui 16 tähemärki",
 	"commands.tags.delete.invalid_arguments": "Sa pead täpsustama sildi ID mida kustutada",
 	"commands.tags.delete.not_exist": "Silt mille ID on `%s` ei leitud",
-	"commands.tags.get.invalid_arguments": "Sa pead edastama sildi ID. Kui on rohkem abi siltidega vaja, külasta <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Ebasobiv silt. Kui on rohkem abi siltidega vaja, külasta <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_arguments": "Sa pead edastama sildi ID. Kui on rohkem abi siltidega vaja, külasta <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Ebasobiv silt. Kui on rohkem abi siltidega vaja, külasta <https://tickets.bot/tags>.",
 	"commands.tags.list": "ID'd kõikide siltide jaoks: \\n%s\\nEt vaadata siltide sisu, käivitada `%ssilt <ID>`",
 	"commands.unclaim.not_claimed": "See abipilet pole võetud",
 	"commands.unclaim.not_claimer": "Ainult administraatorid ja kasutaja kes võttis abipileti saab ära anda abipileti",
@@ -79,7 +79,7 @@
 	"open.success": "Avas uue pileti: %s",
 	"setup.auto.category.failure": "Mul on puudu \"Manage Channels\" luba",
 	"setup.auto.category.success": "Tegin Tickets kategooria",
-	"setup.auto.completed": "Seadistamine valmis! Vajuta [siia] (https://dashboard.ticketsbot.cloud/manage/%d/panels) et seadistada reaktsiooni paneel <@&%d> ja <@&%d> rollid sinu personaalidele",
+	"setup.auto.completed": "Seadistamine valmis! Vajuta [siia] (https://dashboard.tickets.bot/manage/%d/panels) et seadistada reaktsiooni paneel <@&%d> ja <@&%d> rollid sinu personaalidele",
 	"setup.auto.roles.failure": "Mul puudub \"Manage Roles\" luba",
 	"setup.auto.roles.success": "Tegin `Tickets Admin` ja `Tickets Support` rollid",
 	"setup.auto.transcript.failure": "Mul puudub \"Manage Channels\" luba",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Koopiate kanal on muudetud järgmiseks: <#%d>",
 	"commands.language.help_wanted": "Kas sa räägid mingit teist keelt? Liitu meie [abi serveriga](https://discord.gg/ticketsbot) kui sa oled huvitatud boti tõlkimisega rohkem keeltesse aitada",
 	"commands.rename.too_long": "Kanali nimed ei saa olla pikemas kui 100 tähemärki",
-	"commands.autoclose.configure": "Külasta [dashboardi](https://dashboard.ticketsbot.cloud/manage/%d/settings) et muuta automaatse kinni minemise sätteid",
+	"commands.autoclose.configure": "Külasta [dashboardi](https://dashboard.tickets.bot/manage/%d/settings) et muuta automaatse kinni minemise sätteid",
 	"help.autoclose": "Automaatse kinni minemisega seotud käsud",
 	"help.autoclose.exclude": "Välistab praeguse abipileti automaatsest kinni minemisest",
 	"help.autoclose.configure": "Muuda automaatse kinni minemise sätteid",
@@ -222,7 +222,7 @@
 			"select": "Vali keel (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` saab olla kasutatud ainult thread moodil. Külasta meie [docse](https://docs.ticketsbot.cloud/features/thread-mode) et saada rohkem teada threadide kohta",
+			"channel_mode": "`/on-call` saab olla kasutatud ainult thread moodil. Külasta meie [docse](https://docs.tickets.bot/features/thread-mode) et saada rohkem teada threadide kohta",
 			"success": "Sa oled nüüd \"on call\"",
 			"remove_success": "Sa ei ole rohkem \"on call\""
 		},
@@ -264,9 +264,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium annab sulle juurdepääsu rohkem paneelidele, statistikale, kohandatud boti ja rohkem! Külasta meie [veebilehte](https://ticketsbot.cloud/premium) et saada rohkem teada.",
+			"about": "Premium annab sulle juurdepääsu rohkem paneelidele, statistikale, kohandatud boti ja rohkem! Külasta meie [veebilehte](https://tickets.bot/premium) et saada rohkem teada.",
 			"already_activated": "Head uudised! Premium on selles serveris juba aktiivne.",
-			"already_activated_whitelabel": "Head uudised! Premium on selles serveris juba aktiivne.\n\nEt saada abi whitelabeliga alustamisega, loe [meie whitelabeli seadistamisõpetust](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Head uudised! Premium on selles serveris juba aktiivne.\n\nEt saada abi whitelabeliga alustamisega, loe [meie whitelabeli seadistamisõpetust](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Tahad uurida rohkem? Meie [dokumenteerimine](https://docs.ticketsbot.cloud) õpetab sulle kuidas konfigureerida igat osa botist!"
+			"docs": "Tahad uurida rohkem? Meie [dokumenteerimine](https://docs.tickets.bot) õpetab sulle kuidas konfigureerida igat osa botist!"
 		},
 		"threads": {
 			"no_notification_channel": "Sa pead andma abipileti märguande kanali",

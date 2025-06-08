@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Omeniti morate uporabnika, za katerega želite spremeniti status črnega seznama",
 	"commands.blacklist.self": "Ne morete se uvrstiti na črno",
 	"commands.claim.success": "Vašo vstopnico bo obravnaval %s",
-	"commands.invite": "[Kliknite tukaj](<https://invite.ticketsbot.cloud>)",
+	"commands.invite": "[Kliknite tukaj](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Določiti morate jezikovno kodo ali zastavico. Razpoložljivi jeziki:\\n%s",
 	"commands.open.ticket_limit": "Naenkrat lahko odprete samo %d %s",
 	"commands.open.too_many_tickets": "V kategoriji vstopnic je preveč vstopnic. Prosite skrbnika, da nekatere zapre, jih premakne v drugo kategorijo ali nastavi kategorijo presežka. To je **Discordova omejitev** 50 kanalov na kategorijo.",
-	"commands.panel": "Obiščite <https://panel.ticketsbot.cloud/manage/%d/panels>, da konfigurirate ploščo",
-	"commands.premium": "Premijsko naročnino lahko kupite pri <https://www.patreon.com/ticketsbot-cloud>.\\nPremium ponuja številne prednosti, kot so:\\n```diff\\n+ Ustvarite neomejene plošče vstopnic\\n+ Prilagodite ime bota, avatar in stanje (bela oznaka)\\n+ Podrobna statistika o strežniku, uporabnikih in podpornem osebju\\n+ Brez blagovnih znamk v nogi sporočil\\n+ Podprite razvoj in mi pomagajte plačati stroške strežnika\\n```\\n\\nLahko pa glasujete tudi na <https://vote.ticketsbot.cloud> za 24-urno brezplačno premijo",
+	"commands.panel": "Obiščite <https://panel.tickets.bot/manage/%d/panels>, da konfigurirate ploščo",
+	"commands.premium": "Premijsko naročnino lahko kupite pri <https://www.patreon.com/ticketsbot-cloud>.\\nPremium ponuja številne prednosti, kot so:\\n```diff\\n+ Ustvarite neomejene plošče vstopnic\\n+ Prilagodite ime bota, avatar in stanje (bela oznaka)\\n+ Podrobna statistika o strežniku, uporabnikih in podpornem osebju\\n+ Brez blagovnih znamk v nogi sporočil\\n+ Podprite razvoj in mi pomagajte plačati stroške strežnika\\n```\\n\\nLahko pa glasujete tudi na <https://vote.tickets.bot> za 24-urno brezplačno premijo",
 	"commands.premium.invalid_key": "Neveljaven ključ. Prepričajte se, da ste ga pravilno kopirali.",
 	"commands.remove.no_permission": "Nimate dovoljenja za odstranjevanje oseb s te vstopnice",
 	"commands.remove.staff": "Osebja ne morete odstraniti z vstopnice",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "ID-ji oznak ne smejo biti daljši od 16 znakov",
 	"commands.tags.delete.invalid_arguments": "Za brisanje morate določiti ID oznake",
 	"commands.tags.delete.not_exist": "Oznake z ID-jem »%s« ni bilo mogoče najti",
-	"commands.tags.get.invalid_arguments": "Navesti morate ID oznake. Za več pomoči z oznako obiščite <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Neveljavna oznaka. Za dodatno pomoč pri oznakah obiščite <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_arguments": "Navesti morate ID oznake. Za več pomoči z oznako obiščite <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Neveljavna oznaka. Za dodatno pomoč pri oznakah obiščite <https://tickets.bot/tags>.",
 	"commands.tags.list": "ID-ji za vse oznake: \\n%s\\nČe si želite ogledati vsebino oznake, zaženite `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Ta vstopnica ni potrebna",
 	"commands.unclaim.not_claimer": "Samo skrbniki in uporabniki, ki so prevzeli vstopnico, lahko prekličejo zahtevek za vstopnico",
@@ -79,7 +79,7 @@
 	"open.success": "Odprl novo vstopnico: %s",
 	"setup.auto.category.failure": "Manjka mi dovoljenje za upravljanje kanalov",
 	"setup.auto.category.success": "Ustvaril kategorijo vstopnic",
-	"setup.auto.completed": "Nastavitev končana! Kliknite [tukaj](https://dashboard.ticketsbot.cloud/manage/%d/panels), da nastavite odzivno ploščo in dodate vlogi <@&%d> in <@&%d> svojim članom osebja",
+	"setup.auto.completed": "Nastavitev končana! Kliknite [tukaj](https://dashboard.tickets.bot/manage/%d/panels), da nastavite odzivno ploščo in dodate vlogi <@&%d> in <@&%d> svojim članom osebja",
 	"setup.auto.roles.failure": "Manjka mi dovoljenje `Upravljanje vlog`",
 	"setup.auto.roles.success": "Ustvarjene vlogi `Tickets Admin` & `Tickets Support`",
 	"setup.auto.transcript.failure": "Manjka mi dovoljenje za upravljanje kanalov",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
 	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
 	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Autoclose related commands",
 	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
 	"help.autoclose.configure": "Edit autoclose related settings",
@@ -222,7 +222,7 @@
 			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "You are now on call",
 			"remove_success": "You are no longer on call"
 		},
@@ -264,9 +264,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "You must provide a ticket notification channel",

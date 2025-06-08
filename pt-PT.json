@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Tu precisas de mencionar um utilizador para alterar o estado da lista negra para",
 	"commands.blacklist.self": "Não te podes colocar a ti mesmo na lista negra",
 	"commands.claim.success": "O teu bilhete será tratado por %s",
-	"commands.invite": "[Clica aqui](<https://invite.ticketsbot.cloud>)",
+	"commands.invite": "[Clica aqui](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Tu precisas de especificar um código de idioma ou bandeira. Idiomas disponíveis:\\n%s",
 	"commands.open.ticket_limit": "Tu só podes abrir %d %s de uma só vez",
 	"commands.open.too_many_tickets": "Há muitos bilhetes na categoria de bilhetes. Pede a um administrador para fechar alguns, movê-los para outra categoria ou configura uma categoria de saída.\n\nEste é um **limite imposto pelo Discord** de 50 canais por categoria.",
-	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
-	"commands.premium": "Tu podes comprar uma assinatura premium de <https://www.patreon.com/ticketsbot-cloud>.\\nO premium fornece muitos benefícios, tais como:\\n```diff\\n+ Criar painéis de bilhete ilimitados\\n+ Personalizar o nome do bot, avatar e estado (whitelabel)\\n+ Estatísticas detalhadas sobre o servidor, utilizadores e equipe de suporte\\n+ Sem marca no rodapé de mensagens\\n+ Apoiar o desenvolvimento e ajudar-me a pagar o servidor custa\\n```\\n\\nAlternadamente, tu podes votar <https://vote.ticketsbot.cloud> para ganhares premium grátis por 24 horas",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.premium": "Tu podes comprar uma assinatura premium de <https://www.patreon.com/ticketsbot-cloud>.\\nO premium fornece muitos benefícios, tais como:\\n```diff\\n+ Criar painéis de bilhete ilimitados\\n+ Personalizar o nome do bot, avatar e estado (whitelabel)\\n+ Estatísticas detalhadas sobre o servidor, utilizadores e equipe de suporte\\n+ Sem marca no rodapé de mensagens\\n+ Apoiar o desenvolvimento e ajudar-me a pagar o servidor custa\\n```\\n\\nAlternadamente, tu podes votar <https://vote.tickets.bot> para ganhares premium grátis por 24 horas",
 	"commands.premium.invalid_key": "Chave inválida. Assegura-te que a copiaste corretamente.",
 	"commands.remove.no_permission": "Tu não tens permissões para remover pessoas deste bilhete",
 	"commands.remove.staff": "Tu não podes remover membros da equipa de um bilhete",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "IDs de etiquetas não podem ter mais de 16 caracteres",
 	"commands.tags.delete.invalid_arguments": "Tu tens que especificar o ID de uma etiqueta para apagar",
 	"commands.tags.delete.not_exist": "Uma etiqueta com o ID `%s` não pôde ser encontrada",
-	"commands.tags.get.invalid_arguments": "Tu tens de fornecer o ID da etiqueta. Para mais ajuda com etiquetas, visita <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Etiqueta inválida. Para mais ajuda com etiquetas, visita <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_arguments": "Tu tens de fornecer o ID da etiqueta. Para mais ajuda com etiquetas, visita <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Etiqueta inválida. Para mais ajuda com etiquetas, visita <https://tickets.bot/tags>.",
 	"commands.tags.list": "IDs para todas as etiquetas: \\n%s\\nPara ver o conteúdo de uma etiqueta, executa `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Este bilhete não foi reivindicado",
 	"commands.unclaim.not_claimer": "Apenas administradores e o utilizador que reivindicou o bilhete podem cancelar a reivindicação do bilhete",
@@ -79,7 +79,7 @@
 	"open.success": "Foi aberto um novo bilhete: %s",
 	"setup.auto.category.failure": "Eu não tenho a permissão `Gerir Canais`",
 	"setup.auto.category.success": "Categoria de bilhetes criada",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Eu não tenho a permissão `Gerir Cargos`",
 	"setup.auto.roles.success": "Os cargos `Tickets Admin` & `Tickets Support` foram criados",
 	"setup.auto.transcript.failure": "Eu não tenho a permissão `Gerir Canais`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "O canal das transcrições foi alterado para <#%d>",
 	"commands.language.help_wanted": "Tu falas outra língua? Entra no nosso [servidor de suporte](https://discord.gg/ticketsbot) se estiveres interessado em ajudar a traduzir o bot para mais línguas",
 	"commands.rename.too_long": "Os nomes dos canais não podem ter mais de 100 caracteres",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Comandos relacionados com o fecho automático",
 	"help.autoclose.exclude": "Exclui o bilhete atual de ser fechado automaticamente",
 	"help.autoclose.configure": "Edita definições relacionadas com o fecho automático",
@@ -222,7 +222,7 @@
 			"select": "Seleciona um idioma (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` só pode ser utilizado no modo de tópico. Visita o nosso [docs](https://docs.ticketsbot.cloud/features/thread-mode) para saberes mais sobre tópicos",
+			"channel_mode": "`/on-call` só pode ser utilizado no modo de tópico. Visita o nosso [docs](https://docs.tickets.bot/features/thread-mode) para saberes mais sobre tópicos",
 			"success": "Tu estás agora em alerta",
 			"remove_success": "Tu não estás mais em alerta"
 		},
@@ -264,9 +264,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "O premium fornece-te acesso a mais painéis, estatísticas, um bot personalizado e mais! Visita o nosso [website](https://ticketsbot.cloud/premium) para saberes mais.",
+			"about": "O premium fornece-te acesso a mais painéis, estatísticas, um bot personalizado e mais! Visita o nosso [website](https://tickets.bot/premium) para saberes mais.",
 			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Queres explorar mais? A nossa [documentation](https://docs.ticketsbot.cloud) vai ensinar-te como configurar qualquer aspeto do bot!"
+			"docs": "Queres explorar mais? A nossa [documentation](https://docs.tickets.bot) vai ensinar-te como configurar qualquer aspeto do bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Tu tens que fornecer um canal de notificação de bilhetes",

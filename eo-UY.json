@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Vi bezonas ke mencii uzanto por baskulu la nigralistŝtaton",
 	"commands.blacklist.self": "Vi ne povas nigralistigi vin mem",
 	"commands.claim.success": "Via bileto estus respondita de %s",
-	"commands.invite": "[Klaku ĉi tie](<https://invite.ticketsbot.cloud>)",
+	"commands.invite": "[Klaku ĉi tie](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Vi bezonas elekti lingvokodon aŭ flagon. Disponeblaj lingvoj:\\n%s",
 	"commands.open.ticket_limit": "Vi nur kapablas malfermi %d %s samtempe",
 	"commands.open.too_many_tickets": "Estas tre multaj biletoj en la kategorio de biletoj. Vi povas demandi al administranto por fermi iom el la biletoj, moviĝi iom al alia kategorio, aŭ agordi superfluan kategorion.\n\nĈi tio estas **Diskordo-trudita limo** de 50 kanalojn en ĉiu kategorio.",
-	"commands.panel": "Vizitu <https://dashboard.ticketsbot.cloud/manage/%d/panels> por agordi panelon",
-	"commands.premium": "Vi povas aĉeti premian abonon el <https://www.patreon.com/ticketsbot-cloud>.\\nPremia abono provizas multajn profitojn, inkluzive de:\\n```diff\\n+ Krei panelojn de biletoj sen limo\\n+ Personecigi la nomon, profila foton, kaj statuso de la aplikaĵo (blanketikedo)\\n+ Detala statistiko sur la servilo, ĝiaj uzantoj, kaj ĝiaj subtenpersonaroj\\n+ Neniu markigo en la piedlinio de mesaĝojn\\n+ Subteni evoluon kaj helpi min pagi la kostojn de la servilo\\n```\\n\\nAlternative, vi povas voĉdoni en <https://vote.ticketsbot.cloud> por akiri la premian version senpage por 24 horoj",
+	"commands.panel": "Vizitu <https://dashboard.tickets.bot/manage/%d/panels> por agordi panelon",
+	"commands.premium": "Vi povas aĉeti premian abonon el <https://www.patreon.com/ticketsbot-cloud>.\\nPremia abono provizas multajn profitojn, inkluzive de:\\n```diff\\n+ Krei panelojn de biletoj sen limo\\n+ Personecigi la nomon, profila foton, kaj statuso de la aplikaĵo (blanketikedo)\\n+ Detala statistiko sur la servilo, ĝiaj uzantoj, kaj ĝiaj subtenpersonaroj\\n+ Neniu markigo en la piedlinio de mesaĝojn\\n+ Subteni evoluon kaj helpi min pagi la kostojn de la servilo\\n```\\n\\nAlternative, vi povas voĉdoni en <https://vote.tickets.bot> por akiri la premian version senpage por 24 horoj",
 	"commands.premium.invalid_key": "Ĉi tiu ŝlosilo estas nevalida. Certigu ke vi kopiis ĝin ĝuste.",
 	"commands.remove.no_permission": "Vi ne havas permeson por forigi uzantoj el la bileto",
 	"commands.remove.staff": "Vi ne povas forigi stabanojn el bileto",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Identigaj nombroj de etikedoj ne povas esti pli longa ol 16 signoj",
 	"commands.tags.delete.invalid_arguments": "Vi devas specifi la identigan nombron de la etikedo por forigi ĝin",
 	"commands.tags.delete.not_exist": "Etikedo kun la identiga nombro `%s` ne estis trovita",
-	"commands.tags.get.invalid_arguments": "Vi devas havigi la identigan nombron de la etikedo. Por pli da helpo kun etikedoj, viziti <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Ĉi tiu etikedo estas nevalida. Por pli da helpo kun etikedoj, viziti <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_arguments": "Vi devas havigi la identigan nombron de la etikedo. Por pli da helpo kun etikedoj, viziti <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Ĉi tiu etikedo estas nevalida. Por pli da helpo kun etikedoj, viziti <https://tickets.bot/tags>.",
 	"commands.tags.list": "Identigaj nombroj de ĉiuj etikedoj: \\n%s\\nPor vidi la enhavon de etikedo, rulu `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Ĉi tiu bileto ne estis respondecita",
 	"commands.unclaim.not_claimer": "Nur administrantoj kaj la respondeculo povas nerespondeci la bileton",
@@ -79,7 +79,7 @@
 	"open.success": "Opened a new ticket: %s",
 	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
 	"setup.auto.category.success": "Created Tickets category",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
 	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
 	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
 	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
 	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Autoclose related commands",
 	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
 	"help.autoclose.configure": "Edit autoclose related settings",
@@ -222,7 +222,7 @@
 			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "You are now on call",
 			"remove_success": "You are no longer on call"
 		},
@@ -264,7 +264,7 @@
 					"description": "Elektu ĉi tiun opcion se vi aĉetis en la Discord-aplika vendejo"
 				}
 			},
-			"about": "Premiumo donas aliron al pli da paneloj, statistiko, kutima roboto kaj pli! Vizitu nian retejon (https://ticketsbot.cloud/premium) por lerni pli.",
+			"about": "Premiumo donas aliron al pli da paneloj, statistiko, kutima roboto kaj pli! Vizitu nian retejon (https://tickets.bot/premium) por lerni pli.",
 			"already_activated": "Bonaj novaĵoj! Premiumo jam estas aktiva en ĉi tiu servilo.",
 			"already_activated_whitelabel": "Bonaj novaĵoj! Premiumo jam estas aktiva en ĉi tiu servilo.\n\nPor helpo pri komencado kun whitelabel, legu [nian whitelabel agordan gvidilon].",
 			"discord": {
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Ĉu vi volas esplori pli? Nia [dokumentaro](https://docs.ticketsbot.cloud) instruos al vi kiel agordi ĉiun aspekton de la roboto!"
+			"docs": "Ĉu vi volas esplori pli? Nia [dokumentaro](https://docs.tickets.bot) instruos al vi kiel agordi ĉiun aspekton de la roboto!"
 		},
 		"threads": {
 			"no_notification_channel": "Vi devas provizi biletan sciigan kanalon",

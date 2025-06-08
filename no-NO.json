@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Du må oppgi en bruker å endre svartelistestatusen til",
 	"commands.blacklist.self": "Du kan ikke svarteliste deg selv",
 	"commands.claim.success": "Din ticket vill bli behandlet av %s",
-	"commands.invite": "[Klikk her](<https://invite.ticketsbot.cloud>)",
+	"commands.invite": "[Klikk her](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Du må oppgi en språkkode eller et flagg. Tilgjengelige språk:\\n%s",
 	"commands.open.ticket_limit": "Du kan bare åpne %d %s om gangen",
 	"commands.open.too_many_tickets": "Det er for mange støtteforespurseler i støttekategorien. Spør en administrator om å lukke noen eller flytte dem til en annen kategori",
-	"commands.panel": "Gå til <https://dashboard.ticketsbot.cloud/manage/%d/panels> for å konfigurere ett panel",
-	"commands.premium": "Du kan kjøpe premiumsabonnement fra <https://www.patreon.com/ticketsbot-cloud>.\\nPremium gir mange fordeler, som:\\n```diff\\n+ Lage ubegrensede støtteforespurselspaneler\\n+ Endre robot navn, avatar og status (ser som din egen)\\n+ Detaljert statistikk om sørveren, brukere og stabmedlemmer\\n+ Ingen reklame på slutten av meldinger\\n+ Støtte utviklinga og hjelpe meg med å betale regingene\\n```\\n\\nOm dette ikke passer, kan du stemme for roboten på <https://vote.ticketsbot.cloud> for å få premium gratis for ett døgn",
+	"commands.panel": "Gå til <https://dashboard.tickets.bot/manage/%d/panels> for å konfigurere ett panel",
+	"commands.premium": "Du kan kjøpe premiumsabonnement fra <https://www.patreon.com/ticketsbot-cloud>.\\nPremium gir mange fordeler, som:\\n```diff\\n+ Lage ubegrensede støtteforespurselspaneler\\n+ Endre robot navn, avatar og status (ser som din egen)\\n+ Detaljert statistikk om sørveren, brukere og stabmedlemmer\\n+ Ingen reklame på slutten av meldinger\\n+ Støtte utviklinga og hjelpe meg med å betale regingene\\n```\\n\\nOm dette ikke passer, kan du stemme for roboten på <https://vote.tickets.bot> for å få premium gratis for ett døgn",
 	"commands.premium.invalid_key": "Ugyldig nøkkel. Pass på at du kopierte nøkkelen ordentlig",
 	"commands.remove.no_permission": "Du har ikke lov til å fjerne folk fra denne støtteforespurselen",
 	"commands.remove.staff": "Du kan ikke fjerne stabmedlemmer fra en støtteforespursen",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Knaggider kan ikke være lengre enn seksten tegn",
 	"commands.tags.delete.invalid_arguments": "Du må oppgi knaggiden du vil slette",
 	"commands.tags.delete.not_exist": "En knagg med iden `%s` ble ikke gjenkjent",
-	"commands.tags.get.invalid_arguments": "Du må oppgi iden til en knagg. For mer hjelp med knagget, gå til <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Ugyldig knagg. For mer hjelp med knagger, gå til <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_arguments": "Du må oppgi iden til en knagg. For mer hjelp med knagget, gå til <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Ugyldig knagg. For mer hjelp med knagger, gå til <https://tickets.bot/tags>.",
 	"commands.tags.list": "Alle nåværende knaggider: \\n%s\\nFor å vise innholdet til en knagg, si `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Denne støtteforespurselen er ikke opptatt",
 	"commands.unclaim.not_claimer": "Bare administratorer og brukeren som la krav på en støtteforespursel kan fjerne kravet på den",
@@ -79,7 +79,7 @@
 	"open.success": "Åpnet en ny støtteforespursel: %s",
 	"setup.auto.category.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
 	"setup.auto.category.success": "Opprett ticket kategori",
-	"setup.auto.completed": "Konfigurasjon fullført! Trykk [her] (https://dashboard.ticketsbot.cloud/manage/%d/panels) for å sette opp ett reaksjonspanel, og legg til <@&%d> and <@&%d> roller til dine ansatte",
+	"setup.auto.completed": "Konfigurasjon fullført! Trykk [her] (https://dashboard.tickets.bot/manage/%d/panels) for å sette opp ett reaksjonspanel, og legg til <@&%d> and <@&%d> roller til dine ansatte",
 	"setup.auto.roles.failure": "Jeg mangler tillatelsen `Administrer Roller`",
 	"setup.auto.roles.success": "Opprettet `Ticket Admin` og `Ticket Support` roller",
 	"setup.auto.transcript.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Transkripsjons kanalen har blitt endret til <#%d>",
 	"commands.language.help_wanted": "Snakker du et annet språk? Bli med i vår [support server](https://discord.gg/ticketsbot) hvis du er interessert i å hjelpe til å oversette boten til flere språk",
 	"commands.rename.too_long": "Kanal navn kan ikke være lengre enn 100 tegn",
-	"commands.autoclose.configure": "Besøk [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) for å endre innstillingene på autolukking",
+	"commands.autoclose.configure": "Besøk [dashboard](https://dashboard.tickets.bot/manage/%d/settings) for å endre innstillingene på autolukking",
 	"help.autoclose": "Autoclose relaterte kommandoer",
 	"help.autoclose.exclude": "Ekskluderer gjeldende ticket fra å bli automatisk lukket",
 	"help.autoclose.configure": "Rediger autoclose relaterte innstillinger",
@@ -222,7 +222,7 @@
 			"select": "Velg et språk (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "You are now on call",
 			"remove_success": "You are no longer on call"
 		},
@@ -264,9 +264,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -324,7 +324,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Vil du utforske mer? Vår [dokumentasjon](https://docs.ticketsbot.cloud) lærer deg hvordan du konfigurerer alle aspekter av botten!"
+			"docs": "Vil du utforske mer? Vår [dokumentasjon](https://docs.tickets.bot) lærer deg hvordan du konfigurerer alle aspekter av botten!"
 		},
 		"threads": {
 			"no_notification_channel": "You must provide a ticket notification channel",
