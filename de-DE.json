@@ -76,6 +76,7 @@
 	"help.unclaim": "Entfernt den Anspruch auf das aktuelle Ticket",
 	"help.viewstaff": "Listet die Support-Mitarbeiter und Rollen",
 	"help.vote": "Zeigt Dir einen Link, um für eine gratis, begrenzte Premium-Version abzustimmen",
+	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Neues Ticket geöffnet: %s",
 	"setup.auto.category.failure": "Ich benötige die `Kanäle verwalten` Berechtigung",
 	"setup.auto.category.success": "Ticket-Kategorie wurde erstellt",
@@ -294,6 +295,30 @@
 			"with_credits": {
 				"plural": "Du hast **%d** Stimm-Guthaben. Klicke unten auf die Schaltfläche \"Guthaben Einlösen\", um es für %d Tage Premium auf diesem Server einzulösen.",
 				"singular": "Du hast **%d** Stimm-Guthaben. Klicke unten auf die Schaltfläche \"Guthaben Einlösen\", um es für %d Tag Premium auf diesem Server einzulösen."
+			}
+		},
+		"permissions": {
+			"title": "Permissions Check",
+			"has_admin": "✅ <@%d> has the Administrator permission",
+			"has_all": "✅ <@%d> has all the required permissions",
+			"missing": "❌ Missing Permissions",
+			"decreption": {
+				"read_messages": "Allows the bot to view the content of a channel.",
+				"send_messages": "Allows the bot to send messages in channels.",
+				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
+				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
+				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
+				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
+				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
+				"read_message_history": "Allows the bot to read all messages in a channel.",
+				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
+				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
+				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
+				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
+				"send_messages_in_threads": "Allows the bot to send messages in threads.",
+				"create_public_threads": "Allows the bot to create public threads.",
+				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
+				"use_application_commands": "Allows the bot's slash commands to work."
 			}
 		}
 	},
