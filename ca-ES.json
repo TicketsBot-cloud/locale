@@ -312,13 +312,13 @@
 				"mention_everyone": "Permet al bot mencionar everyone, here i tots els rols en un tiquet.",
 				"read_message_history": "Permet al bot llegir tots els missatges en un canal.",
 				"manage_channels": "Permet al bot crear, reanomenar, classificar, i eliminar canals.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
-				"use_application_commands": "Allows the bot's slash commands to work."
+				"manage_roles": "Permet al bot crear i editar rols; assignar o treure rols; i ajustar permisos de rols del canal.",
+				"manage_webhooks": "Permet al bot crear webhooks per transcripcions, i als gestors enviar missatges o etiquetes als tiquets oberts des del taulell web.",
+				"manage_threads": "Permet al bot crear, reanomenar, tancat, i eliminar fils.",
+				"send_messages_in_threads": "Permet al bot enviar missatges als fils.",
+				"create_public_threads": "Permet al bot crear fils públics.",
+				"create_private_threads": "Permet al bot crear fils privats, tals com els tiquets en mode fils i l'ordre /note per un tiquet tipus canal.",
+				"use_application_commands": "Permet el funcionament de les ordres tipus barra (/)."
 			}
 		}
 	},
