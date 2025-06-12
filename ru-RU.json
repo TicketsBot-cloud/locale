@@ -76,7 +76,7 @@
 	"help.unclaim": "Снимает назначение с текущего обращения.",
 	"help.viewstaff": "Отобразить список членов поддержки и роли.",
 	"help.vote": "Даёт ссылку на голосование, чтобы получить бесплатный Премиум.",
-	"help.check_perms": "Check if the Bot has the right Permissions",
+	"help.check_perms": "Проверить, есть ли у бота нужные права",
 	"open.success": "Открыто новое обращение: %s.",
 	"setup.auto.category.failure": "У меня нет прав на `Управление каналами`.",
 	"setup.auto.category.success": "Создана категория Tickets для обращений.",
@@ -278,7 +278,7 @@
 			"added_to_existing": "Вы были добавлены в существующую ветку для заметок: <#%d>",
 			"thread_name": "заметки",
 			"created": "Для данного обращения была создана заметка: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Обратите внимание: ветки для заметок поддерживаются только в режиме каналов"
 		},
 		"rename": {
 			"ratelimited": "Из-за ограничений, наложенных Discord, обращения могут быть переименованы только дважды каждые 10 минут"
@@ -298,15 +298,15 @@
 			}
 		},
 		"permissions": {
-			"title": "Permissions Check",
-			"has_admin": "✅ <@%d> has the Administrator permission",
-			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
+			"title": "Проверка прав",
+			"has_admin": "✅ <@%d> имеет права Администратора",
+			"has_all": "✅ <@%d> имеет все необходимые права",
+			"missing": "❌ Недостающие права",
 			"decreption": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
+				"read_messages": "Позволяет боту просматривать содержимое канала.",
+				"send_messages": "Позволяет боту отправлять сообщения в каналах.",
+				"embed_links": "Позволяет боту отправлять панели обращений, приветственные сообщения и теги, содержащие встроенные сообщения (embeds).",
+				"attach_files": "Позволяет боту предоставлять право прикреплять файлы пользователю, открывшему обращение.",
 				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
 				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
 				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
