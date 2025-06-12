@@ -302,7 +302,7 @@
 			"has_admin": "✅ <@%d> té permís de l'Administració",
 			"has_all": "✅ <@%d> té tots els permisos necessaris",
 			"missing": "❌ Falten Permisos",
-			"decreption": {
+			"description": {
 				"read_messages": "Permet al bot veure el contingut d'un canal.",
 				"send_messages": "Permet al bot enviar missatges als canals.",
 				"embed_links": "Permet al bot enviar panells de tiquets, missatges de benvinguda, i etiquetes que inclouen un missatge incrustat (embed).",

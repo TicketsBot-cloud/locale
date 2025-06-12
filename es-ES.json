@@ -302,7 +302,7 @@
 			"has_admin": "✅ <@%d> tiene el permiso de Administrador",
 			"has_all": "✅ <@%d> tiene todos los permisos necesarios",
 			"missing": "❌ Permisos faltantes",
-			"decreption": {
+			"description": {
 				"read_messages": "Permite al bot ver el contenido de un canal.",
 				"send_messages": "Permite al bot enviar mensajes en canales.",
 				"embed_links": "Permite al bot enviar paneles de ticket, mensajes de bienvenida y tags que incluyen un mensaje embedido.",

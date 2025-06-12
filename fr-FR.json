@@ -302,7 +302,7 @@
 			"has_admin": "✅ <@%d> a la permission d'administrateur",
 			"has_all": "✅ <@%d> a toutes les permissions requises",
 			"missing": "❌ Permissions manquantes",
-			"decreption": {
+			"description": {
 				"read_messages": "Permet au bot d'afficher le contenu d'un salon.",
 				"send_messages": "Permet au bot d'envoyer des messages dans les salons.",
 				"embed_links": "Permet au bot d'envoyer des panneaux de tickets, des messages de bienvenue et des tags qui incluent un message intégré.",
