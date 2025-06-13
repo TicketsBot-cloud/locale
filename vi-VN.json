@@ -37,7 +37,7 @@
 	"commands.vote": "Nhấn vào nút bên dưới để đánh giá bot và sử dụng bản cao cấp miễn phí trong vòng 24 giờ.\n\nSau khi bạn đã đánh giá, sử dụng lại lệnh %s để quy đổi điểm đánh giá.",
 	"generic.invalid_argument": "Lựa chọn không hợp lệ: đọc lại hướng dẫn",
 	"generic.invalid_user": "Không thể tìm ra người dùng",
-	"generic.no_permission": "Bạn không có quyền để thực hiện thao tác",
+	"generic.no_permission": "Bạn không có quyền để thực hiện thao tác này",
 	"generic.not_ticket": "Đây không phải là một phiếu hỗ trợ",
 	"generic.owner_only": "Lệnh này chỉ dành cho người chủ sở hữu bot",
 	"help.about": "Nêu thông tin về người máy",
@@ -76,7 +76,7 @@
 	"help.unclaim": "Gỡ nhận trong phiếu hỗ trợ hiện tại",
 	"help.viewstaff": "Danh sách các thành viên quản lý và các vai trò",
 	"help.vote": "Gửi cho bạn một đường dẫn để đánh giá và nhận phiên bản cao cấp miễn phí",
-	"help.check_perms": "Check if the Bot has the right Permissions",
+	"help.check_perms": "Kiểm tra các đặc quyền cần thiết cho Bot",
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
 	"setup.auto.category.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
 	"setup.auto.category.success": "Đã tạo một mục kênh cho các phiếu hỗ trợ",
@@ -90,7 +90,7 @@
 	"setup.transcript.success": "Kênh dành các bản ghi chép đã được thay đổi thành <#%d>",
 	"commands.language.help_wanted": "Bạn dùng ngôn ngữ khác? Tham gia [máy chủ hỗ trợ](https://discord.gg/ticketsbot) nếu bạn muốn giúp phiên dịch thêm ngôn ngữ cho người máy",
 	"commands.rename.too_long": "Tên của kênh không thể dài hơn 100 ký tự",
-	"commands.autoclose.configure": "Hãy xem [dashboard](https://panel.tickets.bot/manage/%d/settings) để thay đổi các cài đặt về tự động đóng phiếu",
+	"commands.autoclose.configure": "Hãy xem [trang quản lý](https://panel.tickets.bot/manage/%d/settings) để thay đổi các cài đặt về tự động đóng phiếu",
 	"help.autoclose": "Các lệnh liên quan đến tính năng tự động đóng",
 	"help.autoclose.exclude": "Thêm ngoại lệ cho phiếu hỗ trợ không tự động đóng",
 	"help.autoclose.configure": "Chỉnh sửa các cài đặt liên quan đến tự động đóng",
@@ -278,7 +278,7 @@
 			"added_to_existing": "Bạn đã được thêm vào chủ đề ghi chú có sẵn: <#%d>",
 			"thread_name": "ghi chú",
 			"created": "Một kênh chủ đề ghi chú đã được tạo cho phiếu hỗ trợ này: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Các chủ đề ghi chú chỉ hỗ trợ trong chế độ kênh"
 		},
 		"rename": {
 			"ratelimited": "Vì một số giới hạn của Discord, phiếu hỗ trợ chỉ có thể đổi tên 2 lần mỗi 10 phút"
@@ -298,27 +298,27 @@
 			}
 		},
 		"permissions": {
-			"title": "Permissions Check",
-			"has_admin": "✅ <@%d> has the Administrator permission",
-			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
+			"title": "Kiểm tra đặc quyền",
+			"has_admin": "<@%d> đã sở hữu quyền Quản Trị",
+			"has_all": "<@%d> đã sở hữu tất cả quyền được yêu cầu",
+			"missing": "❌ Thiếu quyền lợi",
 			"decreption": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
-				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
-				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
-				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
-				"read_message_history": "Allows the bot to read all messages in a channel.",
-				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
-				"use_application_commands": "Allows the bot's slash commands to work."
+				"read_messages": "Cho phép bot xem thông tin của kênh.",
+				"send_messages": "Cho phép bot gửi tin nhắn trong các kênh.",
+				"embed_links": "Cho phép bot tạo bảng phiếu hỗ trợ, gửi tin nhắn chào mừng và tin nhắn từ thẻ tên có chứa liên kết nhúng.",
+				"attach_files": "Cho phép bot cấp quyền đính kèm tập tin cho người mở phiếu hỗ trợ.",
+				"add_reactions": "Cho phép bot tạo nút bấm dành cho bảng phiếu hỗ trợ, tin nhắn chào mừng và tất cả lệnh sử dụng nút bấm.",
+				"use_external_emojis": "Cho phép bot sử dụng các Emojis từ máy chủ khác trong bảng phiếu hỗ trợ, tin nhắn chào mừng và thẻ tên. Bot vẫn phải ở trong máy chủ khác để sử dụng Emoji đó.",
+				"mention_everyone": "Cho phép bot đề cập @everyone, @here và tất cả vai trò trong phiếu hỗ trợ.",
+				"read_message_history": "Cho phép bot đọc tất cả tin nhắn trong kênh.",
+				"manage_channels": "Cho phép bot tạo, đổi tên, sắp xếp và xóa các kênh.",
+				"manage_roles": "Cho phép bot tạo và chỉnh sửa vai trò; cho và lấy đi vai trò từ các thành viên; và sửa đổi các quyền của vai trò trong kênh.",
+				"manage_webhooks": "Cho phép bot tạo webhooks dành cho các bản ghi chép và cho phép quản lý sử dụng trang quản lý để gửi tin nhắn hoặc thẻ tên trong các phiếu hỗ trợ đang mở.",
+				"manage_threads": "Cho phép bot tạo, đổi tên, đóng và xóa các kênh Chủ Đề.",
+				"send_messages_in_threads": "Cho phép bot nhắn tin trong các kênh Chủ Đề.",
+				"create_public_threads": "Cho phép bot tạo các Chủ Đề Công Khai.",
+				"create_private_threads": "Cho phép bot tạo các Chủ Đề Riêng Tư, dành cho chế độ Chủ Đề và lệnh /notes trong các phiếu hỗ trợ.",
+				"use_application_commands": "Cho phép sử dụng các Câu Lệnh Ứng Dụng của bot."
 			}
 		}
 	},
