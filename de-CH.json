@@ -43,7 +43,7 @@
 	"help.about": "Zeigt Dir Informatione über de Bot aa",
 	"help.add": "Tuet en Benutzer zumne Ticket hinzue",
 	"help.addadmin": "Git eme Benutzer oder ere Rolle Administratoreberechtigunge",
-	"help.addsupport": "Tuet en Benutzer oder e Rolle als Support-Mitarbeiter hinzuefüege",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Bot-Verwaltig",
 	"help.admin.blacklist": "Verhinderet d'Verwendig vom Bot für en Server",
 	"help.admin.check_premium": "Überprüef de Premium-Status vomne Server",
