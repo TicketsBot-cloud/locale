@@ -43,7 +43,7 @@
 	"help.about": "Řekne vám informace o botu",
 	"help.add": "Přidá uživatele do ticketu",
 	"help.addadmin": "Uděluje uživatelská nebo uživatelská práva administrátora",
-	"help.addsupport": "Přidá uživatele nebo roli jako zástupce podpory",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Správa bota",
 	"help.admin.blacklist": "Černá listina a skupin z používání bota",
 	"help.admin.check_premium": "Zkontrolujte prémiový status serveru",
