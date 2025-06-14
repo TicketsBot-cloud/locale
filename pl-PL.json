@@ -43,7 +43,7 @@
 	"help.about": "Informacje o bocie",
 	"help.add": "Dodaje użytkownika do zgłoszenia",
 	"help.addadmin": "Dodaje użytkownika lub rolę jako administratora",
-	"help.addsupport": "Dodaje użytkownika lub rolę jako reprezentanta wsparcia",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Zarządzanie botem",
 	"help.admin.blacklist": "Zablokuj możliwość używania bota w serwerze",
 	"help.admin.check_premium": "Sprawdź status premium serwera",
