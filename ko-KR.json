@@ -43,7 +43,7 @@
 	"help.about": "봇에 대한 정보를 제공합니다.",
 	"help.add": "유저를 티켓에 추가하기",
 	"help.addadmin": "사용자 또는 역할의 관리자 권한을 부여합니다.",
-	"help.addsupport": "사용자 또는 역할을 지원 담당자로 추가합니다.",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "봇 관리",
 	"help.admin.blacklist": "봇 사용을 길드에서 차단합니다.",
 	"help.admin.check_premium": "서버의 프리미엄 상태 확인",
