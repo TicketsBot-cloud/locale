@@ -43,7 +43,7 @@
 	"help.about": "บอกข้อมูลเกี่ยวกับบอท",
 	"help.add": "เพิ่มผู้ใช้ใน ticket",
 	"help.addadmin": "ให้สิทธิ์ผู้ดูเเลระบบแก่ผู้ใช้ หรือ ตามบทบาท",
-	"help.addsupport": "เพิ่มผู้ใช้ หรือ บทบาทเป็นตัวแทนฝ่ายสนับสนุน",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "การจัดการบอท",
 	"help.admin.blacklist": "ขึ้นบัญชีดำกิลด์จากการใช้บอท",
 	"help.admin.check_premium": "ตรวจสอบสถานะพรีเมียมของเซิร์ฟเวอร์",
