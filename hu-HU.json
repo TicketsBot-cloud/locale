@@ -43,7 +43,7 @@
 	"help.about": "Információkkal szolgál a bot működéséről.",
 	"help.add": "Hozzáad egy felhasználót egy jegyhez.",
 	"help.addadmin": "Egy felhasználónak vagy csoportnak, adminisztrátori jogokat ad.",
-	"help.addsupport": "Egy felhasználónak vagy csoportnak, kisegítői jogokat ad.",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Bot menedzsment.",
 	"help.admin.blacklist": "Csoport feketelistára tétele.",
 	"help.admin.check_premium": "Ellenőrzi a szerver prémium állapotát",
