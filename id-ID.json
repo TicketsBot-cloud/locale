@@ -43,7 +43,7 @@
 	"help.about": "Memberi tahu Anda informasi tentang bot",
 	"help.add": "Menambahkan pengguna ke tiket",
 	"help.addadmin": "Memberikan hak istimewa kepada pengguna atau peran admin",
-	"help.addsupport": "Menambahkan pengguna atau peran sebagai perwakilan dukungan",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Manajemen bot",
 	"help.admin.blacklist": "Daftar hitamkan guild agar tidak menggunakan bot",
 	"help.admin.check_premium": "Periksa status premium server",
