@@ -43,7 +43,7 @@
 	"help.about": "Et proporciona informació del bot",
 	"help.add": "Afegeix un usuari a un tiquet",
 	"help.addadmin": "Proporciona privilegis d'administració a un usuari o rol",
-	"help.addsupport": "Afegeix un usuari o rol com a equip de suport",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Gestió del bot",
 	"help.admin.blacklist": "Posa un servidor a la llista negra del bot",
 	"help.admin.check_premium": "Comprova l'estat Premium del servidor",
