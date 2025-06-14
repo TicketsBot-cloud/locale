@@ -43,7 +43,7 @@
 	"help.about": "Дава информация за бота",
 	"help.add": "Добавя потребител/и към тикета",
 	"help.addadmin": "Дава админстраторски привилегии на потребител или роля",
-	"help.addsupport": "Добавя потребител или роля като представител на съпорта",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Управление на бота",
 	"help.admin.blacklist": "Поставяне на забрана даден сървър да използва бота",
 	"help.admin.check_premium": "Проверка на премимум статуса на сървър",
