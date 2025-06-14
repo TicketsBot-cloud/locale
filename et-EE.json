@@ -43,7 +43,7 @@
 	"help.about": "Ütleb sulle boti kohta informatsiooni",
 	"help.add": "Lisab mingi kasutaja abipiletisse",
 	"help.addadmin": "Annab mingile kasutajale või rollile administraatori õigused",
-	"help.addsupport": "Lisab mingi kasutaja või rolli abipersonaaliks",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Boti muutmine",
 	"help.admin.blacklist": "Blacklisti mingi server boti kasutamisest",
 	"help.admin.check_premium": "Vaata mingi serveri premiumi staatust",
