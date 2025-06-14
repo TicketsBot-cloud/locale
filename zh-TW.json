@@ -43,7 +43,7 @@
 	"help.about": "告訴您有關機器人的信息",
 	"help.add": "將用戶添加到問題單",
 	"help.addadmin": "授予用戶或身份組管理員權限",
-	"help.addsupport": "添加用戶或身份組作為問題單支持小組",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "機器人管理",
 	"help.admin.blacklist": "將伺服器使用機器人列入黑名單",
 	"help.admin.check_premium": "檢查伺服器是否有開通高級版",
