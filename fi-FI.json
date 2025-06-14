@@ -43,7 +43,7 @@
 	"help.about": "Kertoo tietoa botista",
 	"help.add": "Lisää käyttäjä lippuun",
 	"help.addadmin": "Antaa käyttäjälle tai roolille järjestelmänvalvojan oikeudet",
-	"help.addsupport": "Lisää käyttäjä tai rooli tukihenkilöksi",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Botin hallinta",
 	"help.admin.blacklist": "Estä guild käyttämästä bottia",
 	"help.admin.check_premium": "Tarkista palvelimesi Premium-tila",
@@ -76,6 +76,7 @@
 	"help.unclaim": "Poistaa omistajuuden nykyisestä lipukkeesta",
 	"help.viewstaff": "Luettele henkilöstön jäsenet ja roolit",
 	"help.vote": "Antaa sinulle linkin äänestääksesi ilmaisesta Premiumista",
+	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Avattu uusi lippu: %s",
 	"setup.auto.category.failure": "Minulta puuttuu `Hallinnoi Kanavia` oikeus",
 	"setup.auto.category.success": "Luotu liput kategoria",
@@ -294,6 +295,30 @@
 			"with_credits": {
 				"plural": "Sinulla on **%d** äänestämis krediittejä. Paina \"Lunasta Krediitit\" näppäintä alhaalta lunastaaksesi %d päivää premiumia tälle serverille.",
 				"singular": "Sinulla on **%d** äänestämis krediitti. Paina \"Lunasta Krediitit\" näppäintä alhaalta lunastaaksesi %d päivä premiumia tälle serverille."
+			}
+		},
+		"permissions": {
+			"title": "Permissions Check",
+			"has_admin": "✅ <@%d> has the Administrator permission",
+			"has_all": "✅ <@%d> has all the required permissions",
+			"missing": "❌ Missing Permissions",
+			"decreption": {
+				"read_messages": "Allows the bot to view the content of a channel.",
+				"send_messages": "Allows the bot to send messages in channels.",
+				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
+				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
+				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
+				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
+				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
+				"read_message_history": "Allows the bot to read all messages in a channel.",
+				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
+				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
+				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
+				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
+				"send_messages_in_threads": "Allows the bot to send messages in threads.",
+				"create_public_threads": "Allows the bot to create public threads.",
+				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
+				"use_application_commands": "Allows the bot's slash commands to work."
 			}
 		}
 	},
