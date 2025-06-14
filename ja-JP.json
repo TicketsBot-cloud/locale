@@ -43,7 +43,7 @@
 	"help.about": "ボットに関する情報を表示します。",
 	"help.add": "チケットにユーザーを追加します。",
 	"help.addadmin": "ユーザーまたはロールに管理者権限を付与します。",
-	"help.addsupport": "サポート担当者のユーザーまたはロールを追加します。",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "ボットの管理",
 	"help.admin.blacklist": "サーバーをサーバーブラックリストに登録します。",
 	"help.admin.check_premium": "サーバーのプレミアム加入状態を確認します。",
