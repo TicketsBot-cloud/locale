@@ -43,7 +43,7 @@
 	"help.about": "Govori vam informacije o botu",
 	"help.add": "Dodajte korisnika u tiket",
 	"help.addadmin": "Daje korisniku ili ulozi administratorske povlastice",
-	"help.addsupport": "Dodaje korisnika ili ulogu predstavnika podrške",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Upravljanje botom",
 	"help.admin.blacklist": "Blacklist ceh od korištenja bot-a",
 	"help.admin.check_premium": "Provjerite premium status servera",
