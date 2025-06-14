@@ -43,7 +43,7 @@
 	"help.about": "Giver dig information om denne bot",
 	"help.add": "Tilføjer en bruger til en ticket",
 	"help.addadmin": "Giver en bruger eller en rolle administratorrettigheder",
-	"help.addsupport": "Tilføjer en bruger eller rolle som en supportrepræsentant",
+	"help.addsupport": "Tilføjer en rolle som en supportrepræsentant",
 	"help.admin": "Bot håndtering",
 	"help.admin.blacklist": "Blacklist en guild, så de ikke kan bruge denne bot",
 	"help.admin.check_premium": "Kontroller premium-status på en server",

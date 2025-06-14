@@ -43,7 +43,7 @@
 	"help.about": "Ger dig mer information om botten",
 	"help.add": "Lägger till en användare i ticketen",
 	"help.addadmin": "Ger en användare eller roll admin privilegier",
-	"help.addsupport": "Lägger till en användare eller roll som supportrepresentant",
+	"help.addsupport": "Lägger till en roll som supportrepresentant",
 	"help.admin": "Bot hantering",
 	"help.admin.blacklist": "Bannlys en server från att använda botten",
 	"help.admin.check_premium": "Kontrollera premiumstatus för en server",
