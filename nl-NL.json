@@ -43,7 +43,7 @@
 	"help.about": " Vertelt je informatie over de bot",
 	"help.add": "Voegt een gebruiker toe aan een ticket",
 	"help.addadmin": "Geeft een gebruiker of rol beheerdersrechten",
-	"help.addsupport": "Voegt een gebruiker of rol toe als ondersteuningsvertegenwoordiger",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Botbeheer",
 	"help.admin.blacklist": "Blacklist een guild van het gebruiken van de bot",
 	"help.admin.check_premium": "Bekijk de premium status van een server",
