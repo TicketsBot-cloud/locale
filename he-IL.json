@@ -43,7 +43,7 @@
 	"help.about": "מספר לך מידע על הבוט",
 	"help.add": "מוסיף משתמש לכרטיס",
 	"help.addadmin": "מעניק למשתמש או תפקיד מנהל הרשאות",
-	"help.addsupport": "מוסיף משתמש או תפקיד כנציג תמיכה",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "ניהול הבוט",
 	"help.admin.blacklist": "רשימה שחורה של אנשים משימוש בבוט",
 	"help.admin.check_premium": "בדוק את סטטוס הפרימיום של שרת",
