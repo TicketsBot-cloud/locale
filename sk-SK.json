@@ -43,7 +43,7 @@
 	"help.about": "Poskytuje informácie o botovi",
 	"help.add": "Pridá používateľa do tiketu",
 	"help.addadmin": "Udeľuje používateľovi alebo role oprávnenia správcu",
-	"help.addsupport": "Pridá používateľa alebo rolu ako zástupcu podpory",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Správa botov",
 	"help.admin.blacklist": "Čierna listina spolku, ktorý nesmie používať bota",
 	"help.admin.check_premium": "Kontrola prémiového stavu servera",
