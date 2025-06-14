@@ -43,7 +43,7 @@
 	"help.about": "Vous donne des informations sur le bot",
 	"help.add": "Ajoute un utilisateur à un ticket",
 	"help.addadmin": "Accorde à un utilisateur ou à un rôle des privilèges d'administrateur",
-	"help.addsupport": "Ajoute un utilisateur ou un rôle en tant que représentant du support",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Gestion du bot",
 	"help.admin.blacklist": "Met un serveur sur liste noire pour l'empêcher d'utiliser le bot",
 	"help.admin.check_premium": "Vérifie le statut premium d'un serveur",
