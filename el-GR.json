@@ -43,7 +43,7 @@
 	"help.about": "Σας δίνει πληροφορίες σχετικά με το bot",
 	"help.add": "Βαζει έναν χρήστη σε ticket",
 	"help.addadmin": "Παραχωρεί δικαιώματα διαχειριστή σε χρήστη ή σε ρόλο",
-	"help.addsupport": "Προσθέτει έναν χρήστη ή ρόλο ως αντιπρόσωπο υποστήριξης",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Διαχείριση bot",
 	"help.admin.blacklist": "Αποκλεισμός μιας συντεχνίας από το να χρησιμοποιήσει το bot",
 	"help.admin.check_premium": "Ελέγξτε την κατάσταση Premium ενός διακομιστή",
