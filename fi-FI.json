@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "Keskustelu on siirretty lipukkeeseen (<#%d>)",
 	"help.close_request": "Lähettää viestin, jossa pyydetään käyttäjää vahvistamaan, että lipuke voidaan sulkea",
 	"close.reason_too_long": "Syyssä ei voi olla yli 255-kirjainta",
-	"commands.close_request.no_reason": "<@%d> on pyytänyt tämän lipun sulkemista.\n\nHyväksy tai hylkää alla olevien painikkeiden avulla.",
-	"commands.close_request.with_reason": "<@%d> on pyytänyt tämän lipun sulkemista. Syyllä:\n```\n%s\n```\nHyväksy tai hylkää alla olevista napeista.",
-	"commands.close_request.no_permission": "Vain käyttäjä, joka on avannut lipun voi vastata sulkemis pyyntöön",
-	"commands.close_request.denied": "<@%d> sulkemis pyyntä hylätty",
 	"generic.error": "Virhe",
 	"feedback.disabled": "Tämän palvelimen palaute on suljettu",
 	"feedback.success": "Palautteesi on tallennettu",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "Sulje Vahvistus",
 	"close.confirmation": "Vahvista että haluat sulkea tämän lipun",
 	"generic.title.close_request": "Sulkemis Pyyntö",
-	"commands.close_request.accept": "Hyväksy Ja Sulje",
-	"commands.close_request.deny": "Hylkää & Pidä Avattuna",
 	"commands.premium.success": "Premium on aktivoitu **%d** päiväksi",
 	"generic.title.claimed": "Lunastettu Lipuke",
 	"generic.title.unclaimed": "Lunastamaton Lipuke",
@@ -294,6 +288,14 @@
 			"with_credits": {
 				"plural": "Sinulla on **%d** äänestämis krediittejä. Paina \"Lunasta Krediitit\" näppäintä alhaalta lunastaaksesi %d päivää premiumia tälle serverille.",
 				"singular": "Sinulla on **%d** äänestämis krediitti. Paina \"Lunasta Krediitit\" näppäintä alhaalta lunastaaksesi %d päivä premiumia tälle serverille."
+			}
+		},
+		"close_request": {
+			"no_permission": "Vain käyttäjä, joka on avannut lipun voi vastata sulkemis pyyntöön",
+			"denied": "<@%d> sulkemis pyyntä hylätty.",
+			"buttons": {
+				"accept": "Hyväksy Ja Sulje",
+				"deny": "Hylkää & Pidä Avattuna"
 			}
 		}
 	},
