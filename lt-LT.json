@@ -43,7 +43,7 @@
 	"help.about": "Pateikiama informacija apie robotą",
 	"help.add": "Prideda vartotoją prie bilieto",
 	"help.addadmin": "Suteikia vartotojui arba rolei administracijos privilegijas",
-	"help.addsupport": "Suteikia vartotojui arba rolei pagalbos nario privilegijas",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Roboto valdymas",
 	"help.admin.blacklist": "Įtraukite serverį į juodąjį sąrašą, kad negalėtu naudoti šio roboto",
 	"help.admin.check_premium": "Patikrinkite šio serverio, premium prenumeratos būseną",
