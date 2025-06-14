@@ -43,7 +43,7 @@
 	"help.about": "تخبرك بمعلومات عن البوت",
 	"help.add": "تضيف مستخدم الى التذكرة",
 	"help.addadmin": "تمنح امتيازات للمستخدم او لرتبة الموظف ",
-	"help.addsupport": "إعطاء المستخدم رتبة الموظف",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "إدارة البوت",
 	"help.admin.blacklist": "وضع خادم في القائمة السوداء من استخدام البوت",
 	"help.admin.check_premium": "تحقق من حالة البريميوم للخادم",
