@@ -43,7 +43,7 @@
 	"help.about": "Forteller deg informasjon om roboten",
 	"help.add": "Legger til en bruker til en støtteforespursel",
 	"help.addadmin": "Gir en bruker eller rolle administratorprivilegier",
-	"help.addsupport": "Legger til en bruker eller rolle som støttekontakt",
+	"help.addsupport": "Legger til en rolle som støttekontakt",
 	"help.admin": "Bot administering",
 	"help.admin.blacklist": "Svartelist en guild fra å bruke botten",
 	"help.admin.check_premium": "Sjekker premium statusen på en server",
