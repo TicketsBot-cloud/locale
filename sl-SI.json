@@ -43,7 +43,7 @@
 	"help.about": "Pove vam informacije o botu",
 	"help.add": "V vozovnico doda uporabnika",
 	"help.addadmin": "Uporabniku ali vlogi dodeli skrbniške pravice",
-	"help.addsupport": "Doda uporabnika ali vlogo predstavnika podpore",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Upravljanje botov",
 	"help.admin.blacklist": "Na črni seznam ceha, ki ne uporablja bota",
 	"help.admin.check_premium": "Preverite premium status strežnika",
