@@ -43,7 +43,7 @@
 	"help.about": "Покажи информацију о боту",
 	"help.add": "Дода корисника на карту",
 	"help.addadmin": "Даје повластице кориснику или администратору улога",
-	"help.addsupport": "Додаје корисника или улогу као представника подршке",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Управљање Бат-ом",
 	"help.admin.blacklist": "Црна листа сервера који користи робота",
 	"help.admin.check_premium": "Провери статус сервера",
