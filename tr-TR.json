@@ -43,7 +43,7 @@
 	"help.about": "Bot hakkında bilgi verir",
 	"help.add": "Talebe bir kullanıcı ekler",
 	"help.addadmin": "Bir kullanıcı veya role yönetici yetkilerini verir",
-	"help.addsupport": "Bir kullanıcı veya role destek yetkilerini verir",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Bot yönetimi",
 	"help.admin.blacklist": "Sunucunun botu kullanmasını kara listeye alarak engelle",
 	"help.admin.check_premium": "Sunucunun premium olup olmadığını kontrol et",
