@@ -43,7 +43,7 @@
 	"help.about": "Nêu thông tin về người máy",
 	"help.add": "Thêm một người dùng vào phiếu hỗ trợ",
 	"help.addadmin": "Cấp quyền một người hoặc vai trò quyền quản trị viên",
-	"help.addsupport": "Thêm một người hoặc một vai trò vào đại diện hỗ trợ viên",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Quản lý người máy",
 	"help.admin.blacklist": "Chặn một máy chủ khỏi việc dùng người máy",
 	"help.admin.check_premium": "Kiểm tra trạng thái phiên bản cao cấp của một máy chủ",
