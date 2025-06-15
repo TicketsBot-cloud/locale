@@ -297,6 +297,21 @@
 				"singular": "U heeft **%d** stem credit. Klik op de \"Credits Inwisselen\" knop hieronder om deze in te wisselen voor **%d** dag premium in deze server."
 			}
 		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+			}
+		},
 		"permissions": {
 			"title": "Permissions Check",
 			"has_admin": "✅ <@%d> has the Administrator permission",
