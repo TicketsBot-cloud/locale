@@ -297,28 +297,43 @@
 				"singular": "У вас **%d** кредит голосования. Нажмите кнопку \"Активировать Кредиты\", чтобы обменять их на %d день премиум подписки в этом сервере."
 			}
 		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+			}
+		},
 		"permissions": {
 			"title": "Проверка прав",
 			"has_admin": "✅ <@%d> имеет права Администратора",
 			"has_all": "✅ <@%d> имеет все необходимые права",
 			"missing": "❌ Недостающие права",
 			"description": {
-				"read_messages": "Позволяет боту просматривать содержимое канала.",
-				"send_messages": "Позволяет боту отправлять сообщения в каналах.",
-				"embed_links": "Позволяет боту отправлять панели обращений, приветственные сообщения и теги, содержащие встроенные сообщения (embeds).",
-				"attach_files": "Позволяет боту предоставлять право прикреплять файлы пользователю, открывшему обращение.",
-				"add_reactions": "Позволяет боту добавлять кнопки в панели обращений, приветственные сообщения и во все команды, использующие кнопки.",
-				"use_external_emojis": "Позволяет боту использовать эмодзи с других серверов в панелях обращений, приветственных сообщениях и тегах. Для этого бот должен состоять на том сервере, откуда берутся эмодзи.",
-				"mention_everyone": "Позволяет боту упоминать everyone, here и все роли в обращении.",
-				"read_message_history": "Позволяет боту просматривать историю сообщений в канале.",
-				"manage_channels": "Позволяет боту создавать, переименовывать, перемещать в другую категорию и удалять каналы.",
-				"manage_roles": "Позволяет боту создавать и редактировать роли, выдавать и забирать роли у пользователей и настраивать права доступа ролей в канале.",
-				"manage_webhooks": "Позволяет боту создавать вебхуки для транскриптов, а также позволяет персоналу использовать панель управления для отправки сообщений или тегов в открытых обращениях.",
-				"manage_threads": "Позволяет боту создавать, переименовывать, закрывать и удалять ветки.",
-				"send_messages_in_threads": "Позволяет боту отправлять сообщения в ветках.",
-				"create_public_threads": "Позволяет боту создавать публичные ветки.",
-				"create_private_threads": "Позволяет боту создавать приватные ветки, такие как обращения в режиме веток и команда /notes для обращений в каналах.",
-				"use_application_commands": "Позволяет слэш-командам бота работать."
+				"read_messages": "Allows the bot to view the content of a channel.",
+				"send_messages": "Allows the bot to send messages in channels.",
+				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
+				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
+				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
+				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
+				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
+				"read_message_history": "Allows the bot to read all messages in a channel.",
+				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
+				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
+				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
+				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
+				"send_messages_in_threads": "Allows the bot to send messages in threads.",
+				"create_public_threads": "Allows the bot to create public threads.",
+				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
+				"use_application_commands": "Allows the bot's slash commands to work."
 			}
 		}
 	},
