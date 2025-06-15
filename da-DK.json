@@ -297,6 +297,21 @@
 				"singular": "Du har **%d** stemmekreditter. Klik på knappen \"Indløs Kreditter\" nedenfor for at indløse dem for %d dage med premium på denne server."
 			}
 		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+			}
+		},
 		"permissions": {
 			"title": "Tjek Tilladelser",
 			"has_admin": "✅ <@%d> has the Administrator permission",
