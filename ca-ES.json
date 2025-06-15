@@ -297,28 +297,43 @@
 				"singular": "Tens **%d** Crèdit de vot. Clica el botó \"Bescanviar Crèdits\" per reclamar %d dia Prèmium en aquest servidor."
 			}
 		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+			}
+		},
 		"permissions": {
 			"title": "Verificació de Permisos",
 			"has_admin": "✅ <@%d> té permís de l'Administració",
 			"has_all": "✅ <@%d> té tots els permisos necessaris",
 			"missing": "❌ Falten Permisos",
 			"description": {
-				"read_messages": "Permet al bot veure el contingut d'un canal.",
-				"send_messages": "Permet al bot enviar missatges als canals.",
-				"embed_links": "Permet al bot enviar panells de tiquets, missatges de benvinguda, i etiquetes que inclouen un missatge incrustat (embed).",
-				"attach_files": "Permet al bot assignar el permís d'adjuntar fitxers a qui ha obert el tiquet.",
-				"add_reactions": "Permet al bot afegir botons als panells de tiquets, missatges de benvinguda, i totes les ordres que utilitzin botons.",
-				"use_external_emojis": "Permet al bot utilitzar emoticones d'altres servidors als panells de tiquets, missatges de benvinguda, i etiquetes. El bot també ha de ser a l'altre servidor per utilitzar-les.",
-				"mention_everyone": "Permet al bot mencionar everyone, here i tots els rols en un tiquet.",
-				"read_message_history": "Permet al bot llegir tots els missatges en un canal.",
-				"manage_channels": "Permet al bot crear, reanomenar, classificar, i eliminar canals.",
-				"manage_roles": "Permet al bot crear i editar rols; assignar o treure rols; i ajustar permisos de rols del canal.",
-				"manage_webhooks": "Permet al bot crear webhooks per transcripcions, i als gestors enviar missatges o etiquetes als tiquets oberts des del taulell web.",
-				"manage_threads": "Permet al bot crear, reanomenar, tancat, i eliminar fils.",
-				"send_messages_in_threads": "Permet al bot enviar missatges als fils.",
-				"create_public_threads": "Permet al bot crear fils públics.",
-				"create_private_threads": "Permet al bot crear fils privats, tals com els tiquets en mode fils i l'ordre /note per un tiquet tipus canal.",
-				"use_application_commands": "Permet el funcionament de les ordres tipus barra (/)."
+				"read_messages": "Allows the bot to view the content of a channel.",
+				"send_messages": "Allows the bot to send messages in channels.",
+				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
+				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
+				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
+				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
+				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
+				"read_message_history": "Allows the bot to read all messages in a channel.",
+				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
+				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
+				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
+				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
+				"send_messages_in_threads": "Allows the bot to send messages in threads.",
+				"create_public_threads": "Allows the bot to create public threads.",
+				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
+				"use_application_commands": "Allows the bot's slash commands to work."
 			}
 		}
 	},
