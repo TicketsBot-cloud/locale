@@ -76,7 +76,7 @@
 	"help.unclaim": "Menghapus klaim pada tiket saat ini",
 	"help.viewstaff": "Daftar anggota staf dan peran",
 	"help.vote": "Memberi Anda tautan untuk memilih premium gratis",
-	"help.check_perms": "Check if the Bot has the right Permissions",
+	"help.check_perms": "Periksa apakah Bot memiliki Izin yang tepat",
 	"open.success": "Membuka tiket baru: %s",
 	"setup.auto.category.failure": "Saya kehilangan izin `Kelola Saluran`",
 	"setup.auto.category.success": "Kategori Tiket yang Dibuat",
@@ -278,7 +278,7 @@
 			"added_to_existing": "Anda telah ditambahkan ke rangkaian catatan yang ada: <#%d>",
 			"thread_name": "catatan",
 			"created": "Rangkaian catatan telah dibuat untuk tiket ini: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Catatan thread hanya didukung dalam mode saluran"
 		},
 		"rename": {
 			"ratelimited": "Karena batasan yang diberlakukan oleh Discord, tiket hanya dapat diganti dua kali setiap 10 menit"
@@ -313,10 +313,10 @@
 			}
 		},
 		"permissions": {
-			"title": "Permissions Check",
-			"has_admin": "✅ <@%d> has the Administrator permission",
-			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
+			"title": "Pemeriksaan Izin",
+			"has_admin": "✅ <@%d> memiliki izin Administrator",
+			"has_all": "✅ <@%d> memiliki semua izin yang diperlukan",
+			"missing": "❌ Izin Hilang",
 			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
