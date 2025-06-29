@@ -314,13 +314,6 @@
 		"reopen": "",
 		"notes": ""
 	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": ""
-			}
-		}
-	},
 	"setup": {
 		"auto": {
 			"docs": ""

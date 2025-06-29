@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "مدرج بالقائمة السوداء",
 	"generic.title.blacklist": "القائمة السوداء",
 	"generic.error.blacklisted": "أنت مدرج في القائمة السوداء في هذا الخادم",
-	"commands.blacklist.add.success": "تم إدراج <@%d> في القائمة السوداء",
-	"commands.blacklist.remove.success": "لقد تم إزالة القائمة السوداء عن <@%d>",
+	"commands.blacklist.add.success": "تم إدراج في القائمة السوداء",
+	"commands.blacklist.remove.success": "لقد تم إزالة القائمة السوداء عن",
 	"generic.title.add_admin": "إضافة مشرف",
 	"generic.title.add_support": "إضافة دعم",
 	"generic.title.remove_admin": "إزالة المشرف",
@@ -354,13 +354,6 @@
 		"on_call": "وضع علامة عليك كأنك داخل مكالمة , حتى يتم اضافتك وتنبيهك في جميع التذاكر الجديدة",
 		"reopen": "اعادة فتح تذكرة تم إغلاقها سابقاً",
 		"notes": "يقوم بإنشاء موضوع للمناقشة الخاصة بين ممثلي الدعم"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "تم إزالة <@&%d> من القائمة السوداء"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

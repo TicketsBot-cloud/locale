@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Įrašytas į juodąjį sąrašą",
 	"generic.title.blacklist": "Juodasis sąrašas",
 	"generic.error.blacklisted": "Jūs esate įtrauktas į juodąjį sąrašą šiame serveryje",
-	"commands.blacklist.add.success": "<@%d> buvo įtrauktas į juodąjį sąrašą",
-	"commands.blacklist.remove.success": "<@%d> buvo pašalintas iš juodojo sąrašo",
+	"commands.blacklist.add.success": "buvo įtrauktas į juodąjį sąrašą",
+	"commands.blacklist.remove.success": "buvo pašalintas iš juodojo sąrašo",
 	"generic.title.add_admin": "Pridėti administratorių",
 	"generic.title.add_support": "Pridėti pagalbos narį",
 	"generic.title.remove_admin": "Pašalinti administratorių",
@@ -354,13 +354,6 @@
 		"on_call": "Pažymi, kad esate budėjime, kad būtumėte pridėtas ir paminėtas visuose naujuose bilietuose",
 		"reopen": "Atidaro iš naujo bilietą, kuris anksčiau buvo uždarytas",
 		"notes": "Sukuria giją privačiai diskusijai tarp pagalbos narių"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> buvo pašalintas iš juodojo sąrašo"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

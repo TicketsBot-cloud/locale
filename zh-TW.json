@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "添加到黑名單",
 	"generic.title.blacklist": "黑名單",
 	"generic.error.blacklisted": "你已經是目前群組的黑名單唷",
-	"commands.blacklist.add.success": "<@%d> 已被列入黑名單",
-	"commands.blacklist.remove.success": "<@%d> 已被解除黑名單",
+	"commands.blacklist.add.success": "已被列入黑名單",
+	"commands.blacklist.remove.success": "已被解除黑名單",
 	"generic.title.add_admin": "加入管理員",
 	"generic.title.add_support": "加入協助人員",
 	"generic.title.remove_admin": "移除管理員",
@@ -354,13 +354,6 @@
 		"on_call": "將您標註為線上狀態，以便在所有新的客服單中加入並被通知。",
 		"reopen": "重新開啟之前關閉的客服單",
 		"notes": "建立一個供支援團隊之間進行私人討論的串"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> 已從黑名單中移出"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

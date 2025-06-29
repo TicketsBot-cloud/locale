@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Colocado na lista de bloqueio",
 	"generic.title.blacklist": "Lista de bloqueio",
 	"generic.error.blacklisted": "Você está bloqueado neste servidor",
-	"commands.blacklist.add.success": "<@%d> foi colocado na lista de bloqueio",
-	"commands.blacklist.remove.success": "<@%d> foi removido da lista de bloqueio",
+	"commands.blacklist.add.success": "foi colocado na lista de bloqueio",
+	"commands.blacklist.remove.success": "foi removido da lista de bloqueio",
 	"generic.title.add_admin": "Adicionar Administrador",
 	"generic.title.add_support": "Adicionar Suporte",
 	"generic.title.remove_admin": "Remover Administrador",
@@ -354,13 +354,6 @@
 		"on_call": "Marca você como em chamada, para ser adicionado e ser notificado em todos os novos tickets",
 		"reopen": "Reabre um ticket que foi fechado anteriormente",
 		"notes": "Cria um tópico para discussão privada entre representantes de suporte"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> foi removido da lista de bloqueio"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

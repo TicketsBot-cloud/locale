@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Daftar Hitam",
 	"generic.title.blacklist": "Daftar Hitam",
 	"generic.error.blacklisted": "Anda masuk daftar hitam di server ini",
-	"commands.blacklist.add.success": "<@%d> telah masuk daftar hitam",
-	"commands.blacklist.remove.success": "<@%d> telah dibatalkan daftar hitamnya",
+	"commands.blacklist.add.success": "telah masuk daftar hitam",
+	"commands.blacklist.remove.success": "telah dibatalkan daftar hitamnya",
 	"generic.title.add_admin": "Tambahkan Admin",
 	"generic.title.add_support": "Tambahkan Dukungan",
 	"generic.title.remove_admin": "Hapus Admin",
@@ -354,13 +354,6 @@
 		"on_call": "Menandai Anda sebagai sedang dipanggil, untuk ditambahkan dan di-ping di semua tiket baru",
 		"reopen": "Membuka kembali tiket yang sebelumnya ditutup",
 		"notes": "Membuat thread untuk diskusi pribadi antara pewakilan dukungan"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> telah dibatalkan dari daftar hitam"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

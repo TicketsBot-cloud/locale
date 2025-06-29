@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Στη μαύρη λίστα",
 	"generic.title.blacklist": "Μαύρη λίστα",
 	"generic.error.blacklisted": "Είστε στη μαύρη λίστα σε αυτόν τον διακομιστή",
-	"commands.blacklist.add.success": "<@%d> έχει εισαχθεί στη μαύρη λίστα",
-	"commands.blacklist.remove.success": "<@%d> έχει αφαιρεθεί από την μαύρη λίστα",
+	"commands.blacklist.add.success": "έχει εισαχθεί στη μαύρη λίστα",
+	"commands.blacklist.remove.success": "έχει αφαιρεθεί από την μαύρη λίστα",
 	"generic.title.add_admin": "Προσθήκη διαχειριστή",
 	"generic.title.add_support": "Προσθήκη υποστήριξης",
 	"generic.title.remove_admin": "Αφαίρεση Διαχειριστή",
@@ -354,13 +354,6 @@
 		"on_call": "Σας επισημαίνει σε υπηρεσία, για να προστίθεται και να σε κάνει ping σε όλα τα tickets",
 		"reopen": "Ανοίγει ξανά ένα ticket που έκλεισε προηγουμένως",
 		"notes": "Δημιουργεί ένα νήμα για ιδιωτική συζήτηση μεταξύ εκπροσώπων υποστήριξης"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> έχει αφαιρεθεί από την μαύρη λίστα"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

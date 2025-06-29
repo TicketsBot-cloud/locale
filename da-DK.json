@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Blacklistet",
 	"generic.title.blacklist": "Sortlist",
 	"generic.error.blacklisted": "Du er ikke whitelistet på denne server",
-	"commands.blacklist.add.success": "<@%d> er blevet blacklistet",
-	"commands.blacklist.remove.success": "<@%d> er blevet fjernet fra blacklisten",
+	"commands.blacklist.add.success": "er blevet blacklistet",
+	"commands.blacklist.remove.success": "er blevet fjernet fra blacklisten",
 	"generic.title.add_admin": "Tilføj administrator",
 	"generic.title.add_support": "Tilføj Support",
 	"generic.title.remove_admin": "Fjern administrator",
@@ -354,13 +354,6 @@
 		"on_call": "Markerer dig som \"På vagt\", så du bliver tilføjet og pinged i all nye tickets",
 		"reopen": "Genåbner en ticket, som tidligere var lukket",
 		"notes": "Opretter en tråd til privat diskussion mellem supportrepræsentanter"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> er blevet unblacklisted"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

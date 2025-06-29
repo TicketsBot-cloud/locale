@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "На Црној Листи",
 	"generic.title.blacklist": "Црна листа",
 	"generic.error.blacklisted": "На црној сте листи на овом серверу",
-	"commands.blacklist.add.success": "<@%d> Је на црној листи",
-	"commands.blacklist.remove.success": "<@%d> hије на црној листи",
+	"commands.blacklist.add.success": "Је на црној листи",
+	"commands.blacklist.remove.success": "hије на црној листи",
 	"generic.title.add_admin": "Додај админ",
 	"generic.title.add_support": "Додај подршку",
 	"generic.title.remove_admin": "Опозови админи права",
@@ -354,13 +354,6 @@
 		"on_call": "Označava te kao dežurnog, da dodaš i upišeš sve nove karte",
 		"reopen": "Поново отвара карту која је раније била затворена",
 		"notes": "Creates a thread for private discussion between support representatives"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> jе на црној листи"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

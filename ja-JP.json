@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "ブラックリスト",
 	"generic.title.blacklist": "ブラック リスト",
 	"generic.error.blacklisted": "このサーバーにブラックリストに登録されています",
-	"commands.blacklist.add.success": "<@%d>がブラックリストに登録されました",
-	"commands.blacklist.remove.success": "<@%d>はブラックリストから解除されました。",
+	"commands.blacklist.add.success": "がブラックリストに登録されました",
+	"commands.blacklist.remove.success": "はブラックリストから解除されました。",
 	"generic.title.add_admin": "管理者を追加",
 	"generic.title.add_support": "サポート担当者を追加",
 	"generic.title.remove_admin": "管理者を削除",
@@ -354,13 +354,6 @@
 		"on_call": "通話中にマーク、追加され、すべての新しいチケットにピン留めされます",
 		"reopen": "以前にクローズされたチケットを再オープンします",
 		"notes": "サポート担当者間のディスカッション用の非公開スレッドを作成します"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@%d>がブラックリストから解除されました。"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

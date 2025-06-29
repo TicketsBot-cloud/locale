@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Gsperrt",
 	"generic.title.blacklist": "Sperrliste",
 	"generic.error.blacklisted": "Du bisch i dem Server gsperrt",
-	"commands.blacklist.add.success": "<@%d> isch zu de Sperrliste hinzuegfüegt worde",
-	"commands.blacklist.remove.success": "<@%d> isch vo de Sperrliste entfernt worde",
+	"commands.blacklist.add.success": "isch zu de Sperrliste hinzuegfüegt worde",
+	"commands.blacklist.remove.success": "isch vo de Sperrliste entfernt worde",
 	"generic.title.add_admin": "Administrator hinzuefüege",
 	"generic.title.add_support": "Support hinzuefüege",
 	"generic.title.remove_admin": "Administrator entferne",
@@ -354,13 +354,6 @@
 		"on_call": "Markiert Dich als verfüegbar, um i neue Tickets automatisch hinzuegfüegt und markiert z'werde",
 		"reopen": "Macht es gschlossnigs Ticket wieder uuf",
 		"notes": "Erstellt es Thread für privati Diskussione zwüsche Support-Mitarbeiter"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> isch vo de Sperrliste entfernt worde"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

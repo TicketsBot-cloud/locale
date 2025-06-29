@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "У чорному списку",
 	"generic.title.blacklist": "Чорний список",
 	"generic.error.blacklisted": "Вас занесено до чорного списку на цьому сервері",
-	"commands.blacklist.add.success": "<@%d> було занесено до чорного списку",
-	"commands.blacklist.remove.success": "<@%d> було видалено з чорного списку",
+	"commands.blacklist.add.success": "було занесено до чорного списку",
+	"commands.blacklist.remove.success": "було видалено з чорного списку",
 	"generic.title.add_admin": "Додати Адміністратора",
 	"generic.title.add_support": "Додати Помічника",
 	"generic.title.remove_admin": "Видалити Адміністратора",
@@ -354,13 +354,6 @@
 		"on_call": "Позначає вас як дежурного, автоматично додаючи та пінгуючи в усіх нових запитах",
 		"reopen": "Повторно видкриває запит який раніше був закритий",
 		"notes": "Створює гілку для приватного обговорення між представниками служби підтримки"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> було видалено з чорного списку"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

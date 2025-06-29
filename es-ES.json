@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "En la lista negra",
 	"generic.title.blacklist": "Lista negra",
 	"generic.error.blacklisted": "Estás en la lista negra de este servidor",
-	"commands.blacklist.add.success": "<@%d> se agregó a la lista negra",
-	"commands.blacklist.remove.success": "<@%d> se quitó de la lista negra",
+	"commands.blacklist.add.success": "se agregó a la lista negra",
+	"commands.blacklist.remove.success": "se quitó de la lista negra",
 	"generic.title.add_admin": "Añadir administrador",
 	"generic.title.add_support": "Añadir Soporte",
 	"generic.title.remove_admin": "Eliminar administrador",
@@ -354,13 +354,6 @@
 		"on_call": "Te marca como llamada en llamada, a ser añadido y hecho ping en todos los nuevos tickets",
 		"reopen": "Vuelve a abrir un ticket que estaba cerrado anteriormente",
 		"notes": "Crea un hilo para la discusión privada entre los representantes de soporte"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> se quitó de la lista negra"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

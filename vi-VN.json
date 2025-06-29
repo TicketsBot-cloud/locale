@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Đã bị chặn",
 	"generic.title.blacklist": "Danh sách bị chặn",
 	"generic.error.blacklisted": "Bạn bị chặn trong máy chủ này",
-	"commands.blacklist.add.success": "<@%d> đã bị chặn",
-	"commands.blacklist.remove.success": "<@%d> đã được gỡ chặn",
+	"commands.blacklist.add.success": "đã bị chặn",
+	"commands.blacklist.remove.success": "đã được gỡ chặn",
 	"generic.title.add_admin": "Thêm quản trị viên",
 	"generic.title.add_support": "Thêm hỗ trợ viên",
 	"generic.title.remove_admin": "Gỡ quản trị viên",
@@ -354,13 +354,6 @@
 		"on_call": "Thêm bạn là đang sẵn sàng, được thêm và ping trong các phiếu hỗ trợ mới",
 		"reopen": "Mở lại phiếu hỗ trợ mà trước đó đã đóng",
 		"notes": "Tạo một kênh chủ đề để thảo luận riêng tư giữa các hỗ trợ viên"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> đã được xoá khỏi danh sách đen"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

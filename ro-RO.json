@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Adăugat în lista neagră",
 	"generic.title.blacklist": "Listă neagră",
 	"generic.error.blacklisted": "Ești pe lista neagră pe acest server",
-	"commands.blacklist.add.success": "<@%d> a fost adăugat în lista neagră",
-	"commands.blacklist.remove.success": "<@%d> a fost scos de pe lista neagră",
+	"commands.blacklist.add.success": "a fost adăugat în lista neagră",
+	"commands.blacklist.remove.success": "a fost scos de pe lista neagră",
 	"generic.title.add_admin": "Adaugă un admin",
 	"generic.title.add_support": "Adaugă un reprezentant de suport",
 	"generic.title.remove_admin": "Elimină un admin",
@@ -354,13 +354,6 @@
 		"on_call": "Te marchează ca fiind la datorie, pentru a fi adăugat și a primi pinguri în toate tichetele noi",
 		"reopen": "Redeschide un tichet care a fost închis anterior",
 		"notes": "Creează un thread pentru discuții private între reprezentanții de suport"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> a fost scos de pe lista neagră"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

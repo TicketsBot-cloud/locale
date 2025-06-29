@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Musta nimekirja pandud",
 	"generic.title.blacklist": "Must nimekiri",
 	"generic.error.blacklisted": "Sa oled selles serveris mustas nimekirjas",
-	"commands.blacklist.add.success": "<@%d> on musta nimekirja pandud",
-	"commands.blacklist.remove.success": "<@%d> on mustast nimekirjast välja võetud",
+	"commands.blacklist.add.success": "on musta nimekirja pandud",
+	"commands.blacklist.remove.success": "on mustast nimekirjast välja võetud",
 	"generic.title.add_admin": "Lisa Administraator",
 	"generic.title.add_support": "Lisa Abipersonaal",
 	"generic.title.remove_admin": "Eemalda Administraator",
@@ -354,13 +354,6 @@
 		"on_call": "Paneb sind \"on call\", et sind oleks võimalik lisada ja mentionida uutes abipiletites",
 		"reopen": "Avab uuesti abipileti mis oli varem suletud",
 		"notes": "Teeb threadi privaatseteks vestlusteks abipersonaalide vahel"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> on mustast nimekirjast välja võetud"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

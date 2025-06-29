@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Svartlistad",
 	"generic.title.blacklist": "Svartlista",
 	"generic.error.blacklisted": "Du är svartlistad i denna server",
-	"commands.blacklist.add.success": "<@%d> har svartlistats",
-	"commands.blacklist.remove.success": "<@%d> är inte längre svartlistad",
+	"commands.blacklist.add.success": "har svartlistats",
+	"commands.blacklist.remove.success": "är inte längre svartlistad",
 	"generic.title.add_admin": "Lägg till administratör",
 	"generic.title.add_support": "Lägg till support",
 	"generic.title.remove_admin": "Ta bort administratör",
@@ -354,13 +354,6 @@
 		"on_call": "Markerar dig som aktiv, att läggas till och pingas i alla nya ärenden",
 		"reopen": "Återöppnar ett ärende som tidigare var stängt",
 		"notes": "Skapa en tråd för privat diskussion mellan supportrepresentanter"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> är inte längre svartlistad"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Mustalistattu",
 	"generic.title.blacklist": "Mustalista",
 	"generic.error.blacklisted": "Olet tämän palvelimen mustallalistalla",
-	"commands.blacklist.add.success": "<@%d> on estetty",
-	"commands.blacklist.remove.success": "<@%d> on otettu pois mustaltalistalta",
+	"commands.blacklist.add.success": "on estetty",
+	"commands.blacklist.remove.success": "on otettu pois mustaltalistalta",
 	"generic.title.add_admin": "Lisää järjestelmänvalvoja",
 	"generic.title.add_support": "Lisää tukihenkilö",
 	"generic.title.remove_admin": "Poista järjestelmänvalvoja",
@@ -354,13 +354,6 @@
 		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
 		"reopen": "Avaa lipukkeen, joka oli aiemmin suljettu",
 		"notes": "Luo viestiketjun yksityiseen keskusteluun tukijoiden välillä"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> on poistettu mustaltalistalta"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

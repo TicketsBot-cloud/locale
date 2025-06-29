@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Dodany do czarnej listy",
 	"generic.title.blacklist": "Czarna lista",
 	"generic.error.blacklisted": "Jesteś na czarnej liście na tym serwerze",
-	"commands.blacklist.add.success": "<@%d> został dodany do czarnej listy",
-	"commands.blacklist.remove.success": "<@%d> został usunięty z czarnej listy",
+	"commands.blacklist.add.success": "został dodany do czarnej listy",
+	"commands.blacklist.remove.success": "został usunięty z czarnej listy",
 	"generic.title.add_admin": "Dodaj Administratora",
 	"generic.title.add_support": "Dodaj Przedstawiciela Wsparcia",
 	"generic.title.remove_admin": "Usuń Administratora",
@@ -354,13 +354,6 @@
 		"on_call": "Oznacza cię jako aktywnego, do dodania i oznaczenia we wszystkich nowych zgłoszeniach",
 		"reopen": "Ponownie otwiera zgłoszenie, które zostało wcześniej zamknięte",
 		"notes": "Tworzy wątek do prywatnych dyskusji między przedstawicielami wsparcia"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> został usunięty z czarnej listy"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

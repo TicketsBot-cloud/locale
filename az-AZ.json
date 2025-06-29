@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Blacklisted",
 	"generic.title.blacklist": "Blacklist",
 	"generic.error.blacklisted": "You are blacklisted in this server",
-	"commands.blacklist.add.success": "<@%d> has been blacklisted",
-	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
+	"commands.blacklist.add.success": "has been blacklisted",
+	"commands.blacklist.remove.success": "has been unblacklisted",
 	"generic.title.add_admin": "Add Admin",
 	"generic.title.add_support": "Add Support",
 	"generic.title.remove_admin": "Remove Admin",
@@ -354,13 +354,6 @@
 		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
 		"reopen": "Reopens a ticket that was previously closed",
 		"notes": "Creates a thread for private discussion between support representatives"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> has been unblacklisted"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

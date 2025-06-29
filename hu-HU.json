@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Tiltólistára került",
 	"generic.title.blacklist": "Tiltólista",
 	"generic.error.blacklisted": "Tiltólistára kerültél a szerveren",
-	"commands.blacklist.add.success": "<@%d> tiltólistára kerül a szerveren",
-	"commands.blacklist.remove.success": "<@%d> le került a tiltólistáról",
+	"commands.blacklist.add.success": "tiltólistára kerül a szerveren",
+	"commands.blacklist.remove.success": "le került a tiltólistáról",
 	"generic.title.add_admin": "Adminisztrátor hozzáadása",
 	"generic.title.add_support": "Támogatás",
 	"generic.title.remove_admin": "Adminisztrátor eltávolítása",
@@ -354,13 +354,6 @@
 		"on_call": "Megjelől téged, amikor hívásban vagy, hogy hozzá lettél adba és meg lettén pingelve az összes új ticketben",
 		"reopen": "Újranyit egy ticketet, ami már zárva volt",
 		"notes": "Készíts privát jegyzeteket a ticket staffjainak"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> le került a tiltólistáról"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

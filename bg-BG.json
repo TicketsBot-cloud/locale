@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Забрана",
 	"generic.title.blacklist": "Постави забрана",
 	"generic.error.blacklisted": "Вие имате поставена забрана в този сървър",
-	"commands.blacklist.add.success": "<@%d> му беше поставена забрана",
-	"commands.blacklist.remove.success": "Забраната на <@%d> беше премахната",
+	"commands.blacklist.add.success": "му беше поставена забрана",
+	"commands.blacklist.remove.success": "Забраната на беше премахната",
 	"generic.title.add_admin": "Добавяне на администратор",
 	"generic.title.add_support": "Добавяне на съпорт",
 	"generic.title.remove_admin": "Премахване на администратор",
@@ -354,13 +354,6 @@
 		"on_call": "Маркира ви в разговор, да бъде добавен и тагван във всички нови билети",
 		"reopen": "Отваря наново билет, който преди това е затворен ",
 		"notes": "Направи тема за лични дискусии със екип мембърите"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@%d> Беше махнат от черния списък"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "Blacklisted",
 	"generic.title.blacklist": "Blacklist",
 	"generic.error.blacklisted": "You are blacklisted in this server",
-	"commands.blacklist.add.success": "<@%d> has been blacklisted",
-	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
+	"commands.blacklist.add.success": "has been blacklisted",
+	"commands.blacklist.remove.success": "has been unblacklisted",
 	"generic.title.add_admin": "Add Admin",
 	"generic.title.add_support": "Add Support",
 	"generic.title.remove_admin": "Remove Admin",
@@ -354,13 +354,6 @@
 		"on_call": "Markas vin kiel deĵoranto, por esti aldonita kaj pingita en ĉiuj novaj biletoj",
 		"reopen": "Reotigas bileton, kiu antaŭe estis fermita",
 		"notes": "Kreas fadenon por privata diskuto inter subtenaj reprezentantoj"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> estis elnigrigita"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

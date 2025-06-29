@@ -126,8 +126,8 @@
 	"generic.title.blacklisted": "黑名单",
 	"generic.title.blacklist": "黑名单",
 	"generic.error.blacklisted": "你的服务器在黑名单中",
-	"commands.blacklist.add.success": "<@%d>已被列入黑名单",
-	"commands.blacklist.remove.success": "<@%d> 已被移出黑名单",
+	"commands.blacklist.add.success": "已被列入黑名单",
+	"commands.blacklist.remove.success": "已被移出黑名单",
 	"generic.title.add_admin": "添加管理员",
 	"generic.title.add_support": "添加支持",
 	"generic.title.remove_admin": "移除管理员",
@@ -354,13 +354,6 @@
 		"on_call": "将您标记为在线，将自动加入新的工单中并且你在这个线程里发的消息会被标记。",
 		"reopen": "重新打开之前关闭的工单",
 		"notes": "创建一个提供给支持团队私下讨论的主题"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> 已被移出黑名单"
-			}
-		}
 	},
 	"setup": {
 		"auto": {
