@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Mitarbeiter chönd nöd gsperrt werde",
 			"add_role": {
-				"success": "<@&%d> isch zu de Sperrliste hinzuegfüegt worde",
 				"limit": "Du hesch s'Limit für d'Aazahl Rollene i de Sperrliste erreicht (%d)"
 			},
 			"add": {

@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Komandos nariai negali būti įtraukti į juodąjį sąrašą",
 			"add_role": {
-				"success": "<@&%d> buvo įtrauktas į juodąjį sąrašą",
 				"limit": "Pasiekėte juodojo sąrašo rolių limitą (%d)"
 			},
 			"add": {

@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Zamestnanci nemôžu byť zaradení na čiernu listinu",
 			"add_role": {
-				"success": "<@&%d> bol zaradený na čiernu listinu",
 				"limit": "Dosiahli ste limit čiernej listiny rolí (%d)"
 			},
 			"add": {

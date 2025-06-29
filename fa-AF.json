@@ -190,7 +190,6 @@
 		"blacklist": {
 			"staff": "",
 			"add_role": {
-				"success": "",
 				"limit": ""
 			},
 			"add": {

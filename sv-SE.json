@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Staff medlemmar kan inte svartlistas",
 			"add_role": {
-				"success": "<@&%d> har svartlistats",
 				"limit": "Du har nått gränsen för rollens svartlista (%d)"
 			},
 			"add": {

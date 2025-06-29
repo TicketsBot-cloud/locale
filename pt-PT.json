@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Membros da equipa não podem estar na lista negra",
 			"add_role": {
-				"success": "<@&%d> foi colocado/a na lista negra",
 				"limit": "Tu atingiste o limite de lista negra de cargos (%d)"
 			},
 			"add": {

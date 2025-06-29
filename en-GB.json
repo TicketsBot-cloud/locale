@@ -192,7 +192,6 @@
 		"blacklist": {
 			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
-				"success": "<@&%d> has been blacklisted",
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {

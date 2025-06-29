@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Henkilöstön jäseniä ei voi olla mustalla listalla",
 			"add_role": {
-				"success": "<@&%d> on asetettu mustallelistalle",
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {

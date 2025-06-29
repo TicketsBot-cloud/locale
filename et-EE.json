@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Personaale ei saa musta nimekirja panna",
 			"add_role": {
-				"success": "<@&%d> on musta nimekirja pandud",
 				"limit": "Sa oled jõudnud rolli musta nimekirja limiidini (%d)"
 			},
 			"add": {

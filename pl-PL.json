@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Obsługa nie może być na czarnej liście",
 			"add_role": {
-				"success": "<@&%d> został dodany do czarnej listy",
 				"limit": "Osiągnąłeś limit ról na czarnej liście (%d)"
 			},
 			"add": {

@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Stabaj membroj ne povas esti nigre-listigitaj",
 			"add_role": {
-				"success": "<@&%d> estis nigre-listigita",
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {

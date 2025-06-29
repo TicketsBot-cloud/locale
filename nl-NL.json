@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Medewerkers kunnen niet worden geblacklist",
 			"add_role": {
-				"success": "<@&%d> is op de blacklist gezet",
 				"limit": "Je hebt het limiet voor de rol blacklist bereikt (%d)"
 			},
 			"add": {

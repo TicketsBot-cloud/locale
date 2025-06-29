@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Membrii staffului nu pot fi adăugați în lista neagră",
 			"add_role": {
-				"success": "<@&%d> a fost adăugat în lista neagră",
 				"limit": "Ai atins limita de roluri de pe lista neagră (%d)"
 			},
 			"add": {

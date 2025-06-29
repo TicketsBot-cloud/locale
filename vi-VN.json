@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Quản lí không thể bị cho vào danh sách đen",
 			"add_role": {
-				"success": "<@&%d> đã bị cho vào danh sách đen",
 				"limit": "Bạn đã sử dụng hết giới hạn của danh sách đen vai trò (%d)"
 			},
 			"add": {

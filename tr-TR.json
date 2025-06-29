@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Yönetici üyeler kara listeye alınamaz",
 			"add_role": {
-				"success": "<@&%d> kara listeye alındı",
 				"limit": "Sınıra ulaştınız, daha fazla rolü kara listeye ekleyemezsiniz (%d)"
 			},
 			"add": {

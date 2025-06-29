@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "A staff felhasználók nem lehetnek a feketelistán",
 			"add_role": {
-				"success": "<@&%d> a feketelistára került",
 				"limit": "Elérted a rang feketelista limitjét ˙(%d)"
 			},
 			"add": {

@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Anggota staf tidak dapat dimasukkan dalam daftar hitam",
 			"add_role": {
-				"success": "<@&%d> telah masuk daftar hitam",
 				"limit": "Anda telah mencapai batas daftar hitam peran (%d)"
 			},
 			"add": {

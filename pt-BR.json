@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Membros da equipe não podem estar na lista de bloqueio",
 			"add_role": {
-				"success": "<@&%d> foi colocado na lista de bloqueio",
 				"limit": "Você atingiu o limite da lista de bloqueio de cargos (%d)"
 			},
 			"add": {

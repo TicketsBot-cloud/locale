@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "管理員不能被黑名單唷",
 			"add_role": {
-				"success": "<@&%d> 已經被黑名單",
 				"limit": "您達到了身分組黑名單限制（%d）"
 			},
 			"add": {

@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Članovi osoblja ne mogu biti stavljeni na crnu listu",
 			"add_role": {
-				"success": "<@&%d> je sada na crnoj listi",
 				"limit": "Dosegli ste ograničenje crne liste uloga (%d)"
 			},
 			"add": {

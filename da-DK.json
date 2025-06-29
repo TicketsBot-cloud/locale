@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Personale kan ikke blive blacklisted",
 			"add_role": {
-				"success": "<@&%d> er blevet blacklistet",
 				"limit": "Du har nået grænsen for blacklisting af roller (%d)"
 			},
 			"add": {

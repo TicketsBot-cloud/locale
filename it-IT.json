@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "I membri dello staff non possono essere aggiunti alla blacklist",
 			"add_role": {
-				"success": "<@&%d> è stato aggiunto alla blacklist",
 				"limit": "Hai raggiunto il limite dei ruoli nella blacklist (%d)"
 			},
 			"add": {

@@ -191,7 +191,6 @@
 		"blacklist": {
 			"staff": "Stabb medlemmer kan ikke bli svartelistet",
 			"add_role": {
-				"success": "<@&%d> har blitt svartelistet",
 				"limit": "Du har nådd grensen på antall svartelistede roller (%d)"
 			},
 			"add": {
