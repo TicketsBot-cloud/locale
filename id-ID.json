@@ -43,7 +43,7 @@
 	"help.about": "Memberi tahu Anda informasi tentang bot",
 	"help.add": "Menambahkan pengguna ke tiket",
 	"help.addadmin": "Memberikan hak istimewa kepada pengguna atau peran admin",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Menambahkan peran sebagai perwakilan dukungan",
 	"help.admin": "Manajemen bot",
 	"help.admin.blacklist": "Daftar hitamkan guild agar tidak menggunakan bot",
 	"help.admin.check_premium": "Periksa status premium server",
@@ -298,18 +298,18 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Staf",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Pengguna Admin",
+				"roles": "Peran Admin",
+				"no_users": "Tidak ada pengguna admin",
+				"no_roles": "Tidak ada peran admin"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Dukungan Pengguna",
+				"roles": "Peran Dukungan",
+				"no_roles": "Tidak ada peran pendukung",
+				"users_warning": "-#**Peringatan:** Pengguna dalam tim dukungan kini tidak berlaku lagi. Harap migrasikan ke peran."
 			}
 		},
 		"permissions": {
@@ -318,22 +318,22 @@
 			"has_all": "✅ <@%d> memiliki semua izin yang diperlukan",
 			"missing": "❌ Izin Hilang",
 			"description": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
-				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
-				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
-				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
-				"read_message_history": "Allows the bot to read all messages in a channel.",
-				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
-				"use_application_commands": "Allows the bot's slash commands to work."
+				"read_messages": "Mengizinkan bot untuk melihat konten suatu saluran.",
+				"send_messages": "Mengizinkan bot untuk mengirim pesan dalam saluran.",
+				"embed_links": "Mengizinkan bot mengirimkan panel tiket, pesan selamat datang, dan tag yang menyertakan pesan tertanam.",
+				"attach_files": "Mengizinkan bot untuk menetapkan izin melampirkan file ke pembuka tiket.",
+				"add_reactions": "Mengizinkan bot untuk menambahkan tombol ke panel tiket, pesan selamat datang, dan semua perintah yang menggunakan tombol.",
+				"use_external_emojis": "Mengizinkan bot menggunakan emoji non-server di panel tiket, pesan selamat datang, dan tag. Bot harus tetap berada di server lain untuk menggunakannya.",
+				"mention_everyone": "Mengizinkan bot menyebutkan semua orang, di sini dan semua peran dalam tiket.",
+				"read_message_history": "Mengizinkan bot membaca semua pesan dalam suatu saluran.",
+				"manage_channels": "Mengizinkan bot untuk membuat, mengganti nama, mengkategorikan ulang, dan menhapus saluran.",
+				"manage_roles": "Mengizinkan bot untuk membuat dan mengedit peran; memberi dan mengambil peran dari pengguna; dan menyesuaikan izin peran saluran.",
+				"manage_webhooks": "Mengizinkan bot membuat webhook untuk transkrip, dan bagi staf untuk menggunakan dasbor untuk mengirim pesan atau tag pada tiket terbuka.",
+				"manage_threads": "Mengizinkan bot untuk membuat, mengganti nama, menutup, dan menghapus utas.",
+				"send_messages_in_threads": "Mengizinkan bot untuk mengirim pesan dalam thread.",
+				"create_public_threads": "Mengizinkan bot membuat thread publik.",
+				"create_private_threads": "Mengizinkan bot membuat utas pribadi, seperti tiket mode utas dan perintah /notes untuk tiket saluran.",
+				"use_application_commands": "Mengizinkan perintah slash bot berfungsi."
 			}
 		}
 	},
