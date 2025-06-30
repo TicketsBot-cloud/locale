@@ -43,7 +43,7 @@
 	"help.about": "Nêu thông tin về người máy",
 	"help.add": "Thêm một người dùng vào phiếu hỗ trợ",
 	"help.addadmin": "Cấp quyền một người hoặc vai trò quyền quản trị viên",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Thêm vai trò dành cho đại diện hỗ trợ viên",
 	"help.admin": "Quản lý người máy",
 	"help.admin.blacklist": "Chặn một máy chủ khỏi việc dùng người máy",
 	"help.admin.check_premium": "Kiểm tra trạng thái phiên bản cao cấp của một máy chủ",
@@ -298,17 +298,17 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Quản lý",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Quản trị viên",
+				"roles": "Vai trò của quản trị viên",
+				"no_users": "Không có quản trị viên",
+				"no_roles": "Không có vai trò của quản trị viên"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
+				"users": "Thành viên đội ngũ hỗ trợ",
+				"roles": "Vai trò của đội ngũ hỗ trợ",
+				"no_roles": "Không có vai trò của đội ngũ hỗ trợ",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
@@ -318,22 +318,22 @@
 			"has_all": "<@%d> đã sở hữu tất cả quyền được yêu cầu",
 			"missing": "❌ Thiếu quyền lợi",
 			"description": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
-				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
-				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
-				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
-				"read_message_history": "Allows the bot to read all messages in a channel.",
-				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
-				"use_application_commands": "Allows the bot's slash commands to work."
+				"read_messages": "Cho phép bot đọc nội dung của kênh.",
+				"send_messages": "Cho phép bot nhắn tin trong các kênh.",
+				"embed_links": "Cho phép bot gửi bảng phiếu hỗ trợ, tin nhắn chào mừng và thẻ tên có chứa nội dung nhúng.",
+				"attach_files": "Cho phép bot cấp quyền đính kèm tập tin cho người mở phiếu hỗ trợ.",
+				"add_reactions": "Cho phép bot thêm nút bấm cho bảng phiếu hỗ trợ, tin nhắn chào mừng và tất cả câu lệnh sử dụng nút bấm.",
+				"use_external_emojis": "Cho phép bot sử dụng những emojis ngoài máy chủ cho bảng phiếu hỗ trợ, tin nhắn chào mừng và thẻ tên. Bot bắt buộc phải ở trong máy chủ có emoji đó để sử dụng chúng.",
+				"mention_everyone": "Cho phép bot đề cập @everyone, @here và tất cả vai trò trong phiếu hỗ trợ.",
+				"read_message_history": "Cho phép bot đọc tin nhắn trong kênh.",
+				"manage_channels": "Cho phép bot tạo, đổi tên, sắp xếp và xóa các kênh.",
+				"manage_roles": "Cho phép bot tạo và chỉnh sửa vai trò; cấp và xóa vai trò của người dùng; và chỉnh sửa các quyền lợi của vai trò trong kênh.",
+				"manage_webhooks": "Cho phép bot tạo webhooks cho việc ghi chú và cho phép quản lý sử dụng trang quản lý để gửi tin nhắn hoặc thẻ tên trong những phiếu hỗ trợ đang mở.",
+				"manage_threads": "Cho phép bot tạo, đổi tên, đóng và xóa các kênh chủ đề.",
+				"send_messages_in_threads": "Cho phép bot gửi tin nhắn trong các kênh chủ đề.",
+				"create_public_threads": "Cho phép bot tạo các kênh chủ đề.",
+				"create_private_threads": "Cho phép bot tạo các kênh chủ đề riêng tư cũng như chế độ phiếu hỗ trợ bằng kênh chủ đề và lệnh /notes cho các phiếu hỗ trợ.",
+				"use_application_commands": "Cho phép các câu lệnh ứng dụng của bot hoạt động."
 			}
 		}
 	},
