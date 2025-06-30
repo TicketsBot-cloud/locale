@@ -43,7 +43,7 @@
 	"help.about": "Vous donne des informations sur le bot",
 	"help.add": "Ajoute un utilisateur à un ticket",
 	"help.addadmin": "Accorde à un utilisateur ou à un rôle des privilèges d'administrateur",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Ajoute un rôle en tant que représentant du support",
 	"help.admin": "Gestion du bot",
 	"help.admin.blacklist": "Met un serveur sur liste noire pour l'empêcher d'utiliser le bot",
 	"help.admin.check_premium": "Vérifie le statut premium d'un serveur",
@@ -298,18 +298,18 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Personnel",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Utilisateurs Administrateurs",
+				"roles": "Rôles Administrateurs",
+				"no_users": "Aucun utilisateur administrateur",
+				"no_roles": "Aucun rôle administrateur"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Utilisateurs du Support",
+				"roles": "Rôles de Support",
+				"no_roles": "Aucun rôle de support",
+				"users_warning": "-# **Attention :** Les utilisateurs dans les équipes de support sont désormais obsolètes. Veuillez migrer vers les rôles."
 			}
 		},
 		"permissions": {
@@ -318,22 +318,22 @@
 			"has_all": "✅ <@%d> a toutes les permissions requises",
 			"missing": "❌ Permissions manquantes",
 			"description": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
-				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
-				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
-				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
-				"read_message_history": "Allows the bot to read all messages in a channel.",
-				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
-				"use_application_commands": "Allows the bot's slash commands to work."
+				"read_messages": "Permet au bot de voir le contenu d'un salon.",
+				"send_messages": "Permet au bot d'envoyer des messages dans les salons.",
+				"embed_links": "Permet au bot d'envoyer des panneaux de tickets, des messages d'accueil et des tags qui incluent un message intégré.",
+				"attach_files": "Permet au bot d'assigner la permission d'attacher des fichiers à l'ouvreur de tickets.",
+				"add_reactions": "Permet au bot d'ajouter les boutons aux panneaux de tickets, messages d'accueil et toutes les commandes qui utilisent des boutons.",
+				"use_external_emojis": "Permet au bot d'utiliser des emojis non-serveur dans les panneaux de tickets, messages d'accueil et étiquettes. Le bot doit toujours être sur l'autre serveur pour les utiliser.",
+				"mention_everyone": "Permet au bot de mentionner everyone, here et tous les rôles dans un ticket.",
+				"read_message_history": "Permet au bot de lire tous les messages dans un salon.",
+				"manage_channels": "Permet au bot de créer, renommer, recatégoriser et supprimer des salons.",
+				"manage_roles": "Permet au bot de créer et modifier des rôles ; donner et retirer des rôles aux utilisateurs ; et ajuster les permissions de rôle d'un salon.",
+				"manage_webhooks": "Permet au bot de créer des webhooks pour les transcriptions, et au personnel d'utiliser le tableau de bord pour envoyer des messages ou des tags dans les tickets ouverts.",
+				"manage_threads": "Permet au bot de créer, renommer, fermer et supprimer des fils de discussion.",
+				"send_messages_in_threads": "Permet au bot d'envoyer des messages dans les fils de discussion.",
+				"create_public_threads": "Permet au bot de créer des fils de discussion publics.",
+				"create_private_threads": "Permet au bot de créer des fils de discussion privés, tels que les tickets en mode fil de discussion et la commande /notes pour les tickets en mode salon.",
+				"use_application_commands": "Permet aux commandes slash du bot de fonctionner."
 			}
 		}
 	},
