@@ -309,7 +309,7 @@
 				"users": "Thành viên đội ngũ hỗ trợ",
 				"roles": "Vai trò của đội ngũ hỗ trợ",
 				"no_roles": "Không có vai trò của đội ngũ hỗ trợ",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users_warning": "-# **Cảnh cáo:** Tính năng chọn thành viên cho đội ngũ hỗ trợ đã không còn khả dùng. Vui lòng chuyển sang sử dụng vai trò cho đội ngũ hỗ trợ."
 			}
 		},
 		"permissions": {
