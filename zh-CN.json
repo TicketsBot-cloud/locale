@@ -76,7 +76,7 @@
 	"help.unclaim": "撤销原本分配到该问题单的人",
 	"help.viewstaff": "显示问题单工作人员跟支持人员",
 	"help.vote": "给你一个投票连结让你获得免费高级版的资格",
-	"help.check_perms": "Check if the Bot has the right Permissions",
+	"help.check_perms": "检查机器人是否被赋予正确权限",
 	"open.success": "开了一张问题单：%s",
 	"setup.auto.category.failure": "我没有 `管理频道` 的权限唷",
 	"setup.auto.category.success": "创建问题单类别",
@@ -298,41 +298,41 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "工作人员",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "管理员（用户）",
+				"roles": "管理员（角色）",
+				"no_users": "",
+				"no_roles": "无管理员（角色）"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "支持（用户）",
+				"roles": "支持人员（角色）",
+				"no_roles": "无支持人员（角色）",
+				"users_warning": "-# **警告:** 在支持团队中添加的用户现在已废弃。请创建一个角色并设置该角色为支持团队。"
 			}
 		},
 		"permissions": {
-			"title": "Permissions Check",
-			"has_admin": "✅ <@%d> has the Administrator permission",
-			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
+			"title": "权限检测",
+			"has_admin": "✅ <@%d> 有管理员权限",
+			"has_all": "✅ <@%d> 有所有权限",
+			"missing": "❌ 权限丢失",
 			"description": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
-				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
-				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
-				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
-				"read_message_history": "Allows the bot to read all messages in a channel.",
-				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
+				"read_messages": "允许机器人查看频道的内容。",
+				"send_messages": "允许机器人在频道中发送消息。",
+				"embed_links": "允许机器人发送工单面板，欢迎消息和包含嵌入消息的标签。",
+				"attach_files": "允许机器人将附加文件权限分配给工单开启者。",
+				"add_reactions": "允许机器人将按钮添加到工单面板，欢迎消息以及使用按钮的所有命令。",
+				"use_external_emojis": "允许机器人在工单面板、欢迎消息和标签中使用非服务器表情符号。Bot必须仍然在其他服务器中才能使用。",
+				"mention_everyone": "允许机器人在这里和工单中提及所有角色。",
+				"read_message_history": "允许机器人读取所有频道消息。",
+				"manage_channels": "允许机器人创建、重命名、重新分类和删除频道。",
+				"manage_roles": "允许机器人创建和编辑角色；赋予用户和取用角色；并调整频道角色权限。",
+				"manage_webhooks": "允许机器人创建网络钩子用于工单存储，并允许员工使用仪表盘在打开工单中发送消息或标签。",
+				"manage_threads": "允许机器人创建、重命名、关闭和删除线程。",
+				"send_messages_in_threads": "允许机器人在线程中发送消息。",
+				"create_public_threads": "允许机器人创建公开主题。",
+				"create_private_threads": "允许机器人创建私有线程，例如线程模式工单和频道工单/笔记命令。",
 				"use_application_commands": "Allows the bot's slash commands to work."
 			}
 		}
