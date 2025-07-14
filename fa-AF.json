@@ -190,7 +190,6 @@
 		"blacklist": {
 			"staff": "",
 			"add_role": {
-				"success": "",
 				"limit": ""
 			},
 			"add": {
@@ -313,13 +312,6 @@
 		"on_call": "",
 		"reopen": "",
 		"notes": ""
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": ""
-			}
-		}
 	},
 	"setup": {
 		"auto": {
