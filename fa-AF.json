@@ -99,10 +99,6 @@
 	"commands.open.from.moved": "",
 	"help.close_request": "",
 	"close.reason_too_long": "",
-	"commands.close_request.no_reason": "",
-	"commands.close_request.with_reason": "",
-	"commands.close_request.no_permission": "",
-	"commands.close_request.denied": "",
 	"generic.error": "",
 	"feedback.disabled": "",
 	"feedback.success": "",
@@ -145,8 +141,6 @@
 	"generic.title.close_confirmation": "",
 	"close.confirmation": "",
 	"generic.title.close_request": "",
-	"commands.close_request.accept": "",
-	"commands.close_request.deny": "",
 	"commands.premium.success": "",
 	"generic.title.claimed": "",
 	"generic.title.unclaimed": "",
@@ -293,6 +287,14 @@
 			"with_credits": {
 				"plural": "",
 				"singular": ""
+			}
+		},
+		"close_request": {
+			"no_permission": "",
+			"denied": ".",
+			"buttons": {
+				"accept": "",
+				"deny": ""
 			}
 		}
 	},
