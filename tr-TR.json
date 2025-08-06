@@ -186,7 +186,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Geçersiz panel: Açılır menüden birini seçmelisiniz",
-			"success": "Bu bilet <@%d> tarafından, `%s` paneline geçirildi"
+			"success": "Bu bilet <@%[2]d> tarafından, `%[1]s` paneline geçirildi"
 		},
 		"blacklist": {
 			"staff": "Yönetici üyeler kara listeye alınamaz",
