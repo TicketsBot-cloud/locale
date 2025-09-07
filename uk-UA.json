@@ -47,6 +47,7 @@
 	"help.admin": "Управління ботом",
 	"help.admin.blacklist": "Додати сервер до чорного списку",
 	"help.admin.check_premium": "Перевірити преміум статус сервера",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Згенерувати преміум Ключі",
 	"help.admin.get_owner": "Видає власника сервера",
 	"help.admin.unblacklist": "Видалити сервер з чорного списку серверів",
