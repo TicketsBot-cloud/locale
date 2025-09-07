@@ -47,6 +47,7 @@
 	"help.admin": "Zarządzanie botem",
 	"help.admin.blacklist": "Zablokuj możliwość używania bota w serwerze",
 	"help.admin.check_premium": "Sprawdź status premium serwera",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Generuje klucz premium",
 	"help.admin.get_owner": "Sprawdza właściciela serwera",
 	"help.admin.unblacklist": "Usuwa serwer z czarnej listy serwerów",
