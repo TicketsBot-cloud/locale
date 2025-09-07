@@ -47,7 +47,7 @@
 	"help.admin": "Gestion du bot",
 	"help.admin.blacklist": "Met un serveur sur liste noire pour l'empêcher d'utiliser le bot",
 	"help.admin.check_premium": "Vérifie le statut premium d'un serveur",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug": "Déboguer les paramètres d'un serveur",
 	"help.admin.generate_premium": "Génère des clés premium",
 	"help.admin.get_owner": "Permet de connaître le propriétaire d'un serveur",
 	"help.admin.unblacklist": "Supprime un serveur de la liste noire",
