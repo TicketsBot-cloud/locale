@@ -47,6 +47,7 @@
 	"help.admin": "Boti muutmine",
 	"help.admin.blacklist": "Blacklisti mingi server boti kasutamisest",
 	"help.admin.check_premium": "Vaata mingi serveri premiumi staatust",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Genereeri premium võti",
 	"help.admin.get_owner": "Saab mingi serveri omaniku",
 	"help.admin.unblacklist": "Võtab mingi serveri serveri blacklistist",
