@@ -47,6 +47,7 @@
 	"help.admin": "Botin hallinta",
 	"help.admin.blacklist": "Estä guild käyttämästä bottia",
 	"help.admin.check_premium": "Tarkista palvelimesi Premium-tila",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Luo Premium avaimet",
 	"help.admin.get_owner": "Ota palvelimen omistaja",
 	"help.admin.unblacklist": "Poista guild mustalta listalta",
