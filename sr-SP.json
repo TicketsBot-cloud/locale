@@ -47,6 +47,7 @@
 	"help.admin": "Управљање Бат-ом",
 	"help.admin.blacklist": "Црна листа сервера који користи робота",
 	"help.admin.check_premium": "Провери статус сервера",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Генеришите кључеве од премије",
 	"help.admin.get_owner": "Набави DynIP сервера",
 	"help.admin.unblacklist": "Уклоните сервер са црне листе сервера",
