@@ -47,6 +47,7 @@
 	"help.admin": "Управление на бота",
 	"help.admin.blacklist": "Поставяне на забрана даден сървър да използва бота",
 	"help.admin.check_premium": "Проверка на премимум статуса на сървър",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Генерира премиум ключове",
 	"help.admin.get_owner": "Споменава собственика на сървъра",
 	"help.admin.unblacklist": "Премахва сървър от листа със забрани",
