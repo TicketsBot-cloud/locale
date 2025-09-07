@@ -47,6 +47,7 @@
 	"help.admin": "ניהול הבוט",
 	"help.admin.blacklist": "רשימה שחורה של אנשים משימוש בבוט",
 	"help.admin.check_premium": "בדוק את סטטוס הפרימיום של שרת",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "צור מפתחות פרימיום",
 	"help.admin.get_owner": "מקבל את הבעלים של השרת",
 	"help.admin.unblacklist": "הסר את המשתמש מהרשימה השחורה",
