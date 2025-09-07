@@ -47,6 +47,7 @@
 	"help.admin": "Bot-Verwaltung",
 	"help.admin.blacklist": "Verhindert die Benutzung des Bots für einen Server",
 	"help.admin.check_premium": "Überprüfe den Premium-Status eines Servers",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Generiere Premium-Schlüssel",
 	"help.admin.get_owner": "Zeigt den Besitzer eines Servers an",
 	"help.admin.unblacklist": "Entferne einen Server von der Sperrliste",
