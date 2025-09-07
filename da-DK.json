@@ -47,6 +47,7 @@
 	"help.admin": "Bot håndtering",
 	"help.admin.blacklist": "Blacklist en guild, så de ikke kan bruge denne bot",
 	"help.admin.check_premium": "Kontroller premium-status på en server",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Generer premium nøgler",
 	"help.admin.get_owner": "Henter ejeren af en server",
 	"help.admin.unblacklist": "Fjerner en guild fra blacklisten",
