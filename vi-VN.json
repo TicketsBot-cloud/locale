@@ -47,6 +47,7 @@
 	"help.admin": "Quản lý người máy",
 	"help.admin.blacklist": "Chặn một máy chủ khỏi việc dùng người máy",
 	"help.admin.check_premium": "Kiểm tra trạng thái phiên bản cao cấp của một máy chủ",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Tạo các mã dành cho bản cao cấp",
 	"help.admin.get_owner": "Lấy thông tin về chủ sở hữu của một máy chủ",
 	"help.admin.unblacklist": "Gỡ một máy chủ ra khỏi danh sách chặn",
