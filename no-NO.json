@@ -47,6 +47,7 @@
 	"help.admin": "Bot administering",
 	"help.admin.blacklist": "Svartelist en guild fra å bruke botten",
 	"help.admin.check_premium": "Sjekker premium statusen på en server",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Generer premium nøkler",
 	"help.admin.get_owner": "Henter eieren av en server",
 	"help.admin.unblacklist": "Fjern en guild fra guild svartelisten",
