@@ -47,6 +47,7 @@
 	"help.admin": "Upravljanje botov",
 	"help.admin.blacklist": "Na črni seznam ceha, ki ne uporablja bota",
 	"help.admin.check_premium": "Preverite premium status strežnika",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Ustvarite manjkajoče ključe",
 	"help.admin.get_owner": "Pridobi DynIP strežnika",
 	"help.admin.unblacklist": "Odstranite ceh s črnega seznama ceha",
