@@ -47,6 +47,7 @@
 	"help.admin": "Managementul botului",
 	"help.admin.blacklist": "Pune un server pe lista neagră pentru a-l împiedica să folosească botul",
 	"help.admin.check_premium": "Verifică statusul premium al unui server",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Generează chei premium",
 	"help.admin.get_owner": "Obține proprietarul unui server",
 	"help.admin.unblacklist": "Elimină un server din lista neagră a serverelor",
