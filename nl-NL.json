@@ -47,6 +47,7 @@
 	"help.admin": "Botbeheer",
 	"help.admin.blacklist": "Blacklist een guild van het gebruiken van de bot",
 	"help.admin.check_premium": "Bekijk de premium status van een server",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Genereer premium sleutels",
 	"help.admin.get_owner": "Haalt de eigenaar van een server op",
 	"help.admin.unblacklist": "Haalt een server van de blacklist af",
