@@ -47,6 +47,7 @@
 	"help.admin": "機器人管理",
 	"help.admin.blacklist": "將伺服器使用機器人列入黑名單",
 	"help.admin.check_premium": "檢查伺服器是否有開通高級版",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "產生高級版代碼",
 	"help.admin.get_owner": "獲取伺服器的擁有者資訊",
 	"help.admin.unblacklist": "將該伺服器從黑名單移除",
