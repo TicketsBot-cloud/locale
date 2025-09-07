@@ -47,6 +47,7 @@
 	"help.admin": "बॉट प्रबंधन",
 	"help.admin.blacklist": "बीओटी का उपयोग करने से किसी गिल्ड को ब्लैकलिस्ट करें",
 	"help.admin.check_premium": "सर्वर की प्रीमियम स्थिति की जाँच करें",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "प्रीमियम कुंजी उत्पन्न करें",
 	"help.admin.get_owner": "सर्वर का मालिक मिलता है",
 	"help.admin.unblacklist": "गिल्ड ब्लैकलिस्ट से एक गिल्ड निकालें",
