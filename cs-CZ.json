@@ -47,6 +47,7 @@
 	"help.admin": "Správa bota",
 	"help.admin.blacklist": "Černá listina a skupin z používání bota",
 	"help.admin.check_premium": "Zkontrolujte prémiový status serveru",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Vygenerovat prémiové klíče",
 	"help.admin.get_owner": "Získá vlastníka serveru",
 	"help.admin.unblacklist": "Odebrat skupinu z černé listiny skupiny",
