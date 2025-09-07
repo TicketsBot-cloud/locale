@@ -47,6 +47,7 @@
 	"help.admin": "Διαχείριση bot",
 	"help.admin.blacklist": "Αποκλεισμός μιας συντεχνίας από το να χρησιμοποιήσει το bot",
 	"help.admin.check_premium": "Ελέγξτε την κατάσταση Premium ενός διακομιστή",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Δημιουργία premium κλειδιού",
 	"help.admin.get_owner": "Παίρνει τον ιδιοκτήτη ενός διακομιστή",
 	"help.admin.unblacklist": "Αφαίρεση συντεχνίας από τη μαύρη λίστα συντεχνίας",
