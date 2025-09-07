@@ -47,6 +47,7 @@
 	"help.admin": "Manajemen bot",
 	"help.admin.blacklist": "Daftar hitamkan guild agar tidak menggunakan bot",
 	"help.admin.check_premium": "Periksa status premium server",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Hasilkan kunci premium",
 	"help.admin.get_owner": "Mendapatkan pemilik server",
 	"help.admin.unblacklist": "Menghaps guild dari daftar hitam guild",
