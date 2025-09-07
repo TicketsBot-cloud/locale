@@ -47,6 +47,7 @@
 	"help.admin": "Bot menedzsment.",
 	"help.admin.blacklist": "Csoport feketelistára tétele.",
 	"help.admin.check_premium": "Ellenőrzi a szerver prémium állapotát",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Prémium kulcs generálása",
 	"help.admin.get_owner": "Szerver tulajdonosának beállítása",
 	"help.admin.unblacklist": "Csoport levétele a feketelistáról.",
