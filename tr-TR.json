@@ -47,6 +47,7 @@
 	"help.admin": "Bot yönetimi",
 	"help.admin.blacklist": "Sunucunun botu kullanmasını kara listeye alarak engelle",
 	"help.admin.check_premium": "Sunucunun premium olup olmadığını kontrol et",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Premium anahtarları oluşturur",
 	"help.admin.get_owner": "Bir sunucunun sahibini gösterir",
 	"help.admin.unblacklist": "Bir sunucuyu sunucu kara listesinden çıkarın",
