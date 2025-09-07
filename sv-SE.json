@@ -47,6 +47,7 @@
 	"help.admin": "Bot hantering",
 	"help.admin.blacklist": "Bannlys en server från att använda botten",
 	"help.admin.check_premium": "Kontrollera premiumstatus för en server",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Generera premium nycklar",
 	"help.admin.get_owner": "Visar ägaren av servern",
 	"help.admin.unblacklist": "Ta bort en guild från guild svartlistan",
