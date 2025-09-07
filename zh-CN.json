@@ -47,6 +47,7 @@
 	"help.admin": "机器人管理",
 	"help.admin.blacklist": "将服务器使用机器人列入黑名单",
 	"help.admin.check_premium": "检查服务器是否有开通高级版",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "产生高级版代码",
 	"help.admin.get_owner": "获取服务器的拥有者资讯",
 	"help.admin.unblacklist": "将该服务器从黑名单移除",
