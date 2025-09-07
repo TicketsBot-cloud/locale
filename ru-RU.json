@@ -47,6 +47,7 @@
 	"help.admin": "Управление ботом",
 	"help.admin.blacklist": "Добавить сервер в черный список.",
 	"help.admin.check_premium": "Проверить статус премиум подписки на сервере.",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Создает ключи активации премиум подписки.",
 	"help.admin.get_owner": "Показывает владельца сервера.",
 	"help.admin.unblacklist": "Убирает сервер из черного списка.",
