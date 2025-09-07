@@ -47,6 +47,7 @@
 	"help.admin": "การจัดการบอท",
 	"help.admin.blacklist": "ขึ้นบัญชีดำกิลด์จากการใช้บอท",
 	"help.admin.check_premium": "ตรวจสอบสถานะพรีเมียมของเซิร์ฟเวอร์",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "สร้างรหัสพรีเมียม",
 	"help.admin.get_owner": "รับเจ้าของเซิร์ฟเวอร์",
 	"help.admin.unblacklist": "นำกิลด์ออกจากบัญชีดำของกิลด์",
