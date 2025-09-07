@@ -47,6 +47,7 @@
 	"help.admin": "Gestió del bot",
 	"help.admin.blacklist": "Posa un servidor a la llista negra del bot",
 	"help.admin.check_premium": "Comprova l'estat Premium del servidor",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Generar codis Premium",
 	"help.admin.get_owner": "Obté el propietari del servidor",
 	"help.admin.unblacklist": "Treu un servidor de la llista negra de servidors",
