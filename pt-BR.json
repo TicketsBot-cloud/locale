@@ -47,6 +47,7 @@
 	"help.admin": "Gerenciamento do bot",
 	"help.admin.blacklist": "Bloqueia uma guilda de usar o bot",
 	"help.admin.check_premium": "Verifica o status premium de um servidor",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Gerar chaves premium",
 	"help.admin.get_owner": "Obtém o dono de um servidor",
 	"help.admin.unblacklist": "Remove uma guilda da lista de bloqueio",
