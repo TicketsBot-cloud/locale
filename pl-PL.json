@@ -43,11 +43,11 @@
 	"help.about": "Informacje o bocie",
 	"help.add": "Dodaje użytkownika do zgłoszenia",
 	"help.addadmin": "Dodaje użytkownika lub rolę jako administratora",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Dodaje rolę jako reprezentanta wsparcia",
 	"help.admin": "Zarządzanie botem",
 	"help.admin.blacklist": "Zablokuj możliwość używania bota w serwerze",
 	"help.admin.check_premium": "Sprawdź status premium serwera",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug": "Debuguj ustawienia serwera",
 	"help.admin.generate_premium": "Generuje klucz premium",
 	"help.admin.get_owner": "Sprawdza właściciela serwera",
 	"help.admin.unblacklist": "Usuwa serwer z czarnej listy serwerów",
@@ -77,7 +77,7 @@
 	"help.unclaim": "Cofa przejęcie zgłoszenia",
 	"help.viewstaff": "Pokazuje członków administracji i role",
 	"help.vote": "Daje link do głosowania w zamian za darmowe premium",
-	"help.check_perms": "Check if the Bot has the right Permissions",
+	"help.check_perms": "Sprawdź, czy Bot ma odpowiednie uprawnienia",
 	"open.success": "Otwarto nowe zgłoszenie: %s",
 	"setup.auto.category.failure": "Nie posiadam uprawnienia `Zarządzanie kanałami`",
 	"setup.auto.category.success": "Utworzono kategorię dla zgłoszeń",
@@ -279,7 +279,7 @@
 			"added_to_existing": "Zostałeś dodany do istniejącego wątku notatek: <#%d>",
 			"thread_name": "notatki",
 			"created": "Wątek notatek został utworzony dla tego zgłoszenia: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Wątki notatek są wspierane tylko w trybie kanałowym"
 		},
 		"rename": {
 			"ratelimited": "Ze względu na ograniczenia nałożone przez Discorda, nazwy zgłoszeń można zmieniać tylko dwa razy na 10 minut"
@@ -299,7 +299,7 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Obsługa",
 			"admin": {
 				"users": "Admin Users",
 				"roles": "Admin Roles",
@@ -310,14 +310,14 @@
 				"users": "Support Users",
 				"roles": "Support Roles",
 				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users_warning": "-# **Uwaga:** Użytkownicy w zespołach wsparcia są teraz przestarzali. Proszę migrować do roli."
 			}
 		},
 		"permissions": {
 			"title": "Permissions Check",
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
+			"missing": "❌ Brakujące uprawnienia",
 			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
