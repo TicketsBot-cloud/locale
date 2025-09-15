@@ -43,11 +43,11 @@
 	"help.about": "Fornisce informazioni sul bot",
 	"help.add": "Aggiunge un utente a un ticket",
 	"help.addadmin": "Concede a un utente o un ruolo privilegi da admin",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Aggiunge un ruolo come rappresentante del supporto",
 	"help.admin": "Gestione del bot",
 	"help.admin.blacklist": "Aggiunge alla blacklist un server",
 	"help.admin.check_premium": "Verifica lo stato premium di un server",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug": "Debug delle impostazioni del server",
 	"help.admin.generate_premium": "Genera chiavi premium",
 	"help.admin.get_owner": "Fornisce il proprietario di un server",
 	"help.admin.unblacklist": "Rimuove un server dalla blacklist",
@@ -77,7 +77,7 @@
 	"help.unclaim": "Rimuove la rivendicazione sul ticket corrente",
 	"help.viewstaff": "Elenca i membri dello staff e i ruoli",
 	"help.vote": "Fornisce un link per votare per ricevere premium gratis",
-	"help.check_perms": "Check if the Bot has the right Permissions",
+	"help.check_perms": "Controlla se il bot ha i permessi giusti",
 	"open.success": "Aperto un nuovo ticket: %s",
 	"setup.auto.category.failure": "Mi manca il permesso `Gestisci canali`",
 	"setup.auto.category.success": "Creata categoria per Tickets",
@@ -279,7 +279,7 @@
 			"added_to_existing": "Sei stato aggiunto al thread delle note seguente: <#%d>",
 			"thread_name": "note",
 			"created": "Un thread dedicato alle note è stato creato per questo ticket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "I thread di nota sono supportati solo in modalità canale"
 		},
 		"rename": {
 			"ratelimited": "A causa di limitazioni imposte da Discord, i ticket possono essere rinominati solo una volta ogni 10 minuti"
@@ -301,40 +301,40 @@
 		"viewstaff": {
 			"title": "Staff",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Utenti admin",
+				"roles": "Ruoli admin",
+				"no_users": "Nessun utente admin",
+				"no_roles": "Nessun ruolo admin"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Utenti del supporto",
+				"roles": "Ruoli del supporto",
+				"no_roles": "Nessun ruolo del supporto",
+				"users_warning": "-# **Attenzione:** utenti nei team di supporto sono ora obsoleti. Si prega di migrare ai ruoli."
 			}
 		},
 		"permissions": {
-			"title": "Permissions Check",
-			"has_admin": "✅ <@%d> has the Administrator permission",
-			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
+			"title": "Controllo permessi",
+			"has_admin": "✅ <@%d> ha i permessi da amministratore",
+			"has_all": "✅ <@%d> ha tutti i permessi richiesti",
+			"missing": "❌ Permessi mancanti",
 			"description": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
-				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
-				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
-				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
-				"read_message_history": "Allows the bot to read all messages in a channel.",
-				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
-				"use_application_commands": "Allows the bot's slash commands to work."
+				"read_messages": "Consente al bot di visionare i contenuti di un canale.",
+				"send_messages": "Consente al bot di inviare messaggi nei canali.",
+				"embed_links": "Consente al bot di inviare pannelli per ticket, messaggi di benvenuto e tag che includono un messaggio incorporato.",
+				"attach_files": "Consente al bot di assegnare l'autorizzazione ad allegare file all'utente che apre il ticket.",
+				"add_reactions": "Consente al bot di aggiungere pulsanti ai pannelli di ticket, messaggi di benvenuto e tutti i comandi che usano pulsanti.",
+				"use_external_emojis": "Consente al bot di usare le emoji esterne al server nei pannelli di ticket, messaggi di benvenuto e tag. Il bot deve essere ancora nell'altro server per usarle.",
+				"mention_everyone": "Consente al bot di menzionare everyone, here e tutti i ruoli in un ticket.",
+				"read_message_history": "Consente al bot di leggere tutti i messaggi in un canale.",
+				"manage_channels": "Consente al bot di creare, rinominare, ricategorizzare ed eliminare canali.",
+				"manage_roles": "Consente al bot di creare e modificare ruoli; dare e togliere ruoli agli utenti e regolare i permessi di un ruolo nel canale.",
+				"manage_webhooks": "Consente al bot di creare webhook per le trascrizioni e per lo staff in modo da usare la dashboard per inviare messaggi o tag in ticket aperti.",
+				"manage_threads": "Consente al bot di creare, rinominare, chiudere ed eliminare thread.",
+				"send_messages_in_threads": "Consente al bot di inviare messaggi nei thread.",
+				"create_public_threads": "Consente al bot di creare thread pubblici.",
+				"create_private_threads": "Consente al bot di creare thread privati, come i ticket in modalità thread e quelli generati dal comando /notes per i canali ticket.",
+				"use_application_commands": "Consente ai comandi slash del bot di funzionare."
 			}
 		}
 	},
