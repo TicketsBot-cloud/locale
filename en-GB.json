@@ -78,6 +78,7 @@
 	"help.viewstaff": "Lists the staff members and roles",
 	"help.vote": "Gives you a link to vote for free premium",
 	"help.check_perms": "Check if the Bot has the right Permissions",
+	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Opened a new ticket: %s",
 	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
 	"setup.auto.category.success": "Created Tickets category",
