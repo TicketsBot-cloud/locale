@@ -79,6 +79,7 @@
 	"help.vote": "Link létrehozása ingyenes prémium szavazáshoz.",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Új jegyet nyitottál: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Hiányzik a `Csatornák kezelése` engedély.",
 	"setup.auto.category.success": "Jegyek számára fentartott kategória létrehozva.",
 	"setup.auto.completed": "Telepítés sikeres! Kattints [ide](https://panel.tickets.bot/manage/%d/panels) a reakciópanelek beállításához, és add meg a <@&%d> és <@&%d> rangokat a vezetőségi tagjaidnak",
