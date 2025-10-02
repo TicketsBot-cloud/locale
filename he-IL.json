@@ -79,6 +79,7 @@
 	"help.vote": "נותן לך קישור להצבעה עבור פרימיום בחינם",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "פתח כרטיס חדש: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "חסרה לי ההרשאה 'Manage Channels'",
 	"setup.auto.category.success": "נוצר קטגוריית כרטיסים",
 	"setup.auto.completed": "ההגדרה הושלמה! לחץ [here](https://dashboard.tickets.bot/manage/%d/panels) כדי להגדיר פאנל תגובה, והוסף את התפקידים <@&%d> ו-<@&%d> לחברי הצוות שלך",
