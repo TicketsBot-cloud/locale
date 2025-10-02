@@ -79,6 +79,7 @@
 	"help.vote": "给你一个投票连结让你获得免费高级版的资格",
 	"help.check_perms": "检查机器人是否被赋予正确权限",
 	"open.success": "开了一张问题单：%s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "我没有 `管理频道` 的权限唷",
 	"setup.auto.category.success": "创建问题单类别",
 	"setup.auto.completed": "配置完成，点击 [这里](https://panel.tickets.bot/manage/%d/panels) 去创建工单模板, 并给你工作团队添加 <@&%d> 和 <@&%d>的身份组。",
