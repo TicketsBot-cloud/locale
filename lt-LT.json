@@ -79,6 +79,7 @@
 	"help.vote": "Suteikia nuorodą, kad prabalsuotuvėte už nemokamą premium prenumeratą",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Atidarytas naujas bilietas: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
 	"setup.auto.category.success": "Sukurta bilietų kategorija",
 	"setup.auto.completed": "Konfiguracija pabaigta! Paspauskite [here](https://dashboard.tickets.bot/manage/%d/panels), kad sukonfiguruotumėte reakcijos skydelį ir pridėtumėte <@&%d> ir <@&%d> roles prie pagalbos narių",
