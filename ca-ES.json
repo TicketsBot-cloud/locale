@@ -79,6 +79,7 @@
 	"help.vote": "Proporciona un enllaç per votar i tenir Premium gratis",
 	"help.check_perms": "Comprova si el bot té els Permisos necessaris",
 	"open.success": "S'ha obert un nou tiquet: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Trobo a faltar el permís per gestionar canals (`Manage Channels`)",
 	"setup.auto.category.success": "S'ha creat la categoria de Tickets",
 	"setup.auto.completed": "Configuració completada! Clica [aquí](https://dashboard.tickets.bot/manage/%d/panels) per configurar un panell on reaccionar, i afegeix els rols <@&%d> i <@&%d> els membres del teu equip",
