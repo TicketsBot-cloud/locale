@@ -79,6 +79,7 @@
 	"help.vote": "ให้ลิงค์สำหรับโหวตพรีเมี่ยมฟรี",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "เปิด ticket ใหม่: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "ฉันไม่ได้รับสิทธิ์ `จัดการช่อง`",
 	"setup.auto.category.success": "สร้าง Category `Tickets` เรียบร้อยแล้ว",
 	"setup.auto.completed": "ตั้งค่าเสร็จแล้ว! คลิก[ที่นี่](https://dashboard.tickets.bot/manage/%d/panels)เพื่อตั้งค่าแผงรีแอคชั่น และเพิ่มบทบาท <@&%d> และ <@&%d> ให้กับพนักงานของคุณ",
