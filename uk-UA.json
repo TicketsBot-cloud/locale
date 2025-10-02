@@ -79,6 +79,7 @@
 	"help.vote": "Дає вам посилання для голосування за безплатний преміум",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Відкрита нова заявка: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Мені не вистачає дозволу \"Керувати каналами\"",
 	"setup.auto.category.success": "Створено категорію для заявок",
 	"setup.auto.completed": "Налаштування завершено! Натисніть [here](https://panel.ticketsbot. et/manage/%d/panels) для налаштування панелі реакцій і додайте <@&%d> та <@&%d> ролі для співробітників",
