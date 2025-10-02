@@ -79,6 +79,7 @@
 	"help.vote": "تعطيك الرابط للتصويت للإشتراك المجاني",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "تم فتح تذكرة جديدة: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "انا افتقد إذن \"إدارة القنوات\"",
 	"setup.auto.category.success": "تم إنشاء فئة التذاكر",
 	"setup.auto.completed": "اكتمل الإعداد! انقر [هنا](https://panel.ticketsbot. et/manage/%d/panels) لإعداد لوحة التفاعل، وإضافة الأدوار <@&%d> و <@&%d> لموظفيك",
