@@ -79,6 +79,7 @@
 	"help.vote": "Annab sulle linki hääletamiseks et saada tasuta premium",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Avas uue pileti: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Mul on puudu \"Manage Channels\" luba",
 	"setup.auto.category.success": "Tegin Tickets kategooria",
 	"setup.auto.completed": "Seadistamine valmis! Vajuta [siia] (https://dashboard.tickets.bot/manage/%d/panels) et seadistada reaktsiooni paneel <@&%d> ja <@&%d> rollid sinu personaalidele",
