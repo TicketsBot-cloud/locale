@@ -79,6 +79,7 @@
 	"help.vote": "Antaa sinulle linkin äänestääksesi ilmaisesta Premiumista",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Avattu uusi lippu: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Minulta puuttuu `Hallinnoi Kanavia` oikeus",
 	"setup.auto.category.success": "Luotu liput kategoria",
 	"setup.auto.completed": "Asennus on valmis! Paina [tästä](https://dashboard.ticketsbot. et/manage/%d/panels) määrittääksesi reaktiopaneeli ja lisätäksesi <@&%d> ja <@&%d> roolit henkilökunnalle",
