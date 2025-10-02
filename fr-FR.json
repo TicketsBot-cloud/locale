@@ -79,6 +79,7 @@
 	"help.vote": "Vous donne un lien pour voter et obtenir gratuitement la version premium",
 	"help.check_perms": "Vérifie si le bot a les bonnes permissions",
 	"open.success": "Ouverture d'un nouveau ticket : %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Il me manque la permission `Gérer Les Salons`",
 	"setup.auto.category.success": "Crée une catégorie de Tickets",
 	"setup.auto.completed": "Installation terminée ! Cliquez [ici](https://panel.tickets.bot/manage/%d/panels) pour configurer un panneau de réaction et ajoutez les rôles <@&%d> et <@&%d> aux membres de votre staff",
