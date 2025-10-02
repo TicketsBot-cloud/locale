@@ -79,6 +79,7 @@
 	"help.vote": "Ponuja povezavo za glasovanje za brezplačni \"premium\"",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Odprl novo vstopnico: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Manjka mi dovoljenje za upravljanje kanalov",
 	"setup.auto.category.success": "Ustvaril kategorijo vstopnic",
 	"setup.auto.completed": "Nastavitev končana! Kliknite [tukaj](https://dashboard.tickets.bot/manage/%d/panels), da nastavite odzivno ploščo in dodate vlogi <@&%d> in <@&%d> svojim članom osebja",
