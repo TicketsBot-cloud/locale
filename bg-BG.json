@@ -79,6 +79,7 @@
 	"help.vote": "Дава Ви линк да гласувате за безплатен премиум",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Отворен е нов тикет: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Нямам привилегия `Manage Channels`",
 	"setup.auto.category.success": "Създадена е катеогрия Билети",
 	"setup.auto.completed": "Сетъп-а е готов! Натисни [тук](https://dashboard.tickets.bot/manage/%d/panels) to, за да създадеш панел с реакции, и добави <@&%d> и <@&%d> роли за твоя екип",
