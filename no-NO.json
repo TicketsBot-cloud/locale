@@ -79,6 +79,7 @@
 	"help.vote": "Gir deg en lenke der du kan stemme for gratis premium",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Åpnet en ny støtteforespursel: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
 	"setup.auto.category.success": "Opprett ticket kategori",
 	"setup.auto.completed": "Konfigurasjon fullført! Trykk [her] (https://dashboard.tickets.bot/manage/%d/panels) for å sette opp ett reaksjonspanel, og legg til <@&%d> and <@&%d> roller til dine ansatte",
