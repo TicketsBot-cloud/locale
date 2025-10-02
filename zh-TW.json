@@ -79,6 +79,7 @@
 	"help.vote": "給你一個投票連結讓你獲得免費高級版的資格",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "開了一張問題單：%s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "我沒有 `管理頻道` 的權限唷",
 	"setup.auto.category.success": "創建問題單類別",
 	"setup.auto.completed": "設定完成！按一下 [這裡](https://dashboard.tickets.bot/manage/%d/panels) 以設定反應面板，然後將 <@&%d> 和 <@&%d> 身分組給你的工作人員",
