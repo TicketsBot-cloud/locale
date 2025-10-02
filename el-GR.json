@@ -79,6 +79,7 @@
 	"help.vote": "Σας δίνει ένα σύνδεσμο για να ψηφίσετε για δωρεάν premium",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Άνοιξε ένα νέο ticket: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Μου λείπει το δικαίωμα `Manage Channels`",
 	"setup.auto.category.success": "Δημιουργήθηκε Tickets κατηγορία",
 	"setup.auto.completed": "Η εγκατάσταση ολοκληρώθηκε! Κάντε κλικ [εδώ](https://dashboard.tickets.bot/manage/%d/panels) για να ρυθμίσετε ένα πλαίσιο αντιδράσεων και προσθέστε τους ρόλους <@&%d> και <@&%d> στα μέλη του προσωπικού σας",
