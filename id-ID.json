@@ -79,6 +79,7 @@
 	"help.vote": "Memberi Anda tautan untuk memilih premium gratis",
 	"help.check_perms": "Periksa apakah Bot memiliki Izin yang tepat",
 	"open.success": "Membuka tiket baru: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Saya kehilangan izin `Kelola Saluran`",
 	"setup.auto.category.success": "Kategori Tiket yang Dibuat",
 	"setup.auto.completed": "Penyiapan selesai! Klik [di sini](https://dashboard.tickets.bot/manage/%d/panels) untuk menyiapkan panel reaksi, dan menambahkan peran <@&%d> dan <@&%d> ke anggota staf Anda",
