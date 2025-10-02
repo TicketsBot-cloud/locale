@@ -79,6 +79,7 @@
 	"help.vote": "Îți dă un link pentru a vota gratuit pentru premium gratuit",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "A deschis un nou tichet: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Îmi lipsește permisiunea `Manage Channels`",
 	"setup.auto.category.success": "Categoria de tichete a fost creată",
 	"setup.auto.completed": "Configurare finalizată! Dă click [aici](https://dashboard.tickets.bot/manage/%d/panels) pentru a configura un panou de reacție și adaugă rolurile <@&%d> și <@&%d> membrilor staffului tău",
