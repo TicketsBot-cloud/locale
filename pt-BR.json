@@ -79,6 +79,7 @@
 	"help.vote": "Exibe um link para votar e obter premium gratuitamente",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Abriu um novo ticket: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Eu estou sem a permissão `Gerenciar Canais` ",
 	"setup.auto.category.success": "Categoria de Tickets criada",
 	"setup.auto.completed": "Configuração concluída! Clique [aqui](https://panel.tickets.bot/manage/%d/panels) para configurar um painel de reações, e adicione os cargos <@&%d> e <@&%d> para os seus membros da equipe",
