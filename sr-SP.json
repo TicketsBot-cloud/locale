@@ -79,6 +79,7 @@
 	"help.vote": "Даје ти везу да гласаш за бесплатну премију",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Отворила је нову карту: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Spisak članova osoblja i uloga `Manage Channels`",
 	"setup.auto.category.success": "Креирана категорија карата",
 	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
