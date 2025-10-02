@@ -79,6 +79,7 @@
 	"help.vote": "Gives you a link to vote for free premium",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Opened a new ticket: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
 	"setup.auto.category.success": "Created Tickets category",
 	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
