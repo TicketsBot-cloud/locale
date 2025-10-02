@@ -79,6 +79,7 @@
 	"help.vote": "Zeigt Dir einen Link, um für eine gratis, begrenzte Premium-Version abzustimmen",
 	"help.check_perms": "Überprüfe, ob der Bot die richtigen Berechtigungen hat",
 	"open.success": "Neues Ticket geöffnet: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Ich benötige die `Kanäle verwalten` Berechtigung",
 	"setup.auto.category.success": "Ticket-Kategorie wurde erstellt",
 	"setup.auto.completed": "Einrichtung abgeschlossen! Klicke [hier](https://dashboard.tickets.bot/manage/%d/panels), um einen Reaktions-Panel einzurichten und die <@&%d> und <@&%d> Rollen zu Deinen Mitarbeitern hinzuzufügen",
