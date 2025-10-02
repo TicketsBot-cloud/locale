@@ -79,6 +79,7 @@
 	"help.vote": "Gửi cho bạn một đường dẫn để đánh giá và nhận phiên bản cao cấp miễn phí",
 	"help.check_perms": "Kiểm tra các đặc quyền cần thiết cho Bot",
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
 	"setup.auto.category.success": "Đã tạo một mục kênh cho các phiếu hỗ trợ",
 	"setup.auto.completed": "Đã thiết lập thành công! Nhấn vào [đây](https://panel.tickets.bot/manage/%d/panels) để thiết lập một bảng reaction, và thêm <@&%d> và <@&%d> là vai trò cho các thành viên quản lý",
