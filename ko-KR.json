@@ -79,6 +79,7 @@
 	"help.vote": "무료 프리미엄을 위해 투표할 수 있는 링크를 제공합니다.",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "새 티켓을 열었습니다: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "`채널 관리`권한이 없습니다.",
 	"setup.auto.category.success": "티켓 카테고리를 만들었습니다.",
 	"setup.auto.completed": "설정이 완료되었습니다! [여기](https://dashboard.tickets.bot/manage/%d/panels)를 클릭해 반응 패널을 설정해 보시고, 스태프 멤버를 <@&%d>, <@&%d> 역할에 추가해 보세요",
