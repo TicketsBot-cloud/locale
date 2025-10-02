@@ -79,6 +79,7 @@
 	"help.vote": "Geeft een link waarop u gratis premium krijgt door te stemmen",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Een nieuw ticket is geopend: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Ik mis de permissie 'Kanalen beheren'",
 	"setup.auto.category.success": "Ticketcategorie aangemaakt",
 	"setup.auto.completed": "Installatie voltooid! Klik [hier](https://panel.ticketsbot. et/manage/%d/panels) om een reactiescherm op te zetten, en voeg de <@&%d> en <@&%d> rollen toe aan je medewerkers",
