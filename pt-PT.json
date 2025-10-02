@@ -79,6 +79,7 @@
 	"help.vote": "Fornece-te um link para votares para obteres premium grátis",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Foi aberto um novo bilhete: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Eu não tenho a permissão `Gerir Canais`",
 	"setup.auto.category.success": "Categoria de bilhetes criada",
 	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
