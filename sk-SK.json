@@ -79,6 +79,7 @@
 	"help.vote": "Dáva vám odkaz na hlasovanie o bezplatné prémium",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Otvorený nový ticket: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Chýba mi oprávnenie `Manage Channels`",
 	"setup.auto.category.success": "Kategória tickety vytvorená",
 	"setup.auto.completed": "Nastavenie dokončené! Kliknutím na [here](https://dashboard.tickets.bot/manage/%d/panels) nastavte reakčný panel a pridajte roly <@&%d> a <@&%d> svojim zamestnancom.",
