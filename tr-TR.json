@@ -128,8 +128,8 @@
 	"generic.title.blacklisted": "Kara listeye alındı",
 	"generic.title.blacklist": "Karaliste",
 	"generic.error.blacklisted": "Bu sunucuda kara listeye alındınız",
-	"commands.blacklist.add.success": "<@%d>, kara listeye alındı",
-	"commands.blacklist.remove.success": "<@%d>, kara listeden çıkartıldı",
+	"commands.blacklist.add.success": "kara listeye alındı",
+	"commands.blacklist.remove.success": "kara listeden çıkartıldı",
 	"generic.title.add_admin": "Yönetici ekle",
 	"generic.title.add_support": "Destek ekle",
 	"generic.title.remove_admin": "Yöneticiyi kaldır",
@@ -193,7 +193,6 @@
 		"blacklist": {
 			"staff": "Yönetici üyeler kara listeye alınamaz",
 			"add_role": {
-				"success": "<@&%d> kara listeye alındı",
 				"limit": "Sınıra ulaştınız, daha fazla rolü kara listeye ekleyemezsiniz (%d)"
 			},
 			"add": {
@@ -356,13 +355,6 @@
 		"on_call": "Tüm yeni biletlere eklenmek ve bildirim almak üzere sizi görev başında olarak belirler",
 		"reopen": "Daha önceden kapatılmış bir bileti yeniden açar",
 		"notes": "Destek temsilcileri arasında özel tartışma için bir konu başlığı oluşturur"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d>, kara listeden kaldırıldı"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

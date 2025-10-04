@@ -128,8 +128,8 @@
 	"generic.title.blacklisted": "Na čiernej listine",
 	"generic.title.blacklist": "Čierna listina",
 	"generic.error.blacklisted": "Ste na čiernej listine tohto servera",
-	"commands.blacklist.add.success": "<@%d> bol zaradený na čiernu listinu",
-	"commands.blacklist.remove.success": "<@%d> bol odstránený z čiernej listiny",
+	"commands.blacklist.add.success": "bol zaradený na čiernu listinu",
+	"commands.blacklist.remove.success": "bol odstránený z čiernej listiny",
 	"generic.title.add_admin": "Pridať správcu",
 	"generic.title.add_support": "Pridať podporu",
 	"generic.title.remove_admin": "Odstránenie správcu",
@@ -193,7 +193,6 @@
 		"blacklist": {
 			"staff": "Zamestnanci nemôžu byť zaradení na čiernu listinu",
 			"add_role": {
-				"success": "<@&%d> bol zaradený na čiernu listinu",
 				"limit": "Dosiahli ste limit čiernej listiny rolí (%d)"
 			},
 			"add": {
@@ -356,13 +355,6 @@
 		"on_call": "Označí vás ako osobu v pohotovosti, ktorá bude pridaná a upozornená na všetky nové tickety",
 		"reopen": "Znovu otvorí ticket, ktorý bol predtým zatvorený",
 		"notes": "Vytvorí vlákno na súkromnú diskusiu medzi zástupcami podpory"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> bol vymazaný z čiernej listiny"
-			}
-		}
 	},
 	"setup": {
 		"auto": {
