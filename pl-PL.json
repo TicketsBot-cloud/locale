@@ -79,7 +79,7 @@
 	"help.vote": "Daje link do głosowania w zamian za darmowe premium",
 	"help.check_perms": "Sprawdź, czy Bot ma odpowiednie uprawnienia",
 	"open.success": "Otwarto nowe zgłoszenie: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Panel jest obecnie niedostępny. Prosimy spróbować ponownie w godzinach pracy wsparcia.",
 	"setup.auto.category.failure": "Nie posiadam uprawnienia `Zarządzanie kanałami`",
 	"setup.auto.category.success": "Utworzono kategorię dla zgłoszeń",
 	"setup.auto.completed": "Konfiguracja zakończona! Kliknij [tu](https://dashboard.tickets.bot/manage/%d/panels), aby skonfigurować panel reakcji i dodać role <@&%d> i <@&%d> do Twoich członków obsługi",
