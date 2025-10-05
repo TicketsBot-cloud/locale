@@ -191,17 +191,17 @@
 			"success": "Mae'r tocyn hwn wedi'i newid i banel `%s` gan <@%d>"
 		},
 		"blacklist": {
-			"staff": "Staff members cannot be blacklisted",
+			"staff": "Methu rhoi aelodau staff ar y rhestr ddu",
 			"add_role": {
-				"success": "<@&%d> has been blacklisted",
-				"limit": "You have reached the role blacklist limit (%d)"
+				"success": "Mae <@%d> wedi'i roi ar y rhestr ddu",
+				"limit": "Rwyt ti wedi cyrraedd terfyn y rhestr ddu ar gyfer rolau (%d)"
 			},
 			"add": {
-				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
+				"limit": "Rwyt ti wedi cyrraedd terfyn y rhestr ddu ar gyfer defnyddiwr (%d): ystyriwch ddefnyddio rôl yn ei lle"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "This ticket does not have a welcome message",
+			"no_welcome_message": "Does gan yr tocyn hwn ddim neges groeso",
 			"content": "Clicia'r botwm isod i neidio i dop y tocyn"
 		},
 		"addsupport": {
@@ -209,39 +209,39 @@
 			"everyone": "Methu ychwanegu’r rôl `@everyone` fel staff"
 		},
 		"addadmin": {
-			"confirm": "Please confirm that you want to add %s as a bot administrator"
+			"confirm": "Cadarnha dy fod eisiau ychwanegu %s fel gweinyddwr y bot"
 		},
 		"tags": {
 			"create": {
-				"limit": "You have reached the tag limit (%d)"
+				"limit": "Rwyt ti wedi cyrraedd terfyn y tagiau (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Mae angen Premiwm i ddefnyddio gorchmynion personol (aliau tag)"
 			}
 		},
 		"language": {
 			"content": "Dyma'r ieithoedd sydd ar gael a'u cynnydd cyfieithu: %s",
-			"success": "The server language has been changed to **%s** (%s)",
+			"success": "Mae iaith y gweinydd wedi'i newid i **%s** (%s)",
 			"select": "Dewisiwch Iaith (%c-%c)"
 		},
 		"on_call": {
 			"channel_mode": "Dim ond yn y modd edefyn y gellir defnyddio `/on-call`. Ewch i'n [dogfennau](https://docs.tickets.bot/features/thread-mode) i ddysgu mwy am edafedd",
-			"success": "You are now on call",
-			"remove_success": "You are no longer on call"
+			"success": "Rwyt ti nawr ar alwad",
+			"remove_success": "Rwyt ti ddim ar alwad bellach"
 		},
 		"reopen": {
-			"not_found": "Ticket not found",
-			"no_permission": "You do not have permission to reopen this ticket",
+			"not_found": "Tocyn heb ei ganfod",
+			"no_permission": "Nid oes gen ti ganiatâd i ail-agor y tocyn hwn",
 			"already_open": "Mae'r tocyn hwn ar agor yn barod",
 			"not_thread": "Dim ond edafedd sy'n gallu cael ei ail-agor",
 			"thread_deleted": "Mae'r tocyn wedi cael ei ddileu yn parhaol",
-			"success": "Ticket %d reopened: <#%d>",
+			"success": "Tocyn %d wedi’i ail-agor: <#%d>",
 			"in_ticket": "Mae’r tocyn yma wedi’i ail-agor gan <@%d>"
 		},
 		"premium": {
-			"key": "Key",
-			"check_again": "Check Again",
-			"subscription_found": "Subscription Found!",
+			"key": "Allwedd",
+			"check_again": "Gwiriwch Eto",
+			"subscription_found": "Tanysgrifiad Wedi'i Ddod o Hyd!",
 			"subscription_found_content": "I gyflwyno dy danysgrifiad i'r gweinydd hwn, mae'n rhaid i berchennog y gweinydd (<@%d>) dy ychwanegu di fel gweinyddwr **defnyddiwr** (anwybyddir rolau) drwy ddefnyddio'r gorchymyn </addadmin:%d>.\\n\\nGallwch wirio dy fod wedi cael dy ychwanegu fel gweinyddwr trwy redeg </viewstaff:%d>.",
 			"activate_key": "Gweithredu Allwedd Premiwm",
 			"checking": "Yn gwirio statws Premiwm...",
@@ -267,75 +267,75 @@
 					"description": "Dewisiwch yr opsiwn hwn os gwnaethoch brynu drwy siop fewnol Discord"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
-			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"about": "Mae Premiwm yn rhoi mynediad i fwy o baneli, ystadegau, bot personol a mwy! Ewch i'n [gwefan](https://tickets.bot/premium) i ddysgu mwy.",
+			"already_activated": "Newyddion da! Mae premiwm yn weithredol yn y gweinydd hwn yn barod.",
+			"already_activated_whitelabel": "Newyddion da! Mae premiwm yn weithredol yn y gweinydd hwn yn barod.\n\nI gael cymorth i ddechrau gyda whitelabel, darllenwch ein [canllaw sefydlu whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Gellir prynu Premiwm yn uniongyrchol o fewn Discord. Clicia'r botwm isod i agor tudalen rheoli'r tanysgrifiad.\n\nAr ôl prynu, gall gymryd hyd at 5 munud i ganfod y tanysgrifiad."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Mae dy danysgrifiad Patreon wedi'i ganfod. Clicia'r botwm \"Agor Dewisydd Gweinydd\" isod i agor y dangosfwrdd a dewis pa weinyddion wyt ti am ddefnyddio dy danysgrifiad Premiwm arnyn nhw.",
+			"open_server_selector": "Agor Dewisydd Gweinydd"
 		},
 		"notes": {
-			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
-			"thread_name": "notes",
-			"created": "A notes thread has been created for this ticket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"added_to_existing": "Rwyt ti wedi cael dy ychwanegu at yr edefyn nodiadau presennol: <#%d>",
+			"thread_name": "nodiadau",
+			"created": "Mae edefyn nodiadau wedi'i greu ar gyfer y tocyn hwn: <#%d>",
+			"channel_mode_only": "Dim ond yn y modd sianel mae edafedd nodiadau'n cael eu cefnogi"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "Oherwydd cyfyngiadau gan Discord, dim ond dwywaith bob 10 munud y gellir ailenwi tocynnau"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Echdynnu Credydau",
+			"no_credits": "Methwyd echdynnu: does gennyt ti ddim credydau pleidleisio!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Mae dy gredydau pleidleisio wedi'u hechdynnu am **%d** diwrnod o Premiwm!",
+					"singular": "Mae dy gredydau pleidleisio wedi'u hechdynnu am **%d** diwrnod o Premiwm!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Mae gennyt ti **%d** credyd pleidleisio. clicia'r botwm \"Echdynnu Credydau\" isod i'w defnyddio am %d diwrnod o Premiwm yn y gweinydd hwn.",
+				"singular": "Mae gennyt ti **%d** credyd pleidleisio. clicia'r botwm \"Echdynnu Credydau\" isod i'w defnyddio am %d diwrnod o Premiwm yn y gweinydd hwn."
 			}
 		},
 		"viewstaff": {
 			"title": "Staff",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Defnyddwyr gweinyddwr",
+				"roles": "Rolau gweinyddwr",
+				"no_users": "Dim defnyddwyr gweinyddwr",
+				"no_roles": "Dim rolau gweinyddwr"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Defnyddwyr cymorth",
+				"roles": "Rolau cymorth",
+				"no_roles": "Dim rolau cymorth",
+				"users_warning": "-# **Rhybudd:** Mae defnyddwyr mewn timau cymorth bellach wedi darfod. Symudwch drosodd i ddefnyddio rolau."
 			}
 		},
 		"permissions": {
-			"title": "Permissions Check",
-			"has_admin": "✅ <@%d> has the Administrator permission",
-			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
+			"title": "Gwirio Caniatâdau",
+			"has_admin": "✅ Mae gan <@%d> ganiatâd Gweinyddwr",
+			"has_all": "✅ Mae gan <@%d>’r holl ganiatâdau angenrheidiol",
+			"missing": "❌ Caniatâdau ar goll",
 			"description": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
-				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
-				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
-				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
-				"read_message_history": "Allows the bot to read all messages in a channel.",
-				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
-				"use_application_commands": "Allows the bot's slash commands to work."
+				"read_messages": "Yn caniatáu i'r bot weld cynnwys sianel.",
+				"send_messages": "Yn caniatáu i'r bot anfon negeseuon mewn sianeli.",
+				"embed_links": "Yn caniatáu i'r bot anfon paneli tocynnau, negeseuon croeso, a thagiau sy'n cynnwys neges mewnosodedig.",
+				"attach_files": "Yn caniatáu ir bot rhoi caniatád `attach files` ir sawl sy'n agor y tocyn.",
+				"add_reactions": "Yn caniatáu i'r bot ychwanegu botymau i baneli tocynnau, negeseuon croeso, a phob gorchymyn sy'n defnyddio botymau.",
+				"use_external_emojis": "Yn caniatáu i'r bot defnyddio emojis nad ydynt o'r gweinydd hwn mewn paneli tocynnau, negeseuon croeso, a thagiau. Rhaid i'r bot fod yn y gweinydd arall er mwyn eu defnyddio.",
+				"mention_everyone": "Yn caniatáu i'r bot tagio `@everyone`, `@here` ac pob rôl mewn tocyn.",
+				"read_message_history": "Yn caniatáu i'r bot ddarllen pob neges mewn sianel.",
+				"manage_channels": "Yn caniatáu i'r bot greu, ail-enw, ail-ddosbarthu a dileu sianeli.",
+				"manage_roles": "Yn caniatáu i’r bot greu a golygu rolau; rhoi a chymryd rolau oddi wrth ddefnyddwyr; a newid caniatâdau rolau mewn sianel.",
+				"manage_webhooks": "Yn caniatáu i’r bot greu bachyn gwe ar gyfer trawsgrifiadau, ac i staff ddefnyddio’r dangosfwrdd i anfon negeseuon neu dagiau mewn tocynnau agored.",
+				"manage_threads": "Yn caniatáu i’r bot greu, ailenwi, cau a dileu edafedd.",
+				"send_messages_in_threads": "Yn caniatáu i’r bot anfon negeseuon mewn edafedd.",
+				"create_public_threads": "Yn caniatáu i’r bot greu edafedd cyhoeddus.",
+				"create_private_threads": "Yn caniatáu i’r bot greu edafedd preifat, e. e. tocynnau modd edefyn a’r gorchymyn /notes ar gyfer tocynnau sianel.",
+				"use_application_commands": "Yn caniatáu i orchmynion slash y bot weithio."
 			}
 		}
 	},
