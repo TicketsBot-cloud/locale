@@ -341,58 +341,58 @@
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Ticket Panel Switched",
-			"jump_to_top": "Jump To Top",
-			"reopened": "Ticket Reopened",
-			"ticket_closed": "Ticket Closed"
+			"panel_switched": "Panel Tocynnau Wedi Newid",
+			"jump_to_top": "Neidio i'r Brig",
+			"reopened": "Tocyn wedi Ail-agor",
+			"ticket_closed": "Tocyn Wedi'i Gau"
 		},
-		"click_here": "Click Here",
-		"confirm": "Confirm",
-		"website": "Our Website"
+		"click_here": "Cliciwch Yma",
+		"confirm": "Cadarnhau",
+		"website": "Ein Wefan"
 	},
 	"help": {
-		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
-		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
-		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
-		"reopen": "Reopens a ticket that was previously closed",
-		"notes": "Creates a thread for private discussion between support representatives"
+		"switch_panel": "Yn newid tocyn i banel tocynnau arall, gan newid categori'r sianel, timau cymorth ac ati.",
+		"jump_to_top": "Yn rhoi botwm i ti neidio i frig y tocyn",
+		"on_call": "Yn dynodi dy fod ar alwad, i gael dy ychwanegu a tagio mewn pob tocyn newydd",
+		"reopen": "Yn ail-agor tocyn oedd wedi cael ei gau o'r blaen",
+		"notes": "Yn creu edefyn ar gyfer trafodaeth breifat rhwng cynrychiolwyr cymorth"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> has been unblacklisted"
+				"successcklisted": "Mae <@&%d> wedi'i dynnu oddi ar y rhestr ddu"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Eisiau archwilio mwy? Fydd ein [dogfennaeth](https://docs.tickets.bot) yn dysgu i ti sut i ffurfweddu pop agwedd y bot!"
 		},
 		"threads": {
-			"no_notification_channel": "You must provide a ticket notification channel",
-			"notification_channel_type": "The ticket notification channel must be a text channel",
-			"success": "Thread mode has been enabled",
-			"disabled": "Thread mode has been disabled"
+			"no_notification_channel": "Mae'n rhaid i ti ddarparu sianel hysbysu tocynnau",
+			"notification_channel_type": "Rhaid i'r sianel hysbysu tocynnau fod yn sianel destun",
+			"success": "Mae modd edefyn wedi'i alluogi",
+			"disabled": "Mae modd edefyn wedi'i analluogi"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "This ticket has already been closed",
-			"no_permission": "You do not have permission to view this type of ticket",
-			"already_joined": "You have already joined this ticket (<#%d>)",
-			"success": "Added you to the ticket: <#%d>"
+			"closed_ticket": "Mae'r tocyn yma wedi'i gau barod",
+			"no_permission": "Does gen ti ddim caniatâd i weld y math hwn o docyn",
+			"already_joined": "Rwyt ti wedi ymuno â’r tocyn hwn yn barod (<#%d>)",
+			"success": "Wyt ti wedi cael dy ychwanegu at y tocyn: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
-		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
-		"panel_disabled": "The server admins have disabled opening this type of ticket",
+		"thread_in_announcement_channel": "Ni ellir creu edefynnau mewn sianeli hysbysiadau",
+		"panel_force_disabled": "Mae'r panel hwn wedi'i analluogi. Gofynnwch i weinyddwr y gweinydd adfer premiwm, a rhedwch %s i ail-alluogi'r panel hwn.",
+		"panel_disabled": "Mae gweinyddwyr y gweinydd wedi analluogi agor y math hwn o docyn",
 		"acl": {
-			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
-			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
+			"no_allow_rules": "Mae mynediad i agor math hwn o docyn wedi'i analluogi i bob rôl",
+			"deny_listed": "Ni allwch agor y mat hwn o docyn oherwydd bod gennych y rôl <@&%d>",
 			"not_allow_listed": {
-				"multiple": "You need one of the following roles to open this type of ticket: %s",
-				"single": "You need the following role to open this type of ticket: %s"
+				"multiple": "Mae angen un o'r rolau canlynol arnat ti i agor y math hwn o docyn: %s",
+				"single": "Mae angen y rôl ganlynol arnat ti i agor y math hwn o docyn: %s"
 			}
 		}
 	}
