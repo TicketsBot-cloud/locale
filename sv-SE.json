@@ -43,11 +43,11 @@
 	"help.about": "Ger dig mer information om botten",
 	"help.add": "Lägger till en användare i ticketen",
 	"help.addadmin": "Ger en användare eller roll admin privilegier",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Lägger till en användare eller roll som supportrepresentant",
 	"help.admin": "Bot hantering",
 	"help.admin.blacklist": "Bannlys en server från att använda botten",
 	"help.admin.check_premium": "Kontrollera premiumstatus för en server",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug": "Felsök serverns inställningar",
 	"help.admin.generate_premium": "Generera premium nycklar",
 	"help.admin.get_owner": "Visar ägaren av servern",
 	"help.admin.unblacklist": "Ta bort en guild från guild svartlistan",
@@ -77,9 +77,9 @@
 	"help.unclaim": "Tar bort ägaren på den aktuella ticketen",
 	"help.viewstaff": "Listar staff-medlemmar och roller",
 	"help.vote": "Ger dig en länk för att rösta för gratis premium",
-	"help.check_perms": "Check if the Bot has the right Permissions",
+	"help.check_perms": "Kontrollera om boten har rätt behörigheter",
 	"open.success": "Öppnade en ny ticket: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Denna panel är för närvarande stängd. Försök igen under våra supporttimmar.",
 	"setup.auto.category.failure": "Jag saknar behörigheten `Hantera kanaler`",
 	"setup.auto.category.success": "Skapade ärendekategori",
 	"setup.auto.completed": "Uppstart färdig! Klicka [here] (https://dashboard.tickets.bot/manage/%d/panels) för att starta upp en reaktions panel, och lägg till <@&%d> och <@&%d> roller till dina personal roller",
@@ -291,51 +291,51 @@
 			"redeem": {
 				"success": {
 					"plural": "Dina rösttillgodohavanden har lösts in för **%d** dagars premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"singular": "Dina röst conins har blivit inlösta mot **%d** dagar av premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Du har **%d** röst krediter. Klicka på \"Lös in Krediter\" knappen här nedanför för att lösa in de mot %d dagar av premium på denna server.",
+				"singular": "Du har **%d** röst krediter. Klicka på \"Lös in krediter\" knappen nedanför för att lösa in de mot %d av premium på denna server."
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Personal",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Administratörer",
+				"roles": "Administratörsroller",
+				"no_users": "Inga administratörer",
+				"no_roles": "Inga administratörsroller"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Support användare",
+				"roles": "Support roller",
+				"no_roles": "Inga supportroller",
+				"users_warning": "-#**Varning:** Användare i support lagen är nu separerade. Vänligen migrera till roller."
 			}
 		},
 		"permissions": {
-			"title": "Permissions Check",
-			"has_admin": "✅ <@%d> has the Administrator permission",
-			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
+			"title": "Behörighetscheck",
+			"has_admin": "✅ <@%d> har du administratörs behörigher",
+			"has_all": ": check_mark<unk> <@%d> har alla nödvändiga behörigheter",
+			"missing": "❌ Behörigheter saknas",
 			"description": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
-				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
-				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
-				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
-				"read_message_history": "Allows the bot to read all messages in a channel.",
-				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
-				"use_application_commands": "Allows the bot's slash commands to work."
+				"read_messages": "Tillåter att botten ser innehållet i en kanal.",
+				"send_messages": "Tillåter att botten skickar meddelanden i kanaler.",
+				"embed_links": "Tillåter att boten skickar ärendepaneler, välkomstmeddelanden och taggar som innehåller ett inbäddat meddelande.",
+				"attach_files": "Tillåter att roboten tilldelar behörigheten att bifoga filer till ticket öppnaren.",
+				"add_reactions": "Tillåter att roboten lägger till knapparna i ärendepaneler, välkomstmeddelanden och alla kommandon som använder knappar.",
+				"use_external_emojis": "Tillåter att boten använder icke-server emojis i ärendepaneler, välkomstmeddelanden och taggar. Botten måste fortfarande vara i den andra servern för att använda dem.",
+				"mention_everyone": "Tillåter boten att nämna alla, här och alla roller i en biljett.",
+				"read_message_history": "Tillåter att botten skickar meddelanden i en kanal.",
+				"manage_channels": "Tillåter boten att skapa, byta namn, omkategorisera och ta bort kanaler.",
+				"manage_roles": "Tillåter roboten att skapa och redigera roller; ge och ta bort roller från användare; och justera en kanals rollbehörigheter.",
+				"manage_webhooks": "Tillåter att boten skapar webhooks till protokoll, och att personalen använder instrumentpanelen för att skicka meddelanden eller taggar i öppna ärenden.",
+				"manage_threads": "Tillåter boten att skapa, byta namn, omkategorisera och ta bort kanaler.",
+				"send_messages_in_threads": "Tillåter att botten skickar meddelanden i trådar.",
+				"create_public_threads": "Tillåter att boten skapar publika trådar.",
+				"create_private_threads": "Tillåter att roboten skapar privata trådar, såsom ärenden i trådläge och kommandot /notes för kanalärenden.",
+				"use_application_commands": "Tillåter att robotens snedstreckskommandon fungerar."
 			}
 		}
 	},
