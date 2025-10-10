@@ -394,5 +394,78 @@
 				"single": "Du skal have følgende rolle for at åbne denne type af ticket: %s"
 			}
 		}
+	},
+	"gdpr": {
+		"intro": "Vælg den type GDPR-anmodning, du gerne vil foretage:",
+		"section": {
+			"transcript": "### **Muligheder for Sletning af Transcripts**\n-# _Slet transcripts fra servere, du ejer_",
+			"message": "### **Muligheder for Sletning af Beskeder**\n-# _Fjern dine beskeder fra ticket-transcripts_"
+		},
+		"warning": "### **Vigtig Information**\n* Sletning er **permanent** og kan ikke fortrydes\n* Du kan kun slette transcripts fra servere **du** ejer\n* Kun **dine** beskeder kan slettes fra transcripts\n* Anmodningen kan tage op til **30 dage** at gennemføre\n* Din anmodning vil blive behandlet i en **kø**",
+		"resources": "### **Ressourcer**\n[Hvad er GDPR?](%s)\n[Ret til Sletning](%s)\n[Ret til Adgang](%s)",
+		"button": {
+			"all_transcripts": "Alle transcripts fra en server",
+			"specific_transcripts": "Specifikke transcripts",
+			"all_messages": "Alle beskeder fra konto",
+			"specific_messages": "Beskeder i specifikke tickets"
+		},
+		"language_option": "Sprog",
+		"modal": {
+			"all_transcripts": "Slet Alle Transcripts fra Servere",
+			"specific_transcripts": "Slet Specifikke Transcripts",
+			"specific_messages": "Slet Beskeder i Specifikke Tickets",
+			"select_server": "Vælg en server",
+			"select_servers": "Vælg en eller flere servere",
+			"server_id": {
+				"label": "Server ID",
+				"placeholder": "Indtast server ID'et"
+			},
+			"ticket_ids": {
+				"label": "Ticket ID'er",
+				"placeholder": "Indtast ticket ID'er adskilt med kommaer (f.eks. 123, 456, 789)"
+			}
+		},
+		"confirm": {
+			"title": "GDPR Bekræftelse Påkrævet",
+			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra en server, du ejer\n**Server:** %s",
+			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere, du ejer\n**Servere:**\n* %s",
+			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts fra server\n**Server:** %s\n**Ticket ID'er:** %s",
+			"all_messages": "**Anmodningstype:** Slet alle beskeder fra din konto på tværs af alle servere",
+			"specific_messages": "**Anmodningstype:** Slet dine beskeder i specifikke tickets\n**Server:** %s\n**Ticket ID'er:** %s",
+			"warning": "\n\n⚠️ **Advarsel:** Denne handling er permanent og kan ikke fortrydes.\n\nForstår og accepterer du, at sletning er permanent?",
+			"button": "Bekræft - Jeg forstår"
+		},
+		"queued": {
+			"title": "GDPR Anmodning i Kø",
+			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Server ID:** %s",
+			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Server ID'er:** %s",
+			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Server ID:** %d\n**Ticket ID'er:** %s",
+			"all_messages": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Bruger ID:** %d\n\nDin anmodning er blevet sat i kø til behandling.\nDette vil anonymisere dine beskeder i alle transcripts, hvor du deltog.",
+			"specific_messages": "**Anmodningstype:** Slet beskeder i specifikke tickets\n**Server ID:** %d\n**Ticket ID'er:** %s",
+			"footer": "\n\nDin anmodning er blevet sat i kø til behandling.\nBehandling kan tage noget tid afhængigt af antallet af transcripts."
+		},
+		"completed": {
+			"title": "GDPR Anmodning Fuldført",
+			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Transcripts Slettet:** %d",
+			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Servere:** %d\n**Transcripts Slettet:** %d",
+			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Transcripts Slettet:** %d",
+			"all_messages": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Beskeder Anonymiseret:** %d",
+			"specific_messages": "**Anmodningstype:** Slet beskeder i specifikke tickets\n**Beskeder Anonymiseret:** %d",
+			"no_data": "**Resultat:** Der blev ikke fundet nogen data at slette.",
+			"error": "\n\n**⚠️ Fejl:** %s"
+		},
+		"followup": {
+			"error": "⚠️ Din GDPR-anmodning stødte på en fejl: %s",
+			"no_data": "ℹ️ Din GDPR-anmodning er blevet behandlet. Der blev ikke fundet nogen data at slette.",
+			"success": "✅ Din GDPR-anmodning er blevet behandlet succesfuldt."
+		},
+		"error": {
+			"no_servers": "Ingen servere fundet, hvor du er ejeren og har transcripts.",
+			"invalid_server_id": "Ugyldigt server ID angivet.",
+			"invalid_ticket_ids": "Ugyldige ticket ID'er angivet. Indtast venligst numeriske ticket ID'er adskilt med kommaer (f.eks. 123, 456, 789).",
+			"not_owner": "Du skal være serverejeren for at slette transcripts.",
+			"server_not_found": "Server ikke fundet.",
+			"queue_failed": "Kunne ikke sætte GDPR-anmodning i kø. Prøv venligst igen senere."
+		}
 	}
 }

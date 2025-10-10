@@ -395,5 +395,78 @@
 				"single": "You need the following role to open this type of ticket: %s"
 			}
 		}
+	},
+	"gdpr": {
+		"intro": "Select the type of GDPR request you would like to make:",
+		"section": {
+			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
+			"message": "### **Message Deletion Options**\n-# _Remove your messages from ticket transcripts_"
+		},
+		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be deleted from transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
+		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"button": {
+			"all_transcripts": "All transcripts from a server",
+			"specific_transcripts": "Specific transcripts",
+			"all_messages": "All messages from account",
+			"specific_messages": "Messages in specific tickets"
+		},
+		"language_option": "Language",
+		"modal": {
+			"all_transcripts": "Delete All Transcripts from Servers",
+			"specific_transcripts": "Delete Specific Transcripts",
+			"specific_messages": "Delete Messages in Specific Tickets",
+			"select_server": "Select a server",
+			"select_servers": "Select one or more servers",
+			"server_id": {
+				"label": "Server ID",
+				"placeholder": "Enter the server ID"
+			},
+			"ticket_ids": {
+				"label": "Ticket IDs",
+				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+			}
+		},
+		"confirm": {
+			"title": "GDPR Confirmation Required",
+			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
+			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
+			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_messages": "**Request Type:** Delete all messages from your account across all servers",
+			"specific_messages": "**Request Type:** Delete your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that deletion is permanent?",
+			"button": "Confirm - I understand"
+		},
+		"queued": {
+			"title": "GDPR Request Queued",
+			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server ID:** %s",
+			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Server IDs:** %s",
+			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server ID:** %d\n**Ticket IDs:** %s",
+			"all_messages": "**Request Type:** Delete all messages from your account\n**User ID:** %d\n\nYour request has been queued for processing.\nThis will anonymize your messages in all transcripts where you participated.",
+			"specific_messages": "**Request Type:** Delete messages in specific tickets\n**Server ID:** %d\n**Ticket IDs:** %s",
+			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+		},
+		"completed": {
+			"title": "GDPR Request Completed",
+			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Transcripts Deleted:** %d",
+			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:** %d\n**Transcripts Deleted:** %d",
+			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Transcripts Deleted:** %d",
+			"all_messages": "**Request Type:** Delete all messages from your account\n**Messages Anonymized:** %d",
+			"specific_messages": "**Request Type:** Delete messages in specific tickets\n**Messages Anonymized:** %d",
+			"no_data": "**Result:** No data was found to delete.",
+			"error": "\n\n**⚠️ Error:** %s"
+		},
+		"followup": {
+			"error": "⚠️ Your GDPR request encountered an error: %s",
+			"no_data": "ℹ️ Your GDPR request has been processed. No data was found to delete.",
+			"success": "✅ Your GDPR request has been processed successfully."
+		},
+		"error": {
+			"no_servers": "No servers found where you are the owner and have transcripts.",
+			"invalid_server_id": "Invalid server ID provided.",
+			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
+			"not_owner": "You must be the server owner to delete transcripts.",
+			"server_not_found": "Server not found.",
+			"queue_failed": "Failed to queue GDPR request. Please try again later."
+		}
 	}
 }
