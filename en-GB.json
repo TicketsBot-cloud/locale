@@ -422,6 +422,10 @@
 				"label": "Server ID",
 				"placeholder": "Enter the server ID"
 			},
+			"server_ids": {
+				"label": "Server IDs",
+				"placeholder": "Enter server IDs separated by commas (e.g., 123456789012345678, 987654321098765432)"
+			},
 			"ticket_ids": {
 				"label": "Ticket IDs",
 				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"

@@ -421,6 +421,10 @@
 				"label": "Server ID",
 				"placeholder": "Indtast server ID'et"
 			},
+			"server_ids": {
+				"label": "Server ID'er",
+				"placeholder": "Indtast server ID'er adskilt med kommaer (f.eks. 123456789012345678, 987654321098765432)"
+			},
 			"ticket_ids": {
 				"label": "Ticket ID'er",
 				"placeholder": "Indtast ticket ID'er adskilt med kommaer (f.eks. 123, 456, 789)"
