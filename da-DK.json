@@ -413,6 +413,7 @@
 		"modal": {
 			"all_transcripts": "Slet Alle Transcripts fra Servere",
 			"specific_transcripts": "Slet Specifikke Transcripts",
+			"all_messages": "Slet Alle Beskeder fra Konto",
 			"specific_messages": "Slet Beskeder i Specifikke Tickets",
 			"select_server": "Vælg en server",
 			"select_servers": "Vælg en eller flere servere",
@@ -430,7 +431,8 @@
 			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra en server, du ejer\n**Server:** %s",
 			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere, du ejer\n**Servere:**\n* %s",
 			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts fra server\n**Server:** %s\n**Ticket ID'er:** %s",
-			"all_messages": "**Anmodningstype:** Slet alle beskeder fra din konto på tværs af alle servere",
+			"all_messages": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Server:** %s",
+			"all_messages_multi": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Servere:**\n* %s",
 			"specific_messages": "**Anmodningstype:** Slet dine beskeder i specifikke tickets\n**Server:** %s\n**Ticket ID'er:** %s",
 			"warning": "\n\n⚠️ **Advarsel:** Denne handling er permanent og kan ikke fortrydes.\n\nForstår og accepterer du, at sletning er permanent?",
 			"button": "Bekræft - Jeg forstår"
@@ -440,7 +442,8 @@
 			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Server ID:** %s",
 			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Server ID'er:** %s",
 			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Server ID:** %d\n**Ticket ID'er:** %s",
-			"all_messages": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Bruger ID:** %d\n\nDin anmodning er blevet sat i kø til behandling.\nDette vil anonymisere dine beskeder i alle transcripts, hvor du deltog.",
+			"all_messages": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Server ID:** %d",
+			"all_messages_multi": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Server ID'er:** %s",
 			"specific_messages": "**Anmodningstype:** Slet beskeder i specifikke tickets\n**Server ID:** %d\n**Ticket ID'er:** %s",
 			"footer": "\n\nDin anmodning er blevet sat i kø til behandling.\nBehandling kan tage noget tid afhængigt af antallet af transcripts."
 		},

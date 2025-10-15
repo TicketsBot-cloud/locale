@@ -414,6 +414,7 @@
 		"modal": {
 			"all_transcripts": "Delete All Transcripts from Servers",
 			"specific_transcripts": "Delete Specific Transcripts",
+			"all_messages": "Delete All Messages from Account",
 			"specific_messages": "Delete Messages in Specific Tickets",
 			"select_server": "Select a server",
 			"select_servers": "Select one or more servers",
@@ -431,7 +432,8 @@
 			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
 			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
 			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Delete all messages from your account across all servers",
+			"all_messages": "**Request Type:** Delete all messages from your account\n**Server:** %s",
+			"all_messages_multi": "**Request Type:** Delete all messages from your account\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Delete your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
 			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that deletion is permanent?",
 			"button": "Confirm - I understand"
@@ -441,7 +443,8 @@
 			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server ID:** %s",
 			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Server IDs:** %s",
 			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server ID:** %d\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Delete all messages from your account\n**User ID:** %d\n\nYour request has been queued for processing.\nThis will anonymize your messages in all transcripts where you participated.",
+			"all_messages": "**Request Type:** Delete all messages from your account\n**Server ID:** %d",
+			"all_messages_multi": "**Request Type:** Delete all messages from your account\n**Server IDs:** %s",
 			"specific_messages": "**Request Type:** Delete messages in specific tickets\n**Server ID:** %d\n**Ticket IDs:** %s",
 			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
 		},
