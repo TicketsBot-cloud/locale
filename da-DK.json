@@ -423,7 +423,7 @@
 			},
 			"server_ids": {
 				"label": "Server ID'er",
-				"placeholder": "Indtast server ID'er adskilt med kommaer (f.eks. 123456789012345678, 987654321098765432)"
+				"placeholder": "Indtast server ID'er adskilt med kommaer (f.eks. 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
 				"label": "Ticket ID'er",
