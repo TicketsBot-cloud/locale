@@ -404,17 +404,17 @@
 		"warning": "### **Vigtig Information**\n* Sletning er **permanent** og kan ikke fortrydes\n* Du kan kun slette transcripts fra servere **du** ejer\n* Kun **dine** beskeder kan slettes fra transcripts\n* Anmodningen kan tage op til **30 dage** at gennemføre\n* Din anmodning vil blive behandlet i en **kø**",
 		"resources": "### **Ressourcer**\n[Hvad er GDPR?](%s)\n[Ret til Sletning](%s)\n[Ret til Adgang](%s)",
 		"button": {
-			"all_transcripts": "Alle transcripts fra en server",
+			"all_transcripts": "Alle transcripts fra servere",
 			"specific_transcripts": "Specifikke transcripts",
-			"all_messages": "Alle beskeder fra konto",
-			"specific_messages": "Beskeder i specifikke tickets"
+			"all_messages": "Alle dine beskeder på servere",
+			"specific_messages": "Dine beskeder i specifikke tickets"
 		},
 		"language_option": "Sprog",
 		"modal": {
 			"all_transcripts": "Slet Alle Transcripts fra Servere",
 			"specific_transcripts": "Slet Specifikke Transcripts",
-			"all_messages": "Slet Alle Beskeder fra Konto",
-			"specific_messages": "Slet Beskeder i Specifikke Tickets",
+			"all_messages": "Slet Dine Beskeder fra Servere",
+			"specific_messages": "Slet Dine Beskeder i Specifikke Tickets",
 			"select_server": "Vælg en server",
 			"select_servers": "Vælg en eller flere servere",
 			"server_id": {
@@ -435,8 +435,8 @@
 			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra en server, du ejer\n**Server:** %s",
 			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere, du ejer\n**Servere:**\n* %s",
 			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts fra server\n**Server:** %s\n**Ticket ID'er:** %s",
-			"all_messages": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Server:** %s",
-			"all_messages_multi": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Servere:**\n* %s",
+			"all_messages": "**Anmodningstype:** Slet alle dine beskeder fra den valgte server\n**Server:** %s",
+			"all_messages_multi": "**Anmodningstype:** Slet alle dine beskeder fra de valgte servere\n**Servere:**\n* %s",
 			"specific_messages": "**Anmodningstype:** Slet dine beskeder i specifikke tickets\n**Server:** %s\n**Ticket ID'er:** %s",
 			"warning": "\n\n⚠️ **Advarsel:** Denne handling er permanent og kan ikke fortrydes.\n\nForstår og accepterer du, at sletning er permanent?",
 			"button": "Bekræft - Jeg forstår"
@@ -446,8 +446,8 @@
 			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Server ID:** %s",
 			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Server ID'er:** %s",
 			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Server ID:** %d\n**Ticket ID'er:** %s",
-			"all_messages": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Server ID:** %d",
-			"all_messages_multi": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Server ID'er:** %s",
+			"all_messages": "**Anmodningstype:** Slet alle dine beskeder fra server\n**Server ID:** %d",
+			"all_messages_multi": "**Anmodningstype:** Slet alle dine beskeder fra servere\n**Server ID'er:** %s",
 			"specific_messages": "**Anmodningstype:** Slet beskeder i specifikke tickets\n**Server ID:** %d\n**Ticket ID'er:** %s",
 			"footer": "\n\nDin anmodning er blevet sat i kø til behandling.\nBehandling kan tage noget tid afhængigt af antallet af transcripts."
 		},
@@ -456,7 +456,8 @@
 			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Transcripts Slettet:** %d",
 			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Servere:** %d\n**Transcripts Slettet:** %d",
 			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Transcripts Slettet:** %d",
-			"all_messages": "**Anmodningstype:** Slet alle beskeder fra din konto\n**Beskeder Anonymiseret:** %d",
+			"all_messages": "**Anmodningstype:** Slet alle dine beskeder fra server\n**Beskeder Anonymiseret:** %d",
+			"all_messages_multi": "**Anmodningstype:** Slet alle dine beskeder fra servere\n**Servere:** %d\n**Beskeder Anonymiseret:** %d",
 			"specific_messages": "**Anmodningstype:** Slet beskeder i specifikke tickets\n**Beskeder Anonymiseret:** %d",
 			"no_data": "**Resultat:** Der blev ikke fundet nogen data at slette.",
 			"error": "\n\n**⚠️ Fejl:** %s"
