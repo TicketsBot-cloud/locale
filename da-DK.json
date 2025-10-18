@@ -399,7 +399,7 @@
 		"intro": "Vælg den type GDPR-anmodning, du gerne vil foretage:",
 		"section": {
 			"transcript": "### **Muligheder for Sletning af Transcripts**\n-# _Slet transcripts fra servere, du ejer_",
-			"message": "### **Muligheder for Sletning af Beskeder**\n-# _Fjern dine beskeder fra ticket-transcripts_"
+			"message": "### **Muligheder for Sletning af Beskeder**\n-# _Fjern dine beskeder fra transcripts på valgte servere_"
 		},
 		"warning": "### **Vigtig Information**\n* Sletning er **permanent** og kan ikke fortrydes\n* Du kan kun slette transcripts fra servere **du** ejer\n* Kun **dine** beskeder kan slettes fra transcripts\n* Anmodningen kan tage op til **30 dage** at gennemføre\n* Din anmodning vil blive behandlet i en **kø**",
 		"resources": "### **Ressourcer**\n[Hvad er GDPR?](%s)\n[Ret til Sletning](%s)\n[Ret til Adgang](%s)",
@@ -443,23 +443,22 @@
 		},
 		"queued": {
 			"title": "GDPR Anmodning i Kø",
-			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Server ID:** %s",
-			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Server ID'er:** %s",
-			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Server ID:** %d\n**Ticket ID'er:** %s",
-			"all_messages": "**Anmodningstype:** Slet alle dine beskeder fra server\n**Server ID:** %d",
-			"all_messages_multi": "**Anmodningstype:** Slet alle dine beskeder fra servere\n**Server ID'er:** %s",
-			"specific_messages": "**Anmodningstype:** Slet beskeder i specifikke tickets\n**Server ID:** %d\n**Ticket ID'er:** %s",
+			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Server:** %s",
+			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Servere:**\n* %s",
+			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Server:** %s\n**Ticket ID'er:** %s",
+			"all_messages": "**Anmodningstype:** Slet alle dine beskeder fra server\n**Server:** %s",
+			"all_messages_multi": "**Anmodningstype:** Slet alle dine beskeder fra servere\n**Servere:**\n* %s",
+			"specific_messages": "**Anmodningstype:** Slet beskeder i specifikke tickets\n**Server:** %s\n**Ticket ID'er:** %s",
 			"footer": "\n\nDin anmodning er blevet sat i kø til behandling.\nBehandling kan tage noget tid afhængigt af antallet af transcripts."
 		},
 		"completed": {
 			"title": "GDPR Anmodning Fuldført",
-			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Transcripts Slettet:** %d",
-			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Servere:** %d\n**Transcripts Slettet:** %d",
-			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Transcripts Slettet:** %d",
-			"all_messages": "**Anmodningstype:** Slet alle dine beskeder fra server\n**Beskeder Anonymiseret:** %d",
-			"all_messages_multi": "**Anmodningstype:** Slet alle dine beskeder fra servere\n**Servere:** %d\n**Beskeder Anonymiseret:** %d",
-			"specific_messages": "**Anmodningstype:** Slet beskeder i specifikke tickets\n**Beskeder Anonymiseret:** %d",
-			"no_data": "**Resultat:** Der blev ikke fundet nogen data at slette.",
+			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Server:** %s\n**Transcripts Slettet:** %d",
+			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Servere:**\n* %s\n**Transcripts Slettet:** %d",
+			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Server:** %s\n**Transcripts Slettet:** %d",
+			"all_messages": "**Anmodningstype:** Slet alle dine beskeder fra server\n**Server:** %s\n**Beskeder Anonymiseret:** %d",
+			"all_messages_multi": "**Anmodningstype:** Slet alle dine beskeder fra servere\n**Servere:**\n* %s\n**Beskeder Anonymiseret:** %d",
+			"specific_messages": "**Anmodningstype:** Slet beskeder i specifikke tickets\n**Server:** %s\n**Beskeder Anonymiseret:** %d",
 			"error": "\n\n**⚠️ Fejl:** %s"
 		},
 		"followup": {

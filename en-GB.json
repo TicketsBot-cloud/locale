@@ -400,7 +400,7 @@
 		"intro": "Select the type of GDPR request you would like to make:",
 		"section": {
 			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Deletion Options**\n-# _Remove your messages from ticket transcripts_"
+			"message": "### **Message Deletion Options**\n-# _Remove your messages from transcripts in selected servers_"
 		},
 		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be deleted from transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
 		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
@@ -444,23 +444,22 @@
 		},
 		"queued": {
 			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server ID:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Server IDs:** %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server ID:** %d\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Delete all your messages from server\n**Server ID:** %d",
-			"all_messages_multi": "**Request Type:** Delete all your messages from servers\n**Server IDs:** %s",
-			"specific_messages": "**Request Type:** Delete messages in specific tickets\n**Server ID:** %d\n**Ticket IDs:** %s",
+			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
+			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
+			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_messages": "**Request Type:** Delete all your messages from server\n**Server:** %s",
+			"all_messages_multi": "**Request Type:** Delete all your messages from servers\n**Servers:**\n* %s",
+			"specific_messages": "**Request Type:** Delete messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
 			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
 		},
 		"completed": {
 			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:** %d\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Delete all your messages from server\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Delete all your messages from servers\n**Servers:** %d\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Delete messages in specific tickets\n**Messages Anonymized:** %d",
-			"no_data": "**Result:** No data was found to delete.",
+			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
+			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
+			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
+			"all_messages": "**Request Type:** Delete all your messages from server\n**Server:** %s\n**Messages Anonymized:** %d",
+			"all_messages_multi": "**Request Type:** Delete all your messages from servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
+			"specific_messages": "**Request Type:** Delete messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
 			"error": "\n\n**⚠️ Error:** %s"
 		},
 		"followup": {
