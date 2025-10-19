@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "La conversazione è stata spostata in un ticket (<#%d>)",
 	"help.close_request": "Invia un messaggio chiedendo all'utente di confermare che il ticket può essere chiuso",
 	"close.reason_too_long": "Il motivo non può essere più lungo di 255 caratteri",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> ha richiesto di chiudere questo ticket\n\nSi prega di accettare o rifiutare usando i pulsanti qui sotto.",
 	"commands.close_request.with_reason": "<@%d> ha richiesto di chiudere questo ticket.\nMotivo:\n```\n%s\n```\nSi prega di accettare o rifiutare usando i pulsanti qui sotto.",
 	"commands.close_request.no_permission": "Solo l'utente che ha aperto questo ticket può rispondere alla richiesta di chiusura",
