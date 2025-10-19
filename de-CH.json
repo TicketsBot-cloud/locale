@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "D'Unterhaltig isch zumne Ticket verschobe worde (<#%d>)",
 	"help.close_request": "Schickt e Nachricht, wo de Benutzer betet wird, s'Ticket z'schlüsse",
 	"close.reason_too_long": "De Grund dörf nöd länger als 255 Zeiche si",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> het s'Schlüsse vom Ticket aagforderet.\n\nBitte akzeptier oder verweigere mit de untestehende Chnöpf.",
 	"commands.close_request.with_reason": "<@%d> het s'Schlüsse vom Ticket aagforderet. Grund:\n```\n%s\n```\nBitte akzeptier oder verweigere mit de untestehende Chnöpf.",
 	"commands.close_request.no_permission": "Nur de Benutzer, wo s'Ticket uufgmacht het, cha uf d'Schlüssigsaafrag antworte",
