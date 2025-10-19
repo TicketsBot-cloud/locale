@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Dyskusja została przeniesiona do zgłoszenia (<#%d>)",
 	"help.close_request": "Wysyła wiadomość do użytkownika z prośbą o zamknięcie zgłoszenia",
 	"close.reason_too_long": "Powód nie może być dłuższy niż 255 znaków",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> wnoskuje o zamknięcie tego zgłoszenia.\n\nProszę zaakceptować lub odrzucić używając poniższych przycisków.",
 	"commands.close_request.with_reason": "<@%d> wnioskuje o zamknięcie tego zgłoszenia. Powód:\n```\n%s\n```\nProszę zaakceptować lub odrzucić używając poniższych przycisków.",
 	"commands.close_request.no_permission": "Tylko użytkownik, który otworzył zgłoszenie może odpowiedzieć na żądanie zamknięcia",
