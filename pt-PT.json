@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "A conversa foi movida para um bilhete (<#%d>)",
 	"help.close_request": "Envia uma mensagem ao utilizador a pedir que confirme que o bilhete pode ser fechado",
 	"close.reason_too_long": "A razão não pode ter mais de 255 caracteres",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> pediu para fechar este bilhete.\n\nPor favor, aceita ou recusa utilizando os botões abaixo.",
 	"commands.close_request.with_reason": "<@%d> pediu para fechar este bilhete. Razão:\n```\n%s\n```\nPor favor, aceita ou recusa utilizando os botões abaixo.",
 	"commands.close_request.no_permission": "Só o utilizador que abriu este bilhete pode responder ao pedido de encerramento",
