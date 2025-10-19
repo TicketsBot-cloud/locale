@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "השיחה הועברה לכרטיס (<#%d>)",
 	"help.close_request": "שולח הודעה המבקשת מהמשתמש לאשר שניתן לסגור את הכרטיס",
 	"close.reason_too_long": "הסיבה לא יכולה להיות יותר מ-255 תווים",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> ביקש לסגור כרטיס זה.\n\nאנא קבל או דחה באמצעות הכפתורים למטה.",
 	"commands.close_request.with_reason": "<@%d> ביקש לסגור כרטיס זה. סיבה:\n```\n%s\n```\nאנא קבל או דחה באמצעות הכפתורים למטה.",
 	"commands.close_request.no_permission": "רק המשתמש שפתח את הכרטיס יכול להגיב לבקשת הסגירה",
