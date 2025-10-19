@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Дискусията беше преместена в тикет (<#%d>)",
 	"help.close_request": "Изпраща съобщение със запитване дали текущия тикет да бъде затворен",
 	"close.reason_too_long": "Причината не може да е по-дълга от 255 символа",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> заяви затваряне на този тикет\n\nМоля потвърдете, че проблемът е решен, използвайки бутоните отдолу",
 	"commands.close_request.with_reason": "<@%d> заяви затваряне на този тикет\nПричина: ```%s```\nМоля потвърдете, че проблемът е решен, използвайки бутоните отдолу",
 	"commands.close_request.no_permission": "Само човекът, който е отворил тикета може да отговори на заявката",
