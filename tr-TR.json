@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Görüşme şu bilete taşındı: (<#%d>)",
 	"help.close_request": "Kullanıcıdan biletin kapatılabileceğini onaylamasını isteyen bir mesaj gönderir",
 	"close.reason_too_long": "Talebi kapatma nedeni 255 karakterden uzun olamaz",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> Bu biletin kapatılmasını istedi.\n\nLütfen aşağıdaki butonları kullanarak onay verin yada reddedin.",
 	"commands.close_request.with_reason": "<@%d>, biletin kapatılmasını istedi. Sebep:\n```\n%s\n```\nLütfen aşağıdaki butonları kullanarak onay verin ya da reddedin.",
 	"commands.close_request.no_permission": "Destek talebini kapatma isteğine sadece talebi açan kullanıcı yanıt verebilir",
