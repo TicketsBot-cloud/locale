@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Konverzace byla přesunuta do ticketu (<#%d>)",
 	"help.close_request": "Odešle zprávu s žádostí uživatele o potvrzení, že ticket může být uzavřen",
 	"close.reason_too_long": "Důvod nemůže být delší než 255 znaků",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> požádal o uzavření tohoto ticketu.\n\nPřijměte nebo odmítněte pomocí tlačítek níže.",
 	"commands.close_request.with_reason": "<@%d> požádal o uzavření tohoto tiketu. Důvod:\n```\n%s\n```\nProsím, přijměte nebo odmítněte pomocí tlačítek níže.",
 	"commands.close_request.no_permission": "Pouze uživatel, který otevřel ticket, může odpovědět na žádost o uzavření",
