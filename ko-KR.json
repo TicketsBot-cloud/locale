@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "대화가 티켓으로 이동되었습니다(<#%d>).",
 	"help.close_request": "사용자에게 티켓을 닫을지 확인하는 메시지를 보냅니다.",
 	"close.reason_too_long": "이유는 255자를 초과할 수 없습니다.",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d>님이 이 티켓을 닫도록 요청했습니다. 아래 단추 사용에 동의하거나 거부하십시오.",
 	"commands.close_request.with_reason": "<@%d>님이 이 티켓을 닫도록 요청했습니다. 이유: \n```\n%s\n``` 아래 단추 사용에 동의하거나 거부하십시오.",
 	"commands.close_request.no_permission": "티켓을 연 사용자만 닫기 요청에 응답할 수 있습니다.",
