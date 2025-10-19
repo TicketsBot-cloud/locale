@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Die Unterhaltung wurde zu einem Ticket verschoben (<#%d>)",
 	"help.close_request": "Sendet eine Nachricht, in der der Benutzer gebeten wird, das Ticket zu schliessen",
 	"close.reason_too_long": "Der Grund darf nicht länger als 255 Zeichen sein",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> hat das Schliessen dieses Tickets angefordert.\n\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
 	"commands.close_request.with_reason": "<@%d> hat das Schliessen dieses Tickets angefordert. Grund:\n```\n%s\n```\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
 	"commands.close_request.no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schliessungsanfrage antworten",
