@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "تم نقل المحادثة إلى تذكرة (<%d#>)",
 	"help.close_request": "يرسل رسالة يطلب من المستخدم تأكيد أن التذكرة يمكن أن تكون مغلقة",
 	"close.reason_too_long": "السبب لا يمكن ان يكون أطول من 255 حرف",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "لقد طلب <@%d> إغلاق هذه التذكرة.\n\nالرجاء القبول أو الرفض باستخدام الأزرار أدناه.",
 	"commands.close_request.with_reason": "لقد طلب <@%d> إغلاق هذه التذكرة. السبب:\n```\n%s\n```\nيرجى القبول أو الرفض باستخدام الأزرار أدناه.",
 	"commands.close_request.no_permission": "فقط المستخدم الذي فتح التذكرة يمكنه الرد على طلب الإغلاق",
