@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Konversationen har flyttats till ärende (<#%d>)",
 	"help.close_request": "Skickar ett meddelande som ber användaren bekräfta att ärendet kan stängas",
 	"close.reason_too_long": "Anledningen kan inte vara längre än 255 tecken",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> har begärt att avsluta detta ärende.\n\nVänligen acceptera eller neka med knapparna nedan.",
 	"commands.close_request.with_reason": "<@%d> har begärt att avsluta detta ärende. Anledning:\n```\n%s\n```\nVänligen acceptera eller neka med knapparna nedan.",
 	"commands.close_request.no_permission": "Endast den användare som öppnat ärendet kan svara på stängningsbegäran",
