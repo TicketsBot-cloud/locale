@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "目前對話已被移到 (<#%d>)",
 	"help.close_request": "發送一條消息，讓使用者可以在正式關閉客服單前在確定一次，以免關閉錯誤，釀成悲劇。",
 	"close.reason_too_long": "關閉原因不能超過 255 個字，你是要打作文嗎？",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> 已經要求關閉客服單\n\n請點擊下方按鈕以便確定關閉或是取消關閉客服單",
 	"commands.close_request.with_reason": "<@%d> 已經要求關閉客服單，因為 %s\n\n請點擊下方按鈕以便確定關閉或是取消關閉客服單",
 	"commands.close_request.no_permission": "只有開客服單的人可以回應關閉客服單請求唷",
