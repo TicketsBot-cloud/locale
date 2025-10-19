@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Mae'r sgwrs wedi'i symud i docyn (<#%d>)",
 	"help.close_request": "Yn anfon neges yn gofyn i'r defnyddiwr i gadarnhau bod modd cau'r tocyn",
 	"close.reason_too_long": "Ni all y rheswm fod yn hirach na 255 llythyren",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "Mae <@%d> wedi gofyn i cau'r tocyn hwn.\n\nDerbyn neu wrthod gan ddefnyddio'r botymau isod.",
 	"commands.close_request.with_reason": "Mae <@%d> wedi gofyn i cau'r tocyn hwn. Rheswm:\n```\n%s\n```\nDerbyn neu wrthod gan ddefnyddio'r botymau isod.",
 	"commands.close_request.no_permission": "Dim ond y defnyddiwr wnaeth agor y tocyn sy'n gallu ymateb i'r cais cau",
