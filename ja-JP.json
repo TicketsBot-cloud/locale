@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "会話はチケットに移動されました (<#%d>)",
 	"help.close_request": "チケットのクローズをユーザーに確認するメッセージを送信します。",
 	"close.reason_too_long": "理由を 255 文字以上にすることはできません。",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> はこのチケットのクローズをリクエストしました。\n\n以下のボタンを押して承認または拒否してください。",
 	"commands.close_request.with_reason": "<@%d> がこのチケットをクローズするようリクエストしています。理由:\n```\n%s\n```\n以下のボタンを押して承認または拒否してください。",
 	"commands.close_request.no_permission": "チケットを開いたユーザーのみがクローズリクエストに応答できます",
