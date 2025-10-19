@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "La conversa s'ha desplaçat a un tiquet (<#%d>)",
 	"help.close_request": "Envia un missatge preguntant a l'usuari que confirmi si el tiquet es pot tancar",
 	"close.reason_too_long": "La raó no pot superar els 255 caràcters",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> Ha demanat tancar el tiquet.\n\nSi us plau, accepta o rebutja la petició amb els botons de sota.",
 	"commands.close_request.with_reason": "<@%d> ha demanat tancar el tiquet. Raó proporcionada:\n```\n%s\n```\nSi us plau, accepta o rebutja la petició amb els botons de sota.",
 	"commands.close_request.no_permission": "Només l'usuari que ha obert el tiquet pot respondre la petició de tancament",
