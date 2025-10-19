@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Percakapan telah dipindahkan ke tiket (<#%d>)",
 	"help.close_request": "Mengirimkan pesan yang meminta pengguna untuk mengonfirmasi bahwa tiket dapat ditutup",
 	"close.reason_too_long": "Alasannya tidak boleh lebih dari 255 karakter",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> telah meminta untuk menutup tiket ini.\n\nSilaka terima atau tolak menggunakan tombol di bawah.",
 	"commands.close_request.with_reason": "<@%d> telah meminta untuk menutup tiket ini. Alasan:\n```\n%s\n```\nSilakan terima atau tolak menggunakan tombol di bawah.",
 	"commands.close_request.no_permission": "Hanya pengguna yang membuka tiket yang dapat menanggapi permintaan penutupan",
