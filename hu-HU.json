@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "A beszélgetés a jegyben folytatódik (<%d>)",
 	"help.close_request": "Üzenetet küld a felhasználónak, hogy megerősítse a jegy lezárását",
 	"close.reason_too_long": "A lezárás oka nem lehet hosszabb 255 karakternél",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> le szeretné zárni a jegyet.\n\nFogadd el vagy utasítsd el az alábbi gombokkal.",
 	"commands.close_request.with_reason": "<@%d> le szeretné zárni a jegyet. Ennek oka:\n```\n%s\n```\nFogadd el vagy utasítsd el az alábbi gombokkal.",
 	"commands.close_request.no_permission": "Csak az a felhasználó tud válaszolni a lezárási kérelemre aki nyitotta a jegyet",
