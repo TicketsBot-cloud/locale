@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Conversația a fost mutată într-un tichet (<#%d>)",
 	"help.close_request": "Trimite un mesaj prin care i se cere utilizatorului să confirme că tichetul poate fi închis",
 	"close.reason_too_long": "Motivul nu poate fi mai lung de 255 de caractere",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> a cerut închiderea acestui tichet.\n\nTe rugăm să accepți sau să refuzi folosind butoanele de mai jos.",
 	"commands.close_request.with_reason": "<@%d> a cerut închiderea acestui tichet. Motivul:\n```\n%s\n```\nTe rugăm să accepți sau să refuzi folosind butoanele de mai jos.",
 	"commands.close_request.no_permission": "Numai utilizatorul care a deschis tichetul poate răspunde la cererea de închidere",
