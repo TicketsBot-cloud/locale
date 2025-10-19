@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Gesprek is verplaatst naar een ticket (<#%d>)",
 	"help.close_request": "Stuurt een bericht waarin de gebruiker wordt gevraagd te bevestigen dat de ticket kan worden gesloten",
 	"close.reason_too_long": "De reden kan niet langer zijn dan 255 tekens",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> heeft gevraagd om dit ticket te sluiten.\n\nAccepteer of weiger met de knoppen hieronder.",
 	"commands.close_request.with_reason": "<@%d> heeft gevraagd om dit ticket te sluiten. Reden:\n```\n%s\n```\nAccepteer of weiger met de knoppen hieronder.",
 	"commands.close_request.no_permission": "Alleen de gebruiker die het ticket heeft geopend kan reageren op de sluitingsaanvraag",
