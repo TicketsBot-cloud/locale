@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Vestlus oli lükatud piletisse (<#%d>)",
 	"help.close_request": "Saadab kirja, mis küsib et kasutaja kinnitaks kas abipileti võib kinni panna",
 	"close.reason_too_long": "Põhjus ei saa olla pikem kui 255 tähemärki",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> on palunud et abipilet pannakse kinni\n\nLubage või keelake kasutades alumisi nuppe.",
 	"commands.close_request.with_reason": "<@%d> on palunud et abipilet pannakse kinni. Põhjus:\n```\n%s\n```\nLubage või keelake kasutades alumisi nuppe.",
 	"commands.close_request.no_permission": "Ainult kasutaja kes pileti avas saab vastata kinni panemise soovile",
