@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Samtalen har blitt flyttet til ticketen (<#%d>)",
 	"help.close_request": "Sender en melding som spør brukeren om å bekrefte at ticketen kan lukkes",
 	"close.reason_too_long": "Årsaken kan ikke være lengre enn 255 tegn",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> har bedt om å lukke denne ticketen.\n\nVennligst godta eller avslå ved bruk av knappene nedenfor.",
 	"commands.close_request.with_reason": "<@%d> har bedt om å lukke denne ticketen. Årsak:\n```\n%s\n```\nVennligst aksepter eller avslå ved bruk av knappene nedenfor.",
 	"commands.close_request.no_permission": "Bare brukeren som åpnet ticketen kan svare på den lukke forespørselen",
