@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "Razgovor je premješten u tiket (<#%d>)",
 	"help.close_request": "Šalje poruku tražeći od korisnika potvrdu da se tiket može zatvoriti",
 	"close.reason_too_long": "Razlog ne može biti dulji od 255 znakova",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> je zatražio zatvaranje ovog tiketa.\n\nPrihvatite ili odbijte korištenjem donjih gumba.",
 	"commands.close_request.with_reason": "<@%d> je zatražio zatvaranje ovog tiketa. Razlog:\n```\n%s\n```\nPrihvatite ili odbijte korištenjem donjih gumba.",
 	"commands.close_request.no_permission": "Na zahtjev za zatvaranje može odgovoriti samo korisnik koji je otvorio kartu",
