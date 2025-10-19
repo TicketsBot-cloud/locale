@@ -472,7 +472,8 @@
 			"invalid_ticket_ids": "Ugyldige ticket ID'er angivet. Indtast venligst numeriske ticket ID'er adskilt med kommaer (f.eks. 123, 456, 789).",
 			"not_owner": "Du skal være serverejeren for at slette transcripts.",
 			"server_not_found": "Server ikke fundet.",
-			"queue_failed": "Kunne ikke sætte GDPR-anmodning i kø. Prøv venligst igen senere."
+			"queue_failed": "Kunne ikke sætte GDPR-anmodning i kø. Prøv venligst igen senere.",
+			"worker_offline": "GDPR-behandlingstjenesten er i øjeblikket utilgængelig. Prøv venligst igen senere eller kontakt support, hvis dette problem fortsætter."
 		}
 	}
 }

@@ -473,7 +473,8 @@
 			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
 			"not_owner": "You must be the server owner to delete transcripts.",
 			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later."
+			"queue_failed": "Failed to queue GDPR request. Please try again later.",
+			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
 		}
 	}
 }
