@@ -102,6 +102,7 @@
 	"commands.open.from.moved": "การสนทนาถูกย้ายไปยังตั๋ว (<#%d>)",
 	"help.close_request": "ส่งข้อความขอให้ผู้ใช้ยืนยันว่าสามารถปิดตั๋วได้",
 	"close.reason_too_long": "เหตุผลต้องไม่เกิน 255 ตัวอักษร",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> ได้ร้องขอให้ปิด Ticket นี้\n\nโปรดยอมรับหรือปฏิเสธโดยใช้ปุ่มด้านล่าง",
 	"commands.close_request.with_reason": "<@%d> ได้ร้องขอให้ปิด Ticket นี้ เหตุผล:\n```\n%s\n```\nโปรดยอมรับหรือปฏิเสธโดยใช้ปุ่มด้านล่าง",
 	"commands.close_request.no_permission": "เฉพาะผู้ใช้ที่เปิดตั๋วเท่านั้นที่สามารถตอบสนองคำขอปิดได้",
