@@ -43,10 +43,11 @@
 	"help.about": "Informacje o bocie",
 	"help.add": "Dodaje użytkownika do zgłoszenia",
 	"help.addadmin": "Dodaje użytkownika lub rolę jako administratora",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Dodaje rolę jako reprezentanta wsparcia",
 	"help.admin": "Zarządzanie botem",
 	"help.admin.blacklist": "Zablokuj możliwość używania bota w serwerze",
 	"help.admin.check_premium": "Sprawdź status premium serwera",
+	"help.admin.debug": "Debuguj ustawienia serwera",
 	"help.admin.generate_premium": "Generuje klucz premium",
 	"help.admin.get_owner": "Sprawdza właściciela serwera",
 	"help.admin.unblacklist": "Usuwa serwer z czarnej listy serwerów",
@@ -76,8 +77,9 @@
 	"help.unclaim": "Cofa przejęcie zgłoszenia",
 	"help.viewstaff": "Pokazuje członków administracji i role",
 	"help.vote": "Daje link do głosowania w zamian za darmowe premium",
-	"help.check_perms": "Check if the Bot has the right Permissions",
+	"help.check_perms": "Sprawdź, czy Bot ma odpowiednie uprawnienia",
 	"open.success": "Otwarto nowe zgłoszenie: %s",
+	"open.outside_support_hours": "Panel jest obecnie niedostępny. Prosimy spróbować ponownie w godzinach pracy wsparcia.",
 	"setup.auto.category.failure": "Nie posiadam uprawnienia `Zarządzanie kanałami`",
 	"setup.auto.category.success": "Utworzono kategorię dla zgłoszeń",
 	"setup.auto.completed": "Konfiguracja zakończona! Kliknij [tu](https://dashboard.tickets.bot/manage/%d/panels), aby skonfigurować panel reakcji i dodać role <@&%d> i <@&%d> do Twoich członków obsługi",
@@ -100,6 +102,7 @@
 	"commands.open.from.moved": "Dyskusja została przeniesiona do zgłoszenia (<#%d>)",
 	"help.close_request": "Wysyła wiadomość do użytkownika z prośbą o zamknięcie zgłoszenia",
 	"close.reason_too_long": "Powód nie może być dłuższy niż 255 znaków",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> wnoskuje o zamknięcie tego zgłoszenia.\n\nProszę zaakceptować lub odrzucić używając poniższych przycisków.",
 	"commands.close_request.with_reason": "<@%d> wnioskuje o zamknięcie tego zgłoszenia. Powód:\n```\n%s\n```\nProszę zaakceptować lub odrzucić używając poniższych przycisków.",
 	"commands.close_request.no_permission": "Tylko użytkownik, który otworzył zgłoszenie może odpowiedzieć na żądanie zamknięcia",
@@ -132,11 +135,11 @@
 	"generic.title.add_support": "Dodaj Przedstawiciela Wsparcia",
 	"generic.title.remove_admin": "Usuń Administratora",
 	"generic.title.remove_support": "Usuń Przedstawiciela Wsparcia",
-	"commands.addsupport.success": "Przedstawiciel wsparcia dodany pomyślnie",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Język",
-	"commands.removesupport.success": "Przedstawiciel wsparcia usunięty pomyślnie",
-	"commands.addadmin.success": "Administrator dodany pomyślnie",
-	"commands.removeadmin.success": "Administrator usunięty pomyślnie",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Konfiguracja",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panel",
@@ -277,7 +280,7 @@
 			"added_to_existing": "Zostałeś dodany do istniejącego wątku notatek: <#%d>",
 			"thread_name": "notatki",
 			"created": "Wątek notatek został utworzony dla tego zgłoszenia: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Wątki notatek są wspierane tylko w trybie kanałowym"
 		},
 		"rename": {
 			"ratelimited": "Ze względu na ograniczenia nałożone przez Discorda, nazwy zgłoszeń można zmieniać tylko dwa razy na 10 minut"
@@ -297,7 +300,7 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Obsługa",
 			"admin": {
 				"users": "Admin Users",
 				"roles": "Admin Roles",
@@ -308,14 +311,14 @@
 				"users": "Support Users",
 				"roles": "Support Roles",
 				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users_warning": "-# **Uwaga:** Użytkownicy w zespołach wsparcia są teraz przestarzali. Proszę migrować do roli."
 			}
 		},
 		"permissions": {
 			"title": "Permissions Check",
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
+			"missing": "❌ Brakujące uprawnienia",
 			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",

@@ -1,388 +1,392 @@
 {
-	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
-	"commands.add.no_members": "You need to mention members to add to the ticket",
-	"commands.add.no_permission": "You don't have permission to add people to this ticket",
-	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
-	"commands.addadmin.owner": "The server owner is already an administrator",
-	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
-	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
-	"commands.blacklist.self": "You cannot blacklist yourself",
-	"commands.claim.success": "Your ticket will be handled by %s",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
-	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
-	"commands.open.ticket_limit": "You are only able to open %d %s at once",
-	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
-	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
-	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
-	"commands.remove.staff": "You cannot remove staff from a ticket",
-	"commands.removeadmin.no_members": "You need to mention a user or name a role to revoke admin privileges from",
-	"commands.removeadmin.owner": "The guild owner must be an admin",
-	"commands.removeadmin.self": "You cannot revoke your own privileges",
-	"commands.removesupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
-	"commands.rename.missing_name": "You need to specify a new name for this ticket",
-	"commands.rename.success": "This ticket has been renamed to <#%d>",
-	"commands.tags.create.already_exists": "A tag with the ID `%s` already exists. You can delete the tag using `/tag delete %s`",
-	"commands.tags.create.invalid_arguments": "You must specify a tag ID and contents",
-	"commands.tags.create.too_long": "Tag IDs cannot be longer than 16 characters",
-	"commands.tags.delete.invalid_arguments": "You must specify a tag ID to delete",
-	"commands.tags.delete.not_exist": "A tag with the ID `%s` could not be found",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
-	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
-	"commands.unclaim.not_claimed": "This ticket is not claimed",
-	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
-	"commands.unclaim.success": "All support representatives can now respond to the ticket",
-	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
-	"generic.invalid_argument": "Invalid argument: refer to usage",
-	"generic.invalid_user": "Couldn't find the target user",
-	"generic.no_permission": "You do not have permission for this",
-	"generic.not_ticket": "This is not a ticket channel",
-	"generic.owner_only": "This command is reserved for the bot owner only",
-	"help.about": "Tells you information about the bot",
-	"help.add": "Adds a user to a ticket",
-	"help.addadmin": "Grants a user or role admin privileges",
-	"help.addsupport": "Adds a role as a support representative",
-	"help.admin": "Bot management",
-	"help.admin.blacklist": "Blacklist a guild from using the bot",
-	"help.admin.check_premium": "Check the premium status of a server",
-	"help.admin.generate_premium": "Generate premium keys",
-	"help.admin.get_owner": "Gets the owner of a server",
-	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
-	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
-	"help.cancel": "Cancels the setup process",
-	"help.claim": "Assigns a single staff member to a ticket",
-	"help.close": "Closes the current ticket",
-	"help.help": "Shows you a list of commands",
-	"help.invite": "Provides an invite link for the bot",
-	"help.language": "Changes the language the bot uses",
-	"help.managetags": "Add, delete or list tags",
-	"help.open": "Opens a new ticket",
-	"help.panel": "Creates a panel to enable users to open a ticket with 1 click",
-	"help.premium": "Run this command after purchasing premium to activate it",
-	"help.remove": "Removes a user from a ticket",
-	"help.removeadmin": "Revokes a user's or role's admin privileges",
-	"help.removesupport": "Revokes a user's or role's support representative privileges",
-	"help.rename": "Renames the current ticket",
-	"help.setup": "Allows you to easily configure the bot",
-	"help.stats": "Shows you statistics about users, support staff and the server",
-	"help.statsserver": "Shows you statistics about the server",
-	"help.tag": "Sends a message snippet",
-	"help.tagdelete": "Deletes a tag",
-	"help.taggadd": "Adds a new tag",
-	"help.taglist": "Lists all tags",
-	"help.transfer": "Transfers a claimed ticket to another user",
-	"help.unclaim": "Removes the claim on the current ticket",
-	"help.viewstaff": "Lists the staff members and roles",
-	"help.vote": "Gives you a link to vote for free premium",
-	"help.check_perms": "Check if the Bot has the right Permissions",
-	"open.success": "Opened a new ticket: %s",
-	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
-	"setup.auto.category.success": "Created Tickets category",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
-	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
-	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
-	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
-	"setup.auto.transcript.success": "Created <#%d> channel",
-	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
-	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
-	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
-	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
-	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
-	"help.autoclose": "Autoclose related commands",
-	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
-	"help.autoclose.configure": "Edit autoclose related settings",
-	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
-	"commands.claim.no_permission": "Only staff members can claim tickets",
-	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
-	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
-	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
-	"close.reason_too_long": "The reason cannot be longer than 255 characters",
-	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
-	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
-	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
-	"commands.close_request.denied": "<@%d> denied the close request",
-	"generic.error": "Error",
-	"feedback.disabled": "This server has feedback disabled",
-	"feedback.success": "Your feedback has been recorded",
-	"generic.success": "Success",
-	"button.guild_only": "This button must be used in a server",
-	"button.dms_only": "This button must be used in direct messages",
+	"commands.about": "Mae Tickets yn fot hawdd i'w ddefnyddio ac yn hawdd ei addasu ar gyfer cymorth. \\nGweinydd cymorth: https://discord.gg/ticketsbot\\nGorchmynion: Teipiwch '/help'\\nCychwynna drwy redeg '/setup'",
+	"commands.add.no_members": "Mae'n rhaid i ti enwi aelodau i'w ychwanegu at y tocyn",
+	"commands.add.no_permission": "Does gennyt ti ddim caniatâd i ychwanegu pobl at y tocyn",
+	"commands.addadmin.no_members": "Mae'n rhaid i ti enwi defnyddiwr neu rôl i rhoi caniatâd gweinyddwr iddyn nhw",
+	"commands.addadmin.owner": "Mae perchennog y gweinydd yn weinyddwr yn barod",
+	"commands.addsupport.no_members": "Mae'n rhaid i ti enwi defnyddiwr neu rôl i roi breintiau cynrychiolydd cymorth iddyn nhw",
+	"commands.blacklist.no_members": "Mae'n rhaid i ti enwi defnyddiwr i newid statws y rhestr ddu ar ei cyfer",
+	"commands.blacklist.self": "Alli di ddim rhoi dy hun ar y rhestr ddu",
+	"commands.claim.success": "Bydd dy docyn yn cael ei drin gan %s",
+	"commands.invite": "[Cliciwch yma](<https://invite.tickets.bot>)",
+	"commands.language.invalid": "Mae'n rhaid i ti nodi côd iaith neu faner. Ieithoedd sydd ar gael:\\n%s",
+	"commands.open.ticket_limit": "Dim ond %d%s wyt ti'n gallu ei hagor ar unwaith",
+	"commands.open.too_many_tickets": "Mae gormod o docynnau yn y categori tocynnau. Gofynnwch i weinyddwr gau rhai, symud nhw i gategori arall, neu sefydlu categori drosflwyddiad.\n\nMae hyn yn **gyfyngiad wedi'i osod gan Discord** o 50 sianel yn y categori.",
+	"commands.panel": "Ewch i <https://dashboard.tickets.bot/manage/%d/panels> i ffurfweddu panel",
+	"commands.premium": "Gallwch brynu tanysgrifiad premiwm o <https://www.patreon.com/ticketsbot-cloud>.\\nPremiwm yn cynnig llawer o fanteision, fel:\\n```diff\\n+ Creu paneli tocyn di-gyfyng\\n+ Addasu enw’r bot, ei lun proffil a’i statws (whitelabel)\\n+ Ystadegau manwl am y gweinydd, defnyddwyr a staff cymorth\\n+ Dim brandio yn y troedyn negeseuon\\n+ Cefnogi datblygiad a helpu talu costau’r gweinydd\\n```\\n\\nFel arall, gallwch bleidleisio yn <https://vote.tickets.bot> i gael premiwm am ddim am 24 awr",
+	"commands.premium.invalid_key": "Allwedd anghywir. Sicrhewch eich bod wedi'i gopio'n gywir.",
+	"commands.remove.no_permission": "Does gennyt ti ddim caniatâd i dynnu pobl o'r tocyn hwn",
+	"commands.remove.staff": "Alli di ddim tynnu staff o docyn",
+	"commands.removeadmin.no_members": "Mae'n rhaid i ti enwi defnyddiwr neu rôl i ddiddymu breintiau gweinyddwr oddi wrthyn nhw",
+	"commands.removeadmin.owner": "Mae'n rhaid i'r berchennog fod yn weinyddwr",
+	"commands.removeadmin.self": "Alli di ddim diddymu dy freintiau dy hun",
+	"commands.removesupport.no_members": "Mae'n rhaid i ti enwi defnyddiwr neu rôl i roi breintiau cynrychiolydd cymorth iddyn nhw",
+	"commands.rename.missing_name": "Mae'n rhaid i ti nodi enw newydd ar gyfer y tocyn hwn",
+	"commands.rename.success": "Mae tocyn yma wedi cael ei ail-enwi i <#%d>",
+	"commands.tags.create.already_exists": "Mae tag gyda'r ID `%s` yn bodoli yn farod. Gallwch ddileu'r tag gan ddefnyddio `/tag delete %s`",
+	"commands.tags.create.invalid_arguments": "Mae'n rhaid i ti nodi ID tag ac ei chynnwys",
+	"commands.tags.create.too_long": "Ni all IDau tag fod yn fwy na 16 llythyren",
+	"commands.tags.delete.invalid_arguments": "Mae'n rhaid i ti nodi ID tag i'w ddileu",
+	"commands.tags.delete.not_exist": "Ni ellid dod o hyd i tag gyda'r ID `%s`",
+	"commands.tags.get.invalid_arguments": "Mae'n rhaid i ti roi ID y tag. Am fwy o gymorth gyda thagiau, ewch i <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Tag anghywir. Am fwy o gymorth gyda thagiau, ewch i <https://tickets.bot/tags>.",
+	"commands.tags.list": "IDau pob tag: \\n%s\\nI weld cynnwys tag, rhedwch `%stag <ID>`",
+	"commands.unclaim.not_claimed": "Nid yw'r tocyn hwn wedi ei hawlio",
+	"commands.unclaim.not_claimer": "Dim ond gweinyddwyr a'r defnyddiwr sydd wedi hawlio'r tocyn sy'n gallu rhoi'r hawliad yn ôl",
+	"commands.unclaim.success": "Gal pob cynrychiolydd cymorth nawr ymateb i'r tocyn",
+	"commands.vote": "Cliciwch y botwm isod i bleidleisio dros y bot a chael 24 awr o bremiwm am ddim.\n\nUnwaith i ti bleidleisio, rheda'r gorchymyn %s eto i hawlio dy gredydau pleidleisio.",
+	"generic.invalid_argument": "Dadleuyn annilys: cyfeiriwch at y defnydd",
+	"generic.invalid_user": "Methwyd dod o hyd i'r defnyddir targed",
+	"generic.no_permission": "Does gen ti ddim caniatâd ar gyfer hyn",
+	"generic.not_ticket": "Nid yw hwn yn sianel tocyn",
+	"generic.owner_only": "Mae'r gorchymyn hwn ar gyfer perchennog y bot yn unig",
+	"help.about": "Yn dweud wrthyt wybodaeth am y bot",
+	"help.add": "Yn ychwanegu defnyddiwr at y docyn",
+	"help.addadmin": "Yn rhoi breintiau gweinyddwr i ddefnyddir neu rôl",
+	"help.addsupport": "Yn ychwanegu rôl fel cynrychiolydd cymorth",
+	"help.admin": "Rheoli'r bot",
+	"help.admin.blacklist": "Rhestru gweinydd at y rhes ddu i atal defnydd or bot",
+	"help.admin.check_premium": "Gwirio statws premiwm gweinydd",
+	"help.admin.debug": "Datrys problemau gosodiadau gweinydd",
+	"help.admin.generate_premium": "Creu allweddi premiwm",
+	"help.admin.get_owner": "Yn cael perchennog y gweinydd",
+	"help.admin.unblacklist": "Yn tynnu gweinydd o'r rhestr ddu",
+	"help.blacklist": "Yn toglo os yw defnyddwyr yn cael rhyngweithio hefo yr bot",
+	"help.cancel": "Yn canslo'r broses sefydlu",
+	"help.claim": "Yn neilltuo un aelod o staff i docyn",
+	"help.close": "Yn cau'r tocyn presennol",
+	"help.help": "Yn dangos rhestr o'r gorchmynion i ti",
+	"help.invite": "Yn darparu dolen wahoddiad ar gyfer y bot",
+	"help.language": "Yn newid iaith y bot",
+	"help.managetags": "Yn ychwanegu, dileu neu restru tagiau",
+	"help.open": "Yn agor tocyn newydd",
+	"help.panel": "Yn creu panel i alluogi defnyddwyr i agor tocyn gyda un clic",
+	"help.premium": "Rhedwch y gorchymyn hwn ar ôl prynu premiwm i'w actifadu",
+	"help.remove": "Yn tynnu defnyddiwr o docyn",
+	"help.removeadmin": "Yn tynnu breintiau gweinyddwr oddi wrth ddefnyddiwr neu rôl",
+	"help.removesupport": "Yn tynnu breintiau cynrychiolydd cymorth oddi wrth ddefnyddiwr neu rôl",
+	"help.rename": "Yn ail-enwi yr tocyn presennol",
+	"help.setup": "Yn caniatau i ti ffurfweddu'r bot yn hawdd",
+	"help.stats": "Yn dangos i ti ystadegau am ddefnyddwyr, staff cymorth a'r gweinydd",
+	"help.statsserver": "Yn dangos i ti ystadegau am y gweinydd",
+	"help.tag": "Yn anfon darn o neges",
+	"help.tagdelete": "Yn dileu tag",
+	"help.taggadd": "Yn ychwanegu tag newydd",
+	"help.taglist": "Yn rhestru'r holl dagiau",
+	"help.transfer": "Yn trosglwyddo tocyn a hawliwyd i defnyddiwr arall",
+	"help.unclaim": "Yn tynnu'r hawlied oddi ar y tocyn presennol",
+	"help.viewstaff": "Yn rhestru yr aelodau staff ac rolau",
+	"help.vote": "Yn rhoi dolen i ti i bleidleisio am bremiwm am ddim",
+	"help.check_perms": "Gwirio os yw'r bot gyda'r caniatadau cywir",
+	"open.success": "Tocyn newydd wedi'i agor: %s",
+	"open.outside_support_hours": "Mae'r panel hwn ar gau ar hyn o bryd. Rho gynnig arall yn ystod ein oriau cymorth.",
+	"setup.auto.category.failure": "Does gen i ddim y caniatâd `Manage Channels`",
+	"setup.auto.category.success": "Categori tocynnau wedi'i greu",
+	"setup.auto.completed": "Sefydlu wedi'i gwblhau! Cliciwch [yma](https://dashboard.tickets.bot/manage/%d/panels) i osod panel adwaith, ac ychwanega'r rolau <@&%d> a <@&%d> at dy aelodau staff",
+	"setup.auto.roles.failure": "Does gen i ddim y caniatâd `Manage Roles`",
+	"setup.auto.roles.success": "Wedi creu y rolau `Tickets Admin` ac `Tickets Support`",
+	"setup.auto.transcript.failure": "Does gen i ddim y caniatâd `Manage Channels`",
+	"setup.auto.transcript.success": "Sianel <#%d> wedi'i chreu",
+	"setup.ticket_limit.success": "Mae'r terfyn tocynnau wedi'i ddiweddaru i `%d`",
+	"setup.transcript.invalid": "Mae’n rhaid i ti sôn am sianel ddilys ar y gweinydd (e.e. <#%d>)\\n**Enghraifft**`/setup transcripts #logs`",
+	"setup.transcript.success": "Mae'r sianel trawsgrifiadau wedi'i newid i <#%d>",
+	"commands.language.help_wanted": "Wyt ti'n siarad iaith arall? Ymuno a ein [gweinydd cymorth](https://discord.gg/ticketsbot) os wyt ti'n awyddus i helpu gyfieithu'r bot i fwy o ieithoedd",
+	"commands.rename.too_long": "Ni all enwau sianel fod yn fwy na 100 o llythyrau",
+	"commands.autoclose.configure": "Ewch i'r [dangosfwrdd](https://dashboard.tickets.bot/manage/%d/settings) i newid gosodiadau cau awtomatig",
+	"help.autoclose": "Gorchmynion sy'n ymwneud efo chau awtomatig",
+	"help.autoclose.exclude": "Yn eithrio'r tocyn presennol rhag cael ei gau'n awtomatig",
+	"help.autoclose.configure": "Golygu gosodiadau cau awtomatig",
+	"commands.autoclose.exclude.success": "Mae'r tocyn hwn wedi'i eithrio rhag cael ei gau'n awtomatig",
+	"commands.claim.no_permission": "Dim ond aelodau staff sy'n gallu hawlio tocynnau",
+	"commands.open.from": "Agorwyd y tocyn hwn o'r [neges hon](%s).\n\nDywedodd <@%d> yn <#%d>:\n```%s```",
+	"commands.open.from.moved": "Mae'r sgwrs wedi'i symud i docyn (<#%d>)",
+	"help.close_request": "Yn anfon neges yn gofyn i'r defnyddiwr i gadarnhau bod modd cau'r tocyn",
+	"close.reason_too_long": "Ni all y rheswm fod yn hirach na 255 llythyren",
+	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.no_reason": "Mae <@%d> wedi gofyn i cau'r tocyn hwn.\n\nDerbyn neu wrthod gan ddefnyddio'r botymau isod.",
+	"commands.close_request.with_reason": "Mae <@%d> wedi gofyn i cau'r tocyn hwn. Rheswm:\n```\n%s\n```\nDerbyn neu wrthod gan ddefnyddio'r botymau isod.",
+	"commands.close_request.no_permission": "Dim ond y defnyddiwr wnaeth agor y tocyn sy'n gallu ymateb i'r cais cau",
+	"commands.close_request.denied": "Gwrthododd <@%d> y cais cau",
+	"generic.error": "Gwall",
+	"feedback.disabled": "Mae adborth wedi'i analluogi ar y gweinydd hwn",
+	"feedback.success": "Mae dy adborth wedi'i gofnodi",
+	"generic.success": "Llwyddiant",
+	"button.guild_only": "Rhaid defnyddio'r botwm hwn mewn gweinydd",
+	"button.dms_only": "Rhaid defnyddio'r botwm hwn mewn negeseuon uniongyrchol",
 	"commands.tag.generic": "Tag",
-	"commands.tags.delete.success": "Tag `%s` has been deleted",
-	"generic.ticket": "Ticket",
-	"generic.title.premium_only": "Premium Only Command",
-	"generic.admin": "Admin",
-	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
-	"generic.title.about": "About",
-	"generic.title.vote": "Vote",
-	"generic.title.tags": "Tags",
-	"generic.title.autoclose": "Autoclose",
-	"generic.title.invite": "Invite",
-	"generic.title.close": "Close",
-	"generic.title.claim": "Claim",
-	"generic.title.blacklisted": "Blacklisted",
-	"generic.title.blacklist": "Blacklist",
-	"generic.error.blacklisted": "You are blacklisted in this server",
-	"commands.blacklist.add.success": "has been blacklisted",
-	"commands.blacklist.remove.success": "has been unblacklisted",
-	"generic.title.add_admin": "Add Admin",
-	"generic.title.add_support": "Add Support",
-	"generic.title.remove_admin": "Remove Admin",
-	"generic.title.remove_support": "Remove Support",
-	"commands.addsupport.success": "Support representative added successfully",
-	"generic.title.language": "Language",
-	"commands.removesupport.success": "Support representative removed successfully",
-	"commands.addadmin.success": "Admin added successfully",
-	"commands.removeadmin.success": "Admin removed successfully",
-	"generic.title.setup": "Setup",
-	"generic.title.premium": "Premium",
+	"commands.tags.delete.success": "Mae'r tag `%s` wedi'i ddileu",
+	"generic.ticket": "Tocyn",
+	"generic.title.premium_only": "Gorchymyn i Ddefnyddwyr Premiwm yn Unig",
+	"generic.admin": "Gweinyddwr",
+	"commands.tags.create.success": "Tag wedi'i greu - rwyt ti'n gallu ei defnyddio trwy rhedeg `/tag %s`",
+	"generic.title.about": "Ynglŷn",
+	"generic.title.vote": "Pleidleisio",
+	"generic.title.tags": "Tagiau",
+	"generic.title.autoclose": "Cau Awtomatig",
+	"generic.title.invite": "Gwahoddiad",
+	"generic.title.close": "Cau",
+	"generic.title.claim": "Hawlio",
+	"generic.title.blacklisted": "Ar y Rhestr Ddu",
+	"generic.title.blacklist": "Rhestr Ddu",
+	"generic.error.blacklisted": "Rwyt ti ar y rhestr ddu yn y gweinydd hwn",
+	"commands.blacklist.add.success": "Mae <@%d> wedi'i roi ar y rhestru ddu",
+	"commands.blacklist.remove.success": "Mae <@%d> wedi'i dynnu oddi ar y rhestru ddu",
+	"generic.title.add_admin": "Ychwanegu Gweinyddwr",
+	"generic.title.add_support": "Ychwanegu Cymorth",
+	"generic.title.remove_admin": "Tynnu Gweinyddwr",
+	"generic.title.remove_support": "Tynnu Cymorth",
+	"commands.addsupport.success": "Support representative added successfully: %s",
+	"generic.title.language": "Iaith",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"generic.title.setup": "Sefydlu",
+	"generic.title.premium": "Premiwm",
 	"generic.title.panel": "Panel",
-	"generic.title.rename": "Rename",
-	"generic.title.remove": "Remove",
-	"generic.title.help": "Help",
-	"generic.title.close_confirmation": "Close Confirmation",
-	"close.confirmation": "Please confirm that you want to close this ticket",
-	"generic.title.close_request": "Close Request",
-	"commands.close_request.accept": "Accept & Close",
-	"commands.close_request.deny": "Deny & Keep Open",
-	"commands.premium.success": "Premium has been activated for **%d** days",
-	"generic.title.claimed": "Claimed Ticket",
-	"generic.title.unclaimed": "Unclaimed Ticket",
-	"generic.title.add": "Add",
-	"commands.add.success": "<@%d> has been added to <#%d>",
-	"commands.remove.success": "<@%d> has been removed from <#%d>",
-	"open.ratelimited": "Tickets are being opened too quickly in this server",
-	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
-	"generic.join_support_server": "Join Support Server",
-	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
-	"commands.open.missing_form_answer": "You must answer the question `%s`",
-	"close.no_permission": "You are not permitted to close this ticket",
+	"generic.title.rename": "Ail-enwi",
+	"generic.title.remove": "Tynnu",
+	"generic.title.help": "Cymorth",
+	"generic.title.close_confirmation": "Cadarnhad Cau",
+	"close.confirmation": "Cadarnha dy fod eisiau cau'r tocyn hwn, os gwelwch yn dda",
+	"generic.title.close_request": "Cais Cau",
+	"commands.close_request.accept": "Derbyn a Chau",
+	"commands.close_request.deny": "Gwrthod a Gadw'n Agored",
+	"commands.premium.success": "Mae Premiwm wedi'i actifadu am **%d** diwrnod",
+	"generic.title.claimed": "Tocyn Hawliwyd",
+	"generic.title.unclaimed": "Tocyn Heb Ei Hawlio",
+	"generic.title.add": "Ychwanegu",
+	"commands.add.success": "Mae <@%d> wedi’i ychwanegu at <#%d>",
+	"commands.remove.success": "Mae <@%d> wedi’i dynnu o <#%d>",
+	"open.ratelimited": "Mae tocynnau'n cael ei hagor rhy gyflym ar y gweinydd hwn",
+	"commands.claim.thread": "Oherwydd cyfyngiadau Discord, nid yn hawlio'n cefnogi edafedd",
+	"generic.join_support_server": "Ymuno â’r Gweinydd Cymorth",
+	"commands.open.guild_channel_limit": "Mae'r gweinydd hwn wedi cyrraedd terfyn Discord o 500 sianel",
+	"commands.open.missing_form_answer": "Rhaid i ti ateb y cwestiwn `%s`",
+	"close.no_permission": "Nid oes gen ti ganiatâd i gau'r tocyn hwn",
 	"": {
-		"generic.title.close_with_reason": "Close With Reason",
-		"generic.reason": "Reason"
+		"generic.title.close_with_reason": "Cau Hefo Rheswm",
+		"generic.reason": "Rheswm"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
+			"placeholder": "Rheswm dros gau'r tocyn, e.e. \"Wedi'i ddatrys\""
 		},
-		"success": "The ticket was closed by <@%d>",
+		"success": "Cafodd y tocyn ei gau gan <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "Alli di ddim sgorio'r tocyn hwn oherwydd rwyt ti'n gynrychiolydd cymorth yn %s",
+				"empty": "Alla di ddim sgorio'r tocyn hwn oherwydd nad wnest ti anfon unrhyw negeseuon"
 			}
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
+			"disabled": "Mae'r gorchymyn `/open` wedi'i analluogi yn y gweinydd hwn: defnyddio banel tocynnau i agor tocyn",
 			"threads": {
-				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_see_parent_channel": "Methu ychwanegu <@%d> at y tocyn: Sicrhewch fod ganddyn nhw ganiatâd i weld sianel rhiant yr edefyn (<#%d>)",
+				"cant_message_in_threads": "Rwyt ti ddim hefo yr caniatâd `Send Messages in Threads`, sydd ei angen i agor tocyn. Gofynna i weinyddwr y gweinydd roi'r caniatâd hwn i ti, ac roi gynnig arall arni."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "Invalid panel: You must select one from the dropdown",
-			"success": "This ticket has been switched to the `%s` panel by <@%d>"
+			"invalid_panel": "Panel annilys: Rhaid i ti ddewis un o'r gwymplen",
+			"success": "Mae'r tocyn hwn wedi'i newid i banel `%s` gan <@%d>"
 		},
 		"blacklist": {
-			"staff": "Staff members cannot be blacklisted",
+			"staff": "Methu rhoi aelodau staff ar y rhestr ddu",
 			"add_role": {
-				"limit": "You have reached the role blacklist limit (%d)"
+				"success": "Mae <@%d> wedi'i roi ar y rhestr ddu",
+				"limit": "Rwyt ti wedi cyrraedd terfyn y rhestr ddu ar gyfer rolau (%d)"
 			},
 			"add": {
-				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
+				"limit": "Rwyt ti wedi cyrraedd terfyn y rhestr ddu ar gyfer defnyddiwr (%d): ystyriwch ddefnyddio rôl yn ei lle"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "This ticket does not have a welcome message",
-			"content": "Click the button below to jump to the top of the ticket"
+			"no_welcome_message": "Does gan yr tocyn hwn ddim neges groeso",
+			"content": "Clicia'r botwm isod i neidio i dop y tocyn"
 		},
 		"addsupport": {
-			"confirm": "Please confirm that you want to add %s to the default support representative team",
-			"everyone": "You cannot add the `@everyone` role as staff"
+			"confirm": "Cadarnha dy fod eisiau ychwanegu %s at y dim cynrychiolwyr cymorth rhagosodedig",
+			"everyone": "Methu ychwanegu’r rôl `@everyone` fel staff"
 		},
 		"addadmin": {
-			"confirm": "Please confirm that you want to add %s as a bot administrator"
+			"confirm": "Cadarnha dy fod eisiau ychwanegu %s fel gweinyddwr y bot"
 		},
 		"tags": {
 			"create": {
-				"limit": "You have reached the tag limit (%d)"
+				"limit": "Rwyt ti wedi cyrraedd terfyn y tagiau (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Mae angen Premiwm i ddefnyddio gorchmynion personol (aliau tag)"
 			}
 		},
 		"language": {
-			"content": "The available languages and their translation progress are as follows:\n%s",
-			"success": "The server language has been changed to **%s** (%s)",
-			"select": "Select a language (%c-%c)"
+			"content": "Dyma'r ieithoedd sydd ar gael a'u cynnydd cyfieithu: %s",
+			"success": "Mae iaith y gweinydd wedi'i newid i **%s** (%s)",
+			"select": "Dewisiwch Iaith (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
-			"success": "You are now on call",
-			"remove_success": "You are no longer on call"
+			"channel_mode": "Dim ond yn y modd edefyn y gellir defnyddio `/on-call`. Ewch i'n [dogfennau](https://docs.tickets.bot/features/thread-mode) i ddysgu mwy am edafedd",
+			"success": "Rwyt ti nawr ar alwad",
+			"remove_success": "Rwyt ti ddim ar alwad bellach"
 		},
 		"reopen": {
-			"not_found": "Ticket not found",
-			"no_permission": "You do not have permission to reopen this ticket",
-			"already_open": "This ticket is already open",
-			"not_thread": "Only threads can be reopened",
-			"thread_deleted": "The ticket has been permanently deleted",
-			"success": "Ticket %d reopened: <#%d>",
-			"in_ticket": "This ticket has been reopened by <@%d>"
+			"not_found": "Tocyn heb ei ganfod",
+			"no_permission": "Nid oes gen ti ganiatâd i ail-agor y tocyn hwn",
+			"already_open": "Mae'r tocyn hwn ar agor yn barod",
+			"not_thread": "Dim ond edafedd sy'n gallu cael ei ail-agor",
+			"thread_deleted": "Mae'r tocyn wedi cael ei ddileu yn parhaol",
+			"success": "Tocyn %d wedi’i ail-agor: <#%d>",
+			"in_ticket": "Mae’r tocyn yma wedi’i ail-agor gan <@%d>"
 		},
 		"premium": {
-			"key": "Key",
-			"check_again": "Check Again",
-			"subscription_found": "Subscription Found!",
-			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
-			"activate_key": "Activate A Premium Key",
-			"checking": "Checking Premium Status...",
-			"please_wait": "Please wait...",
-			"success_after_check": "Premium is now active in this server!",
-			"link_patreon_account": "Link Patreon Account",
-			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
-			"open_form": "Open Form",
-			"open_form_description": "Press the button below to reopen the form",
-			"use_key_anyway": "Use Premium Key Anyway",
-			"already_purchased_title": "Already purchased premium?",
-			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
-			"giveaway_key": "Giveaway Key",
+			"key": "Allwedd",
+			"check_again": "Gwiriwch Eto",
+			"subscription_found": "Tanysgrifiad Wedi'i Ddod o Hyd!",
+			"subscription_found_content": "I gyflwyno dy danysgrifiad i'r gweinydd hwn, mae'n rhaid i berchennog y gweinydd (<@%d>) dy ychwanegu di fel gweinyddwr **defnyddiwr** (anwybyddir rolau) drwy ddefnyddio'r gorchymyn </addadmin:%d>.\\n\\nGallwch wirio dy fod wedi cael dy ychwanegu fel gweinyddwr trwy redeg </viewstaff:%d>.",
+			"activate_key": "Gweithredu Allwedd Premiwm",
+			"checking": "Yn gwirio statws Premiwm...",
+			"please_wait": "Arhoswch...",
+			"success_after_check": "Mae Premiwm yn weithredol yn y gweinydd hwn nawr!",
+			"link_patreon_account": "Cyswllt Cyfrif Patreon",
+			"no_subscription": "Ni lwyddwyd i ddod o hyd i danysgrifiad Patreon gweithredol wedi'i gysylltu hefo dy gyfrif Discord. Sicirhewch fod [dy gyfrif Patreon a Discord wedi ei cysylltu](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), ac arhoswch am 10 munud pellach.",
+			"open_form": "Agor Ffurflen",
+			"open_form_description": "Pwyswch y botwm isod i ailagor y ffurflen",
+			"use_key_anyway": "Defnyddio Allwedd Premiwm Beth bynnag",
+			"already_purchased_title": "Wedi prynu Premiwm yn barod?",
+			"already_purchased_description": "Os wyt ti wedi prynu Premiwm yn barod, dewiswch y dull talu o'r rhestr i ddechrau",
+			"giveaway_key": "Allwedd Rhodd",
 			"selector": {
-				"description": "Select which method you used to obtain premium",
+				"description": "Dewiswch pa ddull wnest ti ddefnyddio i cael Premiwm",
 				"key": {
-					"description": "Select this option if you were given a giveaway key"
+					"description": "Dewiswch y dewis hwn os cafodd allwedd rhodd ei roi i ti"
 				},
 				"patreon": {
-					"description": "Select this option if you made your purchase on Patreon"
+					"description": "Dewiswch y dewis hwn os gwnaethoch brynu ar Patreon"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Dewisiwch yr opsiwn hwn os gwnaethoch brynu drwy siop fewnol Discord"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
-			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"about": "Mae Premiwm yn rhoi mynediad i fwy o baneli, ystadegau, bot personol a mwy! Ewch i'n [gwefan](https://tickets.bot/premium) i ddysgu mwy.",
+			"already_activated": "Newyddion da! Mae premiwm yn weithredol yn y gweinydd hwn yn barod.",
+			"already_activated_whitelabel": "Newyddion da! Mae premiwm yn weithredol yn y gweinydd hwn yn barod.\n\nI gael cymorth i ddechrau gyda whitelabel, darllenwch ein [canllaw sefydlu whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Gellir prynu Premiwm yn uniongyrchol o fewn Discord. Clicia'r botwm isod i agor tudalen rheoli'r tanysgrifiad.\n\nAr ôl prynu, gall gymryd hyd at 5 munud i ganfod y tanysgrifiad."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Mae dy danysgrifiad Patreon wedi'i ganfod. Clicia'r botwm \"Agor Dewisydd Gweinydd\" isod i agor y dangosfwrdd a dewis pa weinyddion wyt ti am ddefnyddio dy danysgrifiad Premiwm arnyn nhw.",
+			"open_server_selector": "Agor Dewisydd Gweinydd"
 		},
 		"notes": {
-			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
-			"thread_name": "notes",
-			"created": "A notes thread has been created for this ticket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"added_to_existing": "Rwyt ti wedi cael dy ychwanegu at yr edefyn nodiadau presennol: <#%d>",
+			"thread_name": "nodiadau",
+			"created": "Mae edefyn nodiadau wedi'i greu ar gyfer y tocyn hwn: <#%d>",
+			"channel_mode_only": "Dim ond yn y modd sianel mae edafedd nodiadau'n cael eu cefnogi"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "Oherwydd cyfyngiadau gan Discord, dim ond dwywaith bob 10 munud y gellir ailenwi tocynnau"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Echdynnu Credydau",
+			"no_credits": "Methwyd echdynnu: does gennyt ti ddim credydau pleidleisio!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Mae dy gredydau pleidleisio wedi'u hechdynnu am **%d** diwrnod o Premiwm!",
+					"singular": "Mae dy gredydau pleidleisio wedi'u hechdynnu am **%d** diwrnod o Premiwm!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Mae gennyt ti **%d** credyd pleidleisio. clicia'r botwm \"Echdynnu Credydau\" isod i'w defnyddio am %d diwrnod o Premiwm yn y gweinydd hwn.",
+				"singular": "Mae gennyt ti **%d** credyd pleidleisio. clicia'r botwm \"Echdynnu Credydau\" isod i'w defnyddio am %d diwrnod o Premiwm yn y gweinydd hwn."
 			}
 		},
 		"viewstaff": {
 			"title": "Staff",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Defnyddwyr gweinyddwr",
+				"roles": "Rolau gweinyddwr",
+				"no_users": "Dim defnyddwyr gweinyddwr",
+				"no_roles": "Dim rolau gweinyddwr"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Defnyddwyr cymorth",
+				"roles": "Rolau cymorth",
+				"no_roles": "Dim rolau cymorth",
+				"users_warning": "-# **Rhybudd:** Mae defnyddwyr mewn timau cymorth bellach wedi darfod. Symudwch drosodd i ddefnyddio rolau."
 			}
 		},
 		"permissions": {
-			"title": "Permissions Check",
-			"has_admin": "✅ <@%d> has the Administrator permission",
-			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
+			"title": "Gwirio Caniatâdau",
+			"has_admin": "✅ Mae gan <@%d> ganiatâd Gweinyddwr",
+			"has_all": "✅ Mae gan <@%d>’r holl ganiatâdau angenrheidiol",
+			"missing": "❌ Caniatâdau ar goll",
 			"description": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
-				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
-				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
-				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
-				"read_message_history": "Allows the bot to read all messages in a channel.",
-				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
-				"use_application_commands": "Allows the bot's slash commands to work."
+				"read_messages": "Yn caniatáu i'r bot weld cynnwys sianel.",
+				"send_messages": "Yn caniatáu i'r bot anfon negeseuon mewn sianeli.",
+				"embed_links": "Yn caniatáu i'r bot anfon paneli tocynnau, negeseuon croeso, a thagiau sy'n cynnwys neges mewnosodedig.",
+				"attach_files": "Yn caniatáu ir bot rhoi caniatád `attach files` ir sawl sy'n agor y tocyn.",
+				"add_reactions": "Yn caniatáu i'r bot ychwanegu botymau i baneli tocynnau, negeseuon croeso, a phob gorchymyn sy'n defnyddio botymau.",
+				"use_external_emojis": "Yn caniatáu i'r bot defnyddio emojis nad ydynt o'r gweinydd hwn mewn paneli tocynnau, negeseuon croeso, a thagiau. Rhaid i'r bot fod yn y gweinydd arall er mwyn eu defnyddio.",
+				"mention_everyone": "Yn caniatáu i'r bot tagio `@everyone`, `@here` ac pob rôl mewn tocyn.",
+				"read_message_history": "Yn caniatáu i'r bot ddarllen pob neges mewn sianel.",
+				"manage_channels": "Yn caniatáu i'r bot greu, ail-enw, ail-ddosbarthu a dileu sianeli.",
+				"manage_roles": "Yn caniatáu i’r bot greu a golygu rolau; rhoi a chymryd rolau oddi wrth ddefnyddwyr; a newid caniatâdau rolau mewn sianel.",
+				"manage_webhooks": "Yn caniatáu i’r bot greu bachyn gwe ar gyfer trawsgrifiadau, ac i staff ddefnyddio’r dangosfwrdd i anfon negeseuon neu dagiau mewn tocynnau agored.",
+				"manage_threads": "Yn caniatáu i’r bot greu, ailenwi, cau a dileu edafedd.",
+				"send_messages_in_threads": "Yn caniatáu i’r bot anfon negeseuon mewn edafedd.",
+				"create_public_threads": "Yn caniatáu i’r bot greu edafedd cyhoeddus.",
+				"create_private_threads": "Yn caniatáu i’r bot greu edafedd preifat, e. e. tocynnau modd edefyn a’r gorchymyn /notes ar gyfer tocynnau sianel.",
+				"use_application_commands": "Yn caniatáu i orchmynion slash y bot weithio."
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Ticket Panel Switched",
-			"jump_to_top": "Jump To Top",
-			"reopened": "Ticket Reopened",
-			"ticket_closed": "Ticket Closed"
+			"panel_switched": "Panel Tocynnau Wedi Newid",
+			"jump_to_top": "Neidio i'r Brig",
+			"reopened": "Tocyn wedi Ail-agor",
+			"ticket_closed": "Tocyn Wedi'i Gau"
 		},
-		"click_here": "Click Here",
-		"confirm": "Confirm",
-		"website": "Our Website"
+		"click_here": "Cliciwch Yma",
+		"confirm": "Cadarnhau",
+		"website": "Ein Wefan"
 	},
 	"help": {
-		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
-		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
-		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
-		"reopen": "Reopens a ticket that was previously closed",
-		"notes": "Creates a thread for private discussion between support representatives"
+		"switch_panel": "Yn newid tocyn i banel tocynnau arall, gan newid categori'r sianel, timau cymorth ac ati.",
+		"jump_to_top": "Yn rhoi botwm i ti neidio i frig y tocyn",
+		"on_call": "Yn dynodi dy fod ar alwad, i gael dy ychwanegu a tagio mewn pob tocyn newydd",
+		"reopen": "Yn ail-agor tocyn oedd wedi cael ei gau o'r blaen",
+		"notes": "Yn creu edefyn ar gyfer trafodaeth breifat rhwng cynrychiolwyr cymorth"
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Eisiau archwilio mwy? Fydd ein [dogfennaeth](https://docs.tickets.bot) yn dysgu i ti sut i ffurfweddu pop agwedd y bot!"
 		},
 		"threads": {
-			"no_notification_channel": "You must provide a ticket notification channel",
-			"notification_channel_type": "The ticket notification channel must be a text channel",
-			"success": "Thread mode has been enabled",
-			"disabled": "Thread mode has been disabled"
+			"no_notification_channel": "Mae'n rhaid i ti ddarparu sianel hysbysu tocynnau",
+			"notification_channel_type": "Rhaid i'r sianel hysbysu tocynnau fod yn sianel destun",
+			"success": "Mae modd edefyn wedi'i alluogi",
+			"disabled": "Mae modd edefyn wedi'i analluogi"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "This ticket has already been closed",
-			"no_permission": "You do not have permission to view this type of ticket",
-			"already_joined": "You have already joined this ticket (<#%d>)",
-			"success": "Added you to the ticket: <#%d>"
+			"closed_ticket": "Mae'r tocyn yma wedi'i gau barod",
+			"no_permission": "Does gen ti ddim caniatâd i weld y math hwn o docyn",
+			"already_joined": "Rwyt ti wedi ymuno â’r tocyn hwn yn barod (<#%d>)",
+			"success": "Wyt ti wedi cael dy ychwanegu at y tocyn: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "Threads cannot be created in announcement channels",
-		"panel_force_disabled": "This panel has been disabled. Please ask a server admin to reactivate premium, and run %s in order to re-enable this panel.",
-		"panel_disabled": "The server admins have disabled opening this type of ticket",
+		"thread_in_announcement_channel": "Ni ellir creu edefynnau mewn sianeli hysbysiadau",
+		"panel_force_disabled": "Mae'r panel hwn wedi'i analluogi. Gofynnwch i weinyddwr y gweinydd adfer premiwm, a rhedwch %s i ail-alluogi'r panel hwn.",
+		"panel_disabled": "Mae gweinyddwyr y gweinydd wedi analluogi agor y math hwn o docyn",
 		"acl": {
-			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
-			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>",
+			"no_allow_rules": "Mae mynediad i agor math hwn o docyn wedi'i analluogi i bob rôl",
+			"deny_listed": "Ni allwch agor y mat hwn o docyn oherwydd bod gennych y rôl <@&%d>",
 			"not_allow_listed": {
-				"multiple": "You need one of the following roles to open this type of ticket: %s",
-				"single": "You need the following role to open this type of ticket: %s"
+				"multiple": "Mae angen un o'r rolau canlynol arnat ti i agor y math hwn o docyn: %s",
+				"single": "Mae angen y rôl ganlynol arnat ti i agor y math hwn o docyn: %s"
 			}
 		}
 	}

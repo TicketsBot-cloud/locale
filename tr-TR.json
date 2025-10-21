@@ -47,6 +47,7 @@
 	"help.admin": "Bot yönetimi",
 	"help.admin.blacklist": "Sunucunun botu kullanmasını kara listeye alarak engelle",
 	"help.admin.check_premium": "Sunucunun premium olup olmadığını kontrol et",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Premium anahtarları oluşturur",
 	"help.admin.get_owner": "Bir sunucunun sahibini gösterir",
 	"help.admin.unblacklist": "Bir sunucuyu sunucu kara listesinden çıkarın",
@@ -78,6 +79,7 @@
 	"help.vote": "Ücretsiz premium üyelik için oy bağlantısı",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Talebin oluşturuldu: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Kanalları yönet iznine sahip değil",
 	"setup.auto.category.success": "Destek kategorisi oluşturuldu",
 	"setup.auto.completed": "Kurulum tamamlandı! Bir reaksiyon paneli kurmak için [buraya] (https://dashboard.tickets.bot/manage/%d/panels) tıklayın ve personel üyelerinize <@&%d> ve <@&%d> rollerini ekleyin",
@@ -100,6 +102,7 @@
 	"commands.open.from.moved": "Görüşme şu bilete taşındı: (<#%d>)",
 	"help.close_request": "Kullanıcıdan biletin kapatılabileceğini onaylamasını isteyen bir mesaj gönderir",
 	"close.reason_too_long": "Talebi kapatma nedeni 255 karakterden uzun olamaz",
+	"commands.close_request.success": "Close request was sent successfully",
 	"commands.close_request.no_reason": "<@%d> Bu biletin kapatılmasını istedi.\n\nLütfen aşağıdaki butonları kullanarak onay verin yada reddedin.",
 	"commands.close_request.with_reason": "<@%d>, biletin kapatılmasını istedi. Sebep:\n```\n%s\n```\nLütfen aşağıdaki butonları kullanarak onay verin ya da reddedin.",
 	"commands.close_request.no_permission": "Destek talebini kapatma isteğine sadece talebi açan kullanıcı yanıt verebilir",
@@ -132,11 +135,11 @@
 	"generic.title.add_support": "Destek ekle",
 	"generic.title.remove_admin": "Yöneticiyi kaldır",
 	"generic.title.remove_support": "Desteği sonlandır",
-	"commands.addsupport.success": "Destek yetkilisi başarıyla eklendi",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Dil",
-	"commands.removesupport.success": "Destek yetkilisi başarıyla kaldırıldı",
-	"commands.addadmin.success": "Yönetici başarıyla eklendi",
-	"commands.removeadmin.success": "Yönetici yetkisi başarıyla kaldırıldı",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Kurulum",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Kontrol Paneli",
@@ -186,7 +189,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Geçersiz panel: Açılır menüden birini seçmelisiniz",
-			"success": "Bu bilet <@%d> tarafından, `%s` paneline geçirildi"
+			"success": "Bu bilet <@%[2]d> tarafından, `%[1]s` paneline geçirildi"
 		},
 		"blacklist": {
 			"staff": "Yönetici üyeler kara listeye alınamaz",
