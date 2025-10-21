@@ -358,13 +358,6 @@
 		"reopen": "Yn ail-agor tocyn oedd wedi cael ei gau o'r blaen",
 		"notes": "Yn creu edefyn ar gyfer trafodaeth breifat rhwng cynrychiolwyr cymorth"
 	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "Mae <@&%d> wedi'i dynnu oddi ar y rhestr ddu"
-			}
-		}
-	},
 	"setup": {
 		"auto": {
 			"docs": "Eisiau archwilio mwy? Fydd ein [dogfennaeth](https://docs.tickets.bot) yn dysgu i ti sut i ffurfweddu pop agwedd y bot!"

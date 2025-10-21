@@ -129,8 +129,8 @@
 	"generic.title.blacklisted": "Černá listina",
 	"generic.title.blacklist": "Černá listina",
 	"generic.error.blacklisted": "Jsi blacklisted na tomhle serveru",
-	"commands.blacklist.add.success": "<@%d> je nyní na černé listině",
-	"commands.blacklist.remove.success": "<@%d> již není černé listině",
+	"commands.blacklist.add.success": "je nyní na černé listině",
+	"commands.blacklist.remove.success": "již není černé listině",
 	"generic.title.add_admin": "Přidat administrátora",
 	"generic.title.add_support": "Přidat podporu",
 	"generic.title.remove_admin": "Odebrat admina",
@@ -194,7 +194,6 @@
 		"blacklist": {
 			"staff": "Nemůžete zařadit člena vedení na černou listinu",
 			"add_role": {
-				"success": "<@&%d> je nyní na černé listině",
 				"limit": "Překročili jste limit role černé listiny (%d)"
 			},
 			"add": {
@@ -357,13 +356,6 @@
 		"on_call": "Označuje vás jako při hovoru, bude přidán a přidán ve všech nových ticketů",
 		"reopen": "Znovu otevře ticket, který byl dříve uzavřen",
 		"notes": "Vytvoří soukromé vlákno pro privátní konverzaci mezi podporou"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> byl odstraňen z černé listiny"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

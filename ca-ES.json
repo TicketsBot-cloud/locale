@@ -129,8 +129,8 @@
 	"generic.title.blacklisted": "A la llista negra",
 	"generic.title.blacklist": "Llista negra",
 	"generic.error.blacklisted": "Estàs a la llista negra del servidor",
-	"commands.blacklist.add.success": "<@%d> ha estat afegit a la llista negra",
-	"commands.blacklist.remove.success": "<@%d> s'ha tret de la llista negra",
+	"commands.blacklist.add.success": "ha estat afegit a la llista negra",
+	"commands.blacklist.remove.success": "s'ha tret de la llista negra",
 	"generic.title.add_admin": "Afegir Administrador",
 	"generic.title.add_support": "Afegir Suport",
 	"generic.title.remove_admin": "Treure Administrador",
@@ -194,7 +194,6 @@
 		"blacklist": {
 			"staff": "Els membres de l'equip no es poden afegir a la llista negra",
 			"add_role": {
-				"success": "<@&%d> ha estat afegit a la llista negra",
 				"limit": "Has arribat al límit de rols (%d) a la llista negra"
 			},
 			"add": {
@@ -357,13 +356,6 @@
 		"on_call": "Et marca com a disponible, per ser afegit i mencionat a tots els nous tiquets",
 		"reopen": "Torna a obrir un tiquet que ha estat tancat prèviament",
 		"notes": "Crea un fil per discutir en privat entre els integrants de l'equip de suport"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> s'ha tret de la llista negra"
-			}
-		}
 	},
 	"setup": {
 		"auto": {
