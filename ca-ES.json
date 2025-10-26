@@ -315,30 +315,6 @@
 				"no_roles": "No hi ha rols a l'equip de suport",
 				"users_warning": "-# **Avís:** Els usuaris dels equips de suport seran obsolets. Si us plau, migra a rols."
 			}
-		},
-		"permissions": {
-			"title": "Verificació de Permisos",
-			"has_admin": "✅ <@%d> té permís de l'Administració",
-			"has_all": "✅ <@%d> té tots els permisos necessaris",
-			"missing": "❌ Falten Permisos",
-			"description": {
-				"read_messages": "Permet al bot veure el contingut d'un canal.",
-				"send_messages": "Permet al bot enviar missatges als canals.",
-				"embed_links": "Permet al bot enviar panells de tiquets, missatges de benvinguda, i etiquetes que inclouen un missatge incrustat (embed).",
-				"attach_files": "Permet al bot assignar el permís d'adjuntar fitxers a qui ha obert el tiquet.",
-				"add_reactions": "Permet al bot afegir botons als panells de tiquets, missatges de benvinguda, i totes les ordres que utilitzin botons.",
-				"use_external_emojis": "Permet al bot utilitzar emoticones d'altres servidors als panells de tiquets, missatges de benvinguda, i etiquetes. El bot també ha de ser a l'altre servidor per utilitzar-les.",
-				"mention_everyone": "Permet al bot mencionar everyone, here i tots els rols en un tiquet.",
-				"read_message_history": "Permet al bot llegir tots els missatges en un canal.",
-				"manage_channels": "Permet al bot crear, reanomenar, classificar, i eliminar canals.",
-				"manage_roles": "Permet al bot crear i editar rols; assignar o treure rols; i ajustar permisos de rols del canal.",
-				"manage_webhooks": "Permet al bot crear webhooks per transcripcions, i als gestors enviar missatges o etiquetes als tiquets oberts des del taulell web.",
-				"manage_threads": "Permet al bot crear, reanomenar, tancat, i eliminar fils.",
-				"send_messages_in_threads": "Permet al bot enviar missatges als fils.",
-				"create_public_threads": "Permet al bot crear fils públics.",
-				"create_private_threads": "Permet al bot crear fils privats, tals com els tiquets en mode fils i l'ordre /note per un tiquet tipus canal.",
-				"use_application_commands": "Permet el funcionament de les ordres tipus barra (/)."
-			}
 		}
 	},
 	"generic": {

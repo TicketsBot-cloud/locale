@@ -315,30 +315,6 @@
 				"no_roles": "Keine Support-Rollen",
 				"users_warning": "-# **Warnung:** Benutzer in Support-Teams sind jetzt veraltet. Bitte migriere zu Rollen."
 			}
-		},
-		"permissions": {
-			"title": "Prüfen der Berechtigungen",
-			"has_admin": "✅ <@%d> hat die Administrator-Berechtigung",
-			"has_all": "✅ <@%d> hat alle erforderlichen Berechtigungen",
-			"missing": "❌ Fehlende Berechtigungen",
-			"description": {
-				"read_messages": "Erlaubt dem Bot, den Inhalt eines Kanals anzuzeigen.",
-				"send_messages": "Erlaubt dem Bot, Nachrichten in Kanälen zu senden.",
-				"embed_links": "Erlaubt dem Bot, Ticket-Panels, Willkommensnachrichten und Tags zu senden, die eine eingebettete Nachricht enthalten.",
-				"attach_files": "Erlaubt dem Bot, dem Ticket-Öffner die Berechtigung für Datei-Anhänge zuzuweisen.",
-				"add_reactions": "Erlaubt dem Bot, die Schaltflächen zu Ticket-Panels, Willkommensnachrichten und allen Befehlen, die Schaltflächen verwenden, hinzuzufügen.",
-				"use_external_emojis": "Erlaubt dem Bot, nicht-Server-Emojis in Ticket-Panels, Willkommensnachrichten und Tags zu verwenden. Der Bot muss immer noch auf dem anderen Server sein, um sie nutzen zu können.",
-				"mention_everyone": "Erlaubt dem Bot, everyone, here und alle Rollen in einem Ticket zu erwähnen.",
-				"read_message_history": "Erlaubt dem Bot, alle Nachrichten in einem Kanal zu lesen.",
-				"manage_channels": "Erlaubt dem Bot, Kanäle zu erstellen, umzubenennen, neu zu kategorisieren und zu löschen.",
-				"manage_roles": "Erlaubt dem Bot, Rollen zu erstellen und zu bearbeiten; Rollen von Benutzern zu vergeben und zu entfernen; und die Rollenrechte eines Kanals anzupassen.",
-				"manage_webhooks": "Erlaubt dem Bot, Webhooks für Transkripte zu erstellen, und für das Personal das Dashboard zum Senden von Nachrichten oder Tags in offenen Tickets zu verwenden.",
-				"manage_threads": "Erlaubt dem Bot, Threads zu erstellen, umzubenennen, zu schliessen und zu löschen.",
-				"send_messages_in_threads": "Erlaubt dem Bot, Nachrichten in Threads zu senden.",
-				"create_public_threads": "Erlaubt dem Bot, öffentliche Threads zu erstellen.",
-				"create_private_threads": "Erlaubt dem Bot, private Threads zu erstellen, wie zum Beispiel Thread-Modus-Tickets und den /notes-Befehl für Kanal-Tickets.",
-				"use_application_commands": "Ermöglicht die Ausführung der Anwendungsbefehle des Bots."
-			}
 		}
 	},
 	"generic": {

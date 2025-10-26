@@ -315,30 +315,6 @@
 				"no_roles": "Dim rolau cymorth",
 				"users_warning": "-# **Rhybudd:** Mae defnyddwyr mewn timau cymorth bellach wedi darfod. Symudwch drosodd i ddefnyddio rolau."
 			}
-		},
-		"permissions": {
-			"title": "Gwirio Caniatâdau",
-			"has_admin": "✅ Mae gan <@%d> ganiatâd Gweinyddwr",
-			"has_all": "✅ Mae gan <@%d>’r holl ganiatâdau angenrheidiol",
-			"missing": "❌ Caniatâdau ar goll",
-			"description": {
-				"read_messages": "Yn caniatáu i'r bot weld cynnwys sianel.",
-				"send_messages": "Yn caniatáu i'r bot anfon negeseuon mewn sianeli.",
-				"embed_links": "Yn caniatáu i'r bot anfon paneli tocynnau, negeseuon croeso, a thagiau sy'n cynnwys neges mewnosodedig.",
-				"attach_files": "Yn caniatáu ir bot rhoi caniatád `attach files` ir sawl sy'n agor y tocyn.",
-				"add_reactions": "Yn caniatáu i'r bot ychwanegu botymau i baneli tocynnau, negeseuon croeso, a phob gorchymyn sy'n defnyddio botymau.",
-				"use_external_emojis": "Yn caniatáu i'r bot defnyddio emojis nad ydynt o'r gweinydd hwn mewn paneli tocynnau, negeseuon croeso, a thagiau. Rhaid i'r bot fod yn y gweinydd arall er mwyn eu defnyddio.",
-				"mention_everyone": "Yn caniatáu i'r bot tagio `@everyone`, `@here` ac pob rôl mewn tocyn.",
-				"read_message_history": "Yn caniatáu i'r bot ddarllen pob neges mewn sianel.",
-				"manage_channels": "Yn caniatáu i'r bot greu, ail-enw, ail-ddosbarthu a dileu sianeli.",
-				"manage_roles": "Yn caniatáu i’r bot greu a golygu rolau; rhoi a chymryd rolau oddi wrth ddefnyddwyr; a newid caniatâdau rolau mewn sianel.",
-				"manage_webhooks": "Yn caniatáu i’r bot greu bachyn gwe ar gyfer trawsgrifiadau, ac i staff ddefnyddio’r dangosfwrdd i anfon negeseuon neu dagiau mewn tocynnau agored.",
-				"manage_threads": "Yn caniatáu i’r bot greu, ailenwi, cau a dileu edafedd.",
-				"send_messages_in_threads": "Yn caniatáu i’r bot anfon negeseuon mewn edafedd.",
-				"create_public_threads": "Yn caniatáu i’r bot greu edafedd cyhoeddus.",
-				"create_private_threads": "Yn caniatáu i’r bot greu edafedd preifat, e. e. tocynnau modd edefyn a’r gorchymyn /notes ar gyfer tocynnau sianel.",
-				"use_application_commands": "Yn caniatáu i orchmynion slash y bot weithio."
-			}
 		}
 	},
 	"generic": {

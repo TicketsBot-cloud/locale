@@ -315,30 +315,6 @@
 				"no_roles": "Aucun rôle d'assistance",
 				"users_warning": "-# **Attention :** Les utilisateurs dans les équipes d'assistance sont désormais obsolètes. Veuillez migrer vers les rôles."
 			}
-		},
-		"permissions": {
-			"title": "Vérification des permissions",
-			"has_admin": "✅ <@%d> a la permission d'administrateur",
-			"has_all": "✅ <@%d> a toutes les permissions requises",
-			"missing": "❌ Permissions manquantes",
-			"description": {
-				"read_messages": "Permet au bot de voir le contenu d'un salon.",
-				"send_messages": "Permet au bot d'envoyer des messages dans les salons.",
-				"embed_links": "Permet au bot d'envoyer des panneaux de tickets, des messages d'accueil et des tags qui incluent un message intégré.",
-				"attach_files": "Permet au bot d'assigner la permission d'attacher des fichiers à l'ouvreur de tickets.",
-				"add_reactions": "Permet au bot d'ajouter les boutons aux panneaux de tickets, messages d'accueil et toutes les commandes qui utilisent des boutons.",
-				"use_external_emojis": "Permet au bot d'utiliser des emojis non-serveur dans les panneaux de tickets, messages d'accueil et étiquettes. Le bot doit toujours être sur l'autre serveur pour les utiliser.",
-				"mention_everyone": "Permet au bot de mentionner everyone, here et tous les rôles dans un ticket.",
-				"read_message_history": "Permet au bot de lire tous les messages dans un salon.",
-				"manage_channels": "Permet au bot de créer, renommer, recatégoriser et supprimer des salons.",
-				"manage_roles": "Permet au bot de créer et modifier des rôles ; donner et retirer des rôles aux utilisateurs ; et ajuster les permissions de rôle d'un salon.",
-				"manage_webhooks": "Permet au bot de créer des webhooks pour les transcriptions, et au personnel d'utiliser le tableau de bord pour envoyer des messages ou des tags dans les tickets ouverts.",
-				"manage_threads": "Permet au bot de créer, renommer, fermer et supprimer des fils de discussion.",
-				"send_messages_in_threads": "Permet au bot d'envoyer des messages dans les fils de discussion.",
-				"create_public_threads": "Permet au bot de créer des fils de discussion publics.",
-				"create_private_threads": "Permet au bot de créer des fils de discussion privés, tels que les tickets en mode fil de discussion et la commande /notes pour les tickets en mode salon.",
-				"use_application_commands": "Permet aux commandes slash du bot de fonctionner."
-			}
 		}
 	},
 	"generic": {

@@ -315,30 +315,6 @@
 				"no_roles": "Không có vai trò của đội ngũ hỗ trợ",
 				"users_warning": "-# **Cảnh cáo:** Tính năng chọn thành viên cho đội ngũ hỗ trợ đã không còn khả dùng. Vui lòng chuyển sang sử dụng vai trò cho đội ngũ hỗ trợ."
 			}
-		},
-		"permissions": {
-			"title": "Kiểm tra đặc quyền",
-			"has_admin": "<@%d> đã sở hữu quyền Quản Trị",
-			"has_all": "<@%d> đã sở hữu tất cả quyền được yêu cầu",
-			"missing": "❌ Thiếu quyền lợi",
-			"description": {
-				"read_messages": "Cho phép bot đọc nội dung của kênh.",
-				"send_messages": "Cho phép bot nhắn tin trong các kênh.",
-				"embed_links": "Cho phép bot gửi bảng phiếu hỗ trợ, tin nhắn chào mừng và thẻ tên có chứa nội dung nhúng.",
-				"attach_files": "Cho phép bot cấp quyền đính kèm tập tin cho người mở phiếu hỗ trợ.",
-				"add_reactions": "Cho phép bot thêm nút bấm cho bảng phiếu hỗ trợ, tin nhắn chào mừng và tất cả câu lệnh sử dụng nút bấm.",
-				"use_external_emojis": "Cho phép bot sử dụng những emojis ngoài máy chủ cho bảng phiếu hỗ trợ, tin nhắn chào mừng và thẻ tên. Bot bắt buộc phải ở trong máy chủ có emoji đó để sử dụng chúng.",
-				"mention_everyone": "Cho phép bot đề cập @everyone, @here và tất cả vai trò trong phiếu hỗ trợ.",
-				"read_message_history": "Cho phép bot đọc tin nhắn trong kênh.",
-				"manage_channels": "Cho phép bot tạo, đổi tên, sắp xếp và xóa các kênh.",
-				"manage_roles": "Cho phép bot tạo và chỉnh sửa vai trò; cấp và xóa vai trò của người dùng; và chỉnh sửa các quyền lợi của vai trò trong kênh.",
-				"manage_webhooks": "Cho phép bot tạo webhooks cho việc ghi chú và cho phép quản lý sử dụng trang quản lý để gửi tin nhắn hoặc thẻ tên trong những phiếu hỗ trợ đang mở.",
-				"manage_threads": "Cho phép bot tạo, đổi tên, đóng và xóa các kênh chủ đề.",
-				"send_messages_in_threads": "Cho phép bot gửi tin nhắn trong các kênh chủ đề.",
-				"create_public_threads": "Cho phép bot tạo các kênh chủ đề.",
-				"create_private_threads": "Cho phép bot tạo các kênh chủ đề riêng tư cũng như chế độ phiếu hỗ trợ bằng kênh chủ đề và lệnh /notes cho các phiếu hỗ trợ.",
-				"use_application_commands": "Cho phép các câu lệnh ứng dụng của bot hoạt động."
-			}
 		}
 	},
 	"generic": {

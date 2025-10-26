@@ -315,30 +315,6 @@
 				"no_roles": "Kei Support-Rollene",
 				"users_warning": "-# **Achtung:** Benutzer in Support-Teams sind jetzt veraltet. Bitte migrier zu Rollene."
 			}
-		},
-		"permissions": {
-			"title": "Prüefe vo Berechtigunge",
-			"has_admin": "✅ <@%d> het d'Administrator-Berechtigung",
-			"has_all": "✅ <@%d> het alli erforderliche Berechtigunge",
-			"missing": "❌ Fehlendi Berechtigunge",
-			"description": {
-				"read_messages": "Erlaubt am Bot, de Inhalt vomne Kanal aazluege.",
-				"send_messages": "Erlaubt am Bot, Nachrichte in Kanäl z'sende.",
-				"embed_links": "Erlaubt am Bot, Ticket-Panels, Willkommensnachrichte und Tags z'sende, wo e iibetteti Nachricht enthaltet.",
-				"attach_files": "Erlaubt am Bot, am Ticket-Öffner d'Berechtigung für Datei-Aahäng zuezwiise.",
-				"add_reactions": "Erlaubt am Bot, d'Schaltfläche zu Ticket-Panels, Willkommensnachrichte und allne Befehl, wo Schaltfläche verwendet, hinzuezfüege.",
-				"use_external_emojis": "Erlaubt am Bot, nöd-Server-Emojis in Ticket-Panels, Willkommensnachrichte und Tags z'verwende. De Bot muess immer no uf em andere Server si, um sie nutze z'chönne.",
-				"mention_everyone": "Erlaubt am Bot, everyone, here und alli Rollene imne Ticket z'erwähne.",
-				"read_message_history": "Erlaubt am Bot, alli Nachrichte imne Kanal z'lese.",
-				"manage_channels": "Erlaubt am Bot, Kanäl z'erstelle, umzbenenne, neu z'kategorisiere und z'lösche.",
-				"manage_roles": "Erlaubt am Bot, Rollene z'erstelle und z'bearbeite; Rollene von Benutzer z'vergeh und z'entferne; und d'Rollerecht vomne Kanal aazpasse.",
-				"manage_webhooks": "Erlaubt am Bot, Webhooks für Transkript z'erstelle, und für's Personal s'Dashboard zum Sende vo Nachrichte oder Tags in offene Tickets z'verwende.",
-				"manage_threads": "Erlaubt am Bot, Threads z'erstelle, umzbenenne, z'schlüsse und z'lösche.",
-				"send_messages_in_threads": "Erlaubt am Bot, Nachrichte in Threads z'sende.",
-				"create_public_threads": "Erlaubt am Bot, öffentlichi Threads z'erstelle.",
-				"create_private_threads": "Erlaubt am Bot, privati Threads z'erstelle, wie zum Bispil Thread-Modus-Tickets und de /notes-Befehl für Kanal-Tickets.",
-				"use_application_commands": "Ermöglicht d'Uusfüehrig vo de Aawendigsbefehl vom Bot."
-			}
 		}
 	},
 	"generic": {

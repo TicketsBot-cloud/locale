@@ -315,30 +315,6 @@
 				"no_roles": "Nessun ruolo del supporto",
 				"users_warning": "-# **Attenzione:** utenti nei team di supporto sono ora obsoleti. Si prega di migrare ai ruoli."
 			}
-		},
-		"permissions": {
-			"title": "Controllo permessi",
-			"has_admin": "✅ <@%d> ha i permessi da amministratore",
-			"has_all": "✅ <@%d> ha tutti i permessi richiesti",
-			"missing": "❌ Permessi mancanti",
-			"description": {
-				"read_messages": "Consente al bot di visionare i contenuti di un canale.",
-				"send_messages": "Consente al bot di inviare messaggi nei canali.",
-				"embed_links": "Consente al bot di inviare pannelli per ticket, messaggi di benvenuto e tag che includono un messaggio incorporato.",
-				"attach_files": "Consente al bot di assegnare l'autorizzazione ad allegare file all'utente che apre il ticket.",
-				"add_reactions": "Consente al bot di aggiungere pulsanti ai pannelli di ticket, messaggi di benvenuto e tutti i comandi che usano pulsanti.",
-				"use_external_emojis": "Consente al bot di usare le emoji esterne al server nei pannelli di ticket, messaggi di benvenuto e tag. Il bot deve essere ancora nell'altro server per usarle.",
-				"mention_everyone": "Consente al bot di menzionare everyone, here e tutti i ruoli in un ticket.",
-				"read_message_history": "Consente al bot di leggere tutti i messaggi in un canale.",
-				"manage_channels": "Consente al bot di creare, rinominare, ricategorizzare ed eliminare canali.",
-				"manage_roles": "Consente al bot di creare e modificare ruoli; dare e togliere ruoli agli utenti e regolare i permessi di un ruolo nel canale.",
-				"manage_webhooks": "Consente al bot di creare webhook per le trascrizioni e per lo staff in modo da usare la dashboard per inviare messaggi o tag in ticket aperti.",
-				"manage_threads": "Consente al bot di creare, rinominare, chiudere ed eliminare thread.",
-				"send_messages_in_threads": "Consente al bot di inviare messaggi nei thread.",
-				"create_public_threads": "Consente al bot di creare thread pubblici.",
-				"create_private_threads": "Consente al bot di creare thread privati, come i ticket in modalità thread e quelli generati dal comando /notes per i canali ticket.",
-				"use_application_commands": "Consente ai comandi slash del bot di funzionare."
-			}
 		}
 	},
 	"generic": {

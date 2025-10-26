@@ -315,30 +315,6 @@
 				"no_roles": "Inga supportroller",
 				"users_warning": "-#**Varning:** Användare i support lagen är nu separerade. Vänligen migrera till roller."
 			}
-		},
-		"permissions": {
-			"title": "Behörighetscheck",
-			"has_admin": "✅ <@%d> har du administratörs behörigher",
-			"has_all": ": check_mark<unk> <@%d> har alla nödvändiga behörigheter",
-			"missing": "❌ Behörigheter saknas",
-			"description": {
-				"read_messages": "Tillåter att botten ser innehållet i en kanal.",
-				"send_messages": "Tillåter att botten skickar meddelanden i kanaler.",
-				"embed_links": "Tillåter att boten skickar ärendepaneler, välkomstmeddelanden och taggar som innehåller ett inbäddat meddelande.",
-				"attach_files": "Tillåter att roboten tilldelar behörigheten att bifoga filer till ticket öppnaren.",
-				"add_reactions": "Tillåter att roboten lägger till knapparna i ärendepaneler, välkomstmeddelanden och alla kommandon som använder knappar.",
-				"use_external_emojis": "Tillåter att boten använder icke-server emojis i ärendepaneler, välkomstmeddelanden och taggar. Botten måste fortfarande vara i den andra servern för att använda dem.",
-				"mention_everyone": "Tillåter boten att nämna alla, här och alla roller i en biljett.",
-				"read_message_history": "Tillåter att botten skickar meddelanden i en kanal.",
-				"manage_channels": "Tillåter boten att skapa, byta namn, omkategorisera och ta bort kanaler.",
-				"manage_roles": "Tillåter roboten att skapa och redigera roller; ge och ta bort roller från användare; och justera en kanals rollbehörigheter.",
-				"manage_webhooks": "Tillåter att boten skapar webhooks till protokoll, och att personalen använder instrumentpanelen för att skicka meddelanden eller taggar i öppna ärenden.",
-				"manage_threads": "Tillåter boten att skapa, byta namn, omkategorisera och ta bort kanaler.",
-				"send_messages_in_threads": "Tillåter att botten skickar meddelanden i trådar.",
-				"create_public_threads": "Tillåter att boten skapar publika trådar.",
-				"create_private_threads": "Tillåter att roboten skapar privata trådar, såsom ärenden i trådläge och kommandot /notes för kanalärenden.",
-				"use_application_commands": "Tillåter att robotens snedstreckskommandon fungerar."
-			}
 		}
 	},
 	"generic": {

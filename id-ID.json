@@ -315,30 +315,6 @@
 				"no_roles": "Tidak ada peran pendukung",
 				"users_warning": "-#**Peringatan:** Pengguna dalam tim dukungan kini tidak berlaku lagi. Harap migrasikan ke peran."
 			}
-		},
-		"permissions": {
-			"title": "Pemeriksaan Izin",
-			"has_admin": "✅ <@%d> memiliki izin Administrator",
-			"has_all": "✅ <@%d> memiliki semua izin yang diperlukan",
-			"missing": "❌ Izin Hilang",
-			"description": {
-				"read_messages": "Mengizinkan bot untuk melihat konten suatu saluran.",
-				"send_messages": "Mengizinkan bot untuk mengirim pesan dalam saluran.",
-				"embed_links": "Mengizinkan bot mengirimkan panel tiket, pesan selamat datang, dan tag yang menyertakan pesan tertanam.",
-				"attach_files": "Mengizinkan bot untuk menetapkan izin melampirkan file ke pembuka tiket.",
-				"add_reactions": "Mengizinkan bot untuk menambahkan tombol ke panel tiket, pesan selamat datang, dan semua perintah yang menggunakan tombol.",
-				"use_external_emojis": "Mengizinkan bot menggunakan emoji non-server di panel tiket, pesan selamat datang, dan tag. Bot harus tetap berada di server lain untuk menggunakannya.",
-				"mention_everyone": "Mengizinkan bot menyebutkan semua orang, di sini dan semua peran dalam tiket.",
-				"read_message_history": "Mengizinkan bot membaca semua pesan dalam suatu saluran.",
-				"manage_channels": "Mengizinkan bot untuk membuat, mengganti nama, mengkategorikan ulang, dan menhapus saluran.",
-				"manage_roles": "Mengizinkan bot untuk membuat dan mengedit peran; memberi dan mengambil peran dari pengguna; dan menyesuaikan izin peran saluran.",
-				"manage_webhooks": "Mengizinkan bot membuat webhook untuk transkrip, dan bagi staf untuk menggunakan dasbor untuk mengirim pesan atau tag pada tiket terbuka.",
-				"manage_threads": "Mengizinkan bot untuk membuat, mengganti nama, menutup, dan menghapus utas.",
-				"send_messages_in_threads": "Mengizinkan bot untuk mengirim pesan dalam thread.",
-				"create_public_threads": "Mengizinkan bot membuat thread publik.",
-				"create_private_threads": "Mengizinkan bot membuat utas pribadi, seperti tiket mode utas dan perintah /notes untuk tiket saluran.",
-				"use_application_commands": "Mengizinkan perintah slash bot berfungsi."
-			}
 		}
 	},
 	"generic": {
