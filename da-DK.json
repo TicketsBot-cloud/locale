@@ -43,11 +43,11 @@
 	"help.about": "Giver dig information om denne bot",
 	"help.add": "Tilføjer en bruger til en ticket",
 	"help.addadmin": "Giver en bruger eller en rolle administratorrettigheder",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Tilføjer en rolle som supportrepræsentant",
 	"help.admin": "Bot håndtering",
 	"help.admin.blacklist": "Blacklist en guild, så de ikke kan bruge denne bot",
 	"help.admin.check_premium": "Kontroller premium-status på en server",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug": "Debug en servers indstillinger",
 	"help.admin.generate_premium": "Generer premium nøgler",
 	"help.admin.get_owner": "Henter ejeren af en server",
 	"help.admin.unblacklist": "Fjerner en guild fra blacklisten",
@@ -78,9 +78,9 @@
 	"help.viewstaff": "Viser en liste over medarbejdere og roller",
 	"help.vote": "Giver dig et link til at stemme på gratis premium",
 	"help.check_perms": "Tjek om Botten har de rigtige tilladelser",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Administrer dine GDPR-dataanmodninger",
 	"open.success": "Åbnede en ny ticket: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Dette panel er i øjeblikket lukket. Prøv venligst igen i vores supporttider.",
 	"setup.auto.category.failure": "Jeg mangler tilladelsen `Administrer kanaler`",
 	"setup.auto.category.success": "Oprettet en ticket kategori",
 	"setup.auto.completed": "Opsætning fuldført! Klik [her](https://dashboard.ticketsbot. et/manage/%d/panels) til at opsætte et reaktionspanel, og tilføj rollerne <@&%d> og <@&%d> til dine medarbejdere",
@@ -103,7 +103,7 @@
 	"commands.open.from.moved": "Samtalen er blevet flyttet til en ticket (<#%d>)",
 	"help.close_request": "Sender en besked, der beder brugeren om at bekræfte, at den gældende ticket kan blive lukket",
 	"close.reason_too_long": "Årsagen kan ikke være længere end 255 tegn",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "Lukke anmodningen blev sendt",
 	"commands.close_request.no_reason": "<@%d> har anmodet om at lukke denne ticket.\n\nAcceptér eller afvis ved hjælp af knapperne nedenfor.",
 	"commands.close_request.with_reason": "<@%d> har anmodet om at lukke denne ticket. Årsag:\n```\n%s\n```\nAcceptér eller afvis ved hjælp af knapperne nedenfor.",
 	"commands.close_request.no_permission": "Kun den bruger, der åbnede denne ticket, kan respondere på anmodningen om at lukke den",
@@ -136,11 +136,11 @@
 	"generic.title.add_support": "Tilføj Support",
 	"generic.title.remove_admin": "Fjern administrator",
 	"generic.title.remove_support": "Fjern Support",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Supportrepræsentant succesfuldt tilføjet: %s",
 	"generic.title.language": "Sprog",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Supportrepræsentant blev fjernet: %s",
+	"commands.addadmin.success": "Administrator tilføjet: %s",
+	"commands.removeadmin.success": "Administrator fjernet: %s",
 	"generic.title.setup": "Opsætning",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panel",
@@ -282,7 +282,7 @@
 			"added_to_existing": "Du er blevet tilføjet til den eksisterende notetråd: <#%d>",
 			"thread_name": "noter",
 			"created": "Der er blevet oprettet en notetråd til denne ticket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Notetråde understøttes kun i kanaltilstand"
 		},
 		"rename": {
 			"ratelimited": "På grund af begrænsninger pålagt af Discord, kan tickets kun omdøbes to gange hvert 10. minut"
@@ -302,18 +302,18 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Personale",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Administrator Brugere",
+				"roles": "Administrator Roller",
+				"no_users": "Ingen administrator brugere",
+				"no_roles": "Ingen administrator roller"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Support Brugere",
+				"roles": "Support Roller",
+				"no_roles": "Ingen support roller",
+				"users_warning": "-# **Advarsel:** Brugere i supportteams er nu forældet. Migrer venligst til roller."
 			}
 		}
 	},
