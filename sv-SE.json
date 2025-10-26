@@ -103,11 +103,6 @@
 	"commands.open.from.moved": "Konversationen har flyttats till ärende (<#%d>)",
 	"help.close_request": "Skickar ett meddelande som ber användaren bekräfta att ärendet kan stängas",
 	"close.reason_too_long": "Anledningen kan inte vara längre än 255 tecken",
-	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> har begärt att avsluta detta ärende.\n\nVänligen acceptera eller neka med knapparna nedan.",
-	"commands.close_request.with_reason": "<@%d> har begärt att avsluta detta ärende. Anledning:\n```\n%s\n```\nVänligen acceptera eller neka med knapparna nedan.",
-	"commands.close_request.no_permission": "Endast den användare som öppnat ärendet kan svara på stängningsbegäran",
-	"commands.close_request.denied": "<@%d> nekade stängningsbegäran",
 	"generic.error": "Fel",
 	"feedback.disabled": "Den här servern har inaktiverat feedback",
 	"feedback.success": "Din feedback har spelats in",
@@ -150,8 +145,6 @@
 	"generic.title.close_confirmation": "Stäng bekräftelse",
 	"close.confirmation": "Bekräfta att du vill stänga detta ärende",
 	"generic.title.close_request": "Stäng Begäran",
-	"commands.close_request.accept": "Godkänn & Stäng",
-	"commands.close_request.deny": "Neka & Håll öppet",
 	"commands.premium.success": "Premium har aktiverats i **%d** dagar",
 	"generic.title.claimed": "Anspråket Ärende",
 	"generic.title.unclaimed": "Oanspråket Ärende",
@@ -300,6 +293,14 @@
 				"plural": "Du har **%d** röst krediter. Klicka på \"Lös in Krediter\" knappen här nedanför för att lösa in de mot %d dagar av premium på denna server.",
 				"singular": "Du har **%d** röst krediter. Klicka på \"Lös in krediter\" knappen nedanför för att lösa in de mot %d av premium på denna server."
 			}
+		},
+		"close_request": {
+			"success": "Close request was sent successfully",
+			"no_permission": "Endast den användare som öppnat ärendet kan svara på stängningsbegäran",
+			"denied": "<@%d> nekade stängningsbegäran.",
+			"buttons": {
+				"accept": "Godkänn & Stäng",
+				"deny": "Neka & Håll öppet"
 		},
 		"viewstaff": {
 			"title": "Personal",
