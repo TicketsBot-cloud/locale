@@ -78,7 +78,7 @@
 	"help.viewstaff": "Liste les membres et les rôles du staff",
 	"help.vote": "Vous donne un lien pour voter et obtenir gratuitement la version premium",
 	"help.check_perms": "Vérifie si le bot a les bonnes permissions",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Gérer vos demandes de données RGPD",
 	"open.success": "Ouverture d'un nouveau ticket : %s",
 	"open.outside_support_hours": "Ce panneau est actuellement fermé. Veuillez réessayer pendant nos heures d'assistance.",
 	"setup.auto.category.failure": "Il me manque la permission `Gérer Les Salons`",
@@ -399,84 +399,84 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Sélectionnez le type de demande de RGPD que vous souhaitez faire :",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Options de suppression de transcription**\n-# _Supprimer les transcriptions des serveurs que vous possédez_",
+			"message": "### **Options d'anonymisation des messages**\n-# _Anonymisez vos messages des transcriptions dans les serveurs sélectionnés_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Informations importantes**\n* La suppression est **permanente** et ne peut pas être annulée\n* Vous ne pouvez supprimer que les transcriptions des serveurs que **vous** possédés\n* Seulement **vos** messages peuvent être anonymisés dans les transcriptions\n* La demande peut prendre jusqu'à **30 jours** pour être complétée\n* Votre demande sera traitée dans une **file d'attente**",
+		"resources": "### **Ressources**\n[Qu'est-ce que le RGPD?](%s)\n[Droit à l'effacement](%s)\n[Droit d'accès](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Toutes les transcriptions des serveurs",
+			"specific_transcripts": "Transcriptions spécifiques",
+			"all_messages": "Tous vos messages dans les serveurs",
+			"specific_messages": "Vos messages dans des tickets spécifiques"
 		},
-		"language_option": "Language",
+		"language_option": "Langue",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Supprimer toutes les transcriptions des serveurs",
+			"specific_transcripts": "Supprimer les transcriptions spécifiques",
+			"all_messages": "Anonymiser vos messages dans des serveurs",
+			"specific_messages": "Anonymiser vos messages dans des tickets spécifiques",
+			"select_server": "Sélectionnez un serveur",
+			"select_servers": "Sélectionnez un ou plusieurs serveur(s)",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "Identifiant du serveur",
+				"placeholder": "Saisir l'identifiant du serveur"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "Identifiants des serveurs",
+				"placeholder": "Saisissez les identifiants des serveurs séparés par des virgules (p. ex. 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "Identifiant(s) de ticket",
+				"placeholder": "Saisissez les identifiants des tickets séparés par des virgules (p. ex. 123, 456, 789)"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"title": "Confirmation RGPD requise",
+			"all_transcripts": "**Type de requête:** Supprimer toutes les transcriptions d'un serveur qui vous appartient\n**Serveur:**%s",
+			"all_transcripts_multi": "**Type de requête:** Supprimer toutes les transcriptions de serveurs qui vous appartiennent \n**Serveurs:**\n*%s",
+			"specific_transcripts": "**Type de requête:** Supprimer des transcriptions spécifiques d'un serveur\n**Serveur:**%s\n**Identifiant(s) de ticket:** %s",
+			"all_messages": "**Type de requête :** Anonymiser tous vos messages dans le serveur sélectionné\n**Serveur:** %s",
+			"all_messages_multi": "**Type de requête :** Anonymiser tous vos messages dans les serveurs sélectionnés\n**Serveurs:** %s",
+			"specific_messages": "**Type de requête :** Anonymiser vos messages dans des tickets spécifiques\n**Serveur:** %s\n**Identifiant(s) de ticket :** %s",
+			"warning": "\n\n⚠️ **Avertissement:** Cette action est permanente et ne peut pas être annulée.\n\nComprenez-vous et acceptez-vous que cette action est permanente ?",
+			"button": "Confirmer - Je comprends"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"title": "Requête RGPD en file d'attente",
+			"all_transcripts": "**Type de requête:** Supprimer toutes les transcriptions d'un serveur \n**Serveur:**%s",
+			"all_transcripts_multi": "**Type de requête:** Supprimer toutes les transcriptions dans plusieurs serveurs\n**Serveurs:**\n*%s",
+			"specific_transcripts": "**Type de requête:** Supprimer des transcriptions spécifiques \n**Serveur:**%s\n**Identifiant(s) de ticket:** %s",
+			"all_messages": "**Type de requête :** Anonymiser tous vos messages dans un serveur \n**Serveur:** %s",
+			"all_messages_multi": "**Type de requête :** Anonymiser tous vos messages dans plusieurs serveurs \n**Serveurs:** \n*%s",
+			"specific_messages": "**Type de requête :** Anonymiser vos messages dans des tickets spécifiques\n**Serveur:** %s\n**Identifiant(s) de ticket :** %s",
+			"footer": "\n\nVotre requête a été placée dans une file d'attente.\nLe nombre de transcriptions influencera le temps que prendra le traitement de votre demande."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"title": "Requête RGPD complétée",
+			"all_transcripts": "**Type de requête:** Supprimer toutes les transcriptions d'un serveur\n**Serveur:**%s\n**Transcriptions supprimées.** %d",
+			"all_transcripts_multi": "**Type de requête:** Supprimer toutes les transcriptions dans plusieurs serveurs\n**Serveurs:**%s\n**Transcriptions supprimées.** %d",
+			"specific_transcripts": "**Type de requête:** Supprimer des transcriptions spécifiques \n**Serveur:**%s\n**Transcriptions supprimées:** %d",
+			"all_messages": "**Type de requête :** Anonymiser tous vos messages dans un serveur \n**Serveur :** %s\n**Messages anonymisés :** %d",
+			"all_messages_multi": "**Type de requête :** Anonymiser tous vos messages dans plusieurs serveurs \n**Serveurs :**\n* %s\n**Messages anonymisés :** %d",
+			"specific_messages": "**Type de requête :** Anonymiser tous vos messages dans des tickets spécifiques\n**Serveur :** %s\n**Messages anonymisés :** %d",
+			"error": "\n\n**⚠️ Erreur:** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "Une erreur est survenue pendant votre requête RGPD : %s",
+			"no_data": "i Votre requête RGPD a été traitée. Aucune donnée n'a été trouvée.",
+			"success": "✅ Votre requête RGPD a été traitée avec succès."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"no_servers": "Aucun serveur dont vous êtes le propriétaire et avez des transcriptions n'a été trouvé.",
+			"invalid_server_id": "Identifiant de serveur invalide.",
+			"invalid_ticket_ids": "Les identifiants de ticket fournis sont invalides. Veuillez saisir des identifiants de ticket séparés par des virgules (p. ex. 123, 456, 789).",
+			"not_owner": "Vous devez être le propriétaire du serveur pour supprimer les transcriptions.",
+			"server_not_found": "Serveur introuvable.",
+			"queue_failed": "Impossible de mettre en file d'attente la demande de RGPD. Veuillez réessayer plus tard.",
+			"worker_offline": "Le service de traitement du RGPD est actuellement indisponible. Veuillez réessayer plus tard ou contacter l'équipe d'assistance si ce problème persiste."
 		}
 	}
 }
