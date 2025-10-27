@@ -456,23 +456,23 @@
 		}
 	},
 	"errors": {
-		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
-		"unknown_guild": "Could not find the server.",
-		"unknown_member": "The user could not be found. They may have left the server or been banned.",
-		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
-		"unknown_user": "user could not be found.",
-		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
-		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
-		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
-		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
-		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"unknown_channel": "Salon introuvable: il a peut-être été supprimé.\n\nVeuillez demander à un administrateur du serveur de visiter le [tableau de bord](%s) et de vérifier que les paramètres de salons sont configurés correctement.",
+		"unknown_guild": "Impossible de trouver le serveur.",
+		"unknown_member": "L'utilisateur est introuvable. Il a peut-être quitté le serveur ou a été banni.",
+		"unknown_message": "Le message avec lequel vous essayez d'interagir a été supprimé.\n\nVeuillez réessayer avec un message différent.",
+		"unknown_user": "L'utilisateur est introuvable.",
+		"unknown_role": "Le rôle requis pour cette action n’existe plus.\n\nVeuillez demander à un administrateur de serveur de visiter le [tableau de bord](%s) et de reconfigurer les paramètres du rôle.",
+		"unknown_category": "Catégorie introuvable: elle a peut-être été supprimée.\n\nVeuillez demander à un administrateur du serveur de visiter le [tableau de bord](%s) et de reconfigurer la catégorie pour ce panneau.",
+		"unknown_interaction": "Cette interaction a expiré.\n\nVeuillez réessayer l'action.",
+		"max_webhooks": "Le serveur a atteint le nombre maximum de webhooks.\n\nVeuillez demander à un administrateur de serveur de supprimer certains webhooks inutilisés et de réessayer.",
+		"interaction_acknowledged": "Cette interaction a déjà été traitée.\n\nSi vous avez besoin d'effectuer cette action à nouveau, veuillez recommencer avec une nouvelle interaction.",
 		"missing_permissions": {
-			"title": "I am missing the following permissions required to perform this action",
-			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+			"title": "Il me manque les permissions essentielles suivantes pour effectuer cette action",
+			"body": "Veuillez allouer au bot soit la permission d' `Administrateur`, soit les permissions ci-dessous. Ensuite, réessayez.\nVisitez la [documentation](%s) pour savoir pourquoi ces permissions sont essentielles."
 		},
-		"invalid_form": "The action could not be completed due to invalid input.",
-		"timed_out": "The operation timed out, please try again.",
-		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"invalid_form": "L'action n'a pas pu être complétée en raison d'une entrée invalide.",
+		"timed_out": "L'opération a été interrompue. Veuillez réessayer.",
+		"general": "Une erreur s'est produite lors de l'exécution de cette action.",
+		"error_id": "Identifiant d'erreur"
 	}
 }
