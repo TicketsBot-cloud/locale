@@ -78,7 +78,7 @@
 	"help.viewstaff": "Llista els membres i rols de l'equip",
 	"help.vote": "Proporciona un enllaç per votar i tenir Premium gratis",
 	"help.check_perms": "Comprova si el bot té els Permisos necessaris",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Gestionar les teves peticions de dades GDPR",
 	"open.success": "S'ha obert un nou tiquet: %s",
 	"open.outside_support_hours": "Actualment, aquest tauler es troba tancat. Si us plau, torna-ho a provar dins el nostre horari d'atenció.",
 	"setup.auto.category.failure": "Trobo a faltar el permís per gestionar canals (`Manage Channels`)",
@@ -103,7 +103,7 @@
 	"commands.open.from.moved": "La conversa s'ha desplaçat a un tiquet (<#%d>)",
 	"help.close_request": "Envia un missatge preguntant a l'usuari que confirmi si el tiquet es pot tancar",
 	"close.reason_too_long": "La raó no pot superar els 255 caràcters",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "La petició de tancament s'ha enviat correctament",
 	"commands.close_request.no_reason": "<@%d> Ha demanat tancar el tiquet.\n\nSi us plau, accepta o rebutja la petició amb els botons de sota.",
 	"commands.close_request.with_reason": "<@%d> ha demanat tancar el tiquet. Raó proporcionada:\n```\n%s\n```\nSi us plau, accepta o rebutja la petició amb els botons de sota.",
 	"commands.close_request.no_permission": "Només l'usuari que ha obert el tiquet pot respondre la petició de tancament",
@@ -136,11 +136,11 @@
 	"generic.title.add_support": "Afegir Suport",
 	"generic.title.remove_admin": "Treure Administrador",
 	"generic.title.remove_support": "Retirar Suport",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Representant de suport afegit correctament: %s",
 	"generic.title.language": "Idioma",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Representant de suport tret correctament: %s",
+	"commands.addadmin.success": "Administrador afegit correctament: %s",
+	"commands.removeadmin.success": "Administrador tret correctament: %s",
 	"generic.title.setup": "Configuració",
 	"generic.title.premium": "Prèmium",
 	"generic.title.panel": "Panell",
@@ -375,49 +375,49 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Selecciona el tipus de petició GDPR que voldries fer:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Opcions d'Eliminar Transcripcions**\n-# _Elimina transcripcions dels servidors que posseeixis_",
+			"message": "### **Opcions de Missatges Anònims**\n-# _Fes anònims els missatges de les transcripcions dels servidors seleccionats_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Informació Important**\n* L'eliminació és **permanent** i no es pot desfer\n* Només pots eliminar transcripcions dels servidors que **tu** posseeixis\n* Només els **teus** missatges poden ser convertits a anònims a les transcripcions\n* La petició pot trigar fins a **30 dies** a completar-se\n* La teva petició serà processada segons una **cua**",
+		"resources": "### **Recursos**\n[Què és GDPR?](%s)\n[Dret de Supressió](%s)\n[Dret d'Accés](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Totes les transcripcions dels servidors",
+			"specific_transcripts": "Transcripcions específiques",
+			"all_messages": "Tots els teus missatges en servidors",
+			"specific_messages": "Els teus missatges de tiquets específics"
 		},
-		"language_option": "Language",
+		"language_option": "Idioma",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Eliminar Totes les Transcripcions dels Servidors",
+			"specific_transcripts": "Eliminar Transcripcions Específiques",
+			"all_messages": "Fer Anònims els Teus Missatges als Servidors",
+			"specific_messages": "Fer Anònims els Teus Missatges a Servidors Específics",
+			"select_server": "Seleccionar un servidor",
+			"select_servers": "Seleccionar un o més servidors",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "Identificador ID del servidor",
+				"placeholder": "Indica l'identificador del servidor"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "Identificadors ID del servidor",
+				"placeholder": "Indica els identificadors separats per comes (p. ex., 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "Identificadors ID de tiquet",
+				"placeholder": "Indica els identificadors de tiquet separats per comes (p. ex., 123, 456, 789)"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
+			"title": "Es Requereix Confirmació de GDPR",
+			"all_transcripts": "**Tipus de petició:** Eliminar totes les transcripcions dels servidors que posseeixis\n**Servidor:** %s",
+			"all_transcripts_multi": "**Tipus de petició:** Eliminar totes les transcripcions dels servidors que posseeixis\n**Servidors:**\n* %s",
+			"specific_transcripts": "**Tipus de petició:** Eliminar transcripcions específiques del servidor\n**Servidor:** %s\n**IDs de tiquet:** %s",
+			"all_messages": "**Tipus de petició:** Fer anònims tots els teus missatges del servidor seleccionat\n**Servidor:** %s",
+			"all_messages_multi": "**Tipus de petició:** Fer anònims tots els teus missatges dels servidors seleccionats\n**Servidors:**\n* %s",
+			"specific_messages": "**Tipus de petició:** Fer anònims els teus missatges de tiquets específics\n**Servidor:** %s\n**IDs de tiquet:** %s",
+			"warning": "\n\n⚠️ **Avís:** Aquesta acció és permanent i no es pot desfer.\n\nEntens i acceptes que aquesta acció és permanent?",
 			"button": "Confirm - I understand"
 		},
 		"queued": {
