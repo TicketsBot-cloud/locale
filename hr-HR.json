@@ -130,8 +130,8 @@
 	"generic.title.blacklisted": "Na crnoj listi",
 	"generic.title.blacklist": "Crna lista",
 	"generic.error.blacklisted": "Nalazite se na crnoj listi ovog servera",
-	"commands.blacklist.add.success": "<@%d> je sada na crnoj listi",
-	"commands.blacklist.remove.success": "<@%d> više nije blacklist-an",
+	"commands.blacklist.add.success": "je sada na crnoj listi",
+	"commands.blacklist.remove.success": "više nije blacklist-an",
 	"generic.title.add_admin": "Dodaj administratora",
 	"generic.title.add_support": "Dodaj podršku",
 	"generic.title.remove_admin": "Ukloni administratora",
@@ -195,7 +195,6 @@
 		"blacklist": {
 			"staff": "Članovi osoblja ne mogu biti stavljeni na crnu listu",
 			"add_role": {
-				"success": "<@&%d> je sada na crnoj listi",
 				"limit": "Dosegli ste ograničenje crne liste uloga (%d)"
 			},
 			"add": {
@@ -334,13 +333,6 @@
 		"on_call": "Označava vas kao dežurnog, za dodavanje i ping u svim novim kartama",
 		"reopen": "Ponovno otvara tiket koji je prethodno bio zatvoren",
 		"notes": "Stvara nit za privatnu raspravu između predstavnika podrške"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> više nije blacklist-an"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

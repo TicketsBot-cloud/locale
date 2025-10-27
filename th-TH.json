@@ -130,8 +130,8 @@
 	"generic.title.blacklisted": "บัญชีดำ",
 	"generic.title.blacklist": "บัญชีดำ",
 	"generic.error.blacklisted": "คุณไม่ได้รับอนุญาตให้ใช้งานบนเซิร์ฟเวอร์นี้",
-	"commands.blacklist.add.success": "<@%d> ถูกขึ้นบัญชีดำแล้ว",
-	"commands.blacklist.remove.success": "<@%d> ถูกยกเลิกบัญชีดำแล้ว",
+	"commands.blacklist.add.success": "ถูกขึ้นบัญชีดำแล้ว",
+	"commands.blacklist.remove.success": "ถูกยกเลิกบัญชีดำแล้ว",
 	"generic.title.add_admin": "เพิ่ม ผู้ดูแลระบบ",
 	"generic.title.add_support": "เพิ่ม ฝ่ายสนันสนุน",
 	"generic.title.remove_admin": "เพิกถอน ผู้ดูแลระบบ",
@@ -195,7 +195,6 @@
 		"blacklist": {
 			"staff": "ไม่สามารถขึ้นบัญชีดำทีมงานได้",
 			"add_role": {
-				"success": "<@&%d> ถูกขึ้นบัญชีดำแล้ว",
 				"limit": "คุณถึงขีดจำกัดของบทบาทบัญชีดำแล้ว (%d)"
 			},
 			"add": {
@@ -334,13 +333,6 @@
 		"on_call": "ทำเครื่องหมายว่าคุณอยู่ในสาย, เพื่อเพิ่มและส่ง Ping ในตั๋วใหม่ทั้งหมด",
 		"reopen": "เปิด ticket ที่ปิดไปก่อนหน้านี้อีกครั้ง",
 		"notes": "สร้างเธรดสำหรับการสนทนาส่วนตัวระหว่างตัวแทนฝ่ายสนับสนุน"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> ถูกยกเลิกบัญชีดำแล้ว"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

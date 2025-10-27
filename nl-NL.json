@@ -130,8 +130,8 @@
 	"generic.title.blacklisted": "Verbannen",
 	"generic.title.blacklist": "Zwarte Lijst",
 	"generic.error.blacklisted": "U bent geblacklist in deze server",
-	"commands.blacklist.add.success": "<@%d> is op de blacklist gezet",
-	"commands.blacklist.remove.success": "<@%d> is uit de blacklist gehaald",
+	"commands.blacklist.add.success": "is op de blacklist gezet",
+	"commands.blacklist.remove.success": "is uit de blacklist gehaald",
 	"generic.title.add_admin": "Beheerder toevoegen",
 	"generic.title.add_support": "Support toevoegen",
 	"generic.title.remove_admin": "Beheerder verwijderen",
@@ -195,7 +195,6 @@
 		"blacklist": {
 			"staff": "Medewerkers kunnen niet worden geblacklist",
 			"add_role": {
-				"success": "<@&%d> is op de blacklist gezet",
 				"limit": "Je hebt het limiet voor de rol blacklist bereikt (%d)"
 			},
 			"add": {
@@ -334,13 +333,6 @@
 		"on_call": "Markeert je als \"on call\", zodat je wordt toegevoegd en gepingd in alle nieuwe tickets",
 		"reopen": "Heropent een ticket die eerder was gesloten",
 		"notes": "Maakt een conversatie aan voor privé gesprek tussen ondersteunende vertegenwoordigers"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "De blacklist van <@&%d> is verwijderd"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

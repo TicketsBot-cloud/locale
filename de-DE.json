@@ -130,8 +130,8 @@
 	"generic.title.blacklisted": "Gesperrt",
 	"generic.title.blacklist": "Sperrliste",
 	"generic.error.blacklisted": "Du wurdest in diesem Server gesperrt",
-	"commands.blacklist.add.success": "<@%d> wurde zur Sperrliste hinzugefügt",
-	"commands.blacklist.remove.success": "<@%d> wurde von der Sperrliste entfernt",
+	"commands.blacklist.add.success": "wurde zur Sperrliste hinzugefügt",
+	"commands.blacklist.remove.success": "wurde von der Sperrliste entfernt",
 	"generic.title.add_admin": "Administrator hinzufügen",
 	"generic.title.add_support": "Support hinzufügen",
 	"generic.title.remove_admin": "Administrator entfernen",
@@ -195,7 +195,6 @@
 		"blacklist": {
 			"staff": "Mitarbeiter können nicht gesperrt werden",
 			"add_role": {
-				"success": "<@&%d> wurde zur Sperrliste hinzugefügt",
 				"limit": "Du hast das Limit für die Anzahl Rollen in der Sperrliste erreicht (%d)"
 			},
 			"add": {
@@ -334,13 +333,6 @@
 		"on_call": "Markiert Dich als verfügbar, um in neuen Tickets automatisch hinzugefügt und markiert zu werden",
 		"reopen": "Öffnet ein zuvor geschlossenes Ticket erneut",
 		"notes": "Erstellt einen Thread für private Diskussionen zwischen Support-Teammitgliedern"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> wurde von der Sperrliste entfernt"
-			}
-		}
 	},
 	"setup": {
 		"auto": {
