@@ -4,21 +4,21 @@
 	"commands.add.no_permission": "Du hast keine Berechtigung, um Benutzer zu diesem Ticket hinzuzufügen",
 	"commands.addadmin.no_members": "Du musst einen Benutzer bzw. eine Rolle erwähnen, um ihnen Administratorberechtigungen zu erteilen",
 	"commands.addadmin.owner": "Der Serverbesitzer ist bereits ein Administrator",
-	"commands.addsupport.no_members": "Du musst Benutzer bzw. Rollen erwähnen, um sie als Support-Mitarbeiter hinzuzufügen",
+	"commands.addsupport.no_members": "Du musst Benutzer bzw. Rollen erwähnen, um sie als Support-Teammitglied hinzuzufügen",
 	"commands.blacklist.no_members": "Du musst einen Benutzer erwähnen, um ihn von der Sperrliste zu löschen oder zur Sperrliste hinzuzufügen",
 	"commands.blacklist.self": "Du kannst Dich nicht selbst auf die Sperrliste setzen",
 	"commands.claim.success": "Dein Ticket wird von %s bearbeitet",
 	"commands.invite": "[Hier klicken](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Du musst einen Sprach-Code oder Flagge angeben. Verfügbare Sprachen:\\n%s",
 	"commands.open.ticket_limit": "Du kannst nur %d %s auf einmal öffnen",
-	"commands.open.too_many_tickets": "Es existieren zu viele Tickets in der Ticket-Kategorie. Frage einen Administrator, ein paar Tickets zu schliessen, oder ein paar Tickets in eine andere Kategorie zu verschieben.\n\n50 Kanäle pro Kategorie ist ein Limit, welches **von Discord erzwingt wird**.",
+	"commands.open.too_many_tickets": "Es existieren zu viele Tickets in der Ticket-Kategorie. Frage einen Administrator, ein paar Tickets zu schließen, oder ein paar Tickets in eine andere Kategorie zu verschieben.\n\n50 Kanäle pro Kategorie ist ein Limit, welches **von Discord erzwingt wird**.",
 	"commands.panel": "Besuche <https://dashboard.tickets.bot/manage/%d/panels>, um ein Panel zu konfigurieren",
-	"commands.premium": "Du kannst ein Premium-Abonnement auf <https://www.patreon.com/ticketsbot-cloud> kaufen.\\nPremium gibt Dir viele Vorteile, hier ein paar Beispiele:\\n```diff\\n+ Erstellen von unlimitierten Ticket-Panels\\n+ Anpassen des Bot-Namen, Avatar und Status (Whitelabel)\\n+ Detaillierte Statistiken über den Server, Benutzer und Support-Mitarbeiter\\n+ Kein Branding am Ende von Nachrichten\\n+ Unterstütze die Enwicklung und hilf mir, die Server-Kosten zu decken\\n```\\n\\nAls Alternative kannst Du auf <https://vote.tickets.bot> abstimmen, um eine begrenzte Premium-Version für 24 Stunden gratis zu erhalten",
+	"commands.premium": "Du kannst ein Premium-Abonnement auf <https://www.patreon.com/ticketsbot-cloud> kaufen.\\nPremium gibt Dir viele Vorteile, hier ein paar Beispiele:\\n```diff\\n+ Erstellen von unlimitierten Ticket-Panels\\n+ Anpassen des Bot-Namen, Avatar und Status (Whitelabel)\\n+ Detaillierte Statistiken über den Server, Benutzer und Support-Mitarbeiter\\n+ Kein Branding am Ende von Nachrichten\\n+ Unterstütze die Enwicklung und hilf mir, die Serverkosten zu decken\\n```\\n\\nAls Alternative kannst Du auf <https://vote.tickets.bot> abstimmen, um eine begrenzte Premium-Version für 24 Stunden gratis zu erhalten",
 	"commands.premium.invalid_key": "Ungültiger Schlüssel. Stelle sicher, dass Du den Schlüssel richtig kopiert hast.",
 	"commands.remove.no_permission": "Du hast keine Berechtigungen, um Benutzer von diesem Ticket zu entfernen",
 	"commands.remove.staff": "Du kannst Support-Mitarbeiter nicht von einem Ticket entfernen",
 	"commands.removeadmin.no_members": "Du musst einen Benutzer oder eine Rolle erwähnen, um die Administratorenberechtigungen zu entfernen",
-	"commands.removeadmin.owner": "Der Server-Inhaber muß ein Administrator sein",
+	"commands.removeadmin.owner": "Der Serverinhaber muss ein Administrator sein",
 	"commands.removeadmin.self": "Du kannst Deine eigenen Berechtigungen nicht widerrufen",
 	"commands.removesupport.no_members": "Du musst einen Benutzer oder eine Rolle erwähnen, um Support-Berechtigungen zu erteilen",
 	"commands.rename.missing_name": "Du musst einen neuen Namen für dieses Ticket eingeben",
@@ -33,7 +33,7 @@
 	"commands.tags.list": "IDs für alle Tags: \\n%s\\nUm den Inhalt eines Tags anzusehen, benutze `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Dieses Ticket wird von niemandem bearbeitet",
 	"commands.unclaim.not_claimer": "Nur Administratoren und der Benutzer, der dieses Ticket bearbeitet, können dieses Ticket freigeben",
-	"commands.unclaim.success": "Alle Support-Mitarbeiter können ab sofort auf dieses Ticket antworten",
+	"commands.unclaim.success": "Alle Support-Teammitglieder können ab sofort auf dieses Ticket antworten",
 	"commands.vote": "Klicke auf die Schaltfläche unten, um für den Bot abzustimmen und 24 Stunden gratis eine begrenzte Premium-Version zu erhalten.\n\nWenn Du abgestimmt hast, führe den %s Befehl erneut aus, um Dein Stimm-Guthaben einzulösen.",
 	"generic.invalid_argument": "Ungültiges Argument: Schau die Verwendung an",
 	"generic.invalid_user": "Konnte den Benutzer nicht finden",
@@ -43,7 +43,7 @@
 	"help.about": "Zeigt Dir Informationen über den Bot an",
 	"help.add": "Fügt einen Benutzer zu einem Ticket hinzu",
 	"help.addadmin": "Gibt einem Benutzer oder einer Rolle Administratorenberechtigungen",
-	"help.addsupport": "Fügt eine Rolle als Support-Mitarbeiter hinzu",
+	"help.addsupport": "Fügt eine Rolle als Support-Teammitglied hinzu",
 	"help.admin": "Bot-Verwaltung",
 	"help.admin.blacklist": "Verhindert die Benutzung des Bots für einen Server",
 	"help.admin.check_premium": "Überprüfe den Premium-Status eines Servers",
@@ -54,7 +54,7 @@
 	"help.blacklist": "Schaltet um, ob es Benutzern erlaubt ist, mit dem Bot zu interagieren",
 	"help.cancel": "Bricht den Einrichtungsprozess ab",
 	"help.claim": "Ordnet einen Support-Mitarbeiter einem Ticket zu",
-	"help.close": "Schliesst das aktuelle Ticket",
+	"help.close": "Schließt das aktuelle Ticket",
 	"help.help": "Zeigt Dir eine Liste aller Befehle an",
 	"help.invite": "Stellt einen Einladungslink für den Bot bereit",
 	"help.language": "Wechselt die Sprache, die der Bot benutzt",
@@ -78,7 +78,7 @@
 	"help.viewstaff": "Listet die Support-Mitarbeiter und Rollen",
 	"help.vote": "Zeigt Dir einen Link, um für eine gratis, begrenzte Premium-Version abzustimmen",
 	"help.check_perms": "Überprüfe, ob der Bot die richtigen Berechtigungen hat",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Verwalte Deine DSGVO-Datenanfragen",
 	"open.success": "Neues Ticket geöffnet: %s",
 	"open.outside_support_hours": "Dieser Panel ist derzeit geschlossen. Bitte versuche es erneut während unseren Öffnungszeiten.",
 	"setup.auto.category.failure": "Ich benötige die `Kanäle verwalten` Berechtigung",
@@ -93,21 +93,21 @@
 	"setup.transcript.success": "Der Transkript-Kanal wurde auf <#%d> geändert",
 	"commands.language.help_wanted": "Sprichst Du eine andere Sprache? Trete unserem [Support-Server](https://discord.gg/ticketsbot) bei, wenn Du daran interessiert bist, den Bot in weitere Sprachen zu übersetzen",
 	"commands.rename.too_long": "Der Name des Kanals darf nicht länger als 100 Zeichen sein",
-	"commands.autoclose.configure": "Besuche das [Dashboard](https://dashboard.tickets.bot/manage/%d/settings), um die Einstellungen für das automatische Schliessen zu ändern",
-	"help.autoclose": "Befehle bezüglich automatisches Schliessen",
-	"help.autoclose.exclude": "Schliesst das aktuelle Ticket vom automatischen Schliessen aus",
-	"help.autoclose.configure": "Bearbeite Einstellungen für das automatische Schliessen",
-	"commands.autoclose.exclude.success": "Dieses Ticket wurde vom automatischen Schliessen ausgeschlossen",
+	"commands.autoclose.configure": "Besuche das [Dashboard](https://dashboard.tickets.bot/manage/%d/settings), um die Einstellungen für das automatische Schließen zu ändern",
+	"help.autoclose": "Befehle bezüglich automatisches Schließen",
+	"help.autoclose.exclude": "Schließt das aktuelle Ticket vom automatischen Schließen aus",
+	"help.autoclose.configure": "Bearbeite Einstellungen für das automatische Schließen",
+	"commands.autoclose.exclude.success": "Dieses Ticket wurde vom automatischen Schließen ausgeschlossen",
 	"commands.claim.no_permission": "Nur Support-Mitarbeiter können Tickets beanspruchen",
 	"commands.open.from": "Dieses Ticket wurde von [dieser Nachricht](%s) geöffnet.\n\n<@%d> sagte in <#%d>:\n```%s```",
 	"commands.open.from.moved": "Die Unterhaltung wurde zu einem Ticket verschoben (<#%d>)",
-	"help.close_request": "Sendet eine Nachricht, in der der Benutzer gebeten wird, das Ticket zu schliessen",
+	"help.close_request": "Sendet eine Nachricht, in der der Benutzer gebeten wird, das Ticket zu schließen",
 	"close.reason_too_long": "Der Grund darf nicht länger als 255 Zeichen sein",
-	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> hat das Schliessen dieses Tickets angefordert.\n\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
-	"commands.close_request.with_reason": "<@%d> hat das Schliessen dieses Tickets angefordert. Grund:\n```\n%s\n```\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
-	"commands.close_request.no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schliessungsanfrage antworten",
-	"commands.close_request.denied": "<@%d> hat die Schliessungsanfrage abgelehnt",
+	"commands.close_request.success": "Deine Schließanfrage wurde erfolgreich gesendet",
+	"commands.close_request.no_reason": "<@%d> hat das Schließen dieses Tickets angefordert.\n\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
+	"commands.close_request.with_reason": "<@%d> hat das Schließen dieses Tickets angefordert. Grund:\n```\n%s\n```\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
+	"commands.close_request.no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schließungsanfrage antworten",
+	"commands.close_request.denied": "<@%d> hat die Schließungsanfrage abgelehnt",
 	"generic.error": "Fehler",
 	"feedback.disabled": "Dieser Server hat Rückmeldungen deaktiviert",
 	"feedback.success": "Deine Rückmeldung wurde dokumentiert",
@@ -123,9 +123,9 @@
 	"generic.title.about": "Über",
 	"generic.title.vote": "Abstimmung",
 	"generic.title.tags": "Tags",
-	"generic.title.autoclose": "Automatische Schliessung",
+	"generic.title.autoclose": "Automatische Schließung",
 	"generic.title.invite": "Einladung",
-	"generic.title.close": "Schliessen",
+	"generic.title.close": "Schließen",
 	"generic.title.claim": "Beanspruchen",
 	"generic.title.blacklisted": "Gesperrt",
 	"generic.title.blacklist": "Sperrliste",
@@ -136,21 +136,21 @@
 	"generic.title.add_support": "Support hinzufügen",
 	"generic.title.remove_admin": "Administrator entfernen",
 	"generic.title.remove_support": "Support entfernen",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Support-Teammitglied erfolgreich hinzugefügt: %s",
 	"generic.title.language": "Sprache",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Support-Teammitglied erfolgreich entfernt: %s",
+	"commands.addadmin.success": "Administrator erfolgreich hinzugefügt: %s",
+	"commands.removeadmin.success": "Administrator erfolgreich entfernt: %s",
 	"generic.title.setup": "Einrichtung",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panel",
 	"generic.title.rename": "Umbenennen",
 	"generic.title.remove": "Entfernen",
 	"generic.title.help": "Hilfe",
-	"generic.title.close_confirmation": "Schliess-Bestätigung",
-	"close.confirmation": "Bitte bestätige, dass Du dieses Ticket schliessen möchtest",
-	"generic.title.close_request": "Schliess-Anfrage",
-	"commands.close_request.accept": "Akzeptieren & Schliessen",
+	"generic.title.close_confirmation": "Schließ-Bestätigung",
+	"close.confirmation": "Bitte bestätige, dass Du dieses Ticket schließen möchtest",
+	"generic.title.close_request": "Schließ-Anfrage",
+	"commands.close_request.accept": "Akzeptieren & Schließen",
 	"commands.close_request.deny": "Ablehnen & Offen lassen",
 	"commands.premium.success": "Premium wurde für **%d** Tage aktiviert",
 	"generic.title.claimed": "Beanspruchtes Ticket",
@@ -163,19 +163,19 @@
 	"generic.join_support_server": "Trete dem Support-Server bei",
 	"commands.open.guild_channel_limit": "Dieser Server hat Discord's Limit von 500 Kanälen erreicht",
 	"commands.open.missing_form_answer": "Du musst die Frage `%s` beantworten",
-	"close.no_permission": "Du bist nicht berechtigt, dieses Ticket zu schliessen",
+	"close.no_permission": "Du bist nicht berechtigt, dieses Ticket zu schließen",
 	"": {
-		"generic.title.close_with_reason": "Schliessen mit Begründung",
+		"generic.title.close_with_reason": "Schließen mit Begründung",
 		"generic.reason": "Begründung"
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Grund für das Schliessen des Tickets, z.B. \"gelöst\""
+			"placeholder": "Grund für das Schließen des Tickets, z.B. \"gelöst\""
 		},
 		"success": "Das Ticket wurde von <@%d> geschlossen",
 		"rate": {
 			"not_allowed": {
-				"staff": "Du kannst dieses Ticket nicht bewerten, weil Du ein Support-Mitarbeiter in %s bist",
+				"staff": "Du kannst dieses Ticket nicht bewerten, weil Du ein Support-Teammitglied in %s bist",
 				"empty": "Du kannst dieses Ticket nicht bewerten, weil Du keine Nachrichten gesendet hast"
 			}
 		}
@@ -185,7 +185,7 @@
 			"disabled": "Der `/open` Befehl ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen",
 			"threads": {
 				"cant_see_parent_channel": "<@%d> konnte nicht zum Ticket hinzugefügt werden: Stelle sicher, dass der Benutzer Rechte hat, den Haupt-Kanal (<#%d>) des Threads zu sehen",
-				"cant_message_in_threads": "Dir fehlt die Berechtigung `Nachrichten in Threads senden`, die benötigt wird, um ein Ticket zu öffnen. Bitte frag einen Server-Administrator, der Dir diese Berechtigung erteilen kann und versuche es erneut."
+				"cant_message_in_threads": "Dir fehlt die Berechtigung `Nachrichten in Threads senden`, die benötigt wird, um ein Ticket zu öffnen. Bitte frag einen Serveradministrator, der Dir diese Berechtigung erteilen kann und versuche es erneut."
 			}
 		},
 		"switch_panel": {
@@ -223,7 +223,7 @@
 		},
 		"language": {
 			"content": "Die verfügbaren Sprachen und deren Übersetzungsfortschritte sind wie folgt:\n%s",
-			"success": "Die Server-Sprache wurde zu **%s** (%s) geändert",
+			"success": "Die Serversprache wurde zu **%s** (%s) geändert",
 			"select": "Wähle eine Sprache (%c-%c)"
 		},
 		"on_call": {
@@ -244,7 +244,7 @@
 			"key": "Schlüssel",
 			"check_again": "Erneut überprüfen",
 			"subscription_found": "Abonnement gefunden!",
-			"subscription_found_content": "Um Dein Abonnement auf diesem Server zu aktivieren, muss Dich der Server-Inhaber als (<@%d>) **Admin-User** (Rollen werden ignoriert) über den </addadmin:%d> Befehl hinzufügen.\\n\\nDu kannst mit dem Befehl </viewstaff:%d> prüfen, ob Du als Admin-User hinzugefügt worden bist.",
+			"subscription_found_content": "Um Dein Abonnement auf diesem Server zu aktivieren, muss Dich der Serverinhaber als (<@%d>) **Administrator** (Rollen werden ignoriert) über den </addadmin:%d> Befehl hinzufügen.\\n\\nDu kannst mit dem Befehl </viewstaff:%d> prüfen, ob Du als Administrator hinzugefügt worden bist.",
 			"activate_key": "Aktiviere einen Premium-Schlüssel",
 			"checking": "Premium-Status wird überprüft...",
 			"please_wait": "Bitte warten...",
@@ -333,7 +333,7 @@
 		"jump_to_top": "Zeigt eine Schaltfläche, um zum Anfang des Tickets zu springen",
 		"on_call": "Markiert Dich als verfügbar, um in neuen Tickets automatisch hinzugefügt und markiert zu werden",
 		"reopen": "Öffnet ein zuvor geschlossenes Ticket erneut",
-		"notes": "Erstellt einen Thread für private Diskussionen zwischen Support-Mitarbeitern"
+		"notes": "Erstellt einen Thread für private Diskussionen zwischen Support-Teammitgliedern"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -363,8 +363,8 @@
 	},
 	"open": {
 		"thread_in_announcement_channel": "In Ankündigungs-Kanälen können keine Threads erstellt werden",
-		"panel_force_disabled": "Dieser Panel wurde deaktiviert. Bitte frage einen Server-Administrator, Premium erneut zu aktivieren und %s auszuführen, um den Panel wieder zu aktivieren.",
-		"panel_disabled": "Die Server-Administratoren haben das Öffnen dieses Ticket-Typs deaktiviert",
+		"panel_force_disabled": "Dieser Panel wurde deaktiviert. Bitte frage einen Serveradministrator, Premium erneut zu aktivieren und %s auszuführen, um den Panel wieder zu aktivieren.",
+		"panel_disabled": "Die Serveradministratoren haben das Öffnen dieses Ticket-Typs deaktiviert",
 		"acl": {
 			"no_allow_rules": "Der Zugriff auf diese Art von Ticket wurde für alle Rollen deaktiviert",
 			"deny_listed": "Du kannst diese Art von Ticket nicht öffnen, da du die Rolle <@&%d> hast",
@@ -375,84 +375,84 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Wähle die Art der DSGVO-Anfrage, die Du stellen möchtest:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Optionen zum Löschen von Transkripten**\n-# _Lösche Transkripte von Servern, die Dir gehören_",
+			"message": "### **Optionen zur Anonymisierung von Nachrichten**\n-# _Anonymisiere Deine Nachrichten in Transkripten ausgewählter Server_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Wichtige Informationen**\n* Das Löschen ist **dauerhaft** und kann nicht rückgängig gemacht werden\n* Du kannst nur Transkripte von Servern löschen, die **Dir** gehören\n* Nur **Deine** Nachrichten können in Transkripten anonymisiert werden\n* Die Bearbeitung kann bis zu **30 Tage** dauern\n* Deine Anfrage wird in einer **Warteschlange** verarbeitet",
+		"resources": "### **Ressourcen**\n[Was ist die DSGVO?](%s)\n[Recht auf Löschung](%s)\n[Auskunftsrecht](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Alle Transkripte von Servern",
+			"specific_transcripts": "Bestimmte Transkripte",
+			"all_messages": "Alle Deine Nachrichten auf Servern",
+			"specific_messages": "Deine Nachrichten in bestimmten Tickets"
 		},
-		"language_option": "Language",
+		"language_option": "Sprache",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Alle Transkripte von Servern löschen",
+			"specific_transcripts": "Bestimmte Transkripte löschen",
+			"all_messages": "Anonymisiere Deine Nachrichten auf Servern",
+			"specific_messages": "Anonymisiere Deine Nachrichten in bestimmten Tickets",
+			"select_server": "Wähle einen Server aus",
+			"select_servers": "Wähle einen oder mehrere Server aus",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "Server-ID",
+				"placeholder": "Gib die Server-ID ein"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "Server-IDs",
+				"placeholder": "Gib die Server-IDs durch Kommas getrennt ein (z.B. 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "Ticket-IDs",
+				"placeholder": "Gib die Ticket-IDs durch Kommas getrennt ein (z.B. 123, 456, 789)"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"title": "DSGVO-Bestätigung erforderlich",
+			"all_transcripts": "**Anfragetyp:** Alle Transkripte von einem Server löschen, der Dir gehört\n**Server:** %s",
+			"all_transcripts_multi": "**Anfragetyp:** Alle Transkripte von Servern, die Dir gehören, löschen\n**Server:**\n* %s",
+			"specific_transcripts": "**Anfragetyp:** Bestimmte Transkripte von einem Server löschen\n**Server:** %s\n**Ticket-IDs:** %s",
+			"all_messages": "**Anfragetyp:** Alle Deine Nachrichten im ausgewählten Server anonymisieren\n**Server:** %s",
+			"all_messages_multi": "**Anfragetyp:** Alle Deine Nachrichten in den ausgewählten Servern anonymisieren\n**Server:**\n* %s",
+			"specific_messages": "**Anfragetyp:** Deine Nachrichten in bestimmten Tickets anonymisieren\n**Server:** %s\n**Ticket-IDs:** %s",
+			"warning": "\n\n⚠️ **Achtung:** Diese Aktion ist endgültig und kann nicht rückgängig gemacht werden.\n\nVerstehst Du und akzeptierst Du, dass sie endgültig ist?",
+			"button": "Bestätigen - Ich habe verstanden"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"title": "DSGVO-Anfrage eingereiht",
+			"all_transcripts": "**Anfragetyp:** Alle Transkripte von einem Server löschen\n**Server:** %s",
+			"all_transcripts_multi": "**Anfragetyp:** Alle Transkripte von Servern löschen\n**Server:**\n* %s",
+			"specific_transcripts": "**Anfragetyp:** Bestimmte Transkripte löschen\n**Server:** %s\n**Ticket-IDs:** %s",
+			"all_messages": "**Anfragetyp:** Alle Deine Nachrichten in einem Server anonymisieren\n**Server:** %s",
+			"all_messages_multi": "**Anfragetyp:** Alle Deine Nachrichten auf Servern anonymisieren\n**Server:**\n* %s",
+			"specific_messages": "**Anfragetyp:** Deine Nachrichten in bestimmten Tickets anonymisieren\n**Server:** %s\n**Ticket-IDs:** %s",
+			"footer": "\n\nDeine Anfrage wurde zur Verarbeitung in die Warteschlange gestellt.\nDie Verarbeitung kann je nach Anzahl der Transkripte einige Zeit dauern."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"title": "DSGVO-Anfrage abgeschlossen",
+			"all_transcripts": "**Anfragetyp:** Alle Transkripte von einem Server löschen\n**Server:** %s\n**Gelöschte Transkripte:** %d",
+			"all_transcripts_multi": "**Anfragetyp:** Alle Transkripte von Servern löschen\n**Server:**\n* %s\n**Gelöschte Transkripte:** %d",
+			"specific_transcripts": "**Anfragetyp:** Bestimmte Transkripte löschen\n**Server:** %s\n**Gelöschte Transkripte:** %d",
+			"all_messages": "**Anfragetyp:** Alle Deine Nachrichten in einem Server anonymisieren\n**Server:** %s\n**Anonymisierte Nachrichten:** %d",
+			"all_messages_multi": "**Anfragetyp:** Alle Deine Nachrichten in Servern anonymisieren\n**Server:**\n* %s\n**Anonymisierte Nachrichten:** %d",
+			"specific_messages": "**Anfragetyp:** Deine Nachrichten in bestimmten Tickets anonymisieren\n**Server:** %s\n**Anonymisierte Nachrichten:** %d",
+			"error": "\n\n**⚠️ Fehler:** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "⚠️ Bei Deiner DSGVO-Anfrage ist ein Fehler aufgetreten: %s",
+			"no_data": "ℹ️ Deine DSGVO-Anfrage wurde verarbeitet. Es wurden keine Daten gefunden.",
+			"success": "✅ Deine DSGVO-Anfrage wurde erfolgreich verarbeitet."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"no_servers": "Keine Server gefunden, bei denen Du Serverinhaber bist und Transkripte vorhanden sind.",
+			"invalid_server_id": "Ungültige Server-ID angegeben.",
+			"invalid_ticket_ids": "Ungültige Ticket-IDs angegeben. Bitte gib numerische Ticket-IDs durch Kommas getrennt ein (z.B. 123, 456, 789).",
+			"not_owner": "Du musst Serverinhaber sein, um Transkripte zu löschen.",
+			"server_not_found": "Server nicht gefunden.",
+			"queue_failed": "DSGVO-Anfrage konnte nicht in die Warteschlange aufgenommen werden. Bitte versuche es später erneut.",
+			"worker_offline": "Der DSGVO-Verarbeitungsdienst ist derzeit nicht verfügbar. Bitte versuche es später erneut oder kontaktiere den Support, falls das Problem weiterhin besteht."
 		}
 	}
 }
