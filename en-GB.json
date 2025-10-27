@@ -127,6 +127,7 @@
 	"generic.title.invite": "Invite",
 	"generic.title.close": "Close",
 	"generic.title.claim": "Claim",
+	"generic.title.unclaim": "Unclaim",
 	"generic.title.blacklisted": "Blacklisted",
 	"generic.title.blacklist": "Blacklist",
 	"generic.error.blacklisted": "You are blacklisted in this server",
