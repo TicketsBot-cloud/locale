@@ -78,6 +78,7 @@
 	"help.viewstaff": "Llista els membres i rols de l'equip",
 	"help.vote": "Proporciona un enllaç per votar i tenir Premium gratis",
 	"help.check_perms": "Comprova si el bot té els Permisos necessaris",
+	"help.gdpr": "Gestionar les teves peticions de dades GDPR",
 	"open.success": "S'ha obert un nou tiquet: %s",
 	"open.outside_support_hours": "Actualment, aquest tauler es troba tancat. Si us plau, torna-ho a provar dins el nostre horari d'atenció.",
 	"setup.auto.category.failure": "Trobo a faltar el permís per gestionar canals (`Manage Channels`)",
@@ -102,7 +103,7 @@
 	"commands.open.from.moved": "La conversa s'ha desplaçat a un tiquet (<#%d>)",
 	"help.close_request": "Envia un missatge preguntant a l'usuari que confirmi si el tiquet es pot tancar",
 	"close.reason_too_long": "La raó no pot superar els 255 caràcters",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "La petició de tancament s'ha enviat correctament",
 	"commands.close_request.no_reason": "<@%d> Ha demanat tancar el tiquet.\n\nSi us plau, accepta o rebutja la petició amb els botons de sota.",
 	"commands.close_request.with_reason": "<@%d> ha demanat tancar el tiquet. Raó proporcionada:\n```\n%s\n```\nSi us plau, accepta o rebutja la petició amb els botons de sota.",
 	"commands.close_request.no_permission": "Només l'usuari que ha obert el tiquet pot respondre la petició de tancament",
@@ -135,11 +136,11 @@
 	"generic.title.add_support": "Afegir Suport",
 	"generic.title.remove_admin": "Treure Administrador",
 	"generic.title.remove_support": "Retirar Suport",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Representant de suport afegit correctament: %s",
 	"generic.title.language": "Idioma",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Representant de suport tret correctament: %s",
+	"commands.addadmin.success": "Administrador afegit correctament: %s",
+	"commands.removeadmin.success": "Administrador tret correctament: %s",
 	"generic.title.setup": "Configuració",
 	"generic.title.premium": "Prèmium",
 	"generic.title.panel": "Panell",
@@ -313,30 +314,6 @@
 				"no_roles": "No hi ha rols a l'equip de suport",
 				"users_warning": "-# **Avís:** Els usuaris dels equips de suport seran obsolets. Si us plau, migra a rols."
 			}
-		},
-		"permissions": {
-			"title": "Verificació de Permisos",
-			"has_admin": "✅ <@%d> té permís de l'Administració",
-			"has_all": "✅ <@%d> té tots els permisos necessaris",
-			"missing": "❌ Falten Permisos",
-			"description": {
-				"read_messages": "Permet al bot veure el contingut d'un canal.",
-				"send_messages": "Permet al bot enviar missatges als canals.",
-				"embed_links": "Permet al bot enviar panells de tiquets, missatges de benvinguda, i etiquetes que inclouen un missatge incrustat (embed).",
-				"attach_files": "Permet al bot assignar el permís d'adjuntar fitxers a qui ha obert el tiquet.",
-				"add_reactions": "Permet al bot afegir botons als panells de tiquets, missatges de benvinguda, i totes les ordres que utilitzin botons.",
-				"use_external_emojis": "Permet al bot utilitzar emoticones d'altres servidors als panells de tiquets, missatges de benvinguda, i etiquetes. El bot també ha de ser a l'altre servidor per utilitzar-les.",
-				"mention_everyone": "Permet al bot mencionar everyone, here i tots els rols en un tiquet.",
-				"read_message_history": "Permet al bot llegir tots els missatges en un canal.",
-				"manage_channels": "Permet al bot crear, reanomenar, classificar, i eliminar canals.",
-				"manage_roles": "Permet al bot crear i editar rols; assignar o treure rols; i ajustar permisos de rols del canal.",
-				"manage_webhooks": "Permet al bot crear webhooks per transcripcions, i als gestors enviar missatges o etiquetes als tiquets oberts des del taulell web.",
-				"manage_threads": "Permet al bot crear, reanomenar, tancat, i eliminar fils.",
-				"send_messages_in_threads": "Permet al bot enviar missatges als fils.",
-				"create_public_threads": "Permet al bot crear fils públics.",
-				"create_private_threads": "Permet al bot crear fils privats, tals com els tiquets en mode fils i l'ordre /note per un tiquet tipus canal.",
-				"use_application_commands": "Permet el funcionament de les ordres tipus barra (/)."
-			}
 		}
 	},
 	"generic": {
@@ -388,5 +365,106 @@
 				"single": "Necessites el següent rol per obrir aquest tipus de tiquet: %s"
 			}
 		}
+	},
+	"gdpr": {
+		"intro": "Selecciona el tipus de petició GDPR que voldries fer:",
+		"section": {
+			"transcript": "### **Opcions d'Eliminar Transcripcions**\n-# _Elimina transcripcions dels servidors que posseeixis_",
+			"message": "### **Opcions de Missatges Anònims**\n-# _Fes anònims els missatges de les transcripcions dels servidors seleccionats_"
+		},
+		"warning": "### **Informació Important**\n* L'eliminació és **permanent** i no es pot desfer\n* Només pots eliminar transcripcions dels servidors que **tu** posseeixis\n* Només els **teus** missatges poden ser convertits a anònims a les transcripcions\n* La petició pot trigar fins a **30 dies** a completar-se\n* La teva petició serà processada segons una **cua**",
+		"resources": "### **Recursos**\n[Què és GDPR?](%s)\n[Dret de Supressió](%s)\n[Dret d'Accés](%s)",
+		"button": {
+			"all_transcripts": "Totes les transcripcions dels servidors",
+			"specific_transcripts": "Transcripcions específiques",
+			"all_messages": "Tots els teus missatges en servidors",
+			"specific_messages": "Els teus missatges de tiquets específics"
+		},
+		"language_option": "Idioma",
+		"modal": {
+			"all_transcripts": "Eliminar Totes les Transcripcions dels Servidors",
+			"specific_transcripts": "Eliminar Transcripcions Específiques",
+			"all_messages": "Fer Anònims els Teus Missatges als Servidors",
+			"specific_messages": "Fer Anònims els Teus Missatges a Servidors Específics",
+			"select_server": "Seleccionar un servidor",
+			"select_servers": "Seleccionar un o més servidors",
+			"server_id": {
+				"label": "Identificador ID del servidor",
+				"placeholder": "Indica l'identificador del servidor"
+			},
+			"server_ids": {
+				"label": "Identificadors ID del servidor",
+				"placeholder": "Indica els identificadors separats per comes (p. ex., 1071167333265047653, 1412752753348055111)"
+			},
+			"ticket_ids": {
+				"label": "Identificadors ID de tiquet",
+				"placeholder": "Indica els identificadors de tiquet separats per comes (p. ex., 123, 456, 789)"
+			}
+		},
+		"confirm": {
+			"title": "Es Requereix Confirmació de GDPR",
+			"all_transcripts": "**Tipus de petició:** Eliminar totes les transcripcions dels servidors que posseeixis\n**Servidor:** %s",
+			"all_transcripts_multi": "**Tipus de petició:** Eliminar totes les transcripcions dels servidors que posseeixis\n**Servidors:**\n* %s",
+			"specific_transcripts": "**Tipus de petició:** Eliminar transcripcions específiques del servidor\n**Servidor:** %s\n**IDs de tiquet:** %s",
+			"all_messages": "**Tipus de petició:** Fer anònims tots els teus missatges del servidor seleccionat\n**Servidor:** %s",
+			"all_messages_multi": "**Tipus de petició:** Fer anònims tots els teus missatges dels servidors seleccionats\n**Servidors:**\n* %s",
+			"specific_messages": "**Tipus de petició:** Fer anònims els teus missatges de tiquets específics\n**Servidor:** %s\n**IDs de tiquet:** %s",
+			"warning": "\n\n⚠️ **Avís:** Aquesta acció és permanent i no es pot desfer.\n\nEntens i acceptes que aquesta acció és permanent?",
+			"button": "Confirm - I understand"
+		},
+		"queued": {
+			"title": "GDPR Request Queued",
+			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
+			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
+			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
+			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
+			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+		},
+		"completed": {
+			"title": "GDPR Request Completed",
+			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
+			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
+			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
+			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
+			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
+			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
+			"error": "\n\n**⚠️ Error:** %s"
+		},
+		"followup": {
+			"error": "⚠️ Your GDPR request encountered an error: %s",
+			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
+			"success": "✅ Your GDPR request has been processed successfully."
+		},
+		"error": {
+			"no_servers": "No servers found where you are the owner and have transcripts.",
+			"invalid_server_id": "Invalid server ID provided.",
+			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
+			"not_owner": "You must be the server owner to delete transcripts.",
+			"server_not_found": "Server not found.",
+			"queue_failed": "Failed to queue GDPR request. Please try again later.",
+			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+		}
+	},
+	"errors": {
+		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
+		"unknown_guild": "Could not find the server.",
+		"unknown_member": "The user could not be found. They may have left the server or been banned.",
+		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
+		"unknown_user": "user could not be found.",
+		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
+		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
+		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
+		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
+		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"missing_permissions": {
+			"title": "I am missing the following permissions required to perform this action",
+			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+		},
+		"invalid_form": "The action could not be completed due to invalid input.",
+		"timed_out": "The operation timed out, please try again.",
+		"general": "An error occurred while performing this action.",
+		"error_id": "Error ID"
 	}
 }

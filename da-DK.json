@@ -43,11 +43,11 @@
 	"help.about": "Giver dig information om denne bot",
 	"help.add": "Tilføjer en bruger til en ticket",
 	"help.addadmin": "Giver en bruger eller en rolle administratorrettigheder",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Tilføjer en rolle som supportrepræsentant",
 	"help.admin": "Bot håndtering",
 	"help.admin.blacklist": "Blacklist en guild, så de ikke kan bruge denne bot",
 	"help.admin.check_premium": "Kontroller premium-status på en server",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug": "Debug en servers indstillinger",
 	"help.admin.generate_premium": "Generer premium nøgler",
 	"help.admin.get_owner": "Henter ejeren af en server",
 	"help.admin.unblacklist": "Fjerner en guild fra blacklisten",
@@ -78,8 +78,9 @@
 	"help.viewstaff": "Viser en liste over medarbejdere og roller",
 	"help.vote": "Giver dig et link til at stemme på gratis premium",
 	"help.check_perms": "Tjek om Botten har de rigtige tilladelser",
+	"help.gdpr": "Administrer dine GDPR-dataanmodninger",
 	"open.success": "Åbnede en ny ticket: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Dette panel er i øjeblikket lukket. Prøv venligst igen i vores supporttider.",
 	"setup.auto.category.failure": "Jeg mangler tilladelsen `Administrer kanaler`",
 	"setup.auto.category.success": "Oprettet en ticket kategori",
 	"setup.auto.completed": "Opsætning fuldført! Klik [her](https://dashboard.ticketsbot. et/manage/%d/panels) til at opsætte et reaktionspanel, og tilføj rollerne <@&%d> og <@&%d> til dine medarbejdere",
@@ -102,7 +103,7 @@
 	"commands.open.from.moved": "Samtalen er blevet flyttet til en ticket (<#%d>)",
 	"help.close_request": "Sender en besked, der beder brugeren om at bekræfte, at den gældende ticket kan blive lukket",
 	"close.reason_too_long": "Årsagen kan ikke være længere end 255 tegn",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "Lukke anmodningen blev sendt",
 	"commands.close_request.no_reason": "<@%d> har anmodet om at lukke denne ticket.\n\nAcceptér eller afvis ved hjælp af knapperne nedenfor.",
 	"commands.close_request.with_reason": "<@%d> har anmodet om at lukke denne ticket. Årsag:\n```\n%s\n```\nAcceptér eller afvis ved hjælp af knapperne nedenfor.",
 	"commands.close_request.no_permission": "Kun den bruger, der åbnede denne ticket, kan respondere på anmodningen om at lukke den",
@@ -135,11 +136,11 @@
 	"generic.title.add_support": "Tilføj Support",
 	"generic.title.remove_admin": "Fjern administrator",
 	"generic.title.remove_support": "Fjern Support",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Supportrepræsentant succesfuldt tilføjet: %s",
 	"generic.title.language": "Sprog",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Supportrepræsentant blev fjernet: %s",
+	"commands.addadmin.success": "Administrator tilføjet: %s",
+	"commands.removeadmin.success": "Administrator fjernet: %s",
 	"generic.title.setup": "Opsætning",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panel",
@@ -280,7 +281,7 @@
 			"added_to_existing": "Du er blevet tilføjet til den eksisterende notetråd: <#%d>",
 			"thread_name": "noter",
 			"created": "Der er blevet oprettet en notetråd til denne ticket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Notetråde understøttes kun i kanaltilstand"
 		},
 		"rename": {
 			"ratelimited": "På grund af begrænsninger pålagt af Discord, kan tickets kun omdøbes to gange hvert 10. minut"
@@ -300,42 +301,18 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Personale",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Administrator Brugere",
+				"roles": "Administrator Roller",
+				"no_users": "Ingen administrator brugere",
+				"no_roles": "Ingen administrator roller"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
-			}
-		},
-		"permissions": {
-			"title": "Tjek Tilladelser",
-			"has_admin": "✅ <@%d> has the Administrator permission",
-			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Manglende Tilladelser",
-			"description": {
-				"read_messages": "Allows the bot to view the content of a channel.",
-				"send_messages": "Allows the bot to send messages in channels.",
-				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
-				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
-				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
-				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
-				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
-				"read_message_history": "Allows the bot to read all messages in a channel.",
-				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
-				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
-				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
-				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
-				"send_messages_in_threads": "Allows the bot to send messages in threads.",
-				"create_public_threads": "Allows the bot to create public threads.",
-				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
-				"use_application_commands": "Allows the bot's slash commands to work."
+				"users": "Support Brugere",
+				"roles": "Support Roller",
+				"no_roles": "Ingen support roller",
+				"users_warning": "-# **Advarsel:** Brugere i supportteams er nu forældet. Migrer venligst til roller."
 			}
 		}
 	},
@@ -388,5 +365,106 @@
 				"single": "Du skal have følgende rolle for at åbne denne type af ticket: %s"
 			}
 		}
+	},
+	"gdpr": {
+		"intro": "Vælg den type GDPR-anmodning, du gerne vil foretage:",
+		"section": {
+			"transcript": "### **Muligheder for Sletning af Transcripts**\n-# _Slet transcripts fra servere, du ejer_",
+			"message": "### **Muligheder for Anonymisering af Beskeder**\n-# _Anonymiser dine beskeder fra transcripts på valgte servere_"
+		},
+		"warning": "### **Vigtig Information**\n* Sletning er **permanent** og kan ikke fortrydes\n* Du kan kun slette transcripts fra servere **du** ejer\n* Kun **dine** beskeder kan anonymiseres i transcripts\n* Anmodningen kan tage op til **30 dage** at gennemføre\n* Din anmodning vil blive behandlet i en **kø**",
+		"resources": "### **Ressourcer**\n[Hvad er GDPR?](%s)\n[Ret til Sletning](%s)\n[Ret til Adgang](%s)",
+		"button": {
+			"all_transcripts": "Alle transcripts fra servere",
+			"specific_transcripts": "Specifikke transcripts",
+			"all_messages": "Alle dine beskeder på servere",
+			"specific_messages": "Dine beskeder i specifikke tickets"
+		},
+		"language_option": "Sprog",
+		"modal": {
+			"all_transcripts": "Slet Alle Transcripts fra Servere",
+			"specific_transcripts": "Slet Specifikke Transcripts",
+			"all_messages": "Anonymiser Dine Beskeder på Servere",
+			"specific_messages": "Anonymiser Dine Beskeder i Specifikke Tickets",
+			"select_server": "Vælg en server",
+			"select_servers": "Vælg en eller flere servere",
+			"server_id": {
+				"label": "Server ID",
+				"placeholder": "Indtast server ID'et"
+			},
+			"server_ids": {
+				"label": "Server ID'er",
+				"placeholder": "Indtast server ID'er adskilt med kommaer (f.eks. 1071167333265047653, 1412752753348055111)"
+			},
+			"ticket_ids": {
+				"label": "Ticket ID'er",
+				"placeholder": "Indtast ticket ID'er adskilt med kommaer (f.eks. 123, 456, 789)"
+			}
+		},
+		"confirm": {
+			"title": "GDPR Bekræftelse Påkrævet",
+			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra en server, du ejer\n**Server:** %s",
+			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere, du ejer\n**Servere:**\n* %s",
+			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts fra server\n**Server:** %s\n**Ticket ID'er:** %s",
+			"all_messages": "**Anmodningstype:** Anonymiser alle dine beskeder på den valgte server\n**Server:** %s",
+			"all_messages_multi": "**Anmodningstype:** Anonymiser alle dine beskeder på de valgte servere\n**Servere:**\n* %s",
+			"specific_messages": "**Anmodningstype:** Anonymiser dine beskeder i specifikke tickets\n**Server:** %s\n**Ticket ID'er:** %s",
+			"warning": "\n\n⚠️ **Advarsel:** Denne handling er permanent og kan ikke fortrydes.\n\nForstår og accepterer du, at denne handling er permanent?",
+			"button": "Bekræft - Jeg forstår"
+		},
+		"queued": {
+			"title": "GDPR Anmodning i Kø",
+			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Server:** %s",
+			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Servere:**\n* %s",
+			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Server:** %s\n**Ticket ID'er:** %s",
+			"all_messages": "**Anmodningstype:** Anonymiser alle dine beskeder på server\n**Server:** %s",
+			"all_messages_multi": "**Anmodningstype:** Anonymiser alle dine beskeder på servere\n**Servere:**\n* %s",
+			"specific_messages": "**Anmodningstype:** Anonymiser dine beskeder i specifikke tickets\n**Server:** %s\n**Ticket ID'er:** %s",
+			"footer": "\n\nDin anmodning er blevet sat i kø til behandling.\nBehandling kan tage noget tid afhængigt af antallet af transcripts."
+		},
+		"completed": {
+			"title": "GDPR Anmodning Fuldført",
+			"all_transcripts": "**Anmodningstype:** Slet alle transcripts fra server\n**Server:** %s\n**Transcripts Slettet:** %d",
+			"all_transcripts_multi": "**Anmodningstype:** Slet alle transcripts fra servere\n**Servere:**\n* %s\n**Transcripts Slettet:** %d",
+			"specific_transcripts": "**Anmodningstype:** Slet specifikke transcripts\n**Server:** %s\n**Transcripts Slettet:** %d",
+			"all_messages": "**Anmodningstype:** Anonymiser alle dine beskeder på server\n**Server:** %s\n**Beskeder Anonymiseret:** %d",
+			"all_messages_multi": "**Anmodningstype:** Anonymiser alle dine beskeder på servere\n**Servere:**\n* %s\n**Beskeder Anonymiseret:** %d",
+			"specific_messages": "**Anmodningstype:** Anonymiser dine beskeder i specifikke tickets\n**Server:** %s\n**Beskeder Anonymiseret:** %d",
+			"error": "\n\n**⚠️ Fejl:** %s"
+		},
+		"followup": {
+			"error": "⚠️ Din GDPR-anmodning stødte på en fejl: %s",
+			"no_data": "ℹ️ Din GDPR-anmodning er blevet behandlet. Der blev ikke fundet nogen data.",
+			"success": "✅ Din GDPR-anmodning er blevet behandlet succesfuldt."
+		},
+		"error": {
+			"no_servers": "Ingen servere fundet, hvor du er ejeren og har transcripts.",
+			"invalid_server_id": "Ugyldigt server ID angivet.",
+			"invalid_ticket_ids": "Ugyldige ticket ID'er angivet. Indtast venligst numeriske ticket ID'er adskilt med kommaer (f.eks. 123, 456, 789).",
+			"not_owner": "Du skal være serverejeren for at slette transcripts.",
+			"server_not_found": "Server ikke fundet.",
+			"queue_failed": "Kunne ikke sætte GDPR-anmodning i kø. Prøv venligst igen senere.",
+			"worker_offline": "GDPR-behandlingstjenesten er i øjeblikket utilgængelig. Prøv venligst igen senere eller kontakt support, hvis dette problem fortsætter."
+		}
+	},
+	"errors": {
+		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
+		"unknown_guild": "Could not find the server.",
+		"unknown_member": "The user could not be found. They may have left the server or been banned.",
+		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
+		"unknown_user": "user could not be found.",
+		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
+		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
+		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
+		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
+		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"missing_permissions": {
+			"title": "I am missing the following permissions required to perform this action",
+			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+		},
+		"invalid_form": "The action could not be completed due to invalid input.",
+		"timed_out": "The operation timed out, please try again.",
+		"general": "An error occurred while performing this action.",
+		"error_id": "Error ID"
 	}
 }

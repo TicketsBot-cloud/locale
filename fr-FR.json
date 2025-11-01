@@ -1,10 +1,10 @@
 {
-	"commands.about": "Tickets est un bot de tickets et de support facile à utiliser et hautement configurable.\\nServeur de support : https://discord.gg/ticketsbot\\nListe des commandes : Tapez `/help`\\nCommencez en tapant `/setup`",
+	"commands.about": "Tickets est un bot de tickets facile à utiliser et hautement configurable.\\nServeur d'assistance: https://discord.gg/ticketsbot\\nListe des commandes : Tapez `/help`\\nCommencez en tapant `/setup`",
 	"commands.add.no_members": "Vous devez mentionner des membres à ajouter au ticket",
 	"commands.add.no_permission": "Vous n'avez pas la permission d'ajouter des personnes à ce ticket.",
 	"commands.addadmin.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui attribuer les privilèges d'administrateur",
 	"commands.addadmin.owner": "Le propriétaire du serveur est déjà administrateur",
-	"commands.addsupport.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui accorder des privilèges de  support",
+	"commands.addsupport.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui accorder les privilèges de représentant d'assistance.",
 	"commands.blacklist.no_members": "Vous devez mentionner un utilisateur pour changer son état sur la liste noire",
 	"commands.blacklist.self": "Vous ne pouvez pas vous mettre vous-même sur liste noire",
 	"commands.claim.success": "Votre ticket sera traité par %s",
@@ -13,14 +13,14 @@
 	"commands.open.ticket_limit": "Vous ne pouvez ouvrir que %d %s à la fois",
 	"commands.open.too_many_tickets": "Il y a trop de tickets dans la catégorie des tickets. Demandez à un administrateur d'en fermer quelques-uns, ou de les déplacer dans une autre catégorie",
 	"commands.panel": "Rendez-vous sur <https://panel.tickets.bot/manage/%d/panels> pour configurer un panneau",
-	"commands.premium": "Vous pouvez acheter un abonnement premium depuis le site <https://www.patreon.com/ticketsbot-cloud>.\\nLa version premium offre de nombreux avantages tels que :\\n```diff\\n+ La création illimitée de panneaux de tickets\\n+ La personnalisation du nom du bot, de l'avatar et du status (whitelabel)\\n+ L'accès aux statistiques détaillées sur le serveur, les utilisateurs et le support\\n+ L'absence de publicité pour le bot en bas des embeds\\n+ Soutenir le développement du bot et aider à payer les coûts des serveurs\\n```\\n\\nVous pouvez également voter à l'adresse <https://vote.tickets.bot> pour obtenir la version premium gratuitement pendant 24 heures",
+	"commands.premium": "Vous pouvez acheter un abonnement premium depuis le site <https://www.patreon.com/ticketsbot-cloud>.\\nLa version premium offre de nombreux avantages tels que :\\n```diff\\n+ La création illimitée de panneaux de tickets\\n+ La personnalisation du nom du bot, de l'avatar et du status (whitelabel)\\n+ L'accès aux statistiques détaillées sur le serveur, les utilisateurs et l'équipe d'assistance\\n+ L'absence de publicité pour le bot en bas des embeds\\n+ Soutenir le développement du bot et aider à payer les coûts des serveurs\\n```\\n\\nVous pouvez également voter à l'adresse <https://vote.tickets.bot> pour obtenir la version premium gratuitement pendant 24 heures",
 	"commands.premium.invalid_key": "Clé invalide. Assurez-vous que vous l'avez copiée correctement.",
 	"commands.remove.no_permission": "Vous n'avez pas la permission de retirer des personnes de ce ticket",
 	"commands.remove.staff": "Vous ne pouvez pas retirer un membre du staff d'un ticket",
 	"commands.removeadmin.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui retirer ses privilèges d'administrateur",
 	"commands.removeadmin.owner": "Le propriétaire du serveur doit être un administrateur",
 	"commands.removeadmin.self": "Vous ne pouvez pas vous retirer de vos propres privilèges",
-	"commands.removesupport.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui attribuer les privilèges de support.",
+	"commands.removesupport.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui attribuer les privilèges de représentant de l'équipe d'assistance",
 	"commands.rename.missing_name": "Vous devez spécifier un nouveau nom pour ce ticket",
 	"commands.rename.success": "Ce ticket a été renommé en <#%d>",
 	"commands.tags.create.already_exists": "Une étiquette avec l'ID `%s` existe déjà. Vous pouvez supprimer cette étiquette à l'aide de la commande `/tag delete %s`",
@@ -33,7 +33,7 @@
 	"commands.tags.list": "IDs pour toutes les étiquettess : \\n%s\\nPour afficher le contenu d'une étiquette, tapez `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Ce ticket n'a pas été réclamé",
 	"commands.unclaim.not_claimer": "Seuls les administrateurs et l'utilisateur qui a réclamé le ticket peuvent retirer une réclamation",
-	"commands.unclaim.success": "Tous les membres du support peuvent désormais répondre au ticket",
+	"commands.unclaim.success": "Tous les membres de l'équipe d'assistance peuvent désormais répondre au ticket",
 	"commands.vote": "Cliquez ici pour voter et obtenir 24 heures de premium gratuit :\\n<https://vote.ticketsbot.cloud>",
 	"generic.invalid_argument": "Argument invalide : référez-vous à l'aide ci-dessous",
 	"generic.invalid_user": "Impossible de trouver l'utilisateur ciblé",
@@ -43,7 +43,7 @@
 	"help.about": "Vous donne des informations sur le bot",
 	"help.add": "Ajoute un utilisateur à un ticket",
 	"help.addadmin": "Accorde à un utilisateur ou à un rôle des privilèges d'administrateur",
-	"help.addsupport": "Ajoute un rôle en tant que représentant du support",
+	"help.addsupport": "Ajoute un rôle en tant que représentant de l'équipe d'assistance",
 	"help.admin": "Gestion du bot",
 	"help.admin.blacklist": "Met un serveur sur liste noire pour l'empêcher d'utiliser le bot",
 	"help.admin.check_premium": "Vérifie le statut premium d'un serveur",
@@ -64,10 +64,10 @@
 	"help.premium": "Exécutez cette commande après avoir souscrit à un abonnement premium pour l'activer",
 	"help.remove": "Retire un utilisateur d'un ticket",
 	"help.removeadmin": "Retire les privilèges d'administration à un utilisateur ou à un rôle",
-	"help.removesupport": "Retire les privilèges de support à un utilisateur ou à un rôle",
+	"help.removesupport": "Retire les privilèges de représentant de l'équipe d'assistance à un utilisateur ou à un rôle",
 	"help.rename": "Renomme le ticket actuel",
 	"help.setup": "Vous permet de configurer le bot facilement",
-	"help.stats": "Affiche des statistiques sur les utilisateurs, le staff et le serveur",
+	"help.stats": "Affiche des statistiques sur les utilisateurs, l'équipe d'assistance et le serveur",
 	"help.statsserver": "Affiche les statistiques relatives au serveur",
 	"help.tag": "Envoye un extrait de message",
 	"help.tagdelete": "Supprimer une étiquette",
@@ -75,9 +75,10 @@
 	"help.taglist": "Liste de toutes les étiquettes",
 	"help.transfer": "Transfère un ticket réclamé à un autre utilisateur",
 	"help.unclaim": "Supprime la réclamation sur le ticket actuel",
-	"help.viewstaff": "Liste les membres et les rôles du staff",
+	"help.viewstaff": "Liste les membres et les rôles de l'équipe d'assistance",
 	"help.vote": "Vous donne un lien pour voter et obtenir gratuitement la version premium",
 	"help.check_perms": "Vérifie si le bot a les bonnes permissions",
+	"help.gdpr": "Gérer vos demandes de données RGPD",
 	"open.success": "Ouverture d'un nouveau ticket : %s",
 	"open.outside_support_hours": "Ce panneau est actuellement fermé. Veuillez réessayer pendant nos heures d'assistance.",
 	"setup.auto.category.failure": "Il me manque la permission `Gérer Les Salons`",
@@ -90,7 +91,7 @@
 	"setup.ticket_limit.success": "La limite de tickets a été mise à jour et passe à `%d`",
 	"setup.transcript.invalid": "Vous devez mentionner un salon valide du serveur (par exemple <#%d>)\\n**Exemple :** `/setup transcripts #logs`",
 	"setup.transcript.success": "Le salon de retranscriptions des tickets a été changé par <#%d>",
-	"commands.language.help_wanted": "Vous parlez une autre langue ? Rejoignez notre [serveur de support](https://discord.gg/ticketsbot) si vous souhaitez participer à la traduction du bot dans d'autres langues",
+	"commands.language.help_wanted": "Vous parlez une autre langue ? Rejoignez notre [serveur d'assistance](https://discord.gg/ticketsbot) si vous souhaitez participer à la traduction du bot dans d'autres langues",
 	"commands.rename.too_long": "Le nom du salon ne peut pas excéder 100 caractères",
 	"commands.autoclose.configure": "Visitez le [tableau de bord](https://panel.tickets.bot/manage/%d/settings) pour modifier les paramètres de fermeture automatique",
 	"help.autoclose": "Commandes associées à la fermeture automatique",
@@ -132,12 +133,12 @@
 	"commands.blacklist.add.success": "a été ajouté à la liste noire",
 	"commands.blacklist.remove.success": "a été retiré de la liste noire",
 	"generic.title.add_admin": "Administrateur ajouté",
-	"generic.title.add_support": "Support ajouté",
+	"generic.title.add_support": "Équipe d'assistance ajoutée",
 	"generic.title.remove_admin": "Administrateur supprimé",
-	"generic.title.remove_support": "Support supprimé",
-	"commands.addsupport.success": "Support ajouté avec succès: %s",
+	"generic.title.remove_support": "Équipe d'assistance supprimée",
+	"commands.addsupport.success": "Représentant de l'équipe d'assistance ajouté avec succès: %s",
 	"generic.title.language": "Langue",
-	"commands.removesupport.success": "Support supprimé avec succès: %s",
+	"commands.removesupport.success": "Représentant de l'équipe d'assistance supprimé avec succès: %s",
 	"commands.addadmin.success": "Administrateur ajouté avec succès: %s",
 	"commands.removeadmin.success": "Administrateur supprimé avec succès: %s",
 	"generic.title.setup": "Configuration",
@@ -159,7 +160,7 @@
 	"commands.remove.success": "<@%d> a été retiré de <#%d>",
 	"open.ratelimited": "Des tickets sont ouverts trop rapidement sur ce serveur",
 	"commands.claim.thread": "En raison des limitations de Discord, il n'est pas possible de réclamer les fils de discussion",
-	"generic.join_support_server": "Rejoindre le serveur de support",
+	"generic.join_support_server": "Rejoindre le serveur de d'assistance",
 	"commands.open.guild_channel_limit": "Ce serveur a atteint la limite de 500 salons fixée par Discord",
 	"commands.open.missing_form_answer": "Vous devez répondre à la question `%s`",
 	"close.no_permission": "Vous n'êtes pas autorisé à fermer ce ticket",
@@ -174,7 +175,7 @@
 		"success": "Le ticket a été fermé par <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "Vous ne pouvez pas évaluer ce ticket, car vous êtes un représentant de support dans %s",
+				"staff": "Vous ne pouvez pas évaluer ce ticket, car vous êtes un représentant de l'équipe d'assistance dans %s",
 				"empty": "Vous ne pouvez pas évaluer ce ticket, car vous n'avez envoyé aucun message"
 			}
 		}
@@ -205,8 +206,8 @@
 			"content": "Cliquez sur le bouton ci-dessous pour remonter en haut du ticket"
 		},
 		"addsupport": {
-			"confirm": "Veuillez confirmer que vous souhaitez ajouter %s à l'équipe de support par défaut",
-			"everyone": "Vous ne pouvez pas ajouter le rôle `@everyone` au staff"
+			"confirm": "Veuillez confirmer que vous souhaitez ajouter %s à l'équipe de d'assistance par défaut",
+			"everyone": "Vous ne pouvez pas ajouter le rôle `@everyone` à l'équipe d'assistance"
 		},
 		"addadmin": {
 			"confirm": "Veuillez confirmer que vous souhaitez ajouter %s en tant qu'administrateur du bot"
@@ -308,34 +309,10 @@
 				"no_roles": "Aucun rôle administrateur"
 			},
 			"support": {
-				"users": "Utilisateurs du Support",
-				"roles": "Rôles de Support",
-				"no_roles": "Aucun rôle de support",
-				"users_warning": "-# **Attention :** Les utilisateurs dans les équipes de support sont désormais obsolètes. Veuillez migrer vers les rôles."
-			}
-		},
-		"permissions": {
-			"title": "Vérification des permissions",
-			"has_admin": "✅ <@%d> a la permission d'administrateur",
-			"has_all": "✅ <@%d> a toutes les permissions requises",
-			"missing": "❌ Permissions manquantes",
-			"description": {
-				"read_messages": "Permet au bot de voir le contenu d'un salon.",
-				"send_messages": "Permet au bot d'envoyer des messages dans les salons.",
-				"embed_links": "Permet au bot d'envoyer des panneaux de tickets, des messages d'accueil et des tags qui incluent un message intégré.",
-				"attach_files": "Permet au bot d'assigner la permission d'attacher des fichiers à l'ouvreur de tickets.",
-				"add_reactions": "Permet au bot d'ajouter les boutons aux panneaux de tickets, messages d'accueil et toutes les commandes qui utilisent des boutons.",
-				"use_external_emojis": "Permet au bot d'utiliser des emojis non-serveur dans les panneaux de tickets, messages d'accueil et étiquettes. Le bot doit toujours être sur l'autre serveur pour les utiliser.",
-				"mention_everyone": "Permet au bot de mentionner everyone, here et tous les rôles dans un ticket.",
-				"read_message_history": "Permet au bot de lire tous les messages dans un salon.",
-				"manage_channels": "Permet au bot de créer, renommer, recatégoriser et supprimer des salons.",
-				"manage_roles": "Permet au bot de créer et modifier des rôles ; donner et retirer des rôles aux utilisateurs ; et ajuster les permissions de rôle d'un salon.",
-				"manage_webhooks": "Permet au bot de créer des webhooks pour les transcriptions, et au personnel d'utiliser le tableau de bord pour envoyer des messages ou des tags dans les tickets ouverts.",
-				"manage_threads": "Permet au bot de créer, renommer, fermer et supprimer des fils de discussion.",
-				"send_messages_in_threads": "Permet au bot d'envoyer des messages dans les fils de discussion.",
-				"create_public_threads": "Permet au bot de créer des fils de discussion publics.",
-				"create_private_threads": "Permet au bot de créer des fils de discussion privés, tels que les tickets en mode fil de discussion et la commande /notes pour les tickets en mode salon.",
-				"use_application_commands": "Permet aux commandes slash du bot de fonctionner."
+				"users": "Représentants d'assistance ",
+				"roles": "Rôles d'assistance",
+				"no_roles": "Aucun rôle d'assistance",
+				"users_warning": "-# **Attention :** Les utilisateurs dans les équipes d'assistance sont désormais obsolètes. Veuillez migrer vers les rôles."
 			}
 		}
 	},
@@ -351,11 +328,11 @@
 		"website": "Notre site web"
 	},
 	"help": {
-		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc.",
+		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes d'assistance, etc.",
 		"jump_to_top": "Envoie un bouton qui permet de remonter en haut du ticket",
 		"on_call": "Vous marque comme disponible pour être ajouté et notifié dans tous les nouveaux tickets",
 		"reopen": "Rouvre un ticket qui a été précédemment fermé",
-		"notes": "Crée un fil de discussion privé entre les représentants de l'équipe de support"
+		"notes": "Crée un fil de discussion privé entre les représentants de l'équipe d'assistance"
 	},
 	"setup": {
 		"auto": {
@@ -388,5 +365,106 @@
 				"single": "Vous avez besoin de l'un des rôles suivants pour ouvrir ce type de ticket : %s"
 			}
 		}
+	},
+	"gdpr": {
+		"intro": "Sélectionnez le type de demande de RGPD que vous souhaitez faire :",
+		"section": {
+			"transcript": "### **Options de suppression de transcription**\n-# _Supprimer les transcriptions des serveurs que vous possédez_",
+			"message": "### **Options d'anonymisation des messages**\n-# _Anonymisez vos messages des transcriptions dans les serveurs sélectionnés_"
+		},
+		"warning": "### **Informations importantes**\n* La suppression est **permanente** et ne peut pas être annulée\n* Vous ne pouvez supprimer que les transcriptions des serveurs que **vous** possédés\n* Seulement **vos** messages peuvent être anonymisés dans les transcriptions\n* La demande peut prendre jusqu'à **30 jours** pour être complétée\n* Votre demande sera traitée dans une **file d'attente**",
+		"resources": "### **Ressources**\n[Qu'est-ce que le RGPD?](%s)\n[Droit à l'effacement](%s)\n[Droit d'accès](%s)",
+		"button": {
+			"all_transcripts": "Toutes les transcriptions des serveurs",
+			"specific_transcripts": "Transcriptions spécifiques",
+			"all_messages": "Tous vos messages dans les serveurs",
+			"specific_messages": "Vos messages dans des tickets spécifiques"
+		},
+		"language_option": "Langue",
+		"modal": {
+			"all_transcripts": "Supprimer toutes les transcriptions des serveurs",
+			"specific_transcripts": "Supprimer les transcriptions spécifiques",
+			"all_messages": "Anonymiser vos messages dans des serveurs",
+			"specific_messages": "Anonymiser vos messages dans des tickets spécifiques",
+			"select_server": "Sélectionnez un serveur",
+			"select_servers": "Sélectionnez un ou plusieurs serveur(s)",
+			"server_id": {
+				"label": "Identifiant du serveur",
+				"placeholder": "Saisir l'identifiant du serveur"
+			},
+			"server_ids": {
+				"label": "Identifiants des serveurs",
+				"placeholder": "Saisissez les identifiants des serveurs séparés par des virgules (p. ex. 1071167333265047653, 1412752753348055111)"
+			},
+			"ticket_ids": {
+				"label": "Identifiant(s) de ticket",
+				"placeholder": "Saisissez les identifiants des tickets séparés par des virgules (p. ex. 123, 456, 789)"
+			}
+		},
+		"confirm": {
+			"title": "Confirmation RGPD requise",
+			"all_transcripts": "**Type de requête:** Supprimer toutes les transcriptions d'un serveur qui vous appartient\n**Serveur:**%s",
+			"all_transcripts_multi": "**Type de requête:** Supprimer toutes les transcriptions de serveurs qui vous appartiennent \n**Serveurs:**\n*%s",
+			"specific_transcripts": "**Type de requête:** Supprimer des transcriptions spécifiques d'un serveur\n**Serveur:**%s\n**Identifiant(s) de ticket:** %s",
+			"all_messages": "**Type de requête :** Anonymiser tous vos messages dans le serveur sélectionné\n**Serveur:** %s",
+			"all_messages_multi": "**Type de requête :** Anonymiser tous vos messages dans les serveurs sélectionnés\n**Serveurs:** %s",
+			"specific_messages": "**Type de requête :** Anonymiser vos messages dans des tickets spécifiques\n**Serveur:** %s\n**Identifiant(s) de ticket :** %s",
+			"warning": "\n\n⚠️ **Avertissement:** Cette action est permanente et ne peut pas être annulée.\n\nComprenez-vous et acceptez-vous que cette action est permanente ?",
+			"button": "Confirmer - Je comprends"
+		},
+		"queued": {
+			"title": "Requête RGPD en file d'attente",
+			"all_transcripts": "**Type de requête:** Supprimer toutes les transcriptions d'un serveur \n**Serveur:**%s",
+			"all_transcripts_multi": "**Type de requête:** Supprimer toutes les transcriptions dans plusieurs serveurs\n**Serveurs:**\n*%s",
+			"specific_transcripts": "**Type de requête:** Supprimer des transcriptions spécifiques \n**Serveur:**%s\n**Identifiant(s) de ticket:** %s",
+			"all_messages": "**Type de requête :** Anonymiser tous vos messages dans un serveur \n**Serveur:** %s",
+			"all_messages_multi": "**Type de requête :** Anonymiser tous vos messages dans plusieurs serveurs \n**Serveurs:** \n*%s",
+			"specific_messages": "**Type de requête :** Anonymiser vos messages dans des tickets spécifiques\n**Serveur:** %s\n**Identifiant(s) de ticket :** %s",
+			"footer": "\n\nVotre requête a été placée dans une file d'attente.\nLe nombre de transcriptions influencera le temps que prendra le traitement de votre demande."
+		},
+		"completed": {
+			"title": "Requête RGPD complétée",
+			"all_transcripts": "**Type de requête:** Supprimer toutes les transcriptions d'un serveur\n**Serveur:**%s\n**Transcriptions supprimées.** %d",
+			"all_transcripts_multi": "**Type de requête:** Supprimer toutes les transcriptions dans plusieurs serveurs\n**Serveurs:**%s\n**Transcriptions supprimées.** %d",
+			"specific_transcripts": "**Type de requête:** Supprimer des transcriptions spécifiques \n**Serveur:**%s\n**Transcriptions supprimées:** %d",
+			"all_messages": "**Type de requête :** Anonymiser tous vos messages dans un serveur \n**Serveur :** %s\n**Messages anonymisés :** %d",
+			"all_messages_multi": "**Type de requête :** Anonymiser tous vos messages dans plusieurs serveurs \n**Serveurs :**\n* %s\n**Messages anonymisés :** %d",
+			"specific_messages": "**Type de requête :** Anonymiser tous vos messages dans des tickets spécifiques\n**Serveur :** %s\n**Messages anonymisés :** %d",
+			"error": "\n\n**⚠️ Erreur:** %s"
+		},
+		"followup": {
+			"error": "Une erreur est survenue pendant votre requête RGPD : %s",
+			"no_data": "i Votre requête RGPD a été traitée. Aucune donnée n'a été trouvée.",
+			"success": "✅ Votre requête RGPD a été traitée avec succès."
+		},
+		"error": {
+			"no_servers": "Aucun serveur dont vous êtes le propriétaire et avez des transcriptions n'a été trouvé.",
+			"invalid_server_id": "Identifiant de serveur invalide.",
+			"invalid_ticket_ids": "Les identifiants de ticket fournis sont invalides. Veuillez saisir des identifiants de ticket séparés par des virgules (p. ex. 123, 456, 789).",
+			"not_owner": "Vous devez être le propriétaire du serveur pour supprimer les transcriptions.",
+			"server_not_found": "Serveur introuvable.",
+			"queue_failed": "Impossible de mettre en file d'attente la demande de RGPD. Veuillez réessayer plus tard.",
+			"worker_offline": "Le service de traitement du RGPD est actuellement indisponible. Veuillez réessayer plus tard ou contacter l'équipe d'assistance si ce problème persiste."
+		}
+	},
+	"errors": {
+		"unknown_channel": "Salon introuvable: il a peut-être été supprimé.\n\nVeuillez demander à un administrateur du serveur de visiter le [tableau de bord](%s) et de vérifier que les paramètres de salons sont configurés correctement.",
+		"unknown_guild": "Impossible de trouver le serveur.",
+		"unknown_member": "L'utilisateur est introuvable. Il a peut-être quitté le serveur ou a été banni.",
+		"unknown_message": "Le message avec lequel vous essayez d'interagir a été supprimé.\n\nVeuillez réessayer avec un message différent.",
+		"unknown_user": "L'utilisateur est introuvable.",
+		"unknown_role": "Le rôle requis pour cette action n’existe plus.\n\nVeuillez demander à un administrateur de serveur de visiter le [tableau de bord](%s) et de reconfigurer les paramètres du rôle.",
+		"unknown_category": "Catégorie introuvable: elle a peut-être été supprimée.\n\nVeuillez demander à un administrateur du serveur de visiter le [tableau de bord](%s) et de reconfigurer la catégorie pour ce panneau.",
+		"unknown_interaction": "Cette interaction a expiré.\n\nVeuillez réessayer l'action.",
+		"max_webhooks": "Le serveur a atteint le nombre maximum de webhooks.\n\nVeuillez demander à un administrateur de serveur de supprimer certains webhooks inutilisés et de réessayer.",
+		"interaction_acknowledged": "Cette interaction a déjà été traitée.\n\nSi vous avez besoin d'effectuer cette action à nouveau, veuillez recommencer avec une nouvelle interaction.",
+		"missing_permissions": {
+			"title": "Il me manque les permissions essentielles suivantes pour effectuer cette action",
+			"body": "Veuillez allouer au bot soit la permission d' `Administrateur`, soit les permissions ci-dessous. Ensuite, réessayez.\nVisitez la [documentation](%s) pour savoir pourquoi ces permissions sont essentielles."
+		},
+		"invalid_form": "L'action n'a pas pu être complétée en raison d'une entrée invalide.",
+		"timed_out": "L'opération a été interrompue. Veuillez réessayer.",
+		"general": "Une erreur s'est produite lors de l'exécution de cette action.",
+		"error_id": "Identifiant d'erreur"
 	}
 }

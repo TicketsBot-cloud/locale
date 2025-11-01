@@ -78,6 +78,7 @@
 	"help.viewstaff": "Danh sách các thành viên quản lý và các vai trò",
 	"help.vote": "Gửi cho bạn một đường dẫn để đánh giá và nhận phiên bản cao cấp miễn phí",
 	"help.check_perms": "Kiểm tra các đặc quyền cần thiết cho Bot",
+	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
@@ -313,30 +314,6 @@
 				"no_roles": "Không có vai trò của đội ngũ hỗ trợ",
 				"users_warning": "-# **Cảnh cáo:** Tính năng chọn thành viên cho đội ngũ hỗ trợ đã không còn khả dùng. Vui lòng chuyển sang sử dụng vai trò cho đội ngũ hỗ trợ."
 			}
-		},
-		"permissions": {
-			"title": "Kiểm tra đặc quyền",
-			"has_admin": "<@%d> đã sở hữu quyền Quản Trị",
-			"has_all": "<@%d> đã sở hữu tất cả quyền được yêu cầu",
-			"missing": "❌ Thiếu quyền lợi",
-			"description": {
-				"read_messages": "Cho phép bot đọc nội dung của kênh.",
-				"send_messages": "Cho phép bot nhắn tin trong các kênh.",
-				"embed_links": "Cho phép bot gửi bảng phiếu hỗ trợ, tin nhắn chào mừng và thẻ tên có chứa nội dung nhúng.",
-				"attach_files": "Cho phép bot cấp quyền đính kèm tập tin cho người mở phiếu hỗ trợ.",
-				"add_reactions": "Cho phép bot thêm nút bấm cho bảng phiếu hỗ trợ, tin nhắn chào mừng và tất cả câu lệnh sử dụng nút bấm.",
-				"use_external_emojis": "Cho phép bot sử dụng những emojis ngoài máy chủ cho bảng phiếu hỗ trợ, tin nhắn chào mừng và thẻ tên. Bot bắt buộc phải ở trong máy chủ có emoji đó để sử dụng chúng.",
-				"mention_everyone": "Cho phép bot đề cập @everyone, @here và tất cả vai trò trong phiếu hỗ trợ.",
-				"read_message_history": "Cho phép bot đọc tin nhắn trong kênh.",
-				"manage_channels": "Cho phép bot tạo, đổi tên, sắp xếp và xóa các kênh.",
-				"manage_roles": "Cho phép bot tạo và chỉnh sửa vai trò; cấp và xóa vai trò của người dùng; và chỉnh sửa các quyền lợi của vai trò trong kênh.",
-				"manage_webhooks": "Cho phép bot tạo webhooks cho việc ghi chú và cho phép quản lý sử dụng trang quản lý để gửi tin nhắn hoặc thẻ tên trong những phiếu hỗ trợ đang mở.",
-				"manage_threads": "Cho phép bot tạo, đổi tên, đóng và xóa các kênh chủ đề.",
-				"send_messages_in_threads": "Cho phép bot gửi tin nhắn trong các kênh chủ đề.",
-				"create_public_threads": "Cho phép bot tạo các kênh chủ đề.",
-				"create_private_threads": "Cho phép bot tạo các kênh chủ đề riêng tư cũng như chế độ phiếu hỗ trợ bằng kênh chủ đề và lệnh /notes cho các phiếu hỗ trợ.",
-				"use_application_commands": "Cho phép các câu lệnh ứng dụng của bot hoạt động."
-			}
 		}
 	},
 	"generic": {
@@ -388,5 +365,106 @@
 				"single": "Bạn cần những vai trò sau để mở dạng phiếu hỗ trợ này: %s"
 			}
 		}
+	},
+	"gdpr": {
+		"intro": "Select the type of GDPR request you would like to make:",
+		"section": {
+			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
+			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+		},
+		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
+		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"button": {
+			"all_transcripts": "All transcripts from servers",
+			"specific_transcripts": "Specific transcripts",
+			"all_messages": "All your messages in servers",
+			"specific_messages": "Your messages in specific tickets"
+		},
+		"language_option": "Language",
+		"modal": {
+			"all_transcripts": "Delete All Transcripts from Servers",
+			"specific_transcripts": "Delete Specific Transcripts",
+			"all_messages": "Anonymize Your Messages in Servers",
+			"specific_messages": "Anonymize Your Messages in Specific Tickets",
+			"select_server": "Select a server",
+			"select_servers": "Select one or more servers",
+			"server_id": {
+				"label": "Server ID",
+				"placeholder": "Enter the server ID"
+			},
+			"server_ids": {
+				"label": "Server IDs",
+				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+			},
+			"ticket_ids": {
+				"label": "Ticket IDs",
+				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+			}
+		},
+		"confirm": {
+			"title": "GDPR Confirmation Required",
+			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
+			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
+			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
+			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
+			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
+			"button": "Confirm - I understand"
+		},
+		"queued": {
+			"title": "GDPR Request Queued",
+			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
+			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
+			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
+			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
+			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+		},
+		"completed": {
+			"title": "GDPR Request Completed",
+			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
+			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
+			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
+			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
+			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
+			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
+			"error": "\n\n**⚠️ Error:** %s"
+		},
+		"followup": {
+			"error": "⚠️ Your GDPR request encountered an error: %s",
+			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
+			"success": "✅ Your GDPR request has been processed successfully."
+		},
+		"error": {
+			"no_servers": "No servers found where you are the owner and have transcripts.",
+			"invalid_server_id": "Invalid server ID provided.",
+			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
+			"not_owner": "You must be the server owner to delete transcripts.",
+			"server_not_found": "Server not found.",
+			"queue_failed": "Failed to queue GDPR request. Please try again later.",
+			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+		}
+	},
+	"errors": {
+		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
+		"unknown_guild": "Could not find the server.",
+		"unknown_member": "The user could not be found. They may have left the server or been banned.",
+		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
+		"unknown_user": "user could not be found.",
+		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
+		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
+		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
+		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
+		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"missing_permissions": {
+			"title": "I am missing the following permissions required to perform this action",
+			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+		},
+		"invalid_form": "The action could not be completed due to invalid input.",
+		"timed_out": "The operation timed out, please try again.",
+		"general": "An error occurred while performing this action.",
+		"error_id": "Error ID"
 	}
 }
