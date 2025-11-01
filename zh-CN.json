@@ -157,8 +157,8 @@
 	"generic.title.claimed": "已认领的工单",
 	"generic.title.unclaimed": "未认领的工单",
 	"generic.title.add": "添加",
-	"commands.add.success": "已添加 <@%d> 至 <#%d>",
-	"commands.remove.success": "<@%d> 已从 <#%d > 移除",
+	"commands.add.success": "已添加 <@%s> 至 <#%d>",
+	"commands.remove.success": "<@%s> 已从 <#%d> 移除",
 	"open.ratelimited": "此服务器内的工单创建速度过快",
 	"commands.claim.thread": "由于 Discord 的限制，认领操作暂不支持讨论串",
 	"generic.join_support_server": "加入支持服务器",
@@ -239,7 +239,7 @@
 			"not_thread": "只有子区可以重新打开",
 			"thread_deleted": "这个工单已被永久删除",
 			"success": "任务单 %d 被重新打开在：<#%d>",
-			"in_ticket": "此工单已被 <@%d > 重新打开。"
+			"in_ticket": "此工单已被 <@%d> 重新打开。"
 		},
 		"premium": {
 			"key": "密钥",

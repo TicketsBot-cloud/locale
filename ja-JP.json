@@ -157,8 +157,8 @@
 	"generic.title.claimed": "チケットの担当者",
 	"generic.title.unclaimed": "チケット担当者の取り消し",
 	"generic.title.add": "追加",
-	"commands.add.success": "<@%d> が <#%d > に追加されました",
-	"commands.remove.success": "<@%d> は <#%d > から削除されました",
+	"commands.add.success": "<@%s> が <#%d > に追加されました",
+	"commands.remove.success": "<@%s> は <#%d > から削除されました",
 	"open.ratelimited": "このサーバーでのチケットのオープンが速すぎます。",
 	"commands.claim.thread": "Discordの制限により、チケットはスレッドをサポートしていません。",
 	"generic.join_support_server": "サポートサーバーに参加",
@@ -239,7 +239,7 @@
 			"not_thread": "スレッドのみオープンできます",
 			"thread_deleted": "チケットは完全に削除されました",
 			"success": "チケット %d が再オープンしました: <#%d>",
-			"in_ticket": "このチケットは <@%d > によって再オープンされました。"
+			"in_ticket": "このチケットは <@%d> によって再オープンされました。"
 		},
 		"premium": {
 			"key": "キー",
