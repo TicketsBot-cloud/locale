@@ -151,8 +151,6 @@
 	"generic.title.close_confirmation": "Confirmació de tancament",
 	"close.confirmation": "Si us plau, confirma si vols tancar aquest tiquet",
 	"generic.title.close_request": "Petició de tancament",
-	"commands.close_request.accept": "Acceptar & Tancar",
-	"commands.close_request.deny": "Denegar & Mantenir Obert",
 	"commands.premium.success": "S'ha activat Premium per **%d** dies",
 	"generic.title.claimed": "Tiquet Reclamat",
 	"generic.title.unclaimed": "Tiquet Alliberat",
@@ -301,6 +299,14 @@
 				"plural": "Tens **%d** Crèdits de vot. Clica el botó \"Bescanviar Crèdits\" per reclamar %d dies Prèmium en aquest servidor.",
 				"singular": "Tens **%d** Crèdit de vot. Clica el botó \"Bescanviar Crèdits\" per reclamar %d dia Prèmium en aquest servidor."
 			}
+		},
+		"close_request": {
+			"success": "Close request was sent successfully",
+			"no_permission": "Només l'usuari que ha obert el tiquet pot respondre la petició de tancament",
+			"denied": "<@%d> ha rebutjat tancar el tiquet.",
+			"buttons": {
+				"accept": "Acceptar & Tancar",
+				"deny": "Denegar & Mantenir Obert"
 		},
 		"viewstaff": {
 			"title": "Personal",

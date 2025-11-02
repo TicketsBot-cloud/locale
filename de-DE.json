@@ -302,6 +302,14 @@
 				"singular": "Du hast **%d** Stimmguthaben. Klicke unten auf die Schaltfläche \"Guthaben Einlösen\", um es für %d Tag Premium auf diesem Server einzulösen."
 			}
 		},
+		"close_request": {
+			"success": "Close request was sent successfully",
+			"no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schliessungsanfrage antworten",
+			"denied": "<@%d> hat die Schliessungsanfrage abgelehnt.",
+			"buttons": {
+				"accept": "Akzeptieren & Schliessen",
+				"deny": "Ablehnen & Offen lassen"
+		},
 		"viewstaff": {
 			"title": "Support-Team",
 			"admin": {

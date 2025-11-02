@@ -151,8 +151,6 @@
 	"generic.title.close_confirmation": "Cadarnhad Cau",
 	"close.confirmation": "Cadarnha dy fod eisiau cau'r tocyn hwn, os gwelwch yn dda",
 	"generic.title.close_request": "Cais Cau",
-	"commands.close_request.accept": "Derbyn a Chau",
-	"commands.close_request.deny": "Gwrthod a Gadw'n Agored",
 	"commands.premium.success": "Mae Premiwm wedi'i actifadu am **%d** diwrnod",
 	"generic.title.claimed": "Tocyn Hawliwyd",
 	"generic.title.unclaimed": "Tocyn Heb Ei Hawlio",
@@ -301,6 +299,14 @@
 				"plural": "Mae gennyt ti **%d** credyd pleidleisio. clicia'r botwm \"Echdynnu Credydau\" isod i'w defnyddio am %d diwrnod o Premiwm yn y gweinydd hwn.",
 				"singular": "Mae gennyt ti **%d** credyd pleidleisio. clicia'r botwm \"Echdynnu Credydau\" isod i'w defnyddio am %d diwrnod o Premiwm yn y gweinydd hwn."
 			}
+		},
+		"close_request": {
+			"success": "Close request was sent successfully",
+			"no_permission": "Dim ond y defnyddiwr wnaeth agor y tocyn sy'n gallu ymateb i'r cais cau",
+			"denied": "Gwrthododd <@%d> y cais cau.",
+			"buttons": {
+				"accept": "Derbyn a Chau",
+				"deny": "Gwrthod a Gadw'n Agored"
 		},
 		"viewstaff": {
 			"title": "Staff",
