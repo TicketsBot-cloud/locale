@@ -47,7 +47,7 @@
 	"help.admin": "Quản lý người máy",
 	"help.admin.blacklist": "Chặn một máy chủ khỏi việc dùng người máy",
 	"help.admin.check_premium": "Kiểm tra trạng thái phiên bản cao cấp của một máy chủ",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug": "Soát lỗi trong cài đặt của máy chủ",
 	"help.admin.generate_premium": "Tạo các mã dành cho bản cao cấp",
 	"help.admin.get_owner": "Lấy thông tin về chủ sở hữu của một máy chủ",
 	"help.admin.unblacklist": "Gỡ một máy chủ ra khỏi danh sách chặn",
@@ -140,8 +140,8 @@
 	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Ngôn ngữ",
 	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.addadmin.success": "Đã thêm quản trị viên thành công: %s",
+	"commands.removeadmin.success": "Đã gỡ quản trị viên thành công: %s",
 	"generic.title.setup": "Thiết lập",
 	"generic.title.premium": "Phiên bản cao cấp",
 	"generic.title.panel": "Bảng điều khiển",
@@ -448,28 +448,28 @@
 		},
 		"error": {
 			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
+			"invalid_server_id": "ID máy chủ không hợp lệ.",
+			"invalid_ticket_ids": "IDs của các phiếu hỗ trợ không hợp lệ. Vui lòng nhập ID dưới dạng số và tách ra bằng dấu phẩy (VD: 123, 456, 789).",
 			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
+			"server_not_found": "Không tìm thấy máy chủ.",
 			"queue_failed": "Failed to queue GDPR request. Please try again later.",
 			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
 		}
 	},
 	"errors": {
-		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
-		"unknown_guild": "Could not find the server.",
-		"unknown_member": "The user could not be found. They may have left the server or been banned.",
-		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
-		"unknown_user": "user could not be found.",
-		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
-		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
-		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
-		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
-		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"unknown_channel": "Không thể tìm được kênh theo yêu cầu: kênh có thể đã bị xóa.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng các kênh trong cài đặt đã hợp lệ.",
+		"unknown_guild": "Không thể tìm được máy chủ.",
+		"unknown_member": "Không thể tìm được người dùng. Có thể họ đã rời máy chủ hoặc bị cấm.",
+		"unknown_message": "Tin nhắn mà bạn đang tương tác với hiện đã bị xóa.\n\nVui lòng thử tương tác với một tin nhắn khác.",
+		"unknown_user": "không tìm thấy người dùng.",
+		"unknown_role": "Vai trò yêu cầu cho tác vụ này không còn tồn tại.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và cấu hình lại vai trò trong cài đặt.",
+		"unknown_category": "Không thể tìm được danh mục theo yêu cầu: danh mục có thể đã bị xóa.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đặt lại một danh mục hợp lệ cho bảng phiếu hỗ trợ.",
+		"unknown_interaction": "Tương tác đã hết hạn.\n\nVui lòng thực hiện lại tương tác.",
+		"max_webhooks": "Máy chủ đã đạt giới hạn số lượng webhook có thể tạo.\n\nVui lòng nhờ quản trị viên để xóa bớt webhooks không được sử dụng và thử lại.",
+		"interaction_acknowledged": "Tương tác này đã được xử lí.\n\nNếu bạn muốn thực hiện lại tác vụ, hãy bắt đầu một tương tác mới.",
 		"missing_permissions": {
-			"title": "I am missing the following permissions required to perform this action",
-			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+			"title": "Tôi đang thiếu những quyền sau để thực hiện tác vụ",
+			"body": "Vui lòng cấp những quyền sau cho bot hoặc cấp quyền `Quản trị viên` và thử lại.\nVui lòng try cập [trang tài liệu](%s) để biết lí do tại sao những quyền sau cần thiết."
 		},
 		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
 		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
@@ -478,9 +478,9 @@
 		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
 		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
 		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
-		"invalid_form": "The action could not be completed due to invalid input.",
-		"timed_out": "The operation timed out, please try again.",
-		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"invalid_form": "Tác vụ này không thể thực hiện do dữ liệu được nhập không hợp lệ.",
+		"timed_out": "Đã hết thời gian xử lí, vui lòng thử lại.",
+		"general": "Đã có lỗi xảy ra khi thực hiện tác vụ.",
+		"error_id": "Lỗi ID"
 	}
 }
