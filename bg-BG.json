@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Невалиден панел: Вие трябва да изберете една от опциите по- долу",
-			"success": "Панела на билета беше преместен в `%s`, от <@%d>"
+			"success": "Панела на билета беше преместен в `%s`, от <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Хората от екипа не могат да бъдат сложени в черния списък",
