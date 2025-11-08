@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "لوحة غير صالحة: يجب عليك اختيار واحدة من القائمة التالية",
-			"success": "لقد تم نقل هذه التذكرة الى لوحة `%s` من قبل <@%d>"
+			"success": "لقد تم نقل هذه التذكرة الى لوحة `%s` من قبل <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "لا يمكنك إدارج اعضاء الفريق في القائمة السوداء",
