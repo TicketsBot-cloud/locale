@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Неправильна панель. Оберіть зі списку, що випадає",
-			"success": "<@%d> перемикнув цю заявку на панель `%s`"
+			"success": "<@%d> перемикнув цю заявку на панель `%s`",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Представника команди не може бути занесено до чорного списку",
