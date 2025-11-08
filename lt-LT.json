@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Netinkamas skydelis: turite pasirinkti vieną iš meniu",
-			"success": "Šį bilietą <@%d> perjungė į `%s` skydelį"
+			"success": "Šį bilietą <@%d> perjungė į `%s` skydelį",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Komandos nariai negali būti įtraukti į juodąjį sąrašą",
