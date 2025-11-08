@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "잘못된 패널: 드롭다운에서 하나를 선택해야 합니다.",
-			"success": "이 티켓은 `@%d`에 의해 `%s` 패널로 전환되었습니다."
+			"success": "이 티켓은 `@%d`에 의해 `%s` 패널로 전환되었습니다.",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "스태프를 블랙리스트에 올릴 수 없습니다.",
