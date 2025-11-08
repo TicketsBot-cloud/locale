@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Μη έγκυρος πίνακας: Πρέπει να επιλέξετε έναν από το αναπτυσσόμενο μενού",
-			"success": "Αυτό το ticket έχει αλλάξει στον πίνακα `%s` από τον <@%d>"
+			"success": "Αυτό το ticket έχει αλλάξει στον πίνακα `%s` από τον <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Τα μέλη του προσωπικού δεν μπορούν να είναι στη μαύρη λίστα",
