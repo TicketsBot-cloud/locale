@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "无效的面板：您必须从下拉列表中选择一个",
-			"success": "这个工单被 <@%d> 切换到 `%s` 面板"
+			"success": "这个工单被 <@%d> 切换到 `%s` 面板",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "员工不能被列入黑名单",
