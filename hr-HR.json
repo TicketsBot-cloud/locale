@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Nevažeća ploča: morate odabrati jednu s padajućeg izbornika",
-			"success": "<@%d> je ovu kartu prebacio na ploču `%s`"
+			"success": "<@%d> je ovu kartu prebacio na ploču `%s`",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Članovi osoblja ne mogu biti stavljeni na crnu listu",
