@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Virheellinen paneeli: Sinun on valittava yksi pudotusvalikosta",
-			"success": "This ticket has been switched to the `%s` panel by <@%d>"
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Henkilöstön jäseniä ei voi olla mustalla listalla",
