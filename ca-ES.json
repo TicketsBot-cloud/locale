@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Panell no vàlid: Has de seleccionar-ne un de la llista desplegable",
-			"success": "<@%d> ha mogut aquest tiquet al panell`%s`"
+			"success": "<@%d> ha mogut aquest tiquet al panell`%s`",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Els membres de l'equip no es poden afegir a la llista negra",
