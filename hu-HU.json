@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Érvénytelen panel: ki kell választanod egyet a legördülő listából",
-			"success": "Ez a ticket átkerült a %s panelbe <@%d> felhasználó által"
+			"success": "Ez a ticket átkerült a %s panelbe <@%d> felhasználó által",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "A staff felhasználók nem lehetnek a feketelistán",
