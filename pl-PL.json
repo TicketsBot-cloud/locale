@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Nieprawidłowy panel: Musisz wybrać jeden z listy rozwijanej",
-			"success": "To zgłoszenie zostało przełączone na panel `%s` przez <@%d>"
+			"success": "To zgłoszenie zostało przełączone na panel `%s` przez <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Obsługa nie może być na czarnej liście",
