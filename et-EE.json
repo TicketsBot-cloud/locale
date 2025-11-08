@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Ebasobiv paneel: Sa pead valima ühe rippmenüüst",
-			"success": "Abipilet on muudetud paneelile `%s` <@%d> poolt"
+			"success": "Abipilet on muudetud paneelile `%s` <@%d> poolt",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Personaale ei saa musta nimekirja panna",
