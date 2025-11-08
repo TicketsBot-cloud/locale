@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Ongeldig paneel: U moet één selecteren uit de keuzelijst",
-			"success": "Dit ticket is overgeschakeld naar het `%s` paneel door <@%d>"
+			"success": "Dit ticket is overgeschakeld naar het `%s` paneel door <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Medewerkers kunnen niet worden geblacklist",
