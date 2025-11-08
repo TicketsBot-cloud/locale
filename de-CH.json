@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Ungültige Panel: Du muesch en Panel us em Dropdown-Menü uuswähle",
-			"success": "S'Ticket isch vo <@%d> zum `%s` Panel verschobe worde"
+			"success": "S'Ticket isch vo <@%d> zum `%s` Panel verschobe worde",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Mitarbeiter chönd nöd gsperrt werde",
