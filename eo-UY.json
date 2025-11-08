@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Nevalida panelo: Vi devas elekti unu el la menuo.",
-			"success": "Ĉi tiu bileto estis ŝanĝita al la `%s` panelo de <@%d>."
+			"success": "Ĉi tiu bileto estis ŝanĝita al la `%s` panelo de <@%d>.",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Stabaj membroj ne povas esti nigre-listigitaj",
