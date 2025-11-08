@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Ugyldigt panel: Du skal vælge et fra listen",
-			"success": "Denne Ticket er blevet flyttet til panelet `%saf <@%d>"
+			"success": "Denne Ticket er blevet flyttet til panelet `%saf <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Personale kan ikke blive blacklisted",
