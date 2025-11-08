@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Painel inválido: Você deve selecionar um no menu suspenso",
-			"success": "Este ticket foi alterado para o painel `%s` por <@%d>"
+			"success": "Este ticket foi alterado para o painel `%s` por <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Membros da equipe não podem estar na lista de bloqueio",
