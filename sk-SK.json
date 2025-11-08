@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Neplatný panel: Musíte vybrať jeden z rozbaľovacieho zoznamu",
-			"success": "Tento ticket bol prepnutý na panel `%s` podľa <@%d>"
+			"success": "Tento ticket bol prepnutý na panel `%s` podľa <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Zamestnanci nemôžu byť zaradení na čiernu listinu",
