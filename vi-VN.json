@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Bảng không hợp lệ: Bạn cần chọn 1 từ mục dưới",
-			"success": "Phiếu hỗ trợ này đã được chuyển sang bảng \"%s' bởi <@%d>"
+			"success": "Phiếu hỗ trợ này đã được chuyển sang bảng \"%s' bởi <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Quản lí không thể bị cho vào danh sách đen",
