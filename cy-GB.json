@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Panel annilys: Rhaid i ti ddewis un o'r gwymplen",
-			"success": "Mae'r tocyn hwn wedi'i newid i banel `%s` gan <@%d>"
+			"success": "Mae'r tocyn hwn wedi'i newid i banel `%s` gan <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Methu rhoi aelodau staff ar y rhestr ddu",
