@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "請選擇選單中任一個",
-			"success": "此客服單已被 <@%d> 切換到 `%s` 類別"
+			"success": "此客服單已被 <@%d> 切換到 `%s` 類別",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "管理員不能被黑名單唷",
