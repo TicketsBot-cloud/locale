@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "חלונית לא נכונה: עליך לבחור אחת מהתפריט הנפתח",
-			"success": "כרטיס זה הועבר לחלונית `%s` על ידי <@%d>"
+			"success": "כרטיס זה הועבר לחלונית `%s` על ידי <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "לא ניתן להכניס את חברי הצוות לרשימה השחורה",
