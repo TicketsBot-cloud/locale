@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Panou nevalid: Trebuie să selectezi unul din lista derulantă",
-			"success": "Acest tichet a fost comutat la panoul `%s` de <@%d>"
+			"success": "Acest tichet a fost comutat la panoul `%s` de <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Membrii staffului nu pot fi adăugați în lista neagră",
