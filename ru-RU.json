@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Недопустимая панель. Вы должны выбрать одну из выпадающего списка.",
-			"success": "<@%d> переместил обращение в панель `%s`. "
+			"success": "<@%d> переместил обращение в панель `%s`. ",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Представители поддержки не могут быть внесены в чёрный список.",
