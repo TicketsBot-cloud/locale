@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Panel inválido: Debes seleccionar uno de la lista desplegable",
-			"success": "Este ticket ha sido cambiado al panel `%s` por <@%d>"
+			"success": "Este ticket ha sido cambiado al panel `%s` por <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Los miembros del Staff no se pueden agregar a la lista negra",
