@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "แผงไม่ถูกต้อง: คุณต้องเลือกจากเมนูแบบเลื่อนลง",
-			"success": "ตั๋วนี้ถูกเปลี่ยนเป็นแผงควบคุม `%s` โดย <@%d>"
+			"success": "ตั๋วนี้ถูกเปลี่ยนเป็นแผงควบคุม `%s` โดย <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "ไม่สามารถขึ้นบัญชีดำทีมงานได้",
