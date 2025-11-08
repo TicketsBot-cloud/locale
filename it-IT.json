@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Pannello non valido: È necessario selezionarne uno dal menù a tendina",
-			"success": "Questo ticket è stato cambiato al pannello `%s` di <@%d>"
+			"success": "Questo ticket è stato cambiato al pannello `%s` di <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "I membri dello staff non possono essere aggiunti alla blacklist",
