@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Geçersiz panel: Açılır menüden birini seçmelisiniz",
-			"success": "Bu bilet <@%[2]d> tarafından, `%[1]s` paneline geçirildi"
+			"success": "Bu bilet <@%[2]d> tarafından, `%[1]s` paneline geçirildi",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Yönetici üyeler kara listeye alınamaz",
