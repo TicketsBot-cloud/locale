@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Неважећи панел: Мораш да изабереш једну од њих",
-			"success": "Ова карта је замењена за `%s` panel by <@%d>"
+			"success": "Ова карта је замењена за `%s` panel by <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Чланови особља не могу бити на црној листи",
