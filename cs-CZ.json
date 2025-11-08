@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Neplatný panel: Musíte vybrat jeden z nabídky",
-			"success": "Tento ticket byl přepnut na panel `%s` uživatelem <@%d>"
+			"success": "Tento ticket byl přepnut na panel `%s` uživatelem <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Nemůžete zařadit člena vedení na černou listinu",
