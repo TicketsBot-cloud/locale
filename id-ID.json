@@ -191,7 +191,8 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Panel tidak valid: Anda harus memilih salah satu dari dropdown",
-			"success": "Tiket ini telah dialihkan ke panel `%s` oleh <@%d>"
+			"success": "Tiket ini telah dialihkan ke panel `%s` oleh <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Anggota staf tidak dapat dimasukkan dalam daftar hitam",
