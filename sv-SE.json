@@ -481,6 +481,8 @@
 		"invalid_choice": "Ett ogiltigt alternativ har angetts.\n\nBe en serveradministratör att besöka [dashboard](%s) och kontrollera att alla inställningar är korrekta.",
 		"invalid_form": "Åtgärden kunde inte slutföras på grund av ogiltig indata.",
 		"timed_out": "Åtgärden avbröt, var god försök igen.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "Ett fel uppstod när åtgärden utfördes.",
 		"error_id": "Fel ID"
 	}
