@@ -192,7 +192,7 @@
 		"switch_panel": {
 			"invalid_panel": "Panneau invalide : vous devez en sélectionner un dans la liste déroulante",
 			"success": "Ce ticket a été basculé vers le panneau `%s` par <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Vous ne pouvez pas basculer vers un panneau qui utilise des fils à partir d'un ticket en mode salon"
 		},
 		"blacklist": {
 			"staff": "Les membres du staff ne peuvent pas être ajoutés à la liste noire",
