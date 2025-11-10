@@ -192,7 +192,7 @@
 		"switch_panel": {
 			"invalid_panel": "Ungültiger Panel: Du musst einen Panel aus dem Dropdown-Menü auswählen",
 			"success": "Dieses Ticket wurde von <@%d> zum `%s` Panel verschoben",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Sie können nicht zu einem Panel wechseln, das Threads von einem nicht-Thread-Ticket verwendet"
 		},
 		"blacklist": {
 			"staff": "Support-Teammitglieder können nicht gesperrt werden",
