@@ -192,7 +192,7 @@
 		"switch_panel": {
 			"invalid_panel": "Ogiltig panel: Du måste välja en från listrutan",
 			"success": "Detta ärende har bytts till panelen `%s` av <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Du kan inte byta till en panel som använder trådar från ett icke-trådärende"
 		},
 		"blacklist": {
 			"staff": "Staff medlemmar kan inte svartlistas",
