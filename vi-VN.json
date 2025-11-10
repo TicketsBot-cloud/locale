@@ -481,6 +481,8 @@
 		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "Tác vụ này không thể thực hiện do dữ liệu được nhập không hợp lệ.",
 		"timed_out": "Đã hết thời gian xử lí, vui lòng thử lại.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "Đã có lỗi xảy ra khi thực hiện tác vụ.",
 		"error_id": "Lỗi ID"
 	}
