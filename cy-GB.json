@@ -481,6 +481,8 @@
 		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "Ni ellir cwblhau’r gweithred oherwydd mewnbwn annilys.",
 		"timed_out": "Cafodd y gweithred amser allan, rhowch gynnig arall.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "Digwyddodd gwall wrth berfformio’r gweithred hon.",
 		"error_id": "ID Wall"
 	}
