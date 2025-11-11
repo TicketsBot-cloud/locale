@@ -481,8 +481,8 @@
 		"invalid_choice": "Une option invalide a été fournie.\n\nVeuillez demander à un administrateur de serveur de visiter la [dashboard](%s) et de vérifier que tous les paramètres sont corrects.",
 		"invalid_form": "L'action n'a pas pu être complétée en raison d'une entrée invalide.",
 		"timed_out": "L'opération a été interrompue. Veuillez réessayer.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
+		"rate_limited": "Votre débit est limité. Veuillez réessayer plus tard %s.",
+		"rate_limited_global": "Discord éprouve présentement une charge élevée (limitation de débit globale). Veuillez réessayer %s.",
 		"general": "Une erreur s'est produite lors de l'exécution de cette action.",
 		"error_id": "Identifiant d'erreur"
 	}
