@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Забрана",
 	"generic.title.blacklist": "Постави забрана",
 	"generic.error.blacklisted": "Вие имате поставена забрана в този сървър",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> му беше поставена забрана",
 	"commands.blacklist.remove.success": "Забраната на <@%d> беше премахната",
 	"generic.title.add_admin": "Добавяне на администратор",
