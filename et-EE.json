@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Musta nimekirja pandud",
 	"generic.title.blacklist": "Must nimekiri",
 	"generic.error.blacklisted": "Sa oled selles serveris mustas nimekirjas",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> on musta nimekirja pandud",
 	"commands.blacklist.remove.success": "<@%d> on mustast nimekirjast välja võetud",
 	"generic.title.add_admin": "Lisa Administraator",
