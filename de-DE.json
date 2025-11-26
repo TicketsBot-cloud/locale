@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Gesperrt",
 	"generic.title.blacklist": "Sperrliste",
 	"generic.error.blacklisted": "Du wurdest auf diesem Server gesperrt",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> wurde zur Sperrliste hinzugefügt",
 	"commands.blacklist.remove.success": "<@%d> wurde von der Sperrliste entfernt",
 	"generic.title.add_admin": "Administrator hinzufügen",
