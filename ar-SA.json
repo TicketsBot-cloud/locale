@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "مدرج بالقائمة السوداء",
 	"generic.title.blacklist": "القائمة السوداء",
 	"generic.error.blacklisted": "أنت مدرج في القائمة السوداء في هذا الخادم",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "تم إدراج <@%d> في القائمة السوداء",
 	"commands.blacklist.remove.success": "لقد تم إزالة القائمة السوداء عن <@%d>",
 	"generic.title.add_admin": "إضافة مشرف",
