@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Tiltólistára került",
 	"generic.title.blacklist": "Tiltólista",
 	"generic.error.blacklisted": "Tiltólistára kerültél a szerveren",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> tiltólistára kerül a szerveren",
 	"commands.blacklist.remove.success": "<@%d> le került a tiltólistáról",
 	"generic.title.add_admin": "Adminisztrátor hozzáadása",
