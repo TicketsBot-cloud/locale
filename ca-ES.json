@@ -127,7 +127,7 @@
 	"generic.title.invite": "Convidar",
 	"generic.title.close": "Tancar",
 	"generic.title.claim": "Reclamar",
-	"generic.title.unclaim": "Unclaim",
+	"generic.title.unclaim": "No reclamar",
 	"generic.title.blacklisted": "A la llista negra",
 	"generic.title.blacklist": "Llista negra",
 	"generic.error.blacklisted": "Estàs a la llista negra del servidor",
@@ -194,7 +194,7 @@
 		"switch_panel": {
 			"invalid_panel": "Panell no vàlid: Has de seleccionar-ne un de la llista desplegable",
 			"success": "<@%d> ha mogut aquest tiquet al panell`%s`",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "No pots canviar a un panell que usi fils des d'un tiquet de tipus canal"
 		},
 		"blacklist": {
 			"staff": "Els membres de l'equip no es poden afegir a la llista negra",
@@ -422,20 +422,20 @@
 			"all_messages_multi": "**Tipus de petició:** Fer anònims tots els teus missatges dels servidors seleccionats\n**Servidors:**\n* %s",
 			"specific_messages": "**Tipus de petició:** Fer anònims els teus missatges de tiquets específics\n**Servidor:** %s\n**IDs de tiquet:** %s",
 			"warning": "\n\n⚠️ **Avís:** Aquesta acció és permanent i no es pot desfer.\n\nEntens i acceptes que aquesta acció és permanent?",
-			"button": "Confirm - I understand"
+			"button": "Confirmar - Ho entenc"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
+			"title": "Petició RGPD en espera",
+			"all_transcripts": "**Tipus de petició:** Eliminar totes les transcripcions del servidor\n**Servidor:** %s",
+			"all_transcripts_multi": "**Tipus de petició:** Eliminar totes les transcripcions dels servidors\n**Servidors:**\n* %s",
+			"specific_transcripts": "**Tipus de petició:** Eliminar transcripcions específiques\n**Servidor:** %s\n**IDs de tiquet:** %s",
+			"all_messages": "**Tipus de petició:** Fer anònims tots els teus missatges del servidor\n**Servidor:** %s",
+			"all_messages_multi": "**Tipus de petició:** Fer anònims tots els teus missatges dels servidors\n**Servidors:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"footer": "\n\nLa teva petició està en espera per ser processada.\nSegons el nombre de transcripcions, el processament pot trigar una estona."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
+			"title": "Petició RGPD completada",
 			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
 			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
 			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
@@ -445,23 +445,23 @@
 			"error": "\n\n**⚠️ Error:** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "⚠️ S'ha trobat un error a la teva petició de RGPD: %s",
+			"no_data": "ℹ️ S'ha processat la teva petició RGPD. No s'han trobat dades afectades.",
+			"success": "✅ La teva petició RGPD ha estat processada correctament."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"no_servers": "No s'han trobat servidors dels quals tinguis propietat i tingui transcripcions.",
+			"invalid_server_id": "ID de servidor no vàlid.",
+			"invalid_ticket_ids": "ID de tiquet no vàlid. Si us plau, indiqueu els ID's numèrics dels tiquets separats per comes (p.ex., 123, 456, 789).",
+			"not_owner": "Has de ser propietari del servidor per eliminar transcripcions.",
+			"server_not_found": "Servidor no trobat.",
+			"queue_failed": "No s'ha pogut posar la petició RGPD en cua. Si us plau, torna-ho a provar més tard.",
+			"worker_offline": "El servei de processament RGPD no està disponible. Si us plau, torna-ho a provar més tard o, si continua donant problemes, contacta amb suport."
 		}
 	},
 	"errors": {
-		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
-		"unknown_guild": "Could not find the server.",
+		"unknown_channel": "No s'ha trobat el canal requerit: segurament ha estat eliminat.\n\nSi us plau, demana a l'administració del servidor que visiti el [tauler de control web](%s) i verifiqui que tota la configuració de canals sigui correcta.",
+		"unknown_guild": "No s'ha pogut trobar el servidor.",
 		"unknown_member": "The user could not be found. They may have left the server or been banned.",
 		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
 		"unknown_user": "user could not be found.",
