@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Na crnoj listi",
 	"generic.title.blacklist": "Crna lista",
 	"generic.error.blacklisted": "Nalazite se na crnoj listi ovog servera",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> je sada na crnoj listi",
 	"commands.blacklist.remove.success": "<@%d> više nije blacklist-an",
 	"generic.title.add_admin": "Dodaj administratora",
