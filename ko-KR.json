@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "블랙 리스트됨",
 	"generic.title.blacklist": "블랙리스트",
 	"generic.error.blacklisted": "당신은 이 서버에서 블랙리스트입니다.",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d>가 블랙리스트에 추가되었습니다.",
 	"commands.blacklist.remove.success": "<@%d>가 블랙리스트에서 삭제되었습니다.",
 	"generic.title.add_admin": "관리자 추가",
