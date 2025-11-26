@@ -131,8 +131,8 @@
 	"generic.title.blacklisted": "ברשימה השחורה",
 	"generic.title.blacklist": "רשימה שחורה",
 	"generic.error.blacklisted": "אתה ברשימה השחורה בשרת זה",
-	"commands.blacklist.add.success": "<@%d> נכנס לרשימה השחורה",
-	"commands.blacklist.remove.success": "<@%d> יצא מהרשימה השחורה",
+	"commands.blacklist.add.success": "נכנס לרשימה השחורה",
+	"commands.blacklist.remove.success": "יצא מהרשימה השחורה",
 	"generic.title.add_admin": "הוסף מנהל",
 	"generic.title.add_support": "הוסף תמיכה",
 	"generic.title.remove_admin": "הסר מנהל מערכת",
@@ -197,7 +197,6 @@
 		"blacklist": {
 			"staff": "לא ניתן להכניס את חברי הצוות לרשימה השחורה",
 			"add_role": {
-				"success": "<@&%d> הוכנס לרשימה השחורה",
 				"limit": "הגעת למגבלה של רשימת התפקידים השחורה (%d)"
 			},
 			"add": {
@@ -336,13 +335,6 @@
 		"on_call": "מסמן אותך בתוך שיחה, להוספה ולפינג בכל הכרטיסים החדשים",
 		"reopen": "פותח מחדש כרטיס שהיה סגור בעבר",
 		"notes": "יוצר שרשור לדיון פרטי בין נציגי תמיכה"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> יצא מהרשימה השחורה"
-			}
-		}
 	},
 	"setup": {
 		"auto": {
