@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Colocado na lista de bloqueio",
 	"generic.title.blacklist": "Lista de bloqueio",
 	"generic.error.blacklisted": "Você está bloqueado neste servidor",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> foi colocado na lista de bloqueio",
 	"commands.blacklist.remove.success": "<@%d> foi removido da lista de bloqueio",
 	"generic.title.add_admin": "Adicionar Administrador",
