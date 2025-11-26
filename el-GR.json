@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Στη μαύρη λίστα",
 	"generic.title.blacklist": "Μαύρη λίστα",
 	"generic.error.blacklisted": "Είστε στη μαύρη λίστα σε αυτόν τον διακομιστή",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> έχει εισαχθεί στη μαύρη λίστα",
 	"commands.blacklist.remove.success": "<@%d> έχει αφαιρεθεί από την μαύρη λίστα",
 	"generic.title.add_admin": "Προσθήκη διαχειριστή",
