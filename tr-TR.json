@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Kara listeye alındı",
 	"generic.title.blacklist": "Karaliste",
 	"generic.error.blacklisted": "Bu sunucuda kara listeye alındınız",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d>, kara listeye alındı",
 	"commands.blacklist.remove.success": "<@%d>, kara listeden çıkartıldı",
 	"generic.title.add_admin": "Yönetici ekle",
