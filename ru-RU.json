@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Внесён в чёрный список",
 	"generic.title.blacklist": "Чёрный список",
 	"generic.error.blacklisted": "Вы находитесь в черном списке на этом сервере.",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> был занесен в чёрный список.",
 	"commands.blacklist.remove.success": "<@%d> был удален из черного списка.",
 	"generic.title.add_admin": "Добавить администратора.",
