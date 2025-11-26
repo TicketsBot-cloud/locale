@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "บัญชีดำ",
 	"generic.title.blacklist": "บัญชีดำ",
 	"generic.error.blacklisted": "คุณไม่ได้รับอนุญาตให้ใช้งานบนเซิร์ฟเวอร์นี้",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> ถูกขึ้นบัญชีดำแล้ว",
 	"commands.blacklist.remove.success": "<@%d> ถูกยกเลิกบัญชีดำแล้ว",
 	"generic.title.add_admin": "เพิ่ม ผู้ดูแลระบบ",
