@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Verbannen",
 	"generic.title.blacklist": "Zwarte Lijst",
 	"generic.error.blacklisted": "U bent geblacklist in deze server",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> is op de blacklist gezet",
 	"commands.blacklist.remove.success": "<@%d> is uit de blacklist gehaald",
 	"generic.title.add_admin": "Beheerder toevoegen",
