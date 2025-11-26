@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Įrašytas į juodąjį sąrašą",
 	"generic.title.blacklist": "Juodasis sąrašas",
 	"generic.error.blacklisted": "Jūs esate įtrauktas į juodąjį sąrašą šiame serveryje",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> buvo įtrauktas į juodąjį sąrašą",
 	"commands.blacklist.remove.success": "<@%d> buvo pašalintas iš juodojo sąrašo",
 	"generic.title.add_admin": "Pridėti administratorių",
