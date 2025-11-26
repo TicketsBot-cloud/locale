@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Đã bị chặn",
 	"generic.title.blacklist": "Danh sách bị chặn",
 	"generic.error.blacklisted": "Bạn bị chặn trong máy chủ này",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> đã bị chặn",
 	"commands.blacklist.remove.success": "<@%d> đã được gỡ chặn",
 	"generic.title.add_admin": "Thêm quản trị viên",
