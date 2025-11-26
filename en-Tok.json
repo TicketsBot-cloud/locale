@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Blacklisted",
 	"generic.title.blacklist": "Blacklist",
 	"generic.error.blacklisted": "You are blacklisted in this server",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> has been blacklisted",
 	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
 	"generic.title.add_admin": "Add Admin",
