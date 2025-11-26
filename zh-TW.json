@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "添加到黑名單",
 	"generic.title.blacklist": "黑名單",
 	"generic.error.blacklisted": "你已經是目前群組的黑名單唷",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> 已被列入黑名單",
 	"commands.blacklist.remove.success": "<@%d> 已被解除黑名單",
 	"generic.title.add_admin": "加入管理員",
