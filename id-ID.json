@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Daftar Hitam",
 	"generic.title.blacklist": "Daftar Hitam",
 	"generic.error.blacklisted": "Anda masuk daftar hitam di server ini",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> telah masuk daftar hitam",
 	"commands.blacklist.remove.success": "<@%d> telah dibatalkan daftar hitamnya",
 	"generic.title.add_admin": "Tambahkan Admin",
