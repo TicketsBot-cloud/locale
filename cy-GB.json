@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Ar y Rhestr Ddu",
 	"generic.title.blacklist": "Rhestr Ddu",
 	"generic.error.blacklisted": "Rwyt ti ar y rhestr ddu yn y gweinydd hwn",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "Mae <@%d> wedi'i roi ar y rhestru ddu",
 	"commands.blacklist.remove.success": "Mae <@%d> wedi'i dynnu oddi ar y rhestru ddu",
 	"generic.title.add_admin": "Ychwanegu Gweinyddwr",
