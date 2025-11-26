@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Černá listina",
 	"generic.title.blacklist": "Černá listina",
 	"generic.error.blacklisted": "Jsi blacklisted na tomhle serveru",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> je nyní na černé listině",
 	"commands.blacklist.remove.success": "<@%d> již není černé listině",
 	"generic.title.add_admin": "Přidat administrátora",
