@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "ブラックリスト",
 	"generic.title.blacklist": "ブラック リスト",
 	"generic.error.blacklisted": "このサーバーにブラックリストに登録されています",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d>がブラックリストに登録されました",
 	"commands.blacklist.remove.success": "<@%d>はブラックリストから解除されました。",
 	"generic.title.add_admin": "管理者を追加",
