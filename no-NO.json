@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Svartelistet",
 	"generic.title.blacklist": "Svarteliste",
 	"generic.error.blacklisted": "Du er svartelistet i denne serveren",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> har blitt svartelistet",
 	"commands.blacklist.remove.success": "<@%d> har blitt fjernet fra svartelisten",
 	"generic.title.add_admin": "Legg til admin",
