@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "ברשימה השחורה",
 	"generic.title.blacklist": "רשימה שחורה",
 	"generic.error.blacklisted": "אתה ברשימה השחורה בשרת זה",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> נכנס לרשימה השחורה",
 	"commands.blacklist.remove.success": "<@%d> יצא מהרשימה השחורה",
 	"generic.title.add_admin": "הוסף מנהל",
