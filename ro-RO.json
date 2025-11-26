@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Adăugat în lista neagră",
 	"generic.title.blacklist": "Listă neagră",
 	"generic.error.blacklisted": "Ești pe lista neagră pe acest server",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> a fost adăugat în lista neagră",
 	"commands.blacklist.remove.success": "<@%d> a fost scos de pe lista neagră",
 	"generic.title.add_admin": "Adaugă un admin",
