@@ -131,6 +131,8 @@
 	"generic.title.blacklisted": "Mustalistattu",
 	"generic.title.blacklist": "Mustalista",
 	"generic.error.blacklisted": "Olet tämän palvelimen mustallalistalla",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> on estetty",
 	"commands.blacklist.remove.success": "<@%d> on otettu pois mustaltalistalta",
 	"generic.title.add_admin": "Lisää järjestelmänvalvoja",
