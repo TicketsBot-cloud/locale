@@ -43,11 +43,11 @@
 	"help.about": "Показывает информация о боте.",
 	"help.add": "Добавляет пользователя в канал обращения.",
 	"help.addadmin": "Дает указанному пользователю или роли привилегии администратора.",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Добавляет роль в качестве представителя поддержки",
 	"help.admin": "Управление ботом",
 	"help.admin.blacklist": "Добавить сервер в черный список.",
 	"help.admin.check_premium": "Проверить статус премиум подписки на сервере.",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug": "Отладка настроек сервера",
 	"help.admin.generate_premium": "Создает ключи активации премиум подписки.",
 	"help.admin.get_owner": "Показывает владельца сервера.",
 	"help.admin.unblacklist": "Убирает сервер из черного списка.",
@@ -78,9 +78,9 @@
 	"help.viewstaff": "Отобразить список членов поддержки и роли.",
 	"help.vote": "Даёт ссылку на голосование, чтобы получить бесплатный Премиум.",
 	"help.check_perms": "Проверить, есть ли у бота нужные права",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Управление вашими запросами данных GDPR",
 	"open.success": "Открыто новое обращение: %s.",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Эта панель сейчас закрыта. Пожалуйста, попробуйте снова в рабочее время службы поддержки.",
 	"setup.auto.category.failure": "У меня нет прав на `Управление каналами`.",
 	"setup.auto.category.success": "Создана категория Tickets для обращений.",
 	"setup.auto.completed": "Настройка завершена! Нажмите [сюда](https://dashboard.tickets.bot/manage/%d/panels), чтобы настроить панель реакций, и добавить роли <@&%d> и <@&%d> для представителей поддержки.",
@@ -103,7 +103,7 @@
 	"commands.open.from.moved": "Обсуждение было перемещено в канал обращения (<#%d>).",
 	"help.close_request": "Отправляет сообщение пользователю с просьбой подтверждения закрытия обращения.",
 	"close.reason_too_long": "Причина закрытия не может быть длиннее 255 символов.",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "Запрос на закрытие успешно отправлен",
 	"commands.close_request.no_reason": "<@%d> запросил разрешение на закрытие этого обращения.\n\nПожалуйста, подтвердите или отклоните запрос используя кнопки ниже.",
 	"commands.close_request.with_reason": "<@%d> запросил разрешение на закрытие этого обращения. Причина:\n```\n%s\n```\nПожалуйста, подтвердите или отклоните запрос используя кнопки ниже.",
 	"commands.close_request.no_permission": "Только пользователь, открывший обращение, может ответить на запрос о закрытии.",
@@ -127,7 +127,7 @@
 	"generic.title.invite": "Пригласить",
 	"generic.title.close": "Закрыть",
 	"generic.title.claim": "Назначить",
-	"generic.title.unclaim": "Unclaim",
+	"generic.title.unclaim": "Вернуть в очередь",
 	"generic.title.blacklisted": "Внесён в чёрный список",
 	"generic.title.blacklist": "Чёрный список",
 	"generic.error.blacklisted": "Вы находитесь в черном списке на этом сервере.",
@@ -137,11 +137,11 @@
 	"generic.title.add_support": "Добавить представителя поддержки.",
 	"generic.title.remove_admin": "Удалить администратора.",
 	"generic.title.remove_support": "Удалить представителя поддержки.",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Представитель поддержки успешно добавлен: %s",
 	"generic.title.language": "Язык",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Представитель поддержки успешно удалён: %s",
+	"commands.addadmin.success": "Администратор успешно добавлен: %s",
+	"commands.removeadmin.success": "Администратор успешно удалён: %s",
 	"generic.title.setup": "Настройка",
 	"generic.title.premium": "Премиум",
 	"generic.title.panel": "Панель",
@@ -192,7 +192,7 @@
 		"switch_panel": {
 			"invalid_panel": "Недопустимая панель. Вы должны выбрать одну из выпадающего списка.",
 			"success": "<@%d> переместил обращение в панель `%s`. ",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Вы не можете переключить обычное обращение на панель, использующую ветки"
 		},
 		"blacklist": {
 			"staff": "Представители поддержки не могут быть внесены в чёрный список.",
@@ -304,7 +304,7 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Персонал",
 			"admin": {
 				"users": "Администраторы (пользователи)",
 				"roles": "Администраторы (роли)",
@@ -314,8 +314,8 @@
 			"support": {
 				"users": "Поддержка (пользователи)",
 				"roles": "Поддержка (роли)",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"no_roles": "Нет ролей поддержки",
+				"users_warning": "-# **Внимание:** Добавление отдельных пользователей в команды поддержки устарело. Пожалуйста, используйте роли."
 			}
 		}
 	},
@@ -377,113 +377,113 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Выберите тип GDPR-запроса, который вы хотите создать:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Опции удаления транскриптов**\n-# _Удалить транскрипты с серверов, которыми вы владеете_",
+			"message": "### **Опции анонимизации сообщений**\n-# _Анонимизировать ваши сообщения в транскриптах на выбранных серверах_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Важная информация**\n* Удаление производится **безвозвратно**\n* Вы можете удалять транскрипты только с тех серверов, где **вы** являетесь владельцем\n* Анонимизировать в транскриптах можно только **ваши** сообщения\n* Выполнение запроса может занять до **30 дней**\n* Ваш запрос будет обработан в порядке **очереди**",
+		"resources": "### **Ресурсы**\n[Что такое GDPR?](%s)\n[Право на забвение](%s)\n[Право на доступ](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Все транскрипты с серверов",
+			"specific_transcripts": "Конкретные транскрипты",
+			"all_messages": "Все ваши сообщения на серверах",
+			"specific_messages": "Ваши сообщения в конкретных обращениях"
 		},
-		"language_option": "Language",
+		"language_option": "Язык",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Удалить все транскрипты с серверов",
+			"specific_transcripts": "Удалить конкретные транскрипты",
+			"all_messages": "Анонимизировать ваши сообщения на серверах",
+			"specific_messages": "Анонимизировать сообщения в конкретных обращениях",
+			"select_server": "Выберите сервер",
+			"select_servers": "Выберите один или несколько серверов",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "ID сервера",
+				"placeholder": "Введите ID сервера"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "ID серверов",
+				"placeholder": "Введите ID серверов через запятую (напр. 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "ID обращений",
+				"placeholder": "Введите ID обращений через запятую (напр. 123, 456, 789)"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"title": "Требуется подтверждение GDPR",
+			"all_transcripts": "**Тип запроса:** Удалить все транскрипты с вашего сервера\n**Сервер:** %s",
+			"all_transcripts_multi": "**Тип запроса:** Удалить все транскрипты с ваших серверов\n**Серверы:**\n* %s",
+			"specific_transcripts": "**Тип запроса:** Удалить конкретные транскрипты с сервера\n**Сервер:** %s\n**ID обращений:** %s",
+			"all_messages": "**Тип запроса:** Анонимизировать все ваши сообщения на выбранном сервере\n**Сервер:** %s",
+			"all_messages_multi": "**Тип запроса:** Анонимизировать все ваши сообщения на выбранных серверах\n**Серверы:**\n* %s",
+			"specific_messages": "**Тип запроса:** Анонимизировать ваши сообщения в конкретных обращениях\n**Сервер:** %s\n**ID обращений:** %s",
+			"warning": "\n\n⚠️ **Предупреждение:** Это действие необратимо.\n\nВы понимаете и соглашаетесь с тем, что это действие нельзя отменить?",
+			"button": "Подтверждаю, мне всё понятно"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"title": "GDPR-запрос поставлен в очередь",
+			"all_transcripts": "**Тип запроса:** Удалить все транскрипты с сервера\n**Сервер:** %s",
+			"all_transcripts_multi": "**Тип запроса:** Удалить все транскрипты с серверов\n**Серверы:**\n* %s",
+			"specific_transcripts": "**Тип запроса:** Удалить конкретные транскрипты\n**Сервер:** %s\n**ID обращений:** %s",
+			"all_messages": "**Тип запроса:** Анонимизировать все ваши сообщения на сервере\n**Сервер:** %s",
+			"all_messages_multi": "**Тип запроса:** Анонимизировать все ваши сообщения на серверах\n**Серверы:**\n* %s",
+			"specific_messages": "**Тип запроса:** Анонимизировать ваши сообщения в конкретных обращениях\n**Сервер:** %s\n**ID обращений:** %s",
+			"footer": "\n\nВаш запрос поставлен в очередь на обработку.\nЭто может занять некоторое время в зависимости от количества транскриптов."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"title": "GDPR-запрос выполнен",
+			"all_transcripts": "**Тип запроса:** Удалить все транскрипты с сервера\n**Сервер:** %s\n**Удалено транскриптов:** %d",
+			"all_transcripts_multi": "**Тип запроса:** Удалить все транскрипты с серверов\n**Серверы:**\n* %s\n**Удалено транскриптов:** %d",
+			"specific_transcripts": "**Тип запроса:** Удалить конкретные транскрипты\n**Сервер:** %s\n**Удалено транскриптов:** %d",
+			"all_messages": "**Тип запроса:** Анонимизировать все ваши сообщения на сервере\n**Сервер:** %s\n**Анонимизировано сообщений:** %d",
+			"all_messages_multi": "**Тип запроса:** Анонимизировать все ваши сообщения на серверах\n**Серверы:**\n* %s\n**Анонимизировано сообщений:** %d",
+			"specific_messages": "**Тип запроса:** Анонимизировать ваши сообщения в конкретных обращениях\n**Сервер:** %s\n**Анонимизировано сообщений:** %d",
+			"error": "\n\n**⚠️ Ошибка:** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "⚠️ При выполнении вашего GDPR-запроса возникла ошибка: %s",
+			"no_data": "ℹ️ Ваш GDPR-запрос обработан. Данные не найдены.",
+			"success": "✅ Ваш GDPR-запрос успешно обработан."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"no_servers": "Не найдено серверов, где вы являетесь владельцем и есть транскрипты.",
+			"invalid_server_id": "Указан неверный ID сервера.",
+			"invalid_ticket_ids": "Указаны неверные ID обращений. Пожалуйста, введите числовые ID через запятую (напр. 123, 456, 789).",
+			"not_owner": "Вы должны быть владельцем сервера, чтобы удалять транскрипты.",
+			"server_not_found": "Сервер не найден.",
+			"queue_failed": "Не удалось поставить GDPR-запрос в очередь. Пожалуйста, попробуйте позже.",
+			"worker_offline": "Служба обработки GDPR сейчас недоступна. Пожалуйста, попробуйте позже или обратитесь в поддержку, если проблема сохранится."
 		}
 	},
 	"errors": {
-		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
-		"unknown_guild": "Could not find the server.",
-		"unknown_member": "The user could not be found. They may have left the server or been banned.",
-		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
-		"unknown_user": "user could not be found.",
-		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
-		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
-		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
-		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
-		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"unknown_channel": "Не удалось найти требуемый канал: вероятно, он был удалён.\n\nПопросите администратора сервера зайти в [панель управления](%s) и проверить настройки каналов.",
+		"unknown_guild": "Сервер не найден.",
+		"unknown_member": "Пользователь не найден. Возможно, он покинул сервер или был забанен.",
+		"unknown_message": "Сообщение, с которым вы пытаетесь взаимодействовать, было удалено.\n\nПожалуйста, попробуйте снова с другим сообщением.",
+		"unknown_user": "пользователь не найден.",
+		"unknown_role": "Необходимая роль больше не существует.\n\nПопросите администратора сервера зайти в [панель управления](%s) и перенастроить роли.",
+		"unknown_category": "Не удалось найти категорию: вероятно, она была удалена.\n\nПопросите администратора сервера зайти в [панель управления](%s) и назначить действующую категорию.",
+		"unknown_interaction": "Срок взаимодействия истёк.\n\nПожалуйста, попробуйте снова.",
+		"max_webhooks": "На сервере достигнут лимит вебхуков.\n\nПопросите администратора удалить неиспользуемые вебхуки и повторите попытку.",
+		"interaction_acknowledged": "Это взаимодействие уже обработано.\n\nЕсли нужно повторить действие, начните его заново.",
 		"missing_permissions": {
-			"title": "I am missing the following permissions required to perform this action",
-			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+			"title": "У меня нет следующих прав, необходимых для этого действия",
+			"body": "Пожалуйста, выдайте боту эти права или право `Администратор` и попробуйте снова.\nПосетите нашу [документацию](%s) для разъяснения, зачем нужно каждое право."
 		},
-		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
-		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
-		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
-		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
-		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
-		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
-		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
-		"invalid_form": "The action could not be completed due to invalid input.",
-		"timed_out": "The operation timed out, please try again.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
-		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"invalid_length": "Одно или несколько полей слишком короткие или слишком длинные.\n\nПопросите администратора сервера посетить [панель управления](%s) и убедиться, что все поля ввода соответствуют требованиям по длине.",
+		"required_field": "Обязательное поле отсутствует или пусто.\n\nПопросите администратора сервера посетить [панель управления](%s) и убедиться, что все обязательные поля заполнены.",
+		"invalid_channel_type": "Неверный тип канала для этой операции.\n\nПопросите администратора сервера посетить [панель управления](%s) и назначить действительный канал для панели обращений.",
+		"invalid_category": "Категория канала недействительна. Она, вероятно, была удалена.\n\nПопросите администратора сервера посетить [панель управления](%s) и назначить действительную категорию для панели обращений.",
+		"invalid_id": "В конфигурации бота указан неверный ID.\n\nПопросите администратора сервера посетить [панель управления](%s) и убедиться, что все ID категорий, каналов и ролей указаны правильно.",
+		"invalid_characters": "Ввод содержит недопустимые символы.\n\nИспользуйте только буквы, цифры, дефисы и знаки подчёркивания.",
+		"invalid_choice": "Указан недопустимый вариант.\n\nПопросите администратора сервера посетить [панель управления](%s) и убедиться, что все настройки указаны правильно.",
+		"invalid_form": "Действие не завершено из-за некорректного ввода.",
+		"timed_out": "Время ожидания истекло, пожалуйста, попробуйте снова.",
+		"rate_limited": "Отправлено слишком много запросов. Попробуйте снова через %s.",
+		"rate_limited_global": "Discord испытывает высокую нагрузку (глобальный лимит запросов). Попробуйте снова через %s.",
+		"general": "Произошла ошибка при выполнении этого действия.",
+		"error_id": "ID ошибки"
 	}
 }
