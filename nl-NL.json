@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets is een eenvoudig te gebruiken en zeer configureerbare ticket- en ondersteuningsbot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Typ `t!help`\\nGa aan de slag door het commando `t!setup` te doen.",
+	"commands.about": "Tickets is een eenvoudig te gebruiken en zeer configureerbare ticket- en ondersteuningsbot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Typ `/help`\\nGa aan de slag door het commando `/setup` te doen.",
 	"commands.add.no_members": "U moet leden vermelden om aan het ticket toe te voegen",
 	"commands.add.no_permission": "U heeft niet de juiste permissies om mensen aan deze ticket toe te voegen",
 	"commands.addadmin.no_members": "U moet een gebruiker vermelden of een rol noemen om beheerdersrechten aan te verlenen",
