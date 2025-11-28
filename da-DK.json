@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets er nem at bruge og er en yderst brugervenlig support bot.\\nSupport server: https://discord.gg/ticketsbot\\nKommandoer: Type `/hjælp`\\nGå i gang med at bruge `/setup`",
+	"commands.about": "Tickets er nem at bruge og er en yderst brugervenlig support bot.\\nSupport server: https://discord.gg/ticketsbot\\nKommandoer: Type `/help`\\nGå i gang med at bruge `/setup`",
 	"commands.add.no_members": "Du skal nævne brugere at tilføje til denne ticket",
 	"commands.add.no_permission": "Du har ikke tilladelse til at tilføje brugere til denne ticket",
 	"commands.addadmin.no_members": "Du skal nævne en bruger eller en rolle for at give administratorrettigheder",
