@@ -131,8 +131,8 @@
 	"generic.title.blacklisted": "Gesperrt",
 	"generic.title.blacklist": "Sperrliste",
 	"generic.error.blacklisted": "Du wurdest auf diesem Server gesperrt",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Dieser Server ist von der Verwendung dieses Bots gesperrt",
+	"generic.error.user_blacklisted": "Du bist von der Verwendung dieses Bots gesperrt",
 	"commands.blacklist.add.success": "<@%d> wurde zur Sperrliste hinzugefügt",
 	"commands.blacklist.remove.success": "<@%d> wurde von der Sperrliste entfernt",
 	"generic.title.add_admin": "Administrator hinzufügen",
@@ -483,8 +483,8 @@
 		"invalid_choice": "Eine ungültige Option wurde angegeben.\n\nBitten Sie einen Serveradministrator, die [dashboard](%s) zu besuchen und zu überprüfen, ob alle Einstellungen korrekt sind.",
 		"invalid_form": "Die Aktion konnte wegen ungültiger Eingaben nicht abgeschlossen werden.",
 		"timed_out": "Zeitüberschreitung beim Vorgang. Bitte versuche es erneut.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
+		"rate_limited": "Du sendest gerade zu viele Anfragen. Bitte versuche es %s erneut.",
+		"rate_limited_global": "Discord ist stark ausgelastet (globales Anfragelimit). Bitte versuche es %s erneut.",
 		"general": "Beim Ausführen dieser Aktion ist ein Fehler aufgetreten.",
 		"error_id": "Fehler-ID"
 	}
