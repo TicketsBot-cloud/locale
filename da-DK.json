@@ -77,7 +77,6 @@
 	"help.unclaim": "Fjerner kravet på den aktuelle ticket",
 	"help.viewstaff": "Viser en liste over medarbejdere og roller",
 	"help.vote": "Giver dig et link til at stemme på gratis premium",
-	"help.check_perms": "Tjek om Botten har de rigtige tilladelser",
 	"help.gdpr": "Administrer dine GDPR-dataanmodninger",
 	"open.success": "Åbnede en ny ticket: %s",
 	"open.outside_support_hours": "Dette panel er i øjeblikket lukket. Prøv venligst igen i vores supporttider.",

@@ -77,7 +77,6 @@
 	"help.unclaim": "Menghapus klaim pada tiket saat ini",
 	"help.viewstaff": "Daftar anggota staf dan peran",
 	"help.vote": "Memberi Anda tautan untuk memilih premium gratis",
-	"help.check_perms": "Periksa apakah Bot memiliki Izin yang tepat",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Membuka tiket baru: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

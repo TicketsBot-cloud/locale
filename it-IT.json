@@ -77,7 +77,6 @@
 	"help.unclaim": "Rimuove la rivendicazione sul ticket corrente",
 	"help.viewstaff": "Elenca i membri dello staff e i ruoli",
 	"help.vote": "Fornisce un link per votare per ricevere premium gratis",
-	"help.check_perms": "Controlla se il bot ha i permessi giusti",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Aperto un nuovo ticket: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

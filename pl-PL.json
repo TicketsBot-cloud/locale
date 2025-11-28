@@ -77,7 +77,6 @@
 	"help.unclaim": "Cofa przejęcie zgłoszenia",
 	"help.viewstaff": "Pokazuje członków administracji i role",
 	"help.vote": "Daje link do głosowania w zamian za darmowe premium",
-	"help.check_perms": "Sprawdź, czy Bot ma odpowiednie uprawnienia",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Otwarto nowe zgłoszenie: %s",
 	"open.outside_support_hours": "Panel jest obecnie niedostępny. Prosimy spróbować ponownie w godzinach pracy wsparcia.",

@@ -77,7 +77,6 @@
 	"help.unclaim": "撤銷原本分配到該問題單的人",
 	"help.viewstaff": "顯示問題單工作人員跟支持人員",
 	"help.vote": "給你一個投票連結讓你獲得免費高級版的資格",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "開了一張問題單：%s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

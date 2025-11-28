@@ -77,7 +77,6 @@
 	"help.unclaim": "Fjerner krav på den nåværende støtteforespurselen",
 	"help.viewstaff": "Opplister alle stabmedlemmer og roller",
 	"help.vote": "Gir deg en lenke der du kan stemme for gratis premium",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Åpnet en ny støtteforespursel: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

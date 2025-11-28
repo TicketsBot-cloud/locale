@@ -77,7 +77,6 @@
 	"help.unclaim": "Jegy felszabadítása.",
 	"help.viewstaff": "Jogosúltsággal rendelkező tagok kilistázása.",
 	"help.vote": "Link létrehozása ingyenes prémium szavazáshoz.",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Új jegyet nyitottál: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

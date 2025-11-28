@@ -77,7 +77,6 @@
 	"help.unclaim": "Entfernt de Aaspruch uf s'aktuelle Ticket",
 	"help.viewstaff": "Listet d'Support-Mitarbeiter und Rollene uuf",
 	"help.vote": "Zeigt Dir en Link zum abstimme für e gratis und begrenzti Version vo Premium",
-	"help.check_perms": "Luegt, ob de Bot die richtige Berechtigunge het",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Neus Ticket uufgmacht: %s",
 	"open.outside_support_hours": "De Panel isch momentan zue. Bitte versuechs nomal während euse Öffnigsziite.",

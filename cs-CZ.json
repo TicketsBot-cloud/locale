@@ -77,7 +77,6 @@
 	"help.unclaim": "Odstraní claim na aktuálním ticketu",
 	"help.viewstaff": "Zobrazí seznam staff a rolí",
 	"help.vote": "Dá vám odkaz k hlasování pro prémium zdarma",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Otevřel nový ticket: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

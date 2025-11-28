@@ -77,7 +77,6 @@
 	"help.unclaim": "현재 티켓의 배정을 제거합니다.",
 	"help.viewstaff": "스태프 및 역할을 나열합니다.",
 	"help.vote": "무료 프리미엄을 위해 투표할 수 있는 링크를 제공합니다.",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "새 티켓을 열었습니다: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

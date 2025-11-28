@@ -77,7 +77,6 @@
 	"help.unclaim": "מסיר את הקבלה של הכרטיס על הכרטיס הנוכחי",
 	"help.viewstaff": "מפרט את חברי הצוות והתפקידים",
 	"help.vote": "נותן לך קישור להצבעה עבור פרימיום בחינם",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "פתח כרטיס חדש: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

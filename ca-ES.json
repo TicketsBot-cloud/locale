@@ -77,7 +77,6 @@
 	"help.unclaim": "Treu el reclam del tiquet actual",
 	"help.viewstaff": "Llista els membres i rols de l'equip",
 	"help.vote": "Proporciona un enllaç per votar i tenir Premium gratis",
-	"help.check_perms": "Comprova si el bot té els Permisos necessaris",
 	"help.gdpr": "Gestionar les teves peticions de dades GDPR",
 	"open.success": "S'ha obert un nou tiquet: %s",
 	"open.outside_support_hours": "Actualment, aquest tauler es troba tancat. Si us plau, torna-ho a provar dins el nostre horari d'atenció.",

@@ -77,7 +77,6 @@
 	"help.unclaim": "Yn tynnu'r hawlied oddi ar y tocyn presennol",
 	"help.viewstaff": "Yn rhestru yr aelodau staff ac rolau",
 	"help.vote": "Yn rhoi dolen i ti i bleidleisio am bremiwm am ddim",
-	"help.check_perms": "Gwirio os yw'r bot gyda'r caniatadau cywir",
 	"help.gdpr": "Rheoli eich ceisiadau data GDPR",
 	"open.success": "Tocyn newydd wedi'i agor: %s",
 	"open.outside_support_hours": "Mae'r panel hwn ar gau ar hyn o bryd. Rho gynnig arall yn ystod ein oriau cymorth.",

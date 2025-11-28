@@ -77,7 +77,6 @@
 	"help.unclaim": "Nebeapsiimti dabartiniu bilietu",
 	"help.viewstaff": "Pagalbos narių ir rolių sąrašas",
 	"help.vote": "Suteikia nuorodą, kad prabalsuotuvėte už nemokamą premium prenumeratą",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Atidarytas naujas bilietas: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

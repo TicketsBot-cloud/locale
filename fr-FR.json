@@ -77,7 +77,6 @@
 	"help.unclaim": "Supprime la réclamation sur le ticket actuel",
 	"help.viewstaff": "Liste les membres et les rôles de l'équipe d'assistance",
 	"help.vote": "Vous donne un lien pour voter et obtenir gratuitement la version premium",
-	"help.check_perms": "Vérifie si le bot a les bonnes permissions",
 	"help.gdpr": "Gérer vos demandes de données RGPD",
 	"open.success": "Ouverture d'un nouveau ticket : %s",
 	"open.outside_support_hours": "Ce panneau est actuellement fermé. Veuillez réessayer pendant nos heures d'assistance.",

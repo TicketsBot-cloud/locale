@@ -77,7 +77,6 @@
 	"help.unclaim": "Removes the claim on the current ticket",
 	"help.viewstaff": "Lists the staff members and roles",
 	"help.vote": "Gives you a link to vote for free premium",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Opened a new ticket: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

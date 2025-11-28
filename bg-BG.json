@@ -77,7 +77,6 @@
 	"help.unclaim": "Премахва поемането на текущия тикет",
 	"help.viewstaff": "Показва членовете на екипа и ролите",
 	"help.vote": "Дава Ви линк да гласувате за безплатен премиум",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Отворен е нов тикет: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",

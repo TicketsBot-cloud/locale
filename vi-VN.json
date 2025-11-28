@@ -77,7 +77,6 @@
 	"help.unclaim": "Gỡ nhận trong phiếu hỗ trợ hiện tại",
 	"help.viewstaff": "Danh sách các thành viên quản lý và các vai trò",
 	"help.vote": "Gửi cho bạn một đường dẫn để đánh giá và nhận phiên bản cao cấp miễn phí",
-	"help.check_perms": "Kiểm tra các đặc quyền cần thiết cho Bot",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
