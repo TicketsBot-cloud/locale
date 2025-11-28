@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets 是一個易於使用且幾乎可以完全自定義的問題單機器人\\n支援頻道: https://discord.gg/ticketsbot\\n指令: 請輸入 `t!help`\\n輸入`t!setup`開始設定吧！",
+	"commands.about": "Tickets 是一款易於使用且設定自由度高的客服單與支援機器人。\\n支援伺服器：https://discord.gg/ticketsbot\\n指令：輸入 `/help`\\n立即開始使用，請執行 `/setup`",
 	"commands.add.no_members": "你必須標註一個人嗄",
 	"commands.add.no_permission": "你沒有權限添加該成員到問題單",
 	"commands.addadmin.no_members": "您需要提及一個用戶或一個身份組來授予管理員權限",
