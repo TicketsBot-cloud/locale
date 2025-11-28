@@ -1,5 +1,5 @@
 {
-	"commands.about": "Biletoj estas facila kaj tre agordebla aplikaĵo de biletoj kaj subtenoj.\\nSubtena servilo: https://discord.gg/ticketsbot\\nKomandoj: Tajpu `/helpo`\\nKomenci per tajpi `/agordi`",
+	"commands.about": "Biletoj estas facila kaj tre agordebla aplikaĵo de biletoj kaj subtenoj.\\nSubtena servilo: https://discord.gg/ticketsbot\\nKomandoj: Tajpu `/helpo`\\nKomenci per tajpi `/setup`",
 	"commands.add.no_members": "Vi bezonas ke mencii uzantoj por aldoni al la bileto",
 	"commands.add.no_permission": "Vi ne havas permeson por aldoni uzantoj al la bileto",
 	"commands.addadmin.no_members": "Vi bezonas ke mencii uzanto aŭ rolo por doni administrajn privilegiojn al",
