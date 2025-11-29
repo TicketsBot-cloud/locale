@@ -1,5 +1,5 @@
 {
-	"commands.about": "Biletoj estas facila kaj tre agordebla aplikaĵo de biletoj kaj subtenoj.\\nSubtena servilo: https://discord.gg/ticketsbot\\nKomandoj: Tajpu `/helpo`\\nKomenci per tajpi `/agordi`",
+	"commands.about": "Biletoj estas facila kaj tre agordebla aplikaĵo de biletoj kaj subtenoj.\\nSubtena servilo: https://discord.gg/ticketsbot\\nKomandoj: Tajpu `/helpo`\\nKomenci per tajpi `/setup`",
 	"commands.add.no_members": "Vi bezonas ke mencii uzantoj por aldoni al la bileto",
 	"commands.add.no_permission": "Vi ne havas permeson por aldoni uzantoj al la bileto",
 	"commands.addadmin.no_members": "Vi bezonas ke mencii uzanto aŭ rolo por doni administrajn privilegiojn al",
@@ -128,6 +128,8 @@
 	"generic.title.blacklisted": "Blacklisted",
 	"generic.title.blacklist": "Blacklist",
 	"generic.error.blacklisted": "You are blacklisted in this server",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> has been blacklisted",
 	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
 	"generic.title.add_admin": "Add Admin",

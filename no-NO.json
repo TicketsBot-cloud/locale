@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: https://discord.gg/ticketsbot\\nKommandoer: Skriv `t!help`\\nKom i gang ved å bruke `t!setup`",
+	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: https://discord.gg/ticketsbot\\nKommandoer: Skriv `/help`\\nKom i gang ved å bruke `/setup`",
 	"commands.add.no_members": "Du må oppgi medlemmer du vil ha lagt til støtteforespurselen",
 	"commands.add.no_permission": "Du har ikke adgang til å legge til brukere til denne støtteforespurselen",
 	"commands.addadmin.no_members": "Du må oppgi en bruker eller rolle å gi administratorprivilegier til",
@@ -128,6 +128,8 @@
 	"generic.title.blacklisted": "Svartelistet",
 	"generic.title.blacklist": "Svarteliste",
 	"generic.error.blacklisted": "Du er svartelistet i denne serveren",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> har blitt svartelistet",
 	"commands.blacklist.remove.success": "<@%d> har blitt fjernet fra svartelisten",
 	"generic.title.add_admin": "Legg til admin",
