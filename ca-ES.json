@@ -430,17 +430,17 @@
 			"specific_transcripts": "**Tipus de petició:** Eliminar transcripcions específiques\n**Servidor:** %s\n**IDs de tiquet:** %s",
 			"all_messages": "**Tipus de petició:** Fer anònims tots els teus missatges del servidor\n**Servidor:** %s",
 			"all_messages_multi": "**Tipus de petició:** Fer anònims tots els teus missatges dels servidors\n**Servidors:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"specific_messages": "**Tipus de petició:** Fer anònims els teus missatges de tiquets específics\n**Servidor:** %s\n**IDs de tiquet:** %s",
 			"footer": "\n\nLa teva petició està en espera per ser processada.\nSegons el nombre de transcripcions, el processament pot trigar una estona."
 		},
 		"completed": {
 			"title": "Petició RGPD completada",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
+			"all_transcripts": "**Tipus de petició:** Eliminar totes les transcripcions del servidor\n**Servidor:** %s\n**Transcripcions Eliminades:** %d",
+			"all_transcripts_multi": "**Tipus de petició:** Eliminar totes les transcripcions dels servidors\n**Servidors:**\n* %s\n**Transcripcions Eliminades:** %d",
+			"specific_transcripts": "**Tipus de petició:** Eliminar transcripcions específiques\n**Servidor:** %s\n**Transcripcions Eliminades:** %d",
+			"all_messages": "**Tipus de petició:** Fer anònims tots els teus missatges del servidor\n**Servidor:** %s\n**Missatges fets Anònims:** %d",
+			"all_messages_multi": "**Tipus de petició:** Fer anònims tots els teus missatges en servidors\n**Servidors:**\n* %s\n**Missatges fets Anònims:** %d",
+			"specific_messages": "**Tipus de petició:** Fer anònims els teus missatges de tiquets concrets\n**Servidor:** %s\n**Missatges fets Anònims:** %d",
 			"error": "\n\n**⚠️ Error:** %s"
 		},
 		"followup": {
@@ -461,7 +461,7 @@
 	"errors": {
 		"unknown_channel": "No s'ha trobat el canal requerit: segurament ha estat eliminat.\n\nSi us plau, demana a l'administració del servidor que visiti el [tauler de control web](%s) i verifiqui que tota la configuració de canals sigui correcta.",
 		"unknown_guild": "No s'ha pogut trobar el servidor.",
-		"unknown_member": "The user could not be found. They may have left the server or been banned.",
+		"unknown_member": "No s'ha trobat l'usuari. Pot ser que hagi abandonat el servidor o hagi estat banejat.",
 		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
 		"unknown_user": "user could not be found.",
 		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
