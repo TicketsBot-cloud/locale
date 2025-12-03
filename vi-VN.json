@@ -77,9 +77,9 @@
 	"help.unclaim": "Gỡ nhận trong phiếu hỗ trợ hiện tại",
 	"help.viewstaff": "Danh sách các thành viên quản lý và các vai trò",
 	"help.vote": "Gửi cho bạn một đường dẫn để đánh giá và nhận phiên bản cao cấp miễn phí",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Quản lý yêu cầu dữ liệu GDPR",
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Bảng điều khiền này hiện đang đóng. Hãy thử lại trong khung giờ hỗ trợ của chúng tôi.",
 	"setup.auto.category.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
 	"setup.auto.category.success": "Đã tạo một mục kênh cho các phiếu hỗ trợ",
 	"setup.auto.completed": "Đã thiết lập thành công! Nhấn vào [đây](https://panel.tickets.bot/manage/%d/panels) để thiết lập một bảng reaction, và thêm <@&%d> và <@&%d> là vai trò cho các thành viên quản lý",
@@ -102,7 +102,7 @@
 	"commands.open.from.moved": "Cuộc hội thoại đã được chuyển đến một phiếu hỗ trợ (<#%d>)",
 	"help.close_request": "Gửi một tin nhắn hỏi thành viên xác nhận có thể đóng phiếu hỗ trợ này",
 	"close.reason_too_long": "Lý do không được dài hơn 255 ký tự",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "Yêu cầu đóng đã được gửi đi thành công",
 	"commands.close_request.no_reason": "<@%d> đã yêu cầu đóng phiếu hỗ trợ này.\n\nHãy đồng ý hoặc từ chối yêu cầu bằng các nút bên dưới.",
 	"commands.close_request.with_reason": "<@%d> đã yêu cầu đóng phiếu hỗ trợ này. Lý do:\n```\n%s\n```\nHãy đồng ý hoặc từ chối yêu cầu bằng các nút bên dưới.",
 	"commands.close_request.no_permission": "Chỉ người mở phiếu hỗ trợ này mới có thể trả lời yêu cầu đóng phiếu hỗ trợ",
@@ -126,21 +126,21 @@
 	"generic.title.invite": "Mời",
 	"generic.title.close": "Đóng",
 	"generic.title.claim": "Nhận",
-	"generic.title.unclaim": "Unclaim",
+	"generic.title.unclaim": "Chưa nhận",
 	"generic.title.blacklisted": "Đã bị chặn",
 	"generic.title.blacklist": "Danh sách bị chặn",
 	"generic.error.blacklisted": "Bạn bị chặn trong máy chủ này",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Máy chủ đã bị cấm sử dụng bot",
+	"generic.error.user_blacklisted": "Bạn đã bị cấm sử dụng bot",
 	"commands.blacklist.add.success": "<@%d> đã bị chặn",
 	"commands.blacklist.remove.success": "<@%d> đã được gỡ chặn",
 	"generic.title.add_admin": "Thêm quản trị viên",
 	"generic.title.add_support": "Thêm hỗ trợ viên",
 	"generic.title.remove_admin": "Gỡ quản trị viên",
 	"generic.title.remove_support": "Gỡ hỗ trợ viên",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Đại diện hỗ trợ viên đã được thêm thành công: %s",
 	"generic.title.language": "Ngôn ngữ",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.removesupport.success": "Đại diện hỗ trợ viên đã được gỡ thành công: %s",
 	"commands.addadmin.success": "Đã thêm quản trị viên thành công: %s",
 	"commands.removeadmin.success": "Đã gỡ quản trị viên thành công: %s",
 	"generic.title.setup": "Thiết lập",
@@ -193,7 +193,7 @@
 		"switch_panel": {
 			"invalid_panel": "Bảng không hợp lệ: Bạn cần chọn 1 từ mục dưới",
 			"success": "Phiếu hỗ trợ này đã được chuyển sang bảng \"%s' bởi <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Bạn không thể chuyển đổi bảng điều khiển sử dụng kênh chủ đề từ phiếu hỗ trợ không dùng kênh chủ đề"
 		},
 		"blacklist": {
 			"staff": "Quản lí không thể bị cho vào danh sách đen",
@@ -378,84 +378,84 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Chọn loại dữ liệu GDPR mà bạn muốn yêu cầu:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Các tùy chọn xóa bản ghi chép**\n-# _Xóa những bản ghi chép từ các máy chủ bạn sở hữu_",
+			"message": "### **Các tùy chọn ẩn danh tin nhắn**\n-# _Ẩn danh tin nhắn của bạn từ các bản ghi chép trong các máy chủ được chọn_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Thông tin cần lưu ý**\n* Việc xóa bỏ là **vĩnh viễn** và không thể hoàn tác\n* Bạn chỉ có thể xóa các bản ghi chép từ các máy chủ mà **bạn** sở hữu\n* Chỉ có tin nhắn của **bạn** mới có thể được ẩn danh trong các bản ghi chép\n* Yêu cầu của bạn có thể mất tới **30 ngày** để hoàn thiện\n* Yêu cầu của bạn sẽ được xử lí **theo lượt**",
+		"resources": "### **Các thông tin**\n[GDPR là gì?](%s)\n[Quyền được xóa bỏ](%s)\n[Quyền được truy cập](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Tất cả bản ghi chép từ các máy chủ",
+			"specific_transcripts": "Những bản ghi chép cụ thể",
+			"all_messages": "Tất cả tin nhắn bạn gửi trong các máy chủ",
+			"specific_messages": "Tin nhắn của bạn trong phiếu hỗ trợ cụ thể"
 		},
-		"language_option": "Language",
+		"language_option": "Ngôn ngữ",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Xóa Tất cả bản ghi chép từ các máy chủ",
+			"specific_transcripts": "Xóa những bản ghi chép cụ thể",
+			"all_messages": "Ẩn danh tin nhắn của bạn trong các máy chủ",
+			"specific_messages": "Ảm danh tin nhắn của bạn trong phiếu hỗ trợ cụ thể",
+			"select_server": "Chọn một máy chủ",
+			"select_servers": "Chọn một hoặc nhiều máy chủ",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "ID máy chủ",
+				"placeholder": "Nhập ID máy chủ"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "Các ID máy chủ",
+				"placeholder": "Nhập ID máy chủ có thể tách ra bằng dấu phẩy (Vd: 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "Các ID phiếu hỗ trợ",
+				"placeholder": "Nhập ID phiếu hỗ trợ có thể tách ra bằng dấu phẩy (Vd: 123, 456, 789)"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"title": "Xác nhận yêu cầu GDPR",
+			"all_transcripts": "**Loại yêu cầu:** Xóa tất cả bản ghi chép từ máy chủ bạn sở hữu\n**Máy chủ:** %s",
+			"all_transcripts_multi": "**Loại yêu cầu:** Xóa tất cả bản ghi chép từ các máy chủ bạn sở hữu\n**Danh sách máy chủ:** \n* %s",
+			"specific_transcripts": "**Loại yêu cầu:** Xóa bản ghi chép cụ thể từ máy chủ\n**Máy chủ:** %s\n**ID phiếu hỗ trợ:** %s",
+			"all_messages": "**Loại yêu cầu:** Ẩn danh tất cả tin nhắn của bạn trong máy chủ được chọn\n**Máy chủ:** %s",
+			"all_messages_multi": "**Loại yêu cầu:** Ẩn danh tất cả tin nhắn của bạn trong các máy chủ được chọn\n**Danh sách máy chủ:** \n* %s",
+			"specific_messages": "**Loại yêu cầu:** Ẩn danh tất cả tin nhắn của bạn trong phiếu hỗ trợ cụ thể\n**Máy chủ:** %s\n**ID phiếu hỗ trợ:**: %s",
+			"warning": "\n\n⚠️ **Cảnh cáo:** Sau khi thực hiện hành động sẽ không thể hoàn tác lại.\n\nBạn có hiểu và đồng ý rằng hành động trên là vĩnh viễn không?",
+			"button": "Đồng ý - Tôi đã hiểu"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"title": "Yêu cầu GDPR đang được duyệt",
+			"all_transcripts": "**Loại yêu cầu:** Xóa tất cả bản ghi chép trong máy chủ\n**Máy chủ:** %s",
+			"all_transcripts_multi": "**Loại yêu cầu:** Xóa tất cả bản ghi chép trong các máy chủ \n**Danh sách máy chủ:** \n* %s",
+			"specific_transcripts": "**Loại yêu cầu:** Xóa các bản ghi chép cụ thể \n**Máy chủ:** %s\n**ID phiếu hỗ trợ:** %s",
+			"all_messages": "**Loại yêu cầu:** Ẩn danh tất cả tin nhắn của bạn trong máy chủ\n**Máy chủ:** %s",
+			"all_messages_multi": "**Loại yêu cầu:** Ẩn danh tất cả tin nhắn của bạn trong các máy chủ\n**Danh sách máy chủ:** \n* %s",
+			"specific_messages": "**Loại yêu cầu:** Ẩn danh tất cả tin nhắn của bạn trong phiếu hỗ trợ cụ thể\n**Máy chủ:** %s\n**ID phiếu hỗ trợ:**: %s",
+			"footer": "\n\nYêu cầu của bạn đã được đưa vào kiểm duyệt để xử lý.\nThời gian xử lý sẽ phụ thuộc vào số lượng bản ghi chép."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"title": "Yêu cầu GDPR đã được duyệt thành công",
+			"all_transcripts": "**Loại yêu cầu:** Xóa tất cả bản ghi chép trong máy chủ\n**Máy chủ:** %s\n**Bản ghi chép đã xóa:** %d",
+			"all_transcripts_multi": "**Loại yêu cầu:** Xóa tất cả bản ghi chép trong các máy chủ\n**Danh sách máy chủ:** \n* %s\n**Bản ghi chép đã xóa:** %d",
+			"specific_transcripts": "**Loại yêu cầu:** Xóa bản ghi chép cụ thể từ máy chủ\n**Máy chủ:** %s\n**Bản ghi chép đã xóa:** %d",
+			"all_messages": "**Loại yêu cầu:** Ẩn danh tất cả tin nhắn của bạn trong trong máy chủ\n**Máy chủ:** %s\n**Tin nhắn được ẩn danh:**: %d",
+			"all_messages_multi": "**Loại yêu cầu:** Ẩn danh tất cả tin nhắn của bạn trong các máy chủ\n**Danh sách máy chủ:** \n* %s\n**Tin nhắn được ẩn danh:**: %d",
+			"specific_messages": "**Loại yêu cầu:** Ẩn danh tất cả tin nhắn của bạn trong phiếu hỗ trợ cụ thể\n**Máy chủ:** %s\n**Tin nhắn được ẩn danh:**: %d",
+			"error": "\n\n**⚠️ Lỗi:** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "⚠️ Đã gặp vấn đề với yêu cầu GDPR của bạn: %s",
+			"no_data": "ℹ️ Đã xử lí yêu cầu GDPR của bạn. Không có dữ liệu nào được tìm thấy.",
+			"success": "✅ Đã xử lí yêu cầu GDPR của bạn thành công."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
+			"no_servers": "Không tìm thấy máy chủ bạn sở hữu và có bản ghi chép.",
 			"invalid_server_id": "ID máy chủ không hợp lệ.",
 			"invalid_ticket_ids": "IDs của các phiếu hỗ trợ không hợp lệ. Vui lòng nhập ID dưới dạng số và tách ra bằng dấu phẩy (VD: 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
+			"not_owner": "Chỉ chủ sở hữu máy chủ mới có thể xóa các bản ghi chép.",
 			"server_not_found": "Không tìm thấy máy chủ.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"queue_failed": "Kiểm duyệt yêu cầu GDPR thất bại. Vui lòng thử lại sau.",
+			"worker_offline": "Hệ thống xử lí yêu cầu GDPR hiện không khả dụng. Vui lòng thử lại sau hoặc liên hệ với đội ngũ hỗ trợ nếu vấn đề này còn tiếp diễn."
 		}
 	},
 	"errors": {
@@ -475,15 +475,15 @@
 		},
 		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
 		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
-		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
-		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
-		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
-		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
-		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
+		"invalid_channel_type": "Kênh cho tác vụ này không hợp lệ, kênh có thể đã bị xóa.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng các kênh trong cài đặt đã hợp lệ.",
+		"invalid_category": "Danh mục không hợp lệ, danh mục có thể đã bị xóa.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đặt lại một danh mục hợp lệ cho bảng phiếu hỗ trợ.",
+		"invalid_id": "ID không hợp lệ trong cấu hình của bot.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và xác minh lại các cài đặt.",
+		"invalid_characters": "Nội dung nhập vào có chứa ký không hợp lệ.\n\nChỉ được phép sử dụng chữ cái, số, dấu gạch ngang và dấu gạch dưới.",
+		"invalid_choice": "Có lựa chọn không hợp lệ.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và xác minh lại các cài đặt.",
 		"invalid_form": "Tác vụ này không thể thực hiện do dữ liệu được nhập không hợp lệ.",
 		"timed_out": "Đã hết thời gian xử lí, vui lòng thử lại.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
+		"rate_limited": "Bạn đã bị giới hạn. Vui lòng thử lại sau %s.",
+		"rate_limited_global": "Discord đang bị quá tải (giới hạn toàn cầu). Vui lòng thử lại sau %s.",
 		"general": "Đã có lỗi xảy ra khi thực hiện tác vụ.",
 		"error_id": "Lỗi ID"
 	}
