@@ -309,7 +309,7 @@
 			"admin": {
 				"users": "Admin Users",
 				"roles": "Admin Roles",
-				"no_users": "No admin users",
+				"no_users": "Geen admin gebruikers",
 				"no_roles": "No admin roles"
 			},
 			"support": {
@@ -414,10 +414,10 @@
 		},
 		"confirm": {
 			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
+			"all_transcripts": "**Type aanvraag:** Verwijder alle transcripts van een server waarvan u de eigenaar bent\n**Server:** %s",
+			"all_transcripts_multi": "**Aanvraag Type:** Verwijder alle transcripts van servers die u bezit\n**Servers:**\n* %s",
+			"specific_transcripts": "**Request Type:** Verwijder specifieke transcripts van server\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_messages": "**Aanvraag Type:** anonimiseert al uw berichten in de geselecteerde server\n**Server:** %s",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
 			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
@@ -425,17 +425,17 @@
 		},
 		"queued": {
 			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"all_transcripts": "**Type aanvraag:** Verwijder alle transcripts van een server waarvan u de eigenaar bent\n**Server:** %s",
+			"all_transcripts_multi": "**Type aanvraag:** Verwijder alle transcripts van een server waarvan u de eigenaar bent\n**Server:** %s",
+			"specific_transcripts": "**Request Type:** Verwijder specifieke transcripts van server\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_messages": "**Aanvraag Type:** anonimiseert al uw berichten in de geselecteerde server\n**Server:** %s",
+			"all_messages_multi": "**Aanvraag Type:** anonimiseert al uw berichten in de geselecteerde server\n**Server:** %s",
+			"specific_messages": "**Verzoek Type:** Anonimiseer je berichten in specifieke tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"footer": "\n\nJe aanvraag staat in de wachtrij voor verwerking.\nverwerking kan enige tijd in beslag nemen, afhankelijk van het aantal transcripties."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
+			"title": "GDPR aanvraag voltooid",
+			"all_transcripts": "**Request Type:** Verwijder specifieke transcripts van server\n**Server:** %s\n**Ticket IDs:** %d",
 			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
 			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
 			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
@@ -449,9 +449,9 @@
 			"success": "✅ Your GDPR request has been processed successfully."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
+			"no_servers": "Geen servers gevonden waar je de eigenaar bent en transcripten hebt.",
+			"invalid_server_id": "Ongeldige server-ID opgegeven.",
+			"invalid_ticket_ids": "Ongeldige ticket-IDs verstrekt. Voer numerieke ticket-ID's in, gescheiden door komma's, (bijv. 123, 456, 789).",
 			"not_owner": "You must be the server owner to delete transcripts.",
 			"server_not_found": "Server not found.",
 			"queue_failed": "Failed to queue GDPR request. Please try again later.",
