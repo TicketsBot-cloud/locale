@@ -130,8 +130,8 @@
 	"generic.title.blacklisted": "Svartlistad",
 	"generic.title.blacklist": "Svartlista",
 	"generic.error.blacklisted": "Du är svartlistad i denna server",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Denna server är svartlistad från att använda denna bot",
+	"generic.error.user_blacklisted": "Du är svartlistad från att använda denna bot",
 	"commands.blacklist.add.success": "<@%d> har svartlistats",
 	"commands.blacklist.remove.success": "<@%d> är inte längre svartlistad",
 	"generic.title.add_admin": "Lägg till administratör",
@@ -482,8 +482,8 @@
 		"invalid_choice": "Ett ogiltigt alternativ har angetts.\n\nBe en serveradministratör att besöka [dashboard](%s) och kontrollera att alla inställningar är korrekta.",
 		"invalid_form": "Åtgärden kunde inte slutföras på grund av ogiltig indata.",
 		"timed_out": "Åtgärden avbröt, var god försök igen.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
+		"rate_limited": "Du är begränsad. Försök igen %s.",
+		"rate_limited_global": "Discord har hög belastning (global hastighetsbegränsning). Försök igen %s.",
 		"general": "Ett fel uppstod när åtgärden utfördes.",
 		"error_id": "Fel ID"
 	}
