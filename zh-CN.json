@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets 是一个易于使用且几乎可以完全自定义的问题单机器人\\n帮助频道: https://discord.gg/VtV3rSk\\n指令: 请输入 `/help`\\n输入`/setup`开始设定吧！",
+	"commands.about": "Tickets 是一个易于使用且几乎可以完全自定义的问题单机器人\\n帮助频道: https://discord.gg/ticketsbot\\n指令: 请输入 `/help`\\n输入`/setup`开始设定吧！",
 	"commands.add.no_members": "你必须标注一个人嗄",
 	"commands.add.no_permission": "你没有权限添加该成员到问题单",
 	"commands.addadmin.no_members": "您需要提及一个用户或一个身份组来授予管理员权限",
