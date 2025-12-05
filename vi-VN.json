@@ -473,8 +473,8 @@
 			"title": "Tôi đang thiếu những quyền sau để thực hiện tác vụ",
 			"body": "Vui lòng cấp những quyền sau cho bot hoặc cấp quyền `Quản trị viên` và thử lại.\nVui lòng try cập [trang tài liệu](%s) để biết lí do tại sao những quyền sau cần thiết."
 		},
-		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
-		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
+		"invalid_length": "Có một hoặc nhiều dòng quá ngắn hoặc quá dài.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng tất cả dữ liệu nhập vào và các dòng có độ dài giới hạn theo yêu cầu.",
+		"required_field": "Có một dòng yêu cầu đang bị thiếu hoặc để trống.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng tất cả các dòng đều được điền đầy đủ.",
 		"invalid_channel_type": "Kênh cho tác vụ này không hợp lệ, kênh có thể đã bị xóa.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng các kênh trong cài đặt đã hợp lệ.",
 		"invalid_category": "Danh mục không hợp lệ, danh mục có thể đã bị xóa.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đặt lại một danh mục hợp lệ cho bảng phiếu hỗ trợ.",
 		"invalid_id": "ID không hợp lệ trong cấu hình của bot.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và xác minh lại các cài đặt.",
