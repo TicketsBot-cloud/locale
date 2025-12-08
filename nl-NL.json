@@ -397,8 +397,8 @@
 			"specific_transcripts": "Delete Specific Transcripts",
 			"all_messages": "Anonymize Your Messages in Servers",
 			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"select_server": "Selecteer een server",
+			"select_servers": "Selecteer één of meer servers",
 			"server_id": {
 				"label": "Server ID",
 				"placeholder": "Enter the server ID"
@@ -420,8 +420,8 @@
 			"all_messages": "**Aanvraag Type:** anonimiseert al uw berichten in de geselecteerde server\n**Server:** %s",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"warning": "\n\n⚠️ **Waarschuwing** Deze actie is permanent en kan biet ongedaan worden gemaakt.\n\nBegrijpt u dit en accepteert u dat deze actie permanent is?",
+			"button": "Bevestig - ik begrijp het"
 		},
 		"queued": {
 			"title": "GDPR Request Queued",
