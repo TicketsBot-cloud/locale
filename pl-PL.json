@@ -130,8 +130,8 @@
 	"generic.title.blacklisted": "Dodany do czarnej listy",
 	"generic.title.blacklist": "Czarna lista",
 	"generic.error.blacklisted": "Jesteś na czarnej liście na tym serwerze",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Ten serwer jest na czarnej liście używania tego bota",
+	"generic.error.user_blacklisted": "Jesteś na czarnej liście używania tego bota",
 	"commands.blacklist.add.success": "<@%d> został dodany do czarnej listy",
 	"commands.blacklist.remove.success": "<@%d> został usunięty z czarnej listy",
 	"generic.title.add_admin": "Dodaj Administratora",
@@ -193,7 +193,7 @@
 		"switch_panel": {
 			"invalid_panel": "Nieprawidłowy panel: Musisz wybrać jeden z listy rozwijanej",
 			"success": "To zgłoszenie zostało przełączone na panel `%s` przez <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Nie możesz przełączyć się na panel, który używa wątków ze zgłoszenia nieużywającego wątków"
 		},
 		"blacklist": {
 			"staff": "Obsługa nie może być na czarnej liście",
@@ -307,15 +307,15 @@
 		"viewstaff": {
 			"title": "Obsługa",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Administratorzy",
+				"roles": "Role Administratora",
+				"no_users": "Brak administratorów",
+				"no_roles": "Brak ról administratora"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
+				"users": "Użytkownicy wsparcia",
+				"roles": "Role wsparcia",
+				"no_roles": "Brak ról wsparcia",
 				"users_warning": "-# **Uwaga:** Użytkownicy w zespołach wsparcia są teraz przestarzali. Proszę migrować do roli."
 			}
 		}
@@ -386,30 +386,30 @@
 		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
 		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Wszystkie transkrypty z serwerów",
+			"specific_transcripts": "Określone transkrypty",
+			"all_messages": "Wszystkie Twoje wiadomości w serwerach",
+			"specific_messages": "Twoje wiadomości w określonych zgłoszeniach"
 		},
 		"language_option": "Język",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Usuń wszystkie transkrypty z serwerów",
+			"specific_transcripts": "Usuń określone transkrypty",
+			"all_messages": "Anonimizuj swoje wiadomości w serwerach",
+			"specific_messages": "Anonimizuj swoje wiadomości w określonych zgłoszeniach",
+			"select_server": "Wybierz serwer",
+			"select_servers": "Wybierz jeden lub więcej serwerów",
 			"server_id": {
 				"label": "ID Serwera",
-				"placeholder": "Enter the server ID"
+				"placeholder": "Wprowadź ID serwera"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "ID Serwerów",
+				"placeholder": "Wprowadź ID serwerów oddzielone przecinkami (np. 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "ID Zgłoszeń",
+				"placeholder": "Wprowadź ID zgłoszeń oddzielone przecinkami (np. 123, 456, 789)"
 			}
 		},
 		"confirm": {
@@ -449,7 +449,7 @@
 			"success": "✅ Twoje żądanie RODO zostało przetworzone pomyślnie."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
+			"no_servers": "Nie znaleziono serwerów, w których jesteś właścicielem i masz transkrypty.",
 			"invalid_server_id": "Podano nieprawidłowe ID serwera.",
 			"invalid_ticket_ids": "Podano nieprawidłowe ID zgłoszenia. Proszę wprowadzić numeryczne ID zgłoszenia oddzielone przecinkami (np. 123, 456, 789).",
 			"not_owner": "Musisz być właścicielem serwera, aby usunąć transkrypty.",
