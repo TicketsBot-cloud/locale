@@ -77,7 +77,7 @@
 	"help.unclaim": "Cofa przejęcie zgłoszenia",
 	"help.viewstaff": "Pokazuje członków administracji i role",
 	"help.vote": "Daje link do głosowania w zamian za darmowe premium",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Zarządzaj swoimi żądaniami RODO",
 	"open.success": "Otwarto nowe zgłoszenie: %s",
 	"open.outside_support_hours": "Panel jest obecnie niedostępny. Prosimy spróbować ponownie w godzinach pracy wsparcia.",
 	"setup.auto.category.failure": "Nie posiadam uprawnienia `Zarządzanie kanałami`",
@@ -102,7 +102,7 @@
 	"commands.open.from.moved": "Dyskusja została przeniesiona do zgłoszenia (<#%d>)",
 	"help.close_request": "Wysyła wiadomość do użytkownika z prośbą o zamknięcie zgłoszenia",
 	"close.reason_too_long": "Powód nie może być dłuższy niż 255 znaków",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "Wniosek o zamknięcie zgłoszenia wysłany pomyślnie",
 	"commands.close_request.no_reason": "<@%d> wnoskuje o zamknięcie tego zgłoszenia.\n\nProszę zaakceptować lub odrzucić używając poniższych przycisków.",
 	"commands.close_request.with_reason": "<@%d> wnioskuje o zamknięcie tego zgłoszenia. Powód:\n```\n%s\n```\nProszę zaakceptować lub odrzucić używając poniższych przycisków.",
 	"commands.close_request.no_permission": "Tylko użytkownik, który otworzył zgłoszenie może odpowiedzieć na żądanie zamknięcia",
@@ -484,7 +484,7 @@
 		"timed_out": "The operation timed out, please try again.",
 		"rate_limited": "You're being rate limited. Please try again %s.",
 		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
-		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"general": "Podczas wykonywania tej akcji wystąpił błąd.",
+		"error_id": "ID błędu"
 	}
 }
