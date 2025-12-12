@@ -46,6 +46,7 @@
 	"help.addsupport": "添加一个身份组作为工单支持小组",
 	"help.admin": "机器人管理",
 	"help.admin.blacklist": "将服务器使用机器人列入黑名单",
+	"help.admin.debug.server": "Debug a server",
 	"help.admin.generate_premium": "产生高级版代码",
 	"help.admin.unblacklist": "将该服务器从黑名单移除",
 	"help.blacklist": "切换是否允许用户与机器人互动（表情符号回馈等等）",
@@ -155,8 +156,10 @@
 	"generic.title.claimed": "已认领的工单",
 	"generic.title.unclaimed": "未认领的工单",
 	"generic.title.add": "添加",
-	"commands.add.success": "已添加 <@%s> 至 <#%d>",
-	"commands.remove.success": "<@%s> 已从 <#%d> 移除",
+	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "此服务器内的工单创建速度过快",
 	"commands.claim.thread": "由于 Discord 的限制，认领操作暂不支持讨论串",
 	"generic.join_support_server": "加入支持服务器",
@@ -238,7 +241,7 @@
 			"not_thread": "只有子区可以重新打开",
 			"thread_deleted": "这个工单已被永久删除",
 			"success": "任务单 %d 被重新打开在：<#%d>",
-			"in_ticket": "此工单已被 <@%d> 重新打开。"
+			"in_ticket": "此工单已被 <@%d > 重新打开。"
 		},
 		"premium": {
 			"key": "密钥",
