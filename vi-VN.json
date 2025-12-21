@@ -274,7 +274,7 @@
 			},
 			"about": "Nâng cấp cho bạn truy cập thêm bảng, số liệu, bot tuỳ chỉnh và nhiều hơn! Truy cập [website] (https://tickets.bot/premium) để tìm hiểu thêm.",
 			"already_activated": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.",
-			"already_activated_whitelabel": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.\n\nCần trợ giúp để bắt đầu sử dụng nhãn trắng? Đọc [hướng dẫn cài đặt](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Tin vui nè! Máy chủ này đã được kích hoạt bản cao cấp.\n\nNếu bạn cần trợ giúp trong việc cài đặt whitelabel, hãy đọc [hướng dẫn cài đặt whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Phiên bản cao cấp có thể được mua trực tiếp trên Discord. Bấm vào nút phía dưới tin nhắn để mở trang quản lý gói đăng ký.\n\nSau khi thanh toán, vui lòng đợi tầm 5 phút để gói đăng ký có thể được kích hoạt."
 			},
