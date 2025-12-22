@@ -159,7 +159,7 @@
 	"commands.add.success": "<@%s> został dodany do <#%d>",
 	"commands.add.role_thread": "Ze względu na ograniczenia Discorda, role nie mogą zostać dodawane do zgłoszeń wątków",
 	"commands.remove.success": "<@%s> został usunięty z <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.remove.role_thread": "Ze względu na ograniczenia Discorda, role nie mogą zostać usunięte ze zgłoszeń wątków",
 	"open.ratelimited": "Zgłoszenia są otwierane za szybko na tym serwerze",
 	"commands.claim.thread": "Ze względu na ograniczenia Discorda, funkcja obsługiwania zgłoszeń nie wspiera wątków",
 	"generic.join_support_server": "Dołącz do serwera wsparcia",
