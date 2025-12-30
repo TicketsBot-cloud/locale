@@ -46,10 +46,8 @@
 	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "봇 관리",
 	"help.admin.blacklist": "봇 사용을 길드에서 차단합니다.",
-	"help.admin.check_premium": "서버의 프리미엄 상태 확인",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug.server": "Debug a server",
 	"help.admin.generate_premium": "프리미엄 키 생성",
-	"help.admin.get_owner": "서버의 소유자를 가져옵니다.",
 	"help.admin.unblacklist": "길드 블랙리스트에서 길드 제거",
 	"help.blacklist": "사용자가 봇과 상호 작용할 수 있는지 여부를 전환합니다.",
 	"help.cancel": "설정 프로세스를 취소합니다.",
@@ -77,7 +75,6 @@
 	"help.unclaim": "현재 티켓의 배정을 제거합니다.",
 	"help.viewstaff": "스태프 및 역할을 나열합니다.",
 	"help.vote": "무료 프리미엄을 위해 투표할 수 있는 링크를 제공합니다.",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "새 티켓을 열었습니다: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
@@ -127,11 +124,14 @@
 	"generic.title.invite": "초대",
 	"generic.title.close": "닫기",
 	"generic.title.claim": "배정",
+	"generic.title.unclaim": "Unclaim",
 	"generic.title.blacklisted": "블랙 리스트됨",
 	"generic.title.blacklist": "블랙리스트",
 	"generic.error.blacklisted": "당신은 이 서버에서 블랙리스트입니다.",
-	"commands.blacklist.add.success": "가 블랙리스트에 추가되었습니다.",
-	"commands.blacklist.remove.success": "가 블랙리스트에서 삭제되었습니다.",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"commands.blacklist.add.success": "<@%d>가 블랙리스트에 추가되었습니다.",
+	"commands.blacklist.remove.success": "<@%d>가 블랙리스트에서 삭제되었습니다.",
 	"generic.title.add_admin": "관리자 추가",
 	"generic.title.add_support": "지원 추가",
 	"generic.title.remove_admin": "관리자 제거",
@@ -156,8 +156,10 @@
 	"generic.title.claimed": "배정된 티켓",
 	"generic.title.unclaimed": "배정안된 티켓",
 	"generic.title.add": "추가",
-	"commands.add.success": "<@%d>가 <#%d>에 추가되었습니다.",
-	"commands.remove.success": "<@%d>가 <#%d>에서 제거되었습니다.",
+	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "이 서버에서 티켓이 너무 빨리 열리고 있습니다.",
 	"commands.claim.thread": "디스코드의 제한으로 인해 배정이 스레드를 지원하지 않아요.",
 	"generic.join_support_server": "지원 서버 참가",
@@ -190,11 +192,13 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "잘못된 패널: 드롭다운에서 하나를 선택해야 합니다.",
-			"success": "이 티켓은 `@%d`에 의해 `%s` 패널로 전환되었습니다."
+			"success": "이 티켓은 `@%d`에 의해 `%s` 패널로 전환되었습니다.",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "스태프를 블랙리스트에 올릴 수 없습니다.",
 			"add_role": {
+				"success": "<@&%d>가 블랙리스트에 추가되었습니다.",
 				"limit": "역할 블랙리스트 개수 제한에 도달했어요 (%d)"
 			},
 			"add": {
@@ -334,6 +338,13 @@
 		"reopen": "이전에 닫힌 티켓을 다시 엽니다",
 		"notes": "지원 담당자 간의 비공개 논의용 스레드를 생성합니다"
 	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d>가 블랙리스트에서 삭제되었습니다."
+			}
+		}
+	},
 	"setup": {
 		"auto": {
 			"docs": "더 많은 것을 확인하고 싶으신가요? [문서](https://docs.tickets.bot)에서 봇의 모든것을 구성하는 방법을 알려드립니다!"
@@ -462,8 +473,17 @@
 			"title": "I am missing the following permissions required to perform this action",
 			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
 		},
+		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
+		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
+		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
+		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
+		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
+		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
+		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "The action could not be completed due to invalid input.",
 		"timed_out": "The operation timed out, please try again.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "An error occurred while performing this action.",
 		"error_id": "Error ID"
 	}

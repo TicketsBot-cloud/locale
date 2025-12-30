@@ -46,10 +46,8 @@
 	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Managementul botului",
 	"help.admin.blacklist": "Pune un server pe lista neagră pentru a-l împiedica să folosească botul",
-	"help.admin.check_premium": "Verifică statusul premium al unui server",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug.server": "Debug a server",
 	"help.admin.generate_premium": "Generează chei premium",
-	"help.admin.get_owner": "Obține proprietarul unui server",
 	"help.admin.unblacklist": "Elimină un server din lista neagră a serverelor",
 	"help.blacklist": "Comută dacă utilizatorilor li se permite să interacționeze cu botul",
 	"help.cancel": "Anulează procesul de configurare",
@@ -77,7 +75,6 @@
 	"help.unclaim": "Elimină revendicarea de pe tichetul actual",
 	"help.viewstaff": "Listează membrii staffului și rolurile",
 	"help.vote": "Îți dă un link pentru a vota gratuit pentru premium gratuit",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "A deschis un nou tichet: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
@@ -127,11 +124,14 @@
 	"generic.title.invite": "Invitație",
 	"generic.title.close": "Închide",
 	"generic.title.claim": "Revendică",
+	"generic.title.unclaim": "Unclaim",
 	"generic.title.blacklisted": "Adăugat în lista neagră",
 	"generic.title.blacklist": "Listă neagră",
 	"generic.error.blacklisted": "Ești pe lista neagră pe acest server",
-	"commands.blacklist.add.success": "a fost adăugat în lista neagră",
-	"commands.blacklist.remove.success": "a fost scos de pe lista neagră",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"commands.blacklist.add.success": "<@%d> a fost adăugat în lista neagră",
+	"commands.blacklist.remove.success": "<@%d> a fost scos de pe lista neagră",
 	"generic.title.add_admin": "Adaugă un admin",
 	"generic.title.add_support": "Adaugă un reprezentant de suport",
 	"generic.title.remove_admin": "Elimină un admin",
@@ -156,8 +156,10 @@
 	"generic.title.claimed": "Tichet revendicat",
 	"generic.title.unclaimed": "Tichet nerevendicat",
 	"generic.title.add": "Adaugă",
-	"commands.add.success": "<@%d> a fost adăugat în <#%d>",
-	"commands.remove.success": "<@%d> a fost eliminat din <#%d>",
+	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Tichetele sunt deschise prea repede în acest server",
 	"commands.claim.thread": "Din cauza limitărilor Discord, nu este posibil să revendici threaduri",
 	"generic.join_support_server": "Alătură-te serverului de suport",
@@ -190,11 +192,13 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Panou nevalid: Trebuie să selectezi unul din lista derulantă",
-			"success": "Acest tichet a fost comutat la panoul `%s` de <@%d>"
+			"success": "Acest tichet a fost comutat la panoul `%s` de <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Membrii staffului nu pot fi adăugați în lista neagră",
 			"add_role": {
+				"success": "<@&%d> a fost adăugat în lista neagră",
 				"limit": "Ai atins limita de roluri de pe lista neagră (%d)"
 			},
 			"add": {
@@ -334,6 +338,13 @@
 		"reopen": "Redeschide un tichet care a fost închis anterior",
 		"notes": "Creează un thread pentru discuții private între reprezentanții de suport"
 	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> a fost scos de pe lista neagră"
+			}
+		}
+	},
 	"setup": {
 		"auto": {
 			"docs": "Vrei să explorezi mai multe? [Documentația](https://docs.tickets.bot) noastră te va învăța cum să configurezi fiecare aspect al botului!"
@@ -462,8 +473,17 @@
 			"title": "I am missing the following permissions required to perform this action",
 			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
 		},
+		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
+		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
+		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
+		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
+		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
+		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
+		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "The action could not be completed due to invalid input.",
 		"timed_out": "The operation timed out, please try again.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "An error occurred while performing this action.",
 		"error_id": "Error ID"
 	}

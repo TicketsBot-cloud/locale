@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets 是一个易于使用且几乎可以完全自定义的问题单机器人\\n帮助频道: https://discord.gg/VtV3rSk\\n指令: 请输入 `t!help`\\n输入`t!setup`开始设定吧！",
+	"commands.about": "Tickets 是一个易于使用且几乎可以完全自定义的问题单机器人\\n帮助频道: https://discord.gg/ticketsbot\\n指令: 请输入 `/help`\\n输入`/setup`开始设定吧！",
 	"commands.add.no_members": "你必须标注一个人嗄",
 	"commands.add.no_permission": "你没有权限添加该成员到问题单",
 	"commands.addadmin.no_members": "您需要提及一个用户或一个身份组来授予管理员权限",
@@ -7,7 +7,7 @@
 	"commands.addsupport.no_members": "您需要提及用户或命身份组以授予支持代表权限",
 	"commands.blacklist.no_members": "您需要提及一个用户来切换黑名单状态",
 	"commands.blacklist.self": "你想不开是不是？干嘛黑名单自己",
-	"commands.claim.success": "你的问题单将由 %s 为您服务",
+	"commands.claim.success": "您的工单将由 %s 处理",
 	"commands.invite": "[点击此处](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "您需要指定语言代码或标志。可用语言:\\n%s",
 	"commands.open.ticket_limit": "您一次只能打开 %d %s",
@@ -43,13 +43,11 @@
 	"help.about": "告诉您有关机器人的信息",
 	"help.add": "将用户添加到问题单",
 	"help.addadmin": "授予用户或身份组管理员权限",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "添加一个身份组作为工单支持小组",
 	"help.admin": "机器人管理",
 	"help.admin.blacklist": "将服务器使用机器人列入黑名单",
-	"help.admin.check_premium": "检查服务器是否有开通高级版",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug.server": "Debug a server",
 	"help.admin.generate_premium": "产生高级版代码",
-	"help.admin.get_owner": "获取服务器的拥有者资讯",
 	"help.admin.unblacklist": "将该服务器从黑名单移除",
 	"help.blacklist": "切换是否允许用户与机器人互动（表情符号回馈等等）",
 	"help.cancel": "取消设置流程",
@@ -59,7 +57,7 @@
 	"help.invite": "为机器人提供一个邀请链接",
 	"help.language": "更换语言",
 	"help.managetags": "添加、删除或显示所有标籤",
-	"help.open": "开启一个新的问题单",
+	"help.open": "开启一个新的工单",
 	"help.panel": "创建表情符号回馈面板让成员们能够轻松点击创建问题单",
 	"help.premium": "购买高级版后运行此命令来激活它",
 	"help.remove": "将成员从问题单移除",
@@ -77,7 +75,6 @@
 	"help.unclaim": "撤销原本分配到该问题单的人",
 	"help.viewstaff": "显示问题单工作人员跟支持人员",
 	"help.vote": "给你一个投票连结让你获得免费高级版的资格",
-	"help.check_perms": "检查机器人是否被赋予正确权限",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "开了一张问题单：%s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
@@ -127,11 +124,14 @@
 	"generic.title.invite": "邀请",
 	"generic.title.close": "关闭",
 	"generic.title.claim": "认领",
+	"generic.title.unclaim": "Unclaim",
 	"generic.title.blacklisted": "黑名单",
 	"generic.title.blacklist": "黑名单",
 	"generic.error.blacklisted": "你的服务器在黑名单中",
-	"commands.blacklist.add.success": "已被列入黑名单",
-	"commands.blacklist.remove.success": "已被移出黑名单",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"commands.blacklist.add.success": "<@%d>已被列入黑名单",
+	"commands.blacklist.remove.success": "<@%d> 已被移出黑名单",
 	"generic.title.add_admin": "添加管理员",
 	"generic.title.add_support": "添加支持",
 	"generic.title.remove_admin": "移除管理员",
@@ -139,8 +139,8 @@
 	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "语言",
 	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.addadmin.success": "已成功添加管理员%s",
+	"commands.removeadmin.success": "已成功移除管理员%s",
 	"generic.title.setup": "部署",
 	"generic.title.premium": "高级订阅",
 	"generic.title.panel": "控制面板",
@@ -156,8 +156,10 @@
 	"generic.title.claimed": "已认领的工单",
 	"generic.title.unclaimed": "未认领的工单",
 	"generic.title.add": "添加",
-	"commands.add.success": "已添加 <@%d> 至 <#%d>",
-	"commands.remove.success": "<@%d> 已从 <#%d > 移除",
+	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "此服务器内的工单创建速度过快",
 	"commands.claim.thread": "由于 Discord 的限制，认领操作暂不支持讨论串",
 	"generic.join_support_server": "加入支持服务器",
@@ -190,11 +192,13 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "无效的面板：您必须从下拉列表中选择一个",
-			"success": "这个工单被 <@%d> 切换到 `%s` 面板"
+			"success": "这个工单被 <@%d> 切换到 `%s` 面板",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "员工不能被列入黑名单",
 			"add_role": {
+				"success": "<@&%d> 已被列入黑名单",
 				"limit": "身份组黑名单已达到可添加的数量上限 (%d)"
 			},
 			"add": {
@@ -334,6 +338,13 @@
 		"reopen": "重新打开之前关闭的工单",
 		"notes": "创建一个提供给支持团队私下讨论的主题"
 	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> 已被移出黑名单"
+			}
+		}
+	},
 	"setup": {
 		"auto": {
 			"docs": "想要探索更多？我们的 [documentation](https://docs.tickets.bot) 将教你如何配置机器人！"
@@ -462,8 +473,17 @@
 			"title": "I am missing the following permissions required to perform this action",
 			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
 		},
+		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
+		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
+		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
+		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
+		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
+		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
+		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "The action could not be completed due to invalid input.",
 		"timed_out": "The operation timed out, please try again.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "An error occurred while performing this action.",
 		"error_id": "Error ID"
 	}

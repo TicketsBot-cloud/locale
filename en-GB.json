@@ -46,10 +46,8 @@
 	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Bot management",
 	"help.admin.blacklist": "Blacklist a guild from using the bot",
-	"help.admin.check_premium": "Check the premium status of a server",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug.server": "Debug a server",
 	"help.admin.generate_premium": "Generate premium keys",
-	"help.admin.get_owner": "Gets the owner of a server",
 	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
 	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
 	"help.cancel": "Cancels the setup process",
@@ -77,7 +75,6 @@
 	"help.unclaim": "Removes the claim on the current ticket",
 	"help.viewstaff": "Lists the staff members and roles",
 	"help.vote": "Gives you a link to vote for free premium",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Opened a new ticket: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
@@ -100,7 +97,6 @@
 	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
 	"commands.claim.no_permission": "Only staff members can claim tickets",
 	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
-	"commands.open.from.no_content": "This ticket was opened from [this message](%s) with no message content.",
 	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
 	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
 	"close.reason_too_long": "The reason cannot be longer than 255 characters",
@@ -128,11 +124,14 @@
 	"generic.title.invite": "Invite",
 	"generic.title.close": "Close",
 	"generic.title.claim": "Claim",
+	"generic.title.unclaim": "Unclaim",
 	"generic.title.blacklisted": "Blacklisted",
 	"generic.title.blacklist": "Blacklist",
 	"generic.error.blacklisted": "You are blacklisted in this server",
-	"commands.blacklist.add.success": "has been blacklisted",
-	"commands.blacklist.remove.success": "has been unblacklisted",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"commands.blacklist.add.success": "<@%d> has been blacklisted",
+	"commands.blacklist.remove.success": "<@%d> has been unblacklisted",
 	"generic.title.add_admin": "Add Admin",
 	"generic.title.add_support": "Add Support",
 	"generic.title.remove_admin": "Remove Admin",
@@ -157,8 +156,10 @@
 	"generic.title.claimed": "Claimed Ticket",
 	"generic.title.unclaimed": "Unclaimed Ticket",
 	"generic.title.add": "Add",
-	"commands.add.success": "<@%d> has been added to <#%d>",
-	"commands.remove.success": "<@%d> has been removed from <#%d>",
+	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Tickets are being opened too quickly in this server",
 	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
 	"generic.join_support_server": "Join Support Server",
@@ -191,11 +192,13 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Invalid panel: You must select one from the dropdown",
-			"success": "This ticket has been switched to the `%s` panel by <@%d>"
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
+				"success": "<@&%d> has been blacklisted",
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"add": {
@@ -335,6 +338,13 @@
 		"reopen": "Reopens a ticket that was previously closed",
 		"notes": "Creates a thread for private discussion between support representatives"
 	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> has been unblacklisted"
+			}
+		}
+	},
 	"setup": {
 		"auto": {
 			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
@@ -463,8 +473,17 @@
 			"title": "I am missing the following permissions required to perform this action",
 			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
 		},
+		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
+		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
+		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
+		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
+		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
+		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
+		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "The action could not be completed due to invalid input.",
 		"timed_out": "The operation timed out, please try again.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "An error occurred while performing this action.",
 		"error_id": "Error ID"
 	}

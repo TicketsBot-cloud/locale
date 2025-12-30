@@ -46,10 +46,8 @@
 	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Bot yönetimi",
 	"help.admin.blacklist": "Sunucunun botu kullanmasını kara listeye alarak engelle",
-	"help.admin.check_premium": "Sunucunun premium olup olmadığını kontrol et",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug.server": "Debug a server",
 	"help.admin.generate_premium": "Premium anahtarları oluşturur",
-	"help.admin.get_owner": "Bir sunucunun sahibini gösterir",
 	"help.admin.unblacklist": "Bir sunucuyu sunucu kara listesinden çıkarın",
 	"help.blacklist": "Kullanıcıların botu kullanmasına izin verilip, verilmediğini değiştirir",
 	"help.cancel": "Kurulum işlemini iptal eder",
@@ -77,7 +75,6 @@
 	"help.unclaim": "Talebin devredilmesini kaldırır",
 	"help.viewstaff": "Yetkilendirilmiş kullanıcı ve rolleri listeler",
 	"help.vote": "Ücretsiz premium üyelik için oy bağlantısı",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Talebin oluşturuldu: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
@@ -127,11 +124,14 @@
 	"generic.title.invite": "Davet",
 	"generic.title.close": "Kapat",
 	"generic.title.claim": "Talep",
+	"generic.title.unclaim": "Unclaim",
 	"generic.title.blacklisted": "Kara listeye alındı",
 	"generic.title.blacklist": "Karaliste",
 	"generic.error.blacklisted": "Bu sunucuda kara listeye alındınız",
-	"commands.blacklist.add.success": "kara listeye alındı",
-	"commands.blacklist.remove.success": "kara listeden çıkartıldı",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"commands.blacklist.add.success": "<@%d>, kara listeye alındı",
+	"commands.blacklist.remove.success": "<@%d>, kara listeden çıkartıldı",
 	"generic.title.add_admin": "Yönetici ekle",
 	"generic.title.add_support": "Destek ekle",
 	"generic.title.remove_admin": "Yöneticiyi kaldır",
@@ -156,8 +156,10 @@
 	"generic.title.claimed": "Destek Ver",
 	"generic.title.unclaimed": "Destek Vermeyi Sonlandır",
 	"generic.title.add": "Ekle",
-	"commands.add.success": "<@%d> adlı kişi <#%d> kanalına eklendi",
-	"commands.remove.success": "<@%d> adlı kişi <#%d> kanalından kaldırıldı",
+	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Sunucuda destek talepleri çok hızlı açılıyor",
 	"commands.claim.thread": "Discord sınırlamaları nedeniyle, hak talebinde bulunmak konuları desteklemez",
 	"generic.join_support_server": "Destek sunucusuna katılın",
@@ -190,11 +192,13 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Geçersiz panel: Açılır menüden birini seçmelisiniz",
-			"success": "Bu bilet <@%[2]d> tarafından, `%[1]s` paneline geçirildi"
+			"success": "Bu bilet <@%[2]d> tarafından, `%[1]s` paneline geçirildi",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Yönetici üyeler kara listeye alınamaz",
 			"add_role": {
+				"success": "<@&%d> kara listeye alındı",
 				"limit": "Sınıra ulaştınız, daha fazla rolü kara listeye ekleyemezsiniz (%d)"
 			},
 			"add": {
@@ -334,6 +338,13 @@
 		"reopen": "Daha önceden kapatılmış bir bileti yeniden açar",
 		"notes": "Destek temsilcileri arasında özel tartışma için bir konu başlığı oluşturur"
 	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d>, kara listeden kaldırıldı"
+			}
+		}
+	},
 	"setup": {
 		"auto": {
 			"docs": "Daha fazlasını keşfetmek ister misiniz? [Belgeler](https://docs.tickets.bot) size, botun her yönünü nasıl yapılandırılacağını öğretecek!"
@@ -462,8 +473,17 @@
 			"title": "I am missing the following permissions required to perform this action",
 			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
 		},
+		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
+		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
+		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
+		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
+		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
+		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
+		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "The action could not be completed due to invalid input.",
 		"timed_out": "The operation timed out, please try again.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "An error occurred while performing this action.",
 		"error_id": "Error ID"
 	}

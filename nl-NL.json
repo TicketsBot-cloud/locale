@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets is een eenvoudig te gebruiken en zeer configureerbare ticket- en ondersteuningsbot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Typ `t!help`\\nGa aan de slag door het commando `t!setup` te doen.",
+	"commands.about": "Tickets is een eenvoudig te gebruiken en zeer configureerbare ticket- en ondersteuningsbot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Typ `/help`\\nGa aan de slag door het commando `/setup` te doen.",
 	"commands.add.no_members": "U moet leden vermelden om aan het ticket toe te voegen",
 	"commands.add.no_permission": "U heeft niet de juiste permissies om mensen aan deze ticket toe te voegen",
 	"commands.addadmin.no_members": "U moet een gebruiker vermelden of een rol noemen om beheerdersrechten aan te verlenen",
@@ -46,10 +46,8 @@
 	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Botbeheer",
 	"help.admin.blacklist": "Blacklist een guild van het gebruiken van de bot",
-	"help.admin.check_premium": "Bekijk de premium status van een server",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug.server": "Debug a server",
 	"help.admin.generate_premium": "Genereer premium sleutels",
-	"help.admin.get_owner": "Haalt de eigenaar van een server op",
 	"help.admin.unblacklist": "Haalt een server van de blacklist af",
 	"help.blacklist": "Schakelt in of gebruikers met de bot mogen communiceren",
 	"help.cancel": "Annuleert het installatieproces",
@@ -77,7 +75,6 @@
 	"help.unclaim": "Verwijdert de claim op het huidige ticket",
 	"help.viewstaff": "Geeft de medewerkers en rollen weer",
 	"help.vote": "Geeft een link waarop u gratis premium krijgt door te stemmen",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Een nieuw ticket is geopend: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
@@ -127,11 +124,14 @@
 	"generic.title.invite": "Uitnodigen",
 	"generic.title.close": "Sluiten",
 	"generic.title.claim": "Opeisen",
+	"generic.title.unclaim": "Unclaim",
 	"generic.title.blacklisted": "Verbannen",
 	"generic.title.blacklist": "Zwarte Lijst",
 	"generic.error.blacklisted": "U bent geblacklist in deze server",
-	"commands.blacklist.add.success": "is op de blacklist gezet",
-	"commands.blacklist.remove.success": "is uit de blacklist gehaald",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"commands.blacklist.add.success": "<@%d> is op de blacklist gezet",
+	"commands.blacklist.remove.success": "<@%d> is uit de blacklist gehaald",
 	"generic.title.add_admin": "Beheerder toevoegen",
 	"generic.title.add_support": "Support toevoegen",
 	"generic.title.remove_admin": "Beheerder verwijderen",
@@ -156,8 +156,10 @@
 	"generic.title.claimed": "Ticket opgeëist",
 	"generic.title.unclaimed": "Onopgeëist ticket",
 	"generic.title.add": "Toevoegen",
-	"commands.add.success": "<@%d> is toegevoegd aan <#%d>",
-	"commands.remove.success": "<@%d> is verwijderd van <#%d>",
+	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Er worden te snel tickets geopend in deze server",
 	"commands.claim.thread": "Door beperkingen vanuit Discord wordt het claimen van threads niet ondersteunt",
 	"generic.join_support_server": "Word lid van de ondersteuningsserver",
@@ -190,11 +192,13 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Ongeldig paneel: U moet één selecteren uit de keuzelijst",
-			"success": "Dit ticket is overgeschakeld naar het `%s` paneel door <@%d>"
+			"success": "Dit ticket is overgeschakeld naar het `%s` paneel door <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Medewerkers kunnen niet worden geblacklist",
 			"add_role": {
+				"success": "<@&%d> is op de blacklist gezet",
 				"limit": "Je hebt het limiet voor de rol blacklist bereikt (%d)"
 			},
 			"add": {
@@ -305,7 +309,7 @@
 			"admin": {
 				"users": "Admin Users",
 				"roles": "Admin Roles",
-				"no_users": "No admin users",
+				"no_users": "Geen admin gebruikers",
 				"no_roles": "No admin roles"
 			},
 			"support": {
@@ -333,6 +337,13 @@
 		"on_call": "Markeert je als \"on call\", zodat je wordt toegevoegd en gepingd in alle nieuwe tickets",
 		"reopen": "Heropent een ticket die eerder was gesloten",
 		"notes": "Maakt een conversatie aan voor privé gesprek tussen ondersteunende vertegenwoordigers"
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "De blacklist van <@&%d> is verwijderd"
+			}
+		}
 	},
 	"setup": {
 		"auto": {
@@ -386,8 +397,8 @@
 			"specific_transcripts": "Delete Specific Transcripts",
 			"all_messages": "Anonymize Your Messages in Servers",
 			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"select_server": "Selecteer een server",
+			"select_servers": "Selecteer één of meer servers",
 			"server_id": {
 				"label": "Server ID",
 				"placeholder": "Enter the server ID"
@@ -403,28 +414,28 @@
 		},
 		"confirm": {
 			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
+			"all_transcripts": "**Type aanvraag:** Verwijder alle transcripts van een server waarvan u de eigenaar bent\n**Server:** %s",
+			"all_transcripts_multi": "**Aanvraag Type:** Verwijder alle transcripts van servers die u bezit\n**Servers:**\n* %s",
+			"specific_transcripts": "**Request Type:** Verwijder specifieke transcripts van server\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_messages": "**Aanvraag Type:** anonimiseert al uw berichten in de geselecteerde server\n**Server:** %s",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"warning": "\n\n⚠️ **Waarschuwing** Deze actie is permanent en kan biet ongedaan worden gemaakt.\n\nBegrijpt u dit en accepteert u dat deze actie permanent is?",
+			"button": "Bevestig - ik begrijp het"
 		},
 		"queued": {
 			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"all_transcripts": "**Type aanvraag:** Verwijder alle transcripts van een server waarvan u de eigenaar bent\n**Server:** %s",
+			"all_transcripts_multi": "**Type aanvraag:** Verwijder alle transcripts van een server waarvan u de eigenaar bent\n**Server:** %s",
+			"specific_transcripts": "**Request Type:** Verwijder specifieke transcripts van server\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_messages": "**Aanvraag Type:** anonimiseert al uw berichten in de geselecteerde server\n**Server:** %s",
+			"all_messages_multi": "**Aanvraag Type:** anonimiseert al uw berichten in de geselecteerde server\n**Server:** %s",
+			"specific_messages": "**Verzoek Type:** Anonimiseer je berichten in specifieke tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"footer": "\n\nJe aanvraag staat in de wachtrij voor verwerking.\nverwerking kan enige tijd in beslag nemen, afhankelijk van het aantal transcripties."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
+			"title": "GDPR aanvraag voltooid",
+			"all_transcripts": "**Request Type:** Verwijder specifieke transcripts van server\n**Server:** %s\n**Ticket IDs:** %d",
 			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
 			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
 			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
@@ -438,9 +449,9 @@
 			"success": "✅ Your GDPR request has been processed successfully."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
+			"no_servers": "Geen servers gevonden waar je de eigenaar bent en transcripten hebt.",
+			"invalid_server_id": "Ongeldige server-ID opgegeven.",
+			"invalid_ticket_ids": "Ongeldige ticket-IDs verstrekt. Voer numerieke ticket-ID's in, gescheiden door komma's, (bijv. 123, 456, 789).",
 			"not_owner": "You must be the server owner to delete transcripts.",
 			"server_not_found": "Server not found.",
 			"queue_failed": "Failed to queue GDPR request. Please try again later.",
@@ -462,8 +473,17 @@
 			"title": "I am missing the following permissions required to perform this action",
 			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
 		},
+		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
+		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
+		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
+		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
+		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
+		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
+		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "The action could not be completed due to invalid input.",
 		"timed_out": "The operation timed out, please try again.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "An error occurred while performing this action.",
 		"error_id": "Error ID"
 	}

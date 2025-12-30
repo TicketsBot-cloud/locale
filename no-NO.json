@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: https://discord.gg/ticketsbot\\nKommandoer: Skriv `t!help`\\nKom i gang ved å bruke `t!setup`",
+	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: https://discord.gg/ticketsbot\\nKommandoer: Skriv `/help`\\nKom i gang ved å bruke `/setup`",
 	"commands.add.no_members": "Du må oppgi medlemmer du vil ha lagt til støtteforespurselen",
 	"commands.add.no_permission": "Du har ikke adgang til å legge til brukere til denne støtteforespurselen",
 	"commands.addadmin.no_members": "Du må oppgi en bruker eller rolle å gi administratorprivilegier til",
@@ -46,10 +46,8 @@
 	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Bot administering",
 	"help.admin.blacklist": "Svartelist en guild fra å bruke botten",
-	"help.admin.check_premium": "Sjekker premium statusen på en server",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug.server": "Debug a server",
 	"help.admin.generate_premium": "Generer premium nøkler",
-	"help.admin.get_owner": "Henter eieren av en server",
 	"help.admin.unblacklist": "Fjern en guild fra guild svartelisten",
 	"help.blacklist": "Endrer brukeres tilgang til roboten",
 	"help.cancel": "Stopper oppsettsprosessen",
@@ -77,7 +75,6 @@
 	"help.unclaim": "Fjerner krav på den nåværende støtteforespurselen",
 	"help.viewstaff": "Opplister alle stabmedlemmer og roller",
 	"help.vote": "Gir deg en lenke der du kan stemme for gratis premium",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Åpnet en ny støtteforespursel: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
@@ -127,11 +124,14 @@
 	"generic.title.invite": "Inviter",
 	"generic.title.close": "Lukk",
 	"generic.title.claim": "Ta over",
+	"generic.title.unclaim": "Unclaim",
 	"generic.title.blacklisted": "Svartelistet",
 	"generic.title.blacklist": "Svarteliste",
 	"generic.error.blacklisted": "Du er svartelistet i denne serveren",
-	"commands.blacklist.add.success": "har blitt svartelistet",
-	"commands.blacklist.remove.success": "har blitt fjernet fra svartelisten",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"commands.blacklist.add.success": "<@%d> har blitt svartelistet",
+	"commands.blacklist.remove.success": "<@%d> har blitt fjernet fra svartelisten",
 	"generic.title.add_admin": "Legg til admin",
 	"generic.title.add_support": "Legg til support",
 	"generic.title.remove_admin": "Fjern admin",
@@ -156,8 +156,10 @@
 	"generic.title.claimed": "Påtatt sak",
 	"generic.title.unclaimed": "Ikke tatt ticket",
 	"generic.title.add": "Legg til",
-	"commands.add.success": "<@%d> har blitt lagt til <#%d>",
-	"commands.remove.success": "<@%d> er fjernet fra <#%d>",
+	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Tickets åpnes for raskt i denne serveren",
 	"commands.claim.thread": "På grunn av Discord begrensninger støtter ikke threads claming",
 	"generic.join_support_server": "Bli med i support serveren",
@@ -190,11 +192,13 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Ugyldig panel: Du må velge en fra menyen",
-			"success": "Denne ticket har blitt byttet til `%s` panel av <@%d>"
+			"success": "Denne ticket har blitt byttet til `%s` panel av <@%d>",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "Stabb medlemmer kan ikke bli svartelistet",
 			"add_role": {
+				"success": "<@&%d> har blitt svartelistet",
 				"limit": "Du har nådd grensen på antall svartelistede roller (%d)"
 			},
 			"add": {
@@ -334,6 +338,13 @@
 		"reopen": "Reopens a ticket that was previously closed",
 		"notes": "Oppretter en tråd for privat diskusjon mellom støtte representanter"
 	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> har blitt fjernet fra svartelisten"
+			}
+		}
+	},
 	"setup": {
 		"auto": {
 			"docs": "Vil du utforske mer? Vår [dokumentasjon](https://docs.tickets.bot) lærer deg hvordan du konfigurerer alle aspekter av botten!"
@@ -462,8 +473,17 @@
 			"title": "I am missing the following permissions required to perform this action",
 			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
 		},
+		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
+		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
+		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
+		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
+		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
+		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
+		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "The action could not be completed due to invalid input.",
 		"timed_out": "The operation timed out, please try again.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "An error occurred while performing this action.",
 		"error_id": "Error ID"
 	}

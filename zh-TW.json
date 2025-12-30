@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets 是一個易於使用且幾乎可以完全自定義的問題單機器人\\n支援頻道: https://discord.gg/ticketsbot\\n指令: 請輸入 `t!help`\\n輸入`t!setup`開始設定吧！",
+	"commands.about": "Tickets 是一款易於使用且設定自由度高的客服單與支援機器人。\\n支援伺服器：https://discord.gg/ticketsbot\\n指令：輸入 `/help`\\n立即開始使用，請執行 `/setup`",
 	"commands.add.no_members": "你必須標註一個人嗄",
 	"commands.add.no_permission": "你沒有權限添加該成員到問題單",
 	"commands.addadmin.no_members": "您需要提及一個用戶或一個身份組來授予管理員權限",
@@ -46,10 +46,8 @@
 	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "機器人管理",
 	"help.admin.blacklist": "將伺服器使用機器人列入黑名單",
-	"help.admin.check_premium": "檢查伺服器是否有開通高級版",
-	"help.admin.debug": "Debug a server's settings",
+	"help.admin.debug.server": "Debug a server",
 	"help.admin.generate_premium": "產生高級版代碼",
-	"help.admin.get_owner": "獲取伺服器的擁有者資訊",
 	"help.admin.unblacklist": "將該伺服器從黑名單移除",
 	"help.blacklist": "切換是否允許用戶與機器人互動（表情符號回饋等等）",
 	"help.cancel": "取消設定精靈",
@@ -77,7 +75,6 @@
 	"help.unclaim": "撤銷原本分配到該問題單的人",
 	"help.viewstaff": "顯示問題單工作人員跟支持人員",
 	"help.vote": "給你一個投票連結讓你獲得免費高級版的資格",
-	"help.check_perms": "Check if the Bot has the right Permissions",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "開了一張問題單：%s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
@@ -127,11 +124,14 @@
 	"generic.title.invite": "邀請",
 	"generic.title.close": "關閉",
 	"generic.title.claim": "接手客服單",
+	"generic.title.unclaim": "Unclaim",
 	"generic.title.blacklisted": "添加到黑名單",
 	"generic.title.blacklist": "黑名單",
 	"generic.error.blacklisted": "你已經是目前群組的黑名單唷",
-	"commands.blacklist.add.success": "已被列入黑名單",
-	"commands.blacklist.remove.success": "已被解除黑名單",
+	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"commands.blacklist.add.success": "<@%d> 已被列入黑名單",
+	"commands.blacklist.remove.success": "<@%d> 已被解除黑名單",
 	"generic.title.add_admin": "加入管理員",
 	"generic.title.add_support": "加入協助人員",
 	"generic.title.remove_admin": "移除管理員",
@@ -156,8 +156,10 @@
 	"generic.title.claimed": "接手客服單",
 	"generic.title.unclaimed": "取消接手客服單",
 	"generic.title.add": "增加",
-	"commands.add.success": "<@%d> 已加入 <#%d>",
-	"commands.remove.success": "<@%d> 已從 <#%d> 移除",
+	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "該伺服器短時間創建太多客服單，請稍後~~在~~再創建",
 	"commands.claim.thread": "礙於Discord 限制，接手客服單無法創建討論串",
 	"generic.join_support_server": "加入官方Discord",
@@ -190,11 +192,13 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "請選擇選單中任一個",
-			"success": "此客服單已被 <@%d> 切換到 `%s` 類別"
+			"success": "此客服單已被 <@%d> 切換到 `%s` 類別",
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
 			"staff": "管理員不能被黑名單唷",
 			"add_role": {
+				"success": "<@&%d> 已經被黑名單",
 				"limit": "您達到了身分組黑名單限制（%d）"
 			},
 			"add": {
@@ -334,6 +338,13 @@
 		"reopen": "重新開啟之前關閉的客服單",
 		"notes": "建立一個供支援團隊之間進行私人討論的串"
 	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> 已從黑名單中移出"
+			}
+		}
+	},
 	"setup": {
 		"auto": {
 			"docs": "想要進一步了解更多嗎？我們的 [文件](https://docs.tickets.bot) 將教您如何設定機器人！"
@@ -462,8 +473,17 @@
 			"title": "I am missing the following permissions required to perform this action",
 			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
 		},
+		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
+		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
+		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
+		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
+		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
+		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
+		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "The action could not be completed due to invalid input.",
 		"timed_out": "The operation timed out, please try again.",
+		"rate_limited": "You're being rate limited. Please try again %s.",
+		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "An error occurred while performing this action.",
 		"error_id": "Error ID"
 	}
