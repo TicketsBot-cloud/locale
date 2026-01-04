@@ -43,10 +43,10 @@
 	"help.about": "Řekne vám informace o botu",
 	"help.add": "Přidá uživatele do ticketu",
 	"help.addadmin": "Uděluje uživatelská nebo uživatelská práva administrátora",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Přidá roli jako zástupce podpory",
 	"help.admin": "Správa bota",
 	"help.admin.blacklist": "Černá listina a skupin z používání bota",
-	"help.admin.debug.server": "Debug a server",
+	"help.admin.debug.server": "Ladit server",
 	"help.admin.generate_premium": "Vygenerovat prémiové klíče",
 	"help.admin.unblacklist": "Odebrat skupinu z černé listiny skupiny",
 	"help.blacklist": "Určuje, zda mohou uživatelé interaktovat s botem",
@@ -75,7 +75,7 @@
 	"help.unclaim": "Odstraní claim na aktuálním ticketu",
 	"help.viewstaff": "Zobrazí seznam staff a rolí",
 	"help.vote": "Dá vám odkaz k hlasování pro prémium zdarma",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Spravujte svůj požadavek na GDPR data",
 	"open.success": "Otevřel nový ticket: %s",
 	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Chybí mi oprávnění `Manage Channels`",
@@ -100,7 +100,7 @@
 	"commands.open.from.moved": "Konverzace byla přesunuta do ticketu (<#%d>)",
 	"help.close_request": "Odešle zprávu s žádostí uživatele o potvrzení, že ticket může být uzavřen",
 	"close.reason_too_long": "Důvod nemůže být delší než 255 znaků",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "Žádost o uzavření byla úspěšně odeslána",
 	"commands.close_request.no_reason": "<@%d> požádal o uzavření tohoto ticketu.\n\nPřijměte nebo odmítněte pomocí tlačítek níže.",
 	"commands.close_request.with_reason": "<@%d> požádal o uzavření tohoto tiketu. Důvod:\n```\n%s\n```\nProsím, přijměte nebo odmítněte pomocí tlačítek níže.",
 	"commands.close_request.no_permission": "Pouze uživatel, který otevřel ticket, může odpovědět na žádost o uzavření",
@@ -128,7 +128,7 @@
 	"generic.title.blacklisted": "Černá listina",
 	"generic.title.blacklist": "Černá listina",
 	"generic.error.blacklisted": "Jsi blacklisted na tomhle serveru",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Tento server je zakázán v používání tohoto bota",
 	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> je nyní na černé listině",
 	"commands.blacklist.remove.success": "<@%d> již není černé listině",
@@ -139,8 +139,8 @@
 	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Jazyk",
 	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.addadmin.success": "Admin úspěšně přidal: %s",
+	"commands.removeadmin.success": "Admin odstranil úspěšně: %s",
 	"generic.title.setup": "Instalace",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Ovládací panel",
@@ -156,9 +156,9 @@
 	"generic.title.claimed": "Ticket zabrán",
 	"generic.title.unclaimed": "Ticket nevyzvednut",
 	"generic.title.add": "Přidat",
-	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.success": "<@%s> byl přidán do <#%d>",
 	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.success": "<@%s> byl odstraněn z <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Tickety jsou na tomto serveru otevřeny příliš rychle",
 	"commands.claim.thread": "Z důvodu omezení Discordu, tvrzení nepodporuje vlákna",
@@ -307,10 +307,10 @@
 		"viewstaff": {
 			"title": "Staff",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Administrátoři",
+				"roles": "Administrátorská role",
+				"no_users": "Žádná administrátorská role",
+				"no_roles": "Žádná administrátorská role"
 			},
 			"support": {
 				"users": "Support Users",
@@ -386,45 +386,45 @@
 		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
 		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Všechny přepisy ze serverů",
+			"specific_transcripts": "Konkrétní přepis",
+			"all_messages": "Všechny vaše zprávy na serverech",
+			"specific_messages": "Vaše zprávy ve specifických ticketech"
 		},
-		"language_option": "Language",
+		"language_option": "Jazyk",
 		"modal": {
 			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"specific_transcripts": "Odstranit konkrétní přepis",
+			"all_messages": "Anonymizujte svoje zprávy na serverech",
+			"specific_messages": "Anonymizujte svoje zprávy ve specifických ticketech",
+			"select_server": "Vyberte server",
+			"select_servers": "Vyberte jeden nebo více serverů",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "ID serveru",
+				"placeholder": "Zadejte ID serveru"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "ID serverů",
+				"placeholder": "Vložte ID serverů oddělené čárkou(např., 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
 				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"placeholder": "Vložte ID tiketů oddělené čárkami (např. 123, 456, 789)"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
+			"title": "Vyžadováno potvrzení GDPR",
+			"all_transcripts": "**Typ požadavku:** Vymažte všechny přepisy tiketů ze serveru, které vlastníte\n**Server:** %s",
+			"all_transcripts_multi": "**Typ požadavku:** Vymažte všechny přepisy tiketů ze serverů, které vlastníte\n**Servery:**\n* %s",
+			"specific_transcripts": "**Typ požadavku:** Odstraň konkrétní přepis ze serveru\n**Server:** %s\n**ID tiketů:** %s",
+			"all_messages": "**Typ požadavku:** Anonymizujte všechy vaše zprávy na vybraném serveru\n**Server:** %s",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"warning": "\n\n⚠️ **Varování:** Tato akce je trvalá a nelze vrátit zpět.\n\nRozumíte a přijímáte, že tato akce je trvalá?",
+			"button": "Potvrdit - rozumím"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
+			"title": "Požadavek na GDPR v pořadí",
 			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
 			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
 			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
@@ -434,26 +434,26 @@
 			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
+			"title": "Požadavek GDPR dokončen",
 			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
 			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
 			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
 			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"error": "\n\n**⚠️ Chyba:** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
+			"error": "⚠️ Váš požadavek na GDPR narazil na chybu: %s",
 			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
 			"success": "✅ Your GDPR request has been processed successfully."
 		},
 		"error": {
 			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
+			"invalid_server_id": "Poskytnuto neplatné ID serveru",
 			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
 			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
+			"server_not_found": "Server nenalezen.",
 			"queue_failed": "Failed to queue GDPR request. Please try again later.",
 			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
 		}
@@ -485,6 +485,6 @@
 		"rate_limited": "You're being rate limited. Please try again %s.",
 		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
 		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"error_id": "ID chyby"
 	}
 }
