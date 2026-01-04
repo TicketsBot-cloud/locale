@@ -43,10 +43,10 @@
 	"help.about": "Ütleb sulle boti kohta informatsiooni",
 	"help.add": "Lisab mingi kasutaja abipiletisse",
 	"help.addadmin": "Annab mingile kasutajale või rollile administraatori õigused",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Lisab rolli toe esindajaks",
 	"help.admin": "Boti muutmine",
 	"help.admin.blacklist": "Blacklisti mingi server boti kasutamisest",
-	"help.admin.debug.server": "Debug a server",
+	"help.admin.debug.server": "Kontrolli serveri tööd",
 	"help.admin.generate_premium": "Genereeri premium võti",
 	"help.admin.unblacklist": "Võtab mingi serveri serveri blacklistist",
 	"help.blacklist": "Muudab kas kasutajad saavad botiga tegeleda",
@@ -75,9 +75,9 @@
 	"help.unclaim": "Võtab ära claimi praeguselt abipiletilt",
 	"help.viewstaff": "Näitab personaale ja rolle",
 	"help.vote": "Annab sulle linki hääletamiseks et saada tasuta premium",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Halda oma isikuandmete päringuid",
 	"open.success": "Avas uue pileti: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "See vaade on hetkel suletud. Palun proovige uuesti toe tööaegadel.",
 	"setup.auto.category.failure": "Mul on puudu \"Manage Channels\" luba",
 	"setup.auto.category.success": "Tegin Tickets kategooria",
 	"setup.auto.completed": "Seadistamine valmis! Vajuta [siia] (https://dashboard.tickets.bot/manage/%d/panels) et seadistada reaktsiooni paneel <@&%d> ja <@&%d> rollid sinu personaalidele",
@@ -100,7 +100,7 @@
 	"commands.open.from.moved": "Vestlus oli lükatud piletisse (<#%d>)",
 	"help.close_request": "Saadab kirja, mis küsib et kasutaja kinnitaks kas abipileti võib kinni panna",
 	"close.reason_too_long": "Põhjus ei saa olla pikem kui 255 tähemärki",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "Kinnitus soov saadeti edukalt",
 	"commands.close_request.no_reason": "<@%d> on palunud et abipilet pannakse kinni\n\nLubage või keelake kasutades alumisi nuppe.",
 	"commands.close_request.with_reason": "<@%d> on palunud et abipilet pannakse kinni. Põhjus:\n```\n%s\n```\nLubage või keelake kasutades alumisi nuppe.",
 	"commands.close_request.no_permission": "Ainult kasutaja kes pileti avas saab vastata kinni panemise soovile",
@@ -124,23 +124,23 @@
 	"generic.title.invite": "Kutse",
 	"generic.title.close": "Sulge",
 	"generic.title.claim": "Võta",
-	"generic.title.unclaim": "Unclaim",
+	"generic.title.unclaim": "Vabasta",
 	"generic.title.blacklisted": "Musta nimekirja pandud",
 	"generic.title.blacklist": "Must nimekiri",
 	"generic.error.blacklisted": "Sa oled selles serveris mustas nimekirjas",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Selles serveris on keelatud boti kasutamine",
+	"generic.error.user_blacklisted": "Teid on keelatud boti kasutamisest",
 	"commands.blacklist.add.success": "<@%d> on musta nimekirja pandud",
 	"commands.blacklist.remove.success": "<@%d> on mustast nimekirjast välja võetud",
 	"generic.title.add_admin": "Lisa Administraator",
 	"generic.title.add_support": "Lisa Abipersonaal",
 	"generic.title.remove_admin": "Eemalda Administraator",
 	"generic.title.remove_support": "Eemalda Abipersonaal",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Toe esindaja lisati edukalt: %s",
 	"generic.title.language": "Keel",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Toe esindaja eemaldati edukalt: %s",
+	"commands.addadmin.success": "Administraator lisati edukalt: %s",
+	"commands.removeadmin.success": "Administraator eemaldati edukalt: %s",
 	"generic.title.setup": "Seadista",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Paneel",
@@ -156,10 +156,10 @@
 	"generic.title.claimed": "Võetud Abipilet",
 	"generic.title.unclaimed": "Vaba Abipilet",
 	"generic.title.add": "Lisa",
-	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.add.success": "<@%s> on lisatud <#%d>",
+	"commands.add.role_thread": "Discordi tehniliste piirangute tõttu, ei ole võimalik rolle lõimipiletitele lisada",
+	"commands.remove.success": "<@%s> on eemaldatud <#%d>-st",
+	"commands.remove.role_thread": "Discordi tehniliste piirangute tõttu, ei ole võimalik rolle lõimepiletitest eemaldada",
 	"open.ratelimited": "Abipileteid avatakse selles serveris liiga kiiresti",
 	"commands.claim.thread": "Discordi limiitide tõttu, võtmine ei toeta threade",
 	"generic.join_support_server": "Liitu Abi Serveriga",
@@ -193,7 +193,7 @@
 		"switch_panel": {
 			"invalid_panel": "Ebasobiv paneel: Sa pead valima ühe rippmenüüst",
 			"success": "Abipilet on muudetud paneelile `%s` <@%d> poolt",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Seda paneeli ei saa avada piletist mis ei kasuta lõime"
 		},
 		"blacklist": {
 			"staff": "Personaale ei saa musta nimekirja panna",
@@ -269,54 +269,54 @@
 					"description": "Vali see valik kui sa tegid oma tellimuse Patreonis"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Valige see nupp, kui te tegite oma tellimuse Discord in-app poest"
 				}
 			},
 			"about": "Premium annab sulle juurdepääsu rohkem paneelidele, statistikale, kohandatud boti ja rohkem! Külasta meie [veebilehte](https://tickets.bot/premium) et saada rohkem teada.",
 			"already_activated": "Head uudised! Premium on selles serveris juba aktiivne.",
 			"already_activated_whitelabel": "Head uudised! Premium on selles serveris juba aktiivne.\n\nEt saada abi whitelabeliga alustamisega, loe [meie whitelabeli seadistamisõpetust](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Premiumit on võimalik osta Discordist otseselt. Vajutage all pool nuppu selle kirja all, et avada tellimuste haldamise leht.\n\nKui ostetud, palun oodake kuni 5 minutit, kuni tellimus on ära tuvastatud."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Teie Patreoni tellimus on leitud. Palun vajutage \"Avage Serveri Valik\" nupp tellimuse alt, et avada juhtpaneel, et saaksite valida millistele serverite tahate enda Premiumi tellimust lisada.",
+			"open_server_selector": "Avage Serveri Valik"
 		},
 		"notes": {
 			"added_to_existing": "Sind on lisatud ekisteerivasse märkmete threadi: <#%d>",
 			"thread_name": "märkmed",
 			"created": "Märkmete thread on selle abipileti jaoks tehtud: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Märkmevestlusi saab kasutada ainult kanalites"
 		},
 		"rename": {
 			"ratelimited": "Discordi liimitide tõttu saab abipiletite nime vahetada 2 korda iga 10 minuti jooksul"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Lunasta krediidid",
+			"no_credits": "Lunastus ebaõnnestus: teil ei ole ühtegi hääletus krediiti!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Teie hääletus krediidid on vahetatud **%d** päevaseks premiumiks!",
+					"singular": "Teie hääletus krediidid on vahetatud **%d** päevaseks premiumiks!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "Teil on **%d** hääletus krediiti. Vajutage \"Vahetage Krediidid\" all pool nuppu, et vahetada need %d päevaseks premiumiks selles serveris.",
+				"singular": "Teil on **%d** hääletus krediiti. Vajutahe \"Vahetage Krediidid\" all pool nuppu, et vahetada need %d päevaseks premiumiks selles serveris."
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Töötaja",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Administraatori kasutajad",
+				"roles": "Administraatori Rollid",
+				"no_users": "Puuduvas administraatori kasutajad",
+				"no_roles": "Puuduvad administraatori rollid"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Toe Kasutajad",
+				"roles": "Toe Rollid",
+				"no_roles": "Puuduvad toe rollid",
+				"users_warning": "-# **Hoiatus:** Kasutajad toe meeskonnad on nüüd vananenud. Palun liikuge rollide kasutamisele."
 			}
 		}
 	},
@@ -378,10 +378,10 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Valige, millist GPDR-i päringu tüüpi soovite teha:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Transkripti Kustutamise Valikud**\n-# _Kustutage transkriptid serveritest mida omate_",
+			"message": "### **Sõnumite Anonüümsuse Valikud**\n-# _ Anonüümustage oma sõnumid transkriptidest valitud serveritest_"
 		},
 		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
 		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
