@@ -43,10 +43,10 @@
 	"help.about": "Mostra informações sobre o bot",
 	"help.add": "Adiciona um usuário a um ticket",
 	"help.addadmin": "Concede privilégios de admin a um usuário ou cargo",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Adiciona um cargo como representante de suporte",
 	"help.admin": "Gerenciamento do bot",
 	"help.admin.blacklist": "Bloqueia uma guilda de usar o bot",
-	"help.admin.debug.server": "Debug a server",
+	"help.admin.debug.server": "Depurar um servidor",
 	"help.admin.generate_premium": "Gerar chaves premium",
 	"help.admin.unblacklist": "Remove uma guilda da lista de bloqueio",
 	"help.blacklist": "Define se os usuários podem interagir com o bot",
@@ -75,9 +75,9 @@
 	"help.unclaim": "Remove a atribuição do ticket atual",
 	"help.viewstaff": "Lista os membros da equipe e os cargos",
 	"help.vote": "Exibe um link para votar e obter premium gratuitamente",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Gerenciar suas solicitações de dados GDPR",
 	"open.success": "Abriu um novo ticket: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Este painel está fechado no momento. Por favor, tente novamente durante nossas horas de suporte.",
 	"setup.auto.category.failure": "Eu estou sem a permissão `Gerenciar Canais` ",
 	"setup.auto.category.success": "Categoria de Tickets criada",
 	"setup.auto.completed": "Configuração concluída! Clique [aqui](https://panel.tickets.bot/manage/%d/panels) para configurar um painel de reações, e adicione os cargos <@&%d> e <@&%d> para os seus membros da equipe",
@@ -100,7 +100,7 @@
 	"commands.open.from.moved": "A conversa foi movida para um ticket (<#%d>)",
 	"help.close_request": "Envia uma mensagem pedindo ao usuário para confirmar que o ticket pode ser fechado",
 	"close.reason_too_long": "O motivo não pode ter mais de 255 caracteres",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "Pedido de fechamento enviado com sucesso",
 	"commands.close_request.no_reason": "<@%d> pediu para fechar este ticket.\n\nPor favor, aceite ou negue usando os botões abaixo.",
 	"commands.close_request.with_reason": "<@%d> pediu para fechar este ticket. Motivo:\n```\n%s\n```\nPor favor, aceite ou negue usando os botões abaixo.",
 	"commands.close_request.no_permission": "Apenas o usuário que abriu o ticket pode responder à solicitação de fechamento",
@@ -124,23 +124,23 @@
 	"generic.title.invite": "Convidar",
 	"generic.title.close": "Fechar",
 	"generic.title.claim": "Reivindicar",
-	"generic.title.unclaim": "Unclaim",
+	"generic.title.unclaim": "Cancelar Reivindicação",
 	"generic.title.blacklisted": "Colocado na lista de bloqueio",
 	"generic.title.blacklist": "Lista de bloqueio",
 	"generic.error.blacklisted": "Você está bloqueado neste servidor",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Este servidor está proibido de usar este bot",
+	"generic.error.user_blacklisted": "Você está proibido de usar este bot",
 	"commands.blacklist.add.success": "<@%d> foi colocado na lista de bloqueio",
 	"commands.blacklist.remove.success": "<@%d> foi removido da lista de bloqueio",
 	"generic.title.add_admin": "Adicionar Administrador",
 	"generic.title.add_support": "Adicionar Suporte",
 	"generic.title.remove_admin": "Remover Administrador",
 	"generic.title.remove_support": "Remover Suporte",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Representante de suporte adicionado com sucesso: %s",
 	"generic.title.language": "Idioma",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Representante de suporte removido com sucesso: %s",
+	"commands.addadmin.success": "Administrador adicionado com sucesso: %s",
+	"commands.removeadmin.success": "Administrador removido com sucesso: %s",
 	"generic.title.setup": "Configuração",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Painel",
@@ -156,10 +156,10 @@
 	"generic.title.claimed": "Ticket Reivindicado",
 	"generic.title.unclaimed": "Ticket Não Reivindicado",
 	"generic.title.add": "Adicionar",
-	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.add.success": "<@%s> foi adicionado a <#%d>",
+	"commands.add.role_thread": "Devido às limitações do Discord, os cargos não podem ser adicionados aos tickets de tópicos",
+	"commands.remove.success": "<@%s> foi removido de <#%d>",
+	"commands.remove.role_thread": "Devido às limitações do Discord, os cargos não podem ser removidos dos tickets de tópicos",
 	"open.ratelimited": "Tickets estão sendo abertos rápido demais neste servidor",
 	"commands.claim.thread": "Devido às limitações do Discord, a reivindicação não suporta",
 	"generic.join_support_server": "Junte-se ao servidor de suporte",
@@ -193,7 +193,7 @@
 		"switch_panel": {
 			"invalid_panel": "Painel inválido: Você deve selecionar um no menu suspenso",
 			"success": "Este ticket foi alterado para o painel `%s` por <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Você não pode mudar para um painel que usa tópicos de um ticket que não seja um tópico"
 		},
 		"blacklist": {
 			"staff": "Membros da equipe não podem estar na lista de bloqueio",
@@ -285,7 +285,7 @@
 			"added_to_existing": "Você foi adicionado ao tópico das notas existentes: <#%d>",
 			"thread_name": "notas",
 			"created": "Um tópico de notas foi criado para este ticket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Tópicos de notas só são suportados no modo de canal"
 		},
 		"rename": {
 			"ratelimited": "Devido a limitações impostas pelo Discord, tickets só podem ser renomeados duas vezes a cada 10 minutos"
@@ -307,16 +307,16 @@
 		"viewstaff": {
 			"title": "Staff",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Usuários Administradores",
+				"roles": "Permissões de Administrador",
+				"no_users": "Nenhum usuário administrador",
+				"no_roles": "Nenhum cargo de administrador"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Suporte a Usuários",
+				"roles": "Cargos de suporte",
+				"no_roles": "Nenhum cargo de suporte",
+				"users_warning": "-# **Aviso:** Os usuários das equipes de suporte estão obsoletos. Por favor, migre para os papéis."
 			}
 		}
 	},
@@ -378,33 +378,33 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Selecione o tipo de solicitação GDPR que você gostaria de fazer:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Opções de Exclusão de transcrição**\n-# _Excluir transcrições de servidores que você possui_",
+			"message": "### **Mensagens de Opções de Anonimização**\n-# _Anonimizar suas mensagens de transcrições nos servidores selecionados_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Informação Importante**\n* A exclusão é **permanente** e não pode ser desfeita\n* Você só pode excluir transcrições de servidores que **você** é proprietário\n* Somente **suas** mensagens podem ser anônimas em transcrições\n* O pedido pode levar até **30 dias** para ser concluído\n* Seu pedido será processado em uma **fila**",
+		"resources": "### **Recursos**\n[O que é o RGPD?](%s)\n[Direito de apagamento](%s)\n[Direito de acesso](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Todas as transcrições dos servidores",
+			"specific_transcripts": "Transcrições específicas",
+			"all_messages": "Todas as suas mensagens dos servidores",
+			"specific_messages": "Suas mensagens em tickets específicos"
 		},
-		"language_option": "Language",
+		"language_option": "Idioma",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Excluir todas as transcrições de Servidores",
+			"specific_transcripts": "Excluir Transcrições Específicas",
+			"all_messages": "Anonimize suas mensagens em Servidores",
+			"specific_messages": "Anonimize suas mensagens em Tickets Específicos",
+			"select_server": "Selecione um servidor",
+			"select_servers": "Selecione um ou mais servidores",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "ID do Servidor",
+				"placeholder": "Insira o ID do servidor"
 			},
 			"server_ids": {
-				"label": "Server IDs",
+				"label": "IDs de servidores",
 				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
