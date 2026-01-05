@@ -43,10 +43,10 @@
 	"help.about": "تخبرك بمعلومات عن البوت",
 	"help.add": "تضيف مستخدم الى التذكرة",
 	"help.addadmin": "تمنح امتيازات للمستخدم او لرتبة الموظف ",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "يضيف دورًا كممثل دعم",
 	"help.admin": "إدارة البوت",
 	"help.admin.blacklist": "وضع خادم في القائمة السوداء من استخدام البوت",
-	"help.admin.debug.server": "Debug a server",
+	"help.admin.debug.server": "تصحيح أخطاء الخادم",
 	"help.admin.generate_premium": "إنشاء رموز بريميوم",
 	"help.admin.unblacklist": "إزالة خادم من القائمة السوداء",
 	"help.blacklist": "تفعيل خاصية السماح للمستخدمين بإستخدام البوت",
@@ -75,9 +75,9 @@
 	"help.unclaim": "إزالة الإمتلاك من هذه التذكرة",
 	"help.viewstaff": "عرض الموظفيين والرتب",
 	"help.vote": "تعطيك الرابط للتصويت للإشتراك المجاني",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "إدارة طلبات بيانات GDPR",
 	"open.success": "تم فتح تذكرة جديدة: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "تم إغلاق هذه اللوحة حالياً. الرجاء المحاولة مرة أخرى خلال ساعات الدعم.",
 	"setup.auto.category.failure": "انا افتقد إذن \"إدارة القنوات\"",
 	"setup.auto.category.success": "تم إنشاء فئة التذاكر",
 	"setup.auto.completed": "اكتمل الإعداد! انقر [هنا](https://panel.ticketsbot. et/manage/%d/panels) لإعداد لوحة التفاعل، وإضافة الأدوار <@&%d> و <@&%d> لموظفيك",
@@ -100,7 +100,7 @@
 	"commands.open.from.moved": "تم نقل المحادثة إلى تذكرة (<%d#>)",
 	"help.close_request": "يرسل رسالة يطلب من المستخدم تأكيد أن التذكرة يمكن أن تكون مغلقة",
 	"close.reason_too_long": "السبب لا يمكن ان يكون أطول من 255 حرف",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "تم إرسال طلب الإغلاق بنجاح",
 	"commands.close_request.no_reason": "لقد طلب <@%d> إغلاق هذه التذكرة.\n\nالرجاء القبول أو الرفض باستخدام الأزرار أدناه.",
 	"commands.close_request.with_reason": "لقد طلب <@%d> إغلاق هذه التذكرة. السبب:\n```\n%s\n```\nيرجى القبول أو الرفض باستخدام الأزرار أدناه.",
 	"commands.close_request.no_permission": "فقط المستخدم الذي فتح التذكرة يمكنه الرد على طلب الإغلاق",
@@ -124,12 +124,12 @@
 	"generic.title.invite": "دعوة",
 	"generic.title.close": "إغلاق",
 	"generic.title.claim": "أستلام",
-	"generic.title.unclaim": "Unclaim",
+	"generic.title.unclaim": "إلغاء",
 	"generic.title.blacklisted": "مدرج بالقائمة السوداء",
 	"generic.title.blacklist": "القائمة السوداء",
 	"generic.error.blacklisted": "أنت مدرج في القائمة السوداء في هذا الخادم",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "هذا الخادم هو قائمة سوداء من استخدام هذا ألبوة",
+	"generic.error.user_blacklisted": "أنت في القائمة السوداء من استخدام هذا ألبوة",
 	"commands.blacklist.add.success": "تم إدراج <@%d> في القائمة السوداء",
 	"commands.blacklist.remove.success": "لقد تم إزالة القائمة السوداء عن <@%d>",
 	"generic.title.add_admin": "إضافة مشرف",
@@ -138,9 +138,9 @@
 	"generic.title.remove_support": "إزالة الدعم",
 	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "لغة",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.removesupport.success": "تمت إزالة ممثل الدعم بنجاح: %s",
 	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removeadmin.success": "تمت إزالة المسؤول بنجاح: %s",
 	"generic.title.setup": "الإعداد",
 	"generic.title.premium": "بريميوم",
 	"generic.title.panel": "اللوحة",
@@ -156,10 +156,10 @@
 	"generic.title.claimed": "تَذْكِرَة مستلمة",
 	"generic.title.unclaimed": "تذكرة غير مستلمة",
 	"generic.title.add": "إضافة",
-	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.add.success": "تمت إضافة <@%s> إلى <#%d>",
+	"commands.add.role_thread": "بسبب قيود ديس كورد",
+	"commands.remove.success": "تمت إضافة <@%s> إلى <#%d>",
+	"commands.remove.role_thread": "بسبب قيود ديس كورد",
 	"open.ratelimited": "يتم فتح التذاكر بسرعة كبيرة في هذا الخادم",
 	"commands.claim.thread": "بسبب قيود الديسكورد، المطالبة لا تدعم المواضيع",
 	"generic.join_support_server": "الانضمام إلى خادم الدعم",
@@ -177,8 +177,8 @@
 		"success": "تم إغلاق التذكرة من قبل <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "لا يمكنك تقييم هذه التَّذْكِرَة لأنك ممثل دعم في %s",
+				"empty": "لا يمكنك تقييم هذه التَّذْكِرَة"
 			}
 		}
 	},
@@ -187,13 +187,13 @@
 			"disabled": "الامر /open غير مفعل في هذا السيرفر, تستطيع استخدام لوحة التذاكر لفتح تذكرة جديدة",
 			"threads": {
 				"cant_see_parent_channel": "تعذر اضافة <@%d> على التذكرة, تأكد من انه يملك صلاحية رؤية الروم الرئيسي لهذا الموضوع (الثريد) (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "أنت تفتقد إذن إرسال رسائل في المواضيع، الذي مطلوب لفتح تَذْكِرَة. الرجاء طلب من مسؤول الخادم منح هذا الإذن لك، وحاول مرة أخرى."
 			}
 		},
 		"switch_panel": {
 			"invalid_panel": "لوحة غير صالحة: يجب عليك اختيار واحدة من القائمة التالية",
 			"success": "لقد تم نقل هذه التذكرة الى لوحة `%s` من قبل <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "لا يمكنك التبديل إلى لوحة تستخدم المواضيع من تَذْكِرَة"
 		},
 		"blacklist": {
 			"staff": "لا يمكنك إدارج اعضاء الفريق في القائمة السوداء",
@@ -221,7 +221,7 @@
 				"limit": "لقد وصلت الحد الاقصى للوسوم (التاغات) : (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "مطلوب مميز لاستخدام الأوامر المخصصة (أسماء مستعارة وسم)"
 			}
 		},
 		"language": {
@@ -269,54 +269,54 @@
 					"description": "قم بإختيار هذا الخيار فيه حال قم بالشراء من خلال باتريون"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "حدد هذا الخِيار"
 				}
 			},
 			"about": "البريموم يعطيك الصلاحية للمزيد من اللوحات والاحصائيات , وبوت خاص بك , والمزيد!\nقم بزيارة الموقع الإلكتروني الخاص بنا (https://tickets.bot/premium) لإكتشاف المزيد",
 			"already_activated": "أخبار جيدة! بريميوم نشط بالفعل في هذا الخادم.",
 			"already_activated_whitelabel": "أخبار سارّة! تم بالفعل تفعيل البريميوم لهذا السيرفر\n\nللحصول على مساعدة في البدء بالتخصيص, قم بقراءة [الدليل الخاص بنا لاستخدام التخصيص](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "يمكن شراء الاشتراك المميز مباشرةً من داخل ديس كورد.\nانقر على الزر الموجود أسفل هذه الرسالة لفتح صفحة إدارة الاشتراك.\n\nبعد إتمام عملية الشراء، يُرجى الانتظار لمدة تصل إلى 5 دقائق حتى يتم التعرّف على الاشتراك."
 			},
 			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"open_server_selector": "فتح مُنتق الخادم"
 		},
 		"notes": {
 			"added_to_existing": "لقد تم اضافتك الى موضوع الملاحظات الحالية: <#%d>",
 			"thread_name": "ملاحظة",
 			"created": "تم إنشاء موضوع ملاحظات لهذه التذكرة: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "نُقَط الملاحظة مدعومة فقط في وضع القناة"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "بسبب القيود التي يفرضها ديس كورد، لا يمكن تغيير اسم التذاكر إلا مرتين كل 10 دقائق"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "استيراد الرصيد",
+			"no_credits": "فشل الاسترداد: ليس لديك أي اعتمادات للتصويت!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "تم استبدال رصيد التصويت الخاص بك لمدة **%d** أيام من المميز!",
+					"singular": "تم استبدال رصيد التصويت الخاص بك لمدة **%d** أيام من المميز!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "لديك **%d** رصيد صوت. انقر فوق الزر \"استبدال الاعتمادات\" أدناه لاستردادهم لـ %d أيام من الحساب المميز في هذا الخادم.",
+				"singular": "لديك **%d** رصيد صوت. انقر فوق الزر \"استبدال الاعتمادات\" أدناه لاستردادهم لـ %d يوم من الحساب المميز في هذا الخادم."
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "الموظفون",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "المستخدمون المُشرفون",
+				"roles": "أدوار المسؤول",
+				"no_users": "لا يوجد مستخدمين مشرفين",
+				"no_roles": "لا توجد أدوار مشرف"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "دعم المستخدمين",
+				"roles": "دور الدعم",
+				"no_roles": "لا توجد أدوار دعم",
+				"users_warning": "-# **تحذير:** المستخدمون في فرق الدعم مهملون الآن. الرجاء الانتقال إلى الأدوار."
 			}
 		}
 	},
@@ -378,20 +378,20 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "حدد نوع طلب GDPR الذي ترغب في القيام به:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **خيارات حذف النص النصي**\n-# _حذف النصوص من الخوادم التي تملكها _",
+			"message": "### **خيارات إخفاء هُوِيَّة الرسائل**\n-# _إخفاء هُوِيَّة رسائلك من النصوص في الخوادم المحددة_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
+		"warning": "### **معلومات هامة**\n* الحذف **دائم** ولا يمكن التراجع عنه\n* يمكنك فقط حذف النصوص من الخوادم **أنت** الخاصة بك\n* فقط **لك** رسائل يمكن إخفاء هويتها في النصوص\n* وقد يستغرق الطلب ما يصل إلى **30 يوم** لإكمال\n* سيتم معالجة طلبك في **قائمة الانتظار**",
 		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "جميع النصوص من الخوادم",
+			"specific_transcripts": "محاضر محددة",
+			"all_messages": "جميع رسائلك في الخوادم",
+			"specific_messages": "الرسائل الخاصة بك في تذاكر محددة"
 		},
-		"language_option": "Language",
+		"language_option": "لغة",
 		"modal": {
 			"all_transcripts": "Delete All Transcripts from Servers",
 			"specific_transcripts": "Delete Specific Transcripts",
@@ -461,7 +461,7 @@
 	"errors": {
 		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
 		"unknown_guild": "Could not find the server.",
-		"unknown_member": "The user could not be found. They may have left the server or been banned.",
+		"unknown_member": "تعذر العثور على المستخدم. ربما غادروا الخادم أو تم حظرهم.",
 		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
 		"unknown_user": "user could not be found.",
 		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
