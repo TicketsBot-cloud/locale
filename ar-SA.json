@@ -136,10 +136,10 @@
 	"generic.title.add_support": "إضافة دعم",
 	"generic.title.remove_admin": "إزالة المشرف",
 	"generic.title.remove_support": "إزالة الدعم",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "تمت إزالة ممثل الدعم بنجاح: %s",
 	"generic.title.language": "لغة",
 	"commands.removesupport.success": "تمت إزالة ممثل الدعم بنجاح: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.addadmin.success": "تمت إضافة المشرف بنجاح: %s",
 	"commands.removeadmin.success": "تمت إزالة المسؤول بنجاح: %s",
 	"generic.title.setup": "الإعداد",
 	"generic.title.premium": "بريميوم",
@@ -278,7 +278,7 @@
 			"discord": {
 				"no_subscription": "يمكن شراء الاشتراك المميز مباشرةً من داخل ديس كورد.\nانقر على الزر الموجود أسفل هذه الرسالة لفتح صفحة إدارة الاشتراك.\n\nبعد إتمام عملية الشراء، يُرجى الانتظار لمدة تصل إلى 5 دقائق حتى يتم التعرّف على الاشتراك."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
+			"subscription_found_content_modern": "تم العثور على اشتراكك في باترين. الرجاء النقر على زر \"فتح منتقي الخادم\" أدناه من أجل فتح لوحة التحكم لتحديد الخوادم التي ترغب في تطبيق اشتراكك المميز.",
 			"open_server_selector": "فتح مُنتق الخادم"
 		},
 		"notes": {
@@ -384,7 +384,7 @@
 			"message": "### **خيارات إخفاء هُوِيَّة الرسائل**\n-# _إخفاء هُوِيَّة رسائلك من النصوص في الخوادم المحددة_"
 		},
 		"warning": "### **معلومات هامة**\n* الحذف **دائم** ولا يمكن التراجع عنه\n* يمكنك فقط حذف النصوص من الخوادم **أنت** الخاصة بك\n* فقط **لك** رسائل يمكن إخفاء هويتها في النصوص\n* وقد يستغرق الطلب ما يصل إلى **30 يوم** لإكمال\n* سيتم معالجة طلبك في **قائمة الانتظار**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"resources": "### **الموارد**\n[ما GDPR؟](%s)\n[الحق في الإكراه](%s)\n[حق الوصول]]%s)",
 		"button": {
 			"all_transcripts": "جميع النصوص من الخوادم",
 			"specific_transcripts": "محاضر محددة",
@@ -393,98 +393,98 @@
 		},
 		"language_option": "لغة",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "جميع النصوص من الخوادم",
+			"specific_transcripts": "محاضر محددة",
+			"all_messages": "إخفاء هُوِيَّة رسائلك في الخوادم",
+			"specific_messages": "إخفاء هُوِيَّة رسائلك في الخوادم",
+			"select_server": "اختر خادمًا",
+			"select_servers": "حدد خادم واحد أو أكثر",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "معرف الخادم",
+				"placeholder": "أدخل معرف الخادم"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "معرف الخادم",
+				"placeholder": "أدخل معرفات الخادم مفصولة بفواصل (على سبيل المثال، 1071167333265047653، 1412752753348055111)"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "بطاقة هُوِيَّة",
+				"placeholder": "أدخل معرفات الخادم مفصولة بفواصل (على سبيل،, 789 123، 456)"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"title": "مطلوب تأكيد GDPR",
+			"all_transcripts": "**نوع الطلب:** حذف جميع النصوص من الخادم الذي تملكه\n**الخادم:** %s",
+			"all_transcripts_multi": "**نوع الطلب:** حذف جميع النصوص من الخادم الذي تملكه\n**الخادم:**\n* %s",
+			"specific_transcripts": "**نوع الطلب:** حذف النصوص النصية المحددة من الخادم\n**الخادم:** %s\n**معرفات التذاكر:** %s",
+			"all_messages": "**نوع الطلب:** إخفاء هُوِيَّة جميع رسائلك في الخادم المحدد\n**الخادم:** %s",
+			"all_messages_multi": "**نوع الطلب:** إخفاء هُوِيَّة جميع رسائلك في الخادم المحدد\n**الخادم:**\n* %s",
+			"specific_messages": "**نوع الطلب:** إخفاء هُوِيَّة رسائلك في تذاكر محددة\n**الخادم:** %s\n**معرفات التذاكر:** %s",
+			"warning": "\n\n⚠️ تحذير: هذا الإجراء دائم ولا يمكن التراجع عنه.\n\nهل تفهم وتقبل أن هذا الإجراء دائم؟",
+			"button": "تأكيد - أفهم"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"title": "طلب GDPR قائمة الانتظار",
+			"all_transcripts": "**نوع الطلب:** حذف جميع النصوص من الخادم الذي تملكه\n**الخادم:** %s",
+			"all_transcripts_multi": "**نوع الطلب:** حذف جميع النصوص من الخادم الذي تملكه\n**الخادم:**\n* %s",
+			"specific_transcripts": "**نوع الطلب:** حذف النصوص النصية المحددة من الخادم\n**الخادم:** %s\n**معرفات التذاكر:** %s",
+			"all_messages": "**نوع الطلب:** إخفاء هُوِيَّة جميع رسائلك في الخادم المحدد\n**الخادم:** %s",
+			"all_messages_multi": "**نوع الطلب:** إخفاء هُوِيَّة جميع رسائلك في الخادم المحدد\n**الخادم:**\n* %s",
+			"specific_messages": "**نوع الطلب:** إخفاء هُوِيَّة رسائلك في تذاكر محددة\n**الخادم:** %s\n**معرفات التذاكر:** %s",
+			"footer": "\n\nتم وضع طلبك في قائمة الانتظار للمعالجة.\nقد تستغرق المعالجة بعض الوقت حسب عدد النصوص."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"title": "طلب GDPR قائمة الانتظار",
+			"all_transcripts": "**نوع الطلب:** حذف النصوص النصية المحددة من الخادم\n**الخادم:** %s\n**معرفات التذاكر:** %d",
+			"all_transcripts_multi": "**نوع الطلب:** حذف النصوص النصية المحددة من الخادم\n**الخادم:**\n* %s\n**معرفات التذاكر:** %d",
+			"specific_transcripts": "**نوع الطلب:** حذف النصوص النصية المحددة من الخادم\n**الخادم:** %s\n**معرفات التذاكر:** %d",
+			"all_messages": "**نوع الطلب:** إخفاء هُوِيَّة جميع رسائلك في الخادم\n**الخادم:** %s\n**إخفاء هُوِيَّة الرسائل:** %d",
+			"all_messages_multi": "**نوع الطلب:** إخفاء هُوِيَّة جميع رسائلك في الخادم\n**الخادم:**\n* %s\n**إخفاء هُوِيَّة الرسائل:** %d",
+			"specific_messages": "**نوع الطلب:** إخفاء هُوِيَّة جميع رسائلك في الخادم\n**الخادم:** %s\n**إخفاء هُوِيَّة الرسائل:** %d",
+			"error": "\n\n⚠️ خطأ: %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "⚠️ واجهت طلبك GDPR خطأ: %s",
+			"no_data": "ℹ️ تم معالجة طلب GDPR الخاص بك. لم يتم العثور على أية بيانات.",
+			"success": "✅ تمت معالجة طلب GDPR بنجاح."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"no_servers": "لم يتم العثور على خوادم حيث أنت المالك ولديها نصوص نصية.",
+			"invalid_server_id": "معرف الخادم غير صالح.",
+			"invalid_ticket_ids": "معرف التَّذْكِرَة غير صالح. الرجاء إدخال معرفات التَّذْكِرَة الرقمية مفصولة بفواصل (على سبيل المثال 123، 456، 789).",
+			"not_owner": "يجب أن تكون مالك الخادم لحذف النصوص النصية.",
+			"server_not_found": "لم يعثر على الخادم.",
+			"queue_failed": "أخفق قائمة الانتظار لطلب GDPR. الرجاء المحاولة مرة أخرى لاحقاً.",
+			"worker_offline": "خدمة المعالجة GDPR غير متوفرة حاليا. الرجاء المحاولة مرة أخرى لاحقاً أو الاتصال بالدعم إذا استمرت هذه المشكلة."
 		}
 	},
 	"errors": {
-		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
-		"unknown_guild": "Could not find the server.",
+		"unknown_channel": "تعذر العثور على قناة مطلوبة: يجب أن يكون قد تم حذفها.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) والتحقق من جميع إعدادات القناة تم تكوينها بشكل صحيح.",
+		"unknown_guild": "تعذر العثور على الخادم.",
 		"unknown_member": "تعذر العثور على المستخدم. ربما غادروا الخادم أو تم حظرهم.",
-		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
-		"unknown_user": "user could not be found.",
-		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
-		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
-		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
-		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
-		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"unknown_message": "تم حذف الرسالة التي تحاول التفاعل معها.\n\nيرجى محاولة الإجراء مرة أخرى باستخدام رسالة مختلفة.",
+		"unknown_user": "لا يمكن العثور على المستخدم.",
+		"unknown_role": "ولم يعد هناك دور مطلوب للقيام بهذا العمل.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) وإعادة تكوين إعدادات الأدوار.",
+		"unknown_category": "تعذر العثور على قناة مطلوبة: يجب أن يكون قد تم حذفها.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) والتحقق من جميع إعدادات القناة تم تكوينها بشكل صحيح.",
+		"unknown_interaction": "انتهت صَلاحِيَة هذا التفاعل.\n\nيرجى محاولة الإجراء مرة أخرى.",
+		"max_webhooks": "وصل الخادم إلى الحد الأقصى لعدد نُقَط الويب هوسك.\n\nيرجى طلب من مسؤول الخادم إزالة بعض نُقَط الويب غير المستخدمة ثم المحاولة مرة أخرى.",
+		"interaction_acknowledged": "تمت معالجة هذا التفاعل فعلًا.\nإذا كنت بحاجة إلى تنفيذ هذا الإجراء مرة أخرى، يرجى بَدْء تفاعل جديد.",
 		"missing_permissions": {
-			"title": "I am missing the following permissions required to perform this action",
-			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+			"title": "أنا مفقود ولأذانات التالية المطلوبة لتنفيذ هذا الإجراء",
+			"body": "الرجاء تعيين هذه الصلاحيات للبوة أو بدلاً من ذلك إذن \"المسؤول\" وحاول مرة أخرى.\nالرجاء زيارة [docs](%s) للحصول على شرح لسبب طلب كل إذن."
 		},
-		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
-		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
-		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
-		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
-		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
-		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
-		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
-		"invalid_form": "The action could not be completed due to invalid input.",
-		"timed_out": "The operation timed out, please try again.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
-		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"invalid_length": "واحد أو أكثر من الحقول قصيرة جداً أو طويلة جداً.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) والتحقق من جميع المدخلات والتأكد من أن جميع الحقول تفي بقيود الطول المطلوبة.",
+		"required_field": "الحقل المطلوب مفقود أو فارغ.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) والتحقق من ملء جميع الحقول المطلوبة.",
+		"invalid_channel_type": "نوع القناة غير صالح لهذه العملية.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) وتعيين قناة صالحة إلى لوحة التذاكر.",
+		"invalid_category": "نوع القناة غير صالح لهذه العملية.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) وتعيين قناة صالحة إلى لوحة التذاكر.",
+		"invalid_id": "تم توفير معرف غير صالح في تكوين ألبوة.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) والتحقق من جميع الفئات والقناة وهويات الأدوار صحيحة.",
+		"invalid_characters": "المدخل يحتوي على أحرف غير صالحة.\n\nيرجى استخدام الحروف، والأرقام، والشرطات -، والشرطات السفلية _ فقط.",
+		"invalid_choice": "تم توفير خِيار غير صالح.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) والتحقق من صحة جميع الإعدادات.",
+		"invalid_form": "تعذر إكمال الإجراء بسبب إدخال غير صالح.",
+		"timed_out": "انتهت مهلة العملية، يرجى المحاولة مرة أخرى.",
+		"rate_limited": "أنت قيد التقييم محدود. الرجاء المحاولة مرة أخرى %s.",
+		"rate_limited_global": "يشاهد ديس كورد حملا عاليا (حد المعدل العام). الرجاء المحاولة مرة أخرى %s.",
+		"general": "حدث خطأ في أثناء تنفيذ هذا الإجراء.",
+		"error_id": "معرف الخطأ"
 	}
 }
