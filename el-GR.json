@@ -43,10 +43,10 @@
 	"help.about": "Σας δίνει πληροφορίες σχετικά με το bot",
 	"help.add": "Βαζει έναν χρήστη σε ticket",
 	"help.addadmin": "Παραχωρεί δικαιώματα διαχειριστή σε χρήστη ή σε ρόλο",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Προσθέτει έναν χρήστη ή ρόλο ως αντιπρόσωπο υποστήριξης",
 	"help.admin": "Διαχείριση bot",
 	"help.admin.blacklist": "Αποκλεισμός μιας συντεχνίας από το να χρησιμοποιήσει το bot",
-	"help.admin.debug.server": "Debug a server",
+	"help.admin.debug.server": "Αποσφαλματώστε έναν διακομιστή",
 	"help.admin.generate_premium": "Δημιουργία premium κλειδιού",
 	"help.admin.unblacklist": "Αφαίρεση συντεχνίας από τη μαύρη λίστα συντεχνίας",
 	"help.blacklist": "Εναλλάσσει αν επιτρέπεται στους χρήστες να αλληλεπιδρούν με το bot",
@@ -75,9 +75,9 @@
 	"help.unclaim": "Αφαιρεί την διεκδίκηση του συγκεκριμένου ticket",
 	"help.viewstaff": "Εμφανίζει τα μέλη του προσωπικού και τους ρόλους",
 	"help.vote": "Σας δίνει ένα σύνδεσμο για να ψηφίσετε για δωρεάν premium",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Διαχειριστείτε τις αιτήσεις δεδομένων GDPR σας",
 	"open.success": "Άνοιξε ένα νέο ticket: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Αυτός ο πίνακας είναι προς το παρόν κλειστός. Παρακαλώ δοκιμάστε ξανά κατά τη διάρκεια του ωραρίου υποστήριξης.",
 	"setup.auto.category.failure": "Μου λείπει το δικαίωμα `Manage Channels`",
 	"setup.auto.category.success": "Δημιουργήθηκε Tickets κατηγορία",
 	"setup.auto.completed": "Η εγκατάσταση ολοκληρώθηκε! Κάντε κλικ [εδώ](https://dashboard.tickets.bot/manage/%d/panels) για να ρυθμίσετε ένα πλαίσιο αντιδράσεων και προσθέστε τους ρόλους <@&%d> και <@&%d> στα μέλη του προσωπικού σας",
@@ -100,7 +100,7 @@
 	"commands.open.from.moved": "Η συνομιλία έχει μεταφερθεί σε ένα ticket (<#%d>)",
 	"help.close_request": "Στέλνει ένα μήνυμα ζητώντας από το χρήστη να επιβεβαιώσει ότι το αίτημα είναι σε θέση να κλείσει",
 	"close.reason_too_long": "Ο λόγος δεν μπορεί να υπερβαίνει τους 255 χαρακτήρες",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "Το αίτημα κλεισίματος εστάλη με επιτυχία",
 	"commands.close_request.no_reason": "<@%d> ζήτησε να κλείσει αυτό το εισιτήριο.\n\nΠαρακαλώ αποδεχτείτε ή αρνηθείτε χρησιμοποιώντας τα παρακάτω κουμπιά.",
 	"commands.close_request.with_reason": "<@%d> ζήτησε να κλείσει αυτό το εισιτήριο. Λόγος:\n```\n%s\n```\nΠαρακαλώ δεχτείτε ή αρνηθείτε χρησιμοποιώντας τα παρακάτω κουμπιά.",
 	"commands.close_request.no_permission": "Μόνο ο χρήστης που άνοιξε το αίτημα μπορεί να ανταποκριθεί στην αίτηση κλεισίματος",
@@ -124,23 +124,23 @@
 	"generic.title.invite": "Πρόσκληση",
 	"generic.title.close": "Κλείσιμο",
 	"generic.title.claim": "Διεκδίκηση",
-	"generic.title.unclaim": "Unclaim",
+	"generic.title.unclaim": "Άρση διεκδίκησης",
 	"generic.title.blacklisted": "Στη μαύρη λίστα",
 	"generic.title.blacklist": "Μαύρη λίστα",
 	"generic.error.blacklisted": "Είστε στη μαύρη λίστα σε αυτόν τον διακομιστή",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Αυτός ο διακομιστής βρίσκεται στη μαύρη λίστα ως προς τη χρήση αυτού του bot",
+	"generic.error.user_blacklisted": "Βρίσκεστε στη μαύρη λίστα ως προς τη χρήση αυτού του bot",
 	"commands.blacklist.add.success": "<@%d> έχει εισαχθεί στη μαύρη λίστα",
 	"commands.blacklist.remove.success": "<@%d> έχει αφαιρεθεί από την μαύρη λίστα",
 	"generic.title.add_admin": "Προσθήκη διαχειριστή",
 	"generic.title.add_support": "Προσθήκη υποστήριξης",
 	"generic.title.remove_admin": "Αφαίρεση Διαχειριστή",
 	"generic.title.remove_support": "Αφαίρεση Υποστήριξης",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Ο εκπρόσωπος υποστήριξης προστέθηκε με επιτυχία: %s",
 	"generic.title.language": "Γλώσσα",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Ο εκπρόσωπος υποστήριξης αφαιρέθηκε με επιτυχία: %s",
+	"commands.addadmin.success": "Ο διαχειριστής προστέθηκε με επιτυχία: %s",
+	"commands.removeadmin.success": "Ο διαχειριστής αφαιρέθηκε με επιτυχία: %s",
 	"generic.title.setup": "Ρύθμιση",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Πίνακας",
@@ -156,10 +156,10 @@
 	"generic.title.claimed": "Διεκδικημένο Εισιτήριο",
 	"generic.title.unclaimed": "Μη Διεκδικημένο Εισιτήριο",
 	"generic.title.add": "Προσθήκη",
-	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.add.success": "<@%s> έχει προστεθεί στο <#%d>",
+	"commands.add.role_thread": "Λόγω περιορισμών του Discord, ρόλοι δεν μπορούν να προστεθούν σε thread tickets",
+	"commands.remove.success": "<@%s> έχει αφαιρεθεί από <#%d>",
+	"commands.remove.role_thread": "Λόγω περιορισμών του Discord, ρόλοι δεν μπορούν να αφαιρεθούν από thread tickets",
 	"open.ratelimited": "Τα Tickets ανοίγονται πολύ γρήγορα σε αυτόν τον διακομιστή",
 	"commands.claim.thread": "Λόγω των περιορισμών του Discord, η διεκδίκηση δεν υποστηρίζει τα νήματα",
 	"generic.join_support_server": "Μπες στον διακομιστή υποστήριξής μας",
@@ -193,7 +193,7 @@
 		"switch_panel": {
 			"invalid_panel": "Μη έγκυρος πίνακας: Πρέπει να επιλέξετε έναν από το αναπτυσσόμενο μενού",
 			"success": "Αυτό το ticket έχει αλλάξει στον πίνακα `%s` από τον <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Δεν μπορείτε να κάνετε εναλλαγή σε έναν πίνακα που χρησιμοποιεί threads από ένα ticket που δεν τα χρησιμοποιεί"
 		},
 		"blacklist": {
 			"staff": "Τα μέλη του προσωπικού δεν μπορούν να είναι στη μαύρη λίστα",
@@ -278,14 +278,14 @@
 			"discord": {
 				"no_subscription": "Το Premium μπορεί να αγοραστεί απευθείας στο Discord. Κάντε κλικ στο κουμπί κάτω από αυτό το μήνυμα για να ανοίξετε τη σελίδα διαχείρισης συνδρομής.\n\nΈνα αγορασμένο, αφήστε έως και 5 λεπτά για να εντοπιστεί η συνδρομή."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Έχει βρεθεί η συνδρομή σας στο Patreon. Παρακαλώ κάντε κλικ στο κουμπί \"Άνοιγμα Επιλογέα Διακομιστή\" παρακάτω για να ανοίξετε τον πίνακα ελέγχου και να επιλέξετε σε ποιους διακομιστές θέλετε να εφαρμόσετε την premium συνδρομή σας.",
+			"open_server_selector": "Άνοιγμα Επιλογέα Διακομιστή"
 		},
 		"notes": {
 			"added_to_existing": "Έχετε προστεθεί στο υπάρχον νήμα σημειώσεων: <#%d>",
 			"thread_name": "σημειώσεις",
 			"created": "Έχει δημιουργηθεί ένα νήμα σημειώσεων για αυτό το ticket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Σημείωση: τα threads υποστηρίζονται μόνο σε λειτουργία καναλιού"
 		},
 		"rename": {
 			"ratelimited": "Λόγω των περιορισμών που επιβάλλονται από το Discord, τα αιτήματα μπορούν να μετονομαστούν μόνο δύο φορές κάθε 10 λεπτά"
@@ -305,18 +305,18 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Προσωπικό",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Διαχειριστές",
+				"roles": "Ρόλοι Διαχειριστών",
+				"no_users": "Δεν υπάρχουν χρήστες διαχειριστή",
+				"no_roles": "Δεν υπάρχουν ρόλοι διαχειριστή"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Εκπρόσωποι υποστήριξης",
+				"roles": "Ρόλοι Εκπροσώπων Υποστήριξης",
+				"no_roles": "Δεν υπάρχουν ρόλοι εκπροσώπων υποστήριξης",
+				"users_warning": "-# **Προειδοποίηση:** Οι χρήστες στις ομάδες υποστήριξης έχουν πλέον καταργηθεί. Παρακαλώ μετεγκαταστήστε σε ρόλους."
 			}
 		}
 	},
@@ -378,113 +378,113 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Επιλέξτε τον τύπο του αιτήματος GDPR που επιθυμείτε να κάνετε:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Επιλογές Διαγραφής Μεταγραφών**\n-# _Διαγράψτε μεταγραφές από τους διακομιστές που κατέχετε_",
+			"message": "### **Επιλογές Ανωνυμοποίησης**\n-# _Κάντε ανώνυμα τα μηνύματά σας στις μεταγραφές σε επιλεγμένους διακομιστές_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Σημαντικές πληροφορίες**\n* Η διαγραφή είναι **μόνιμη** και δεν μπορεί να αναιρεθεί\n* Μπορείτε να διαγράψετε μόνο μεταγραφές από διακομιστές που **σας** ανήκουν\n* Μόνο τα **δικά σας** μηνύματα μπορούν να ανωνυμοποιηθούν σε μεταγραφές\n* Το αίτημα μπορεί να διαρκέσει έως και **30 ημέρες** για να ολοκληρωθεί\n* Το αίτημά σας θα επεξεργαστεί με **ουρά προτεραιότητας**",
+		"resources": "### **Πηγές**\n[Τι είναι το GDPR?](%s)\n[Δικαίωμα διαγραφής](%s)\n[Δικαίωμα Πρόσβασης](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Όλες οι μεταγραφές από διακομιστές",
+			"specific_transcripts": "Συγκεκριμένες μεταγραφές",
+			"all_messages": "Όλα τα μηνύματά σας σε διακομιστές",
+			"specific_messages": "Τα μηνύματά σας σε συγκεκριμένα ticket"
 		},
-		"language_option": "Language",
+		"language_option": "Γλώσσα",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Διαγραφή Όλων των Μεταγραφών από Διακομιστές",
+			"specific_transcripts": "Διαγράψτε Συγκεκριμένες Μεταγραφές",
+			"all_messages": "Ανωνυμοποιήστε τα μηνύματά σας σε διακομιστές",
+			"specific_messages": "Ανωνυμοποιήστε τα μηνύματά σας σε συγκεκριμένα tickets",
+			"select_server": "Επιλέξτε έναν διακομιστή",
+			"select_servers": "Επιλέξτε έναν ή περισσότερους διακομιστές",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "Αναγνωριστικό Διακομιστή",
+				"placeholder": "Εισάγετε το αναγνωριστικό του διακομιστή"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "Αναγνωριστικά Διακομιστών",
+				"placeholder": "Εισάγετε αναγνωριστικά διακομιστών διαχωρισμένα με κόμματα (π.χ., 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "Αναγνωριστικό Ticket",
+				"placeholder": "Εισάγετε αναγνωριστικά ticket διαχωρισμένα με κόμματα (π.χ., 123, 456, 789)"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"title": "Απαιτείται Επιβεβαίωση GDPR",
+			"all_transcripts": "**Είδος Αιτήματος:** Διαγραφή όλων των μεταγραφών από έναν διακομιστή που σας ανήκει\n**Διακομιστής:** %s",
+			"all_transcripts_multi": "**Είδος Αιτήματος:** Διαγραφή όλων των μεταγραφών από διακομιστές που σας ανήκουν\n**Διακομιστές:** \n* %s",
+			"specific_transcripts": "**Είδος Αιτήματος:** Διαγραφή συγκεκριμένων μεταγραφών από έναν διακομιστή\n**Διακομιστής:** %s\n**Αναγνωριστικά Ticket:** %s",
+			"all_messages": "**Είδος Αιτήματος:** Ανωνυμοποίηση όλων των μηνυμάτων σας στον επιλεγμένο διακομιστή\n**Διακομιστής:** %s",
+			"all_messages_multi": "**Είδος Αιτήματος:** Ανωνυμοποίηση όλων των μηνυμάτων σας στους επιλεγμένους διακομιστές\n**Διακομιστές:** \n* %s",
+			"specific_messages": "**Είδος Αιτήματος:** Ανωνυμοποίηση των μηνυμάτων σας σε συγκεκριμένα ticket\n**Διακομιστής:** %s\n**Αναγνωριστικά Ticket:** %s",
+			"warning": "\n\n⚠️ **Προειδοποίηση:** Αυτή η ενέργεια είναι μόνιμη και δεν μπορεί να αναιρεθεί.\n\nΚαταλαβαίνετε και αποδέχεστε ότι αυτή η ενέργεια είναι μόνιμη?",
+			"button": "Επιβεβαίωση - Κατανοώ"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"title": "Το αίτημα GDPR βρίσκεται σε αναμονή",
+			"all_transcripts": "**Είδος Αιτήματος:** Διαγραφή όλων των μεταγραφών από έναν διακομιστή\n**Διακομιστής:** %s",
+			"all_transcripts_multi": "**Είδος Αιτήματος:** Διαγραφή όλων των μεταγραφών από διακομιστές\n**Διακομιστές:** \n* %s",
+			"specific_transcripts": "**Είδος Αιτήματος:** Διαγραφή συγκεκριμένων μεταγραφών\n**Διακομιστής:** %s\n**Αναγνωριστικά Ticket:** %s",
+			"all_messages": "**Είδος Αιτήματος:** Ανωνυμοποίηση όλων των μηνυμάτων σας σε διακομιστή\n**Διακομιστής:** %s",
+			"all_messages_multi": "**Είδος Αιτήματος:** Ανωνυμοποίηση όλων των μηνυμάτων σας σε διακομιστές\n**Διακομιστές:** \n* %s",
+			"specific_messages": "**Είδος Αιτήματος:** Ανωνυμοποίηση των μηνυμάτων σας σε συγκεκριμένα ticket\n**Διακομιστής:** %s\n**Αναγνωριστικά Ticket:** %s",
+			"footer": "\n\nΤο αίτημά σας έχει τεθεί σε αναμονή για επεξεργασία.\nΗ επεξεργασία μπορεί να πάρει κάποιο χρόνο ανάλογα με τον αριθμό των μεταγραφών."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"title": "Το Αίτημα GDPR Ολοκληρώθηκε",
+			"all_transcripts": "**Είδος Αιτήματος:** Διαγραφή όλων των μεταγραφών από έναν διακομιστή\n**Διακομιστής:** %s\n**Διεγραμμένες Μεταγραφές:** %s",
+			"all_transcripts_multi": "**Είδος Αιτήματος:** Διαγραφή όλων των μεταγραφών από διακομιστές\n**Διακομιστές:** \n* %s\n**Διεγραμμένες Μεταγραφές:** %s",
+			"specific_transcripts": "**Είδος Αιτήματος:** Διαγραφή συγκεκριμένων μεταγραφών\n**Διακομιστής:** %s\n**Διεγραμμένες Μετεγραφές:** %d",
+			"all_messages": "**Είδος Αιτήματος:** Ανωνυμοποίηση όλων των μηνυμάτων σας σε διακομιστή\n**Διακομιστής:** %s\n**Ανωνυμοποιημένα Μηνύματα:** %d",
+			"all_messages_multi": "**Είδος Αιτήματος:** Ανωνυμοποίηση όλων των μηνυμάτων σας σε διακομιστές\n**Διακομιστές:** \n* %s\n**Ανωνυμοποιημένα Μηνύματα:** %d",
+			"specific_messages": "**Είδος Αιτήματος:** Ανωνυμοποίηση των μηνυμάτων σας σε συγκεκριμένα ticket\n**Διακομιστής:** %s\n**Ανωνυμοποιημένα Μηνύματα:** %d",
+			"error": "\n\n**⚠️ Σφάλμα:** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "⚠️ Το αίτημα GDPR σας αντιμετώπισε ένα σφάλμα: %s",
+			"no_data": "ℹ️ Το αίτημα GDPR σας έχει επεξεργαστεί. Δεν βρέθηκαν δεδομένα.",
+			"success": "✅ Το αίτημα GDPR σας έχει επεξεργαστεί με επιτυχία."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"no_servers": "Δεν βρέθηκαν διακομιστές όπου είστε ο ιδιοκτήτης και έχετε μεταγραφές.",
+			"invalid_server_id": "Δόθηκε μη έγκυρο αναγνωριστικό διακομιστή.",
+			"invalid_ticket_ids": "Δόθηκαν μη έγκυρα αναγνωριστικά εισιτηρίων. Παρακαλώ εισάγετε αναγνωριστικά εισιτηρίων διαχωρισμένα με κόμματα (π.χ., 123, 456, 789).",
+			"not_owner": "Πρέπει να είστε ο ιδιοκτήτης του διακομιστή για να διαγράψετε μεταγραφές.",
+			"server_not_found": "Ο διακομιστής δεν βρέθηκε.",
+			"queue_failed": "Αποτυχία προσθήκης αιτήματος GDPR στην ουρά προτεραιότητας. Παρακαλώ δοκιμάστε ξανά αργότερα.",
+			"worker_offline": "Η υπηρεσία επεξεργασίας GDPR δεν είναι διαθέσιμη προς το παρόν. Δοκιμάστε ξανά αργότερα ή επικοινωνήστε με την υποστήριξη, αν αυτό το πρόβλημα δεν επιδιορθωθεί."
 		}
 	},
 	"errors": {
-		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
-		"unknown_guild": "Could not find the server.",
-		"unknown_member": "The user could not be found. They may have left the server or been banned.",
-		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
-		"unknown_user": "user could not be found.",
-		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
-		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
-		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
-		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
-		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"unknown_channel": "Αδυναμία εύρεσης ενός απαιτούμενου καναλιού: μάλλον έχει διαγραφεί.\n\nΠαρακαλώ ζητήστε από το διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και επαληθεύσει ότι όλες οι ρυθμίσεις καναλιών έχουν ρυθμιστεί σωστά.",
+		"unknown_guild": "Δεν ήταν δυνατή η εύρεση του διακομιστή.",
+		"unknown_member": "Ο χρήστης δεν βρέθηκε. Μπορεί να έχει φύγει από τον διακομιστή ή να έχει αποκλειστεί.",
+		"unknown_message": "Το μήνυμα με το οποίο προσπαθείτε να αλληλεπιδράσετε έχει διαγραφεί.\n\nΠαρακαλώ δοκιμάστε ξανά με ένα διαφορετικό μήνυμα.",
+		"unknown_user": "Ο χρήστης δεν βρέθηκε.",
+		"unknown_role": "Ο ρόλος που απαιτείται για αυτή τη δράση δεν υπάρχει πλέον.\n\nΠαρακαλώ ζητήστε από το διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να αναδιαμορφώσει τις ρυθμίσεις ρόλων.",
+		"unknown_category": "Αδυναμία εύρεσης μιας απαιτούμενης κατηγορίας: μάλλον έχει διαγραφεί.\n\nΠαρακαλώ ζητήστε από το διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να ορίσει μια έγκυρη κατηγορία καναλιού σε αυτόν τον πίνακα.",
+		"unknown_interaction": "Αυτή η αλληλεπίδραση έχει λήξει.\n\nΠαρακαλώ δοκιμάστε ξανά.",
+		"max_webhooks": "Ο διακομιστής έχει φτάσει στο μέγιστο αριθμό webhooks.\n\nΠαρακαλώ ζητήστε από τον διαχειριστή του διακομιστή να αφαιρέσει μερικά αχρησιμοποίητα webhooks και προσπαθήστε ξανά.",
+		"interaction_acknowledged": "Αυτή η αλληλεπίδραση έχει ήδη επεξεργαστεί.\n\nΑν χρειαστεί να εκτελέσετε ξανά αυτήν την ενέργεια, παρακαλώ ξεκινήστε μια νέα αλληλεπίδραση.",
 		"missing_permissions": {
-			"title": "I am missing the following permissions required to perform this action",
-			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+			"title": "Μου λείπουν τα ακόλουθα δικαιώματα που απαιτούνται για την εκτέλεση αυτής της ενέργειας",
+			"body": "Παρακαλώ εκχωρήστε αυτά τα δικαιώματα στο bot ή εναλλακτικά, την άδεια `Administrator` και προσπαθήστε ξανά.\nΠαρακαλούμε επισκεφθείτε τα [αρχεία](%s) μας για τον λόγο που απαιτείται κάθε άδεια."
 		},
-		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
-		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
-		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
-		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
-		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
-		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
-		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
-		"invalid_form": "The action could not be completed due to invalid input.",
-		"timed_out": "The operation timed out, please try again.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
-		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"invalid_length": "Ένα ή περισσότερα πεδία είναι πολύ μικρά ή πολύ μεγάλα.\n\nΠαρακαλώ ζητήστε από έναν διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να επαληθεύσει όλες τις εισόδους και να εξασφαλίσει ότι όλα τα πεδία πληρούν τους απαιτούμενους περιορισμούς μήκους.",
+		"required_field": "Ένα απαιτούμενο πεδίο λείπει ή είναι κενό.\n\nΠαρακαλώ ζητήστε από έναν διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να επαληθεύσει πως όλα τα απαιτούμενα πεδία έχουν συμπληρωθεί.",
+		"invalid_channel_type": "Ο τύπος καναλιού δεν είναι έγκυρος για αυτήν τη λειτουργία.\n\nΠαρακαλώ ζητήστε από το διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να ορίσει ένα έγκυρο κανάλι στον πίνακα.",
+		"invalid_category": "Η κατηγορία καναλιού δεν είναι έγκυρη: μάλλον έχει διαγραφεί.\n\nΠαρακαλώ ζητήστε από το διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να ορίσει μια έγκυρη κατηγορία στον πίνακα.",
+		"invalid_id": "Ένα μη έγκυρο αναγνωριστικό δόθηκε στις ρυθμίσεις του bot.\n\nΠαρακαλώ ζητήστε από το διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να επαληθεύσει ότι όλα τα αναγνωριστικά κατηγοριών, καναλιών και ρόλων είναι σωστά.",
+		"invalid_characters": "Το εισαγόμενο κείμενο περιέχει μη έγκυρους χαρακτήρες.\n\nΠαρακαλώ χρησιμοποιήστε μόνο γράμματα, αριθμούς, παύλες και κάτω παύλες.",
+		"invalid_choice": "Δόθηκε μια μη έγκυρη επιλογή.\n\nΠαρακαλώ ζητήστε από έναν διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να επιβεβαιώσει ότι όλες οι ρυθμίσεις είναι σωστές.",
+		"invalid_form": "Δεν ήταν δυνατή η ολοκλήρωση της ενέργειας λόγω μη έγκυρης εισαγωγής.",
+		"timed_out": "Το όριο λειτουργίας έληξε, παρακαλώ προσπαθήστε ξανά.",
+		"rate_limited": "Περιορίζεστε. Παρακαλώ δοκιμάστε ξανά %s.",
+		"rate_limited_global": "Το Discord αντιμετωπίζει υψηλό φορτίο. Παρακαλώ δοκιμάστε ξανά %s.",
+		"general": "Παρουσιάστηκε σφάλμα κατά την εκτέλεση αυτής της ενέργειας.",
+		"error_id": "Αναγνωριστικό Σφάλματος"
 	}
 }
