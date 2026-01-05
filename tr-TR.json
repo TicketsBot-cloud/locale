@@ -43,10 +43,10 @@
 	"help.about": "Bot hakkında bilgi verir",
 	"help.add": "Talebe bir kullanıcı ekler",
 	"help.addadmin": "Bir kullanıcı veya role yönetici yetkilerini verir",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Destek temsilcisi olarak bir rol ekler",
 	"help.admin": "Bot yönetimi",
 	"help.admin.blacklist": "Sunucunun botu kullanmasını kara listeye alarak engelle",
-	"help.admin.debug.server": "Debug a server",
+	"help.admin.debug.server": "Sunucuda hata ayıklama yap",
 	"help.admin.generate_premium": "Premium anahtarları oluşturur",
 	"help.admin.unblacklist": "Bir sunucuyu sunucu kara listesinden çıkarın",
 	"help.blacklist": "Kullanıcıların botu kullanmasına izin verilip, verilmediğini değiştirir",
@@ -75,9 +75,9 @@
 	"help.unclaim": "Talebin devredilmesini kaldırır",
 	"help.viewstaff": "Yetkilendirilmiş kullanıcı ve rolleri listeler",
 	"help.vote": "Ücretsiz premium üyelik için oy bağlantısı",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "GDPR veri taleplerinizi yönetin",
 	"open.success": "Talebin oluşturuldu: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Bu panel şu anda kapalı. Lütfen destek saatlerimizde tekrar deneyin.",
 	"setup.auto.category.failure": "Kanalları yönet iznine sahip değil",
 	"setup.auto.category.success": "Destek kategorisi oluşturuldu",
 	"setup.auto.completed": "Kurulum tamamlandı! Bir reaksiyon paneli kurmak için [buraya] (https://dashboard.tickets.bot/manage/%d/panels) tıklayın ve personel üyelerinize <@&%d> ve <@&%d> rollerini ekleyin",
@@ -100,7 +100,7 @@
 	"commands.open.from.moved": "Görüşme şu bilete taşındı: (<#%d>)",
 	"help.close_request": "Kullanıcıdan biletin kapatılabileceğini onaylamasını isteyen bir mesaj gönderir",
 	"close.reason_too_long": "Talebi kapatma nedeni 255 karakterden uzun olamaz",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "Kapatma talebi başarıyla gönderildi",
 	"commands.close_request.no_reason": "<@%d> Bu biletin kapatılmasını istedi.\n\nLütfen aşağıdaki butonları kullanarak onay verin yada reddedin.",
 	"commands.close_request.with_reason": "<@%d>, biletin kapatılmasını istedi. Sebep:\n```\n%s\n```\nLütfen aşağıdaki butonları kullanarak onay verin ya da reddedin.",
 	"commands.close_request.no_permission": "Destek talebini kapatma isteğine sadece talebi açan kullanıcı yanıt verebilir",
@@ -128,19 +128,19 @@
 	"generic.title.blacklisted": "Kara listeye alındı",
 	"generic.title.blacklist": "Karaliste",
 	"generic.error.blacklisted": "Bu sunucuda kara listeye alındınız",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Bu sunucu, bu botu kullanmaktan men edilmiştir",
+	"generic.error.user_blacklisted": "Bu botu kullanman engellendi",
 	"commands.blacklist.add.success": "<@%d>, kara listeye alındı",
 	"commands.blacklist.remove.success": "<@%d>, kara listeden çıkartıldı",
 	"generic.title.add_admin": "Yönetici ekle",
 	"generic.title.add_support": "Destek ekle",
 	"generic.title.remove_admin": "Yöneticiyi kaldır",
 	"generic.title.remove_support": "Desteği sonlandır",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Destek temsilcisi eklendi: %s",
 	"generic.title.language": "Dil",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Destek temsilcisi başarıyla kaldırıldı: %s",
+	"commands.addadmin.success": "Admin başarıyla eklendi: %s",
+	"commands.removeadmin.success": "Admin başarıyla kaldırıldı: %s",
 	"generic.title.setup": "Kurulum",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Kontrol Paneli",
@@ -156,10 +156,10 @@
 	"generic.title.claimed": "Destek Ver",
 	"generic.title.unclaimed": "Destek Vermeyi Sonlandır",
 	"generic.title.add": "Ekle",
-	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.add.success": "<@%s> <#%d> kanalına eklendi",
+	"commands.add.role_thread": "Discord'un kısıtlamaları nedeniyle, thread ticketlara rol eklenemez",
+	"commands.remove.success": "<@%s> <#%d> kanalından çıkarıldı",
+	"commands.remove.role_thread": "Discord'un sınırlamaları nedeniyle konu ticketlarından rol çıkarılamaz",
 	"open.ratelimited": "Sunucuda destek talepleri çok hızlı açılıyor",
 	"commands.claim.thread": "Discord sınırlamaları nedeniyle, hak talebinde bulunmak konuları desteklemez",
 	"generic.join_support_server": "Destek sunucusuna katılın",
@@ -177,8 +177,8 @@
 		"success": "Bilet <@%d> tarafından kapatıldı",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "Bu ticketı değerlendiremezsin çünkü %s ticketında destek temsilcisisin",
+				"empty": "Bu ticketı puanlayamazsın, hiçbir mesaj yazmadın"
 			}
 		}
 	},
@@ -187,13 +187,13 @@
 			"disabled": "Bu sunucuda `/open` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın",
 			"threads": {
 				"cant_see_parent_channel": "Bilete <@%d> eklenemedi: Konunun ana kanalını (<#%d>) görüntüleme iznine sahip olduklarından emin olun",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "`Send Messages in Threads` iznin yok, bu da ticket açman için gerekli. Sunucu yöneticisinden bu izni vermesini iste ve tekrar dene."
 			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Geçersiz panel: Açılır menüden birini seçmelisiniz",
 			"success": "Bu bilet <@%[2]d> tarafından, `%[1]s` paneline geçirildi",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Normal bir tickettan konu formatındaki panele geçemezsin"
 		},
 		"blacklist": {
 			"staff": "Yönetici üyeler kara listeye alınamaz",
@@ -221,7 +221,7 @@
 				"limit": "Etiket sınırına ulaştınız (%d)"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Özel komutları (tag aliasları) kullanmak için premium gerekli"
 			}
 		},
 		"language": {
@@ -269,54 +269,54 @@
 					"description": "Patreon'dan satın alım yaptıysanız bu seçeneği seçin"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "Discord uygulamasındaki mağazadan satın alım gerçekleştirdiysen bu seçeneği seç"
 				}
 			},
 			"about": "Premium daha fazla panele, istatistiklere, özel bir bota ve daha fazlasına erişim sağlar! Daha fazlasını öğrenmek için [web sitemizi](https://tickets.bot/premium) ziyaret edin.",
 			"already_activated": "İyi haber! Premium zaten bu sunucuda aktif.",
 			"already_activated_whitelabel": "İyi haber! Premium zaten bu sunucuda aktif.\n\nSunucunuza özel botu kullanmaya başlama konusunda yardım almak için [özel bot kurulumu kılavuzumuzu](https://docs.tickets.bot/premium/whitelabel-setup-guide) okuyun.",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Premium'u direkt Discord üzerinden satın alabilirsin. Aşağıdaki butona tıklayarak abonelik yönetim sayfasını aç. \n\nSatın aldıktan sonra aboneliğin aktifleşmesi için 5 dakikaya kadar bekle."
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "Patreon aboneliğin onaylandı. Alttaki butona tıklayıp premium'u hangi sunucularda kullanacağını yönetim paneli üzerinden seç.",
+			"open_server_selector": "Sunucu Seç"
 		},
 		"notes": {
 			"added_to_existing": "Mevcut not başlığına eklendiniz: <#%d>",
 			"thread_name": "notlar",
 			"created": "Bu bilet için bir not başlığı oluşturuldu: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Not sistemi sadece kanal modunda çalışır"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "Discord'un sınırlamaları yüzünden ticketlar her 10 dakikada sadece 2 kez yeniden adlandırılabilir"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "Kredi Kullan",
+			"no_credits": "Kullanılamadı: Oy kredin yok!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "Kredilerin kullanıldı ve %d gün premium kazandın!",
+					"singular": "Kredin kullanıldı ve %d gün premium kazandın!"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "%d adet oy kredin var: Alttaki \"Kredileri Kullan\" butonuna basarak, bu sunucuda %d gün premium kazan.",
+				"singular": "%d adet oy kredin var. Alttaki \"Kredileri Kullan\" butonuna basarak, bu sunucuda %d gün premium kazan."
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Destek Ekibi",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Adminler",
+				"roles": "Admin Rolleri",
+				"no_users": "Admin kullanıcı yok",
+				"no_roles": "Admin rolü yok"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Destek Kullanıcıları",
+				"roles": "Destek Rolleri",
+				"no_roles": "Destek rolü yok",
+				"users_warning": "-# **Uyarı:** Destek ekiplerindeki kullanıcılar artık kullanımdan kaldırıldı. Lütfen rollere geçiş yapın."
 			}
 		}
 	},
@@ -378,113 +378,113 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Yapmak istediğin GDPR talebinin türünü seç:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Transkript Silme Seçenekleri**\n-# _Sahip olduğun sunuculardan transkriptleri sil_",
+			"message": "### **Mesaj Anonimleştirme Seçenekleri**\n-# _Seçtiğin sunuculardaki transkriptlerde mesajlarını anonimleştir_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Önemli Bilgiler**\n* Silme işlemi **kalıcıdır** ve geri alınamaz\n* Sadece **senin sahip olduğun** sunuculardan transkript silebilirsin\n* Transkriptlerde sadece **kendi mesajların** anonimleştirilebilir\n* İşlem tamamlanması **30 güne kadar** sürebilir\n* Talebin **sırayla** işlenecek",
+		"resources": "### **Kaynaklar**\n[GDPR nedir?](%s)\n[Silme Hakkı](%s)\n[Erişim Hakkı](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Tüm sunuculardaki transkriptler",
+			"specific_transcripts": "Seçili transkriptler",
+			"all_messages": "Tüm sunuculardaki mesajların",
+			"specific_messages": "Belirli ticketlardaki mesajların"
 		},
-		"language_option": "Language",
+		"language_option": "Dil",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Tüm Sunuculardan Transkriptleri Sil",
+			"specific_transcripts": "Belirli Transkriptleri Sil",
+			"all_messages": "Sunuculardaki Mesajlarını Anonimleştir",
+			"specific_messages": "Belirli Ticketlardaki Mesajlarını Anonimleştir",
+			"select_server": "Sunucu seç",
+			"select_servers": "Bir veya daha fazla sunucu seç",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "Sunucu ID",
+				"placeholder": "Sunucu ID'sini gir"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "Sunucu ID'leri",
+				"placeholder": "Sunucu ID'lerini virgülle ayırarak gir (örn: 107116733326504765, 141275275334805511)"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "Ticket ID'leri",
+				"placeholder": "Ticket ID'lerini virgülle ayırarak gir (örn: 123, 456, 789)"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"title": "GDPR Onayı Gerekli",
+			"all_transcripts": "**Talep Türü:** Sahip olduğun sunucudaki tüm transkriptleri sil\n**Sunucu:** %s",
+			"all_transcripts_multi": "**Talep Türü:** Sahip olduğun sunuculardaki tüm transkriptleri sil\n**Sunucular:**\n* %s",
+			"specific_transcripts": "**Talep Türü:** Belirli transkriptleri sunucudan sil\n**Sunucu:** %s\n**Ticket ID'leri:** %s",
+			"all_messages": "**Talep Türü:** Seçilen sunucudaki tüm mesajlarını anonimleştir\n**Sunucu:** %s",
+			"all_messages_multi": "**Talep Türü:** Seçilen sunuculardaki tüm mesajlarını anonimleştir\n**Sunucular:**\n*%s",
+			"specific_messages": "**Talep Türü:** Belirli ticketlardaki mesajlarını anonimleştir\n**Sunucu:** %s\n**Ticket ID'leri:** %s",
+			"warning": "\n\n⚠️ **Uyarı:** Bu işlem kalıcıdır ve geri alınamaz.\n\nBu işlemin kalıcı olduğunu kabul ediyor musun?",
+			"button": "Onaylıyorum"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"title": "GDPR Talebi Sıraya Alındı",
+			"all_transcripts": "**Talep Türü:** Sunucudaki tüm transkriptleri sil\n**Sunucu:** %s",
+			"all_transcripts_multi": "*Talep Türü:** Sunuculardaki tüm transkriptleri sil\n**Sunucular:**\n* %s",
+			"specific_transcripts": "**Talep Türü:** Belirli transkriptleri sil\n**Sunucu:** %s\n**Ticket ID'leri:** %s",
+			"all_messages": "**Talep Türü:** Sunucudaki tüm mesajlarını anonimleştir\n**Sunucu:** %s",
+			"all_messages_multi": "**Talep Türü:** Sunuculardaki tüm mesajlarını anonimleştir\n**Sunucular:**\n* %s",
+			"specific_messages": "**Talep Türü:** Belirli ticketlardaki mesajlarını anonimleştir\n**Sunucu:** %s\n**Ticket ID'leri:** %s",
+			"footer": "\n\nTalebin sıraya alındı.\nyoğunluğa göre işlem biraz zaman alabilir."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"title": "GDPR Talebi Tamamlandı",
+			"all_transcripts": "*Talep Türü:** Sunucudaki tüm transkriptleri sil\n**Sunucu:** %s\n**Silinen Transkriptler:** %d",
+			"all_transcripts_multi": "**Talep Türü:** Sunuculardaki tüm transkriptleri sil\n**Sunucular:**\n* %s\n**Silinen Transkriptler:** %d",
+			"specific_transcripts": "**Talep Türü:** Belirli transkriptleri sil\n**Sunucu:** %s\n**Silinen Transkriptler:** %d",
+			"all_messages": "**Talep Türü:** Sunucudaki tüm mesajlarını anonimleştir\n**Sunucu:** %s\n**Anonimleştirilen Mesajlar:** %d",
+			"all_messages_multi": "**Talep Türü:** Sunuculardaki tüm mesajlarını anonimleştir\n**Sunucular:**\n* %s\n**Anonimleştirilen Mesajlar:** %d",
+			"specific_messages": "**Talep Türü:** Belirli ticketlardaki mesajlarını anonimleştir\n**Sunucu:** %s\n**Anonimleştirilen Mesajlar:** %d",
+			"error": "\n\n**⚠️ Hata:** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "⚠️ GDPR talebin bir hatayla karşılaştı: %s",
+			"no_data": "ℹ️ GDPR talebin işlendi. Veri bulunamadı.",
+			"success": "✅ GDPR talebin başarıyla işlendi."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"no_servers": "Sahip olduğun ve transkripti olan herhangi bir sunucu bulunamadı.",
+			"invalid_server_id": "Geçersiz sunucu numarası girildi.",
+			"invalid_ticket_ids": "Geçersiz ticket ID'leri girildi. Lütfen Ticket ID'lerini virgülle ayırarak giriniz (örn: 123, 456, 789).",
+			"not_owner": "Transkriptleri silmek için sunucu sahibi olmalısın.",
+			"server_not_found": "Sunucu bulunamadı.",
+			"queue_failed": "GDPR talebi sıraya alınamadı. Lütfen daha sonra tekrar deneyiniz.",
+			"worker_offline": "GDPR işleme servisi şu anda kullanılamıyor. Daha sonra lütfen tekrar deneyiniz. Eğer sorun devam ederse destek ekibiyle iletişime geçin."
 		}
 	},
 	"errors": {
-		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
-		"unknown_guild": "Could not find the server.",
-		"unknown_member": "The user could not be found. They may have left the server or been banned.",
-		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
-		"unknown_user": "user could not be found.",
-		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
-		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
-		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
-		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
-		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"unknown_channel": "Gerekli kanal bulunamadı: silinmiş olmalı.\n\nSunucu yöneticisinden paneli ziyaret edip tüm kanal ayarlarının doğru yapılandırıldığını kontrol etmesini isteyiniz.",
+		"unknown_guild": "Sunucu bulunamadı.",
+		"unknown_member": "Kullanıcı bulunamadı. Sunucudan ayrılmış veya banlanmış olabilir.",
+		"unknown_message": "Etkileşime geçmeye çalıştığın mesaj silindi.\nBaşka bir mesajla tekrar dene.",
+		"unknown_user": "kullanıcı bulunamadı.",
+		"unknown_role": "Bu işlem için gereken rol artık yok.\nSunucu yöneticisinden paneli ziyaret edip rol ayarlarını yeniden yapılandırmasını iste.",
+		"unknown_category": "Gerekli kategori bulunamadı: silinmiş olmalı.\nSunucu yöneticisinden paneli ziyaret edip (%s) bu ticket paneline geçerli bir kanal kategorisi atamasını iste.",
+		"unknown_interaction": "Bu etkileşimin süresi doldu.\nİşlemi tekrar dene.",
+		"max_webhooks": "Sunucu maksimum webhook sayısına ulaştı.\nSunucu yöneticisinden kullanılmayan webhook'ları kaldırıp tekrar denemesini iste.",
+		"interaction_acknowledged": "Bu etkileşim zaten işlendi.\nBu işlemi tekrar yapmak istiyorsan yeni bir etkileşim başlat.",
 		"missing_permissions": {
-			"title": "I am missing the following permissions required to perform this action",
-			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+			"title": "Bu işlemi gerçekleştirmek için gerekli izinler eksik",
+			"body": "Bu izinleri bota ver ya da alternatif olarak Yönetici iznini ver ve tekrar dene.\nHer iznin neden gerekli olduğunu öğrenmek için dökümantasyonumuzu (%s) ziyaret et."
 		},
-		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
-		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
-		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
-		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
-		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
-		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
-		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
-		"invalid_form": "The action could not be completed due to invalid input.",
-		"timed_out": "The operation timed out, please try again.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
-		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"invalid_length": "Bir veya daha fazla alan çok kısa ya da çok uzun.\n\nSunucu yöneticisinden paneli(%s) ziyaret edip tüm girdileri kontrol etmesini ve alanların gerekli uzunluk sınırlarını karşıladığından emin olmasını isteyiniz.",
+		"required_field": "Gerekli bir alan eksik veya boş.\nSunucu yöneticisinden paneli ziyaret edip (%s) tüm gerekli alanların doldurulduğunu kontrol etmesini iste.",
+		"invalid_channel_type": "Kanal türü bu işlem için geçersiz.\nSunucu yöneticisinden paneli ziyaret edip(%s) ticket paneline geçerli bir kanal atamasını iste.",
+		"invalid_category": "Kanal kategorisi geçersiz, silinmiş olmalı.",
+		"invalid_id": "Bot yapılandırmasında geçersiz bir ID girildi.\n\nSunucu yöneticisinden paneli (%s) ziyaret edip tüm kategori, kanal ve rol ID'lerinin doğru olduğunu kontrol etmesini iste.",
+		"invalid_characters": "Girdi geçersiz karakterler içeriyor.\nSadece harf, rakam, tire ve alt çizgi kullanın.",
+		"invalid_choice": "Geçersiz bir seçenek girildi.\nSunucu yöneticisinden paneli (%s) ziyaret edip tüm ayarların doğru olduğunu kontrol etmesini iste.",
+		"invalid_form": "Geçersiz girdi nedeniyle işlem tamamlanamadı.",
+		"timed_out": "İşlem zaman aşımına uğradı, lütfen tekrar deneyin.",
+		"rate_limited": "Hız sınırına takıldın. %s sonra tekrar dene.",
+		"rate_limited_global": "Discord yüksek yük altında (global hız sınırı). %s sonra tekrar deneyiniz.",
+		"general": "Bu işlemi gerçekleştirirken bir hata oluştu.",
+		"error_id": "Hata numarası"
 	}
 }
