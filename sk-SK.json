@@ -316,7 +316,7 @@
 				"users": "Používatelia podpory",
 				"roles": "Podporné roly",
 				"no_roles": "Žiadne podporné roly",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users_warning": "-# **Upozornenie:** Používatelia v podporných tímoch už nie sú odporúčaní na používanie. Prejdite na roly."
 			}
 		}
 	},
@@ -378,34 +378,34 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Vyberte typ žiadosti GDPR, ktorú chcete podať:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Možnosti odstránenia prepisov**\n-# _Odstránenie prepisov zo serverov, ktoré vlastníte_",
+			"message": "### **Možnosti anonymizácie správ**\n-# _Anonymizujte svoje správy z prepisov na vybraných serveroch_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Dôležité informácie**\n* Vymazanie je **trvalé** a nedá sa vrátiť späť\n* Prepisy môžete vymazať iba zo serverov, ktoré **vlastníte**\n* V prepisoch je možné anonymizovať iba **vaše** správy\n* Vybavenie žiadosti môže trvať až **30 dní**\n* Vaša žiadosť bude spracovaná v **poradí**",
+		"resources": "### **Zdroje**\n[Čo je GDPR?](%s)\n[Právo na vymazanie](%s)\n[Právo na prístup](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Všetky prepisy zo serverov",
+			"specific_transcripts": "Konkrétne prepisy",
+			"all_messages": "Všetky vaše správy na serveroch",
+			"specific_messages": "Vaše správy v konkrétnych tiketoch"
 		},
-		"language_option": "Language",
+		"language_option": "Jazyk",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Vymazať všetky prepisy zo serverov",
+			"specific_transcripts": "Vymazať konkrétne prepisy",
+			"all_messages": "Anonymizovať vaše správy na serveroch",
+			"specific_messages": "Anonymizovať vaše správy v konkrétnych tiketoch",
+			"select_server": "Vyberte server",
+			"select_servers": "Vyberte jeden alebo viac serverov",
 			"server_id": {
 				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"placeholder": "Zadajte ID servera"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "ID serverov",
+				"placeholder": "Zadajte ID serverov oddelené čiarkami (napr. 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
 				"label": "Ticket IDs",
