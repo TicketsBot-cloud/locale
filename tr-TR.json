@@ -201,6 +201,9 @@
 				"success": "<@&%d> kara listeye alındı",
 				"limit": "Sınıra ulaştınız, daha fazla rolü kara listeye ekleyemezsiniz (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d>, kara listeden kaldırıldı"
+			},
 			"add": {
 				"limit": "Sınıra ulaştınız, daha fazla kullanıcıyı kara listeye ekleyemezsiniz (%d). Bunun yerine, bir rol eklemeyi düşünün"
 			}
@@ -337,13 +340,6 @@
 		"on_call": "Tüm yeni biletlere eklenmek ve bildirim almak üzere sizi görev başında olarak belirler",
 		"reopen": "Daha önceden kapatılmış bir bileti yeniden açar",
 		"notes": "Destek temsilcileri arasında özel tartışma için bir konu başlığı oluşturur"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d>, kara listeden kaldırıldı"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

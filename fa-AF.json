@@ -191,6 +191,9 @@
 				"success": "",
 				"limit": ""
 			},
+			"remove_role": {
+				"success": ""
+			},
 			"add": {
 				"limit": ""
 			}
@@ -311,13 +314,6 @@
 		"on_call": "",
 		"reopen": "",
 		"notes": ""
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": ""
-			}
-		}
 	},
 	"setup": {
 		"auto": {
