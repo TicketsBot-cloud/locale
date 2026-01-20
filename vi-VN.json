@@ -13,7 +13,7 @@
 	"commands.open.ticket_limit": "Bạn chỉ có thể mở %d %s một lúc",
 	"commands.open.too_many_tickets": "Hiện có quá nhiều phiếu hỗ trợ đang được mở trong danh mục. Hãy nhờ quản trị viên đóng bớt chúng hoặc di chuyển chúng qua mục khác.\n\n**Discord giới hạn** mỗi danh mục chỉ có thể chứa 50 kênh.",
 	"commands.panel": "Hãy truy cập <https://dashboard.tickets.bot/manage/%d/panels> để cài đặt với giao diện trực quan",
-	"commands.premium": "Bạn có thể mua phiên bản cao cấp tại <https://www.patreon.com/ticketsbot-cloud>.\\nPhiên bản trả phí mang lại nhiều quyền lợi như:\\n```diff\\n+ Tạo bảng phiếu hỗ trợ không giới hạn\\n+ Thay đổi tên, ảnh đại diện & trạng thái (whitelabel)\\n+ Thông tin chi tiết về hội, thành viên và hỗ trợ viên\\n+ Không có quảng cáo thương hiệu ở cuối tin nhắn\\n+ Giúp đỡ đội ngũ phát triển và giúp trả phí chạy máy chủ cho bot\\n```\\n\\nNgoài ra, bạn có thể đánh giá tại <https://vote.tickets.bot> để nhận phiên bản cao cấp miễn phí trong vòng 24 giờ",
+	"commands.premium": "Bạn có thể mua phiên bản Premium tại <https://www.patreon.com/ticketsbot-cloud>.\\nPhiên bản Premium mang lại nhiều quyền lợi như:\\n```diff\\n+ Tạo bảng phiếu hỗ trợ không giới hạn\\n+ Thay đổi tên, ảnh đại diện & trạng thái (whitelabel)\\n+ Thông tin chi tiết về hội, thành viên và hỗ trợ viên\\n+ Không có quảng cáo thương hiệu ở cuối tin nhắn\\n+ Giúp đỡ đội ngũ phát triển và giúp trả phí chạy máy chủ cho bot\\n```\\n\\nNgoài ra, bạn có thể đánh giá tại <https://vote.tickets.bot> để nhận phiên bản cao cấp miễn phí trong vòng 24 giờ",
 	"commands.premium.invalid_key": "Mã kích hoạt sai. Hãy kiểm tra xem bạn đã sao chép đúng mã không.",
 	"commands.remove.no_permission": "Bạn không có quyền để loại bỏ người khác khỏi phiếu hỗ trợ này",
 	"commands.remove.staff": "Bạn không thể gỡ các quản lý khỏi phiếu hỗ trợ này",
@@ -34,7 +34,7 @@
 	"commands.unclaim.not_claimed": "Phiếu hỗ trợ này chưa được nhận",
 	"commands.unclaim.not_claimer": "Chỉ quản trị viên và người nhận phiếu hỗ trợ mới có thể hủy nhận phiếu hỗ trợ",
 	"commands.unclaim.success": "Tất cả các đại diện hỗ trợ giờ có thể trả lời phiếu hỗ trợ",
-	"commands.vote": "Nhấn vào nút bên dưới để đánh giá bot và sử dụng bản cao cấp miễn phí trong vòng 24 giờ.\n\nSau khi bạn đã đánh giá, sử dụng lại lệnh %s để quy đổi điểm đánh giá.",
+	"commands.vote": "Nhấn vào nút bên dưới để đánh giá bot và sử dụng bản premium miễn phí trong vòng 24 giờ.\n\nSau khi bạn đã đánh giá, sử dụng lại lệnh %s để quy đổi điểm đánh giá.",
 	"generic.invalid_argument": "Lựa chọn không hợp lệ: đọc lại hướng dẫn",
 	"generic.invalid_user": "Không thể tìm ra người dùng",
 	"generic.no_permission": "Bạn không có quyền để thực hiện thao tác này",
@@ -47,7 +47,7 @@
 	"help.admin": "Quản lý người máy",
 	"help.admin.blacklist": "Chặn một máy chủ khỏi việc dùng người máy",
 	"help.admin.debug.server": "Vá lỗi máy chủ",
-	"help.admin.generate_premium": "Tạo các mã dành cho bản cao cấp",
+	"help.admin.generate_premium": "Tạo mã dành cho bản premium",
 	"help.admin.unblacklist": "Gỡ một máy chủ ra khỏi danh sách chặn",
 	"help.blacklist": "Tùy chọn cho phép các thành viên có thể tương tác với người máy hay không",
 	"help.cancel": "Hủy quy trình cài đặt",
@@ -59,7 +59,7 @@
 	"help.managetags": "Thêm, xóa hoặc xem các thẻ tên",
 	"help.open": "Mở một phiếu hỗ trợ mới",
 	"help.panel": "Tạo một bảng để cho thành viên tạo phiếu hỗ trợ chỉ với một nút nhấn",
-	"help.premium": "Sử dụng lệnh này sau khi mua bản cao cấp để kích hoạt",
+	"help.premium": "Sử dụng lệnh này sau khi mua bản premium để kích hoạt nó",
 	"help.remove": "Gỡ một người khỏi một phiếu hỗ trợ",
 	"help.removeadmin": "Thu hồi quyền quản trị viên của một người hoặc vai trò",
 	"help.removesupport": "Thu hồi quyền đại diện hỗ trợ viên từ một người hoặc vai trò",
@@ -74,7 +74,7 @@
 	"help.transfer": "Chuyển phiếu hỗ trợ đã được nhận tới một thành viên khác",
 	"help.unclaim": "Gỡ nhận trong phiếu hỗ trợ hiện tại",
 	"help.viewstaff": "Danh sách các thành viên quản lý và các vai trò",
-	"help.vote": "Gửi cho bạn một đường dẫn để đánh giá và nhận phiên bản cao cấp miễn phí",
+	"help.vote": "Gửi cho bạn một đường dẫn để đánh giá và nhận phiên bản premium miễn phí",
 	"help.gdpr": "Quản lý yêu cầu dữ liệu GDPR",
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
 	"open.outside_support_hours": "Bảng điều khiền này hiện đang đóng. Hãy thử lại trong khung giờ hỗ trợ của chúng tôi.",
@@ -114,7 +114,7 @@
 	"commands.tag.generic": "Thẻ tên",
 	"commands.tags.delete.success": "Thẻ tên `%s` đã được xóa đi",
 	"generic.ticket": "Phiếu hỗ trợ",
-	"generic.title.premium_only": "Lệnh chỉ dành cho phiên bản cao cấp",
+	"generic.title.premium_only": "Lệnh chỉ dành cho phiên bản premium",
 	"generic.admin": "Quản trị viên",
 	"commands.tags.create.success": "Thẻ đã được tạo - bạn có thể dùng nó với lệnh `/tag %s`",
 	"generic.title.about": "Thông tin",
@@ -142,7 +142,7 @@
 	"commands.addadmin.success": "Đã thêm quản trị viên thành công: %s",
 	"commands.removeadmin.success": "Đã gỡ quản trị viên thành công: %s",
 	"generic.title.setup": "Thiết lập",
-	"generic.title.premium": "Phiên bản cao cấp",
+	"generic.title.premium": "Phiên bản premium",
 	"generic.title.panel": "Bảng điều khiển",
 	"generic.title.rename": "Đổi tên",
 	"generic.title.remove": "Gỡ",
@@ -152,14 +152,14 @@
 	"generic.title.close_request": "Yêu cầu đóng",
 	"commands.close_request.accept": "Chấp nhận và đóng",
 	"commands.close_request.deny": "Từ chối và giữ trạng thái mở",
-	"commands.premium.success": "Phiên bản cao cấp đã được kích hoạt trong **%d** ngày",
+	"commands.premium.success": "Phiên bản premium đã được kích hoạt trong **%d** ngày",
 	"generic.title.claimed": "Đã nhận phiếu hỗ trợ",
 	"generic.title.unclaimed": "Đã hủy nhận phiếu hỗ trợ",
 	"generic.title.add": "Thêm",
 	"commands.add.success": "<@%s> đã được thêm vào kênh <#%d>",
 	"commands.add.role_thread": "Vai trò không thể được thêm vào phiếu hỗ trợ chủ đề do giới hạn của Discord",
 	"commands.remove.success": "<@%s> đã bị xóa khỏi <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.remove.role_thread": "Vai trò không thể được thêm vào phiếu hỗ trợ chủ đề do giới hạn của Discord",
 	"open.ratelimited": "Các phiếu hỗ trợ đang được mở quá nhanh trong hội này",
 	"commands.claim.thread": "Vì giới hạn của Discord, không thể nhận phiếu hỗ trợ bên trong kênh Chủ Đề",
 	"generic.join_support_server": "Tham gia máy chủ hỗ trợ",
@@ -221,7 +221,7 @@
 				"limit": "Bạn đã đạt giới hạn số thẻ có thể tạo (%d)"
 			},
 			"get": {
-				"requires_premium": "Yêu cầu phiên bản cao cấp để sử dụng lệnh tùy chỉnh (bao gồm cả thẻ lệnh)"
+				"requires_premium": "Yêu cầu phiên bản premium để sử dụng lệnh tùy chỉnh (bao gồm cả thẻ lệnh)"
 			}
 		},
 		"language": {
@@ -248,37 +248,37 @@
 			"check_again": "Kiểm tra lại",
 			"subscription_found": "Đã tìm thấy gói đăng kí!",
 			"subscription_found_content": "Để có thể áp dụng gói đăng kí trên máy chủ này, chủ sở hữu máy chủ (<@%d>) cần thêm bạn vào **Quản lí** (vai trò sẽ bị bỏ qua) bằng lệnh </addadmin:%d>.\\n\\nBạn có thể kiểm tra bằng lệnh </viewstaff:%d>.",
-			"activate_key": "Kích hoạt mã cho bản cao cấp",
+			"activate_key": "Kích hoạt mã cho bản premium",
 			"checking": "Đang kiểm tra trạng thái nâng cấp...",
-			"please_wait": "Chờ chút...",
-			"success_after_check": "Phiên bản cao cấp đã được kích hoạt thành công trên máy chủ này!",
+			"please_wait": "Vui lòng chờ...",
+			"success_after_check": "Phiên bản premium đã được kích hoạt thành công trên máy chủ này!",
 			"link_patreon_account": "Liên kết tài khoản Patreon",
-			"no_subscription": "Không thể tìm thấy gói đăng kí Patreon được liên kết với tài khoản Discord. [Chắc chắn rằng bạn đã liên kết tài khoản Patreon với tài khoản Discord](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), và chờ khoảng 10 phút.",
+			"no_subscription": "Không thể tìm thấy gói đăng kí Patreon được liên kết với tài khoản Discord. Vui lòng kiểm tra rằng bạn đã [liên kết tài khoản Patreon với tài khoản Discord](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), và chờ thêm khoảng 10 phút.",
 			"open_form": "Mở biểu mẫu",
 			"open_form_description": "Bấm nút phía dưới để mở lại biểu mẫu",
-			"use_key_anyway": "Dùng Mã kích hoạt để nâng cấp",
-			"already_purchased_title": "Đã mua phiên bản nâng cấp rồi?",
-			"already_purchased_description": "Nếu bạn đã mua nâng cấp trước đó, hãy lựa chọn phương thức thanh toán trong mục bên dưới để bắt đầu",
+			"use_key_anyway": "Dùng Mã kích hoạt premium",
+			"already_purchased_title": "Bạn đã mua bản premium rồi?",
+			"already_purchased_description": "Nếu bạn đã mua premium trước đó, hãy lựa chọn phương thức thanh toán trong mục bên dưới để bắt đầu",
 			"giveaway_key": "Giveaway Mã kích hoạt",
 			"selector": {
-				"description": "Chọn phương thức mà bạn đã sử dụng để sở hữu phiên bản nâng cấp",
+				"description": "Chọn phương thức mà bạn đã sử dụng để sở hữu phiên bản premium",
 				"key": {
-					"description": "Chọn tuỳ chọn này nếu bạn nhận được mã kích hoạt được giveaway"
+					"description": "Chọn tuỳ chọn này nếu bạn nhận được mã kích hoạt từ Giveaway"
 				},
 				"patreon": {
-					"description": "Chọn tuỳ chọn này nếu bạn đã thực hiện thanh toán qua Patreon"
+					"description": "Chọn tuỳ chọn này nếu bạn đã thanh toán qua Patreon"
 				},
 				"discord": {
 					"description": "Chọn tùy chọn này nếu bạn đã thanh toán trực tiếp qua cửa hàng trên ứng dụng Discord"
 				}
 			},
-			"about": "Nâng cấp cho bạn truy cập thêm bảng, số liệu, bot tuỳ chỉnh và nhiều hơn! Truy cập [website] (https://tickets.bot/premium) để tìm hiểu thêm.",
-			"already_activated": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.",
-			"already_activated_whitelabel": "Tin vui nè! Máy chủ này đã được kích hoạt bản cao cấp.\n\nNếu bạn cần trợ giúp trong việc cài đặt whitelabel, hãy đọc [hướng dẫn cài đặt whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"about": "Nâng cấp cho bạn truy cập thêm bảng, số liệu, bot tuỳ chỉnh và nhiều hơn! Truy cập [website](https://tickets.bot/premium) của chúng tôi để tìm hiểu thêm.",
+			"already_activated": "Tin vui nè! Premium đã được kích hoạt trên máy chủ này rồi.",
+			"already_activated_whitelabel": "Tin vui nè! Máy chủ này đã được kích hoạt Premium.\n\nNếu bạn cần trợ giúp trong việc cài đặt whitelabel, hãy đọc [hướng dẫn cài đặt whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": "Phiên bản cao cấp có thể được mua trực tiếp trên Discord. Bấm vào nút phía dưới tin nhắn để mở trang quản lý gói đăng ký.\n\nSau khi thanh toán, vui lòng đợi tầm 5 phút để gói đăng ký có thể được kích hoạt."
+				"no_subscription": "Phiên bản Premium có thể được mua trực tiếp trên Discord. Bấm vào nút phía dưới tin nhắn để mở trang quản lý gói đăng ký.\n\nSau khi thanh toán, vui lòng chờ thêm 5 phút để gói đăng ký có thể được kích hoạt."
 			},
-			"subscription_found_content_modern": "Đã tìm thấy gói đăng ký Patreon của bạn. Vui lòng bấm vào nút \"Lựa chọn máy chủ\" phía dưới để mở trang quản lý và chọn máy chủ bạn muốn áp dụng gói đăng ký cao cấp của bạn vào.",
+			"subscription_found_content_modern": "Đã tìm thấy gói đăng ký Patreon của bạn. Vui lòng bấm vào nút \"Lựa chọn máy chủ\" phía dưới để mở trang quản lý và chọn máy chủ bạn muốn áp dụng gói đăng ký premium của bạn vào.",
 			"open_server_selector": "Lựa chọn máy chủ"
 		},
 		"notes": {
@@ -295,12 +295,12 @@
 			"no_credits": "Quy đổi thất bại: Bạn không có điểm đánh giá nào cả!",
 			"redeem": {
 				"success": {
-					"plural": "Điểm đánh giá của bạn đã được quy đổi sang **%d** ngày có hiệu lực dành cho gói cao cấp!",
-					"singular": "Điểm đánh giá của bạn đã được quy đổi sang **%d** ngày có hiệu lực dành cho gói cao cấp!"
+					"plural": "Điểm đánh giá của bạn đã được quy đổi sang **%d** ngày có hiệu lực dành cho bản premium!",
+					"singular": "Điểm đánh giá của bạn đã được quy đổi sang **%d** ngày có hiệu lực dành cho bản premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "Bạn hiện đang có **%d** điểm đánh giá. Bấm vào nút \"Quy đổi điểm\" bên dưới để quy đổi điểm sang %d ngày có hiệu lực dành cho phiên bản cao cấp trong máy chủ này.",
+				"plural": "Bạn hiện đang có **%d** điểm đánh giá. Bấm vào nút \"Quy đổi điểm\" bên dưới để quy đổi điểm sang %d ngày có hiệu lực dành cho phiên bản premium trong máy chủ này.",
 				"singular": "Bạn hiện đang có **%d** điểm đánh giá. Bấm vào nút \"Quy đổi điểm\" bên dưới để quy đổi điểm sang %d ngày có hiệu lực dành cho phiên bản cao cấp trong máy chủ này."
 			}
 		},
@@ -366,7 +366,7 @@
 	},
 	"open": {
 		"thread_in_announcement_channel": "Không thể kênh tạo chủ đề trong kênh thông báo",
-		"panel_force_disabled": "Bảng này đã bị tắt. Hãy thử hỏi quản lí máy chủ kích hoạt lại bản cao cấp, và chạy lại lệnh %s để kích hoạt lại bảng này.",
+		"panel_force_disabled": "Bảng này đã bị vô hiệu hóa. Hãy thử hỏi quản lí máy chủ kích hoạt lại bản cao cấp, và chạy lại lệnh %s để kích hoạt lại bảng này.",
 		"panel_disabled": "Quản lí máy chủ đã tắt việc mở loại phiếu hỗ trợ này",
 		"acl": {
 			"no_allow_rules": "Quyền mở loại phiếu hỗ trợ này đã bị tắt cho tất cả các vai trò",
