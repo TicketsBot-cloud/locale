@@ -2,6 +2,7 @@
 	"commands.about": "Tickets는 사용하기 쉽고 구성하기 쉬운 티켓 및 지원 봇이에요.\\n지원 서버: https://discord.gg/ticketsbot\\n명령어 목록을 보려면 `/help`를 입력하세요.\\n`/setup` 명령어로 시작해 보세요.",
 	"commands.add.no_members": "티켓에 추가하려면 멤버를 멘션해야 해요",
 	"commands.add.no_permission": "티켓에 멤버를 추가할 권한이 없어요",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "관리자 권한을 부여하려면 사용자나 역할 이름을 멘션해야 해요",
 	"commands.addadmin.owner": "서버 소유자는 이미 관리자입니다",
 	"commands.addsupport.no_members": "지원 담당자 권한을 부여하려면 사용자 또는 역할 이름을 멘션해야 해요",
