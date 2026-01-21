@@ -2,6 +2,7 @@
 	"commands.about": "Ticket adalah bot tiket dan dukugan yang mudah digunakan dan sangat dikonfigurasi.\\nServer dukungan: https://discord.gg/ticketsbot\\nPerintah: Ketik `/help`\\nMulai dengan menjalankan `/setup`",
 	"commands.add.no_members": "Anda perlu menyebutkan anggota untuk ditambahkan ke tiket",
 	"commands.add.no_permission": "Anda tidak memiliki izin untuk menambahkan orang ke tiket ini",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Anda perlu menyebutkan pengguna atau memberi nama peran untuk memberikan hak istimewa admin",
 	"commands.addadmin.owner": "Pemilik server sudah menjadi administrator",
 	"commands.addsupport.no_members": "Anda perlu menyebutkan pengguna atau menyebutkan peran untuk memberikan hak istimewa kepada perwakilan dukungan",
