@@ -2,6 +2,7 @@
 	"commands.about": "Tickets este un bot pentru tichete și suport, ușor de folosit și foarte ușor de configurat.\\nServerul pentru suport: https://discord.gg/ticketsbot\\nComenzi: Tastează `/help`\\nÎncepe prin a rula `/setup`",
 	"commands.add.no_members": "Trebuie să menționezi membri pentru a-i adăuga în tichet",
 	"commands.add.no_permission": "Nu ai permisiunea de a adăuga persoane în acest tichet",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Trebuie să menționezi un utilizator sau să numești un rol pentru a-i acorda privilegii de admin",
 	"commands.addadmin.owner": "Proprietarul serverului este deja un administrator",
 	"commands.addsupport.no_members": "Trebuie să menționezi un utilizator sau să numești un rol pentru a-i acorda privilegii de reprezentant de suport",
