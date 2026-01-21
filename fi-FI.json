@@ -2,6 +2,7 @@
 	"commands.about": "Tickets on helppokäyttöinen ja helposti muokattavissa oleva lippu- ja tukibotti.\\nTukipalvelin: https://discord.gg/ticketsbot\\nKomennot: Kirjoita `/help`\\nAloita suorittamalla `/setup`",
 	"commands.add.no_members": "Sinun täytyy mainita jäseniä, jotka haluat lisätä lippuun",
 	"commands.add.no_permission": "Sinulla ei ole oikeuksia lisätä ihmisiä tähän lippuun",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Sinun täytyy mainita käyttäjä tai roolin nimi, jolle myönnät järjestelmänvalvojan oikeudet",
 	"commands.addadmin.owner": "Palvelimen omistaja on jo järjestelmänvalvoja",
 	"commands.addsupport.no_members": "Sinun on mainittava käyttäjä tai rooli, jolle myönnät tukihenkilön oikeudet",
