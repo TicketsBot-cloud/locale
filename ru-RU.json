@@ -2,6 +2,7 @@
 	"commands.about": "Tickets - простой в использовании и гибкий в настройке бот для создания обращений и организации поддержки.\\nСервер поддержки Tickets https://discord.gg/ticketsbot\\nУзнать список команд: `/help`\\nДля начала настройки введите `/setup`",
 	"commands.add.no_members": "Вам нужно указать пользователей, которых хотите добавить в канал обращения.",
 	"commands.add.no_permission": "У вас нет прав на добавление пользователей в это обращение.",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Вам нужно указать пользователя или роль, которым хотите дать права администратора.",
 	"commands.addadmin.owner": "Владелец сервера уже является администратором",
 	"commands.addsupport.no_members": "Вам нужно указать пользователя или роль, которым хотите дать права агента поддержки.",
