@@ -2,6 +2,7 @@
 	"commands.about": "Tickets is een eenvoudig te gebruiken en zeer configureerbare ticket- en ondersteuningsbot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Typ `/help`\\nGa aan de slag door het commando `/setup` te doen.",
 	"commands.add.no_members": "U moet leden vermelden om aan het ticket toe te voegen",
 	"commands.add.no_permission": "U heeft niet de juiste permissies om mensen aan deze ticket toe te voegen",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "U moet een gebruiker vermelden of een rol noemen om beheerdersrechten aan te verlenen",
 	"commands.addadmin.owner": "De eigenaar van de server is al beheerder",
 	"commands.addsupport.no_members": "U moet een gebruiker vermelden of een rol noemen om support rechten te verlenen",
