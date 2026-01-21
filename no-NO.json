@@ -2,6 +2,7 @@
 	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: https://discord.gg/ticketsbot\\nKommandoer: Skriv `/help`\\nKom i gang ved å bruke `/setup`",
 	"commands.add.no_members": "Du må oppgi medlemmer du vil ha lagt til støtteforespurselen",
 	"commands.add.no_permission": "Du har ikke adgang til å legge til brukere til denne støtteforespurselen",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Du må oppgi en bruker eller rolle å gi administratorprivilegier til",
 	"commands.addadmin.owner": "Servereieren er allerede en administrator",
 	"commands.addsupport.no_members": "Du må oppgi en bruker eller rolle å gi støttekontaktprivilegier til",
