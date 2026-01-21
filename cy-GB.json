@@ -2,6 +2,7 @@
 	"commands.about": "Mae Tickets yn fot hawdd i'w ddefnyddio ac yn hawdd ei addasu ar gyfer cymorth. \\nGweinydd cymorth: https://discord.gg/ticketsbot\\nGorchmynion: Teipiwch '/help'\\nCychwynna drwy redeg '/setup'",
 	"commands.add.no_members": "Mae'n rhaid i ti enwi aelodau i'w ychwanegu at y tocyn",
 	"commands.add.no_permission": "Does gennyt ti ddim caniatâd i ychwanegu pobl at y tocyn",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Mae'n rhaid i ti enwi defnyddiwr neu rôl i rhoi caniatâd gweinyddwr iddyn nhw",
 	"commands.addadmin.owner": "Mae perchennog y gweinydd yn weinyddwr yn barod",
 	"commands.addsupport.no_members": "Mae'n rhaid i ti enwi defnyddiwr neu rôl i roi breintiau cynrychiolydd cymorth iddyn nhw",
