@@ -2,6 +2,7 @@
 	"commands.about": "Ticketsは使いやすく、高度な設定が可能なチケット＆サポートボットです。\\nサポートサーバー: https://discord.gg/ticketsbot\\nコマンド一覧: `/help`\\nまずは `/setup` を実行して始めてください。",
 	"commands.add.no_members": "チケットにメンバーを追加するにはメンションする必要があります。",
 	"commands.add.no_permission": "このチケットにメンバーを追加する権限がありません。",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "管理者権限を付与するには、ユーザーまたはロールを指定する必要があります。",
 	"commands.addadmin.owner": "サーバーの所有者は既に管理者です。",
 	"commands.addsupport.no_members": "サポート担当者権限を付与するには、ユーザーまたはロールを指定する必要があります。",
