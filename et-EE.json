@@ -2,6 +2,7 @@
 	"commands.about": "Tickets on lihtne bot mida kasutada ning see on hästi konfigureeritav abibot.\\nAbi server: https://discord.gg/ticketsbot\\nkäsud: Kirjuta `/help`\\nAlustamiseks kirjuta `/setup`",
 	"commands.add.no_members": "Sa pead mentionima kasutajaid keda lisada abipileti kanalisse",
 	"commands.add.no_permission": "Sul ei ole luba, et inimesi siia abipileti kanalisse lisada",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Sa pead mentionima kasutajat või rolli millele administraatori õigused anda",
 	"commands.addadmin.owner": "Serveri omanik on juba administraator",
 	"commands.addsupport.no_members": "Sa pead mentionima kasutajat või rolli millele abi andja õigused anda",
