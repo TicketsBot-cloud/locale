@@ -2,6 +2,7 @@
 	"commands.about": "تيكت بوت (Tickets) هو بوت للدعم الفني في سيرفرك الديسكورد, حيث يعد سهل الاستخدام وقابل للتخصيص والتعديل بشكل كبير\nتستطيع الدخول إلى سيرفر ديسكورد الدعم الفني الخاص بالبوت: https://discord.gg/ticketsbot\nلمعرفة جميع الأوامر استخدم كوماند: /help\nولتبدأ بإستخدام البوت استخدم كوماند: /setup",
 	"commands.add.no_members": "تحتاج إلى ذكر الأعضاء لإضافتهم إلى التذكرة",
 	"commands.add.no_permission": "ليس لديك صلاحية لإضافة أشخاص إلى هذه التذكرة",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "عليك ان تذكر اسم المستخدم او اسم الرتبة لمنح امتيازات الاّدمن إلى ",
 	"commands.addadmin.owner": "مالك الخادم هو بالفعل مسؤول",
 	"commands.addsupport.no_members": "عليك ان تذكر اسم المستخدم او اسم رتبة الموظف للحصول على المساعدة",
