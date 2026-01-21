@@ -2,6 +2,7 @@
 	"commands.about": "Το Tickets είναι ένα εύκολο με μεγάλες δυνατότητες διαμόρφωσης ticket και support bot.\\nServer εξυπηρετήσεις https://discord.gg/ticketsbot\\nΕντολες: Γράψε `/help`\\nΞεκίνα τώρα χρησιμοποιώντας `/setup`",
 	"commands.add.no_members": "Πρέπει να αναφέρεται τους χρήστες για να τους βάλουμε στο ticket",
 	"commands.add.no_permission": "Δεν έχεις την άδεια για να προσθέσεις χρήστες στο ticket",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Πρέπει να αναφέρεις έναν χρήστη ή έναν ρόλο για να το βάλεις σαν διαχειριστή",
 	"commands.addadmin.owner": "Ο ιδιοκτήτης του server είναι ήδη διαχειριστής",
 	"commands.addsupport.no_members": "Πρέπει να αναφέρεις έναν χρήστη ή έναν ρόλο για να βάλεις δικαιώματα υποστήριξης",
