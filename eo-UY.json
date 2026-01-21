@@ -2,6 +2,7 @@
 	"commands.about": "Biletoj estas facila kaj tre agordebla aplikaĵo de biletoj kaj subtenoj.\\nSubtena servilo: https://discord.gg/ticketsbot\\nKomandoj: Tajpu `/helpo`\\nKomenci per tajpi `/setup`",
 	"commands.add.no_members": "Vi bezonas ke mencii uzantoj por aldoni al la bileto",
 	"commands.add.no_permission": "Vi ne havas permeson por aldoni uzantoj al la bileto",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Vi bezonas ke mencii uzanto aŭ rolo por doni administrajn privilegiojn al",
 	"commands.addadmin.owner": "La posedanto de la servilo jam estas administranto",
 	"commands.addsupport.no_members": "Vi bezonas ke mencii uzanto aŭ rolo por doni subtenreprezentantajn privilegiojn al",
