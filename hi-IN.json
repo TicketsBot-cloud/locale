@@ -2,6 +2,7 @@
 	"commands.about": "टिकट का उपयोग करना आसान है और अत्यधिक विन्यास योग्य टिकट और समर्थन बॉट | \\nसमर्थन सर्वर: https://discord.gg/ticketsbot\\nआदेश: टाइप करें `/help`\\n`/setup` चलाकर शुरू करें",
 	"commands.add.no_members": "टिकट में जोड़ने के लिए आपको सदस्यों का उल्लेख करना होगा |",
 	"commands.add.no_permission": "आपको इस टिकट में लोगों को जोड़ने की अनुमति नहीं है",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "एडमिन अधिकार देने के लिए आपको किसी उपयोगकर्ता को मेंशन करने या किसी रोल का नाम देने की आवश्यकता है",
 	"commands.addadmin.owner": "सर्वर स्वामी पहले से ही एक व्यवस्थापक है",
 	"commands.addsupport.no_members": "आपको एक उपयोगकर्ता का उल्लेख करना होगा या एक भूमिका का नाम देना होगा ताकि वह समर्थन प्रतिनिधि विशेषाधिकार प्रदान कर सके",
