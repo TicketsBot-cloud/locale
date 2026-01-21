@@ -2,6 +2,7 @@
 	"commands.about": "בוט הטיקטים הוא קל לשימוש ויש לו רמה גבוהה של עיצוב לטיקט ובוט עזרה. \\nשרת העזרה לבוט: https://discord.gg/ticketsbot פקודות: תרשום \"help/\" \\nותתחיל בעזרת הפקודה \"setup/\"",
 	"commands.add.no_members": "אפשר להוסיף משתמשים לערוץ עזרה רק אם עושים להם mention",
 	"commands.add.no_permission": "אין לך הרשאה להוספת משתמשים לערוץ זה",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "עליך להזכיר שם משתמש או שם התפקיד כדי להעניק לו הרשאות מנהל",
 	"commands.addadmin.owner": "בעל השרת הוא כבר מנהל",
 	"commands.addsupport.no_members": "עליך להזכיר משתמש או שם התפקיד כדי להעניק לו הרשאות של נציגי תמיכה",
