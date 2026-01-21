@@ -2,6 +2,7 @@
 	"commands.about": "\"Tickets\" је лако користити и врло конфигуративне карте и подршка бот. \\nПодршка серверу: https://discord.gg/ticketsbot\\n Команде: Тип `/help`\\n Започните писањем `/setup`",
 	"commands.add.no_members": "Мораш да поменеш чланове да додаш на карту",
 	"commands.add.no_permission": "Немаш дозволу да додајеш људе на ову карту",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Морате да поменете корисника или да именујете улогу која ће дати административне привилегије",
 	"commands.addadmin.owner": "Власник сервера је већ администратор",
 	"commands.addsupport.no_members": "Морате да поменете корисника или да именујете улогу да дате привилегије представника подршке",
