@@ -2,6 +2,7 @@
 	"commands.about": "Tickets 是一个易于使用且几乎可以完全自定义的问题单机器人\\n帮助频道: https://discord.gg/ticketsbot\\n指令: 请输入 `/help`\\n输入`/setup`开始设定吧！",
 	"commands.add.no_members": "你必须标注一个人嗄",
 	"commands.add.no_permission": "你没有权限添加该成员到问题单",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "您需要提及一个用户或一个身份组来授予管理员权限",
 	"commands.addadmin.owner": "服务器所有者已经是管理员",
 	"commands.addsupport.no_members": "您需要提及用户或命身份组以授予支持代表权限",
