@@ -2,6 +2,7 @@
 	"commands.about": "Tickets- це простий у використанні і легко настроюється бот для заявок.\\nСервер підтримки: https://discord.gg/ticketsbot\\nКоманди: введіть '/help'\\nЩоб почати введіть '/setup'",
 	"commands.add.no_members": "Вам необхідно вказати учасників, щоб додати їх до заявки",
 	"commands.add.no_permission": "У вас немає дозволу на додання людей в цю заявку",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Вам необхідно вказати користувача або вказати роль, щоб надати права адміністратора",
 	"commands.addadmin.owner": "Власник сервера вже є адміністратором",
 	"commands.addsupport.no_members": "Вам необхідно вказати користувача або вказати роль, щоб надати привілеї представнику служби підтримки",
