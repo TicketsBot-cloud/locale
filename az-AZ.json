@@ -2,6 +2,7 @@
 	"commands.about": "Tickets istifadəsi asan və yüksək konfiqurasiya edilə bilən bilet və dəstək botudur.\\nDəstək serveri: https://discord.gg/ticketsbot\\nƏmrlər: `/help` yazın\\n`/setup` işlətməklə başlayın",
 	"commands.add.no_members": "Bilete əlavə etmək üçün üzvləri qeyd etməlisiniz",
 	"commands.add.no_permission": "Bu biletə adam əlavə etmək icazəniz yoxdur",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Admin imtiyazları vermək üçün istifadəçini qeyd etməli və ya rolu adlandırmalısınız",
 	"commands.addadmin.owner": "Server sahibi artıq administratordur",
 	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
