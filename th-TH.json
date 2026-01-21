@@ -2,6 +2,7 @@
 	"commands.about": "Tickets เป็นบอทสนับสนุน (Support Bot) ที่ใช้งานง่ายและปรับแต่งได้สูง\\nSupport server: https://discord.gg/ticketsbot\\nเรียกดูคำสั่ง : พิมพ์ `/help`\\nเริ่มต้นใช้งาน : พิมพ์ `/setup`",
 	"commands.add.no_members": "คุณต้องระบุสมาชิกเพื่อเพิ่มลงในตั๋ว",
 	"commands.add.no_permission": "คุณไม่ได้รับสิทธิให้เพิ่มบุคคลในตั๋วนี้",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "คุณต้องระบุผู้ใช้ หรือ ระบุบทบาทเพื่อให้สิทธิ์ผู้ดูแล",
 	"commands.addadmin.owner": "เจ้าของเซิร์ฟเวอร์เป็นผู้ดูแลระบบอยู่แล้ว",
 	"commands.addsupport.no_members": "คุณต้องระบุผู้ใช้ หรือ ระบุบทบาทเพื่อให้สิทธิ์ฝ่ายสนับสนุน",
