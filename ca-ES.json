@@ -2,6 +2,7 @@
 	"commands.about": "Tickets és un bot de tiquets i suport fàcil d'utilitzar i altament configurable.\\nServidor de suport: https://discord.gg/ticketsbot\\nOrdres: Escriu `/help`\\nComença executant `/setup`",
 	"commands.add.no_members": "Has de mencionar els membres que vols afegir al tiquet",
 	"commands.add.no_permission": "No tens permís per afegir persones a aquest tiquet",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Has de mencionar un usuari o rol per concedir-li privilegis d'administració",
 	"commands.addadmin.owner": "El propietari del servidor ja és administrador",
 	"commands.addsupport.no_members": "Has de mencionar un usuari o rol per concedir-li privilegis d'equip de suport",
