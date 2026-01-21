@@ -2,6 +2,7 @@
 	"commands.about": "Destek Talebi botu, kullanımı kolay ve neredeyse bütün ayarları istediğiniz gibi düzenleyebileceğiniz bir bottur. \\nYardım sunucusu: https://discord.gg/ticketsbot \\nKomutlar: Yardım için `/help`\\nKuruluma başlamak için `/setup` yazınız",
 	"commands.add.no_members": "Talebe kullanıcı eklemek için kullanıcıyı etiketlemeniz gerekiyor.",
 	"commands.add.no_permission": "Talebe kullanıcı eklemek için izniniz yok.",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Yönetici yetkilerini verebilmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
 	"commands.addadmin.owner": "Sunucu sahibi zaten bir yönetici",
 	"commands.addsupport.no_members": "Destek yetkilerini verebilmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
