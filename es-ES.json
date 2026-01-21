@@ -2,6 +2,7 @@
 	"commands.about": "Tickets es un bot de tickets y soporte fácil de usar y altamente configurable.\\nServidor de soporte: https://discord.gg/ticketsbot\\nComandos: Escribe `/help` \\nComienza ejecutando` /setup`",
 	"commands.add.no_members": "Debe mencionar a los miembros para agregar al ticket",
 	"commands.add.no_permission": "No tienes permiso para agregar personas a este ticket",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Debe mencionar un usuario o nombrar un rol para otorgarle privilegios de administrador ",
 	"commands.addadmin.owner": "El propietario del servidor ya es un administrador",
 	"commands.addsupport.no_members": "Debe mencionar un usuario o nombrar un rol para otorgarle privilegios de representante de soporte ",
