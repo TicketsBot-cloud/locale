@@ -2,6 +2,7 @@
 	"commands.about": "Tickets su jednostavan za korištenje i visoko podesivi bot za ulaznice i podršku.\n\\nPodržavački server:\nhttps://discord.gg/ticketsbot\\nnaredbe: upiši `/help`\\nzapočnite sa pokretanjem `/setup`",
 	"commands.add.no_members": "Morate spomenuti članove koje želite dodati na listu",
 	"commands.add.no_permission": "Nemate dozvolu za dodavanje osoba na ovu kartu",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Morate spomenuti korisnika ili ime uloge kojoj možete dodijeliti administratorske ovlasti",
 	"commands.addadmin.owner": "Vlasnik servera već je administrator",
 	"commands.addsupport.no_members": "Morate spomenuti korisnika ili imenovati ulogu kojoj ćete dodijeliti privilegije predstavnika podrške",
