@@ -2,6 +2,7 @@
 	"commands.about": "Tickets е лесен за използване и високо-функционален бот. \nСъпорт за него може да откриете тук https://discord.gg/ticketsbot\nИзползвайте /help за лист с команди\nЗапочнете настройка с /setup",
 	"commands.add.no_members": "Трябва да споменете членовете, които желаете да добавите",
 	"commands.add.no_permission": "Нямате привилегии да добавяте потребители към този тикет",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Трябва да споменете името на потребителя или името на ролята, на която желаете да дадете админ привилегии",
 	"commands.addadmin.owner": "Собственикът вече е админстратор",
 	"commands.addsupport.no_members": "Трябва да споменете потребителя или името на ролята, на която да дадете привилегията \"Съпорт\"",
