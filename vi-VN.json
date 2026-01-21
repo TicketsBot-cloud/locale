@@ -2,6 +2,7 @@
 	"commands.about": "Tickets là một bot dễ sử dụng và có thể thiết lập theo ý của bạn.\\nNhóm hỗ trợ: https://discord.gg/ticketsbot\\nLệnh: Gõ `/help`\\nBắt đầu bằng lệnh `/setup`\\n",
 	"commands.add.no_members": "Bạn cần nhắc đến các thành viên mà bạn muốn thêm vào phiếu hỗ trợ",
 	"commands.add.no_permission": "Bạn không có quyền thêm người khác vào phiếu hỗ trợ này",
+	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
 	"commands.addadmin.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để trao quyền quản trị viên",
 	"commands.addadmin.owner": "Chủ của máy chủ đã là quản trị viên theo mặc định",
 	"commands.addsupport.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để trao quyền đại diện hỗ trợ viên",
