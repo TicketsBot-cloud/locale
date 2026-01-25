@@ -2,7 +2,7 @@
 	"commands.about": "Bilietai, tai lengvai naudojamas ir konfiguruojamas pagalbos įrankis. \\nServeris prireikus pagalbos: https://discord.gg/ticketsbot\\nKomandos: Parašykite `/pagalba`\\nPradėti galite parašius `/konfiguruoti`",
 	"commands.add.no_members": "Jūs turite paminėti vartotojus, kad pridėtumėte prie bilieto",
 	"commands.add.no_permission": "Jūs neturite privilegijų, kad galėtumėte pridėti vartotojus prie bilieto",
-	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
+	"commands.add.no_everyone": "Jūs negalite pridėti '@everyone' rolės prie bilieto",
 	"commands.addadmin.no_members": "Jūs turite paminėti vartotoją arba rolę, kad suteiktumėte administratoriaus privilegijas",
 	"commands.addadmin.owner": "Šio serverio savininkas jau turi administratoriaus privilegijas",
 	"commands.addsupport.no_members": "Jūs turite paminėti vartotoją arba rolę, kad suteiktumėte pagalbos nario privilegijas",
