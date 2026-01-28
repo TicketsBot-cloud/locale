@@ -2,7 +2,7 @@
 	"commands.about": "Tickety jsou snadné na použití, a vysoce konfigurovatelný ticket, podpora bota.\\nPomocný server: https://discord.gg/ticketsbot\\nPříkazy: Napište `/help`\\nZačněte spuštěním `/setup`",
 	"commands.add.no_members": "Musíte zmínit členy pro přidání do ticketu",
 	"commands.add.no_permission": "Nemáte dostatečná oprávnění k přidání lidí k tomuto účtu",
-	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
+	"commands.add.no_everyone": "Nemůžete přidat roli `@everyone` do ticketu",
 	"commands.addadmin.no_members": "Musíte uvést uživatele nebo jméno role pro udělení oprávnění administrátora",
 	"commands.addadmin.owner": "Vlastník serveru je již administrátor",
 	"commands.addsupport.no_members": "Musíte uvést uživatele nebo jméno role pro udělení oprávnění administrátora",
