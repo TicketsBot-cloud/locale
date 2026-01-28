@@ -202,6 +202,9 @@
 				"success": "<@&%d> a feketelistára került",
 				"limit": "Elérted a rang feketelista limitjét ˙(%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> le került a tiltólistáról"
+			},
 			"add": {
 				"limit": "Elérted a felhasználó feketelista limitjét (%d): Használj inkább egy rangot"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Megjelől téged, amikor hívásban vagy, hogy hozzá lettél adba és meg lettén pingelve az összes új ticketben",
 		"reopen": "Újranyit egy ticketet, ami már zárva volt",
 		"notes": "Készíts privát jegyzeteket a ticket staffjainak"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> le került a tiltólistáról"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

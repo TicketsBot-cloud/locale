@@ -202,6 +202,9 @@
 				"success": "<@&%d> buvo įtrauktas į juodąjį sąrašą",
 				"limit": "Pasiekėte juodojo sąrašo rolių limitą (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> buvo pašalintas iš juodojo sąrašo"
+			},
 			"add": {
 				"limit": "Jūs pasiekėte juodojo sąrašo vartotojų limitą (%d): apsvarstykite galimybę naudoti rolę"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Pažymi, kad esate budėjime, kad būtumėte pridėtas ir paminėtas visuose naujuose bilietuose",
 		"reopen": "Atidaro iš naujo bilietą, kuris anksčiau buvo uždarytas",
 		"notes": "Sukuria giją privačiai diskusijai tarp pagalbos narių"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> buvo pašalintas iš juodojo sąrašo"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

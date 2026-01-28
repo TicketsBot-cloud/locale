@@ -202,6 +202,9 @@
 				"success": "<@&%d> foi colocado/a na lista negra",
 				"limit": "Tu atingiste o limite de lista negra de cargos (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> foi retirado/a da lista negra"
+			},
 			"add": {
 				"limit": "Tu atingiste o limite de lista negra de utilizadores (%d): considera utilizar um cargo em vez disso"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Marca-te como em alerta, para seres adicionado/a e mencionado/a em todos os novos bilhetes",
 		"reopen": "Reabre um bilhete que estava previamente fechado",
 		"notes": "Creates a thread for private discussion between support representatives"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> foi retirado/a da lista negra"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

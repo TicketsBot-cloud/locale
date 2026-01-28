@@ -202,6 +202,9 @@
 				"success": "<@&%d> đã bị cho vào danh sách đen",
 				"limit": "Bạn đã sử dụng hết giới hạn của danh sách đen vai trò (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> đã được xoá khỏi danh sách đen"
+			},
 			"add": {
 				"limit": "Bạn đạt giới hạn số người dùng có thể thêm vào danh sách đen (%d): thay vào đó hãy sử dụng vai trò"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Thêm bạn là đang sẵn sàng, được thêm và ping trong các phiếu hỗ trợ mới",
 		"reopen": "Mở lại phiếu hỗ trợ mà trước đó đã đóng",
 		"notes": "Tạo một kênh chủ đề để thảo luận riêng tư giữa các hỗ trợ viên"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> đã được xoá khỏi danh sách đen"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

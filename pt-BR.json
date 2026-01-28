@@ -202,6 +202,9 @@
 				"success": "<@&%d> foi colocado na lista de bloqueio",
 				"limit": "Você atingiu o limite da lista de bloqueio de cargos (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> foi removido da lista de bloqueio"
+			},
 			"add": {
 				"limit": "Você atingiu o limite da lista bloqueio de usuários (%d): considere usar um cargo em vez disso"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Marca você como em chamada, para ser adicionado e ser notificado em todos os novos tickets",
 		"reopen": "Reabre um ticket que foi fechado anteriormente",
 		"notes": "Cria um tópico para discussão privada entre representantes de suporte"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> foi removido da lista de bloqueio"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

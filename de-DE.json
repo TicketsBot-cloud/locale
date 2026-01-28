@@ -202,6 +202,9 @@
 				"success": "<@&%d> wurde zur Sperrliste hinzugefügt",
 				"limit": "Du hast das Limit für die Anzahl Rollen in der Sperrliste erreicht (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> wurde von der Sperrliste entfernt"
+			},
 			"add": {
 				"limit": "Du hast das Benutzer-Limit für die Sperrliste erreicht (%d): Erwäge stattdessen, eine Rolle zu verwenden"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Markiert Dich als verfügbar, um in neuen Tickets automatisch hinzugefügt und markiert zu werden",
 		"reopen": "Öffnet ein zuvor geschlossenes Ticket erneut",
 		"notes": "Erstellt einen Thread für private Diskussionen zwischen Support-Teammitgliedern"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> wurde von der Sperrliste entfernt"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

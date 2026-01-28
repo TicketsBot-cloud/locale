@@ -202,6 +202,9 @@
 				"success": "<@&%d> har svartlistats",
 				"limit": "Du har nått gränsen för rollens svartlista (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> är inte längre svartlistad"
+			},
 			"add": {
 				"limit": "Du har nått gränsen för svartlista (%d): överväg att använda en roll istället"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Markerar dig som aktiv, att läggas till och pingas i alla nya ärenden",
 		"reopen": "Återöppnar ett ärende som tidigare var stängt",
 		"notes": "Skapa en tråd för privat diskussion mellan supportrepresentanter"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> är inte längre svartlistad"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

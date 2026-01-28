@@ -202,6 +202,9 @@
 				"success": "<@&%d> on asetettu mustallelistalle",
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> on poistettu mustaltalistalta"
+			},
 			"add": {
 				"limit": "Olet saavuttanut käyttäjien mustanlistan rajan (%d): harkitse roolin käyttöä sen sijaan"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
 		"reopen": "Avaa lipukkeen, joka oli aiemmin suljettu",
 		"notes": "Luo viestiketjun yksityiseen keskusteluun tukijoiden välillä"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> on poistettu mustaltalistalta"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

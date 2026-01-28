@@ -202,6 +202,9 @@
 				"success": "<@&%d> is op de blacklist gezet",
 				"limit": "Je hebt het limiet voor de rol blacklist bereikt (%d)"
 			},
+			"remove_role": {
+				"success": "De blacklist van <@&%d> is verwijderd"
+			},
 			"add": {
 				"limit": "U heeft het gebruiker blacklist limiet bereikt (%d): overweeg om een rol te gebruiken"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Markeert je als \"on call\", zodat je wordt toegevoegd en gepingd in alle nieuwe tickets",
 		"reopen": "Heropent een ticket die eerder was gesloten",
 		"notes": "Maakt een conversatie aan voor privé gesprek tussen ondersteunende vertegenwoordigers"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "De blacklist van <@&%d> is verwijderd"
-			}
-		}
 	},
 	"setup": {
 		"auto": {
