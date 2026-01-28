@@ -101,11 +101,6 @@
 	"commands.open.from.moved": "Die Unterhaltung wurde zu einem Ticket verschoben (<#%d>)",
 	"help.close_request": "Sendet eine Nachricht, in der der Benutzer gebeten wird, das Ticket zu schließen",
 	"close.reason_too_long": "Der Grund darf nicht länger als 255 Zeichen sein",
-	"commands.close_request.success": "Deine Schließanfrage wurde erfolgreich gesendet",
-	"commands.close_request.no_reason": "<@%d> hat das Schließen dieses Tickets angefordert.\n\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
-	"commands.close_request.with_reason": "<@%d> hat das Schließen dieses Tickets angefordert. Grund:\n```\n%s\n```\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
-	"commands.close_request.no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schließanfrage antworten",
-	"commands.close_request.denied": "<@%d> hat die Schließanfrage abgelehnt",
 	"generic.error": "Fehler",
 	"feedback.disabled": "Dieser Server hat Rückmeldungen deaktiviert",
 	"feedback.success": "Deine Rückmeldung wurde dokumentiert",
@@ -151,8 +146,6 @@
 	"generic.title.close_confirmation": "Schließbestätigung",
 	"close.confirmation": "Bitte bestätige, dass Du dieses Ticket schließen möchtest",
 	"generic.title.close_request": "Schließanfrage",
-	"commands.close_request.accept": "Akzeptieren & Schließen",
-	"commands.close_request.deny": "Ablehnen & Offen lassen",
 	"commands.premium.success": "Premium wurde für **%d** Tage aktiviert",
 	"generic.title.claimed": "Beanspruchtes Ticket",
 	"generic.title.unclaimed": "Unbeanspruchtes Ticket",
@@ -303,6 +296,17 @@
 			"with_credits": {
 				"plural": "Du hast **%d** Stimmguthaben. Klicke unten auf die Schaltfläche \"Guthaben Einlösen\", um es für %d Tage Premium auf diesem Server einzulösen.",
 				"singular": "Du hast **%d** Stimmguthaben. Klicke unten auf die Schaltfläche \"Guthaben Einlösen\", um es für %d Tag Premium auf diesem Server einzulösen."
+			}
+		},
+		"close_request": {
+			"success": "Deine Schließanfrage wurde erfolgreich gesendet",
+			"no_reason": "<@%d> hat das Schließen dieses Tickets angefordert.\n\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
+			"with_reason": "<@%d> hat das Schließen dieses Tickets angefordert. Grund:\n```\n%s\n```\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
+			"no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schließanfrage antworten",
+			"denied": "<@%d> hat die Schließanfrage abgelehnt",
+			"buttons": {
+				"accept": "Akzeptieren & Schliessen",
+				"deny": "Ablehnen & Offen lassen"
 			}
 		},
 		"viewstaff": {

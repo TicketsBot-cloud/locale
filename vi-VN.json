@@ -101,11 +101,6 @@
 	"commands.open.from.moved": "Cuộc hội thoại đã được chuyển đến một phiếu hỗ trợ (<#%d>)",
 	"help.close_request": "Gửi một tin nhắn hỏi thành viên xác nhận có thể đóng phiếu hỗ trợ này",
 	"close.reason_too_long": "Lý do không được dài hơn 255 ký tự",
-	"commands.close_request.success": "Yêu cầu đóng đã được gửi đi thành công",
-	"commands.close_request.no_reason": "<@%d> đã yêu cầu đóng phiếu hỗ trợ này.\n\nHãy đồng ý hoặc từ chối yêu cầu bằng các nút bên dưới.",
-	"commands.close_request.with_reason": "<@%d> đã yêu cầu đóng phiếu hỗ trợ này. Lý do:\n```\n%s\n```\nHãy đồng ý hoặc từ chối yêu cầu bằng các nút bên dưới.",
-	"commands.close_request.no_permission": "Chỉ người mở phiếu hỗ trợ này mới có thể trả lời yêu cầu đóng phiếu hỗ trợ",
-	"commands.close_request.denied": "<@%d> đã từ chối yêu cầu đóng phiếu hỗ trợ",
 	"generic.error": "Lỗi",
 	"feedback.disabled": "Máy chủ này đã tắt chức năng đánh giá",
 	"feedback.success": "Đánh giá bạn đã được ghi lại",
@@ -303,6 +298,17 @@
 			"with_credits": {
 				"plural": "Bạn hiện đang có **%d** điểm đánh giá. Bấm vào nút \"Quy đổi điểm\" bên dưới để quy đổi điểm sang %d ngày có hiệu lực dành cho phiên bản premium trong máy chủ này.",
 				"singular": "Bạn hiện đang có **%d** điểm đánh giá. Bấm vào nút \"Quy đổi điểm\" bên dưới để quy đổi điểm sang %d ngày có hiệu lực dành cho phiên bản cao cấp trong máy chủ này."
+			}
+		},
+		"close_request": {
+			"success": "Yêu cầu đóng đã được gửi đi thành công",
+			"no_reason": "<@%d> đã yêu cầu đóng phiếu hỗ trợ này.\n\nHãy đồng ý hoặc từ chối yêu cầu bằng các nút bên dưới.",
+			"with_reason": "<@%d> đã yêu cầu đóng phiếu hỗ trợ này. Lý do:\n```\n%s\n```\nHãy đồng ý hoặc từ chối yêu cầu bằng các nút bên dưới.",
+			"no_permission": "Chỉ người mở phiếu hỗ trợ này mới có thể trả lời yêu cầu đóng phiếu hỗ trợ",
+			"denied": "<@%d> đã từ chối yêu cầu đóng phiếu hỗ trợ",
+			"buttons": {
+				"accept": "Chấp nhận và đóng",
+				"deny": "Từ chối và giữ trạng thái mở"
 			}
 		},
 		"viewstaff": {
