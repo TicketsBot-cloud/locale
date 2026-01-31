@@ -2,7 +2,7 @@
 	"commands.about": "Tickets je jednoduchy na pouzivanie a vysoko upraviteľny bot pre podporu a tickety.\\nPodpora: https://discord.gg/ticketsbot\\nPríkazy: Napíš `/help`\\n`/setup`: Začať konfiguráciu",
 	"commands.add.no_members": "Musíte označiť užívateľa aby ste ich mohli pridať",
 	"commands.add.no_permission": "Nemáš oprávnenie na pridávanie ľudí do tohto ticketu",
-	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
+	"commands.add.no_everyone": "Nemôžeš pridať rolu `@everyone` do tiketu",
 	"commands.addadmin.no_members": "Musíte uviesť používateľa alebo pomenovať rolu, ktorej chcete udeliť oprávnenia správcu",
 	"commands.addadmin.owner": "Majiteľ servera je už správcom",
 	"commands.addsupport.no_members": "Musíte uviesť používateľa alebo pomenovať rolu, ktorej chcete udeliť oprávnenia zástupcu podpory",
