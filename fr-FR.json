@@ -202,6 +202,9 @@
 				"success": "<@&%d> a été mis sur liste noire",
 				"limit": "Vous avez atteint la limite de rôles sur la liste noire (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> a été retiré de la liste noire"
+			},
 			"add": {
 				"limit": "Vous avez atteint la limite d'utilisateurs sur la liste noire (%d) : envisagez d'utiliser un rôle à la place"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Vous marque comme disponible pour être ajouté et notifié dans tous les nouveaux tickets",
 		"reopen": "Rouvre un ticket qui a été précédemment fermé",
 		"notes": "Crée un fil de discussion privé entre les représentants de l'équipe d'assistance"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> a été retiré de la liste noire"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

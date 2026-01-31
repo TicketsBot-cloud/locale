@@ -202,6 +202,9 @@
 				"success": "<@&%d> isch zu de Sperrliste hinzuegfüegt worde",
 				"limit": "Du hesch s'Limit für d'Aazahl Rollene i de Sperrliste erreicht (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> isch vo de Sperrliste entfernt worde"
+			},
 			"add": {
 				"limit": "Du hesch s'Benutzer-Limit für d'Sperrliste erreicht (%d): Überleg Dir stattdesse, e Rolle z'verwende"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Markiert Dich als verfüegbar, um i neue Tickets automatisch hinzuegfüegt und markiert z'werde",
 		"reopen": "Macht es gschlossnigs Ticket wieder uuf",
 		"notes": "Erstellt es Thread für privati Diskussione zwüsche Support-Mitarbeiter"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> isch vo de Sperrliste entfernt worde"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

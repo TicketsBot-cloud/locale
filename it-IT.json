@@ -202,6 +202,9 @@
 				"success": "<@&%d> è stato aggiunto alla blacklist",
 				"limit": "Hai raggiunto il limite dei ruoli nella blacklist (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> è stato rimosso dalla blacklist"
+			},
 			"add": {
 				"limit": "Hai raggiunto il limite di utenti nella blacklist (%d): considera l'utilizzo di un ruolo"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Ti indica come in servizio, per essere aggiunto e notificato in tutti i nuovi ticket",
 		"reopen": "Riapre un ticket precedentemente chiuso",
 		"notes": "Crea un thread per discussioni private tra i rappresentanti del supporto"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> è stato rimosso dalla blacklist"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

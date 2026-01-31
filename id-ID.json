@@ -202,6 +202,9 @@
 				"success": "<@&%d> telah masuk daftar hitam",
 				"limit": "Anda telah mencapai batas daftar hitam peran (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> telah dibatalkan dari daftar hitam"
+			},
 			"add": {
 				"limit": "Anda telah mencapai batas daftar hitam pengguna (%d): pertimbangkan untuk menggunakan peran saja"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Menandai Anda sebagai sedang dipanggil, untuk ditambahkan dan di-ping di semua tiket baru",
 		"reopen": "Membuka kembali tiket yang sebelumnya ditutup",
 		"notes": "Membuat thread untuk diskusi pribadi antara pewakilan dukungan"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> telah dibatalkan dari daftar hitam"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

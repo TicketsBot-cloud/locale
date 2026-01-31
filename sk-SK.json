@@ -202,6 +202,9 @@
 				"success": "<@&%d> bol zaradený na čiernu listinu",
 				"limit": "Dosiahli ste limit čiernej listiny rolí (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> bol vymazaný z čiernej listiny"
+			},
 			"add": {
 				"limit": "Dosiahli ste limit čiernej listiny používateľov (%d): namiesto toho zvážte použitie role"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Označí vás ako osobu v pohotovosti, ktorá bude pridaná a upozornená na všetky nové tickety",
 		"reopen": "Znovu otvorí ticket, ktorý bol predtým zatvorený",
 		"notes": "Vytvorí vlákno na súkromnú diskusiu medzi zástupcami podpory"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> bol vymazaný z čiernej listiny"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

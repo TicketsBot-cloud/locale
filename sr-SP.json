@@ -202,6 +202,9 @@
 				"success": "<@&%d> jе на црној листи",
 				"limit": "Достигао си црну листу улога (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> jе на црној листи"
+			},
 			"add": {
 				"limit": "Дошли сте до црне листе корисника (%d): Размислите о улози"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Označava te kao dežurnog, da dodaš i upišeš sve nove karte",
 		"reopen": "Поново отвара карту која је раније била затворена",
 		"notes": "Creates a thread for private discussion between support representatives"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> jе на црној листи"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

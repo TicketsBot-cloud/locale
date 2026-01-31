@@ -202,6 +202,9 @@
 				"success": "<@&%d> został dodany do czarnej listy",
 				"limit": "Osiągnąłeś limit ról na czarnej liście (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> został usunięty z czarnej listy"
+			},
 			"add": {
 				"limit": "Osiągnąłeś limit czarnej listy użytkowników (%d): rozważ użycie roli"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Oznacza cię jako aktywnego, do dodania i oznaczenia we wszystkich nowych zgłoszeniach",
 		"reopen": "Ponownie otwiera zgłoszenie, które zostało wcześniej zamknięte",
 		"notes": "Tworzy wątek do prywatnych dyskusji między przedstawicielami wsparcia"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> został usunięty z czarnej listy"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

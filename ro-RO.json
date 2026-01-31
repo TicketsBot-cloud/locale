@@ -202,6 +202,9 @@
 				"success": "<@&%d> a fost adăugat în lista neagră",
 				"limit": "Ai atins limita de roluri de pe lista neagră (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> a fost scos de pe lista neagră"
+			},
 			"add": {
 				"limit": "Ai atins limita de utilizatori de pe lista neagră (%d): ia în considerare folosirea unui rol în schimb"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Te marchează ca fiind la datorie, pentru a fi adăugat și a primi pinguri în toate tichetele noi",
 		"reopen": "Redeschide un tichet care a fost închis anterior",
 		"notes": "Creează un thread pentru discuții private între reprezentanții de suport"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> a fost scos de pe lista neagră"
-			}
-		}
 	},
 	"setup": {
 		"auto": {
