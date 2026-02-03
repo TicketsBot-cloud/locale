@@ -202,6 +202,9 @@
 				"success": "<@&%d> se agregó a la lista negra",
 				"limit": "Has alcanzado el límite de roles en lista negra (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> se quitó de la lista negra"
+			},
 			"add": {
 				"limit": "Has alcanzado el límite de usuarios en lista negra (%d): considera usar un rol en su lugar"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Te marca como llamada en llamada, a ser añadido y hecho ping en todos los nuevos tickets",
 		"reopen": "Vuelve a abrir un ticket que estaba cerrado anteriormente",
 		"notes": "Crea un hilo para la discusión privada entre los representantes de soporte"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> se quitó de la lista negra"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

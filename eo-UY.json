@@ -202,6 +202,9 @@
 				"success": "<@&%d> estis nigre-listigita",
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> estis elnigrigita"
+			},
 			"add": {
 				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Markas vin kiel deĵoranto, por esti aldonita kaj pingita en ĉiuj novaj biletoj",
 		"reopen": "Reotigas bileton, kiu antaŭe estis fermita",
 		"notes": "Kreas fadenon por privata diskuto inter subtenaj reprezentantoj"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> estis elnigrigita"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

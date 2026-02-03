@@ -202,6 +202,9 @@
 				"success": "Mae <@%d> wedi'i roi ar y rhestr ddu",
 				"limit": "Rwyt ti wedi cyrraedd terfyn y rhestr ddu ar gyfer rolau (%d)"
 			},
+			"remove_role": {
+				"success": "Mae <@&%d> wedi'i dynnu oddi ar y rhestr ddu"
+			},
 			"add": {
 				"limit": "Rwyt ti wedi cyrraedd terfyn y rhestr ddu ar gyfer defnyddiwr (%d): ystyriwch ddefnyddio rôl yn ei lle"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Yn dynodi dy fod ar alwad, i gael dy ychwanegu a tagio mewn pob tocyn newydd",
 		"reopen": "Yn ail-agor tocyn oedd wedi cael ei gau o'r blaen",
 		"notes": "Yn creu edefyn ar gyfer trafodaeth breifat rhwng cynrychiolwyr cymorth"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "Mae <@&%d> wedi'i dynnu oddi ar y rhestr ddu"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

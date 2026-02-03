@@ -202,6 +202,9 @@
 				"success": "<@&%d> 已被列入黑名单",
 				"limit": "身份组黑名单已达到可添加的数量上限 (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> 已被移出黑名单"
+			},
 			"add": {
 				"limit": "用户黑名单已经达到了上限 (%d)：请添加身份组"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "将您标记为在线，将自动加入新的工单中并且你在这个线程里发的消息会被标记。",
 		"reopen": "重新打开之前关闭的工单",
 		"notes": "创建一个提供给支持团队私下讨论的主题"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> 已被移出黑名单"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

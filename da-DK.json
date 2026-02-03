@@ -202,6 +202,9 @@
 				"success": "<@&%d> er blevet blacklistet",
 				"limit": "Du har nået grænsen for blacklisting af roller (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> er blevet unblacklisted"
+			},
 			"add": {
 				"limit": "Du har nået grænsen for brugerens blacklist (%d): overvej at bruge en rolle i stedet for"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Markerer dig som \"På vagt\", så du bliver tilføjet og pinged i all nye tickets",
 		"reopen": "Genåbner en ticket, som tidligere var lukket",
 		"notes": "Opretter en tråd til privat diskussion mellem supportrepræsentanter"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> er blevet unblacklisted"
-			}
-		}
 	},
 	"setup": {
 		"auto": {

@@ -202,6 +202,9 @@
 				"success": "<@&%d> has been blacklisted",
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> has been unblacklisted"
+			},
 			"add": {
 				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
@@ -338,13 +341,6 @@
 		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
 		"reopen": "Reopens a ticket that was previously closed",
 		"notes": "Creates a thread for private discussion between support representatives"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> has been unblacklisted"
-			}
-		}
 	},
 	"setup": {
 		"auto": {
