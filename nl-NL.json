@@ -425,7 +425,7 @@
 			"button": "Bevestig - ik begrijp het"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
+			"title": "GDPR aanvraag in de wachtrij",
 			"all_transcripts": "**Type aanvraag:** Verwijder alle transcripts van een server waarvan u de eigenaar bent\n**Server:** %s",
 			"all_transcripts_multi": "**Type aanvraag:** Verwijder alle transcripts van een server waarvan u de eigenaar bent\n**Server:** %s",
 			"specific_transcripts": "**Request Type:** Verwijder specifieke transcripts van server\n**Server:** %s\n**Ticket IDs:** %s",
@@ -437,7 +437,7 @@
 		"completed": {
 			"title": "GDPR aanvraag voltooid",
 			"all_transcripts": "**Request Type:** Verwijder specifieke transcripts van server\n**Server:** %s\n**Ticket IDs:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
+			"all_transcripts_multi": "**Type Aanvraag: ** Verwijder alle transcripties van de servers\n**Servers: **\n* %s\n**Transcripties Verwijderd.** %d",
 			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
 			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
