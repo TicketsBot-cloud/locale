@@ -203,7 +203,7 @@
 				"limit": "Du har nått gränsen för rollens svartlista (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> är inte längre svartlistad"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Du har nått gränsen för svartlista (%d): överväg att använda en roll istället"
