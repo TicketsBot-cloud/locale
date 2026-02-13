@@ -203,7 +203,7 @@
 				"limit": "Du hast das Limit für die Anzahl Rollen in der Sperrliste erreicht (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> wurde von der Sperrliste entfernt"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Du hast das Benutzer-Limit für die Sperrliste erreicht (%d): Erwäge stattdessen, eine Rolle zu verwenden"
