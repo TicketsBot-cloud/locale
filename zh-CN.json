@@ -203,7 +203,7 @@
 				"limit": "身份组黑名单已达到可添加的数量上限 (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> 已被移出黑名单"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "用户黑名单已经达到了上限 (%d)：请添加身份组"
