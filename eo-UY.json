@@ -203,7 +203,7 @@
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> estis elnigrigita"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
