@@ -203,7 +203,7 @@
 				"limit": "Rwyt ti wedi cyrraedd terfyn y rhestr ddu ar gyfer rolau (%d)"
 			},
 			"remove_role": {
-				"success": "Mae <@&%d> wedi'i dynnu oddi ar y rhestr ddu"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Rwyt ti wedi cyrraedd terfyn y rhestr ddu ar gyfer defnyddiwr (%d): ystyriwch ddefnyddio rôl yn ei lle"
