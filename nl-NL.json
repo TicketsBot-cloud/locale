@@ -203,7 +203,7 @@
 				"limit": "Je hebt het limiet voor de rol blacklist bereikt (%d)"
 			},
 			"remove_role": {
-				"success": "De blacklist van <@&%d> is verwijderd"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "U heeft het gebruiker blacklist limiet bereikt (%d): overweeg om een rol te gebruiken"
