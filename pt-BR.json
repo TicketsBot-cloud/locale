@@ -203,7 +203,7 @@
 				"limit": "Você atingiu o limite da lista de bloqueio de cargos (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> foi removido da lista de bloqueio"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Você atingiu o limite da lista bloqueio de usuários (%d): considere usar um cargo em vez disso"
