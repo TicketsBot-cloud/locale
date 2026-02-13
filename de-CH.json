@@ -203,7 +203,7 @@
 				"limit": "Du hesch s'Limit für d'Aazahl Rollene i de Sperrliste erreicht (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> isch vo de Sperrliste entfernt worde"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Du hesch s'Benutzer-Limit für d'Sperrliste erreicht (%d): Überleg Dir stattdesse, e Rolle z'verwende"
