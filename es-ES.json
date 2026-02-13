@@ -203,7 +203,7 @@
 				"limit": "Has alcanzado el límite de roles en lista negra (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> se quitó de la lista negra"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Has alcanzado el límite de usuarios en lista negra (%d): considera usar un rol en su lugar"
