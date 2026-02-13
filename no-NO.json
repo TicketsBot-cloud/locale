@@ -203,7 +203,7 @@
 				"limit": "Du har nådd grensen på antall svartelistede roller (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> har blitt fjernet fra svartelisten"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Du har nådd brukerens svarteliste grense (%d): vurder å bruke en rolle i stedet"
