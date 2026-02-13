@@ -203,7 +203,7 @@
 				"limit": "Dosegli ste ograničenje crne liste uloga (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> više nije blacklist-an"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Dosegli ste ograničenje crne liste korisnika (%d): razmislite o korištenju uloge umjesto toga"
