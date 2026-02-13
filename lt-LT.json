@@ -203,7 +203,7 @@
 				"limit": "Pasiekėte juodojo sąrašo rolių limitą (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> buvo pašalintas iš juodojo sąrašo"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Jūs pasiekėte juodojo sąrašo vartotojų limitą (%d): apsvarstykite galimybę naudoti rolę"
