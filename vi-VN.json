@@ -203,7 +203,7 @@
 				"limit": "Bạn đã sử dụng hết giới hạn của danh sách đen vai trò (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> đã được xoá khỏi danh sách đen"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Bạn đạt giới hạn số người dùng có thể thêm vào danh sách đen (%d): thay vào đó hãy sử dụng vai trò"
