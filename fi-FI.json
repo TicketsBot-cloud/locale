@@ -203,7 +203,7 @@
 				"limit": "You have reached the role blacklist limit (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> on poistettu mustaltalistalta"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Olet saavuttanut käyttäjien mustanlistan rajan (%d): harkitse roolin käyttöä sen sijaan"
