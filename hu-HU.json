@@ -203,7 +203,7 @@
 				"limit": "Elérted a rang feketelista limitjét ˙(%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> le került a tiltólistáról"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Elérted a felhasználó feketelista limitjét (%d): Használj inkább egy rangot"
