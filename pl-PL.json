@@ -203,7 +203,7 @@
 				"limit": "Osiągnąłeś limit ról na czarnej liście (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> został usunięty z czarnej listy"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Osiągnąłeś limit czarnej listy użytkowników (%d): rozważ użycie roli"
