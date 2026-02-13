@@ -203,7 +203,7 @@
 				"limit": "Ai atins limita de roluri de pe lista neagră (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> a fost scos de pe lista neagră"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Ai atins limita de utilizatori de pe lista neagră (%d): ia în considerare folosirea unui rol în schimb"
