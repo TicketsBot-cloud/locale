@@ -203,7 +203,7 @@
 				"limit": "Sınıra ulaştınız, daha fazla rolü kara listeye ekleyemezsiniz (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d>, kara listeden kaldırıldı"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Sınıra ulaştınız, daha fazla kullanıcıyı kara listeye ekleyemezsiniz (%d). Bunun yerine, bir rol eklemeyi düşünün"
