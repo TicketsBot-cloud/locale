@@ -203,7 +203,7 @@
 				"limit": "Překročili jste limit role černé listiny (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> byl odstraňen z černé listiny"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Dosáhli jste limitu pro maximální počet lidí na černé listině (%d): Můžete vytvořit roli pro černou listinu"
