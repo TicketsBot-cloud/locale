@@ -203,7 +203,7 @@
 				"limit": "Du har nået grænsen for blacklisting af roller (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> er blevet unblacklisted"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Du har nået grænsen for brugerens blacklist (%d): overvej at bruge en rolle i stedet for"
