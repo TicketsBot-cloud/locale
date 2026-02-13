@@ -203,7 +203,7 @@
 				"limit": "역할 블랙리스트 개수 제한에 도달했어요 (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d>가 블랙리스트에서 삭제되었습니다."
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "사용자 블랙리스트 개수 제한에 도달했어요 (%d): 역할을 대신 사용해 보세요"
