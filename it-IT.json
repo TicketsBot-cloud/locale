@@ -203,7 +203,7 @@
 				"limit": "Hai raggiunto il limite dei ruoli nella blacklist (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> è stato rimosso dalla blacklist"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "Hai raggiunto il limite di utenti nella blacklist (%d): considera l'utilizzo di un ruolo"
