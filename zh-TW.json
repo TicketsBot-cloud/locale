@@ -203,7 +203,7 @@
 				"limit": "您達到了身分組黑名單限制（%d）"
 			},
 			"remove_role": {
-				"success": "<@&%d> 已從黑名單中移出"
+				"success": "<@&%d> has been unblacklisted"
 			},
 			"add": {
 				"limit": "您達到了使用者黑名單限制 (%d)：考慮使用身分組代替"
