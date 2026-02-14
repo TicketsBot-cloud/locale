@@ -78,7 +78,10 @@
 	"help.vote": "Suteikia nuorodą, kad prabalsuotuvėte už nemokamą premium prenumeratą",
 	"help.gdpr": "Tvarkyti GDPR duomenų užklausas",
 	"open.success": "Atidarytas naujas bilietas: %s",
-	"open.outside_support_hours": "Šis skydelis šiuo metu uždarytas. Bandykite dar kartą mūsų palaikymo darbo valandomis.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
 	"setup.auto.category.success": "Sukurta bilietų kategorija",
 	"setup.auto.completed": "Konfiguracija pabaigta! Paspauskite [here](https://dashboard.tickets.bot/manage/%d/panels), kad sukonfiguruotumėte reakcijos skydelį ir pridėtumėte <@&%d> ir <@&%d> roles prie pagalbos narių",
