@@ -78,7 +78,10 @@
 	"help.vote": "Memberi Anda tautan untuk memilih premium gratis",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Membuka tiket baru: %s",
-	"open.outside_support_hours": "Panel ini sedang tutup. Silahkan coba kembali dalam jam layanan dukungan.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Saya kehilangan izin `Kelola Saluran`",
 	"setup.auto.category.success": "Kategori Tiket yang Dibuat",
 	"setup.auto.completed": "Penyiapan selesai! Klik [di sini](https://dashboard.tickets.bot/manage/%d/panels) untuk menyiapkan panel reaksi, dan menambahkan peran <@&%d> dan <@&%d> ke anggota staf Anda",
