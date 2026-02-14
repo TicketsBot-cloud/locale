@@ -78,7 +78,10 @@
 	"help.vote": "आपको मुफ्त प्रीमियम के लिए वोट करने का लिंक देता है",
 	"help.gdpr": "आपके GDPR डेटा अनुरोधों को मैनेज करता है",
 	"open.success": "नया टिकट खोला गया: %s",
-	"open.outside_support_hours": "यह पैनल अभी बंद है। कृपया हमारे सहायता समय के दौरान पुन: प्रयास करें।",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "मेरे पास `Manage Channels` की अनुमति नहीं है",
 	"setup.auto.category.success": "टिकट श्रेणी बनाई गई",
 	"setup.auto.completed": "सेटअप पूरा हो गया है! रिएक्शन पैनल सेटअप करने के लिए [यहाँ क्लिक करें](https://dashboard.tickets.bot/manage/%d/panels), और अपने स्टाफ सदस्यों को <@&%d> और <@&%d> रोल दें",
