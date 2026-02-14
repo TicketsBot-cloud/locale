@@ -78,7 +78,10 @@
 	"help.vote": "Gửi cho bạn một đường dẫn để đánh giá và nhận phiên bản premium miễn phí",
 	"help.gdpr": "Quản lý yêu cầu dữ liệu GDPR",
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
-	"open.outside_support_hours": "Bảng điều khiền này hiện đang đóng. Hãy thử lại trong khung giờ hỗ trợ của chúng tôi.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
 	"setup.auto.category.success": "Đã tạo một mục kênh cho các phiếu hỗ trợ",
 	"setup.auto.completed": "Đã thiết lập thành công! Nhấn vào [đây](https://panel.tickets.bot/manage/%d/panels) để thiết lập một bảng reaction, và thêm <@&%d> và <@&%d> là vai trò cho các thành viên quản lý",
