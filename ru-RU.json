@@ -78,7 +78,10 @@
 	"help.vote": "Даёт ссылку на голосование, чтобы получить бесплатный Премиум.",
 	"help.gdpr": "Управление вашими запросами данных GDPR",
 	"open.success": "Открыто новое обращение: %s.",
-	"open.outside_support_hours": "Эта панель сейчас закрыта. Пожалуйста, попробуйте снова в рабочее время службы поддержки.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "У меня нет прав на `Управление каналами`.",
 	"setup.auto.category.success": "Создана категория Tickets для обращений.",
 	"setup.auto.completed": "Настройка завершена! Нажмите [сюда](https://dashboard.tickets.bot/manage/%d/panels), чтобы настроить панель реакций, и добавить роли <@&%d> и <@&%d> для представителей поддержки.",
