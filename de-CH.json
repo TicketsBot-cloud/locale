@@ -78,7 +78,10 @@
 	"help.vote": "Zeigt Dir en Link zum abstimme für e gratis und begrenzti Version vo Premium",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Neus Ticket uufgmacht: %s",
-	"open.outside_support_hours": "De Panel isch momentan zue. Bitte versuechs nomal während euse Öffnigsziite.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Ich bruuche d'`Kanäle verwalten` Berechtigung",
 	"setup.auto.category.success": "Ticket-Kategorie erstellt",
 	"setup.auto.completed": "Iirichtig abgschlosse! Klick [da](https://dashboard.tickets.bot/manage/%d/panels), um en Reaktions-Panel iizrichte und d'<@&%d> und <@&%d> Rollene zu Dine Mitarbeiter hinzuezfüege",
