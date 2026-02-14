@@ -78,7 +78,10 @@
 	"help.vote": "Antaa sinulle linkin äänestääksesi ilmaisesta Premiumista",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Avattu uusi lippu: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Minulta puuttuu `Hallinnoi Kanavia` oikeus",
 	"setup.auto.category.success": "Luotu liput kategoria",
 	"setup.auto.completed": "Asennus on valmis! Paina [tästä](https://dashboard.ticketsbot. et/manage/%d/panels) määrittääksesi reaktiopaneeli ja lisätäksesi <@&%d> ja <@&%d> roolit henkilökunnalle",
