@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Debido a limitaciones de Discord, los roles no pueden ser removidos de los tickets de hilo",
 	"open.ratelimited": "Se están abriendo tickets demasiado rápido en este servidor",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Por limitaciones de Discord, el reclamo no funciona en hilos",
 	"generic.join_support_server": "Únete al Servidor de Soporte",
 	"commands.open.guild_channel_limit": "Este servidor ha alcanzado el límite de Discord de 500 canales",
