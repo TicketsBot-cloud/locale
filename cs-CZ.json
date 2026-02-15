@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> byl odstraněn z <#%d>",
 	"commands.remove.role_thread": "Z důvodu Discord limitace nemohou být role odebrány z tiket vláken",
 	"open.ratelimited": "Tickety jsou na tomto serveru otevřeny příliš rychle",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Z důvodu omezení Discordu, tvrzení nepodporuje vlákna",
 	"generic.join_support_server": "Připojit se na server podpory",
 	"commands.open.guild_channel_limit": "Tento server dosáhl limitu 500 kanálů",
