@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> <#%d> kanalından çıkarıldı",
 	"commands.remove.role_thread": "Discord'un sınırlamaları nedeniyle konu ticketlarından rol çıkarılamaz",
 	"open.ratelimited": "Sunucuda destek talepleri çok hızlı açılıyor",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Discord sınırlamaları nedeniyle, hak talebinde bulunmak konuları desteklemez",
 	"generic.join_support_server": "Destek sunucusuna katılın",
 	"commands.open.guild_channel_limit": "Sunucun discordun belirlemiş olduğu maksimum kanal sayısı olan 500'e ulaştı",
