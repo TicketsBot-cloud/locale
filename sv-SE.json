@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Ärenden öppnas för snabbt i denna server",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "På grund av Discord-begränsningar stöder inte anspråk i trådar",
 	"generic.join_support_server": "Anslut till support servern",
 	"commands.open.guild_channel_limit": "Denna server har nått Discords gräns på 500 kanaler",
