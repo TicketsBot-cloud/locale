@@ -78,7 +78,10 @@
 	"help.vote": "Exibe um link para votar e obter premium gratuitamente",
 	"help.gdpr": "Gerenciar suas solicitações de dados GDPR",
 	"open.success": "Abriu um novo ticket: %s",
-	"open.outside_support_hours": "Este painel está fechado no momento. Por favor, tente novamente durante nossas horas de suporte.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Eu estou sem a permissão `Gerenciar Canais` ",
 	"setup.auto.category.success": "Categoria de Tickets criada",
 	"setup.auto.completed": "Configuração concluída! Clique [aqui](https://panel.tickets.bot/manage/%d/panels) para configurar um painel de reações, e adicione os cargos <@&%d> e <@&%d> para os seus membros da equipe",

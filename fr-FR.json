@@ -78,7 +78,10 @@
 	"help.vote": "Vous donne un lien pour voter et obtenir gratuitement la version premium",
 	"help.gdpr": "Gérer vos demandes de données RGPD",
 	"open.success": "Ouverture d'un nouveau ticket : %s",
-	"open.outside_support_hours": "Ce panneau est actuellement fermé. Veuillez réessayer pendant nos heures d'assistance.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Il me manque la permission `Gérer Les Salons`",
 	"setup.auto.category.success": "Crée une catégorie de Tickets",
 	"setup.auto.completed": "Installation terminée ! Cliquez [ici](https://panel.tickets.bot/manage/%d/panels) pour configurer un panneau de réaction et ajoutez les rôles <@&%d> et <@&%d> aux membres de votre staff",

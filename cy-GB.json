@@ -78,7 +78,10 @@
 	"help.vote": "Yn rhoi dolen i ti i bleidleisio am bremiwm am ddim",
 	"help.gdpr": "Rheoli eich ceisiadau data GDPR",
 	"open.success": "Tocyn newydd wedi'i agor: %s",
-	"open.outside_support_hours": "Mae'r panel hwn ar gau ar hyn o bryd. Rho gynnig arall yn ystod ein oriau cymorth.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Does gen i ddim y caniatâd `Manage Channels`",
 	"setup.auto.category.success": "Categori tocynnau wedi'i greu",
 	"setup.auto.completed": "Sefydlu wedi'i gwblhau! Cliciwch [yma](https://dashboard.tickets.bot/manage/%d/panels) i osod panel adwaith, ac ychwanega'r rolau <@&%d> a <@&%d> at dy aelodau staff",

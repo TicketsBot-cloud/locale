@@ -78,7 +78,10 @@
 	"help.vote": "Daje ti pozivnicu da glasaš za besplatan premium",
 	"help.gdpr": "Upravljajte svojim zahtjevima za podatke o GDPR-u",
 	"open.success": "Otvorio novi tiket: %s",
-	"open.outside_support_hours": "Ovaj panel je trenutno zatvoren. Pokušajte ponovno tijekom radnog vremena naše podrške.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Nedostaje mi `upravljaj kanalima' dozvola",
 	"setup.auto.category.success": "Napravio novu tiket kategoriju",
 	"setup.auto.completed": "Setup dovršen! Kliknite [ovdje](https://dashboard.tickets.bot/manage/%d/panels) da uradite reakcijski panel, I dodateb<@&%d> i <@&%d> uloge u vaš staff tim",

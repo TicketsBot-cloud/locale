@@ -78,7 +78,10 @@
 	"help.vote": "تعطيك الرابط للتصويت للإشتراك المجاني",
 	"help.gdpr": "إدارة طلبات بيانات GDPR",
 	"open.success": "تم فتح تذكرة جديدة: %s",
-	"open.outside_support_hours": "تم إغلاق هذه اللوحة حالياً. الرجاء المحاولة مرة أخرى خلال ساعات الدعم.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "انا افتقد إذن \"إدارة القنوات\"",
 	"setup.auto.category.success": "تم إنشاء فئة التذاكر",
 	"setup.auto.completed": "اكتمل الإعداد! انقر [هنا](https://panel.ticketsbot. et/manage/%d/panels) لإعداد لوحة التفاعل، وإضافة الأدوار <@&%d> و <@&%d> لموظفيك",

@@ -78,7 +78,10 @@
 	"help.vote": "Ücretsiz premium üyelik için oy bağlantısı",
 	"help.gdpr": "GDPR veri taleplerinizi yönetin",
 	"open.success": "Talebin oluşturuldu: %s",
-	"open.outside_support_hours": "Bu panel şu anda kapalı. Lütfen destek saatlerimizde tekrar deneyin.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Kanalları yönet iznine sahip değil",
 	"setup.auto.category.success": "Destek kategorisi oluşturuldu",
 	"setup.auto.completed": "Kurulum tamamlandı! Bir reaksiyon paneli kurmak için [buraya] (https://dashboard.tickets.bot/manage/%d/panels) tıklayın ve personel üyelerinize <@&%d> ve <@&%d> rollerini ekleyin",

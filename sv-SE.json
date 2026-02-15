@@ -78,7 +78,10 @@
 	"help.vote": "Ger dig en länk för att rösta för gratis premium",
 	"help.gdpr": "Hantera dina GDPR-dataförfrågningar",
 	"open.success": "Öppnade en ny ticket: %s",
-	"open.outside_support_hours": "Denna panel är för närvarande stängd. Försök igen under våra supporttimmar.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Jag saknar behörigheten `Hantera kanaler`",
 	"setup.auto.category.success": "Skapade ärendekategori",
 	"setup.auto.completed": "Uppstart färdig! Klicka [here] (https://dashboard.tickets.bot/manage/%d/panels) för att starta upp en reaktions panel, och lägg till <@&%d> och <@&%d> roller till dina personal roller",

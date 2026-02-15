@@ -78,7 +78,10 @@
 	"help.vote": "Fornece-te um link para votares para obteres premium grátis",
 	"help.gdpr": "Manage your GDPR data requests",
 	"open.success": "Foi aberto um novo bilhete: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": {
+		"title": "This panel is currently closed",
+		"message": "Please try again during our support hours."
+	},
 	"setup.auto.category.failure": "Eu não tenho a permissão `Gerir Canais`",
 	"setup.auto.category.success": "Categoria de bilhetes criada",
 	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
