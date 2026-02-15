@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "該伺服器短時間創建太多客服單，請稍後~~在~~再創建",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "礙於Discord 限制，接手客服單無法創建討論串",
 	"generic.join_support_server": "加入官方Discord",
 	"commands.open.guild_channel_limit": "該伺服器已經達到 Discord 限制的 500 個伺服器",
