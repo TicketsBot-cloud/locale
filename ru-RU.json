@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Обращения на сервере открываются слишком быстро.",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Из-за ограничений Discord, назначение обращений не поддерживается в ветках.",
 	"generic.join_support_server": "Присоединиться к серверу поддержки.",
 	"commands.open.guild_channel_limit": "Сервер достиг лимита Discord в 500 каналов.",
