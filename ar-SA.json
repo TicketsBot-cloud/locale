@@ -165,6 +165,7 @@
 	"commands.remove.success": "تمت إضافة <@%s> إلى <#%d>",
 	"commands.remove.role_thread": "بسبب قيود ديس كورد",
 	"open.ratelimited": "يتم فتح التذاكر بسرعة كبيرة في هذا الخادم",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "بسبب قيود الديسكورد، المطالبة لا تدعم المواضيع",
 	"generic.join_support_server": "الانضمام إلى خادم الدعم",
 	"commands.open.guild_channel_limit": "هذا الخادم وصل إلى حد ديسكورد 500 قناة",
