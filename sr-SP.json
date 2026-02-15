@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Улазнице се отварају пребрзо на овом серверу",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Због ограничења неслагања, тврдња не подржава нити",
 	"generic.join_support_server": "Придружи се серверу подршке",
 	"commands.open.guild_channel_limit": "Овај сервер је достигао границу од 500 канала",
