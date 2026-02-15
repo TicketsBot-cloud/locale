@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> ha estat tret de <#%d>",
 	"commands.remove.role_thread": "Degut a limitacions de Discord, els rols no poden ser trets de tiquets tipus fils",
 	"open.ratelimited": "S'estan obrint tiquets massa ràpid en aquest servidor",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "A causa de limitacions de Discord, el reclam no funciona amb fils",
 	"generic.join_support_server": "Unir-se al Servidor de Suport",
 	"commands.open.guild_channel_limit": "El servidor ha arribat al límit de Discord de 500 canals",
