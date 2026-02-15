@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> έχει αφαιρεθεί από <#%d>",
 	"commands.remove.role_thread": "Λόγω περιορισμών του Discord, ρόλοι δεν μπορούν να αφαιρεθούν από thread tickets",
 	"open.ratelimited": "Τα Tickets ανοίγονται πολύ γρήγορα σε αυτόν τον διακομιστή",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Λόγω των περιορισμών του Discord, η διεκδίκηση δεν υποστηρίζει τα νήματα",
 	"generic.join_support_server": "Μπες στον διακομιστή υποστήριξής μας",
 	"commands.open.guild_channel_limit": "Αυτός ο server έχει φτάσει το όριο του Discord με 500 κανάλια",

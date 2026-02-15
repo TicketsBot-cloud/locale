@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> je uklonjen iz <#%d>",
 	"commands.remove.role_thread": "Zbog Discordovih ograničenja, uloge se ne mogu ukloniti iz ticket-threadova",
 	"open.ratelimited": "Tiketi se otvaraju pre brzo u ovom serveru",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Zbog ograničenja Discorda, preuzimanje ne podržava niti",
 	"generic.join_support_server": "Pridružite se serveru za podršku",
 	"commands.open.guild_channel_limit": "Ovaj server je dosegao ograničenje od 500 kanala",

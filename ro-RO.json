@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Tichetele sunt deschise prea repede în acest server",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Din cauza limitărilor Discord, nu este posibil să revendici threaduri",
 	"generic.join_support_server": "Alătură-te serverului de suport",
 	"commands.open.guild_channel_limit": "Acest server a atins limita Discord de 500 de canale",

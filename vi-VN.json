@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> đã bị xóa khỏi <#%d>",
 	"commands.remove.role_thread": "Vai trò không thể được thêm vào phiếu hỗ trợ chủ đề do giới hạn của Discord",
 	"open.ratelimited": "Các phiếu hỗ trợ đang được mở quá nhanh trong hội này",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Vì giới hạn của Discord, không thể nhận phiếu hỗ trợ bên trong kênh Chủ Đề",
 	"generic.join_support_server": "Tham gia máy chủ hỗ trợ",
 	"commands.open.guild_channel_limit": "Máy chủ Discord này đã đạt giới hạn 500 kênh",

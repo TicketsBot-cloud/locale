@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> został usunięty z <#%d>",
 	"commands.remove.role_thread": "Ze względu na ograniczenia Discorda, role nie mogą zostać usunięte ze zgłoszeń wątków",
 	"open.ratelimited": "Zgłoszenia są otwierane za szybko na tym serwerze",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Ze względu na ograniczenia Discorda, funkcja obsługiwania zgłoszeń nie wspiera wątków",
 	"generic.join_support_server": "Dołącz do serwera wsparcia",
 	"commands.open.guild_channel_limit": "Ten serwer osiągnął limit 500 kanałów na Discordzie",

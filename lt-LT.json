@@ -165,6 +165,7 @@
 	"commands.remove.success": "<@%s> buvo pašalintas nuo <#%d>",
 	"commands.remove.role_thread": "Dėl Discord apribojimų rolės negali būti pašalinamos iš teminių bilietų",
 	"open.ratelimited": "Šiame serveryje bilietai buvo atidaryti per greitai",
+	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Dėl Discord apribojimų negalima apsiimti gijų",
 	"generic.join_support_server": "Prisijunkite į pagalbos serverį",
 	"commands.open.guild_channel_limit": "Šis serveris pasiekė Discord 500 kanalų limitą",
