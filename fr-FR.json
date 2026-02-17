@@ -79,8 +79,8 @@
 	"help.gdpr": "Gérer vos demandes de données RGPD",
 	"open.success": "Ouverture d'un nouveau ticket : %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "Ce panneau est actuellement fermé",
+		"message": "Veuillez réessayer pendant nos heures d'assistance."
 	},
 	"setup.auto.category.failure": "Il me manque la permission `Gérer Les Salons`",
 	"setup.auto.category.success": "Crée une catégorie de Tickets",
@@ -165,7 +165,7 @@
 	"commands.remove.success": "<@%s> a été retiré de <#%d>",
 	"commands.remove.role_thread": "En raison des limitations de Discord, les rôles ne peuvent pas être retirés des tickets qui sont des fils de discussion",
 	"open.ratelimited": "Des tickets sont ouverts trop rapidement sur ce serveur",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "Un délai de récupération est actif pour ce panneau. Veuillez réessayer %s.",
 	"commands.claim.thread": "En raison des limitations de Discord, il n'est pas possible de réclamer les fils de discussion",
 	"generic.join_support_server": "Rejoindre le serveur d'assistance",
 	"commands.open.guild_channel_limit": "Ce serveur a atteint la limite de 500 salons fixée par Discord",
@@ -207,7 +207,7 @@
 				"limit": "Vous avez atteint la limite de rôles sur la liste noire (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> a été retiré de la liste noire"
 			},
 			"add": {
 				"limit": "Vous avez atteint la limite d'utilisateurs sur la liste noire (%d) : envisagez d'utiliser un rôle à la place"
