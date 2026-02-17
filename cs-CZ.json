@@ -79,8 +79,8 @@
 	"help.gdpr": "Spravujte svůj požadavek na GDPR data",
 	"open.success": "Otevřel nový ticket: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "Tento panel je momentálně uzavřen",
+		"message": "Prosím, zkuste to během doby naší podpory."
 	},
 	"setup.auto.category.failure": "Chybí mi oprávnění `Manage Channels`",
 	"setup.auto.category.success": "Vytvořená kategorie ticketů",
@@ -165,7 +165,7 @@
 	"commands.remove.success": "<@%s> byl odstraněn z <#%d>",
 	"commands.remove.role_thread": "Z důvodu Discord limitace nemohou být role odebrány z tiket vláken",
 	"open.ratelimited": "Tickety jsou na tomto serveru otevřeny příliš rychle",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "U tohoto panelu jste časově omezen. Prosím, zkuste to znovu %s.",
 	"commands.claim.thread": "Z důvodu omezení Discordu, tvrzení nepodporuje vlákna",
 	"generic.join_support_server": "Připojit se na server podpory",
 	"commands.open.guild_channel_limit": "Tento server dosáhl limitu 500 kanálů",
@@ -207,7 +207,7 @@
 				"limit": "Překročili jste limit role černé listiny (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> byl odebrán z černé listiny"
 			},
 			"add": {
 				"limit": "Dosáhli jste limitu pro maximální počet lidí na černé listině (%d): Můžete vytvořit roli pro černou listinu"
