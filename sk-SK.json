@@ -79,8 +79,8 @@
 	"help.gdpr": "Spravujte svoje žiadosti o údaje podľa GDPR",
 	"open.success": "Otvorený nový ticket: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "Tento panel je momentálne zatvorený",
+		"message": "Prosím, skúste to znova počas našich podporných hodín."
 	},
 	"setup.auto.category.failure": "Chýba mi oprávnenie `Manage Channels`",
 	"setup.auto.category.success": "Kategória tickety vytvorená",
@@ -165,7 +165,7 @@
 	"commands.remove.success": "<@%s> bol odstránený z <#%d>",
 	"commands.remove.role_thread": "Kvôli obmedzeniam Discordu nie je možné odobrať roly z ticket vlákien",
 	"open.ratelimited": "Tickety sa na tomto serveri otvárajú príliš rýchlo",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "Pre tento panel máte dočasný limit. Skúste to znova %s.",
 	"commands.claim.thread": "Kvôli obmedzeniam Discordu tvrdenie nepodporuje vlákna",
 	"generic.join_support_server": "Pripojiť sa k serveru podpory",
 	"commands.open.guild_channel_limit": "Tento server dosiahol limit Discordu 500 kanálov",
@@ -207,7 +207,7 @@
 				"limit": "Dosiahli ste limit čiernej listiny rolí (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> bol vymazaný z čiernej listiny"
 			},
 			"add": {
 				"limit": "Dosiahli ste limit čiernej listiny používateľov (%d): namiesto toho zvážte použitie role"
