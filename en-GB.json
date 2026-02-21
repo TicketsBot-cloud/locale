@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket. Changes will be applied immediately.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
 		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
 		"reopen": "Reopens a ticket that was previously closed",
-		"notes": "Creates a thread for private discussion between support representatives"
+		"notes": "Creates a thread for private discussion between support representatives",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
