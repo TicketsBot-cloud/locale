@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/ticketsbot\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: %s\\nCommands: Type `/help`\\nGet started by running `/setup`",
 	"commands.add.no_members": "You need to mention members to add to the ticket",
 	"commands.add.no_permission": "You don't have permission to add people to this ticket",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
 	"commands.blacklist.self": "You cannot blacklist yourself",
 	"commands.claim.success": "Your ticket will be handled by %s",
-	"commands.invite": "[Click here](<https://invite.tickets.bot>)",
+	"commands.invite": "[Click here](<%s>)",
 	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
 	"commands.open.ticket_limit": "You are only able to open %d %s at once",
 	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot-cloud>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.tickets.bot> to get premium free for 24 hours",
+	"commands.panel": "Visit <%s> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <%s>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <%s> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
 	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
 	"commands.remove.staff": "You cannot remove staff from a ticket",
@@ -29,8 +29,8 @@
 	"commands.tags.create.too_long": "Tag IDs cannot be longer than 16 characters",
 	"commands.tags.delete.invalid_arguments": "You must specify a tag ID to delete",
 	"commands.tags.delete.not_exist": "A tag with the ID `%s` could not be found",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <%s>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <%s>.",
 	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
 	"commands.unclaim.not_claimed": "This ticket is not claimed",
 	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
 	"setup.auto.category.success": "Created Tickets category",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Setup complete! Click [here](%s) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
 	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
 	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
 	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
 	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
-	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](%s) if you're interested in helping translating the bot into more languages",
 	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Visit the [dashboard](%s) to change autoclose settings",
 	"help.autoclose": "Autoclose related commands",
 	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
 	"help.autoclose.configure": "Edit autoclose related settings",
@@ -238,7 +238,7 @@
 			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
 			"success": "You are now on call",
 			"remove_success": "You are no longer on call"
 		},
@@ -261,7 +261,7 @@
 			"please_wait": "Please wait...",
 			"success_after_check": "Premium is now active in this server!",
 			"link_patreon_account": "Link Patreon Account",
-			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](%s), and a further waited 10 minutes.",
 			"open_form": "Open Form",
 			"open_form_description": "Press the button below to reopen the form",
 			"use_key_anyway": "Use Premium Key Anyway",
@@ -280,9 +280,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](%s) to find out more.",
 			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](%s).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -348,7 +348,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
+			"docs": "Want to explore more? Our [documentation](%s) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "You must provide a ticket notification channel",
