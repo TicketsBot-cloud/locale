@@ -79,8 +79,8 @@
 	"help.gdpr": "Beheer jouw GDPR data verzoeken",
 	"open.success": "Een nieuw ticket is geopend: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "Dit paneel is momenteel gesloten",
+		"message": "Alsjeblieft probeer het opnieuw tijdens onze support uren."
 	},
 	"setup.auto.category.failure": "Ik mis de permissie 'Kanalen beheren'",
 	"setup.auto.category.success": "Ticketcategorie aangemaakt",
@@ -132,7 +132,7 @@
 	"generic.title.blacklisted": "Verbannen",
 	"generic.title.blacklist": "Zwarte Lijst",
 	"generic.error.blacklisted": "U bent geblacklist in deze server",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Deze server is geblacklist van het gebruiken van de bot",
 	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> is op de blacklist gezet",
 	"commands.blacklist.remove.success": "<@%d> is uit de blacklist gehaald",
@@ -140,10 +140,10 @@
 	"generic.title.add_support": "Support toevoegen",
 	"generic.title.remove_admin": "Beheerder verwijderen",
 	"generic.title.remove_support": "Support verwijderen",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Support lid is succesvol voltooid: %s",
 	"generic.title.language": "Taal",
 	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.addadmin.success": "Admin is succesvol toegevoegd: %s",
 	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Installatie",
 	"generic.title.premium": "Premium",
@@ -161,9 +161,9 @@
 	"generic.title.unclaimed": "Onopgeëist ticket",
 	"generic.title.add": "Toevoegen",
 	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.add.role_thread": "Door de beperkingen van Discord, rollen kunnen niet toegevoegd worden aan thread tickets",
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.remove.role_thread": "Door de beperkingen van Discord, rollen kunnen niet verwijderd worden van thread tickets",
 	"open.ratelimited": "Er worden te snel tickets geopend in deze server",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Door beperkingen vanuit Discord wordt het claimen van threads niet ondersteunt",
@@ -207,7 +207,7 @@
 				"limit": "Je hebt het limiet voor de rol blacklist bereikt (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> is unblacklisted"
 			},
 			"add": {
 				"limit": "U heeft het gebruiker blacklist limiet bereikt (%d): overweeg om een rol te gebruiken"
