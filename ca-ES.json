@@ -326,6 +326,19 @@
 				"no_roles": "No hi ha rols a l'equip de suport",
 				"users_warning": "-# **Avís:** Els usuaris dels equips de suport seran obsolets. Si us plau, migra a rols."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Et proporciona un botó per anar a l'inici del tiquet",
 		"on_call": "Et marca com a disponible, per ser afegit i mencionat a tots els nous tiquets",
 		"reopen": "Torna a obrir un tiquet que ha estat tancat prèviament",
-		"notes": "Crea un fil per discutir en privat entre els integrants de l'equip de suport"
+		"notes": "Crea un fil per discutir en privat entre els integrants de l'equip de suport",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
