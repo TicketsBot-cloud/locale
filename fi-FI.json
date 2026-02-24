@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Tarjoaa sinulle painikkeen, jonka avulla voit hypätä lipun alkuun",
 		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
 		"reopen": "Avaa lipukkeen, joka oli aiemmin suljettu",
-		"notes": "Luo viestiketjun yksityiseen keskusteluun tukijoiden välillä"
+		"notes": "Luo viestiketjun yksityiseen keskusteluun tukijoiden välillä",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
