@@ -326,6 +326,19 @@
 				"no_roles": "Žádná role podpory",
 				"users_warning": "-# **Varování:** Uživatelé v podpoře jsou zastaralé. Prosím, migrujte na role."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Vezme vás na začátek ticketu",
 		"on_call": "Označuje vás jako při hovoru, bude přidán a přidán ve všech nových ticketů",
 		"reopen": "Znovu otevře ticket, který byl dříve uzavřen",
-		"notes": "Vytvoří soukromé vlákno pro privátní konverzaci mezi podporou"
+		"notes": "Vytvoří soukromé vlákno pro privátní konverzaci mezi podporou",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
