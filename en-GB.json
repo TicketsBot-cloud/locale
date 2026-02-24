@@ -329,7 +329,7 @@
 		},
 		"edit": {
 			"title": "Edit Ticket Settings",
-			"description": "Below you can edit various settings for this ticket. Changes will be applied immediately.",
+			"description": "Below you can edit various settings for this ticket.",
 			"labels": {
 				"title": "Edit Labels",
 				"description": "Edit the labels assigned to this ticket",
