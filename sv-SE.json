@@ -326,6 +326,19 @@
 				"no_roles": "Inga supportroller",
 				"users_warning": "-#**Varning:** Användare i support lagen är nu separerade. Vänligen migrera till roller."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Ger dig en knapp för att hoppa till toppen av ärendet",
 		"on_call": "Markerar dig som aktiv, att läggas till och pingas i alla nya ärenden",
 		"reopen": "Återöppnar ett ärende som tidigare var stängt",
-		"notes": "Skapa en tråd för privat diskussion mellan supportrepresentanter"
+		"notes": "Skapa en tråd för privat diskussion mellan supportrepresentanter",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
