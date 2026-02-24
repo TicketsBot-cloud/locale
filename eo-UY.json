@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Provizas al vi butonon por salti al la supro de la bileto",
 		"on_call": "Markas vin kiel deĵoranto, por esti aldonita kaj pingita en ĉiuj novaj biletoj",
 		"reopen": "Reotigas bileton, kiu antaŭe estis fermita",
-		"notes": "Kreas fadenon por privata diskuto inter subtenaj reprezentantoj"
+		"notes": "Kreas fadenon por privata diskuto inter subtenaj reprezentantoj",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
