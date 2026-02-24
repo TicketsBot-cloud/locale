@@ -326,6 +326,19 @@
 				"no_roles": "Không có vai trò của đội ngũ hỗ trợ",
 				"users_warning": "-# **Cảnh cáo:** Tính năng chọn thành viên cho đội ngũ hỗ trợ đã không còn khả dùng. Vui lòng chuyển sang sử dụng vai trò cho đội ngũ hỗ trợ."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Thêm nút để có thể nhảy lên tin nhắn đầu tiên của phiếu hỗ trợ",
 		"on_call": "Thêm bạn là đang sẵn sàng, được thêm và ping trong các phiếu hỗ trợ mới",
 		"reopen": "Mở lại phiếu hỗ trợ mà trước đó đã đóng",
-		"notes": "Tạo một kênh chủ đề để thảo luận riêng tư giữa các hỗ trợ viên"
+		"notes": "Tạo một kênh chủ đề để thảo luận riêng tư giữa các hỗ trợ viên",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
