@@ -326,6 +326,19 @@
 				"no_roles": "Tidak ada peran pendukung",
 				"users_warning": "-#**Peringatan:** Pengguna dalam tim dukungan kini tidak berlaku lagi. Harap migrasikan ke peran."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Memberi Anda tombol untuk melompak ke atas tiket",
 		"on_call": "Menandai Anda sebagai sedang dipanggil, untuk ditambahkan dan di-ping di semua tiket baru",
 		"reopen": "Membuka kembali tiket yang sebelumnya ditutup",
-		"notes": "Membuat thread untuk diskusi pribadi antara pewakilan dukungan"
+		"notes": "Membuat thread untuk diskusi pribadi antara pewakilan dukungan",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
