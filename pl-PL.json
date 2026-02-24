@@ -326,6 +326,19 @@
 				"no_roles": "Brak ról wsparcia",
 				"users_warning": "-# **Uwaga:** Użytkownicy w zespołach wsparcia są teraz przestarzali. Proszę migrować do roli."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Dostarcza ci przycisk, aby przejść do góry zgłoszenia",
 		"on_call": "Oznacza cię jako aktywnego, do dodania i oznaczenia we wszystkich nowych zgłoszeniach",
 		"reopen": "Ponownie otwiera zgłoszenie, które zostało wcześniej zamknięte",
-		"notes": "Tworzy wątek do prywatnych dyskusji między przedstawicielami wsparcia"
+		"notes": "Tworzy wątek do prywatnych dyskusji między przedstawicielami wsparcia",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
