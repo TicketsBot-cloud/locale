@@ -326,6 +326,19 @@
 				"no_roles": "Žiadne podporné roly",
 				"users_warning": "-# **Upozornenie:** Používatelia v podporných tímoch už nie sú odporúčaní na používanie. Prejdite na roly."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Poskytuje tlačidlo na preskočenie na začiatok lístka",
 		"on_call": "Označí vás ako osobu v pohotovosti, ktorá bude pridaná a upozornená na všetky nové tickety",
 		"reopen": "Znovu otvorí ticket, ktorý bol predtým zatvorený",
-		"notes": "Vytvorí vlákno na súkromnú diskusiu medzi zástupcami podpory"
+		"notes": "Vytvorí vlákno na súkromnú diskusiu medzi zástupcami podpory",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
