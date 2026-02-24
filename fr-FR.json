@@ -165,7 +165,7 @@
 	"commands.remove.success": "<@%s> a été retiré de <#%d>",
 	"commands.remove.role_thread": "En raison des limitations de Discord, les rôles ne peuvent pas être retirés des tickets qui sont des fils de discussion",
 	"open.ratelimited": "Des tickets sont ouverts trop rapidement sur ce serveur",
-	"open.panel_cooldown": "Un délai de récupération est actif pour ce panneau. Veuillez réessayer %s.",
+	"open.panel_cooldown": "Ce panneau est temporisé. Veuillez réessayer %s.",
 	"commands.claim.thread": "En raison des limitations de Discord, il n'est pas possible de réclamer les fils de discussion",
 	"generic.join_support_server": "Rejoindre le serveur d'assistance",
 	"commands.open.guild_channel_limit": "Ce serveur a atteint la limite de 500 salons fixée par Discord",
@@ -326,6 +326,19 @@
 				"no_roles": "Aucun rôle d'assistance",
 				"users_warning": "-# **Attention :** Les utilisateurs dans les équipes d'assistance sont désormais obsolètes. Veuillez migrer vers les rôles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Envoie un bouton qui permet de remonter en haut du ticket",
 		"on_call": "Vous marque comme disponible pour être ajouté et notifié dans tous les nouveaux tickets",
 		"reopen": "Rouvre un ticket qui a été précédemment fermé",
-		"notes": "Crée un fil de discussion privé entre les représentants de l'équipe d'assistance"
+		"notes": "Crée un fil de discussion privé entre les représentants de l'équipe d'assistance",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

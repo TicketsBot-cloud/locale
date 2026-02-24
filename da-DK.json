@@ -326,6 +326,19 @@
 				"no_roles": "Ingen support roller",
 				"users_warning": "-# **Advarsel:** Brugere i supportteams er nu forældet. Migrer venligst til roller."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Giver dig en knap til at hoppe til toppen af denne ticket",
 		"on_call": "Markerer dig som \"På vagt\", så du bliver tilføjet og pinged i all nye tickets",
 		"reopen": "Genåbner en ticket, som tidligere var lukket",
-		"notes": "Opretter en tråd til privat diskussion mellem supportrepræsentanter"
+		"notes": "Opretter en tråd til privat diskussion mellem supportrepræsentanter",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

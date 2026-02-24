@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Надає кнопку для переходу на початок заявки",
 		"on_call": "Позначає вас як дежурного, автоматично додаючи та пінгуючи в усіх нових запитах",
 		"reopen": "Повторно видкриває запит який раніше був закритий",
-		"notes": "Створює гілку для приватного обговорення між представниками служби підтримки"
+		"notes": "Створює гілку для приватного обговорення між представниками служби підтримки",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

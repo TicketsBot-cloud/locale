@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "티켓 맨 위로 이동할 수 있는 버튼을 제공합니다.",
 		"on_call": "대기 중 상태로 표시합니다. 모든 신규 티켓에서 추가 및 핑될 수 있습니다",
 		"reopen": "이전에 닫힌 티켓을 다시 엽니다",
-		"notes": "지원 담당자 간의 비공개 논의용 스레드를 생성합니다"
+		"notes": "지원 담당자 간의 비공개 논의용 스레드를 생성합니다",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

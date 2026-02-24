@@ -326,6 +326,19 @@
 				"no_roles": "Нет ролей поддержки",
 				"users_warning": "-# **Внимание:** Добавление отдельных пользователей в команды поддержки устарело. Пожалуйста, используйте роли."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Создаёт кнопку для перехода к началу обращения.",
 		"on_call": "Обозначает вас как активно отслеживающего обращения. Вы будете упомянуты в каждом новом обращении.",
 		"reopen": "Повторно открывает обращение, которое было ранее закрыто.",
-		"notes": "Создаёт ветку для приватного обсуждения между представителями поддержки"
+		"notes": "Создаёт ветку для приватного обсуждения между представителями поддержки",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

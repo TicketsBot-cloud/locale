@@ -326,6 +326,19 @@
 				"no_roles": "Dim rolau cymorth",
 				"users_warning": "-# **Rhybudd:** Mae defnyddwyr mewn timau cymorth bellach wedi darfod. Symudwch drosodd i ddefnyddio rolau."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Yn rhoi botwm i ti neidio i frig y tocyn",
 		"on_call": "Yn dynodi dy fod ar alwad, i gael dy ychwanegu a tagio mewn pob tocyn newydd",
 		"reopen": "Yn ail-agor tocyn oedd wedi cael ei gau o'r blaen",
-		"notes": "Yn creu edefyn ar gyfer trafodaeth breifat rhwng cynrychiolwyr cymorth"
+		"notes": "Yn creu edefyn ar gyfer trafodaeth breifat rhwng cynrychiolwyr cymorth",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

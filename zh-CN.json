@@ -326,6 +326,19 @@
 				"no_roles": "无支持人员（角色）",
 				"users_warning": "-# **警告:** 在支持团队中添加的用户现在已废弃。请创建一个角色并设置该角色为支持团队。"
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "点击下面的按钮跳到工单顶部",
 		"on_call": "将您标记为在线，将自动加入新的工单中并且你在这个线程里发的消息会被标记。",
 		"reopen": "重新打开之前关闭的工单",
-		"notes": "创建一个提供给支持团队私下讨论的主题"
+		"notes": "创建一个提供给支持团队私下讨论的主题",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

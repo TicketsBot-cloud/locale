@@ -326,6 +326,19 @@
 				"no_roles": "Δεν υπάρχουν ρόλοι εκπροσώπων υποστήριξης",
 				"users_warning": "-# **Προειδοποίηση:** Οι χρήστες στις ομάδες υποστήριξης έχουν πλέον καταργηθεί. Παρακαλώ μετεγκαταστήστε σε ρόλους."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Σας παρέχει ένα κουμπί για να μεταβείτε στην κορυφή του ticket",
 		"on_call": "Σας επισημαίνει σε υπηρεσία, για να προστίθεται και να σε κάνει ping σε όλα τα tickets",
 		"reopen": "Ανοίγει ξανά ένα ticket που έκλεισε προηγουμένως",
-		"notes": "Δημιουργεί ένα νήμα για ιδιωτική συζήτηση μεταξύ εκπροσώπων υποστήριξης"
+		"notes": "Δημιουργεί ένα νήμα για ιδιωτική συζήτηση μεταξύ εκπροσώπων υποστήριξης",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "按一下以下按鈕跳到客服單頂端",
 		"on_call": "將您標註為線上狀態，以便在所有新的客服單中加入並被通知。",
 		"reopen": "重新開啟之前關閉的客服單",
-		"notes": "建立一個供支援團隊之間進行私人討論的串"
+		"notes": "建立一個供支援團隊之間進行私人討論的串",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

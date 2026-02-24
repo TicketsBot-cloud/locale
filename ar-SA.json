@@ -326,6 +326,19 @@
 				"no_roles": "لا توجد أدوار دعم",
 				"users_warning": "-# **تحذير:** المستخدمون في فرق الدعم مهملون الآن. الرجاء الانتقال إلى الأدوار."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "يوفر لك زر للإنتقال الى اعلى التذكرة",
 		"on_call": "وضع علامة عليك كأنك داخل مكالمة , حتى يتم اضافتك وتنبيهك في جميع التذاكر الجديدة",
 		"reopen": "اعادة فتح تذكرة تم إغلاقها سابقاً",
-		"notes": "يقوم بإنشاء موضوع للمناقشة الخاصة بين ممثلي الدعم"
+		"notes": "يقوم بإنشاء موضوع للمناقشة الخاصة بين ممثلي الدعم",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

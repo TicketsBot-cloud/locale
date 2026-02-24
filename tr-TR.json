@@ -326,6 +326,19 @@
 				"no_roles": "Destek rolü yok",
 				"users_warning": "-# **Uyarı:** Destek ekiplerindeki kullanıcılar artık kullanımdan kaldırıldı. Lütfen rollere geçiş yapın."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Biletin en üstüne gitmenizi sağlayan bir düğme gönderir",
 		"on_call": "Tüm yeni biletlere eklenmek ve bildirim almak üzere sizi görev başında olarak belirler",
 		"reopen": "Daha önceden kapatılmış bir bileti yeniden açar",
-		"notes": "Destek temsilcileri arasında özel tartışma için bir konu başlığı oluşturur"
+		"notes": "Destek temsilcileri arasında özel tartışma için bir konu başlığı oluşturur",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

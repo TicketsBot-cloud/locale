@@ -326,6 +326,19 @@
 				"no_roles": "Puuduvad toe rollid",
 				"users_warning": "-# **Hoiatus:** Kasutajad toe meeskonnad on nüüd vananenud. Palun liikuge rollide kasutamisele."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Annab sulle nupu millega abipileti tippu hüpata",
 		"on_call": "Paneb sind \"on call\", et sind oleks võimalik lisada ja mentionida uutes abipiletites",
 		"reopen": "Avab uuesti abipileti mis oli varem suletud",
-		"notes": "Teeb threadi privaatseteks vestlusteks abipersonaalide vahel"
+		"notes": "Teeb threadi privaatseteks vestlusteks abipersonaalide vahel",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

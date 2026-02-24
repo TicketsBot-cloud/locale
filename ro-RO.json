@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Îți furnizează un buton pentru a sări în partea de sus a tichetului",
 		"on_call": "Te marchează ca fiind la datorie, pentru a fi adăugat și a primi pinguri în toate tichetele noi",
 		"reopen": "Redeschide un tichet care a fost închis anterior",
-		"notes": "Creează un thread pentru discuții private între reprezentanții de suport"
+		"notes": "Creează un thread pentru discuții private între reprezentanții de suport",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

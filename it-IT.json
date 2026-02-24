@@ -326,6 +326,19 @@
 				"no_roles": "Nessun ruolo del supporto",
 				"users_warning": "-# **Attenzione:** utenti nei team di supporto sono ora obsoleti. Si prega di migrare ai ruoli."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Fornisce un tasto per tornare all'inizio del ticket",
 		"on_call": "Ti indica come in servizio, per essere aggiunto e notificato in tutti i nuovi ticket",
 		"reopen": "Riapre un ticket precedentemente chiuso",
-		"notes": "Crea un thread per discussioni private tra i rappresentanti del supporto"
+		"notes": "Crea un thread per discussioni private tra i rappresentanti del supporto",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
