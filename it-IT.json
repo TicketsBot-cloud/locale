@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets è un bot per supporto e ticket altamente configurabile e facile da usare.\\nServer di supporto: https://discord.gg/ticketsbot\\nComandi: Scrivi `/help`\\nInizia eseguendo `/setup`",
+	"commands.about": "Tickets è un bot per supporto e ticket altamente configurabile e facile da usare.\\nServer di supporto: %s\\nComandi: Scrivi `/help`\\nInizia eseguendo `/setup`",
 	"commands.add.no_members": "È necessario menzionare i membri da aggiungere al ticket",
 	"commands.add.no_permission": "Non hai i permessi per aggiungere persone a questo ticket",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "È necessario menzionare un utente per aggiungerlo o toglierlo dalla blacklist",
 	"commands.blacklist.self": "Non puoi aggiungerti alla blacklist",
 	"commands.claim.success": "Il tuo ticket verrà gestito da %s",
-	"commands.invite": "[Clicca qui](<https://invite.tickets.bot>)",
+	"commands.invite": "[Clicca qui](<%s>)",
 	"commands.language.invalid": "È necessario specificare un codice lingua o una bandiera.\nLingue disponibili:\\n%s",
 	"commands.open.ticket_limit": "Sei in grado di aprire %d %s alla volta",
 	"commands.open.too_many_tickets": "Ci sono troppi ticket nella categoria dei ticket. Chiedi ad un admin di chiuderne alcuni o di spostarli in un'altra categoria",
-	"commands.panel": "Visita <https://dashboard.tickets.bot/manage/%d/panels> per configurare un pannello",
-	"commands.premium": "Puoi acquistare un abbonamento premium da <https://www.patreon.com/ticketsbot-cloud>.\\nIl premium da molti vantaggi, come:\\n```diff\\n+ Creare pannelli per ticket illimitati\\n+ Personalizzare il nome del bot, l'avatar e lo stato (whitelabel)\\n+ Statistiche dettagliate sul server, utenti e supporto rappresentativo\\n+ Nessun branding alla fine dei messaggi\\n+ Supporta lo sviluppo e mi aiuta a pagare i costi del server \\n```\\n\\nIn alternativa, puoi votare su <https://vote.tickets.bot> per avere il premium gratis per 24 ore",
+	"commands.panel": "Visita <%s> per configurare un pannello",
+	"commands.premium": "Puoi acquistare un abbonamento premium da <%s>.\\nIl premium da molti vantaggi, come:\\n```diff\\n+ Creare pannelli per ticket illimitati\\n+ Personalizzare il nome del bot, l'avatar e lo stato (whitelabel)\\n+ Statistiche dettagliate sul server, utenti e supporto rappresentativo\\n+ Nessun branding alla fine dei messaggi\\n+ Supporta lo sviluppo e mi aiuta a pagare i costi del server \\n```\\n\\nIn alternativa, puoi votare su <%s> per avere il premium gratis per 24 ore",
 	"commands.premium.invalid_key": "Chiave non valida. Assicurati di averla copiata correttamente.",
 	"commands.remove.no_permission": "Non hai i permessi per rimuovere persone da questo ticket",
 	"commands.remove.staff": "Non puoi rimuovere lo staff da un ticket",
@@ -29,13 +29,13 @@
 	"commands.tags.create.too_long": "Gli ID dei tag non possono essere più lunghi di 16 caratteri",
 	"commands.tags.delete.invalid_arguments": "È necessario specificare l'ID del tag da eliminare",
 	"commands.tags.delete.not_exist": "Non è possibile trovare un tag con ID `%s`",
-	"commands.tags.get.invalid_arguments": "Devi fornire l'ID del tag. Per maggiori informazioni sul tag, visita <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Tag non valido. Per maggiore informazioni sui tag, visita <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Devi fornire l'ID del tag. Per maggiori informazioni sul tag, visita <%s>.",
+	"commands.tags.get.invalid_tag": "Tag non valido. Per maggiore informazioni sui tag, visita <%s>.",
 	"commands.tags.list": "ID per tutti i tag: \\n%s\\nPer visualizzare il contenuto di in tag, esegui `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Questo ticket non è stato rivendicato",
 	"commands.unclaim.not_claimer": "Solo gli admin e l'utente che hanno rivendicato il ticket possono annullare la rivendicazione",
 	"commands.unclaim.success": "Tutto il supporto rappresentativo può ora rispondere al ticket",
-	"commands.vote": "Clicca qui per votare per 24 ore di premium gratis:\\n<https://vote.ticketsbot.cloud>",
+	"commands.vote": "Clicca qui per votare per 24 ore di premium gratis:\\n<%s>",
 	"generic.invalid_argument": "Argomento non valido: fare riferimento all'utilizzo",
 	"generic.invalid_user": "Impossibile trovare l'utente di destinazione",
 	"generic.no_permission": "Non hai i permessi per questo",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Mi manca il permesso `Gestisci canali`",
 	"setup.auto.category.success": "Creata categoria per Tickets",
-	"setup.auto.completed": "Configurazione completa! Clicca [qui](https://dashboard.tickets.bot/manage/%d/panels) per impostare un pannello di reazione e aggiungi i ruoli <@&%d> e <@&%d> come tuoi membri dello staff",
+	"setup.auto.completed": "Configurazione completa! Clicca [qui](%s) per impostare un pannello di reazione e aggiungi i ruoli <@&%d> e <@&%d> come tuoi membri dello staff",
 	"setup.auto.roles.failure": "Mi manca il permesso `Gestisci ruoli`",
 	"setup.auto.roles.success": "Creati i ruoli `Tickets Admin` e `Tickets Support`",
 	"setup.auto.transcript.failure": "Mi manca il permesso `Gestisci canali`",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "Il limite dei ticket è stato aggiornato a `%d`",
 	"setup.transcript.invalid": "Devi menzionare un canale valido nel server (e.g. <#%d>)\\n**Esempio:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Il canale delle trascrizioni è stato cambiato in <#%d>",
-	"commands.language.help_wanted": "Parli un'altra lingua? Unisciti al nostro [server di supporto](https://discord.gg/ticketsbot) se sei interessato ad aiutare a tradurre il bot in altre lingue",
+	"commands.language.help_wanted": "Parli un'altra lingua? Unisciti al nostro [server di supporto](%s) se sei interessato ad aiutare a tradurre il bot in altre lingue",
 	"commands.rename.too_long": "I nomi dei canali non possono essere lunghi più di 100 caratteri",
-	"commands.autoclose.configure": "Visita la [dashboard](https://dashboard.tickets.bot/manage/%d/settings) per cambiare le impostazioni per la chiusura automatica",
+	"commands.autoclose.configure": "Visita la [dashboard](%s) per cambiare le impostazioni per la chiusura automatica",
 	"help.autoclose": "Comandi relativi alla chiusura automatica",
 	"help.autoclose.exclude": "Esclude la chiusura automatica per il ticket corrente",
 	"help.autoclose.configure": "Modifica le impostazioni relative alla chiusura automatica",
@@ -238,7 +238,7 @@
 			"select": "Seleziona una lingua (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` può essere usato solo in modalità thread. Visita i nostri [docs](https://docs.tickets.bot/features/thread-mode) per saperne di più sui thread",
+			"channel_mode": "`/on-call` può essere usato solo in modalità thread. Visita i nostri [docs](%s) per saperne di più sui thread",
 			"success": "Sei ora in servizio",
 			"remove_success": "Non sei più in servizio"
 		},
@@ -261,7 +261,7 @@
 			"please_wait": "Attendere prego...",
 			"success_after_check": "Premium è ora attivo in questo server!",
 			"link_patreon_account": "Collega l'account Patreon",
-			"no_subscription": "Non è stato possibile trovare un abbonamento Patreon attivo collegato al tuo account Discord. Assicurati di [aver collegato i tuoi account Discord e Patreon](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) e aspettato 10 minuti.",
+			"no_subscription": "Non è stato possibile trovare un abbonamento Patreon attivo collegato al tuo account Discord. Assicurati di [aver collegato i tuoi account Discord e Patreon](%s) e aspettato 10 minuti.",
 			"open_form": "Apri un form",
 			"open_form_description": "Premi il pulsante qui sotto per riaprire il form",
 			"use_key_anyway": "Usa comunque la chiave premium",
@@ -280,9 +280,9 @@
 					"description": "Seleziona questa opzione se hai fatto l'acquisto tramite lo store in-app di Discord"
 				}
 			},
-			"about": "Premium ti dà accesso a più pannelli, statistiche, un bot personalizzato e molto altro! Visita il nostro [website](https://tickets.bot/premium) per saperne di più.",
+			"about": "Premium ti dà accesso a più pannelli, statistiche, un bot personalizzato e molto altro! Visita il nostro [website](%s) per saperne di più.",
 			"already_activated": "Buone notizie! Premium è già attivo in questo server.",
-			"already_activated_whitelabel": "Buone notizie! Premium è già attivo in questo server.\n\nSe ti serve aiuto a configurare whitelabel, leggi [la nostra guida di configurazione whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Buone notizie! Premium è già attivo in questo server.\n\nSe ti serve aiuto a configurare whitelabel, leggi [la nostra guida di configurazione whitelabel](%s).",
 			"discord": {
 				"no_subscription": "Il servizio premium può essere acquistato direttamente su Discord. Clicca il pulsante sotto questo messaggio per aprire la pagina di gestione dell'abbonamento.\n\nNel momento in cui viene acquistato, si prega di consentire al bot fino a 5 minuti per rilevare l'abbonamento."
 			},
@@ -348,7 +348,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Vuoi saperne di più? La nostra [documentation](https://docs.tickets.bot) ti insegnerà come configurare ogni aspetto del bot!"
+			"docs": "Vuoi saperne di più? La nostra [documentation](%s) ti insegnerà come configurare ogni aspetto del bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Devi fornire un canale di notifica ticket",

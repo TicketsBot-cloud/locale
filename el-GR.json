@@ -1,5 +1,5 @@
 {
-	"commands.about": "Το Tickets είναι ένα εύκολο με μεγάλες δυνατότητες διαμόρφωσης ticket και support bot.\\nServer εξυπηρετήσεις https://discord.gg/ticketsbot\\nΕντολες: Γράψε `/help`\\nΞεκίνα τώρα χρησιμοποιώντας `/setup`",
+	"commands.about": "Το Tickets είναι ένα εύκολο με μεγάλες δυνατότητες διαμόρφωσης ticket και support bot.\\nServer εξυπηρετήσεις %s\\nΕντολες: Γράψε `/help`\\nΞεκίνα τώρα χρησιμοποιώντας `/setup`",
 	"commands.add.no_members": "Πρέπει να αναφέρεται τους χρήστες για να τους βάλουμε στο ticket",
 	"commands.add.no_permission": "Δεν έχεις την άδεια για να προσθέσεις χρήστες στο ticket",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "Πρέπει να αναφέρετε έναν χρήστη για την εναλλαγή της κατάστασης στην μαύρη λίστα",
 	"commands.blacklist.self": "Δεν μπορείς να βάλεις τον εαυτό σου στην μαύρη λίστα",
 	"commands.claim.success": "Το ticket σας θα εξυπηρετηθεί από τον/την %s",
-	"commands.invite": "[Πάτα εδώ](<https://invite.tickets.bot>)",
+	"commands.invite": "[Πάτα εδώ](<%s>)",
 	"commands.language.invalid": "Πρέπει να διαλέξετε μια γλώσσα ή σημαία. Διαθέσιμες γλώσσες:\\n%s",
 	"commands.open.ticket_limit": "Μπορείς να ανοίξεις %d %s μόνο μία φορά",
 	"commands.open.too_many_tickets": "Υπάρχουν πολλά tickets στην κατηγορία των tickets, ζητά από έναν διαχειριστή να κλείσει μερικά ή να τα μεταφέρει σε άλλη κατηγορία",
-	"commands.panel": "Επισκεφτείτε το <https://dashboard.tickets.bot/manage/%d/panels> για να διαμορφώσετε έναν πίνακα",
-	"commands.premium": "Μπορείς να αγοράσεις premium συνδρομή στο <https://www.patreon.com/ticketsbot-cloud>.\\nΤο premium σου παρέχει πολλά οφέλη, όπως:\\n```diff\\n+Δημιουργία απεριόριστων ticket πίνακες\\n+Προσαρμογή ονόματος, avatar και status του bot (whitelabel)\\n+ Λεπτομερή στατιστικά στοιχεία για το διακομιστή, χρήστες και το προσωπικό υποστήριξης\\n+ Χωρίς εμπορικό σήμα στο υποσέλιδο των μηνυμάτων\\n+ Υποστηρίζει την ανάπτυξη και βοηθάει να πληρώσω το κόστος του διακοσμητή\\n```\\n\\nΕναλλακτικά, μπορείτε να ψηφίσετε στο <https://vote.tickets.bot> για να πάρεις δωρεάν premium για 24 ώρες",
+	"commands.panel": "Επισκεφτείτε το <%s> για να διαμορφώσετε έναν πίνακα",
+	"commands.premium": "Μπορείς να αγοράσεις premium συνδρομή στο <%s>.\\nΤο premium σου παρέχει πολλά οφέλη, όπως:\\n```diff\\n+Δημιουργία απεριόριστων ticket πίνακες\\n+Προσαρμογή ονόματος, avatar και status του bot (whitelabel)\\n+ Λεπτομερή στατιστικά στοιχεία για το διακομιστή, χρήστες και το προσωπικό υποστήριξης\\n+ Χωρίς εμπορικό σήμα στο υποσέλιδο των μηνυμάτων\\n+ Υποστηρίζει την ανάπτυξη και βοηθάει να πληρώσω το κόστος του διακοσμητή\\n```\\n\\nΕναλλακτικά, μπορείτε να ψηφίσετε στο <%s> για να πάρεις δωρεάν premium για 24 ώρες",
 	"commands.premium.invalid_key": "Λανθασμένο κλειδί, σιγουρευτείτε ότι το αντιγράψετε σωστά.",
 	"commands.remove.no_permission": "Δεν έχεις άδεια να αφαιρέσεις χρήστες από το ticket",
 	"commands.remove.staff": "Δεν μπορείς να αφαιρέσεις το προσωπικό από το ticket",
@@ -29,13 +29,13 @@
 	"commands.tags.create.too_long": "Το αναγνωριστικό της ετικετ δεν μπορεί να είναι μεγαλύτερο από 16 χαρακτήρες",
 	"commands.tags.delete.invalid_arguments": "Πρέπει να καθορίσεις το αναγνωριστικό της ετικέτας για διαγραφή",
 	"commands.tags.delete.not_exist": "Δεν ήταν δυνατή η εύρεση μιας ετικέτας με αναγνωριστικό `%s`",
-	"commands.tags.get.invalid_arguments": "Πρέπει να δώσετε το αναγνωριστικό της ετικέτας. Για περισσότερη βοήθεια με την ετικέτα, επισκεφθείτε <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Μη έγκυρη ετικέτα. Για περισσότερη βοήθεια με ετικέτες, επισκεφθείτε <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Πρέπει να δώσετε το αναγνωριστικό της ετικέτας. Για περισσότερη βοήθεια με την ετικέτα, επισκεφθείτε <%s>.",
+	"commands.tags.get.invalid_tag": "Μη έγκυρη ετικέτα. Για περισσότερη βοήθεια με ετικέτες, επισκεφθείτε <%s>.",
 	"commands.tags.list": "Αναγνωριστικά για όλες τις ετικέτες: \\n%s\\nΓια να δείτε τα περιεχόμενα μιας ετικέτας, εκτελέστε `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Αυτό το ticket δεν έχει υποστηρικτή",
 	"commands.unclaim.not_claimer": "Μόνο οι διαχειριστές και ο υποστηρικτής που υποστηρίζει το ticket μπορεί να βγάλει τον υποστηρικτή από το ticket",
 	"commands.unclaim.success": "Όλοι οι εκπρόσωποι υποστήριξης μπορούν τώρα να απαντήσουν στο ticket",
-	"commands.vote": "Κάντε κλικ εδώ για να ψηφίσετε για 24 ώρες δωρεάν premium:\\n<https://vote.ticketsbot.cloud>",
+	"commands.vote": "Κάντε κλικ εδώ για να ψηφίσετε για 24 ώρες δωρεάν premium:\\n<%s>",
 	"generic.invalid_argument": "Μη έγκυρη παράμετρος: αναφερθείτε στη χρήση",
 	"generic.invalid_user": "Αδυναμία εύρεσης του χρήστη προορισμού",
 	"generic.no_permission": "Δεν έχετε άδεια για αυτό",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Μου λείπει το δικαίωμα `Manage Channels`",
 	"setup.auto.category.success": "Δημιουργήθηκε Tickets κατηγορία",
-	"setup.auto.completed": "Η εγκατάσταση ολοκληρώθηκε! Κάντε κλικ [εδώ](https://dashboard.tickets.bot/manage/%d/panels) για να ρυθμίσετε ένα πλαίσιο αντιδράσεων και προσθέστε τους ρόλους <@&%d> και <@&%d> στα μέλη του προσωπικού σας",
+	"setup.auto.completed": "Η εγκατάσταση ολοκληρώθηκε! Κάντε κλικ [εδώ](%s) για να ρυθμίσετε ένα πλαίσιο αντιδράσεων και προσθέστε τους ρόλους <@&%d> και <@&%d> στα μέλη του προσωπικού σας",
 	"setup.auto.roles.failure": "Μου λείπει το δικαίωμα `Manage Roles`",
 	"setup.auto.roles.success": "Δημιουργήθηκαν `Tickets Admin` και `Tickets Support` ρόλοι",
 	"setup.auto.transcript.failure": "Μου λείπει το δικαίωμα `Manage Channels`",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "Το όριο των ticket έχει ενημερωθεί σε `%d`",
 	"setup.transcript.invalid": "Πρέπει να αναφέρεις ένα έγκυρο κανάλι στον διακομιστή (π.χ. <#%d>)\\n**Παράδειγμα:**`/setup transcripts #logs`",
 	"setup.transcript.success": "Το κανάλι μεταγραφών έχει αλλάξει στο <#%d>",
-	"commands.language.help_wanted": "Μιλάτε μια άλλη γλώσσα? Γίνετε μέλος του [διακομιστή υποστήριξης](https://discord.gg/ticketsbot) αν ενδιαφέρεστε να βοηθήσετε το bot στη μετάφραση σε περισσότερες γλώσσες",
+	"commands.language.help_wanted": "Μιλάτε μια άλλη γλώσσα? Γίνετε μέλος του [διακομιστή υποστήριξης](%s) αν ενδιαφέρεστε να βοηθήσετε το bot στη μετάφραση σε περισσότερες γλώσσες",
 	"commands.rename.too_long": "Το όνομα του καναλιού δεν μπορεί να είναι μεγαλύτερο από 100 χαρακτήρες",
-	"commands.autoclose.configure": "Επισκεφτείτε το [dashboard](https://dashboard.tickets.bot/manage/%d/settings) για να αλλάξετε τις ρυθμίσεις αυτόματου κλεισίματος",
+	"commands.autoclose.configure": "Επισκεφτείτε το [dashboard](%s) για να αλλάξετε τις ρυθμίσεις αυτόματου κλεισίματος",
 	"help.autoclose": "Σχετικές εντολές αυτόματου κλεισίματος",
 	"help.autoclose.exclude": "Αποκλείει το τρέχον ticket από το να κλείσει αυτόματα",
 	"help.autoclose.configure": "Επεξεργασία σχετικών ρυθμίσεων αυτόματου κλεισίματος",
@@ -238,7 +238,7 @@
 			"select": "Επιλέξτε μια γλώσσα (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` μπορεί να χρησιμοποιηθεί μόνο σε λειτουργία thread. Επισκεφθείτε το [docs](https://docs.tickets.bot/features/thread-mode) για να μάθετε περισσότερα σχετικά με τα threads",
+			"channel_mode": "`/on-call` μπορεί να χρησιμοποιηθεί μόνο σε λειτουργία thread. Επισκεφθείτε το [docs](%s) για να μάθετε περισσότερα σχετικά με τα threads",
 			"success": "Είσαι τώρα σε υπηρεσία",
 			"remove_success": "Δεν είσαι πλέον σε υπηρεσία"
 		},
@@ -261,7 +261,7 @@
 			"please_wait": "Παρακαλώ περιμένετε...",
 			"success_after_check": "Το Premium είναι τώρα ενεργό σε αυτόν τον διακομιστή!",
 			"link_patreon_account": "Σύνδεση Λογαριασμού Patreon",
-			"no_subscription": "Δεν ήταν δυνατή η εύρεση ενεργής συνδρομής Patreon που συνδέεται με τον λογαριασμό σας στο Discord. Βεβαιωθείτε ότι [έχετε συνδέσει τους λογαριασμούς σας Patreon και Discord](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), και επιπλέον περίμενε 10 λεπτά.",
+			"no_subscription": "Δεν ήταν δυνατή η εύρεση ενεργής συνδρομής Patreon που συνδέεται με τον λογαριασμό σας στο Discord. Βεβαιωθείτε ότι [έχετε συνδέσει τους λογαριασμούς σας Patreon και Discord](%s), και επιπλέον περίμενε 10 λεπτά.",
 			"open_form": "Άνοιγμα Φόρμας",
 			"open_form_description": "Πατήστε το παρακάτω κουμπί για να ανοίξετε ξανά τη φόρμα",
 			"use_key_anyway": "Χρησιμοποίησε το κλειδί Premium ούτως ή άλλως",
@@ -280,9 +280,9 @@
 					"description": "Ενεργοποιήστε αυτήν την επιλογή εάν κάνατε την αγορά σας μέσα από το Discord in-app store"
 				}
 			},
-			"about": "Το Premium σάς δίνει πρόσβαση σε περισσότερα panels, στατιστικά, ένα προσαρμοσμένο bot και πολλά άλλα! Επισκεφθείτε το [website](https://tickets.bot/premium) για να μάθετε περισσότερα.",
+			"about": "Το Premium σάς δίνει πρόσβαση σε περισσότερα panels, στατιστικά, ένα προσαρμοσμένο bot και πολλά άλλα! Επισκεφθείτε το [website](%s) για να μάθετε περισσότερα.",
 			"already_activated": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν το διακομιστή.",
-			"already_activated_whitelabel": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν τον διακομιστή.\n\nΓια βοήθεια ξεκινήματος του whitelabel, διαβάστε [τον οδηγό εγκατάστασης του whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν τον διακομιστή.\n\nΓια βοήθεια ξεκινήματος του whitelabel, διαβάστε [τον οδηγό εγκατάστασης του whitelabel](%s).",
 			"discord": {
 				"no_subscription": "Το Premium μπορεί να αγοραστεί απευθείας στο Discord. Κάντε κλικ στο κουμπί κάτω από αυτό το μήνυμα για να ανοίξετε τη σελίδα διαχείρισης συνδρομής.\n\nΈνα αγορασμένο, αφήστε έως και 5 λεπτά για να εντοπιστεί η συνδρομή."
 			},
@@ -348,7 +348,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Θέλετε να εξερευνήσετε περισσότερο; Το [documentation](https://docs.ticketbot.net) θα σας διδάξει πως να ρυθμίσετε κάθε πτυχή του bot!"
+			"docs": "Θέλετε να εξερευνήσετε περισσότερο; Το [documentation](%s) θα σας διδάξει πως να ρυθμίσετε κάθε πτυχή του bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Πρέπει να παρέχετε ένα κανάλι ειδοποιήσεων των ticket",

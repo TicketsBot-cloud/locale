@@ -1,5 +1,5 @@
 {
-	"commands.about": "Mae Tickets yn fot hawdd i'w ddefnyddio ac yn hawdd ei addasu ar gyfer cymorth. \\nGweinydd cymorth: https://discord.gg/ticketsbot\\nGorchmynion: Teipiwch '/help'\\nCychwynna drwy redeg '/setup'",
+	"commands.about": "Mae Tickets yn fot hawdd i'w ddefnyddio ac yn hawdd ei addasu ar gyfer cymorth. \\nGweinydd cymorth: %s\\nGorchmynion: Teipiwch '/help'\\nCychwynna drwy redeg '/setup'",
 	"commands.add.no_members": "Mae'n rhaid i ti enwi aelodau i'w ychwanegu at y tocyn",
 	"commands.add.no_permission": "Does gennyt ti ddim caniatâd i ychwanegu pobl at y tocyn",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "Mae'n rhaid i ti enwi defnyddiwr i newid statws y rhestr ddu ar ei cyfer",
 	"commands.blacklist.self": "Alli di ddim rhoi dy hun ar y rhestr ddu",
 	"commands.claim.success": "Bydd dy docyn yn cael ei drin gan %s",
-	"commands.invite": "[Cliciwch yma](<https://invite.tickets.bot>)",
+	"commands.invite": "[Cliciwch yma](<%s>)",
 	"commands.language.invalid": "Mae'n rhaid i ti nodi côd iaith neu faner. Ieithoedd sydd ar gael:\\n%s",
 	"commands.open.ticket_limit": "Dim ond %d%s wyt ti'n gallu ei hagor ar unwaith",
 	"commands.open.too_many_tickets": "Mae gormod o docynnau yn y categori tocynnau. Gofynnwch i weinyddwr gau rhai, symud nhw i gategori arall, neu sefydlu categori drosflwyddiad.\n\nMae hyn yn **gyfyngiad wedi'i osod gan Discord** o 50 sianel yn y categori.",
-	"commands.panel": "Ewch i <https://dashboard.tickets.bot/manage/%d/panels> i ffurfweddu panel",
-	"commands.premium": "Gallwch brynu tanysgrifiad premiwm o <https://www.patreon.com/ticketsbot-cloud>.\\nPremiwm yn cynnig llawer o fanteision, fel:\\n```diff\\n+ Creu paneli tocyn di-gyfyng\\n+ Addasu enw’r bot, ei lun proffil a’i statws (whitelabel)\\n+ Ystadegau manwl am y gweinydd, defnyddwyr a staff cymorth\\n+ Dim brandio yn y troedyn negeseuon\\n+ Cefnogi datblygiad a helpu talu costau’r gweinydd\\n```\\n\\nFel arall, gallwch bleidleisio yn <https://vote.tickets.bot> i gael premiwm am ddim am 24 awr",
+	"commands.panel": "Ewch i <%s> i ffurfweddu panel",
+	"commands.premium": "Gallwch brynu tanysgrifiad premiwm o <%s>.\\nPremiwm yn cynnig llawer o fanteision, fel:\\n```diff\\n+ Creu paneli tocyn di-gyfyng\\n+ Addasu enw’r bot, ei lun proffil a’i statws (whitelabel)\\n+ Ystadegau manwl am y gweinydd, defnyddwyr a staff cymorth\\n+ Dim brandio yn y troedyn negeseuon\\n+ Cefnogi datblygiad a helpu talu costau’r gweinydd\\n```\\n\\nFel arall, gallwch bleidleisio yn <%s> i gael premiwm am ddim am 24 awr",
 	"commands.premium.invalid_key": "Allwedd anghywir. Sicrhewch eich bod wedi'i gopio'n gywir.",
 	"commands.remove.no_permission": "Does gennyt ti ddim caniatâd i dynnu pobl o'r tocyn hwn",
 	"commands.remove.staff": "Alli di ddim tynnu staff o docyn",
@@ -29,8 +29,8 @@
 	"commands.tags.create.too_long": "Ni all IDau tag fod yn fwy na 16 llythyren",
 	"commands.tags.delete.invalid_arguments": "Mae'n rhaid i ti nodi ID tag i'w ddileu",
 	"commands.tags.delete.not_exist": "Ni ellid dod o hyd i tag gyda'r ID `%s`",
-	"commands.tags.get.invalid_arguments": "Mae'n rhaid i ti roi ID y tag. Am fwy o gymorth gyda thagiau, ewch i <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Tag anghywir. Am fwy o gymorth gyda thagiau, ewch i <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Mae'n rhaid i ti roi ID y tag. Am fwy o gymorth gyda thagiau, ewch i <%s>.",
+	"commands.tags.get.invalid_tag": "Tag anghywir. Am fwy o gymorth gyda thagiau, ewch i <%s>.",
 	"commands.tags.list": "IDau pob tag: \\n%s\\nI weld cynnwys tag, rhedwch `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Nid yw'r tocyn hwn wedi ei hawlio",
 	"commands.unclaim.not_claimer": "Dim ond gweinyddwyr a'r defnyddiwr sydd wedi hawlio'r tocyn sy'n gallu rhoi'r hawliad yn ôl",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Does gen i ddim y caniatâd `Manage Channels`",
 	"setup.auto.category.success": "Categori tocynnau wedi'i greu",
-	"setup.auto.completed": "Sefydlu wedi'i gwblhau! Cliciwch [yma](https://dashboard.tickets.bot/manage/%d/panels) i osod panel adwaith, ac ychwanega'r rolau <@&%d> a <@&%d> at dy aelodau staff",
+	"setup.auto.completed": "Sefydlu wedi'i gwblhau! Cliciwch [yma](%s) i osod panel adwaith, ac ychwanega'r rolau <@&%d> a <@&%d> at dy aelodau staff",
 	"setup.auto.roles.failure": "Does gen i ddim y caniatâd `Manage Roles`",
 	"setup.auto.roles.success": "Wedi creu y rolau `Tickets Admin` ac `Tickets Support`",
 	"setup.auto.transcript.failure": "Does gen i ddim y caniatâd `Manage Channels`",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "Mae'r terfyn tocynnau wedi'i ddiweddaru i `%d`",
 	"setup.transcript.invalid": "Mae’n rhaid i ti sôn am sianel ddilys ar y gweinydd (e.e. <#%d>)\\n**Enghraifft**`/setup transcripts #logs`",
 	"setup.transcript.success": "Mae'r sianel trawsgrifiadau wedi'i newid i <#%d>",
-	"commands.language.help_wanted": "Wyt ti'n siarad iaith arall? Ymuno a ein [gweinydd cymorth](https://discord.gg/ticketsbot) os wyt ti'n awyddus i helpu gyfieithu'r bot i fwy o ieithoedd",
+	"commands.language.help_wanted": "Wyt ti'n siarad iaith arall? Ymuno a ein [gweinydd cymorth](%s) os wyt ti'n awyddus i helpu gyfieithu'r bot i fwy o ieithoedd",
 	"commands.rename.too_long": "Ni all enwau sianel fod yn fwy na 100 o llythyrau",
-	"commands.autoclose.configure": "Ewch i'r [dangosfwrdd](https://dashboard.tickets.bot/manage/%d/settings) i newid gosodiadau cau awtomatig",
+	"commands.autoclose.configure": "Ewch i'r [dangosfwrdd](%s) i newid gosodiadau cau awtomatig",
 	"help.autoclose": "Gorchmynion sy'n ymwneud efo chau awtomatig",
 	"help.autoclose.exclude": "Yn eithrio'r tocyn presennol rhag cael ei gau'n awtomatig",
 	"help.autoclose.configure": "Golygu gosodiadau cau awtomatig",
@@ -238,7 +238,7 @@
 			"select": "Dewisiwch Iaith (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "Dim ond yn y modd edefyn y gellir defnyddio `/on-call`. Ewch i'n [dogfennau](https://docs.tickets.bot/features/thread-mode) i ddysgu mwy am edafedd",
+			"channel_mode": "Dim ond yn y modd edefyn y gellir defnyddio `/on-call`. Ewch i'n [dogfennau](%s) i ddysgu mwy am edafedd",
 			"success": "Rwyt ti nawr ar alwad",
 			"remove_success": "Rwyt ti ddim ar alwad bellach"
 		},
@@ -261,7 +261,7 @@
 			"please_wait": "Arhoswch...",
 			"success_after_check": "Mae Premiwm yn weithredol yn y gweinydd hwn nawr!",
 			"link_patreon_account": "Cyswllt Cyfrif Patreon",
-			"no_subscription": "Ni lwyddwyd i ddod o hyd i danysgrifiad Patreon gweithredol wedi'i gysylltu hefo dy gyfrif Discord. Sicirhewch fod [dy gyfrif Patreon a Discord wedi ei cysylltu](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), ac arhoswch am 10 munud pellach.",
+			"no_subscription": "Ni lwyddwyd i ddod o hyd i danysgrifiad Patreon gweithredol wedi'i gysylltu hefo dy gyfrif Discord. Sicirhewch fod [dy gyfrif Patreon a Discord wedi ei cysylltu](%s), ac arhoswch am 10 munud pellach.",
 			"open_form": "Agor Ffurflen",
 			"open_form_description": "Pwyswch y botwm isod i ailagor y ffurflen",
 			"use_key_anyway": "Defnyddio Allwedd Premiwm Beth bynnag",
@@ -280,9 +280,9 @@
 					"description": "Dewisiwch yr opsiwn hwn os gwnaethoch brynu drwy siop fewnol Discord"
 				}
 			},
-			"about": "Mae Premiwm yn rhoi mynediad i fwy o baneli, ystadegau, bot personol a mwy! Ewch i'n [gwefan](https://tickets.bot/premium) i ddysgu mwy.",
+			"about": "Mae Premiwm yn rhoi mynediad i fwy o baneli, ystadegau, bot personol a mwy! Ewch i'n [gwefan](%s) i ddysgu mwy.",
 			"already_activated": "Newyddion da! Mae premiwm yn weithredol yn y gweinydd hwn yn barod.",
-			"already_activated_whitelabel": "Newyddion da! Mae premiwm yn weithredol yn y gweinydd hwn yn barod.\n\nI gael cymorth i ddechrau gyda whitelabel, darllenwch ein [canllaw sefydlu whitelabel](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Newyddion da! Mae premiwm yn weithredol yn y gweinydd hwn yn barod.\n\nI gael cymorth i ddechrau gyda whitelabel, darllenwch ein [canllaw sefydlu whitelabel](%s).",
 			"discord": {
 				"no_subscription": "Gellir prynu Premiwm yn uniongyrchol o fewn Discord. Clicia'r botwm isod i agor tudalen rheoli'r tanysgrifiad.\n\nAr ôl prynu, gall gymryd hyd at 5 munud i ganfod y tanysgrifiad."
 			},
@@ -348,7 +348,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Eisiau archwilio mwy? Fydd ein [dogfennaeth](https://docs.tickets.bot) yn dysgu i ti sut i ffurfweddu pop agwedd y bot!"
+			"docs": "Eisiau archwilio mwy? Fydd ein [dogfennaeth](%s) yn dysgu i ti sut i ffurfweddu pop agwedd y bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Mae'n rhaid i ti ddarparu sianel hysbysu tocynnau",
