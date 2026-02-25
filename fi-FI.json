@@ -261,7 +261,7 @@
 			"please_wait": "Ole hyvä ja odota...",
 			"success_after_check": "Premium on nyt aktivoitu tällä palvelimella!",
 			"link_patreon_account": "Linkitä Patreon tili",
-			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
+			"no_subscription": "Aktiivista Patreon tilausta ei löytynyt linkitettynä Discord-tiliisi. Varmista, että [olet linkittänyt Patreon- ja Discord-tilisi](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), ja odota vielä 10 minuuttia.",
 			"open_form": "Avaa Lomake",
 			"open_form_description": "Avaa lomake uudelleen painamalla alla olevaa painiketta",
 			"use_key_anyway": "Käytä Premium avainta Silti",
