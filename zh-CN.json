@@ -13,7 +13,7 @@
 	"commands.language.invalid": "您需要指定语言代码或标志。可用语言:\\n%s",
 	"commands.open.ticket_limit": "您一次只能打开 %d %s",
 	"commands.open.too_many_tickets": "问题单类别中的问题单过多。要求管理员关闭一些，或将它们移到另一个类别，否则将无法开启",
-	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
+	"commands.panel": "请前往 <https://dashboard.tickets.bot/manage/%d/panels>配置一个票据模板",
 	"commands.premium": "您可以从 <https://www.patreon.com/ticketsbot-cloud> 购买高级订阅。\\nPremium 提供许多好处，例如：\\n```diff\\n+ 创建无限制的问题单面板\\n+ 自定义机器人名称、头像和状态\\n+ 关于服务器、用户和支持人员的详细统计\\n+ 没有品牌显示\\n+ 支持开发并帮助我支付服务器费用\\n```\\n\\n或者，您可以投票<https://vote.tickets.bot> 获得 24 小时免费高级版",
 	"commands.premium.invalid_key": "无效的密钥。确保您已正确复制它。",
 	"commands.remove.no_permission": "没有权限踢掉他唷",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "我没有 `管理频道` 的权限唷",
 	"setup.auto.category.success": "创建问题单类别",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "配置完成，点击 [这里](https://dashboard.tickets.bot/manage/%d/panels) 去创建工单模板, 并给你工作团队添加 <@&%d> 和 <@&%d>的身份组",
 	"setup.auto.roles.failure": "我没有 `管理身份组` 的权限唷",
 	"setup.auto.roles.success": "创建 `问题单管理者` & `问题单支持者` 的身份组",
 	"setup.auto.transcript.failure": "我没有 `管理频道` 的权限唷",
@@ -94,7 +94,7 @@
 	"setup.transcript.success": "问题单记录频道已更改到 <#%d>",
 	"commands.language.help_wanted": "您是否使用另一种语言？如果您有兴趣帮助将机器人翻译成更多语言，请加入我们的 [支持服务器](https://discord.gg/ticketsbot)",
 	"commands.rename.too_long": "频道名称不能长于 100 个字符",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "前往 [网页面板](https://dashboard.tickets.bot/manage/%d/settings) 设置有关自动关闭的设定",
 	"help.autoclose": "有关**自动关闭**的命令",
 	"help.autoclose.exclude": "停用当前工单自动被关闭",
 	"help.autoclose.configure": "编辑自动关闭相关的设置",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "无效的面板：您必须从下拉列表中选择一个",
-			"success": "This ticket has been switched to the `%s` panel by <@%d>",
+			"success": "这个工单被 <@%[2]d> 切换到 `%[1]s` 面板",
 			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
@@ -282,7 +282,7 @@
 			},
 			"about": "高级订阅可以让您访问更多的面板、统计、自定义机器人等！访问我们的 [官网](https://tickets.bot/premium) 来了解更多信息。",
 			"already_activated": "好消息！高级订阅已经在此服务器上激活。",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[配置自定义机器人](https://docs.tickets.bot/premium/whitelabel-setup-guide)。",
 			"discord": {
 				"no_subscription": "高级版可以直接在 Discord 中购买。点击此消息下方的按钮打开订阅管理页面。\n\n购买一个，请在5分钟内完成购买。"
 			},
