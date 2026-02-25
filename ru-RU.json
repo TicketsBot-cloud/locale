@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Недопустимая панель. Вы должны выбрать одну из выпадающего списка.",
-			"success": "<@%d> переместил обращение в панель `%s`. ",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
 			"non_thread_to_thread": "Вы не можете переключить обычное обращение на панель, использующую ветки"
 		},
 		"blacklist": {
