@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Uma etiqueta com o ID `%s` não pôde ser encontrada",
 	"commands.tags.get.invalid_arguments": "Tu tens de fornecer o ID da etiqueta. Para mais ajuda com etiquetas, visita <%s>.",
 	"commands.tags.get.invalid_tag": "Etiqueta inválida. Para mais ajuda com etiquetas, visita <%s>.",
-	"commands.tags.list": "IDs para todas as etiquetas: \\n%s\\nPara ver o conteúdo de uma etiqueta, executa `%stag <ID>`",
+	"commands.tags.list": "IDs para todas as etiquetas: \\n%s\\nPara ver o conteúdo de uma etiqueta, executa `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Este bilhete não foi reivindicado",
 	"commands.unclaim.not_claimer": "Apenas administradores e o utilizador que reivindicou o bilhete podem cancelar a reivindicação do bilhete",
 	"commands.unclaim.success": "Todos os representantes do suporte podem agora responder ao bilhete",
-	"commands.vote": "Clica aqui para votares para obteres 24 horas de premium grátis:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Argumento inválido: refere-se ao uso",
 	"generic.invalid_user": "Não foi possível encontrar o utilizador",
 	"generic.no_permission": "Não tens permissão para isto",
@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Fornece-te um botão para ires para o topo do bilhete",
 		"on_call": "Marca-te como em alerta, para seres adicionado/a e mencionado/a em todos os novos bilhetes",
 		"reopen": "Reabre um bilhete que estava previamente fechado",
-		"notes": "Creates a thread for private discussion between support representatives"
+		"notes": "Creates a thread for private discussion between support representatives",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

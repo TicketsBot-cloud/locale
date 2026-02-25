@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Aucune étiquette avec l'ID `%s` n'a pu être trouvée",
 	"commands.tags.get.invalid_arguments": "Vous devez fournir l'identifiant de l'étiquette. Pour plus d'aide concernant les étiquettes, visitez le site <%s>.",
 	"commands.tags.get.invalid_tag": "Étiquette invalide. Pour plus d'aide sur les étiquettes, rendez-vous sur <%s>.",
-	"commands.tags.list": "IDs pour toutes les étiquettess : \\n%s\\nPour afficher le contenu d'une étiquette, tapez `%stag <ID>`",
+	"commands.tags.list": "Identifiants pour toutes les étiquettes : \\n%s\\nPour afficher le contenu d'une étiquette, tapez `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Ce ticket n'a pas été réclamé",
 	"commands.unclaim.not_claimer": "Seuls les administrateurs et l'utilisateur qui a réclamé le ticket peuvent retirer une réclamation",
 	"commands.unclaim.success": "Tous les membres de l'équipe d'assistance peuvent désormais répondre au ticket",
-	"commands.vote": "Cliquez ici pour voter et obtenir 24 heures de premium gratuit :\\n<%s>",
+	"commands.vote": "Cliquez sur le bouton pour voter et obtenir 24 heures d'une version partielle gratuite de Premium.\n\nUne fois le vote terminé, exécutez %s à nouveau pour réclamer vos crédits de vote.",
 	"generic.invalid_argument": "Argument invalide : référez-vous à l'aide ci-dessous",
 	"generic.invalid_user": "Impossible de trouver l'utilisateur ciblé",
 	"generic.no_permission": "Vous n'avez pas la permission de faire cela",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Il me manque la permission `Gérer Les Salons`",
 	"setup.auto.category.success": "Crée une catégorie de Tickets",
-	"setup.auto.completed": "Installation terminée ! Cliquez [ici](%s) pour configurer un panneau de réaction et ajoutez les rôles <@&%d> et <@&%d> aux membres de votre staff",
+	"setup.auto.completed": "Installation terminée ! Cliquez [ici](%s) pour configurer un panneau de réaction et ajoutez les rôles <@&%d> et <@&%d> aux membres de votre équipe d'assistance",
 	"setup.auto.roles.failure": "Il me manque la permission `Gérer Les Rôles`",
 	"setup.auto.roles.success": "Crée les rôles `Tickets Admin` & `Tickets Support`",
 	"setup.auto.transcript.failure": "Il me manque la permission `Gérer Les Salons`",
@@ -165,7 +165,7 @@
 	"commands.remove.success": "<@%s> a été retiré de <#%d>",
 	"commands.remove.role_thread": "En raison des limitations de Discord, les rôles ne peuvent pas être retirés des tickets qui sont des fils de discussion",
 	"open.ratelimited": "Des tickets sont ouverts trop rapidement sur ce serveur",
-	"open.panel_cooldown": "Un délai de récupération est actif pour ce panneau. Veuillez réessayer %s.",
+	"open.panel_cooldown": "Ce panneau est temporisé. Veuillez réessayer %s.",
 	"commands.claim.thread": "En raison des limitations de Discord, il n'est pas possible de réclamer les fils de discussion",
 	"generic.join_support_server": "Rejoindre le serveur d'assistance",
 	"commands.open.guild_channel_limit": "Ce serveur a atteint la limite de 500 salons fixée par Discord",
@@ -326,6 +326,19 @@
 				"no_roles": "Aucun rôle d'assistance",
 				"users_warning": "-# **Attention :** Les utilisateurs dans les équipes d'assistance sont désormais obsolètes. Veuillez migrer vers les rôles."
 			}
+		},
+		"edit": {
+			"title": "Modifier les paramètres des tickets",
+			"description": "Ci-dessous vous pouvez modifier différents paramètres pour ce ticket.",
+			"labels": {
+				"title": "Modifier les étiquettes",
+				"description": "Modifier les étiquettes assignées à ce ticket",
+				"update_modal": {
+					"title": "Mettre à jour les étiquettes de tickets",
+					"select_menu_title": "Étiquettes",
+					"success": "Les étiquettes de ticket ont été mises à jour avec succès : %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Envoie un bouton qui permet de remonter en haut du ticket",
 		"on_call": "Vous marque comme disponible pour être ajouté et notifié dans tous les nouveaux tickets",
 		"reopen": "Rouvre un ticket qui a été précédemment fermé",
-		"notes": "Crée un fil de discussion privé entre les représentants de l'équipe d'assistance"
+		"notes": "Crée un fil de discussion privé entre les représentants de l'équipe d'assistance",
+		"edit": "Modifie les paramètres du ticket actuel"
 	},
 	"setup": {
 		"auto": {

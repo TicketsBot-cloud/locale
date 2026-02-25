@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Tag dengan ID `%s` tidak dapat ditemukan",
 	"commands.tags.get.invalid_arguments": "Anda harus memberikan ID tag. Untuk bantuan lebih lanjut mengenai tag, kunjungi <%s>.",
 	"commands.tags.get.invalid_tag": "Tag tidak valid. Untuk bantuan lebih lanjut mengenai tag, kunjungi <%s>.",
-	"commands.tags.list": "ID untuk semua tag: \\n%s\\nUntuk melihat konten tag, jalankan `/%stag <ID>`",
+	"commands.tags.list": "ID untuk semua tag: \\n%s\\nUntuk melihat konten tag, jalankan `/%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Tidak ini tidak diklaim",
 	"commands.unclaim.not_claimer": "Hanya admin dan pengguna yang mengklaim tiket yang dapat membatalkan klaim tiket tersebut",
 	"commands.unclaim.success": "Semua perwakilan dukungan sekarang dapat merespons tiket tersebut",
-	"commands.vote": "Klik di sini untuk memilih premium gratis 27 jam:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Argumen tidak valid: lihat penggunaan",
 	"generic.invalid_user": "Tidak dapat menemukan pengguna target",
 	"generic.no_permission": "Anda tidak memiliki izin untuk ini",
@@ -326,6 +326,19 @@
 				"no_roles": "Tidak ada peran pendukung",
 				"users_warning": "-#**Peringatan:** Pengguna dalam tim dukungan kini tidak berlaku lagi. Harap migrasikan ke peran."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Memberi Anda tombol untuk melompak ke atas tiket",
 		"on_call": "Menandai Anda sebagai sedang dipanggil, untuk ditambahkan dan di-ping di semua tiket baru",
 		"reopen": "Membuka kembali tiket yang sebelumnya ditutup",
-		"notes": "Membuat thread untuk diskusi pribadi antara pewakilan dukungan"
+		"notes": "Membuat thread untuk diskusi pribadi antara pewakilan dukungan",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

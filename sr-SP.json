@@ -11,7 +11,7 @@
 	"commands.claim.success": "Ваш улазницу ће носити %s",
 	"commands.invite": "[Кликни овде](<%s>)",
 	"commands.language.invalid": "Мораш да одредиш језик или заставу. Доступни језици:\\n%s",
-	"commands.open.ticket_limit": "Можеш само да отвориш %d%s cместа",
+	"commands.open.ticket_limit": "Можеш само да отвориш %d %s cместа",
 	"commands.open.too_many_tickets": "Има превише карата у категорији карата. Замолите администрацију да затвори неке, или да их пребаци у другу категорију",
 	"commands.panel": "Visit <%s> to configure a panel",
 	"commands.premium": "Претплату можете купити на <%s>\\nПремија пружа многе предности, као што су:\\n```diff\\n+ Створите неограничене карте.\\n+ Име робота, аватар и статус (whitelabel)\\n+ Детаљна статистика о серверу, корисницима и помоћном особљу\\n+ Нема жигосања у подножју порука\\n+Подржи развој и помози ми да платим трошкове сервера\\n```\\n\\nКао алтернативу, можете гласати на <%s> Да добијемо премију бесплатно 24 сата",
@@ -35,7 +35,7 @@
 	"commands.unclaim.not_claimed": "Ова карта се не тражи",
 	"commands.unclaim.not_claimer": "Само администратори и корисник који је тражио карту могу да одбију карту",
 	"commands.unclaim.success": "Сви представници подршке сада могу одговорити на карту",
-	"commands.vote": "Кликните овде да гласате за 24 сата бесплатне премије:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Неважећи аргумент: Обраћај се на употребу",
 	"generic.invalid_user": "Нисам могао да нађем циљног корисника",
 	"generic.no_permission": "Nemate dozvolu da dodajete ovde",
@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Пружа ти дугме да скочиш на врх карте",
 		"on_call": "Označava te kao dežurnog, da dodaš i upišeš sve nove karte",
 		"reopen": "Поново отвара карту која је раније била затворена",
-		"notes": "Creates a thread for private discussion between support representatives"
+		"notes": "Creates a thread for private discussion between support representatives",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

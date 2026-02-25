@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "لم يتم العثور عليه `%s` لشعار معين ID ",
 	"commands.tags.get.invalid_arguments": "للمزيد من المساعدة بالشعار , قم بزيارة <%s>.  .الشعار IDعليك تزويدنا ب ",
 	"commands.tags.get.invalid_tag": " شعار غير صالح.  للمزيد من المساعدة ، قم بزيارة <%s>.",
-	"commands.tags.list": ": \n%s\n لعرض محتويات شعار , افتح `%stag <ID>` :لكل الشعارات  IDs ",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
 	"commands.unclaim.not_claimed": "هذه التذكرة لم تؤخذ بعد ",
 	"commands.unclaim.not_claimer": " فقط الموظفيين (الاّدمن) والمستخدمين من امتلكوا التذكرة يمكنهم تركها",
 	"commands.unclaim.success": "جميع الموظفين يمكنهم الان الرد على هذه التذكرة ",
-	"commands.vote": "اضغط هنا للتصويت والحصول على امتياز لمدة 24 ساعة :\n<%s> ",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": " حجة غير صالحة : إشارة إلى الإستخدام",
 	"generic.invalid_user": "لم يتم العثور على المستخدم المحدد",
 	"generic.no_permission": "ليس لديك صلاحية بذلك",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "انا افتقد إذن \"إدارة القنوات\"",
 	"setup.auto.category.success": "تم إنشاء فئة التذاكر",
-	"setup.auto.completed": "اكتمل الإعداد! انقر [هنا](%s) لإعداد لوحة التفاعل، وإضافة الأدوار <@&%d> و <@&%d> لموظفيك",
+	"setup.auto.completed": "Setup complete! Click [here](%s) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "انا افتقد إذن \"إدارة الأدوار\"",
 	"setup.auto.roles.success": "تم انشاء أدوار `مشرف التذاكر` & `دعم التذاكر`",
 	"setup.auto.transcript.failure": "انا افتقد إذن \"إدارة القنوات\"",
@@ -326,6 +326,19 @@
 				"no_roles": "لا توجد أدوار دعم",
 				"users_warning": "-# **تحذير:** المستخدمون في فرق الدعم مهملون الآن. الرجاء الانتقال إلى الأدوار."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "يوفر لك زر للإنتقال الى اعلى التذكرة",
 		"on_call": "وضع علامة عليك كأنك داخل مكالمة , حتى يتم اضافتك وتنبيهك في جميع التذاكر الجديدة",
 		"reopen": "اعادة فتح تذكرة تم إغلاقها سابقاً",
-		"notes": "يقوم بإنشاء موضوع للمناقشة الخاصة بين ممثلي الدعم"
+		"notes": "يقوم بإنشاء موضوع للمناقشة الخاصة بين ممثلي الدعم",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

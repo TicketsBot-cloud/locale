@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Štítek s ID `%s` nebyl nalezen",
 	"commands.tags.get.invalid_arguments": "Musíte zadat ID štítku. Pro více nápovědy navštivte <%s>.",
 	"commands.tags.get.invalid_tag": "Neplatný štítek. Pro více nápovědy se štítky navštivte <%s>.",
-	"commands.tags.list": "ID pro všechny tagy: \\n%s\\nPro zobrazení obsahu tagu spusťte `%stag <ID>`",
+	"commands.tags.list": "ID pro všechny tagy: \\n%s\\nPro zobrazení obsahu tagu spusťte `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Tento ticket není claimnut",
 	"commands.unclaim.not_claimer": "Pouze administrátoři a uživatel, který si vyžádal tiket, mohou zrušit claim tiketu",
 	"commands.unclaim.success": "Všichni zástupci podpory mohou nyní odpovědět na ticket",
-	"commands.vote": "Klikněte zde pro hlasování po dobu 24 hodin zdarma prémiového účtu:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Neplatný argument: odkazuje na použití",
 	"generic.invalid_user": "Cílový uživatel nebyl nalezen",
 	"generic.no_permission": "Nemáte dostatečná oprávnění",
@@ -261,7 +261,7 @@
 			"please_wait": "Počkejte prosím...",
 			"success_after_check": "Prémiové členství je nyní aktivní na tomto serveru!",
 			"link_patreon_account": "Propojení účtu Patreon",
-			"no_subscription": "Nelze najít aktivní předplatné Patreonu, které je propojeno s vaším Discord účtem. Ujistěte se, že [jste propojili své Patreon a Discord účty](%s) a dalších 10 minut.",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](%s), and a further waited 10 minutes.",
 			"open_form": "Otevřít formulář",
 			"open_form_description": "Stiskněte tlačítko níže pro opětovné otevření formuláře",
 			"use_key_anyway": "Přesto použít prémiový klíč",
@@ -326,6 +326,19 @@
 				"no_roles": "Žádná role podpory",
 				"users_warning": "-# **Varování:** Uživatelé v podpoře jsou zastaralé. Prosím, migrujte na role."
 			}
+		},
+		"edit": {
+			"title": "Upravit nastavení tiketu",
+			"description": "Níže můžete upravit různá nastavení pro tento tiket.",
+			"labels": {
+				"title": "Upravit štítek",
+				"description": "Upravit štítek přiřazený k tomuto tiketu",
+				"update_modal": {
+					"title": "Aktualizace štítků tiketu",
+					"select_menu_title": "Štítky",
+					"success": "Štítek tiketů byl úspěšně upraven na: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,11 +357,12 @@
 		"jump_to_top": "Vezme vás na začátek ticketu",
 		"on_call": "Označuje vás jako při hovoru, bude přidán a přidán ve všech nových ticketů",
 		"reopen": "Znovu otevře ticket, který byl dříve uzavřen",
-		"notes": "Vytvoří soukromé vlákno pro privátní konverzaci mezi podporou"
+		"notes": "Vytvoří soukromé vlákno pro privátní konverzaci mezi podporou",
+		"edit": "Úprava nastavení pro současný tiket"
 	},
 	"setup": {
 		"auto": {
-			"docs": "Chcete se dozvědět víc? Naše [dokumentace] (%s) vás provede kompletní konfigurací!"
+			"docs": "Want to explore more? Our [documentation](%s) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Musíte zadat kanál oznámení ticketu",

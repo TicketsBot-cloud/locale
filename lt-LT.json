@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Nepavyko rasti žymos, kurios ID `%s`",
 	"commands.tags.get.invalid_arguments": "Jūs turite nurodyti žymos ID. Jeigu reikia daugiau pagalbos, aplankykite <%s>.",
 	"commands.tags.get.invalid_tag": "Netinkama žyma. Jeigu reikia daugiau pagalbos, apsilankykite <%s>.",
-	"commands.tags.list": "Visų žymų ID: \\n%s\\nKad peržiūrėtumėte žymos turinį, naudokite `%stag <ID>`",
+	"commands.tags.list": "Visų žymų ID: \\n%s\\nKad peržiūrėtumėte žymos turinį, naudokite `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Dar niekas neapsiėmė šiuo bilietu",
 	"commands.unclaim.not_claimer": "Tik administracija ir vartotojai kurie apsiėmė šiuo bilietu gali juo nebeapsiimti",
 	"commands.unclaim.success": "Dabar visi pagalbos nariai gali atsakyti į šį bilietą",
-	"commands.vote": "Paspauskite čia, kad prabalsuotumėte už 24 valandų nemokamą premium prenumeratą:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Netinkamas argumentas: nurodykite tinkamą",
 	"generic.invalid_user": "Nepavyko rasti nurodyto vartotojo",
 	"generic.no_permission": "Jūs neturite privilegijų tam atlikti",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Netinkamas skydelis: turite pasirinkti vieną iš meniu",
-			"success": "Šį bilietą <@%d> perjungė į `%s` skydelį",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
 			"non_thread_to_thread": "Jūs negalite pakeisti į skydelį kuris naudoja gijas nuo bilieto kuris nenaudoja gijų"
 		},
 		"blacklist": {
@@ -326,6 +326,19 @@
 				"no_roles": "Nėra pagalbos rolių",
 				"users_warning": "-# **Įspėjimas:** Naudotojai pagalbos komandose dabar nebenaudojami. Prašome pereiti prie rolės naudojimo."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Pateikiamas mygtukas, leidžiantis pereiti į bilieto viršų",
 		"on_call": "Pažymi, kad esate budėjime, kad būtumėte pridėtas ir paminėtas visuose naujuose bilietuose",
 		"reopen": "Atidaro iš naujo bilietą, kuris anksčiau buvo uždarytas",
-		"notes": "Sukuria giją privačiai diskusijai tarp pagalbos narių"
+		"notes": "Sukuria giją privačiai diskusijai tarp pagalbos narių",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

@@ -13,7 +13,7 @@
 	"commands.language.invalid": "Bir dil kodu veya bayrak belirtmeniz gerekir. Mevcut diller:\n%s",
 	"commands.open.ticket_limit": "Aynı anda yalnızca %d %s talep açabilirsiniz.",
 	"commands.open.too_many_tickets": "Talep kategorisinde çok fazla talep var. Bir yöneticiden bazılarını kapatmasını veya başka bir yere taşımasını isteyin.",
-	"commands.panel": "Bir paneli yapılandırmak için <%s> bağlantısını ziyaret edin.",
+	"commands.panel": "Bir paneli yapılandırmak için <%s> bağlantısını ziyaret edin",
 	"commands.premium": "<%s> bağlantısından premium abonelik satın alabilirsiniz.\nPremium abonelik şu özellikler gibi bir çok özellik sağlar:\n```diff\n+ Sınırsız talep paneli oluşturun.\n+ Botun ismini, avatarını ve durumunu kişiselleştirin (whitelabel)\n+ Sunucu, kullanıcılar ve yetkililer hakkında detaylı istatistikler\n+ Mesajların altında bot bilgisi bulunmaz\n+ Botun gelişimini destekleyin ve sunucu masraflarına katkı sağlayın\n```\n\nAlternatif olarak, <%s> bağlantısından oy kullanarak 1 günlük ücretsiz premium ayrıcalıklarına sahip olabilirsin.",
 	"commands.premium.invalid_key": "Geçersiz anahtar. Doğru bir şekilde kopyaladığınızdan emin olun.",
 	"commands.remove.no_permission": "Talepten kullanıcı çıkarmak için izniniz yok.",
@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "`%s` ID'sine sahip bir etiket bulunamıyor.",
 	"commands.tags.get.invalid_arguments": "Etiket ID'sini belirtmeniz gerekiyor. Etiketler ile alakalı daha fazla bilgi için;\n <%s> bağlantısını ziyaret edin.",
 	"commands.tags.get.invalid_tag": "Bilinmeyen etiket. Etiketler ile alakalı daha fazla bilgi için;\n <%s> bağlantısını ziyaret edin.",
-	"commands.tags.list": "Mevcut olan tüm etiketlerin ID'leri: \n%s\nEtiketin içeriğini görüntülemek için, `%stag <ID>` komutunu kullanın.",
+	"commands.tags.list": "Mevcut olan tüm etiketlerin ID'leri: \\n%s\\nEtiketin içeriğini görüntülemek için, `%s tag <ID>` komutunu kullanın",
 	"commands.unclaim.not_claimed": "Bu talep zaten sahiplenilmemiş.",
 	"commands.unclaim.not_claimer": "Yalnızca yöneticiler ve sahiplenen kullanıcı sahiplenmeyi iptal edebilir.",
 	"commands.unclaim.success": "Tüm yetkililer artık talep ile ilgilenebilir.",
-	"commands.vote": "24 saatlik ücretsiz premium ayrıcalıklarına sahip olmak için oy bağlantısına tıklayın:\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Geçersiz argüman: Nasıl kullanıldığını kontrol edin.",
 	"generic.invalid_user": "Belirtilen kullanıcı bulunamadı.",
 	"generic.no_permission": "Bunu yapmak için yetkin yok.",
@@ -326,6 +326,19 @@
 				"no_roles": "Destek rolü yok",
 				"users_warning": "-# **Uyarı:** Destek ekiplerindeki kullanıcılar artık kullanımdan kaldırıldı. Lütfen rollere geçiş yapın."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Biletin en üstüne gitmenizi sağlayan bir düğme gönderir",
 		"on_call": "Tüm yeni biletlere eklenmek ve bildirim almak üzere sizi görev başında olarak belirler",
 		"reopen": "Daha önceden kapatılmış bir bileti yeniden açar",
-		"notes": "Destek temsilcileri arasında özel tartışma için bir konu başlığı oluşturur"
+		"notes": "Destek temsilcileri arasında özel tartışma için bir konu başlığı oluşturur",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
@@ -460,12 +474,12 @@
 		}
 	},
 	"errors": {
-		"unknown_channel": "Gerekli kanal bulunamadı: silinmiş olmalı.\n\nSunucu yöneticisinden paneli ziyaret edip tüm kanal ayarlarının doğru yapılandırıldığını kontrol etmesini isteyiniz.",
+		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
 		"unknown_guild": "Sunucu bulunamadı.",
 		"unknown_member": "Kullanıcı bulunamadı. Sunucudan ayrılmış veya banlanmış olabilir.",
 		"unknown_message": "Etkileşime geçmeye çalıştığın mesaj silindi.\nBaşka bir mesajla tekrar dene.",
 		"unknown_user": "kullanıcı bulunamadı.",
-		"unknown_role": "Bu işlem için gereken rol artık yok.\nSunucu yöneticisinden paneli ziyaret edip rol ayarlarını yeniden yapılandırmasını iste.",
+		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
 		"unknown_category": "Gerekli kategori bulunamadı: silinmiş olmalı.\nSunucu yöneticisinden paneli ziyaret edip (%s) bu ticket paneline geçerli bir kanal kategorisi atamasını iste.",
 		"unknown_interaction": "Bu etkileşimin süresi doldu.\nİşlemi tekrar dene.",
 		"max_webhooks": "Sunucu maksimum webhook sayısına ulaştı.\nSunucu yöneticisinden kullanılmayan webhook'ları kaldırıp tekrar denemesini iste.",
@@ -477,7 +491,7 @@
 		"invalid_length": "Bir veya daha fazla alan çok kısa ya da çok uzun.\n\nSunucu yöneticisinden paneli(%s) ziyaret edip tüm girdileri kontrol etmesini ve alanların gerekli uzunluk sınırlarını karşıladığından emin olmasını isteyiniz.",
 		"required_field": "Gerekli bir alan eksik veya boş.\nSunucu yöneticisinden paneli ziyaret edip (%s) tüm gerekli alanların doldurulduğunu kontrol etmesini iste.",
 		"invalid_channel_type": "Kanal türü bu işlem için geçersiz.\nSunucu yöneticisinden paneli ziyaret edip(%s) ticket paneline geçerli bir kanal atamasını iste.",
-		"invalid_category": "Kanal kategorisi geçersiz, silinmiş olmalı.",
+		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
 		"invalid_id": "Bot yapılandırmasında geçersiz bir ID girildi.\n\nSunucu yöneticisinden paneli (%s) ziyaret edip tüm kategori, kanal ve rol ID'lerinin doğru olduğunu kontrol etmesini iste.",
 		"invalid_characters": "Girdi geçersiz karakterler içeriyor.\nSadece harf, rakam, tire ve alt çizgi kullanın.",
 		"invalid_choice": "Geçersiz bir seçenek girildi.\nSunucu yöneticisinden paneli (%s) ziyaret edip tüm ayarların doğru olduğunu kontrol etmesini iste.",

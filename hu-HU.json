@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "A következő cimke nem található: `%s`.",
 	"commands.tags.get.invalid_arguments": "Meg kell adnia a címke azonosítóját. Ha további segítségre van szüksége a címkével kapcsolatban, látogasson el a <%s> oldalra.",
 	"commands.tags.get.invalid_tag": "Érvénytelen címke. Ha további segítségre van szüksége a címkékkel kapcsolatban, látogasson el a <%s> oldalra.",
-	"commands.tags.list": "Elérhető cimkék: \\n%s\\nHogy megnézd a tartalmukat vagy kiírd használd ezt a parancsot: `%stag <ID>`",
+	"commands.tags.list": "Elérhető cimkék: \\n%s\\nHogy megnézd a tartalmukat vagy kiírd használd ezt a parancsot: `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Ez a jegy még nem lett lefoglalva.",
 	"commands.unclaim.not_claimer": "Csak az adminisztrátorok, jegyet lefoglaló vagy megnyitó személy nyithatja ki azt.",
 	"commands.unclaim.success": "Minden kisegítő, adminisztrátor válaszolhat a jegyre.",
-	"commands.vote": "Ide kattintva 24 órás ingyenes prémiumra szavazhat:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Érvénytelen érték.",
 	"generic.invalid_user": "A megadott felhasználó nem található.",
 	"generic.no_permission": "Nincs jogosúltságod ehhez.",
@@ -326,6 +326,19 @@
 				"no_roles": "Nincs segítő jog",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Biztosít egy gombot, amivel a ticket legelejére ugorhatsz",
 		"on_call": "Megjelől téged, amikor hívásban vagy, hogy hozzá lettél adba és meg lettén pingelve az összes új ticketben",
 		"reopen": "Újranyit egy ticketet, ami már zárva volt",
-		"notes": "Készíts privát jegyzeteket a ticket staffjainak"
+		"notes": "Készíts privát jegyzeteket a ticket staffjainak",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

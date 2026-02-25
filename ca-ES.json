@@ -2,7 +2,7 @@
 	"commands.about": "Tickets és un bot de tiquets i suport fàcil d'utilitzar i altament configurable.\\nServidor de suport: %s\\nOrdres: Escriu `/help`\\nComença executant `/setup`",
 	"commands.add.no_members": "Has de mencionar els membres que vols afegir al tiquet",
 	"commands.add.no_permission": "No tens permís per afegir persones a aquest tiquet",
-	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
+	"commands.add.no_everyone": "No es pot afegir el rol `@everyone` a un tiquet",
 	"commands.addadmin.no_members": "Has de mencionar un usuari o rol per concedir-li privilegis d'administració",
 	"commands.addadmin.owner": "El propietari del servidor ja és administrador",
 	"commands.addsupport.no_members": "Has de mencionar un usuari o rol per concedir-li privilegis d'equip de suport",
@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "No s'ha trobat cap etiqueta amb l'identificador `%s`",
 	"commands.tags.get.invalid_arguments": "Has de proporcionar l'identificador per l'etiqueta. Per més ajuda sobre les etiquetes, visita <%s>.",
 	"commands.tags.get.invalid_tag": "Etiqueta no vàlida. Per més ajuda sobre les etiquetes, visita <%s>.",
-	"commands.tags.list": "Identificadors de totes les etiquetes: \\n%s\\nPer veure el contingut d'una etiqueta, executeu `%stag <ID>`",
+	"commands.tags.list": "Identificadors de totes les etiquetes: \\n%s\\nPer veure el contingut d'una etiqueta, executeu `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Aquest tiquet no ha estat reclamat",
 	"commands.unclaim.not_claimer": "Només els administradors i usuaris que hagin reclamat el tiquet el poden alliberar",
 	"commands.unclaim.success": "Ara, tots els integrants de suport poden respondre al tiquet",
@@ -79,8 +79,8 @@
 	"help.gdpr": "Gestionar les teves peticions de dades GDPR",
 	"open.success": "S'ha obert un nou tiquet: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "Actualment, aquest panell està tancat",
+		"message": "Si us plau, torna-ho a provar durant les hores que oferim suport."
 	},
 	"setup.auto.category.failure": "Trobo a faltar el permís per gestionar canals (`Manage Channels`)",
 	"setup.auto.category.success": "S'ha creat la categoria de Tickets",
@@ -165,7 +165,7 @@
 	"commands.remove.success": "<@%s> ha estat tret de <#%d>",
 	"commands.remove.role_thread": "Degut a limitacions de Discord, els rols no poden ser trets de tiquets tipus fils",
 	"open.ratelimited": "S'estan obrint tiquets massa ràpid en aquest servidor",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "Fa massa poc que has utilitzat aquest panell. Si us plau, torna-ho a provar %s.",
 	"commands.claim.thread": "A causa de limitacions de Discord, el reclam no funciona amb fils",
 	"generic.join_support_server": "Unir-se al Servidor de Suport",
 	"commands.open.guild_channel_limit": "El servidor ha arribat al límit de Discord de 500 canals",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Panell no vàlid: Has de seleccionar-ne un de la llista desplegable",
-			"success": "<@%d> ha mogut aquest tiquet al panell`%s`",
+			"success": "<@%[2]d> ha mogut aquest tiquet al panell `%[1]s`",
 			"non_thread_to_thread": "No pots canviar a un panell que usi fils des d'un tiquet de tipus canal"
 		},
 		"blacklist": {
@@ -207,7 +207,7 @@
 				"limit": "Has arribat al límit de rols (%d) a la llista negra"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> s'ha tret de la llista negra"
 			},
 			"add": {
 				"limit": "Has arribat al límit d'usuaris (%d) a la llista negra: considera utilitzar un rol"
@@ -326,6 +326,19 @@
 				"no_roles": "No hi ha rols a l'equip de suport",
 				"users_warning": "-# **Avís:** Els usuaris dels equips de suport seran obsolets. Si us plau, migra a rols."
 			}
+		},
+		"edit": {
+			"title": "Editar Configuració del Tiquet",
+			"description": "A sota, pots editar varis paràmetres del tiquet.",
+			"labels": {
+				"title": "Editar Etiquetes",
+				"description": "Editar les etiquetes assignades a aquest tiquet",
+				"update_modal": {
+					"title": "Actualitzar Etiquetes del Tiquet",
+					"select_menu_title": "Etiquetes",
+					"success": "Les etiquetes del tiquet s'han actualitzat correctament a: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Et proporciona un botó per anar a l'inici del tiquet",
 		"on_call": "Et marca com a disponible, per ser afegit i mencionat a tots els nous tiquets",
 		"reopen": "Torna a obrir un tiquet que ha estat tancat prèviament",
-		"notes": "Crea un fil per discutir en privat entre els integrants de l'equip de suport"
+		"notes": "Crea un fil per discutir en privat entre els integrants de l'equip de suport",
+		"edit": "Edita la configuració del tiquet actual"
 	},
 	"setup": {
 		"auto": {

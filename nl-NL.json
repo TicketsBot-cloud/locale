@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Kan een tag met het ID `%s` niet vinden",
 	"commands.tags.get.invalid_arguments": "U moet het ID van de tag opgeven. Ga voor meer hulp met tag naar <%s>.",
 	"commands.tags.get.invalid_tag": "Ongeldige tag. Ga voor meer hulp met tags naar <%s>.",
-	"commands.tags.list": "ID's voor alle tags: \\n%s\\n Voer `%stag <ID>` uit om de inhoud van een tag te bekijken",
+	"commands.tags.list": "ID's voor alle tags: \\n%s\\n Voer `%s tag <ID>` uit om de inhoud van een tag te bekijken",
 	"commands.unclaim.not_claimed": "Dit ticket is niet opgeëist",
 	"commands.unclaim.not_claimer": "Alleen beheerders en de gebruiker die het ticket heeft geclaimd, kunnen het ticket ongedaan maken",
 	"commands.unclaim.success": "Alle ondersteuningsvertegenwoordigers kunnen nu reageren op het ticket",
-	"commands.vote": "Klik hier om te stemmen voor 24 uur gratis premium:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Ongeldig argument: verwijs naar gebruik",
 	"generic.invalid_user": "Kan de doelgebruiker niet vinden",
 	"generic.no_permission": "Hiervoor heeft u geen toestemming",
@@ -79,8 +79,8 @@
 	"help.gdpr": "Beheer jouw GDPR data verzoeken",
 	"open.success": "Een nieuw ticket is geopend: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "Dit paneel is momenteel gesloten",
+		"message": "Alsjeblieft probeer het opnieuw tijdens onze support uren."
 	},
 	"setup.auto.category.failure": "Ik mis de permissie 'Kanalen beheren'",
 	"setup.auto.category.success": "Ticketcategorie aangemaakt",
@@ -132,7 +132,7 @@
 	"generic.title.blacklisted": "Verbannen",
 	"generic.title.blacklist": "Zwarte Lijst",
 	"generic.error.blacklisted": "U bent geblacklist in deze server",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Deze server is geblacklist van het gebruiken van de bot",
 	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
 	"commands.blacklist.add.success": "<@%d> is op de blacklist gezet",
 	"commands.blacklist.remove.success": "<@%d> is uit de blacklist gehaald",
@@ -140,10 +140,10 @@
 	"generic.title.add_support": "Support toevoegen",
 	"generic.title.remove_admin": "Beheerder verwijderen",
 	"generic.title.remove_support": "Support verwijderen",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Support lid is succesvol voltooid: %s",
 	"generic.title.language": "Taal",
 	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.addadmin.success": "Admin is succesvol toegevoegd: %s",
 	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Installatie",
 	"generic.title.premium": "Premium",
@@ -161,9 +161,9 @@
 	"generic.title.unclaimed": "Onopgeëist ticket",
 	"generic.title.add": "Toevoegen",
 	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.add.role_thread": "Door de beperkingen van Discord, rollen kunnen niet toegevoegd worden aan thread tickets",
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.remove.role_thread": "Door de beperkingen van Discord, rollen kunnen niet verwijderd worden van thread tickets",
 	"open.ratelimited": "Er worden te snel tickets geopend in deze server",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Door beperkingen vanuit Discord wordt het claimen van threads niet ondersteunt",
@@ -207,7 +207,7 @@
 				"limit": "Je hebt het limiet voor de rol blacklist bereikt (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> is unblacklisted"
 			},
 			"add": {
 				"limit": "U heeft het gebruiker blacklist limiet bereikt (%d): overweeg om een rol te gebruiken"
@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Biedt je met een knop om naar de bovenkant van het ticket te gaan",
 		"on_call": "Markeert je als \"on call\", zodat je wordt toegevoegd en gepingd in alle nieuwe tickets",
 		"reopen": "Heropent een ticket die eerder was gesloten",
-		"notes": "Maakt een conversatie aan voor privé gesprek tussen ondersteunende vertegenwoordigers"
+		"notes": "Maakt een conversatie aan voor privé gesprek tussen ondersteunende vertegenwoordigers",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

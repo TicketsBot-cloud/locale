@@ -11,7 +11,7 @@
 	"commands.claim.success": "Bydd dy docyn yn cael ei drin gan %s",
 	"commands.invite": "[Cliciwch yma](<%s>)",
 	"commands.language.invalid": "Mae'n rhaid i ti nodi côd iaith neu faner. Ieithoedd sydd ar gael:\\n%s",
-	"commands.open.ticket_limit": "Dim ond %d%s wyt ti'n gallu ei hagor ar unwaith",
+	"commands.open.ticket_limit": "Dim ond %d %s wyt ti'n gallu ei hagor ar unwaith",
 	"commands.open.too_many_tickets": "Mae gormod o docynnau yn y categori tocynnau. Gofynnwch i weinyddwr gau rhai, symud nhw i gategori arall, neu sefydlu categori drosflwyddiad.\n\nMae hyn yn **gyfyngiad wedi'i osod gan Discord** o 50 sianel yn y categori.",
 	"commands.panel": "Ewch i <%s> i ffurfweddu panel",
 	"commands.premium": "Gallwch brynu tanysgrifiad premiwm o <%s>.\\nPremiwm yn cynnig llawer o fanteision, fel:\\n```diff\\n+ Creu paneli tocyn di-gyfyng\\n+ Addasu enw’r bot, ei lun proffil a’i statws (whitelabel)\\n+ Ystadegau manwl am y gweinydd, defnyddwyr a staff cymorth\\n+ Dim brandio yn y troedyn negeseuon\\n+ Cefnogi datblygiad a helpu talu costau’r gweinydd\\n```\\n\\nFel arall, gallwch bleidleisio yn <%s> i gael premiwm am ddim am 24 awr",
@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Ni ellid dod o hyd i tag gyda'r ID `%s`",
 	"commands.tags.get.invalid_arguments": "Mae'n rhaid i ti roi ID y tag. Am fwy o gymorth gyda thagiau, ewch i <%s>.",
 	"commands.tags.get.invalid_tag": "Tag anghywir. Am fwy o gymorth gyda thagiau, ewch i <%s>.",
-	"commands.tags.list": "IDau pob tag: \\n%s\\nI weld cynnwys tag, rhedwch `%stag <ID>`",
+	"commands.tags.list": "IDau pob tag: \\n%s\\nI weld cynnwys tag, rhedwch `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Nid yw'r tocyn hwn wedi ei hawlio",
 	"commands.unclaim.not_claimer": "Dim ond gweinyddwyr a'r defnyddiwr sydd wedi hawlio'r tocyn sy'n gallu rhoi'r hawliad yn ôl",
 	"commands.unclaim.success": "Gal pob cynrychiolydd cymorth nawr ymateb i'r tocyn",
@@ -326,6 +326,19 @@
 				"no_roles": "Dim rolau cymorth",
 				"users_warning": "-# **Rhybudd:** Mae defnyddwyr mewn timau cymorth bellach wedi darfod. Symudwch drosodd i ddefnyddio rolau."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Yn rhoi botwm i ti neidio i frig y tocyn",
 		"on_call": "Yn dynodi dy fod ar alwad, i gael dy ychwanegu a tagio mewn pob tocyn newydd",
 		"reopen": "Yn ail-agor tocyn oedd wedi cael ei gau o'r blaen",
-		"notes": "Yn creu edefyn ar gyfer trafodaeth breifat rhwng cynrychiolwyr cymorth"
+		"notes": "Yn creu edefyn ar gyfer trafodaeth breifat rhwng cynrychiolwyr cymorth",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

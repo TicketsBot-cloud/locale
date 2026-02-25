@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "找不到 ID 为\"%s\"的标籤",
 	"commands.tags.get.invalid_arguments": "您必须提供标籤的 ID。有关标籤的更多帮助，请访问 <%s>。",
 	"commands.tags.get.invalid_tag": "标籤无效。有关标籤的更多帮助，请访问 <%s>。",
-	"commands.tags.list": "所有标籤的 ID：\\n%s\\n要查看标籤的内容，请运行 `%stag <ID>`",
+	"commands.tags.list": "所有标籤的 ID：\\n%s\\n要查看标籤的内容，请运行 `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "目前问题单还没被指派",
 	"commands.unclaim.not_claimer": "只有管理者会已被分配到的人才可以解除分配",
 	"commands.unclaim.success": "所有支持者现在都可以回复问题单",
-	"commands.vote": "投票获得24小时的高级方案！\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "无效参数：参考用法",
 	"generic.invalid_user": "找不到目标成员",
 	"generic.no_permission": "没有权限使用唷",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "我没有 `管理频道` 的权限唷",
 	"setup.auto.category.success": "创建问题单类别",
-	"setup.auto.completed": "配置完成，点击 [这里](%s) 去创建工单模板, 并给你工作团队添加 <@&%d> 和 <@&%d>的身份组。",
+	"setup.auto.completed": "配置完成，点击 [这里](%s) 去创建工单模板, 并给你工作团队添加 <@&%d> 和 <@&%d>的身份组",
 	"setup.auto.roles.failure": "我没有 `管理身份组` 的权限唷",
 	"setup.auto.roles.success": "创建 `问题单管理者` & `问题单支持者` 的身份组",
 	"setup.auto.transcript.failure": "我没有 `管理频道` 的权限唷",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "无效的面板：您必须从下拉列表中选择一个",
-			"success": "这个工单被 <@%d> 切换到 `%s` 面板",
+			"success": "这个工单被 <@%[2]d> 切换到 `%[1]s` 面板",
 			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
@@ -282,7 +282,7 @@
 			},
 			"about": "高级订阅可以让您访问更多的面板、统计、自定义机器人等！访问我们的 [官网](%s) 来了解更多信息。",
 			"already_activated": "好消息！高级订阅已经在此服务器上激活。",
-			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[配置自定义机器人](%s/prem/whitlabel-setup-guide)。",
+			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[配置自定义机器人](%s)。",
 			"discord": {
 				"no_subscription": "高级版可以直接在 Discord 中购买。点击此消息下方的按钮打开订阅管理页面。\n\n购买一个，请在5分钟内完成购买。"
 			},
@@ -317,7 +317,7 @@
 			"admin": {
 				"users": "管理员（用户）",
 				"roles": "管理员（角色）",
-				"no_users": "",
+				"no_users": "No admin users",
 				"no_roles": "无管理员（角色）"
 			},
 			"support": {
@@ -325,6 +325,19 @@
 				"roles": "支持人员（角色）",
 				"no_roles": "无支持人员（角色）",
 				"users_warning": "-# **警告:** 在支持团队中添加的用户现在已废弃。请创建一个角色并设置该角色为支持团队。"
+			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
 			}
 		}
 	},
@@ -344,7 +357,8 @@
 		"jump_to_top": "点击下面的按钮跳到工单顶部",
 		"on_call": "将您标记为在线，将自动加入新的工单中并且你在这个线程里发的消息会被标记。",
 		"reopen": "重新打开之前关闭的工单",
-		"notes": "创建一个提供给支持团队私下讨论的主题"
+		"notes": "创建一个提供给支持团队私下讨论的主题",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

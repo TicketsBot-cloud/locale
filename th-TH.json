@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "ไม่พบแท็กที่มี ID นี้ `%s`",
 	"commands.tags.get.invalid_arguments": "คุณต้องระบุ ID ของแท็ก หากต้องการความช่วยเหลือเพิ่มเติมเกี่ยวกับแท็ก, โปรดไปที่ <%s>",
 	"commands.tags.get.invalid_tag": "แท็กไม่ถูกต้อง, หากต้องการความช่วยเหลือเพิ่มเติมเกี่ยวกับแท็ก, โปรดไปที่ <%s>",
-	"commands.tags.list": "รหัสสำหรับแท็กทั้งหมด: \\n%s\\nหากต้องการดูเนื้อหาของแท็ก, ให้เรียกใช้ `%stag <ID>`",
+	"commands.tags.list": "รหัสสำหรับแท็กทั้งหมด: \\n%s\\nหากต้องการดูเนื้อหาของแท็ก, ให้เรียกใช้ `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Ticket นี้ยังไม่ได้รับการอ้างสิทธิ์",
 	"commands.unclaim.not_claimer": "เฉพาะผู้ดูแลระบบ และ ผู้ใช้ที่อ้างสิทธิ์ใน ticket เท่านั้น, ที่สามารถยกเลิกการอ้างสิทธิ์ใน ticket ได้",
 	"commands.unclaim.success": "ตัวแทนฝ่ายสนับสนุนทั้งหมดสามารถตอบกลับ ticket ได้แล้ว",
-	"commands.vote": "คลิกที่นี่เพื่อโหวตรับพรีเมียมฟรี 24 ชั่วโมง:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "อาร์กิวเมนต์ไม่ถูกต้อง: อ้างถึงการใช้งาน",
 	"generic.invalid_user": "ไม่พบเป้าหมายผู้ใช้",
 	"generic.no_permission": "คุณไม่ได้รับสิทธิ์สำหรับสิ่งนี้",
@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "ให้คุณมีปุ่มเพื่อข้ามไปที่ด้านบนสุดของตั๋ว",
 		"on_call": "ทำเครื่องหมายว่าคุณอยู่ในสาย, เพื่อเพิ่มและส่ง Ping ในตั๋วใหม่ทั้งหมด",
 		"reopen": "เปิด ticket ที่ปิดไปก่อนหน้านี้อีกครั้ง",
-		"notes": "สร้างเธรดสำหรับการสนทนาส่วนตัวระหว่างตัวแทนฝ่ายสนับสนุน"
+		"notes": "สร้างเธรดสำหรับการสนทนาส่วนตัวระหว่างตัวแทนฝ่ายสนับสนุน",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

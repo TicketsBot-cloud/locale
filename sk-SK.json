@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Značku s ID `%s` sa nepodarilo nájsť",
 	"commands.tags.get.invalid_arguments": "Musíte uviesť ID značky. Viac informácií o značke nájdete na stránke <%s>.",
 	"commands.tags.get.invalid_tag": "Neplatná značka. Viac informácií o značkách nájdete na stránke <%s>.",
-	"commands.tags.list": "ID pre všetky značky: \\Ak chcete zobraziť obsah značky, spustite príkaz `%stag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Tento lístok nie je nárokovaný",
 	"commands.unclaim.not_claimer": "Odhlásiť ticket môžu len administrátori a používateľ, ktorý ho nárokoval",
 	"commands.unclaim.success": "Všetci zástupcovia podpory teraz môžu reagovať na ticket",
-	"commands.vote": "Kliknutím sem môžete hlasovať za 24 hodín prémiových služieb zadarmo:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Neplatný argument: pozri použitie",
 	"generic.invalid_user": "Nepodarilo sa nájsť cieľového používateľa",
 	"generic.no_permission": "Nemáte na to povolenie",
@@ -326,6 +326,19 @@
 				"no_roles": "Žiadne podporné roly",
 				"users_warning": "-# **Upozornenie:** Používatelia v podporných tímoch už nie sú odporúčaní na používanie. Prejdite na roly."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Poskytuje tlačidlo na preskočenie na začiatok lístka",
 		"on_call": "Označí vás ako osobu v pohotovosti, ktorá bude pridaná a upozornená na všetky nové tickety",
 		"reopen": "Znovu otvorí ticket, ktorý bol predtým zatvorený",
-		"notes": "Vytvorí vlákno na súkromnú diskusiu medzi zástupcami podpory"
+		"notes": "Vytvorí vlákno na súkromnú diskusiu medzi zástupcami podpory",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

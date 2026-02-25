@@ -2,7 +2,7 @@
 	"commands.about": "Tickets là một bot dễ sử dụng và có thể thiết lập theo ý của bạn.\\nNhóm hỗ trợ: %s\\nLệnh: Gõ `/help`\\nBắt đầu bằng lệnh `/setup`\\n",
 	"commands.add.no_members": "Bạn cần nhắc đến các thành viên mà bạn muốn thêm vào phiếu hỗ trợ",
 	"commands.add.no_permission": "Bạn không có quyền thêm người khác vào phiếu hỗ trợ này",
-	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
+	"commands.add.no_everyone": "Bạn không thể thêm vai trò `@everyone` vào phiếu hỗ trợ",
 	"commands.addadmin.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để trao quyền quản trị viên",
 	"commands.addadmin.owner": "Chủ của máy chủ đã là quản trị viên theo mặc định",
 	"commands.addsupport.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để trao quyền đại diện hỗ trợ viên",
@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Không tìm thấy thẻ tên có ID `%s`",
 	"commands.tags.get.invalid_arguments": "Bạn phải cung cấp ID của thẻ. Để hiểu hơn về thẻ, hãy đọc <%s>.",
 	"commands.tags.get.invalid_tag": "Thẻ tên không hợp lệ. Xem chi tiết về thẻ tên tại <%s>.",
-	"commands.tags.list": "ID của các thẻ: \\n%s\\nĐể thấy được nội dung của một thẻ, dùng lệnh `%stag <ID>`",
+	"commands.tags.list": "ID của các thẻ: \\n%s\\nĐể thấy được nội dung của một thẻ, dùng lệnh `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Phiếu hỗ trợ này chưa được nhận",
 	"commands.unclaim.not_claimer": "Chỉ quản trị viên và người nhận phiếu hỗ trợ mới có thể hủy nhận phiếu hỗ trợ",
 	"commands.unclaim.success": "Tất cả các đại diện hỗ trợ giờ có thể trả lời phiếu hỗ trợ",
@@ -94,7 +94,7 @@
 	"setup.transcript.success": "Kênh dành các bản ghi chép đã được thay đổi thành <#%d>",
 	"commands.language.help_wanted": "Bạn dùng ngôn ngữ khác? Tham gia [máy chủ hỗ trợ](%s) nếu bạn muốn giúp phiên dịch thêm ngôn ngữ cho người máy",
 	"commands.rename.too_long": "Tên của kênh không thể dài hơn 100 ký tự",
-	"commands.autoclose.configure": "Hãy xem [trang quản lý](%s) để thay đổi các cài đặt về tự động đóng phiếu",
+	"commands.autoclose.configure": "Hãy xem [bảng quản lý](%s) để thay đổi các cài đặt về tự động đóng phiếu",
 	"help.autoclose": "Các lệnh liên quan đến tính năng tự động đóng",
 	"help.autoclose.exclude": "Thêm ngoại lệ cho phiếu hỗ trợ không tự động đóng",
 	"help.autoclose.configure": "Chỉnh sửa các cài đặt liên quan đến tự động đóng",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Bảng không hợp lệ: Bạn cần chọn 1 từ mục dưới",
-			"success": "Phiếu hỗ trợ này đã được chuyển sang bảng \"%s' bởi <@%d>",
+			"success": "Phiếu hỗ trợ này đã được chuyển sang bảng `%s' bởi <@%d>",
 			"non_thread_to_thread": "Bạn không thể chuyển đổi bảng điều khiển sử dụng kênh chủ đề từ phiếu hỗ trợ không dùng kênh chủ đề"
 		},
 		"blacklist": {
@@ -207,7 +207,7 @@
 				"limit": "Bạn đã sử dụng hết giới hạn của danh sách đen vai trò (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> đã được xóa khỏi danh sách đen"
 			},
 			"add": {
 				"limit": "Bạn đạt giới hạn số người dùng có thể thêm vào danh sách đen (%d): thay vào đó hãy sử dụng vai trò"
@@ -326,6 +326,19 @@
 				"no_roles": "Không có vai trò của đội ngũ hỗ trợ",
 				"users_warning": "-# **Cảnh cáo:** Tính năng chọn thành viên cho đội ngũ hỗ trợ đã không còn khả dùng. Vui lòng chuyển sang sử dụng vai trò cho đội ngũ hỗ trợ."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Thêm nút để có thể nhảy lên tin nhắn đầu tiên của phiếu hỗ trợ",
 		"on_call": "Thêm bạn là đang sẵn sàng, được thêm và ping trong các phiếu hỗ trợ mới",
 		"reopen": "Mở lại phiếu hỗ trợ mà trước đó đã đóng",
-		"notes": "Tạo một kênh chủ đề để thảo luận riêng tư giữa các hỗ trợ viên"
+		"notes": "Tạo một kênh chủ đề để thảo luận riêng tư giữa các hỗ trợ viên",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Oznake z ID-jem »%s« ni bilo mogoče najti",
 	"commands.tags.get.invalid_arguments": "Navesti morate ID oznake. Za več pomoči z oznako obiščite <%s>.",
 	"commands.tags.get.invalid_tag": "Neveljavna oznaka. Za dodatno pomoč pri oznakah obiščite <%s>.",
-	"commands.tags.list": "ID-ji za vse oznake: \\n%s\\nČe si želite ogledati vsebino oznake, zaženite `%stag <ID>`",
+	"commands.tags.list": "ID-ji za vse oznake: \\n%s\\nČe si želite ogledati vsebino oznake, zaženite `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Ta vstopnica ni potrebna",
 	"commands.unclaim.not_claimer": "Samo skrbniki in uporabniki, ki so prevzeli vstopnico, lahko prekličejo zahtevek za vstopnico",
 	"commands.unclaim.success": "Vsi predstavniki podpore lahko zdaj odgovorijo na vstopnico",
-	"commands.vote": "Kliknite tukaj, če želite glasovati za 24 ur brezplačne premim:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Neveljaven argument: glej uporabo",
 	"generic.invalid_user": "Ciljnega uporabnika ni bilo mogoče najti",
 	"generic.no_permission": "Za to nimate dovoljenja",
@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
 		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
 		"reopen": "Reopens a ticket that was previously closed",
-		"notes": "Creates a thread for private discussion between support representatives"
+		"notes": "Creates a thread for private discussion between support representatives",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

@@ -11,7 +11,7 @@
 	"commands.claim.success": "Το ticket σας θα εξυπηρετηθεί από τον/την %s",
 	"commands.invite": "[Πάτα εδώ](<%s>)",
 	"commands.language.invalid": "Πρέπει να διαλέξετε μια γλώσσα ή σημαία. Διαθέσιμες γλώσσες:\\n%s",
-	"commands.open.ticket_limit": "Μπορείς να ανοίξεις %d %s μόνο μία φορά",
+	"commands.open.ticket_limit": "You are only able to open %d %s at once",
 	"commands.open.too_many_tickets": "Υπάρχουν πολλά tickets στην κατηγορία των tickets, ζητά από έναν διαχειριστή να κλείσει μερικά ή να τα μεταφέρει σε άλλη κατηγορία",
 	"commands.panel": "Επισκεφτείτε το <%s> για να διαμορφώσετε έναν πίνακα",
 	"commands.premium": "Μπορείς να αγοράσεις premium συνδρομή στο <%s>.\\nΤο premium σου παρέχει πολλά οφέλη, όπως:\\n```diff\\n+Δημιουργία απεριόριστων ticket πίνακες\\n+Προσαρμογή ονόματος, avatar και status του bot (whitelabel)\\n+ Λεπτομερή στατιστικά στοιχεία για το διακομιστή, χρήστες και το προσωπικό υποστήριξης\\n+ Χωρίς εμπορικό σήμα στο υποσέλιδο των μηνυμάτων\\n+ Υποστηρίζει την ανάπτυξη και βοηθάει να πληρώσω το κόστος του διακοσμητή\\n```\\n\\nΕναλλακτικά, μπορείτε να ψηφίσετε στο <%s> για να πάρεις δωρεάν premium για 24 ώρες",
@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Δεν ήταν δυνατή η εύρεση μιας ετικέτας με αναγνωριστικό `%s`",
 	"commands.tags.get.invalid_arguments": "Πρέπει να δώσετε το αναγνωριστικό της ετικέτας. Για περισσότερη βοήθεια με την ετικέτα, επισκεφθείτε <%s>.",
 	"commands.tags.get.invalid_tag": "Μη έγκυρη ετικέτα. Για περισσότερη βοήθεια με ετικέτες, επισκεφθείτε <%s>.",
-	"commands.tags.list": "Αναγνωριστικά για όλες τις ετικέτες: \\n%s\\nΓια να δείτε τα περιεχόμενα μιας ετικέτας, εκτελέστε `%stag <ID>`",
+	"commands.tags.list": "Αναγνωριστικά για όλες τις ετικέτες: \\n%s\\nΓια να δείτε τα περιεχόμενα μιας ετικέτας, εκτελέστε `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Αυτό το ticket δεν έχει υποστηρικτή",
 	"commands.unclaim.not_claimer": "Μόνο οι διαχειριστές και ο υποστηρικτής που υποστηρίζει το ticket μπορεί να βγάλει τον υποστηρικτή από το ticket",
 	"commands.unclaim.success": "Όλοι οι εκπρόσωποι υποστήριξης μπορούν τώρα να απαντήσουν στο ticket",
-	"commands.vote": "Κάντε κλικ εδώ για να ψηφίσετε για 24 ώρες δωρεάν premium:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Μη έγκυρη παράμετρος: αναφερθείτε στη χρήση",
 	"generic.invalid_user": "Αδυναμία εύρεσης του χρήστη προορισμού",
 	"generic.no_permission": "Δεν έχετε άδεια για αυτό",
@@ -326,6 +326,19 @@
 				"no_roles": "Δεν υπάρχουν ρόλοι εκπροσώπων υποστήριξης",
 				"users_warning": "-# **Προειδοποίηση:** Οι χρήστες στις ομάδες υποστήριξης έχουν πλέον καταργηθεί. Παρακαλώ μετεγκαταστήστε σε ρόλους."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,11 +357,12 @@
 		"jump_to_top": "Σας παρέχει ένα κουμπί για να μεταβείτε στην κορυφή του ticket",
 		"on_call": "Σας επισημαίνει σε υπηρεσία, για να προστίθεται και να σε κάνει ping σε όλα τα tickets",
 		"reopen": "Ανοίγει ξανά ένα ticket που έκλεισε προηγουμένως",
-		"notes": "Δημιουργεί ένα νήμα για ιδιωτική συζήτηση μεταξύ εκπροσώπων υποστήριξης"
+		"notes": "Δημιουργεί ένα νήμα για ιδιωτική συζήτηση μεταξύ εκπροσώπων υποστήριξης",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
-			"docs": "Θέλετε να εξερευνήσετε περισσότερο; Το [documentation](%s) θα σας διδάξει πως να ρυθμίσετε κάθε πτυχή του bot!"
+			"docs": "Want to explore more? Our [documentation](%s) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Πρέπει να παρέχετε ένα κανάλι ειδοποιήσεων των ticket",
@@ -436,8 +450,8 @@
 		},
 		"completed": {
 			"title": "Το Αίτημα GDPR Ολοκληρώθηκε",
-			"all_transcripts": "**Είδος Αιτήματος:** Διαγραφή όλων των μεταγραφών από έναν διακομιστή\n**Διακομιστής:** %s\n**Διεγραμμένες Μεταγραφές:** %s",
-			"all_transcripts_multi": "**Είδος Αιτήματος:** Διαγραφή όλων των μεταγραφών από διακομιστές\n**Διακομιστές:** \n* %s\n**Διεγραμμένες Μεταγραφές:** %s",
+			"all_transcripts": "**Είδος Αιτήματος:** Διαγραφή όλων των μεταγραφών από έναν διακομιστή\n**Διακομιστής:** %s\n**Διεγραμμένες Μεταγραφές:** %d",
+			"all_transcripts_multi": "**Είδος Αιτήματος:** Διαγραφή όλων των μεταγραφών από διακομιστές\n**Διακομιστές:** \n* %s\n**Διεγραμμένες Μεταγραφές:** %d",
 			"specific_transcripts": "**Είδος Αιτήματος:** Διαγραφή συγκεκριμένων μεταγραφών\n**Διακομιστής:** %s\n**Διεγραμμένες Μετεγραφές:** %d",
 			"all_messages": "**Είδος Αιτήματος:** Ανωνυμοποίηση όλων των μηνυμάτων σας σε διακομιστή\n**Διακομιστής:** %s\n**Ανωνυμοποιημένα Μηνύματα:** %d",
 			"all_messages_multi": "**Είδος Αιτήματος:** Ανωνυμοποίηση όλων των μηνυμάτων σας σε διακομιστές\n**Διακομιστές:** \n* %s\n**Ανωνυμοποιημένα Μηνύματα:** %d",

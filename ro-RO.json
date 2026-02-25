@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Un tag cu ID-ul `%s` nu a putut fi găsit",
 	"commands.tags.get.invalid_arguments": "Trebuie să furnizezi ID-ul tagului. Pentru mai mult ajutor privind tagurile, vizitează <%s>.",
 	"commands.tags.get.invalid_tag": "Tag nevalid. Pentru mai mult ajutor privind tagurile, vizitează <%s>.",
-	"commands.tags.list": "ID-urile pentru toate tagurile: \\n%s\\nPentru a vedea conținutul unui tag, rulează `%stag <ID>`",
+	"commands.tags.list": "ID-urile pentru toate tagurile: \\n%s\\nPentru a vedea conținutul unui tag, rulează `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Acest tichet nu este revendicat",
 	"commands.unclaim.not_claimer": "Numai adminii și utilizatorul care a revendicat tichetul pot anula revendicarea tichetului",
 	"commands.unclaim.success": "Toți reprezentanții de suport pot răspunde acum la tichet",
-	"commands.vote": "Dă click aici pentru a vota pentru 24 de ore de premium gratuit:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Argument nevalid: consultă utilizarea",
 	"generic.invalid_user": "Nu s-a putut găsi utilizatorul țintă",
 	"generic.no_permission": "Nu ai permisiunea pentru acest lucru",
@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Îți furnizează un buton pentru a sări în partea de sus a tichetului",
 		"on_call": "Te marchează ca fiind la datorie, pentru a fi adăugat și a primi pinguri în toate tichetele noi",
 		"reopen": "Redeschide un tichet care a fost închis anterior",
-		"notes": "Creează un thread pentru discuții private între reprezentanții de suport"
+		"notes": "Creează un thread pentru discuții private între reprezentanții de suport",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

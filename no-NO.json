@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "En knagg med iden `%s` ble ikke gjenkjent",
 	"commands.tags.get.invalid_arguments": "Du må oppgi iden til en knagg. For mer hjelp med knagget, gå til <%s>.",
 	"commands.tags.get.invalid_tag": "Ugyldig knagg. For mer hjelp med knagger, gå til <%s>.",
-	"commands.tags.list": "Alle nåværende knaggider: \\n%s\\nFor å vise innholdet til en knagg, si `%stag <ID>`",
+	"commands.tags.list": "Alle nåværende knaggider: \\n%s\\nFor å vise innholdet til en knagg, si `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Denne støtteforespurselen er ikke opptatt",
 	"commands.unclaim.not_claimer": "Bare administratorer og brukeren som la krav på en støtteforespursel kan fjerne kravet på den",
 	"commands.unclaim.success": "Alle støttekontakter kan nå svare på støtteforespurselen",
-	"commands.vote": "Trykk her for å stemme for ett døgn med gratis premium:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Ugyldig inndata: se korrekt bruk",
 	"generic.invalid_user": "Kunne ikke finne den valgte brukeren",
 	"generic.no_permission": "Du har ikke adgang til dette",
@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Gir deg en knapp for å hoppe til toppen av ticketen",
 		"on_call": "Markerer deg som et samtale, som vil bli lagt til og pinged i alle nye saker",
 		"reopen": "Reopens a ticket that was previously closed",
-		"notes": "Oppretter en tråd for privat diskusjon mellom støtte representanter"
+		"notes": "Oppretter en tråd for privat diskusjon mellom støtte representanter",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

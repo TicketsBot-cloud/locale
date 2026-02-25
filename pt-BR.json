@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Não foi possível encontrar uma tag com o ID `%s`",
 	"commands.tags.get.invalid_arguments": "Você precisa informar o ID da tag. Para mais ajuda com tags, acesse <%s>.",
 	"commands.tags.get.invalid_tag": "Tag inválida. Para mais ajuda com tags, acesse <%s>.",
-	"commands.tags.list": "IDs para todas as tags: \\n%s\\nPara ver o conteúdo de uma tag, digite `%stag <ID>`",
+	"commands.tags.list": "IDs para todas as tags: \\n%s\\nPara ver o conteúdo de uma tag, digite `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Este ticket não foi atribuído",
 	"commands.unclaim.not_claimer": "Somente admins e o usuário que está atribuído ao ticket podem remover a atribuição",
 	"commands.unclaim.success": "Todos os atendentes de suporte podem agora responder ao ticket",
-	"commands.vote": "Clique aqui para votar e obter 24 horas de premium grátis:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Argumento inválido: confira o uso correto",
 	"generic.invalid_user": "Usuário não encontrado",
 	"generic.no_permission": "Você não tem permissão para fazer isso",
@@ -326,6 +326,19 @@
 				"no_roles": "Nenhum cargo de suporte",
 				"users_warning": "-# **Aviso:** Os usuários das equipes de suporte estão obsoletos. Por favor, migre para os papéis."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Fornece a você um botão para ir para o topo do ticket",
 		"on_call": "Marca você como em chamada, para ser adicionado e ser notificado em todos os novos tickets",
 		"reopen": "Reabre um ticket que foi fechado anteriormente",
-		"notes": "Cria um tópico para discussão privada entre representantes de suporte"
+		"notes": "Cria um tópico para discussão privada entre representantes de suporte",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

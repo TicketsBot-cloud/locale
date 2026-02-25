@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "ID가 `%s`인 태그를 찾을 수 없습니다.",
 	"commands.tags.get.invalid_arguments": "태그의 ID를 제공해야 합니다. 태그에 대한 자세한 내용은 <%s>을 참조하십시오.",
 	"commands.tags.get.invalid_tag": "잘못된 태그입니다. 태그에 대한 자세한 도움말을 보려면 <%s>을 방문하십시오.",
-	"commands.tags.list": "모든 태그의 ID: \\n%s\\n태그 내용을 보려면 `%stag <ID>`",
+	"commands.tags.list": "모든 태그의 ID: \\n%s\\n태그 내용을 보려면 `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "이 티켓은 배정되지 않았습니다.",
 	"commands.unclaim.not_claimer": "관리자 및 티켓을 연 사용자만 티켓 배정를 취소할 수 있습니다.",
 	"commands.unclaim.success": "이제 모든 지원 담당자가 티켓에 응답할 수 있습니다.",
-	"commands.vote": "24시간 무료 프리미엄을 위해 투표하려면 여기를 클릭하십시오.\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "잘못된 인수: 사용법을 참조하십시오.",
 	"generic.invalid_user": "대상 사용자를 찾을 수 없습니다.",
 	"generic.no_permission": "당신은 권한이 없어요.",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "잘못된 패널: 드롭다운에서 하나를 선택해야 합니다.",
-			"success": "이 티켓은 `@%d`에 의해 `%s` 패널로 전환되었습니다.",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
 			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "티켓 맨 위로 이동할 수 있는 버튼을 제공합니다.",
 		"on_call": "대기 중 상태로 표시합니다. 모든 신규 티켓에서 추가 및 핑될 수 있습니다",
 		"reopen": "이전에 닫힌 티켓을 다시 엽니다",
-		"notes": "지원 담당자 간의 비공개 논의용 스레드를 생성합니다"
+		"notes": "지원 담당자 간의 비공개 논의용 스레드를 생성합니다",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

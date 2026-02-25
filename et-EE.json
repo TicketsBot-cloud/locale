@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Silt mille ID on `%s` ei leitud",
 	"commands.tags.get.invalid_arguments": "Sa pead edastama sildi ID. Kui on rohkem abi siltidega vaja, külasta <%s>.",
 	"commands.tags.get.invalid_tag": "Ebasobiv silt. Kui on rohkem abi siltidega vaja, külasta <%s>.",
-	"commands.tags.list": "ID'd kõikide siltide jaoks: \\n%s\\nEt vaadata siltide sisu, käivitada `%ssilt <ID>`",
+	"commands.tags.list": "ID'd kõikide siltide jaoks: \\n%s\\nEt vaadata siltide sisu, käivitada `%s silt <ID>`",
 	"commands.unclaim.not_claimed": "See abipilet pole võetud",
 	"commands.unclaim.not_claimer": "Ainult administraatorid ja kasutaja kes võttis abipileti saab ära anda abipileti",
 	"commands.unclaim.success": "Kõik abipersonaalid saavad nüüd vastata abipiletile",
-	"commands.vote": "Vajuta siia, et hääletada ning saada 24 tundi tasuta premium:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Ebasobiv argument: vaata kasutust",
 	"generic.invalid_user": "Ei leidnud otsidud kasutajat",
 	"generic.no_permission": "Sul ei ole õigust selle jaoks",
@@ -326,6 +326,19 @@
 				"no_roles": "Puuduvad toe rollid",
 				"users_warning": "-# **Hoiatus:** Kasutajad toe meeskonnad on nüüd vananenud. Palun liikuge rollide kasutamisele."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Annab sulle nupu millega abipileti tippu hüpata",
 		"on_call": "Paneb sind \"on call\", et sind oleks võimalik lisada ja mentionida uutes abipiletites",
 		"reopen": "Avab uuesti abipileti mis oli varem suletud",
-		"notes": "Teeb threadi privaatseteks vestlusteks abipersonaalide vahel"
+		"notes": "Teeb threadi privaatseteks vestlusteks abipersonaalide vahel",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

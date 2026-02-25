@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "En Tag mit de ID `%s` het nöd chöne gfunde werde",
 	"commands.tags.get.invalid_arguments": "Du muesch d'ID vomne Tag aageh. Für wiiteri Hilf mit Tags lueg Dir <%s> aa.",
 	"commands.tags.get.invalid_tag": "Ungültige Tag. Für wiiteri Hilf mit Tags lueg Dir <%s> aa.",
-	"commands.tags.list": "IDs für all Tags: \\n%s\\nZum de Inhalt vomne Tag aazluege, bruuch `%stag <ID>`",
+	"commands.tags.list": "IDs für all Tags: \\n%s\\nZum de Inhalt vomne Tag aazluege, bruuch `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "S'Ticket wird vo niemertem bearbeitet",
 	"commands.unclaim.not_claimer": "Nur Administratore und de Benutzer, wo s'Ticket bearbeitet, chönd s'Ticket freigeh",
 	"commands.unclaim.success": "Alli Support-Mitarbeiter chönd ab sofort uf s'Ticket antworte",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Ungültige Panel: Du muesch en Panel us em Dropdown-Menü uuswähle",
-			"success": "S'Ticket isch vo <@%d> zum `%s` Panel verschobe worde",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
 			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
@@ -326,6 +326,19 @@
 				"no_roles": "Kei Support-Rollene",
 				"users_warning": "-# **Achtung:** Benutzer in Support-Teams sind jetzt veraltet. Bitte migrier zu Rollene."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Zeigt en Chnopf, um zum Aafang vom Ticket z'gumpe",
 		"on_call": "Markiert Dich als verfüegbar, um i neue Tickets automatisch hinzuegfüegt und markiert z'werde",
 		"reopen": "Macht es gschlossnigs Ticket wieder uuf",
-		"notes": "Erstellt es Thread für privati Diskussione zwüsche Support-Mitarbeiter"
+		"notes": "Erstellt es Thread für privati Diskussione zwüsche Support-Mitarbeiter",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

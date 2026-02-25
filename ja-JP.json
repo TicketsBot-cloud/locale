@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "`%s` という名前のタグが見つかりませんでした。",
 	"commands.tags.get.invalid_arguments": "タグのIDを入力する必要があります。タグの詳細については、 <%s> を参照してください。",
 	"commands.tags.get.invalid_tag": "無効なタグです。タグの詳細については、 <%s> を参照してください。",
-	"commands.tags.list": "すべてのタグのID: \\n%s\\nタグの内容を表示するには、 `%stag <ID> ` を実行してください",
+	"commands.tags.list": "すべてのタグのID: \\n%s\\nタグの内容を表示するには、 `%s tag <ID> ` を実行してください",
 	"commands.unclaim.not_claimed": "このチケットはまだ担当者に割り当てられていません。",
 	"commands.unclaim.not_claimer": "チケットの担当者解除は、管理者と担当に割り当てられたユーザーだけが行えます。",
 	"commands.unclaim.success": "すべてのサポート担当者がチケットに応答できるようになりました。",
-	"commands.vote": "このボットに投票するには、下記リンクをクリックしてください（プレミアム24時間無料）:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "無効な引数：使用方法を参照してください。",
 	"generic.invalid_user": "対象ユーザーが見つかりませんでした。",
 	"generic.no_permission": "あなたにはこの操作を行う権限がありません。",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "無効なパネル: ドロップダウンメニューから選択する必要があります。",
-			"success": "このチケットは<@%d>によって `%s`パネルに切り替えられました。",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
 			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "チケットの上部にジャンプするボタンを提供します",
 		"on_call": "通話中にマーク、追加され、すべての新しいチケットにピン留めされます",
 		"reopen": "以前にクローズされたチケットを再オープンします",
-		"notes": "サポート担当者間のディスカッション用の非公開スレッドを作成します"
+		"notes": "サポート担当者間のディスカッション用の非公開スレッドを作成します",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

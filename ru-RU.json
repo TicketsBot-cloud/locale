@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Тег с ID `%s` не был найден.",
 	"commands.tags.get.invalid_arguments": "Вы должны указать ID тега. Для получения дополнительной информации по тегам посетите <%s>.",
 	"commands.tags.get.invalid_tag": "Неверный тег. Для получения дополнительной информации по тегам посетите <%s>.",
-	"commands.tags.list": "ID всех тегов: \\n%s\\nЧтобы отправить содержимое тега, воспользуйтесь `/tag <ID>`",
+	"commands.tags.list": "ID всех тегов: \\n%s\\nЧтобы отправить содержимое тега, воспользуйтесь `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Данное обращение не было принято вами, вы не можете отказаться от него.",
 	"commands.unclaim.not_claimer": "Только администраторы и пользователи, которые приняли данное обращение, могут отказаться от него.",
 	"commands.unclaim.success": "Все представители поддержки теперь могут отвечать на данное обращение.",
-	"commands.vote": "Проголосовав, вы получите бесплатный премиум на 24 часа:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Недействительный аргумент. Опирайтесь на использование.",
 	"generic.invalid_user": "Невозможно найти указанного пользователя.",
 	"generic.no_permission": "У вас недостаточно прав.",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Недопустимая панель. Вы должны выбрать одну из выпадающего списка.",
-			"success": "<@%d> переместил обращение в панель `%s`. ",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
 			"non_thread_to_thread": "Вы не можете переключить обычное обращение на панель, использующую ветки"
 		},
 		"blacklist": {
@@ -326,6 +326,19 @@
 				"no_roles": "Нет ролей поддержки",
 				"users_warning": "-# **Внимание:** Добавление отдельных пользователей в команды поддержки устарело. Пожалуйста, используйте роли."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Создаёт кнопку для перехода к началу обращения.",
 		"on_call": "Обозначает вас как активно отслеживающего обращения. Вы будете упомянуты в каждом новом обращении.",
 		"reopen": "Повторно открывает обращение, которое было ранее закрыто.",
-		"notes": "Создаёт ветку для приватного обсуждения между представителями поддержки"
+		"notes": "Создаёт ветку для приватного обсуждения между представителями поддержки",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

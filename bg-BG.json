@@ -10,7 +10,7 @@
 	"commands.blacklist.self": "Не можете да блеклистнете себе си",
 	"commands.claim.success": "Вашият билет ще бъде поет от %s",
 	"commands.invite": "[Натисни тук](<%s>)",
-	"commands.language.invalid": "Трябва да поясните език или знаме. Достъпните езици са",
+	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
 	"commands.open.ticket_limit": "Вие можете да отворите само %d %s тикет наведнъж",
 	"commands.open.too_many_tickets": "Има твърде много тикети в тази категорията. Помолете администратор да затвори няколко или да ги премести в друга категория",
 	"commands.panel": "Посетете <%s>, за да можете да конфигурирате панела",
@@ -30,12 +30,12 @@
 	"commands.tags.delete.invalid_arguments": "Трябва да поясните ИД-то на тага, който желаете да изтриете",
 	"commands.tags.delete.not_exist": "Таг с ИД `%s` не е намерен",
 	"commands.tags.get.invalid_arguments": "Трябва да поясните ИД-то на тага. За съдействие с таговете, посетете <%s>.",
-	"commands.tags.get.invalid_tag": "Невалиден таг. За помощ с тагове посетете %s.",
-	"commands.tags.list": "Идентификатори за всички тагове: \n%s\nЗа да видите съдържанията в един таг, използвайте `%tag <ID>`",
+	"commands.tags.get.invalid_tag": "Невалиден таг. За помощ с тагове посетете <%s>.",
+	"commands.tags.list": "Идентификатори за всички тагове: \\n%s\\n За да видите съдържанията в един таг, използвайте `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Този тикет не е поет",
 	"commands.unclaim.not_claimer": "Само администраторите или потребителят, поел тикета може да отнеме поемането",
 	"commands.unclaim.success": "Всички потребители с привилегии съпорт вече могат да отговарят на тикета",
-	"commands.vote": "Натиснете тук, за да гласувате за бота и да получите безплатни 24 часа премиум %s",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Неправилна употреба",
 	"generic.invalid_user": "Не може да се открие споменатия потребител",
 	"generic.no_permission": "Нямате привилегия за това",
@@ -326,6 +326,19 @@
 				"no_roles": "No support roles",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Осигурява ви бутон, с който да се качите най-отгоре на билета",
 		"on_call": "Маркира ви в разговор, да бъде добавен и тагван във всички нови билети",
 		"reopen": "Отваря наново билет, който преди това е затворен ",
-		"notes": "Направи тема за лични дискусии със екип мембърите"
+		"notes": "Направи тема за лични дискусии със екип мембърите",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {

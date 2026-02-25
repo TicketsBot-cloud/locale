@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "Non è possibile trovare un tag con ID `%s`",
 	"commands.tags.get.invalid_arguments": "Devi fornire l'ID del tag. Per maggiori informazioni sul tag, visita <%s>.",
 	"commands.tags.get.invalid_tag": "Tag non valido. Per maggiore informazioni sui tag, visita <%s>.",
-	"commands.tags.list": "ID per tutti i tag: \\n%s\\nPer visualizzare il contenuto di in tag, esegui `%stag <ID>`",
+	"commands.tags.list": "ID per tutti i tag: \\n%s\\nPer visualizzare il contenuto di in tag, esegui `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Questo ticket non è stato rivendicato",
 	"commands.unclaim.not_claimer": "Solo gli admin e l'utente che hanno rivendicato il ticket possono annullare la rivendicazione",
 	"commands.unclaim.success": "Tutto il supporto rappresentativo può ora rispondere al ticket",
-	"commands.vote": "Clicca qui per votare per 24 ore di premium gratis:\\n<%s>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Argomento non valido: fare riferimento all'utilizzo",
 	"generic.invalid_user": "Impossibile trovare l'utente di destinazione",
 	"generic.no_permission": "Non hai i permessi per questo",
@@ -326,6 +326,19 @@
 				"no_roles": "Nessun ruolo del supporto",
 				"users_warning": "-# **Attenzione:** utenti nei team di supporto sono ora obsoleti. Si prega di migrare ai ruoli."
 			}
+		},
+		"edit": {
+			"title": "Edit Ticket Settings",
+			"description": "Below you can edit various settings for this ticket.",
+			"labels": {
+				"title": "Edit Labels",
+				"description": "Edit the labels assigned to this ticket",
+				"update_modal": {
+					"title": "Update Ticket Labels",
+					"select_menu_title": "Labels",
+					"success": "Ticket labels have been successfully updated to: %s"
+				}
+			}
 		}
 	},
 	"generic": {
@@ -344,7 +357,8 @@
 		"jump_to_top": "Fornisce un tasto per tornare all'inizio del ticket",
 		"on_call": "Ti indica come in servizio, per essere aggiunto e notificato in tutti i nuovi ticket",
 		"reopen": "Riapre un ticket precedentemente chiuso",
-		"notes": "Crea un thread per discussioni private tra i rappresentanti del supporto"
+		"notes": "Crea un thread per discussioni private tra i rappresentanti del supporto",
+		"edit": "Edits settings for the current ticket"
 	},
 	"setup": {
 		"auto": {
