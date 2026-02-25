@@ -31,11 +31,11 @@
 	"commands.tags.delete.not_exist": "找不到 ID 為\"%s\"的標籤",
 	"commands.tags.get.invalid_arguments": "您必須提供標籤的 ID。有關標籤的更多幫助，請訪問 <https://tickets.bot/tags>。",
 	"commands.tags.get.invalid_tag": "標籤無效。有關標籤的更多幫助，請訪問 <https://tickets.bot/tags>。",
-	"commands.tags.list": "所有標籤的 ID：\\n%s\\n要查看標籤的內容，請運行 `%stag <ID>`",
+	"commands.tags.list": "所有標籤的 ID：\\n%s\\n要查看標籤的內容，請運行 `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "目前問題單還沒被指派",
 	"commands.unclaim.not_claimer": "只有管理者會已被分配到的人才可以解除分配",
 	"commands.unclaim.success": "所有支持者現在都可以回復問題單",
-	"commands.vote": "投票獲得24小時的高級方案！\\n<https://vote.ticketsbot.cloud>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "無效參數：參考用法",
 	"generic.invalid_user": "找不到目標成員",
 	"generic.no_permission": "沒有權限使用唷",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "請選擇選單中任一個",
-			"success": "此客服單已被 <@%d> 切換到 `%s` 類別",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
 			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {

@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "ID `%s` wala tag nahi mil saka",
 	"commands.tags.get.invalid_arguments": "Aapko tag ki ID provide karni hogi. Tags ki help ke liye <https://tickets.bot/tags> par jaye.",
 	"commands.tags.get.invalid_tag": "Invalid tag. Tags ki aur help ke liye <https://tickets.bot/tags> par jaye.",
-	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "This ticket is not claimed",
 	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
 	"commands.unclaim.success": "All support representatives can now respond to the ticket",

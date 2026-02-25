@@ -35,7 +35,7 @@
 	"commands.unclaim.not_claimed": "Ова карта се не тражи",
 	"commands.unclaim.not_claimer": "Само администратори и корисник који је тражио карту могу да одбију карту",
 	"commands.unclaim.success": "Сви представници подршке сада могу одговорити на карту",
-	"commands.vote": "Кликните овде да гласате за 24 сата бесплатне премије:\\n<https://vote.ticketsbot.cloud>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Неважећи аргумент: Обраћај се на употребу",
 	"generic.invalid_user": "Нисам могао да нађем циљног корисника",
 	"generic.no_permission": "Nemate dozvolu da dodajete ovde",

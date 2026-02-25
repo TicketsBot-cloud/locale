@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "No s'ha trobat cap etiqueta amb l'identificador `%s`",
 	"commands.tags.get.invalid_arguments": "Has de proporcionar l'identificador per l'etiqueta. Per més ajuda sobre les etiquetes, visita <https://tickets.bot/tags>.",
 	"commands.tags.get.invalid_tag": "Etiqueta no vàlida. Per més ajuda sobre les etiquetes, visita <https://tickets.bot/tags>.",
-	"commands.tags.list": "Identificadors de totes les etiquetes: \\n%s\\nPer veure el contingut d'una etiqueta, executeu `%stag <ID>`",
+	"commands.tags.list": "Identificadors de totes les etiquetes: \\n%s\\nPer veure el contingut d'una etiqueta, executeu `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Aquest tiquet no ha estat reclamat",
 	"commands.unclaim.not_claimer": "Només els administradors i usuaris que hagin reclamat el tiquet el poden alliberar",
 	"commands.unclaim.success": "Ara, tots els integrants de suport poden respondre al tiquet",

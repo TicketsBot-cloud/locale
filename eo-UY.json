@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Etikedo kun la identiga nombro `%s` ne estis trovita",
 	"commands.tags.get.invalid_arguments": "Vi devas havigi la identigan nombron de la etikedo. Por pli da helpo kun etikedoj, viziti <https://tickets.bot/tags>.",
 	"commands.tags.get.invalid_tag": "Ĉi tiu etikedo estas nevalida. Por pli da helpo kun etikedoj, viziti <https://tickets.bot/tags>.",
-	"commands.tags.list": "Identigaj nombroj de ĉiuj etikedoj: \\n%s\\nPor vidi la enhavon de etikedo, rulu `%stag <ID>`",
+	"commands.tags.list": "Identigaj nombroj de ĉiuj etikedoj: \\n%s\\nPor vidi la enhavon de etikedo, rulu `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Ĉi tiu bileto ne estis respondecita",
 	"commands.unclaim.not_claimer": "Nur administrantoj kaj la respondeculo povas nerespondeci la bileton",
 	"commands.unclaim.success": "Ĉiaj subtenreprezentantoj nun povas respondi al la bileto",

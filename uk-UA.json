@@ -35,7 +35,7 @@
 	"commands.unclaim.not_claimed": "Ця заявка не прийнята",
 	"commands.unclaim.not_claimer": "Тільки адміни й користувач прийняв заявку може її відхилити",
 	"commands.unclaim.success": "Всі представники служби підтримки тепер можуть відповісти на запит",
-	"commands.vote": "Проголосуйте тут щоб отримати доступ до преміуму можливостей на 24 години:\\n<https://vote.ticketsbot.cloud>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Неправильне значення: мається на увазі використання",
 	"generic.invalid_user": "Не вдалося знайти вказаного користувача",
 	"generic.no_permission": "У вас немає дозволу на це",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Неправильна панель. Оберіть зі списку, що випадає",
-			"success": "<@%d> перемикнув цю заявку на панель `%s`",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
 			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {

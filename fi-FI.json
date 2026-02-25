@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Tunnistetta ID llä `%s` ei löytynyt",
 	"commands.tags.get.invalid_arguments": "Sinun on annettava ID tunnisteelle. Lisää apua saat osoitteesta <https://tickets.bot/tags>.",
 	"commands.tags.get.invalid_tag": "Virheellinen tunniste. Apua tunnisteitten käytöstä saat osoitteesta <https://tickets.bot/tags>.",
-	"commands.tags.list": "Tunnukset kaikille tunnisteille: \\n%s\\nNähdäksesi tagin sisällön, suorita `%stag <ID>`",
+	"commands.tags.list": "Tunnukset kaikille tunnisteille: \\n%s\\nNähdäksesi tagin sisällön, suorita `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Tätä lippua ei ole lunastettu",
 	"commands.unclaim.not_claimer": "Vain ylläpitäjät ja käyttäjät, jotka lunastivat lipun voivat hylätä lipun",
 	"commands.unclaim.success": "Kaikki tukihenkilöt voivat nyt vastata lippuun",
