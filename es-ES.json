@@ -35,7 +35,7 @@
 	"commands.unclaim.not_claimed": "Este ticket no es reclamado",
 	"commands.unclaim.not_claimer": "Solo los administradores y el usuario que reclamó el ticket pueden reclamar el ticket",
 	"commands.unclaim.success": "Todos los representantes de soporte ahora pueden responder al ticket",
-	"commands.vote": "Haga clic aquí para votar por 24 horas de premium gratis:\\n<https://vote.ticketsbot.cloud> .",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Argumento no válido: consulte el uso",
 	"generic.invalid_user": "No se pudo encontrar el usuario objetivo",
 	"generic.no_permission": "No tienes permiso para esto",
