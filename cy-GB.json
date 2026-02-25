@@ -11,7 +11,7 @@
 	"commands.claim.success": "Bydd dy docyn yn cael ei drin gan %s",
 	"commands.invite": "[Cliciwch yma](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Mae'n rhaid i ti nodi côd iaith neu faner. Ieithoedd sydd ar gael:\\n%s",
-	"commands.open.ticket_limit": "Dim ond %d%s wyt ti'n gallu ei hagor ar unwaith",
+	"commands.open.ticket_limit": "Dim ond %d %s wyt ti'n gallu ei hagor ar unwaith",
 	"commands.open.too_many_tickets": "Mae gormod o docynnau yn y categori tocynnau. Gofynnwch i weinyddwr gau rhai, symud nhw i gategori arall, neu sefydlu categori drosflwyddiad.\n\nMae hyn yn **gyfyngiad wedi'i osod gan Discord** o 50 sianel yn y categori.",
 	"commands.panel": "Ewch i <https://dashboard.tickets.bot/manage/%d/panels> i ffurfweddu panel",
 	"commands.premium": "Gallwch brynu tanysgrifiad premiwm o <https://www.patreon.com/ticketsbot-cloud>.\\nPremiwm yn cynnig llawer o fanteision, fel:\\n```diff\\n+ Creu paneli tocyn di-gyfyng\\n+ Addasu enw’r bot, ei lun proffil a’i statws (whitelabel)\\n+ Ystadegau manwl am y gweinydd, defnyddwyr a staff cymorth\\n+ Dim brandio yn y troedyn negeseuon\\n+ Cefnogi datblygiad a helpu talu costau’r gweinydd\\n```\\n\\nFel arall, gallwch bleidleisio yn <https://vote.tickets.bot> i gael premiwm am ddim am 24 awr",

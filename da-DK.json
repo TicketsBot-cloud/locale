@@ -24,7 +24,7 @@
 	"commands.removesupport.no_members": "Du skal nævne en bruger eller en rolle for at give administratorrettigheder",
 	"commands.rename.missing_name": "Du skal angive et nyt navn til denne ticket",
 	"commands.rename.success": "Denne ticket er blevet omdøbt til <#%d>",
-	"commands.tags.create.already_exists": "Et tag med ID'et%s` findes allerede. Du kan slette tagget ved hjælp af `/tag delete %s`",
+	"commands.tags.create.already_exists": "Et tag med ID'et %s` findes allerede. Du kan slette tagget ved hjælp af `/tag delete %s`",
 	"commands.tags.create.invalid_arguments": "Du skal angive et tag ID og indhold",
 	"commands.tags.create.too_long": "Tag ID'et kan ikke være længere end 16 tegn",
 	"commands.tags.delete.invalid_arguments": "Du skal angive et tag-ID for at slette",
