@@ -261,7 +261,7 @@
 			"please_wait": "Počkejte prosím...",
 			"success_after_check": "Prémiové členství je nyní aktivní na tomto serveru!",
 			"link_patreon_account": "Propojení účtu Patreon",
-			"no_subscription": "Nelze najít aktivní předplatné Patreonu, které je propojeno s vaším Discord účtem. Ujistěte se, že [jste propojili své Patreon a Discord účty](https://support. atreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) a dalších 10 minut.",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
 			"open_form": "Otevřít formulář",
 			"open_form_description": "Stiskněte tlačítko níže pro opětovné otevření formuláře",
 			"use_key_anyway": "Přesto použít prémiový klíč",
@@ -362,7 +362,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Chcete se dozvědět víc? Naše [dokumentace] (https://docs.ticketbot.net) vás provede kompletní konfigurací!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Musíte zadat kanál oznámení ticketu",

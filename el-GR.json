@@ -362,7 +362,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Θέλετε να εξερευνήσετε περισσότερο; Το [documentation](https://docs.ticketbot.net) θα σας διδάξει πως να ρυθμίσετε κάθε πτυχή του bot!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Πρέπει να παρέχετε ένα κανάλι ειδοποιήσεων των ticket",

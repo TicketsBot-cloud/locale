@@ -261,7 +261,7 @@
 			"please_wait": "Vennligst vent...",
 			"success_after_check": "Premium is now active in this server!",
 			"link_patreon_account": "Link Patreon konto",
-			"no_subscription": "Finner ikke et aktivt Patreon abonnement knyttet til din Discord konto. Sørg for at du [har koblet til dine Patreon og Discord-kontoer](https://support. atreon.com/hc/en-us/articles/212052266-Get-my-Discord-rolle), og en avvent ytterligere 10 minutter.",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
 			"open_form": "Åpne skjema",
 			"open_form_description": "Trykk på knappen nedenfor for å åpne skjemaet på nytt",
 			"use_key_anyway": "Bruk Premium nøkkel uansett",

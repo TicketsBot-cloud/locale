@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "انا افتقد إذن \"إدارة القنوات\"",
 	"setup.auto.category.success": "تم إنشاء فئة التذاكر",
-	"setup.auto.completed": "اكتمل الإعداد! انقر [هنا](https://panel.ticketsbot. et/manage/%d/panels) لإعداد لوحة التفاعل، وإضافة الأدوار <@&%d> و <@&%d> لموظفيك",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "انا افتقد إذن \"إدارة الأدوار\"",
 	"setup.auto.roles.success": "تم انشاء أدوار `مشرف التذاكر` & `دعم التذاكر`",
 	"setup.auto.transcript.failure": "انا افتقد إذن \"إدارة القنوات\"",

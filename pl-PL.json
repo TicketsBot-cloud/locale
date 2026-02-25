@@ -261,7 +261,7 @@
 			"please_wait": "Proszę czekać...",
 			"success_after_check": "Premium jest teraz aktywne na tym serwerze!",
 			"link_patreon_account": "Połącz konto Patreon",
-			"no_subscription": "Nie udało się znaleźć aktywnej subskrypcji Patreon połączonej z Twoim kontem Discord. Upewnij się, że [połączyłeś swoje konta Patreon i Discord](https://support.patreon.com/hc/pl-pl/articles/212052266-Jak-połączyć-Discorda-z-Patreonem-Patron-), a następnie poczekaj 10 minut.",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
 			"open_form": "Otwórz formularz",
 			"open_form_description": "Naciśnij poniższy przycisk, aby otworzyć ponownie formularz",
 			"use_key_anyway": "Użyj klucza Premium mimo to",

@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Jeg mangler tilladelsen `Administrer kanaler`",
 	"setup.auto.category.success": "Oprettet en ticket kategori",
-	"setup.auto.completed": "Opsætning fuldført! Klik [her](https://dashboard.ticketsbot. et/manage/%d/panels) til at opsætte et reaktionspanel, og tilføj rollerne <@&%d> og <@&%d> til dine medarbejdere",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "Jeg mangler tilladelsen `Administrer roller`",
 	"setup.auto.roles.success": "Oprettet `Tickets Administrator` & `Tickets Support` roller",
 	"setup.auto.transcript.failure": "Jeg mangler tilladelsen `Administrer kanaler`",

@@ -94,7 +94,7 @@
 	"setup.transcript.success": "問題單記錄頻道已更改到 <#%d>",
 	"commands.language.help_wanted": "如果你想一起翻譯，就加入 [Ticket Bot 官方群組](https://discord.gg/ticketsbot) 吧！",
 	"commands.rename.too_long": "頻道名稱不能超過 100 個字啦",
-	"commands.autoclose.configure": "查看 [控制面板](https://dashboard.tickets.bot/manage/%d/panels) 以變更自動關閉設定",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "自動關閉相關指令",
 	"help.autoclose.exclude": "避免目前客服單被自動關閉",
 	"help.autoclose.configure": "更改自動關閉選項",
