@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "No s'ha trobat cap etiqueta amb l'identificador `%s`",
 	"commands.tags.get.invalid_arguments": "Has de proporcionar l'identificador per l'etiqueta. Per més ajuda sobre les etiquetes, visita <https://tickets.bot/tags>.",
 	"commands.tags.get.invalid_tag": "Etiqueta no vàlida. Per més ajuda sobre les etiquetes, visita <https://tickets.bot/tags>.",
-	"commands.tags.list": "Identificadors de totes les etiquetes: \\n%s\\nPer veure el contingut d'una etiqueta, executeu `%stag <ID>`",
+	"commands.tags.list": "Identificadors de totes les etiquetes: \\n%s\\nPer veure el contingut d'una etiqueta, executeu `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Aquest tiquet no ha estat reclamat",
 	"commands.unclaim.not_claimer": "Només els administradors i usuaris que hagin reclamat el tiquet el poden alliberar",
 	"commands.unclaim.success": "Ara, tots els integrants de suport poden respondre al tiquet",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Panell no vàlid: Has de seleccionar-ne un de la llista desplegable",
-			"success": "This ticket has been switched to the `%s` panel by <@%d>",
+			"success": "<@%[2]d> ha mogut aquest tiquet al panell `%[1]s`",
 			"non_thread_to_thread": "No pots canviar a un panell que usi fils des d'un tiquet de tipus canal"
 		},
 		"blacklist": {
@@ -328,15 +328,15 @@
 			}
 		},
 		"edit": {
-			"title": "Edit Ticket Settings",
-			"description": "Below you can edit various settings for this ticket.",
+			"title": "Editar Configuració del Tiquet",
+			"description": "A sota, pots editar varis paràmetres del tiquet.",
 			"labels": {
-				"title": "Edit Labels",
-				"description": "Edit the labels assigned to this ticket",
+				"title": "Editar Etiquetes",
+				"description": "Editar les etiquetes assignades a aquest tiquet",
 				"update_modal": {
-					"title": "Update Ticket Labels",
-					"select_menu_title": "Labels",
-					"success": "Ticket labels have been successfully updated to: %s"
+					"title": "Actualitzar Etiquetes del Tiquet",
+					"select_menu_title": "Etiquetes",
+					"success": "Les etiquetes del tiquet s'han actualitzat correctament a: %s"
 				}
 			}
 		}
@@ -358,7 +358,7 @@
 		"on_call": "Et marca com a disponible, per ser afegit i mencionat a tots els nous tiquets",
 		"reopen": "Torna a obrir un tiquet que ha estat tancat prèviament",
 		"notes": "Crea un fil per discutir en privat entre els integrants de l'equip de suport",
-		"edit": "Edits settings for the current ticket"
+		"edit": "Edita la configuració del tiquet actual"
 	},
 	"setup": {
 		"auto": {
