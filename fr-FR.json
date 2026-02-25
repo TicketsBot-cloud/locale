@@ -328,15 +328,15 @@
 			}
 		},
 		"edit": {
-			"title": "Edit Ticket Settings",
-			"description": "Below you can edit various settings for this ticket.",
+			"title": "Modifier les paramètres des tickets",
+			"description": "Ci-dessous vous pouvez modifier différents paramètres pour ce ticket.",
 			"labels": {
-				"title": "Edit Labels",
-				"description": "Edit the labels assigned to this ticket",
+				"title": "Modifier les étiquettes",
+				"description": "Modifier les étiquettes assignées à ce ticket",
 				"update_modal": {
-					"title": "Update Ticket Labels",
-					"select_menu_title": "Labels",
-					"success": "Ticket labels have been successfully updated to: %s"
+					"title": "Mettre à jour les étiquettes de tickets",
+					"select_menu_title": "Étiquettes",
+					"success": "Les étiquettes de ticket ont été mises à jour avec succès : %s"
 				}
 			}
 		}
@@ -358,7 +358,7 @@
 		"on_call": "Vous marque comme disponible pour être ajouté et notifié dans tous les nouveaux tickets",
 		"reopen": "Rouvre un ticket qui a été précédemment fermé",
 		"notes": "Crée un fil de discussion privé entre les représentants de l'équipe d'assistance",
-		"edit": "Edits settings for the current ticket"
+		"edit": "Modifie les paramètres du ticket actuel"
 	},
 	"setup": {
 		"auto": {

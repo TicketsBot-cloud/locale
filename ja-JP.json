@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "無効なパネル: ドロップダウンメニューから選択する必要があります。",
-			"success": "このチケットは<@%d>によって `%s`パネルに切り替えられました。",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>",
 			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
 		},
 		"blacklist": {
