@@ -11,7 +11,7 @@
 	"commands.claim.success": "Το ticket σας θα εξυπηρετηθεί από τον/την %s",
 	"commands.invite": "[Πάτα εδώ](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Πρέπει να διαλέξετε μια γλώσσα ή σημαία. Διαθέσιμες γλώσσες:\\n%s",
-	"commands.open.ticket_limit": "Μπορείς να ανοίξεις %d %s μόνο μία φορά",
+	"commands.open.ticket_limit": "You are only able to open %d %s at once",
 	"commands.open.too_many_tickets": "Υπάρχουν πολλά tickets στην κατηγορία των tickets, ζητά από έναν διαχειριστή να κλείσει μερικά ή να τα μεταφέρει σε άλλη κατηγορία",
 	"commands.panel": "Επισκεφτείτε το <https://dashboard.tickets.bot/manage/%d/panels> για να διαμορφώσετε έναν πίνακα",
 	"commands.premium": "Μπορείς να αγοράσεις premium συνδρομή στο <https://www.patreon.com/ticketsbot-cloud>.\\nΤο premium σου παρέχει πολλά οφέλη, όπως:\\n```diff\\n+Δημιουργία απεριόριστων ticket πίνακες\\n+Προσαρμογή ονόματος, avatar και status του bot (whitelabel)\\n+ Λεπτομερή στατιστικά στοιχεία για το διακομιστή, χρήστες και το προσωπικό υποστήριξης\\n+ Χωρίς εμπορικό σήμα στο υποσέλιδο των μηνυμάτων\\n+ Υποστηρίζει την ανάπτυξη και βοηθάει να πληρώσω το κόστος του διακοσμητή\\n```\\n\\nΕναλλακτικά, μπορείτε να ψηφίσετε στο <https://vote.tickets.bot> για να πάρεις δωρεάν premium για 24 ώρες",
