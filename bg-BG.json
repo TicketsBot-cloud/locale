@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Таг с ИД `%s` не е намерен",
 	"commands.tags.get.invalid_arguments": "Трябва да поясните ИД-то на тага. За съдействие с таговете, посетете <https://tickets.bot/tags>.",
 	"commands.tags.get.invalid_tag": "Невалиден таг. За помощ с тагове посетете <https://tickets.bot/tags>.",
-	"commands.tags.list": "Идентификатори за всички тагове: \\n%s\\n За да видите съдържанията в един таг, използвайте `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Този тикет не е поет",
 	"commands.unclaim.not_claimer": "Само администраторите или потребителят, поел тикета може да отнеме поемането",
 	"commands.unclaim.success": "Всички потребители с привилегии съпорт вече могат да отговарят на тикета",

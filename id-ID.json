@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Tag dengan ID `%s` tidak dapat ditemukan",
 	"commands.tags.get.invalid_arguments": "Anda harus memberikan ID tag. Untuk bantuan lebih lanjut mengenai tag, kunjungi <https://tickets.bot/tags>.",
 	"commands.tags.get.invalid_tag": "Tag tidak valid. Untuk bantuan lebih lanjut mengenai tag, kunjungi <https://tickets.bot/tags>.",
-	"commands.tags.list": "ID untuk semua tag: \\n%s\\nUntuk melihat konten tag, jalankan `/%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Tidak ini tidak diklaim",
 	"commands.unclaim.not_claimer": "Hanya admin dan pengguna yang mengklaim tiket yang dapat membatalkan klaim tiket tersebut",
 	"commands.unclaim.success": "Semua perwakilan dukungan sekarang dapat merespons tiket tersebut",
