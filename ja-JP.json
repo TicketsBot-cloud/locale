@@ -282,7 +282,7 @@
 			},
 			"about": "プレミアムは、より多くのパネル、統計情報、カスタムボットなどにアクセスできます！詳細については、 [公式サイト](https://tickets.bot/premium) をご覧ください。",
 			"already_activated": "良いお知らせです！プレミアムは既にこのサーバーで有効になっています。",
-			"already_activated_whitelabel": "良いお知らせです！プレミアムはこのサーバーで既に有効になっています。\n\nホワイトラベルの使い方については、 [ホワイトラベルのセットアップガイド](https://docs.tickets.bot/premium/whitelabel-setup-guide)をご覧ください",
+			"already_activated_whitelabel": "良いお知らせです！プレミアムはこのサーバーで既に有効になっています。\n\nホワイトラベルの使い方については、 [ホワイトラベルのセットアップガイド](https://docs.tickets.bot/premium/whitelabel-setup-guide)をご覧ください。",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
