@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Minulta puuttuu `Hallinnoi Kanavia` oikeus",
 	"setup.auto.category.success": "Luotu liput kategoria",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Asennus on valmis! Paina [tästä](https://dashboard.tickets.bot/manage/%d/panels) määrittääksesi reaktiopaneeli ja lisätäksesi <@&%d> ja <@&%d> roolit henkilökunnalle",
 	"setup.auto.roles.failure": "Minulta puuttuu `Hallinnoi Rooleja` oikeus",
 	"setup.auto.roles.success": "Luotu `Lippujen Järjestelmänvalvoja` & `Lippujen Tukihenkilö` roolit",
 	"setup.auto.transcript.failure": "Minulta puuttuu `Hallinnoi Kanavia` oikeus",
