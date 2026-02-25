@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Mul on puudu \"Manage Channels\" luba",
 	"setup.auto.category.success": "Tegin Tickets kategooria",
-	"setup.auto.completed": "Seadistamine valmis! Vajuta [siia] (%s) et seadistada reaktsiooni paneel <@&%d> ja <@&%d> rollid sinu personaalidele",
+	"setup.auto.completed": "Seadistamine valmis! Vajuta [siia](%s) et seadistada reaktsiooni paneel <@&%d> ja <@&%d> rollid sinu personaalidele",
 	"setup.auto.roles.failure": "Mul puudub \"Manage Roles\" luba",
 	"setup.auto.roles.success": "Tegin `Tickets Admin` ja `Tickets Support` rollid",
 	"setup.auto.transcript.failure": "Mul puudub \"Manage Channels\" luba",

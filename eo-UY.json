@@ -261,7 +261,7 @@
 			"please_wait": "Bonvolu atendi...",
 			"success_after_check": "Premiumo nun estas aktiva en ĉi tiu servilo!",
 			"link_patreon_account": "Ligi Patreon-Konton",
-			"no_subscription": "Ne eblis trovi aktivan Patreon-abonadon ligitan al via Discord-konto. Certiĝu, ke vi [ligis viajn Patreon kaj Discord-kontojn] (%s), kaj atendi pliajn 10 minutojn.",
+			"no_subscription": "Ne eblis trovi aktivan Patreon-abonadon ligitan al via Discord-konto. Certiĝu, ke vi [ligis viajn Patreon kaj Discord-kontojn](%s), kaj atendi pliajn 10 minutojn.",
 			"open_form": "Malfermi Formularon",
 			"open_form_description": "Premu la butonon sube por remalfermi la formularon",
 			"use_key_anyway": "Uzu Premium-klavon ĉiuokaze",
@@ -282,7 +282,7 @@
 			},
 			"about": "Premiumo donas aliron al pli da paneloj, statistiko, kutima roboto kaj pli! Vizitu nian retejon (%s) por lerni pli.",
 			"already_activated": "Bonaj novaĵoj! Premiumo jam estas aktiva en ĉi tiu servilo.",
-			"already_activated_whitelabel": "Bonaj novaĵoj! Premiumo jam estas aktiva en ĉi tiu servilo.\n\nPor helpo pri komencado kun whitelabel, legu [nian whitelabel agordan gvidilon].",
+			"already_activated_whitelabel": "Bonaj novaĵoj! Premiumo jam estas aktiva en ĉi tiu servilo.\n\nPor helpo pri komencado kun whitelabel, legu [nian whitelabel agordan gvidilon](%s).",
 			"discord": {
 				"no_subscription": "Premiumo povas esti aĉetita rekte en Discord. Alklaku la butonon sube ĉi tiu mesaĝo por malfermi la paĝon de abona administrado.\n\nPost aĉetado, bonvolu atendi ĝis 5 minutoj por ke la abono estu detektita."
 			},

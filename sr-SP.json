@@ -100,7 +100,7 @@
 	"help.autoclose.configure": "Прилагоди аутоматско затварање",
 	"commands.autoclose.exclude.success": "Ова карта је искључена из аутоматског затварања",
 	"commands.claim.no_permission": "Само чланови особља могу тражити улазнице",
-	"commands.open.from": "Ова карта је отворена од [ова порука] (%s).\n\n<@%d> said in <#%d>:\n```%s```",
+	"commands.open.from": "Ова карта је отворена од [ова порука](%s).\n\n<@%d> said in <#%d>:\n```%s```",
 	"commands.open.from.moved": "Разговор је пребачен на карту (<#%d>)",
 	"help.close_request": "Шаље поруку кориснику да потврди да је карта затворена",
 	"close.reason_too_long": "Идентификација не може бити дужа од 255 знакова",

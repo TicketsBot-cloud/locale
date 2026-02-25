@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Kanalları yönet iznine sahip değil",
 	"setup.auto.category.success": "Destek kategorisi oluşturuldu",
-	"setup.auto.completed": "Kurulum tamamlandı! Bir reaksiyon paneli kurmak için [buraya] (%s) tıklayın ve personel üyelerinize <@&%d> ve <@&%d> rollerini ekleyin",
+	"setup.auto.completed": "Kurulum tamamlandı! Bir reaksiyon paneli kurmak için [buraya](%s) tıklayın ve personel üyelerinize <@&%d> ve <@&%d> rollerini ekleyin",
 	"setup.auto.roles.failure": "Rolleri yönet iznine sahip değil",
 	"setup.auto.roles.success": "Bilet yöneticisi ve bilet destek rolleri oluşturuldu",
 	"setup.auto.transcript.failure": "Kanalları yönet yetkisine sahip değil",

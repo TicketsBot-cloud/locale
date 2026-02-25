@@ -261,7 +261,7 @@
 			"please_wait": "Espere, por favor...",
 			"success_after_check": "¡Ahora está activo en este servidor el Premium!",
 			"link_patreon_account": "Vincular cuenta de Patreon",
-			"no_subscription": "No se pudo encontrar una suscripción activa de Patreon vinculada a su cuenta de Discord. Asegúrese de [haber vinculado sus cuentas de Patreon y Discord] (%s) y espere otros 10 minutos.",
+			"no_subscription": "No se pudo encontrar una suscripción activa de Patreon vinculada a su cuenta de Discord. Asegúrese de [haber vinculado sus cuentas de Patreon y Discord](%s) y espere otros 10 minutos.",
 			"open_form": "Abrir el formulario",
 			"open_form_description": "Pulse el botón de abajo para reabrir el formulario",
 			"use_key_anyway": "Usar clave premium de todos modos",
@@ -282,7 +282,7 @@
 			},
 			"about": "¡Premium te da acceso a más paneles, estadísticas, un bot personalizado y más! Visite nuestro [sitio web](%s) para obtener más información.",
 			"already_activated": "¡Buenas noticias! Premium ya está activo en este servidor.",
-			"already_activated_whitelabel": "¡Buenas noticias! Premium ya está activo en este servidor.\n\nPara obtener ayuda para comenzar con whitelabel, lee [nuestra guía de configuración de whitelabel] (%s).",
+			"already_activated_whitelabel": "¡Buenas noticias! Premium ya está activo en este servidor.\n\nPara obtener ayuda para comenzar con whitelabel, lee [nuestra guía de configuración de whitelabel](%s).",
 			"discord": {
 				"no_subscription": "Se puede comprar Premium directamente dentro de Discord. Haz clic en el botón de abajo para abrir la página de administración de suscripciones.\n\nTras completar la compra, por favor espera hasta 5 minutos para que se detecte la suscripción."
 			},

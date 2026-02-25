@@ -261,7 +261,7 @@
 			"please_wait": "Vent venligst...",
 			"success_after_check": "Premium er nu aktiveret på denne server!",
 			"link_patreon_account": "Forbind Patreon Konto",
-			"no_subscription": "Kunne ikke finde et aktivt Patreon-abonnement knyttet til din Discord-konto. Sørg for, at du [har linket dine Patreon- og Discord-konti] (%s), og vent yderligere 10 minutter.",
+			"no_subscription": "Kunne ikke finde et aktivt Patreon-abonnement knyttet til din Discord-konto. Sørg for, at du [har linket dine Patreon- og Discord-konti](%s), og vent yderligere 10 minutter.",
 			"open_form": "Åbn Formular",
 			"open_form_description": "Tryk på knappen nedenfor for at genåbne formularen",
 			"use_key_anyway": "Brug Alligevel Premium Nøgle",

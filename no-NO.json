@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
 	"setup.auto.category.success": "Opprett ticket kategori",
-	"setup.auto.completed": "Konfigurasjon fullført! Trykk [her] (%s) for å sette opp ett reaksjonspanel, og legg til <@&%d> and <@&%d> roller til dine ansatte",
+	"setup.auto.completed": "Konfigurasjon fullført! Trykk [her](%s) for å sette opp ett reaksjonspanel, og legg til <@&%d> and <@&%d> roller til dine ansatte",
 	"setup.auto.roles.failure": "Jeg mangler tillatelsen `Administrer Roller`",
 	"setup.auto.roles.success": "Opprettet `Ticket Admin` og `Ticket Support` roller",
 	"setup.auto.transcript.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
