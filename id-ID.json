@@ -1,5 +1,5 @@
 {
-	"commands.about": "Ticket adalah bot tiket dan dukugan yang mudah digunakan dan sangat dikonfigurasi.\\nServer dukungan: https://discord.gg/ticketsbot\\nPerintah: Ketik `/help`\\nMulai dengan menjalankan `/setup`",
+	"commands.about": "Ticket adalah bot tiket dan dukugan yang mudah digunakan dan sangat dikonfigurasi.\\nServer dukungan: %s\\nPerintah: Ketik `/help`\\nMulai dengan menjalankan `/setup`",
 	"commands.add.no_members": "Anda perlu menyebutkan anggota untuk ditambahkan ke tiket",
 	"commands.add.no_permission": "Anda tidak memiliki izin untuk menambahkan orang ke tiket ini",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "Anda perlu menyebutkan pengguna untuk mengaktifkan status daftar hitam",
 	"commands.blacklist.self": "Anda tidak dapat memasukkan diri Anda sendiri ke dalam daftar hitam",
 	"commands.claim.success": "Tiket Anda akan ditangani oleh %s",
-	"commands.invite": "[Klik disini](<https://invite.tickets.bot>)",
+	"commands.invite": "[Klik disini](<%s>)",
 	"commands.language.invalid": "Anda perlu menentukan kode atau tanda bahasa. Bahasa yang tersedia:\\n%s",
 	"commands.open.ticket_limit": "Anda hanya dapat membuka %d %s sekaligus",
 	"commands.open.too_many_tickets": "Anda terlalu banyak tiket di kategori tiket. Minta admin untuk menutup beberapa, memindahkannya ke kategori lain, atau mgrenyiapkan kategori tambahan.\n\nIni adalah **Batas yang diberlakukan Discord** sebanyak 50 saluran per kategori.",
-	"commands.panel": "Kunjungi <https://dashboard.tickets.bot/manage/%d/panels> untuk mungonfigurasi panel",
-	"commands.premium": "Anda dapat membeli langganan premium dari <https://www.patreon.com/ticketsbot-cloud>.\\nPremium memberikan banyak keuntungan, seperti\\n```diff\\n+Membuat panel tiket tanpa batas\\n+ Sesuaikan nama bot, avatar & status (label putih)\\n+Statistik terperinci tentang server, pengguna, dan staf pendukung\\n+ Tidak ada merek di footer pesan\\n+Mendukung pengembangan dan membantu saya membayar biaya server\\n```\\n\\nAtau, Anda dapat memilih di <https://vote.tickets.bot> untuk mendapatkan premium gratis selama 24 jam",
+	"commands.panel": "Kunjungi <%s> untuk mungonfigurasi panel",
+	"commands.premium": "Anda dapat membeli langganan premium dari <%s>.\\nPremium memberikan banyak keuntungan, seperti\\n```diff\\n+Membuat panel tiket tanpa batas\\n+ Sesuaikan nama bot, avatar & status (label putih)\\n+Statistik terperinci tentang server, pengguna, dan staf pendukung\\n+ Tidak ada merek di footer pesan\\n+Mendukung pengembangan dan membantu saya membayar biaya server\\n```\\n\\nAtau, Anda dapat memilih di <%s> untuk mendapatkan premium gratis selama 24 jam",
 	"commands.premium.invalid_key": "Kunci tidak sesuai. Pastikan Anda telah menyalinnya dengan benar.",
 	"commands.remove.no_permission": "Anda tidak memiliki izin untuk menghapus orang dari tiket ini",
 	"commands.remove.staff": "Anda tidak dapat menghapus staf dari ticket",
@@ -29,8 +29,8 @@
 	"commands.tags.create.too_long": "ID Tag tidak boleh lebih dari 16 karakter",
 	"commands.tags.delete.invalid_arguments": "Anda harus menentukan ID tag yang akan dihapus",
 	"commands.tags.delete.not_exist": "Tag dengan ID `%s` tidak dapat ditemukan",
-	"commands.tags.get.invalid_arguments": "Anda harus memberikan ID tag. Untuk bantuan lebih lanjut mengenai tag, kunjungi <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Tag tidak valid. Untuk bantuan lebih lanjut mengenai tag, kunjungi <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Anda harus memberikan ID tag. Untuk bantuan lebih lanjut mengenai tag, kunjungi <%s>.",
+	"commands.tags.get.invalid_tag": "Tag tidak valid. Untuk bantuan lebih lanjut mengenai tag, kunjungi <%s>.",
 	"commands.tags.list": "ID untuk semua tag: \\n%s\\nUntuk melihat konten tag, jalankan `/%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Tidak ini tidak diklaim",
 	"commands.unclaim.not_claimer": "Hanya admin dan pengguna yang mengklaim tiket yang dapat membatalkan klaim tiket tersebut",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Saya kehilangan izin `Kelola Saluran`",
 	"setup.auto.category.success": "Kategori Tiket yang Dibuat",
-	"setup.auto.completed": "Penyiapan selesai! Klik [di sini](https://dashboard.tickets.bot/manage/%d/panels) untuk menyiapkan panel reaksi, dan menambahkan peran <@&%d> dan <@&%d> ke anggota staf Anda",
+	"setup.auto.completed": "Penyiapan selesai! Klik [di sini](%s) untuk menyiapkan panel reaksi, dan menambahkan peran <@&%d> dan <@&%d> ke anggota staf Anda",
 	"setup.auto.roles.failure": "Saya kehilangan izin `Kelola Peran`",
 	"setup.auto.roles.success": "Membuat peran `Admin Ticket` & `Dukungan Tiket`",
 	"setup.auto.transcript.failure": "Saya kehilangan izin `Kelola Saluran`",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "Batas tiket telah diperbarui menjadi `%d`",
 	"setup.transcript.invalid": "Anda harus menyebutkan saluran valid di server (misalnya <#%d>)\\n**Contoh:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Saluran transkrip telah diubah menjadi <#%d>",
-	"commands.language.help_wanted": "Apakah Anda berbicara bahasa lain? Bergabunglah dengan [server dukungan](https://discord.gg/ticketsbot) kami jika Anda tertarik membantu menerjemahkan bot ke lebih banyak bahasa",
+	"commands.language.help_wanted": "Apakah Anda berbicara bahasa lain? Bergabunglah dengan [server dukungan](%s) kami jika Anda tertarik membantu menerjemahkan bot ke lebih banyak bahasa",
 	"commands.rename.too_long": "Nama saluran tidak boleh lebih dari 100 karakter",
-	"commands.autoclose.configure": "Kunjungi [dasbor](https://dashboard.tickets.bot/manage/%d/settings) untuk mengubah pengaturan tutup otomatis",
+	"commands.autoclose.configure": "Kunjungi [dasbor](%s) untuk mengubah pengaturan tutup otomatis",
 	"help.autoclose": "Perintah terkait tutup otomatis",
 	"help.autoclose.exclude": "Tidak termasuk tiket saat ini agar tidak tutup secara otomatis",
 	"help.autoclose.configure": "Edit pengaturan terkait tutup otomatis",
@@ -238,7 +238,7 @@
 			"select": "Pilih bahasa (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` hanya dapat digunakan dalam mode thread. Kunjungi [dokumen](https://docs.tickets.bot/features/thread-mode) untuk mengetahui lebih lanjut tentang rangkaian pesan",
+			"channel_mode": "`/on-call` hanya dapat digunakan dalam mode thread. Kunjungi [dokumen](%s) untuk mengetahui lebih lanjut tentang rangkaian pesan",
 			"success": "Anda sekarang sedang dihubungi",
 			"remove_success": "Anda tidak lagi dapat dihubungi"
 		},
@@ -261,7 +261,7 @@
 			"please_wait": "Mohon tunggu...",
 			"success_after_check": "Premium sekarang aktif di server ini!",
 			"link_patreon_account": "Tautkan Akun Patreon",
-			"no_subscription": "Tidak dapat menemukan langganan Patreon aktif yang tertaut ke akun Discord Anda. Pastikan Anda [telah menautkan akun Patreon dan Discord Anda](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), dan tunggu 10 menit lagi.",
+			"no_subscription": "Tidak dapat menemukan langganan Patreon aktif yang tertaut ke akun Discord Anda. Pastikan Anda [telah menautkan akun Patreon dan Discord Anda](%s), dan tunggu 10 menit lagi.",
 			"open_form": "Buka Formulir",
 			"open_form_description": "Tekan tombol di bawah untuk membuka kembali formulir",
 			"use_key_anyway": "Tetap gunakan Kunci Premium",
@@ -280,9 +280,9 @@
 					"description": "Pilih opsi ini jika Anda melakukan pembelian di toko dalam aplikasi Discord"
 				}
 			},
-			"about": "Premium memberi Anda akses ke lebih banyak panel, statistik, bot khusu, dan banyak lagi! Kunjungi [situs web](https://tickets.bot/premium) untuk mengetahui lebih lanjut.",
+			"about": "Premium memberi Anda akses ke lebih banyak panel, statistik, bot khusu, dan banyak lagi! Kunjungi [situs web](%s) untuk mengetahui lebih lanjut.",
 			"already_activated": "Kabar bait! Premium sudah aktif di server ini.",
-			"already_activated_whitelabel": "Kabar baik! Premium sudah aktif di server ini.\n\nUntuk bantuan memulai whitelabel, baca [panduan penyiapan whitelabel kami](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Kabar baik! Premium sudah aktif di server ini.\n\nUntuk bantuan memulai whitelabel, baca [panduan penyiapan whitelabel kami](%s).",
 			"discord": {
 				"no_subscription": "Premium dapat dibeli langsung di Discord. Klik tombol di bawah pesan ini untuk membuka halaman manajemen langganan.\n\nSetelah dibeli, harap tunggu hingga 5 menit agar langganan terdeteksi."
 			},
@@ -362,7 +362,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Ingin menjelajahi lebih jauh? [Dokumentasi](https://docs.tickets.bot) kami akan mengajari Anda cara mengonfigurasi setiap aspek bot!"
+			"docs": "Ingin menjelajahi lebih jauh? [Dokumentasi](%s) kami akan mengajari Anda cara mengonfigurasi setiap aspek bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Anda harus menyediakan saluran notifikasi tiket",

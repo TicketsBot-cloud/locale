@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets on helppokäyttöinen ja helposti muokattavissa oleva lippu- ja tukibotti.\\nTukipalvelin: https://discord.gg/ticketsbot\\nKomennot: Kirjoita `/help`\\nAloita suorittamalla `/setup`",
+	"commands.about": "Tickets on helppokäyttöinen ja helposti muokattavissa oleva lippu- ja tukibotti.\\nTukipalvelin: %s\\nKomennot: Kirjoita `/help`\\nAloita suorittamalla `/setup`",
 	"commands.add.no_members": "Sinun täytyy mainita jäseniä, jotka haluat lisätä lippuun",
 	"commands.add.no_permission": "Sinulla ei ole oikeuksia lisätä ihmisiä tähän lippuun",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "Sinun täytyy mainita käyttäjä vaihtaaksesi mustan listan tilaa",
 	"commands.blacklist.self": "Et voi mustalistata itseäsi",
 	"commands.claim.success": "%s käsittelee sinun lippusi",
-	"commands.invite": "[Klikkaa tästä](<https://invite.tickets.bot>)",
+	"commands.invite": "[Klikkaa tästä](<%s>)",
 	"commands.language.invalid": "Sinun täytyy määrittää kielikoodi tai lippu. Saatavilla olevat kielet:\\n%s",
 	"commands.open.ticket_limit": "Voit avata vain %d %s kerrallaan",
 	"commands.open.too_many_tickets": "Lippukategoriassa on liian monta lippua. Pyydä ylläpitäjää sulkemaan joitakin, siirtämään ne toiseen kategoriaan tai asettamaan ylivuotokategoria.\n\nTämä on **Discordin asettama raja** 50 kanavaa yhteen kategoriaan.",
-	"commands.panel": "Vieraile <https://dashboard.tickets.bot/manage/%d/panels> määrittääksesi paneeli",
-	"commands.premium": "Voit ostaa Premium-tilauksen osoitteesta <https://www.patreon.com/ticketsbot-cloud>.\\nPremium tarjoaa monia etuja, kuten:\\n````diff\\n+ Luo rajattomasti lippupaneelit\\n+ Mukauta botin nimeä, avatar & status (whitelabel)\\n+ Yksityiskohtaiset tilastot palvelimesta, käyttäjistä ja tukihenkilöistä\\n+ Ei brändäystä viestien alatunnisteessa\\n+ Tue kehitystä ja auta minua maksamaan palvelimen kustannukset\\n```\\n\\nVaihtoehtoisesti, voit äänestää osoitteessa <https://vote.tickets.bot> saadaksesi premiumin ilmaiseksi 24 tunniksi",
+	"commands.panel": "Vieraile <%s> määrittääksesi paneeli",
+	"commands.premium": "Voit ostaa Premium-tilauksen osoitteesta <%s>.\\nPremium tarjoaa monia etuja, kuten:\\n````diff\\n+ Luo rajattomasti lippupaneelit\\n+ Mukauta botin nimeä, avatar & status (whitelabel)\\n+ Yksityiskohtaiset tilastot palvelimesta, käyttäjistä ja tukihenkilöistä\\n+ Ei brändäystä viestien alatunnisteessa\\n+ Tue kehitystä ja auta minua maksamaan palvelimen kustannukset\\n```\\n\\nVaihtoehtoisesti, voit äänestää osoitteessa <%s> saadaksesi premiumin ilmaiseksi 24 tunniksi",
 	"commands.premium.invalid_key": "Virheellinen avain. Varmista, että olet kopioinut sen oikein.",
 	"commands.remove.no_permission": "Sinulla ei ole oikeuksia poistaa ihmisiä tästä lipusta",
 	"commands.remove.staff": "Et voi poistaa ylläpitäjiä lipusta",
@@ -29,8 +29,8 @@
 	"commands.tags.create.too_long": "Tunnisteessa voi olla enintään 16 merkkiä",
 	"commands.tags.delete.invalid_arguments": "Sinun on määritettävä tag ID poistaaksesi",
 	"commands.tags.delete.not_exist": "Tunnistetta ID llä `%s` ei löytynyt",
-	"commands.tags.get.invalid_arguments": "Sinun on annettava ID tunnisteelle. Lisää apua saat osoitteesta <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "Virheellinen tunniste. Apua tunnisteitten käytöstä saat osoitteesta <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_arguments": "Sinun on annettava ID tunnisteelle. Lisää apua saat osoitteesta <%s>.",
+	"commands.tags.get.invalid_tag": "Virheellinen tunniste. Apua tunnisteitten käytöstä saat osoitteesta <%s>.",
 	"commands.tags.list": "Tunnukset kaikille tunnisteille: \\n%s\\nNähdäksesi tagin sisällön, suorita `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Tätä lippua ei ole lunastettu",
 	"commands.unclaim.not_claimer": "Vain ylläpitäjät ja käyttäjät, jotka lunastivat lipun voivat hylätä lipun",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Minulta puuttuu `Hallinnoi Kanavia` oikeus",
 	"setup.auto.category.success": "Luotu liput kategoria",
-	"setup.auto.completed": "Asennus on valmis! Paina [tästä](https://dashboard.ticketsbot. et/manage/%d/panels) määrittääksesi reaktiopaneeli ja lisätäksesi <@&%d> ja <@&%d> roolit henkilökunnalle",
+	"setup.auto.completed": "Asennus on valmis! Paina [tästä](%s) määrittääksesi reaktiopaneeli ja lisätäksesi <@&%d> ja <@&%d> roolit henkilökunnalle",
 	"setup.auto.roles.failure": "Minulta puuttuu `Hallinnoi Rooleja` oikeus",
 	"setup.auto.roles.success": "Luotu `Lippujen Järjestelmänvalvoja` & `Lippujen Tukihenkilö` roolit",
 	"setup.auto.transcript.failure": "Minulta puuttuu `Hallinnoi Kanavia` oikeus",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "Lippujen määrä on päivitetty `%d`",
 	"setup.transcript.invalid": "Sinun täytyy mainita kelvollinen kanava palvelimella (e.g. <#%d>)\\n**Esimerkki:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Transkript kanava on muutettu <#%d>",
-	"commands.language.help_wanted": "Puhutko toista kieltä? Liity [tukipalvelimeemme](https://discord.gg/ticketsbot) jos olet kiinnostunut auttamaan botin kääntämisessä useammille kielille",
+	"commands.language.help_wanted": "Puhutko toista kieltä? Liity [tukipalvelimeemme](%s) jos olet kiinnostunut auttamaan botin kääntämisessä useammille kielille",
 	"commands.rename.too_long": "Kanavan nimessä ei voi olla yli 100 merkkiä",
-	"commands.autoclose.configure": "Vieraile [dashboard](https://dashboard.tickets.bot/manage/%d/settings) vaihtaaksesi automaattisen sulkemisen asetuksia",
+	"commands.autoclose.configure": "Vieraile [dashboard](%s) vaihtaaksesi automaattisen sulkemisen asetuksia",
 	"help.autoclose": "Sulje liittyvät komennot automaattisesti",
 	"help.autoclose.exclude": "Estää nykyisen tiketin automaattisen sulkemisen",
 	"help.autoclose.configure": "Muokkaa automaattisen sulkemisen asetuksia",
@@ -238,7 +238,7 @@
 			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
 			"success": "You are now on call",
 			"remove_success": "You are no longer on call"
 		},
@@ -261,7 +261,7 @@
 			"please_wait": "Ole hyvä ja odota...",
 			"success_after_check": "Premium on nyt aktivoitu tällä palvelimella!",
 			"link_patreon_account": "Linkitä Patreon tili",
-			"no_subscription": "Aktiivista Patreon tilausta ei löytynyt linkitettynä Discord-tiliisi. Varmista, että [olet linkittänyt Patreon- ja Discord-tilisi](https://support. atreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), ja odota vielä 10 minuuttia.",
+			"no_subscription": "Aktiivista Patreon tilausta ei löytynyt linkitettynä Discord-tiliisi. Varmista, että [olet linkittänyt Patreon- ja Discord-tilisi](%s), ja odota vielä 10 minuuttia.",
 			"open_form": "Avaa Lomake",
 			"open_form_description": "Avaa lomake uudelleen painamalla alla olevaa painiketta",
 			"use_key_anyway": "Käytä Premium avainta Silti",
@@ -280,9 +280,9 @@
 					"description": "Valitse tämä vaihtoehto, jos olet tehnyt ostoksesi Discordin sisäisessä kaupassa"
 				}
 			},
-			"about": "Premium antaa sinulle pääsyn useampiin paneeleihin, tilastoihin, mukautettuun bottiin ja paljon muuta! Vieraile meidän [verkkosivu](https://tickets.bot/premium) saadaksesi lisätietoja.",
+			"about": "Premium antaa sinulle pääsyn useampiin paneeleihin, tilastoihin, mukautettuun bottiin ja paljon muuta! Vieraile meidän [verkkosivu](%s) saadaksesi lisätietoja.",
 			"already_activated": "Hyviä uutisia! Premium on jo aktiivinen tällä palvelimella.",
-			"already_activated_whitelabel": "Hyviä uutisia! Premium on jo aktiivinen tällä palvelimella.\n\nSaadaksesi apua aloittaaksesi whitelabelin kanssa, lue [whitelabelin asennus ohje](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Hyviä uutisia! Premium on jo aktiivinen tällä palvelimella.\n\nSaadaksesi apua aloittaaksesi whitelabelin kanssa, lue [whitelabelin asennus ohje](%s).",
 			"discord": {
 				"no_subscription": "Premiumin voi ostaa suoraan Discordista. Avaa tilauksen hallintasivu napsauttamalla alla olevaa painiketta.\n\nYksi ostettu, salli enintään 5 minuuttia tilauksen havaitsemiseksi."
 			},
@@ -362,7 +362,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Haluatko tutkia lisää? Meidän [documentation](https://docs.tickets.bot) opettaa sinulle kuinka määrittää kaikki botin ominaisuudet!"
+			"docs": "Haluatko tutkia lisää? Meidän [documentation](%s) opettaa sinulle kuinka määrittää kaikki botin ominaisuudet!"
 		},
 		"threads": {
 			"no_notification_channel": "Sinun on annettava lipukkeiden ilmoitus kanava",
