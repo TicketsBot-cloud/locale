@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets 是一个易于使用且几乎可以完全自定义的问题单机器人\\n帮助频道: %s\\n指令: 请输入 `/help`\\n输入`/setup`开始设定吧！",
+	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: %s\\nCommands: Type `/help`\\nGet started by running `/setup`",
 	"commands.add.no_members": "你必须标注一个人嗄",
 	"commands.add.no_permission": "你没有权限添加该成员到问题单",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "您需要提及一个用户来切换黑名单状态",
 	"commands.blacklist.self": "你想不开是不是？干嘛黑名单自己",
 	"commands.claim.success": "您的工单将由 %s 处理",
-	"commands.invite": "[点击此处](<%s>)",
+	"commands.invite": "[Click here](<%s>)",
 	"commands.language.invalid": "您需要指定语言代码或标志。可用语言:\\n%s",
 	"commands.open.ticket_limit": "您一次只能打开 %d %s",
 	"commands.open.too_many_tickets": "问题单类别中的问题单过多。要求管理员关闭一些，或将它们移到另一个类别，否则将无法开启",
-	"commands.panel": "请前往 <%s>配置一个票据模板",
-	"commands.premium": "您可以从 <%s> 购买高级订阅。\\nPremium 提供许多好处，例如：\\n```diff\\n+ 创建无限制的问题单面板\\n+ 自定义机器人名称、头像和状态\\n+ 关于服务器、用户和支持人员的详细统计\\n+ 没有品牌显示\\n+ 支持开发并帮助我支付服务器费用\\n```\\n\\n或者，您可以投票<%s> 获得 24 小时免费高级版",
+	"commands.panel": "Visit <%s> to configure a panel",
+	"commands.premium": "You can purchase a premium subscription from <%s>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <%s> to get premium free for 24 hours",
 	"commands.premium.invalid_key": "无效的密钥。确保您已正确复制它。",
 	"commands.remove.no_permission": "没有权限踢掉他唷",
 	"commands.remove.staff": "不能移除工作人员",
@@ -29,8 +29,8 @@
 	"commands.tags.create.too_long": "标籤 ID 不能超过 16 个字符",
 	"commands.tags.delete.invalid_arguments": "您必须指定要删除的标籤 ID",
 	"commands.tags.delete.not_exist": "找不到 ID 为\"%s\"的标籤",
-	"commands.tags.get.invalid_arguments": "您必须提供标籤的 ID。有关标籤的更多帮助，请访问 <%s>。",
-	"commands.tags.get.invalid_tag": "标籤无效。有关标籤的更多帮助，请访问 <%s>。",
+	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <%s>.",
+	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <%s>.",
 	"commands.tags.list": "所有标籤的 ID：\\n%s\\n要查看标籤的内容，请运行 `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "目前问题单还没被指派",
 	"commands.unclaim.not_claimer": "只有管理者会已被分配到的人才可以解除分配",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "我没有 `管理频道` 的权限唷",
 	"setup.auto.category.success": "创建问题单类别",
-	"setup.auto.completed": "配置完成，点击 [这里](%s) 去创建工单模板, 并给你工作团队添加 <@&%d> 和 <@&%d>的身份组",
+	"setup.auto.completed": "Setup complete! Click [here](%s) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "我没有 `管理身份组` 的权限唷",
 	"setup.auto.roles.success": "创建 `问题单管理者` & `问题单支持者` 的身份组",
 	"setup.auto.transcript.failure": "我没有 `管理频道` 的权限唷",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "问题单限制已经更改为`%d`",
 	"setup.transcript.invalid": "您必须提供服务器的有的频道（例如 <#%d>）\\n**例如:** `/setup transcripts #logs`",
 	"setup.transcript.success": "问题单记录频道已更改到 <#%d>",
-	"commands.language.help_wanted": "您是否使用另一种语言？如果您有兴趣帮助将机器人翻译成更多语言，请加入我们的 [支持服务器](%s)",
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](%s) if you're interested in helping translating the bot into more languages",
 	"commands.rename.too_long": "频道名称不能长于 100 个字符",
-	"commands.autoclose.configure": "前往 [网页面板](%s) 设置有关自动关闭的设定",
+	"commands.autoclose.configure": "Visit the [dashboard](%s) to change autoclose settings",
 	"help.autoclose": "有关**自动关闭**的命令",
 	"help.autoclose.exclude": "停用当前工单自动被关闭",
 	"help.autoclose.configure": "编辑自动关闭相关的设置",
@@ -238,7 +238,7 @@
 			"select": "选择语言(%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "“/on-call” 只能用于子区模式。访问我们的 [docs](%s) 以了解更多关于子区的信息",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
 			"success": "你现在是在线状态",
 			"remove_success": "你不再是在线状态"
 		},
@@ -261,7 +261,7 @@
 			"please_wait": "请稍候...",
 			"success_after_check": "已经在此服务器上激活高级订阅！",
 			"link_patreon_account": "绑定 **Patreon** 账号",
-			"no_subscription": "找不到到您的 Discord 账户关联的 Patreon 订阅。请确保您[已将您的 Patreon 和 Discord 账户关联好](%s)，并再等10分钟。",
+			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](%s), and a further waited 10 minutes.",
 			"open_form": "打开表格",
 			"open_form_description": "按下面的按钮重新打开表格",
 			"use_key_anyway": "仍然使用高级订阅密钥",
@@ -280,9 +280,9 @@
 					"description": "如果您在 Discord 内商店购买，请选择此选项"
 				}
 			},
-			"about": "高级订阅可以让您访问更多的面板、统计、自定义机器人等！访问我们的 [官网](%s) 来了解更多信息。",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](%s) to find out more.",
 			"already_activated": "好消息！高级订阅已经在此服务器上激活。",
-			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[配置自定义机器人](%s)。",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](%s).",
 			"discord": {
 				"no_subscription": "高级版可以直接在 Discord 中购买。点击此消息下方的按钮打开订阅管理页面。\n\n购买一个，请在5分钟内完成购买。"
 			},
@@ -362,7 +362,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "想要探索更多？我们的 [documentation](%s) 将教你如何配置机器人！"
+			"docs": "Want to explore more? Our [documentation](%s) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "您必须提供(设置)一个工单通知频道",
