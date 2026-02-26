@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: %s\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.about": "Bilietai, tai lengvai naudojamas ir konfiguruojamas pagalbos įrankis. \\nServeris prireikus pagalbos: %s\\nKomandos: Parašykite `/pagalba`\\nPradėti galite parašius `/konfiguruoti`",
 	"commands.add.no_members": "Jūs turite paminėti vartotojus, kad pridėtumėte prie bilieto",
 	"commands.add.no_permission": "Jūs neturite privilegijų, kad galėtumėte pridėti vartotojus prie bilieto",
 	"commands.add.no_everyone": "Jūs negalite pridėti '@everyone' rolės prie bilieto",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "Jūs turite paminėti vartotoja, kad įtrauktumėte į juodąjį šąrašą",
 	"commands.blacklist.self": "Jūs negalite savęs įtraukti į juodąjį sąrašą",
 	"commands.claim.success": "Jūsų bilietu apsiims %s",
-	"commands.invite": "[Click here](<%s>)",
+	"commands.invite": "[Paspauskite čia](<%s>)",
 	"commands.language.invalid": "Jūs turite nurodyti kalbos kodą arba vėliavėlę. Galimos kalbos:\\n%s",
 	"commands.open.ticket_limit": "Vienu metu galite atidaryti tik %d %s",
 	"commands.open.too_many_tickets": "Bilietų kategorijoje yra per daug bilietų. Paprašykite administracijos, kad uždarytų kelis arba perkeltų į kitą kategoriją.\n\nTai yra **Discord nustatytas limitas**, 50 kanalų vienoje kategorijoje.",
-	"commands.panel": "Visit <%s> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <%s>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <%s> to get premium free for 24 hours",
+	"commands.panel": "Apsilankykite <%s>, kad sukonfiguruotumėte skydelį",
+	"commands.premium": "Galite įsigyti premium prenumeratą iš <%s>.\\nPremium suteikia daug papildomų privalumų, tokių kaip:\\n```diff\\n+ Galėsite sukurti neribotą kiekį skydelių \\n+ Galėsite pakeisti roboto pavadinimą, paveikslėlį ir būsėną į jums patinkantį\\n+ Detali statistika apie serverį, vartotojus ir pagalbos narius\\n+ Pranešime nebus mūsų žymėjimo\\n+ Prisidėsite prie plėtros ir padėtis išlaikyti roboto išlaidas\\n```\\n\\nGalite prabalsuoti nuėję į <%s>, kad gautumėte premium nemokamai 24 valandom",
 	"commands.premium.invalid_key": "Neteisingas kodas. Įsitikinkite, kad nukopijavote teisingai.",
 	"commands.remove.no_permission": "Jūs neturite privilegijos, kad galėtumėte pašalinti vartotoją iš šio bilieto",
 	"commands.remove.staff": "Jūs negalite pašalinti pagalbą suteikiančių narių iš šio bilieto",
@@ -29,8 +29,8 @@
 	"commands.tags.create.too_long": "Žymos ID negali būti ilgesnis nei 16 simbolių",
 	"commands.tags.delete.invalid_arguments": "Jūs turite nurodyti žymos ID, kad galėtumėte panaikinti",
 	"commands.tags.delete.not_exist": "Nepavyko rasti žymos, kurios ID `%s`",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <%s>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <%s>.",
+	"commands.tags.get.invalid_arguments": "Jūs turite nurodyti žymos ID. Jeigu reikia daugiau pagalbos, aplankykite <%s>.",
+	"commands.tags.get.invalid_tag": "Netinkama žyma. Jeigu reikia daugiau pagalbos, apsilankykite <%s>.",
 	"commands.tags.list": "Visų žymų ID: \\n%s\\nKad peržiūrėtumėte žymos turinį, naudokite `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Dar niekas neapsiėmė šiuo bilietu",
 	"commands.unclaim.not_claimer": "Tik administracija ir vartotojai kurie apsiėmė šiuo bilietu gali juo nebeapsiimti",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
 	"setup.auto.category.success": "Sukurta bilietų kategorija",
-	"setup.auto.completed": "Setup complete! Click [here](%s) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Konfiguracija pabaigta! Paspauskite [here](%s), kad sukonfiguruotumėte reakcijos skydelį ir pridėtumėte <@&%d> ir <@&%d> roles prie pagalbos narių",
 	"setup.auto.roles.failure": "Man trūksta `Tvarkyti roles (Manage Roles)` privilegijų",
 	"setup.auto.roles.success": "Sukurtos `Bilietų administracija` ir `Bilietų pagalba` rolės",
 	"setup.auto.transcript.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "Bilietų limitas buvo atnaujintas į `%d`",
 	"setup.transcript.invalid": "Jūs turite nurodyti jau sukurtą kanalą (pvz., <#%d>)\\n**Pavyzdys:** `/konfiguruoti įrašai #įrašai`",
 	"setup.transcript.success": "Įrašų kanalas buvo pakeistas į <#%d>",
-	"commands.language.help_wanted": "Do you speak another language? Join our [support server](%s) if you're interested in helping translating the bot into more languages",
+	"commands.language.help_wanted": "Ar tu kalbi kita kalba? Prisijunk prie mūsų [pagalbos serverio](%s) jeigu tau įdomu ir nori mums padėti išversti mūsų robota į daugiau kalbų",
 	"commands.rename.too_long": "Kanalo pavadinimas negali būti ilgesnis nei 100 simbolių",
-	"commands.autoclose.configure": "Visit the [dashboard](%s) to change autoclose settings",
+	"commands.autoclose.configure": "Apsilankykite mūsų [dashboard](%s), kad pakeistumėte automatinio uždarymo nustatymus",
 	"help.autoclose": "Susijusios komandos su automatiniu uždarymu",
 	"help.autoclose.exclude": "Dabartinis bilietas nebus automatiškai uždarytas",
 	"help.autoclose.configure": "Redaguoti su automatiniu uždarymu susijusius nustatymus",
@@ -238,7 +238,7 @@
 			"select": "Pasirinkite kalbą (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
+			"channel_mode": "`/budėjimas` gali būti naudojamas tik gijų režime. Apsilankykite mūsų [docs](%s), kad rastumėte daugiau informacijos apie gijas",
 			"success": "Dabar jūs esate budėjime",
 			"remove_success": "Dabar jūs nebesate budėjime"
 		},
@@ -261,7 +261,7 @@
 			"please_wait": "Prašome palaukti...",
 			"success_after_check": "Premium yra aktyvuotas šiame serveryje!",
 			"link_patreon_account": "Susieti Patreon paskyrą",
-			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](%s), and a further waited 10 minutes.",
+			"no_subscription": "Nepavyko rasti aktyvios Patreon prenumeratos, susietos su jūsų Discord paskyra. Įsitikinkite, kad jūs [susiejote savo Patreon ir Discord paskyras](%s) ir palaukėte 10 minučių.",
 			"open_form": "Atidaryti formą",
 			"open_form_description": "Paspauskite mygtuka esantį žemiau, kad atidarytumėte formą",
 			"use_key_anyway": "Bet kokiu atveju naudokite Premium Key",
@@ -280,9 +280,9 @@
 					"description": "Pasirinkite šį variantą jei pirkote per Discord platformą"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](%s) to find out more.",
+			"about": "Premium suteikia prieigą prie daugiau skydelių, statistikos, koreaguojamo roboto ir dar daugiau! Apsilankykite mūsų [website](%s), kad pasiskaitytumėte daugiau.",
 			"already_activated": "Geros naujienos! Premium jau aktyvuotas serveryje.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](%s).",
+			"already_activated_whitelabel": "Geros naujienos! Premium jau yra aktyvus šiame serveryje.\n\nSiekiant gauti pagalbos pradžioje, perskaitykite [pradžios sąranką](%s).",
 			"discord": {
 				"no_subscription": "Premium gali būti perkamas tiesiogiai per Discord. Paspauskite mygtuką po pranešimu, jog atidarytumėte pirkimo langą.\n\nNusipirkus prašome palaukti iki 5 minučių, jog prenumerata būtų aptikta."
 			},
@@ -362,7 +362,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](%s) will teach you how to configure every aspect of the bot!"
+			"docs": "Nori sužinoti daugiau? Mūsų [documentation](%s) išmokys tave kaip viską sukonfiguruoti!"
 		},
 		"threads": {
 			"no_notification_channel": "Turite nurodyti bilietų pranešimų kanalą",

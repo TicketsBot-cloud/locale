@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: %s\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.about": "Tickets to łatwy w obsłudze, wysoce konfigurowalny i pomocny bot.\\nSerwer wsparcia: %s\\nKomendy: Wpisz `/help`\\nAby rozpocząć wpisz `/setup`",
 	"commands.add.no_members": "Musisz oznaczyć użytkowników, aby dodać ich do zgłoszenia",
 	"commands.add.no_permission": "Nie masz uprawnień, aby dodać użytkowników do tego zgłoszenia",
 	"commands.add.no_everyone": "Nie możesz dodać roli `@everyone` do zgłoszenia",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "Musisz oznaczyć użytkownika, aby dodać go na czarną listę",
 	"commands.blacklist.self": "Nie możesz dodać samego siebie na czarną listę",
 	"commands.claim.success": "%s zajmie się obsługą Twojego zgłoszenia",
-	"commands.invite": "[Click here](<%s>)",
+	"commands.invite": "[Kliknij tutaj](<%s>)",
 	"commands.language.invalid": "Musisz określić kod języka lub flagę. Dostępne języki:\\n%s",
 	"commands.open.ticket_limit": " W jednym momencie możesz otworzyć tylko %d %s",
 	"commands.open.too_many_tickets": "W tej kategorii jest zbyt dużo otwartych zgłoszeń. Poproś administrację o zamknięcie paru, przeniesienie ich do innej kategorii lub skonfigurowanie kategorii przeciążenia.\n\nTo jest limit 50 kanałów na kategorię **narzucony przez Discorda**.",
-	"commands.panel": "Visit <%s> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <%s>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <%s> to get premium free for 24 hours",
+	"commands.panel": "Odwiedź <%s>, aby skonfigurować panel",
+	"commands.premium": "Możesz kupić subskrypcje premium na <%s>.\\nPremium zapewnia wiele korzyści, takich jak:\\n```diff\\n+ Tworzenie panelów bez limitu\\n+ Własna nazwa, awatar i status (whitelabel)\\n+ Dokładne statystyki o serwerze, użytkownikach i obsłudze\\n+ Brak reklamy w stopkach wiadomości\\n+ Wspieraj rozwój i pomóż mi opłacić koszty serwera\\n```\\n\\nOpcjonalnie, możesz zagłosować na <%s> aby dostać darmowe premium na 24 godziny",
 	"commands.premium.invalid_key": "Nieprawidłowy klucz. Upewnij się, że skopiowałeś go prawidłowo.",
 	"commands.remove.no_permission": "Nie masz uprawnień, aby usuwać użytkowników z tego zgłoszenia",
 	"commands.remove.staff": "Nie możesz usunąć obsługi ze zgłoszenia",
@@ -29,8 +29,8 @@
 	"commands.tags.create.too_long": "ID tagu nie może być dłuższe, niż 16 znaków",
 	"commands.tags.delete.invalid_arguments": "Musisz określić ID tagu, aby go usunąć",
 	"commands.tags.delete.not_exist": "Tag z ID `%s` nie został znaleziony",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <%s>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <%s>.",
+	"commands.tags.get.invalid_arguments": "Musisz określić ID tagu. Po więcej informacji na temat tagów odwiedź <%s>.",
+	"commands.tags.get.invalid_tag": "Nieprawidłowy tag. Po więcej informacji na temat tagów odwiedź <%s>.",
 	"commands.tags.list": "Lista ID tagów: \\n%s\\nAby zobaczyć zawartość tagu, napisz `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "To zgłoszenie nie jest przejęte",
 	"commands.unclaim.not_claimer": "Tylko administracja i użytkownicy, którzy przejęli zgłoszenie mogą usunąć przypisanie",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Nie posiadam uprawnienia `Zarządzanie kanałami`",
 	"setup.auto.category.success": "Utworzono kategorię dla zgłoszeń",
-	"setup.auto.completed": "Setup complete! Click [here](%s) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Konfiguracja zakończona! Kliknij [tu](%s), aby skonfigurować panel reakcji i dodać role <@&%d> i <@&%d> do Twoich członków obsługi",
 	"setup.auto.roles.failure": "Nie posiadam uprawnienia `Zarządzanie rolami`",
 	"setup.auto.roles.success": "Utworzono role `Tickets Admin` i `Tickets Support`",
 	"setup.auto.transcript.failure": "Nie posiadam uprawnienia `Zarządzanie kanałem`",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "Limit zgłoszeń został zaktualizowany do `%d`",
 	"setup.transcript.invalid": "Musisz podać prawidłowy kanał na serwerze (np. <#%d>)\\n**Przykład:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Kanał transkrypcji został zmieniony na <#%d>",
-	"commands.language.help_wanted": "Do you speak another language? Join our [support server](%s) if you're interested in helping translating the bot into more languages",
+	"commands.language.help_wanted": "Mówisz w innym języku? Dołącz do naszego [serwera wsparcia](%s), jeśli jesteś zainteresowany pomocą w tłumaczeniu bota na większą ilość języków",
 	"commands.rename.too_long": "Nazwa kanału nie może być dłuższa niż 100 znaków",
-	"commands.autoclose.configure": "Visit the [dashboard](%s) to change autoclose settings",
+	"commands.autoclose.configure": "Odwiedź [panel sterowania](%s), by zmienić ustawienia zamykania automatycznego",
 	"help.autoclose": "Komendy związane z automatycznym zamykaniem",
 	"help.autoclose.exclude": "Wyklucza bieżące zgłoszenie z automatycznego zamykania",
 	"help.autoclose.configure": "Edytuje ustawienia związane z automatycznym zamykaniem",
@@ -238,7 +238,7 @@
 			"select": "Wybierz język (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
+			"channel_mode": "`/on-call` może zostać użyte tylko w trybie wątkowym. Odwiedź [dokumentacje](%s), aby dowiedzieć się więcej na temat wątków",
 			"success": "Jesteś teraz oznaczany w nowych zgłoszeniach",
 			"remove_success": "Już nie będziesz oznaczany w nowych zgłoszeniach"
 		},
@@ -261,7 +261,7 @@
 			"please_wait": "Proszę czekać...",
 			"success_after_check": "Premium jest teraz aktywne na tym serwerze!",
 			"link_patreon_account": "Połącz konto Patreon",
-			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](%s), and a further waited 10 minutes.",
+			"no_subscription": "Nie udało się znaleźć aktywnej subskrypcji Patreon połączonej z Twoim kontem Discord. Upewnij się, że [połączyłeś swoje konta Patreon i Discord](%s), a następnie poczekaj 10 minut.",
 			"open_form": "Otwórz formularz",
 			"open_form_description": "Naciśnij poniższy przycisk, aby otworzyć ponownie formularz",
 			"use_key_anyway": "Użyj klucza Premium mimo to",
@@ -280,9 +280,9 @@
 					"description": "Wybierz tę opcję, jeżeli dokonałeś zakupu w sklepie Discord"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](%s) to find out more.",
+			"about": "Premium daje Ci dostęp do większej liczby paneli, statystyk, niestandardowego bota i więcej! Odwiedź naszą [stronę](%s), aby dowiedzieć się więcej.",
 			"already_activated": "Dobre wieści! Premium jest już aktywne na tym serwerze.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](%s).",
+			"already_activated_whitelabel": "Dobre wieści! Premium jest już aktywne na tym serwerze.\n\nAby uzyskać pomoc w rozpoczęciu pracy z whitelabel, przeczytaj [nasz przewodnik konfiguracji whitelabel](%s).",
 			"discord": {
 				"no_subscription": "Premium może być zakupione bezpośrednio poprzez Discord. Kliknij przycisk poniżej tej wiadomości, aby otworzyć stronę zarządzania subskrypcją.\n\nPo zakupie proszę poczekać do 5 minut na wykrycie subskrypcji."
 			},
@@ -362,7 +362,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](%s) will teach you how to configure every aspect of the bot!"
+			"docs": "Chcesz odkryć więcej? Nasza [dokumentacja](%s) nauczy Cię jak skonfigurować każdy aspekt bota!"
 		},
 		"threads": {
 			"no_notification_channel": "Musisz podać kanał powiadamiania o zgłoszeniach",

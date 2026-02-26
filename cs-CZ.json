@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: %s\\nCommands: Type `/help`\\nGet started by running `/setup`",
+	"commands.about": "Tickety jsou snadné na použití, a vysoce konfigurovatelný ticket, podpora bota.\\nPomocný server: %s\\nPříkazy: Napište `/help`\\nZačněte spuštěním `/setup`",
 	"commands.add.no_members": "Musíte zmínit členy pro přidání do ticketu",
 	"commands.add.no_permission": "Nemáte dostatečná oprávnění k přidání lidí k tomuto účtu",
 	"commands.add.no_everyone": "Nemůžete přidat roli `@everyone` do ticketu",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "Musíte zmínit uživatele pro zapnutí stavu černé listiny na",
 	"commands.blacklist.self": "Nemůžeš dát na černou listinu sám sebe",
 	"commands.claim.success": "Váš ticket bude řešit uživatel %s",
-	"commands.invite": "[Click here](<%s>)",
+	"commands.invite": "[Klikněte zde](<%s>)",
 	"commands.language.invalid": "Musíte zadat kód jazyka nebo vlajku. Dostupné jazyky:\\n%s",
 	"commands.open.ticket_limit": "Jsi schopen otevřít pouze %d %s najednou",
 	"commands.open.too_many_tickets": "V kategorii ticketu je příliš mnoho ticketů. Požádejte admina, aby některé uzavřel nebo je přesunul do jiné kategorie",
-	"commands.panel": "Visit <%s> to configure a panel",
-	"commands.premium": "You can purchase a premium subscription from <%s>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <%s> to get premium free for 24 hours",
+	"commands.panel": "Pro otevření konfiguračního palelu navšťivte <%s>",
+	"commands.premium": "Prémiové předplatné si můžete zakoupit od <%s>.\\nPremium poskytuje mnoho výhod, například:\\n```diff\\n+ Vytvořit neomezený počet ticketových panelů\\n+ Přizpůsobit název bota, avatar & status (whitelabel)\\n+ Podrobné statistiky o serveru, uživatelé a podporovatelný personál\\n+ Žádná značka v zápatí zpráv\\n+ Podpořte vývoj a pomozte mi uhradit náklady serveru\\n```\\n\\nmůžete hlasovat na <%s> a získat prémiovou verzi zdarma na 24 hodin",
 	"commands.premium.invalid_key": "Neplatný klíč. Ujistěte se, že jste jej zkopírovali správně.",
 	"commands.remove.no_permission": "Nemáte dostatečná oprávnění k odstranění lidí od tohohle ticketu",
 	"commands.remove.staff": "Nemůžete odstranit Staff z ticketu",
@@ -29,8 +29,8 @@
 	"commands.tags.create.too_long": "Id Tagu, nemůže být delší než 16 písmen",
 	"commands.tags.delete.invalid_arguments": "Pro smazání musíte zadat ID tagu",
 	"commands.tags.delete.not_exist": "Štítek s ID `%s` nebyl nalezen",
-	"commands.tags.get.invalid_arguments": "You must provide the ID of the tag. For more help with tag, visit <%s>.",
-	"commands.tags.get.invalid_tag": "Invalid tag. For more help with tags, visit <%s>.",
+	"commands.tags.get.invalid_arguments": "Musíte zadat ID štítku. Pro více nápovědy navštivte <%s>.",
+	"commands.tags.get.invalid_tag": "Neplatný štítek. Pro více nápovědy se štítky navštivte <%s>.",
 	"commands.tags.list": "ID pro všechny tagy: \\n%s\\nPro zobrazení obsahu tagu spusťte `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Tento ticket není claimnut",
 	"commands.unclaim.not_claimer": "Pouze administrátoři a uživatel, který si vyžádal tiket, mohou zrušit claim tiketu",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Chybí mi oprávnění `Manage Channels`",
 	"setup.auto.category.success": "Vytvořená kategorie ticketů",
-	"setup.auto.completed": "Setup complete! Click [here](%s) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Prvotní nastavení hotovo! Pro další konfiguraci navštivte [here](%s). Pro nastavení reakčních panelů a přidání <@&%d> a <@&%d> rolí do správců",
 	"setup.auto.roles.failure": "Chybí mi oprávnění `Manage Roles`",
 	"setup.auto.roles.success": "Vytvořena role `Ticket Admin` a `Podpora ticketů`",
 	"setup.auto.transcript.failure": "Chybí mi oprávnění `Manage Channels`",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "Limit ticketu byl aktualizován na `%d`",
 	"setup.transcript.invalid": "Musíte uvést platný kanál na serveru (např. <#%d>)\\n**Příklad:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Přepsací kanál byl změněn na <#%d>",
-	"commands.language.help_wanted": "Do you speak another language? Join our [support server](%s) if you're interested in helping translating the bot into more languages",
+	"commands.language.help_wanted": "Mluvíš jiným jazykem? Připoj se k našemu [podporovatlnému serveru](%s), pokud chceš pomoci přeložit bota do více jazyků",
 	"commands.rename.too_long": "Název kanálu nesmí být delší než 100 znaků",
-	"commands.autoclose.configure": "Visit the [dashboard](%s) to change autoclose settings",
+	"commands.autoclose.configure": "Pro upravení nastavení automatického navštivte [Administračním panelu](%s)",
 	"help.autoclose": "Automatické ukládání souvisejících příkazů",
 	"help.autoclose.exclude": "Nezahrnuje aktuální ticket z automatického zavření",
 	"help.autoclose.configure": "Upravit nastavení související s automatickým uzavřením",
@@ -238,7 +238,7 @@
 			"select": "Vyberte jazyk (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
+			"channel_mode": "`/on-call` může být použito pouze v režimu vlákna. Navštivte naši [docs](%s) pro více informací o vláknech",
 			"success": "Nyní jste v hovoru",
 			"remove_success": "Již nejste v hovoru"
 		},
@@ -280,9 +280,9 @@
 					"description": "Tuto možnost vyberte, pokud jste nákup provedli v obchodě v aplikaci Discord"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](%s) to find out more.",
+			"about": "Premium vám umožní přístup k více panelům, statistikám, vlastnímu botovi a dalšímu! Navštivte naši [website](%s), abyste se dozvěděli více.",
 			"already_activated": "Super! Premium je na tomto serveru už aktivováno.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](%s).",
+			"already_activated_whitelabel": "Super! Premium je na tomto serveru už aktivováno.\n\nPokud potřebujete další pomoc při nastavení whitelabelů, přečtěte si naší [dokumentaci o whitelabelech](%s).",
 			"discord": {
 				"no_subscription": "Prémium lze zakoupit přímo v rámci služby Discord. Kliknutím na tlačítko pod touto zprávou otevřete stránku pro správu předplatného.\n\nPo zakoupení vyčkejte až 5 minut, než bude předplatné detekováno."
 			},
