@@ -1,5 +1,5 @@
 {
-	"commands.about": "בוט הטיקטים הוא קל לשימוש ויש לו רמה גבוהה של עיצוב לטיקט ובוט עזרה. \\nשרת העזרה לבוט: https://discord.gg/ticketsbot פקודות: תרשום \"help/\" \\nותתחיל בעזרת הפקודה \"setup/\"",
+	"commands.about": "בוט הטיקטים הוא קל לשימוש ויש לו רמה גבוהה של עיצוב לטיקט ובוט עזרה. \\nשרת העזרה לבוט: %s פקודות: תרשום \"help/\" \\nותתחיל בעזרת הפקודה \"setup/\"",
 	"commands.add.no_members": "אפשר להוסיף משתמשים לערוץ עזרה רק אם עושים להם mention",
 	"commands.add.no_permission": "אין לך הרשאה להוספת משתמשים לערוץ זה",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -9,12 +9,12 @@
 	"commands.blacklist.no_members": "עליך לתייג את שם המשתמש כדי להחליף את מצב הרשימה השחורה עבורו",
 	"commands.blacklist.self": "אתה לא יכול לרשום את עצמך ברשימה השחורה",
 	"commands.claim.success": "הכרטיס שלך יטופל על ידי %s",
-	"commands.invite": "[לחצו כאן](<https://invite.tickets.bot>)",
+	"commands.invite": "[לחצו כאן](<%s>)",
 	"commands.language.invalid": "עליך לציין את קוד השפה או דגל השפה. שפות זמינות:\\n%s",
 	"commands.open.ticket_limit": "אתה מורשה בלבד לפתוח %d %s רק בפעם אחת",
 	"commands.open.too_many_tickets": "יש יותר מדי כרטיסים בקטגוריית הכרטיסים. בקש ממנהללסגור חלק, להעביר אותם לקטגוריה אחרת, או להגדיר קטגוריית הצפה.\n\nזוהי **הגבלה שהוטלה על ידי דיסקורד** של 50 ערוצים לקטגוריה.",
-	"commands.panel": "בקר ב-<https://dashboard.tickets.bot/manage/%d/panels> כדי להגדיר פאנל",
-	"commands.premium": "אתה יכול לרכוש מנוי פרימיום מ-<https://www.patreon.com/ticketsbot-cloud>.\\nPremium מספקת הטבות רבות, כגון:\\n```diff\\n+ צור לוחות כרטיסים ללא הגבלה\\n+ התאם אישית את שם הבוט, הדמות & סטטוס (תווית לבנה)\\n+ סטטיסטיקות מפורטות על השרת, המשתמשים וצוות התמיכה\\n+ אין מיתוג בכותרת התחתונה של ההודעות\\n+ תמכו בפיתוח ועזרו לי לשלם את עלויות השרת\\n```\\n\\nלחילופין, תוכלו להצביע בכתובת <https://vote.tickets.bot> כדי לקבל פרימיום בחינם למשך 24 שעות",
+	"commands.panel": "בקר ב-<%s> כדי להגדיר פאנל",
+	"commands.premium": "אתה יכול לרכוש מנוי פרימיום מ-<%s>.\\nPremium מספקת הטבות רבות, כגון:\\n```diff\\n+ צור לוחות כרטיסים ללא הגבלה\\n+ התאם אישית את שם הבוט, הדמות & סטטוס (תווית לבנה)\\n+ סטטיסטיקות מפורטות על השרת, המשתמשים וצוות התמיכה\\n+ אין מיתוג בכותרת התחתונה של ההודעות\\n+ תמכו בפיתוח ועזרו לי לשלם את עלויות השרת\\n```\\n\\nלחילופין, תוכלו להצביע בכתובת <%s> כדי לקבל פרימיום בחינם למשך 24 שעות",
 	"commands.premium.invalid_key": "המפתח לא עובד. ודא שהעתקת אותו נכון.",
 	"commands.remove.no_permission": "אין לך הרשאה להסיר אנשים מהכרטיס הזה",
 	"commands.remove.staff": "לא ניתן להסיר צוות מהכרטיס",
@@ -29,9 +29,9 @@
 	"commands.tags.create.too_long": "קודי תגים אינם יכולים להיות יותר מ-16 תווים",
 	"commands.tags.delete.invalid_arguments": "עליך לציין קוד תג למחיקה",
 	"commands.tags.delete.not_exist": "תג עם הקוד `%s` לא נמצא",
-	"commands.tags.get.invalid_arguments": "עליך לספק את התג של הקוד. לעזרה נוספת עם תגים, בקר בכתובת <https://tickets.bot/tags>.",
-	"commands.tags.get.invalid_tag": "תג לא נכון. לעזרה נוספת עם תגים, בקר בכתובת <https://tickets.bot/tags>.",
-	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
+	"commands.tags.get.invalid_arguments": "עליך לספק את התג של הקוד. לעזרה נוספת עם תגים, בקר בכתובת <%s>.",
+	"commands.tags.get.invalid_tag": "תג לא נכון. לעזרה נוספת עם תגים, בקר בכתובת <%s>.",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%stag <ID>`",
 	"commands.unclaim.not_claimed": "כרטיס זה אינו לקוח",
 	"commands.unclaim.not_claimer": "רק מנהלי מערכת והמשתמש שפתח את הכרטיס יכולים לגרום לסגירת הכרטיס",
 	"commands.unclaim.success": "כל נציגי התמיכה יכולים כעת להגיב לכרטיס",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "חסרה לי ההרשאה 'Manage Channels'",
 	"setup.auto.category.success": "נוצר קטגוריית כרטיסים",
-	"setup.auto.completed": "ההגדרה הושלמה! לחץ [here](https://dashboard.tickets.bot/manage/%d/panels) כדי להגדיר פאנל תגובה, והוסף את התפקידים <@&%d> ו-<@&%d> לחברי הצוות שלך",
+	"setup.auto.completed": "ההגדרה הושלמה! לחץ [here](%s) כדי להגדיר פאנל תגובה, והוסף את התפקידים <@&%d> ו-<@&%d> לחברי הצוות שלך",
 	"setup.auto.roles.failure": "חסרה לי הרשאת 'Manage Roles'",
 	"setup.auto.roles.success": "יצר את תפקידי 'ניהול כרטיסים' & 'תמיכה בכרטיסים'",
 	"setup.auto.transcript.failure": "חסרה לי ההרשאה 'Manage Channels'",
@@ -92,9 +92,9 @@
 	"setup.ticket_limit.success": "מגבלת הכרטיסים עודכנה ל-%d",
 	"setup.transcript.invalid": "עליך לציין חדר חוקי בשרת (למשל <#%d>)\\n**דוגמה:** `setup transcripts #logs/`",
 	"setup.transcript.success": "חדר התמלילים שונה ל-<#%d>",
-	"commands.language.help_wanted": "האם אתה מדבר שפה נוספת? הצטרף ל[שרת התמיכה] שלנו (https://discord.gg/ticketsbot) אם אתה מעוניין לעזור בתרגום הבוט לשפות נוספות",
+	"commands.language.help_wanted": "האם אתה מדבר שפה נוספת? הצטרף ל[שרת התמיכה] שלנו (%s) אם אתה מעוניין לעזור בתרגום הבוט לשפות נוספות",
 	"commands.rename.too_long": "שמות החדרים אינם יכולים להיות יותר מ-100 תווים",
-	"commands.autoclose.configure": "בקר ב[dashboard](https://dashboard.tickets.bot/manage/%d/settings) כדי לשנות את הגדרות הסגירה האוטומטית",
+	"commands.autoclose.configure": "בקר ב[dashboard](%s) כדי לשנות את הגדרות הסגירה האוטומטית",
 	"help.autoclose": "סגירה אוטומטית של פקודות הקשורות",
 	"help.autoclose.exclude": "לא כולל את הכרטיס הנוכחי מסגירה אוטומטית",
 	"help.autoclose.configure": "ערוך הגדרות הקשורות לסגירה אוטומטית",
@@ -238,7 +238,7 @@
 			"select": "בחר שפה (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "'on-call/' יכול לשמש רק במצב פורומים. בקר ב-[docs](https://docs.tickets.bot/features/thread-mode) שלנו למידע נוסף על פורומים",
+			"channel_mode": "'on-call/' יכול לשמש רק במצב פורומים. בקר ב-[docs](%s) שלנו למידע נוסף על פורומים",
 			"success": "אתה עכשיו בשיחה",
 			"remove_success": "אתה כבר לא בשיחה"
 		},
@@ -261,7 +261,7 @@
 			"please_wait": "בבקשה המתן...",
 			"success_after_check": "פרימיום פעיל כעת בשרת זה!",
 			"link_patreon_account": "קישור חשבון Patreon",
-			"no_subscription": "לא ניתן היה למצוא מנוי Patreon פעיל המקושר לחשבון Discord שלך. ודא ש[קישרת את חשבונות Patreon ו-Discord שלך](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), והמתן עוד 10 דקות.",
+			"no_subscription": "לא ניתן היה למצוא מנוי Patreon פעיל המקושר לחשבון Discord שלך. ודא ש[קישרת את חשבונות Patreon ו-Discord שלך](%s), והמתן עוד 10 דקות.",
 			"open_form": "פתח טופס",
 			"open_form_description": "לחץ על הכפתור למטה כדי לפתוח מחדש את הטיקט",
 			"use_key_anyway": "השתמש במפתח פרימיום בכל מקרה",
@@ -280,9 +280,9 @@
 					"description": "בחר באפשרות זו אם ביצעת את הרכישה שלך בחנות של דיסקורד בתוך האפליקציה"
 				}
 			},
-			"about": "Premium נותן לך גישה ליותר פאנלים, סטטיסטיקות, בוט מותאם אישית ועוד! בקר ב[website](https://tickets.bot/premium) כדי לגלות עוד.",
+			"about": "Premium נותן לך גישה ליותר פאנלים, סטטיסטיקות, בוט מותאם אישית ועוד! בקר ב[website](%s) כדי לגלות עוד.",
 			"already_activated": "חדשות טובות! פרימיום כבר פעיל בשרת זה.",
-			"already_activated_whitelabel": "חדשות טובות! פרימיום כבר פעיל בשרת הזה.\n\nלקבלת עזרה בתחילת העבודה עם התווית הלבנה, קרא את [מדריך ההתקנה של התווית הלבנה שלנו](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "חדשות טובות! פרימיום כבר פעיל בשרת הזה.\n\nלקבלת עזרה בתחילת העבודה עם התווית הלבנה, קרא את [מדריך ההתקנה של התווית הלבנה שלנו](%s).",
 			"discord": {
 				"no_subscription": "ניתן לרכוש פרימיום ישירות בדיסקורד. לחצו על הלחצן מתחת להודעה זו כדי לפתוח את דף ניהול המנויים.\n\nלאחר הרכישה, אנא המתינו עד 5 דקות לזיהוי המנוי."
 			},
@@ -362,7 +362,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "רוצה לחקור עוד? [documentation](https://docs.tickets.bot) שלנו ילמד אותך כיצד להגדיר כל עיצוב של הבוט!"
+			"docs": "רוצה לחקור עוד? [documentation](%s) שלנו ילמד אותך כיצד להגדיר כל עיצוב של הבוט!"
 		},
 		"threads": {
 			"no_notification_channel": "עליך לספק חדר הודעות על כרטיסים",
