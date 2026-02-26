@@ -452,7 +452,7 @@
 			"title": "GDPR aanvraag voltooid",
 			"all_transcripts": "**Request Type:** Verwijder specifieke transcripts van server\n**Server:** %s\n**Ticket IDs:** %d",
 			"all_transcripts_multi": "**Type Aanvraag: ** Verwijder alle transcripties van de servers\n**Servers: **\n* %s\n**Transcripties Verwijderd.** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
+			"specific_transcripts": "**Type Aanvraag:** Verwijder specifieke transcripties\n**Server:** %s\n**Transcripties Verwijderd.** %d",
 			"all_messages": "**Type Aanvraag:** Anonimiseer al je berichten in de server\n**Server:** %s\n**Berichten Geanonimiseerd.** %d",
 			"all_messages_multi": "**Type Aanvraag:** Anonimiseer al je berichten in servers\n**Servers:**\n* %s\n**Berichten Geanonimiseerd:** %d",
 			"specific_messages": "**Type Aanvraag:** Anonimiseer je berichten in specifieke tickets\n**Server:** %s\n**Berichten Geanonimiseerd:** %d",
