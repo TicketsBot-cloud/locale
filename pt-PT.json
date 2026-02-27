@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Uma etiqueta com o ID `%s` não pôde ser encontrada",
 	"commands.tags.get.invalid_arguments": "Tu tens de fornecer o ID da etiqueta. Para mais ajuda com etiquetas, visita <%s>.",
 	"commands.tags.get.invalid_tag": "Etiqueta inválida. Para mais ajuda com etiquetas, visita <%s>.",
-	"commands.tags.list": "IDs para todas as etiquetas: \\n%s\\nPara ver o conteúdo de uma etiqueta, executa `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Este bilhete não foi reivindicado",
 	"commands.unclaim.not_claimer": "Apenas administradores e o utilizador que reivindicou o bilhete podem cancelar a reivindicação do bilhete",
 	"commands.unclaim.success": "Todos os representantes do suporte podem agora responder ao bilhete",
