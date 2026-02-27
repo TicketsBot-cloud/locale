@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Silt mille ID on `%s` ei leitud",
 	"commands.tags.get.invalid_arguments": "Sa pead edastama sildi ID. Kui on rohkem abi siltidega vaja, külasta <%s>.",
 	"commands.tags.get.invalid_tag": "Ebasobiv silt. Kui on rohkem abi siltidega vaja, külasta <%s>.",
-	"commands.tags.list": "ID'd kõikide siltide jaoks: \\n%s\\nEt vaadata siltide sisu, käivitada `%s silt <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "See abipilet pole võetud",
 	"commands.unclaim.not_claimer": "Ainult administraatorid ja kasutaja kes võttis abipileti saab ära anda abipileti",
 	"commands.unclaim.success": "Kõik abipersonaalid saavad nüüd vastata abipiletile",
