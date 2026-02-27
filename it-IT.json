@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Non è possibile trovare un tag con ID `%s`",
 	"commands.tags.get.invalid_arguments": "Devi fornire l'ID del tag. Per maggiori informazioni sul tag, visita <%s>.",
 	"commands.tags.get.invalid_tag": "Tag non valido. Per maggiore informazioni sui tag, visita <%s>.",
-	"commands.tags.list": "ID per tutti i tag: \\n%s\\nPer visualizzare il contenuto di in tag, esegui `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Questo ticket non è stato rivendicato",
 	"commands.unclaim.not_claimer": "Solo gli admin e l'utente che hanno rivendicato il ticket possono annullare la rivendicazione",
 	"commands.unclaim.success": "Tutto il supporto rappresentativo può ora rispondere al ticket",
