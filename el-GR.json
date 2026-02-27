@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Δεν ήταν δυνατή η εύρεση μιας ετικέτας με αναγνωριστικό `%s`",
 	"commands.tags.get.invalid_arguments": "Πρέπει να δώσετε το αναγνωριστικό της ετικέτας. Για περισσότερη βοήθεια με την ετικέτα, επισκεφθείτε <%s>.",
 	"commands.tags.get.invalid_tag": "Μη έγκυρη ετικέτα. Για περισσότερη βοήθεια με ετικέτες, επισκεφθείτε <%s>.",
-	"commands.tags.list": "Αναγνωριστικά για όλες τις ετικέτες: \\n%s\\nΓια να δείτε τα περιεχόμενα μιας ετικέτας, εκτελέστε `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Αυτό το ticket δεν έχει υποστηρικτή",
 	"commands.unclaim.not_claimer": "Μόνο οι διαχειριστές και ο υποστηρικτής που υποστηρίζει το ticket μπορεί να βγάλει τον υποστηρικτή από το ticket",
 	"commands.unclaim.success": "Όλοι οι εκπρόσωποι υποστήριξης μπορούν τώρα να απαντήσουν στο ticket",
