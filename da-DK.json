@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Et tag med ID'et `%s` kunne ikke findes",
 	"commands.tags.get.invalid_arguments": "Du skal angive ID'et for tagget. For mere hjælp med tags, besøg <%s>.",
 	"commands.tags.get.invalid_tag": "Ugyldigt tag. For mere hjælp med tags, besøg <%s>.",
-	"commands.tags.list": "ID'er for alle tags: \\n%s\\nFor at se indholdet af et tag, kør `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Denne ticket er ikke taget",
 	"commands.unclaim.not_claimer": "Kun administratorer og den bruger, der har gjort krav denne ticket, kan frafalde kravet igen",
 	"commands.unclaim.success": "Alle supportrepræsentanter kan nu svare på denne ticket",
