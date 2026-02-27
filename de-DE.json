@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Ein Tag mit der ID `%s` konnte nicht gefunden werden",
 	"commands.tags.get.invalid_arguments": "Du musst die ID des Tags angeben. Für weitere Hilfe mit Tags sieh Dir <%s> an.",
 	"commands.tags.get.invalid_tag": "Ungültiger Tag. Für weitere Hilfe mit Tags schau Dir <%s> an.",
-	"commands.tags.list": "IDs für alle Tags: \\n%s\\nUm den Inhalt eines Tags anzusehen, benutze `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Dieses Ticket wird von niemandem bearbeitet",
 	"commands.unclaim.not_claimer": "Nur Administratoren und der Benutzer, der dieses Ticket bearbeitet, können dieses Ticket freigeben",
 	"commands.unclaim.success": "Alle Support-Teammitglieder können ab sofort auf dieses Ticket antworten",
