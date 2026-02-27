@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Oznake z ID-jem »%s« ni bilo mogoče najti",
 	"commands.tags.get.invalid_arguments": "Navesti morate ID oznake. Za več pomoči z oznako obiščite <%s>.",
 	"commands.tags.get.invalid_tag": "Neveljavna oznaka. Za dodatno pomoč pri oznakah obiščite <%s>.",
-	"commands.tags.list": "ID-ji za vse oznake: \\n%s\\nČe si želite ogledati vsebino oznake, zaženite `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Ta vstopnica ni potrebna",
 	"commands.unclaim.not_claimer": "Samo skrbniki in uporabniki, ki so prevzeli vstopnico, lahko prekličejo zahtevek za vstopnico",
 	"commands.unclaim.success": "Vsi predstavniki podpore lahko zdaj odgovorijo na vstopnico",
