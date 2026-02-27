@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Không tìm thấy thẻ tên có ID `%s`",
 	"commands.tags.get.invalid_arguments": "Bạn phải cung cấp ID của thẻ. Để hiểu hơn về thẻ, hãy đọc <%s>.",
 	"commands.tags.get.invalid_tag": "Thẻ tên không hợp lệ. Xem chi tiết về thẻ tên tại <%s>.",
-	"commands.tags.list": "ID của các thẻ: \\n%s\\nĐể thấy được nội dung của một thẻ, dùng lệnh `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Phiếu hỗ trợ này chưa được nhận",
 	"commands.unclaim.not_claimer": "Chỉ quản trị viên và người nhận phiếu hỗ trợ mới có thể hủy nhận phiếu hỗ trợ",
 	"commands.unclaim.success": "Tất cả các đại diện hỗ trợ giờ có thể trả lời phiếu hỗ trợ",
