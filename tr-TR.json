@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "`%s` ID'sine sahip bir etiket bulunamıyor.",
 	"commands.tags.get.invalid_arguments": "Etiket ID'sini belirtmeniz gerekiyor. Etiketler ile alakalı daha fazla bilgi için;\n <%s> bağlantısını ziyaret edin.",
 	"commands.tags.get.invalid_tag": "Bilinmeyen etiket. Etiketler ile alakalı daha fazla bilgi için;\n <%s> bağlantısını ziyaret edin.",
-	"commands.tags.list": "Mevcut olan tüm etiketlerin ID'leri: \\n%s\\nEtiketin içeriğini görüntülemek için, `%s tag <ID>` komutunu kullanın",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Bu talep zaten sahiplenilmemiş.",
 	"commands.unclaim.not_claimer": "Yalnızca yöneticiler ve sahiplenen kullanıcı sahiplenmeyi iptal edebilir.",
 	"commands.unclaim.success": "Tüm yetkililer artık talep ile ilgilenebilir.",
