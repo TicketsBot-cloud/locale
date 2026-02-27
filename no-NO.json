@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "En knagg med iden `%s` ble ikke gjenkjent",
 	"commands.tags.get.invalid_arguments": "Du må oppgi iden til en knagg. For mer hjelp med knagget, gå til <%s>.",
 	"commands.tags.get.invalid_tag": "Ugyldig knagg. For mer hjelp med knagger, gå til <%s>.",
-	"commands.tags.list": "Alle nåværende knaggider: \\n%s\\nFor å vise innholdet til en knagg, si `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Denne støtteforespurselen er ikke opptatt",
 	"commands.unclaim.not_claimer": "Bare administratorer og brukeren som la krav på en støtteforespursel kan fjerne kravet på den",
 	"commands.unclaim.success": "Alle støttekontakter kan nå svare på støtteforespurselen",
