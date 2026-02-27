@@ -2,7 +2,7 @@
 	"commands.about": "Tickets ist ein einfach zu bedienender Ticket- und Support-Bot mit sehr vielen Konfigurationsmöglichkeiten.\\nSupport Server: %s\\nBefehle: Tippe `/help`\\nLeg los, indem Du `/setup` benutzt",
 	"commands.add.no_members": "Du musst Benutzer erwähnen, um sie zum Ticket hinzuzufügen",
 	"commands.add.no_permission": "Du hast keine Berechtigung, um Benutzer zu diesem Ticket hinzuzufügen",
-	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
+	"commands.add.no_everyone": "Du kannst die `@everyone` Rolle nicht zu einem Ticket hinzufügen",
 	"commands.addadmin.no_members": "Du musst einen Benutzer bzw. eine Rolle erwähnen, um ihnen Administratorberechtigungen zu erteilen",
 	"commands.addadmin.owner": "Der Serverbesitzer ist bereits ein Administrator",
 	"commands.addsupport.no_members": "Du musst Benutzer bzw. Rollen erwähnen, um sie als Support-Teammitglied hinzuzufügen",
@@ -47,7 +47,7 @@
 	"help.addsupport": "Fügt eine Rolle als Support-Teammitglied hinzu",
 	"help.admin": "Bot-Verwaltung",
 	"help.admin.blacklist": "Verhindert die Benutzung des Bots für einen Server",
-	"help.admin.debug.server": "Debug a server",
+	"help.admin.debug.server": "Debugge einen Server",
 	"help.admin.generate_premium": "Generiert Premium-Schlüssel",
 	"help.admin.unblacklist": "Entfernt einen Server von der Sperrliste",
 	"help.blacklist": "Schaltet um, ob es Benutzern erlaubt ist, mit dem Bot zu interagieren",
@@ -79,8 +79,8 @@
 	"help.gdpr": "Verwalte Deine DSGVO-Datenanfragen",
 	"open.success": "Neues Ticket geöffnet: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "Dieser Panel ist derzeit geschlossen",
+		"message": "Bitte versuche es noch einmal während unserer Supportzeiten."
 	},
 	"setup.auto.category.failure": "Ich benötige die `Kanäle verwalten` Berechtigung",
 	"setup.auto.category.success": "Ticket-Kategorie wurde erstellt",
@@ -160,12 +160,12 @@
 	"generic.title.claimed": "Beanspruchtes Ticket",
 	"generic.title.unclaimed": "Unbeanspruchtes Ticket",
 	"generic.title.add": "Hinzufügen",
-	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.add.success": "<@%s> wurde zu <#%d> hinzugefügt",
+	"commands.add.role_thread": "Aufgrund von Discord-Einschränkungen können Rollen nicht zu Thread-Tickets hinzugefügt werden",
+	"commands.remove.success": "<@%s> wurde von <#%d> entfernt",
+	"commands.remove.role_thread": "Aufgrund von Discord-Einschränkungen können Rollen nicht von Thread-Tickets entfernt werden",
 	"open.ratelimited": "Tickets werden zu schnell in diesem Server geöffnet",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "Du bist auf Abklingzeit für diesen Panel. Bitte versuche es erneut %s.",
 	"commands.claim.thread": "Aufgrund von Discord-Einschränkungen unterstützt das Beanspruchen keine Threads",
 	"generic.join_support_server": "Trete dem Support-Server bei",
 	"commands.open.guild_channel_limit": "Dieser Server hat Discords Limit von 500 Kanälen erreicht",
@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Ungültiger Panel: Du musst einen Panel aus dem Dropdown-Menü auswählen",
-			"success": "This ticket has been switched to the `%s` panel by <@%d>",
+			"success": "Dieses Ticket wurde von <@%[2]d> zum `%[1]s` Panel verschoben",
 			"non_thread_to_thread": "Sie können nicht zu einem Panel wechseln, das Threads von einem nicht-Thread-Ticket verwendet"
 		},
 		"blacklist": {
@@ -207,7 +207,7 @@
 				"limit": "Du hast das Limit für die Anzahl Rollen in der Sperrliste erreicht (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> wurde von der Sperrliste entfernt"
 			},
 			"add": {
 				"limit": "Du hast das Benutzer-Limit für die Sperrliste erreicht (%d): Erwäge stattdessen, eine Rolle zu verwenden"
@@ -328,15 +328,15 @@
 			}
 		},
 		"edit": {
-			"title": "Edit Ticket Settings",
-			"description": "Below you can edit various settings for this ticket.",
+			"title": "Ticket-Einstellungen bearbeiten",
+			"description": "Unten können verschiedene Einstellungen für dieses Ticket vorgenommen werden.",
 			"labels": {
-				"title": "Edit Labels",
-				"description": "Edit the labels assigned to this ticket",
+				"title": "Labels bearbeiten",
+				"description": "Bearbeite die zu diesem Ticket zugewiesenen Labels",
 				"update_modal": {
-					"title": "Update Ticket Labels",
+					"title": "Ticket-Labels aktualisieren",
 					"select_menu_title": "Labels",
-					"success": "Ticket labels have been successfully updated to: %s"
+					"success": "Ticket-Labels wurden erfolgreich aktualisiert auf: %s"
 				}
 			}
 		}
@@ -358,7 +358,7 @@
 		"on_call": "Markiert Dich als verfügbar, um in neuen Tickets automatisch hinzugefügt und markiert zu werden",
 		"reopen": "Öffnet ein zuvor geschlossenes Ticket erneut",
 		"notes": "Erstellt einen Thread für private Diskussionen zwischen Support-Teammitgliedern",
-		"edit": "Edits settings for the current ticket"
+		"edit": "Bearbeitet die Einstellungen für das aktuelle Ticket"
 	},
 	"setup": {
 		"auto": {
