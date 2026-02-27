@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Un tag cu ID-ul `%s` nu a putut fi găsit",
 	"commands.tags.get.invalid_arguments": "Trebuie să furnizezi ID-ul tagului. Pentru mai mult ajutor privind tagurile, vizitează <%s>.",
 	"commands.tags.get.invalid_tag": "Tag nevalid. Pentru mai mult ajutor privind tagurile, vizitează <%s>.",
-	"commands.tags.list": "ID-urile pentru toate tagurile: \\n%s\\nPentru a vedea conținutul unui tag, rulează `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Acest tichet nu este revendicat",
 	"commands.unclaim.not_claimer": "Numai adminii și utilizatorul care a revendicat tichetul pot anula revendicarea tichetului",
 	"commands.unclaim.success": "Toți reprezentanții de suport pot răspunde acum la tichet",
