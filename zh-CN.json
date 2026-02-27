@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "找不到 ID 为\"%s\"的标籤",
 	"commands.tags.get.invalid_arguments": "您必须提供标籤的 ID。有关标籤的更多帮助，请访问 <%s>。",
 	"commands.tags.get.invalid_tag": "标籤无效。有关标籤的更多帮助，请访问 <%s>。",
-	"commands.tags.list": "所有标籤的 ID：\\n%s\\n要查看标籤的内容，请运行 `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "目前问题单还没被指派",
 	"commands.unclaim.not_claimer": "只有管理者会已被分配到的人才可以解除分配",
 	"commands.unclaim.success": "所有支持者现在都可以回复问题单",
