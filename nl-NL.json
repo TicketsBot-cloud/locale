@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Kan een tag met het ID `%s` niet vinden",
 	"commands.tags.get.invalid_arguments": "U moet het ID van de tag opgeven. Ga voor meer hulp met tag naar <%s>.",
 	"commands.tags.get.invalid_tag": "Ongeldige tag. Ga voor meer hulp met tags naar <%s>.",
-	"commands.tags.list": "ID's voor alle tags: \\n%s\\n Voer `%stag <ID>` uit om de inhoud van een tag te bekijken",
+	"commands.tags.list": "ID's voor alle tags: \\n%s\\n Voer `%s tag <ID>` uit om de inhoud van een tag te bekijken",
 	"commands.unclaim.not_claimed": "Dit ticket is niet opgeëist",
 	"commands.unclaim.not_claimer": "Alleen beheerders en de gebruiker die het ticket heeft geclaimd, kunnen het ticket ongedaan maken",
 	"commands.unclaim.success": "Alle ondersteuningsvertegenwoordigers kunnen nu reageren op het ticket",
