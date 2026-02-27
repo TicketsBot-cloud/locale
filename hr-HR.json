@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Tag sa ID-om `%s` se ne može pronaći",
 	"commands.tags.get.invalid_arguments": "Morate pružiti ID od tag-a. Za dodatnu pomoć s tag-om posjetite <%s>.",
 	"commands.tags.get.invalid_tag": "Netočan tag. Za dodatnu pomoć sa tagovima, posjetite<%s>.",
-	"commands.tags.list": "ID-ovi za sve tagove: \\n%s\\nDa biste vidjeli sadržaj taga, pokrenite `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Ovaj tiket nije preuzet",
 	"commands.unclaim.not_claimer": "Samo admini i korisnik koji je preuzeo tiket može ne-preuzeti tiket",
 	"commands.unclaim.success": "Svi predstavnici podrške sada mogu odgovoriti na tiket",
