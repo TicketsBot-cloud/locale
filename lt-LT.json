@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "Nepavyko rasti žymos, kurios ID `%s`",
 	"commands.tags.get.invalid_arguments": "Jūs turite nurodyti žymos ID. Jeigu reikia daugiau pagalbos, aplankykite <%s>.",
 	"commands.tags.get.invalid_tag": "Netinkama žyma. Jeigu reikia daugiau pagalbos, apsilankykite <%s>.",
-	"commands.tags.list": "Visų žymų ID: \\n%s\\nKad peržiūrėtumėte žymos turinį, naudokite `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "Dar niekas neapsiėmė šiuo bilietu",
 	"commands.unclaim.not_claimer": "Tik administracija ir vartotojai kurie apsiėmė šiuo bilietu gali juo nebeapsiimti",
 	"commands.unclaim.success": "Dabar visi pagalbos nariai gali atsakyti į šį bilietą",
