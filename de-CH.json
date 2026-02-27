@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "En Tag mit de ID `%s` het nöd chöne gfunde werde",
 	"commands.tags.get.invalid_arguments": "Du muesch d'ID vomne Tag aageh. Für wiiteri Hilf mit Tags lueg Dir <%s> aa.",
 	"commands.tags.get.invalid_tag": "Ungültige Tag. Für wiiteri Hilf mit Tags lueg Dir <%s> aa.",
-	"commands.tags.list": "IDs für all Tags: \\n%s\\nZum de Inhalt vomne Tag aazluege, bruuch `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
 	"commands.unclaim.not_claimed": "S'Ticket wird vo niemertem bearbeitet",
 	"commands.unclaim.not_claimer": "Nur Administratore und de Benutzer, wo s'Ticket bearbeitet, chönd s'Ticket freigeh",
 	"commands.unclaim.success": "Alli Support-Mitarbeiter chönd ab sofort uf s'Ticket antworte",
