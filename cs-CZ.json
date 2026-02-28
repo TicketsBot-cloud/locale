@@ -35,7 +35,7 @@
 	"commands.unclaim.not_claimed": "Tento ticket není claimnut",
 	"commands.unclaim.not_claimer": "Pouze administrátoři a uživatel, který si vyžádal tiket, mohou zrušit claim tiketu",
 	"commands.unclaim.success": "Všichni zástupci podpory mohou nyní odpovědět na ticket",
-	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"commands.vote": "Klikněte na tlačítko níže pro hlasování pro bota a získejte 24 hodin prémiové verze zdarma.\n\nJakmile jste hlasovali, spusťe %s příkaz znovu a vyzvědněte si hlasovací kredity.",
 	"generic.invalid_argument": "Neplatný argument: odkazuje na použití",
 	"generic.invalid_user": "Cílový uživatel nebyl nalezen",
 	"generic.no_permission": "Nemáte dostatečná oprávnění",
@@ -261,7 +261,7 @@
 			"please_wait": "Počkejte prosím...",
 			"success_after_check": "Prémiové členství je nyní aktivní na tomto serveru!",
 			"link_patreon_account": "Propojení účtu Patreon",
-			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](%s), and a further waited 10 minutes.",
+			"no_subscription": "Nelze najít aktivní předplatné Patreonu spojeného s Vaším Discord účtem. Ujistěte se, že [máte propojený Váš Patreon a Discord účty](%s) a vyčkali dalších 10 minut.",
 			"open_form": "Otevřít formulář",
 			"open_form_description": "Stiskněte tlačítko níže pro opětovné otevření formuláře",
 			"use_key_anyway": "Přesto použít prémiový klíč",
@@ -362,7 +362,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](%s) will teach you how to configure every aspect of the bot!"
+			"docs": "Chcete se dozvědět více? Naše [dokumentace](%s) Vás provede komplentní konfigurací bota!"
 		},
 		"threads": {
 			"no_notification_channel": "Musíte zadat kanál oznámení ticketu",
