@@ -1,5 +1,5 @@
 {
-	"commands.about": "A jegyrendszer bot egy könnyen kezelhető és jól konfigurálható jegy és segítségnyújtó bot.\\nTámogató szerver: %s\\nParancsok: Írd be a `/help` parancsot\\nKezdd el a `/setup` paranccsal",
+	"commands.about": "A jegyrendszer bot egy könnyen kezelhető és jól konfigurálható jegy és segítségnyújtó bot.\\nTámogató szerver: %s\\nParancsok: Írd be a `%s` parancsot\\nKezdd el a `%s` paranccsal",
 	"commands.add.no_members": "Meg kell említened a tagokat, hogy hozzáadd őket a jegyhez",
 	"commands.add.no_permission": "Nincs engedélyed tagokat hozzáadni ehhez a jegyhez",
 	"commands.add.no_everyone": "Nem adhatod hozzá a `@everyone` rangot staffként",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Meg kell említened azt a személyt aki jogait el szeretnéd venni.",
 	"commands.rename.missing_name": "Meg kell adnia egy új nevet az átnevezéshez.",
 	"commands.rename.success": "Ez a jegy át lett nevezve erre: <#%d>",
-	"commands.tags.create.already_exists": "Ilyen cimkeazonosító már létezik: `%s`. Törölni tudod ezzel a parancsal: `/tag delete %s`",
+	"commands.tags.create.already_exists": "Ilyen cimkeazonosító már létezik: `%s`. Törölni tudod ezzel a parancsal: `%s`",
 	"commands.tags.create.invalid_arguments": "Meg kell adnod a cimkeazonosítót és annak tartalmát.",
 	"commands.tags.create.too_long": "A címkeazonosítók nem lehetnek hosszabbak, mint 16 karakter.",
 	"commands.tags.delete.invalid_arguments": "Add meg a törölni kívánt cimkét.",
 	"commands.tags.delete.not_exist": "A következő cimke nem található: `%s`.",
 	"commands.tags.get.invalid_arguments": "Meg kell adnia a címke azonosítóját. Ha további segítségre van szüksége a címkével kapcsolatban, látogasson el a <%s> oldalra.",
 	"commands.tags.get.invalid_tag": "Érvénytelen címke. Ha további segítségre van szüksége a címkékkel kapcsolatban, látogasson el a <%s> oldalra.",
-	"commands.tags.list": "Elérhető cimkék: \\n%s\\nHogy megnézd a tartalmukat vagy kiírd használd ezt a parancsot: `%s tag <ID>`",
+	"commands.tags.list": "Elérhető cimkék: \\n%s\\nHogy megnézd a tartalmukat vagy kiírd használd ezt a parancsot: `%s`",
 	"commands.unclaim.not_claimed": "Ez a jegy még nem lett lefoglalva.",
 	"commands.unclaim.not_claimer": "Csak az adminisztrátorok, jegyet lefoglaló vagy megnyitó személy nyithatja ki azt.",
 	"commands.unclaim.success": "Minden kisegítő, adminisztrátor válaszolhat a jegyre.",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Hiányzik a `Csatornák kezelése` engedély",
 	"setup.auto.transcript.success": "Létrehozta: <#%d> csatornát",
 	"setup.ticket_limit.success": "Új jegylimit lett beállítva: `%d`",
-	"setup.transcript.invalid": "Meg kell említened egy létező csatornát a szerveren (pl. <#%d>)\\n**Például:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Meg kell említened egy létező csatornát a szerveren (pl. <#%d>)\\n**Például:** `%s`",
 	"setup.transcript.success": "A naplózásra létrehozott csatorna ez lett: <#%d>",
 	"commands.language.help_wanted": "Más nyelven beszélsz? Csatlakozz a [szerverünkhöz](%s) ha szeretnél segteni a fordításban",
 	"commands.rename.too_long": "Csatorna nevek nem lehetnek hosszabbak 100 karakternél",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Jegy",
 	"generic.title.premium_only": "Prémium parancs",
 	"generic.admin": "Adminisztrátor",
-	"commands.tags.create.success": "Címke létrehozva `/tag %s` parancsal tudod használni",
+	"commands.tags.create.success": "Címke létrehozva `%s` parancsal tudod használni",
 	"generic.title.about": "Rólunk",
 	"generic.title.vote": "Szavazás",
 	"generic.title.tags": "Címkék",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Az `/open` parancs ki van kapcsolva ezen a szerveren: kérlek, használd a jegy panelt egy jegy nyitásához",
+			"disabled": "Az `%s` parancs ki van kapcsolva ezen a szerveren: kérlek, használd a jegy panelt egy jegy nyitásához",
 			"threads": {
 				"cant_see_parent_channel": "Nem tudtam hozzáadni <@%d> felhasználót a tickethez. Győződj meg arról, hogy van joga a csatornákat megtekinteni (<#%d>)",
 				"cant_message_in_threads": "Hiányzik a `Send Messages in Threads` jogosultságod, amely egy jegy megnyitásához szükséges. Kérj meg egy szerveradminisztrátort, hogy biztosítsa a jogot számodra, majd próbáld meg újra."
@@ -238,7 +238,7 @@
 			"select": "Válassz ki egy nyelvet (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` csak a thread módban használható. Nézz rá a [docs](%s), hogy többet tudj meg a threadekről",
+			"channel_mode": "`%s` csak a thread módban használható. Nézz rá a [docs](%s), hogy többet tudj meg a threadekről",
 			"success": "Mostantól hívásban vagy",
 			"remove_success": "Mostmár nem vagy hívásban"
 		},
@@ -255,7 +255,7 @@
 			"key": "Kulcs",
 			"check_again": "Ellenőrizd le újra",
 			"subscription_found": "Feliratkozást találtunk!",
-			"subscription_found_content": "Ahhoz hogy beküldhesd a jelentkezésedet a szerverre, a szerver tulajdonosának (<@%d>) muszály beraknia admin **felhasználónak** (rangok ignorálva vannak) a </addadmin:%d> parancson keresztül. \\n\\nAkkor tudsz jelentkezni, mikor már hozzá vagy adva adminnak a </viewstaff:%d> paranccsal.",
+			"subscription_found_content": "Ahhoz hogy beküldhesd a jelentkezésedet a szerverre, a szerver tulajdonosának (<@%d>) muszály beraknia admin **felhasználónak** (rangok ignorálva vannak) a %s parancson keresztül. \\n\\nAkkor tudsz jelentkezni, mikor már hozzá vagy adva adminnak a %s paranccsal.",
 			"activate_key": "Aktiváld a prémium kulcsot",
 			"checking": "Prémium státusz ellenőrzése...",
 			"please_wait": "Kérlek várj...",

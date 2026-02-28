@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets é um bot de bilhetes e suporte fácil de utilizar e altamente configurável.\\nServidor de apoio: %s\\n Comandos: Escreve `/help`\\nComeça por executar `/setup`",
+	"commands.about": "Tickets é um bot de bilhetes e suporte fácil de utilizar e altamente configurável.\\nServidor de apoio: %s\\n Comandos: Escreve `%s`\\nComeça por executar `%s`",
 	"commands.add.no_members": "Você precisa mencionar membro(s) para adicionar ao ticket",
 	"commands.add.no_permission": "Não tens permissões para adicionar pessoa(s) a este ticket",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Tu precisas de mencionar um utilizador ou nomear um cargo para lhe conceder privilégios de representante de suporte",
 	"commands.rename.missing_name": "Tu precisas de especificar um novo nome para este bilhete",
 	"commands.rename.success": "Este bilhete foi renomeado para <#%d>",
-	"commands.tags.create.already_exists": "A etiqueta com o ID `%s` já existe. Tu podes eliminar a etiqueta usando `/tag delete %s`",
+	"commands.tags.create.already_exists": "A etiqueta com o ID `%s` já existe. Tu podes eliminar a etiqueta usando `%s`",
 	"commands.tags.create.invalid_arguments": "Tu tens que especificar o ID de uma etiqueta e conteúdos",
 	"commands.tags.create.too_long": "IDs de etiquetas não podem ter mais de 16 caracteres",
 	"commands.tags.delete.invalid_arguments": "Tu tens que especificar o ID de uma etiqueta para apagar",
 	"commands.tags.delete.not_exist": "Uma etiqueta com o ID `%s` não pôde ser encontrada",
 	"commands.tags.get.invalid_arguments": "Tu tens de fornecer o ID da etiqueta. Para mais ajuda com etiquetas, visita <%s>.",
 	"commands.tags.get.invalid_tag": "Etiqueta inválida. Para mais ajuda com etiquetas, visita <%s>.",
-	"commands.tags.list": "IDs para todas as etiquetas: \\n%s\\nPara ver o conteúdo de uma etiqueta, executa `%s tag <ID>`",
+	"commands.tags.list": "IDs para todas as etiquetas: \\n%s\\nPara ver o conteúdo de uma etiqueta, executa `%s`",
 	"commands.unclaim.not_claimed": "Este bilhete não foi reivindicado",
 	"commands.unclaim.not_claimer": "Apenas administradores e o utilizador que reivindicou o bilhete podem cancelar a reivindicação do bilhete",
 	"commands.unclaim.success": "Todos os representantes do suporte podem agora responder ao bilhete",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Eu não tenho a permissão `Gerir Canais`",
 	"setup.auto.transcript.success": "Canal <#%d> criado",
 	"setup.ticket_limit.success": "O limite de bilhetes foi atualizado para `%d`",
-	"setup.transcript.invalid": "Tu tens que mencionar um canal válido no servidor (p.ex. <#%d>)\\n**Exemplo:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Tu tens que mencionar um canal válido no servidor (p.ex. <#%d>)\\n**Exemplo:** `%s`",
 	"setup.transcript.success": "O canal das transcrições foi alterado para <#%d>",
 	"commands.language.help_wanted": "Tu falas outra língua? Entra no nosso [servidor de suporte](%s) se estiveres interessado em ajudar a traduzir o bot para mais línguas",
 	"commands.rename.too_long": "Os nomes dos canais não podem ter mais de 100 caracteres",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Bilhete",
 	"generic.title.premium_only": "Comando Apenas de Premium",
 	"generic.admin": "Administrador",
-	"commands.tags.create.success": "Etiqueta criada - tu podes usá-la executando `/tag %s`",
+	"commands.tags.create.success": "Etiqueta criada - tu podes usá-la executando `%s`",
 	"generic.title.about": "Sobre",
 	"generic.title.vote": "Votar",
 	"generic.title.tags": "Etiquetas",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "O comando `/open` está desativado neste servidor: por favor, usa um painel de bilhete para abrir um bilhete",
+			"disabled": "O comando `%s` está desativado neste servidor: por favor, usa um painel de bilhete para abrir um bilhete",
 			"threads": {
 				"cant_see_parent_channel": "Não foi possível adicionar <@%d> a este bilhete: Assegura-te que ele/a tem permissão para ver o canal principal do tópico (<#%d>)",
 				"cant_message_in_threads": "Você falta a permissão `Enviar Mensagens Em Tópicos`, o que é necessário para abrir um bilhete. Por favor, pergunte a um administrador do servidor para lhe dar está permissão, e tente outra vez."
@@ -238,7 +238,7 @@
 			"select": "Seleciona um idioma (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` só pode ser utilizado no modo de tópico. Visita o nosso [docs](%s) para saberes mais sobre tópicos",
+			"channel_mode": "`%s` só pode ser utilizado no modo de tópico. Visita o nosso [docs](%s) para saberes mais sobre tópicos",
 			"success": "Tu estás agora em alerta",
 			"remove_success": "Tu não estás mais em alerta"
 		},
@@ -255,7 +255,7 @@
 			"key": "Chave",
 			"check_again": "Verifica Novamente",
 			"subscription_found": "Subscrição Encontrada!",
-			"subscription_found_content": "Para aplicares a tua subscrição a este servidor, o dono do servidor (<@%d>) tem que te adicionar como um **utilizador** administrador (cargos são ignorados) através do comando </addadmin:%d>.\\n\\nTu podes verificar que tu foste adicionado como um utilizador administrador através do comando </viewstaff:%d>.",
+			"subscription_found_content": "Para aplicares a tua subscrição a este servidor, o dono do servidor (<@%d>) tem que te adicionar como um **utilizador** administrador (cargos são ignorados) através do comando %s.\\n\\nTu podes verificar que tu foste adicionado como um utilizador administrador através do comando %s.",
 			"activate_key": "Ativa Uma Chave Premium",
 			"checking": "A Verificar o Estado do Premium...",
 			"please_wait": "Por favor, aguarde...",

@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets és un bot de tiquets i suport fàcil d'utilitzar i altament configurable.\\nServidor de suport: %s\\nOrdres: Escriu `/help`\\nComença executant `/setup`",
+	"commands.about": "Tickets és un bot de tiquets i suport fàcil d'utilitzar i altament configurable.\\nServidor de suport: %s\\nOrdres: Escriu `%s`\\nComença executant `%s`",
 	"commands.add.no_members": "Has de mencionar els membres que vols afegir al tiquet",
 	"commands.add.no_permission": "No tens permís per afegir persones a aquest tiquet",
 	"commands.add.no_everyone": "No es pot afegir el rol `@everyone` a un tiquet",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Has de mencionar un usuari o rol per concedir-li privilegis d'equip de suport",
 	"commands.rename.missing_name": "Has de proporcionar un nou nom pel tiquet",
 	"commands.rename.success": "El tiquet ha estat reanomenat com a <#%d>",
-	"commands.tags.create.already_exists": "Ja existeix una etiqueta amb l'identificador `%s`. Pots eliminar l'etiqueta utilitzant `/tag delete %s`",
+	"commands.tags.create.already_exists": "Ja existeix una etiqueta amb l'identificador `%s`. Pots eliminar l'etiqueta utilitzant `%s`",
 	"commands.tags.create.invalid_arguments": "Has de proporcionar l'identificador i el contingut de l'etiqueta",
 	"commands.tags.create.too_long": "L'identificador de l'etiqueta no pot tenir més de 16 caràcters",
 	"commands.tags.delete.invalid_arguments": "Has de proporcionar l'identificador de l'etiqueta que vols eliminar",
 	"commands.tags.delete.not_exist": "No s'ha trobat cap etiqueta amb l'identificador `%s`",
 	"commands.tags.get.invalid_arguments": "Has de proporcionar l'identificador per l'etiqueta. Per més ajuda sobre les etiquetes, visita <%s>.",
 	"commands.tags.get.invalid_tag": "Etiqueta no vàlida. Per més ajuda sobre les etiquetes, visita <%s>.",
-	"commands.tags.list": "Identificadors de totes les etiquetes: \\n%s\\nPer veure el contingut d'una etiqueta, executeu `%s tag <ID>`",
+	"commands.tags.list": "Identificadors de totes les etiquetes: \\n%s\\nPer veure el contingut d'una etiqueta, executeu `%s`",
 	"commands.unclaim.not_claimed": "Aquest tiquet no ha estat reclamat",
 	"commands.unclaim.not_claimer": "Només els administradors i usuaris que hagin reclamat el tiquet el poden alliberar",
 	"commands.unclaim.success": "Ara, tots els integrants de suport poden respondre al tiquet",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Trobo a faltar el permís per gestionar canals `Manage Channels`",
 	"setup.auto.transcript.success": "Canal <#%d> creat",
 	"setup.ticket_limit.success": "El límit de tiquets s'ha actualitzat a `%d`",
-	"setup.transcript.invalid": "Has de mencionar un canal vàlid del server (p.e. <#%d>)\\n**Exemple:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Has de mencionar un canal vàlid del server (p.e. <#%d>)\\n**Exemple:** `%s`",
 	"setup.transcript.success": "El canal de transcripcions s'ha actualitzat a <#%d>",
 	"commands.language.help_wanted": "Parles un altre idioma? Uneix-te al nostre [servidor de suport](%s) si t'interessa ajudar a traduir el bot a altres idiomes",
 	"commands.rename.too_long": "Els noms dels canals no poden tenir més de 100 caràcters",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Tiquet",
 	"generic.title.premium_only": "Ordre exclusiva Premium",
 	"generic.admin": "Administrador",
-	"commands.tags.create.success": "Etiqueta creada - pots utilitzar-la fent servir `/tag %s`",
+	"commands.tags.create.success": "Etiqueta creada - pots utilitzar-la fent servir `%s`",
 	"generic.title.about": "Quant a",
 	"generic.title.vote": "Votar",
 	"generic.title.tags": "Etiquetes",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "L'ordre `/open` s'ha deshabilitat en aquest servidor: si us plau, utilitza un panell per obrir un tiquet",
+			"disabled": "L'ordre `%s` s'ha deshabilitat en aquest servidor: si us plau, utilitza un panell per obrir un tiquet",
 			"threads": {
 				"cant_see_parent_channel": "No s'ha pogut afegir <@%d> al tiquet: Assegura't que tinc permís per veure el canal pare (<#%d>) del fil",
 				"cant_message_in_threads": "Et falta el permís `Enviar Missatges en Fils`, necessari per obrir un tiquet. Si us plau, demana a l'administrador que activi el permís, i prova-ho un altre cop."
@@ -238,7 +238,7 @@
 			"select": "Selecciona un idioma (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` només es pot utilitzar en el mode fil. Visita la nostra [documentació](%s) per conèixer més sobre els fils",
+			"channel_mode": "`%s` només es pot utilitzar en el mode fil. Visita la nostra [documentació](%s) per conèixer més sobre els fils",
 			"success": "Ara estàs disponible",
 			"remove_success": "Ara ja no estàs disponible"
 		},
@@ -255,7 +255,7 @@
 			"key": "Codi",
 			"check_again": "Torna-ho a Provar",
 			"subscription_found": "Subscripció Trobada!",
-			"subscription_found_content": "Per tal de poder aplicar la teva subscripció a aquest servidor, el seu propietari (<@%d>) t'ha d'afegir com a **usuari/a** administrador (com a rol no serveix) amb l'ordre </addadmin:%d>.\\n\\nPots verificar si ets usuari administrador executant </viewstaff:%d>.",
+			"subscription_found_content": "Per tal de poder aplicar la teva subscripció a aquest servidor, el seu propietari (<@%d>) t'ha d'afegir com a **usuari/a** administrador (com a rol no serveix) amb l'ordre %s.\\n\\nPots verificar si ets usuari administrador executant %s.",
 			"activate_key": "Activar un Codi Premium",
 			"checking": "Comprovant Estat de la Subscripció Premium...",
 			"please_wait": "Si us plau, espera...",

@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets est un bot de tickets facile à utiliser et hautement configurable.\\nServeur d'assistance: %s\\nListe des commandes : Tapez `/help`\\nCommencez en tapant `/setup`",
+	"commands.about": "Tickets est un bot de tickets facile à utiliser et hautement configurable.\\nServeur d'assistance: %s\\nListe des commandes : Tapez `%s`\\nCommencez en tapant `%s`",
 	"commands.add.no_members": "Vous devez mentionner des membres à ajouter au ticket",
 	"commands.add.no_permission": "Vous n'avez pas la permission d'ajouter des personnes à ce ticket.",
 	"commands.add.no_everyone": "Vous ne pouvez pas ajouter le rôle `@everyone` à un ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui attribuer les privilèges de représentant de l'équipe d'assistance",
 	"commands.rename.missing_name": "Vous devez spécifier un nouveau nom pour ce ticket",
 	"commands.rename.success": "Ce ticket a été renommé en <#%d>",
-	"commands.tags.create.already_exists": "Une étiquette avec l'ID `%s` existe déjà. Vous pouvez supprimer cette étiquette à l'aide de la commande `/tag delete %s`",
+	"commands.tags.create.already_exists": "Une étiquette avec l'ID `%s` existe déjà. Vous pouvez supprimer cette étiquette à l'aide de la commande `%s`",
 	"commands.tags.create.invalid_arguments": "Vous devez spécifier un identifiant d'étiquette et un contenu",
 	"commands.tags.create.too_long": "Les IDs des étiquettes ne peuvent pas comporter plus de 16 caractères",
 	"commands.tags.delete.invalid_arguments": "Vous devez préciser l'identifiant de l'étiquette à supprimer",
 	"commands.tags.delete.not_exist": "Aucune étiquette avec l'ID `%s` n'a pu être trouvée",
 	"commands.tags.get.invalid_arguments": "Vous devez fournir l'identifiant de l'étiquette. Pour plus d'aide concernant les étiquettes, visitez le site <%s>.",
 	"commands.tags.get.invalid_tag": "Étiquette invalide. Pour plus d'aide sur les étiquettes, rendez-vous sur <%s>.",
-	"commands.tags.list": "Identifiants pour toutes les étiquettes : \\n%s\\nPour afficher le contenu d'une étiquette, tapez `%s tag <ID>`",
+	"commands.tags.list": "Identifiants pour toutes les étiquettes : \\n%s\\nPour afficher le contenu d'une étiquette, tapez `%s`",
 	"commands.unclaim.not_claimed": "Ce ticket n'a pas été réclamé",
 	"commands.unclaim.not_claimer": "Seuls les administrateurs et l'utilisateur qui a réclamé le ticket peuvent retirer une réclamation",
 	"commands.unclaim.success": "Tous les membres de l'équipe d'assistance peuvent désormais répondre au ticket",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Il me manque la permission `Gérer Les Salons`",
 	"setup.auto.transcript.success": "Salon <#%d> créé",
 	"setup.ticket_limit.success": "La limite de tickets a été mise à jour et passe à `%d`",
-	"setup.transcript.invalid": "Vous devez mentionner un salon valide du serveur (par exemple <#%d>)\\n**Exemple :** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Vous devez mentionner un salon valide du serveur (par exemple <#%d>)\\n**Exemple :** `%s`",
 	"setup.transcript.success": "Le salon de retranscriptions des tickets a été changé par <#%d>",
 	"commands.language.help_wanted": "Vous parlez une autre langue ? Rejoignez notre [serveur d'assistance](%s) si vous souhaitez participer à la traduction du bot dans d'autres langues",
 	"commands.rename.too_long": "Le nom du salon ne peut pas excéder 100 caractères",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Ticket",
 	"generic.title.premium_only": "Commande Premium uniquement",
 	"generic.admin": "Administrateur",
-	"commands.tags.create.success": "Étiquette créée - vous pouvez l'utiliser en exécutant `/tag %s`",
+	"commands.tags.create.success": "Étiquette créée - vous pouvez l'utiliser en exécutant `%s`",
 	"generic.title.about": "À propos",
 	"generic.title.vote": "Voter",
 	"generic.title.tags": "Étiquettes",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "La commande `/open` est désactivée sur ce serveur : veuillez utiliser un panneau de tickets pour ouvrir un ticket",
+			"disabled": "La commande `%s` est désactivée sur ce serveur : veuillez utiliser un panneau de tickets pour ouvrir un ticket",
 			"threads": {
 				"cant_see_parent_channel": "Impossible d'ajouter <@%d> au ticket: Assurez-vous que cet utilisateur a la permission de voir le salon parent du fil de discussion (<#%d>)",
 				"cant_message_in_threads": "Il vous manque la permission `Envoyer des messages dans les fils`. Celle-ci est nécessaire pour ouvrir un ticket. Veuillez demander à un administrateur du serveur de vous accorder cette permission, puis réessayez."
@@ -238,7 +238,7 @@
 			"select": "Sélectionnez une langue (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` ne peut être utilisé qu'en mode fil de discussion. Visitez notre [documentation](%s) pour en savoir plus sur les fils de discussion",
+			"channel_mode": "`%s` ne peut être utilisé qu'en mode fil de discussion. Visitez notre [documentation](%s) pour en savoir plus sur les fils de discussion",
 			"success": "Vous êtes maintenant disponible",
 			"remove_success": "Vous n'êtes plus disponible"
 		},
@@ -255,7 +255,7 @@
 			"key": "Clé",
 			"check_again": "Vérifiez à nouveau",
 			"subscription_found": "Abonnement trouvé !",
-			"subscription_found_content": "Afin d'appliquer votre abonnement à ce serveur, son propriétaire (<@%d>) doit vous ajouter en tant qu'**utilisateur** administrateur (les rôles sont ignorés) via la commande </addadmin:%d>.\\n\\nVous pouvez vérifier que vous avez été ajouté en tant qu'utilisateur administrateur en exécutant </viewstaff:%d>.",
+			"subscription_found_content": "Afin d'appliquer votre abonnement à ce serveur, son propriétaire (<@%d>) doit vous ajouter en tant qu'**utilisateur** administrateur (les rôles sont ignorés) via la commande %s.\\n\\nVous pouvez vérifier que vous avez été ajouté en tant qu'utilisateur administrateur en exécutant %s.",
 			"activate_key": "Activer une clé premium",
 			"checking": "Vérification du statut premium...",
 			"please_wait": "Veuillez patienter...",

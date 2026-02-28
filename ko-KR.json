@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets는 사용하기 쉽고 구성하기 쉬운 티켓 및 지원 봇이에요.\\n지원 서버: %s\\n명령어 목록을 보려면 `/help`를 입력하세요.\\n`/setup` 명령어로 시작해 보세요.",
+	"commands.about": "Tickets는 사용하기 쉽고 구성하기 쉬운 티켓 및 지원 봇이에요.\\n지원 서버: %s\\n명령어 목록을 보려면 `%s`를 입력하세요.\\n`%s` 명령어로 시작해 보세요.",
 	"commands.add.no_members": "티켓에 추가하려면 멤버를 멘션해야 해요",
 	"commands.add.no_permission": "티켓에 멤버를 추가할 권한이 없어요",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "지원 담당자 권한을 부여하려면 사용자 또는 역할 이름을 지정해야 합니다.",
 	"commands.rename.missing_name": "이 티켓의 새 이름을 지정해야 합니다.",
 	"commands.rename.success": "이 티켓의 이름이 <#%d>로 변경되었습니다.",
-	"commands.tags.create.already_exists": "ID가 `%s`인 태그가 이미 있습니다. `/tag delete %s`을(를) 사용하여 태그를 삭제할 수 있습니다.",
+	"commands.tags.create.already_exists": "ID가 `%s`인 태그가 이미 있습니다. `%s` 을(를) 사용하여 태그를 삭제할 수 있습니다.",
 	"commands.tags.create.invalid_arguments": "태그 ID 및 내용을 지정해야 합니다.",
 	"commands.tags.create.too_long": "태그 ID는 16자를 초과할 수 없습니다.",
 	"commands.tags.delete.invalid_arguments": "삭제할 태그 ID를 지정해야 합니다.",
 	"commands.tags.delete.not_exist": "ID가 `%s`인 태그를 찾을 수 없습니다.",
 	"commands.tags.get.invalid_arguments": "태그의 ID를 제공해야 합니다. 태그에 대한 자세한 내용은 <%s>을 참조하십시오.",
 	"commands.tags.get.invalid_tag": "잘못된 태그입니다. 태그에 대한 자세한 도움말을 보려면 <%s>을 방문하십시오.",
-	"commands.tags.list": "모든 태그의 ID: \\n%s\\n태그 내용을 보려면 `%s tag <ID>`",
+	"commands.tags.list": "모든 태그의 ID: \\n%s\\n태그 내용을 보려면 `%s`",
 	"commands.unclaim.not_claimed": "이 티켓은 배정되지 않았습니다.",
 	"commands.unclaim.not_claimer": "관리자 및 티켓을 연 사용자만 티켓 배정를 취소할 수 있습니다.",
 	"commands.unclaim.success": "이제 모든 지원 담당자가 티켓에 응답할 수 있습니다.",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "`채널 관리`권한이 없습니다.",
 	"setup.auto.transcript.success": "<#%d> 채널을 만들었습니다.",
 	"setup.ticket_limit.success": "티켓 제한이 `%d`로 업데이트되었습니다.",
-	"setup.transcript.invalid": "서버의 유효한 채널(예: <#%d>)을 멘션해야 합니다.\\n** 예시:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "서버의 유효한 채널(예: <#%d>)을 멘션해야 합니다.\\n** 예시:** `%s`",
 	"setup.transcript.success": "채팅 기록 채널이 <#%d>로 변경되었습니다.",
 	"commands.language.help_wanted": "당신은 다른 언어를 할 줄 아나요? 봇을 더 많은 언어로 번역하는 데 관심이 있으신 경우 [지원 서버](%s)에 가입하세요!",
 	"commands.rename.too_long": "채널 이름은 100자를 초과할 수 없습니다.",
@@ -120,7 +120,7 @@
 	"generic.ticket": "티켓",
 	"generic.title.premium_only": "프리미엄 전용 커맨드",
 	"generic.admin": "관리자",
-	"commands.tags.create.success": "태그 생성됨 - `/tag %s`을(를) 실행하여 사용할 수 있습니다.",
+	"commands.tags.create.success": "태그 생성됨 - `%s` 을(를) 실행하여 사용할 수 있습니다.",
 	"generic.title.about": "정보",
 	"generic.title.vote": "투표",
 	"generic.title.tags": "태그",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "이 서버에서 `/open` 명령을 사용할 수 없습니다. 티켓 패널을 사용하여 티켓을 여세요.",
+			"disabled": "이 서버에서 `%s` 명령을 사용할 수 없습니다. 티켓 패널을 사용하여 티켓을 여세요.",
 			"threads": {
 				"cant_see_parent_channel": "티켓에 <@%d>을(를) 추가할 수 없어요. 스레드의 상위 채널(<#%d>)를 볼 수 있는 권한이 있는지 확인해주세요.",
 				"cant_message_in_threads": "티켓을 열기에 필요한, `스레드에서 메시지 보내기` 권한이 없습니다. 서버 관리자에게 권한을 부여하라고 요청해 주세요. 그리고 다시 시도하세요."
@@ -238,7 +238,7 @@
 			"select": "언어를 선택하세요 (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "'/on-call'은 스레드 모드에서만 사용할 수 있어요. 스레드에 대한 자세한 내용은 [문서](%s) 를 참조해주세요.",
+			"channel_mode": "'%s'은 스레드 모드에서만 사용할 수 있어요. 스레드에 대한 자세한 내용은 [문서](%s) 를 참조해주세요.",
 			"success": "대기 중 상태입니다",
 			"remove_success": "대기 중 상태가 아닙니다"
 		},
@@ -255,7 +255,7 @@
 			"key": "키",
 			"check_again": "다시 확인하세요",
 			"subscription_found": "구독을 찾았습니다!",
-			"subscription_found_content": "이 서버에 구독을 적용하시려면, 서버 소유자(<@%d>)님이 당신을 </addadmin:%d> 명령어를 통해 어드민 **사용자**(역할은 무시됨)로 추가해야 합니다.\\n\\n</viewstaff:%d> 명령어로 어드민 사용자로 추가되었는지 확인할 수 있습니다.",
+			"subscription_found_content": "이 서버에 구독을 적용하시려면, 서버 소유자(<@%d>)님이 당신을 %s 명령어를 통해 어드민 **사용자**(역할은 무시됨)로 추가해야 합니다.\\n\\n%s 명령어로 어드민 사용자로 추가되었는지 확인할 수 있습니다.",
 			"activate_key": "프리미엄 키 활성화",
 			"checking": "프리미엄 상태 확인 중...",
 			"please_wait": "잠시 기다려 주세요...",

@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets je jednoduchy na pouzivanie a vysoko upraviteľny bot pre podporu a tickety.\\nPodpora: %s\\nPríkazy: Napíš `/help`\\n`/setup`: Začať konfiguráciu",
+	"commands.about": "Tickets je jednoduchy na pouzivanie a vysoko upraviteľny bot pre podporu a tickety.\\nPodpora: %s\\nPríkazy: Napíš `%s`\\n`%s`: Začať konfiguráciu",
 	"commands.add.no_members": "Musíte označiť užívateľa aby ste ich mohli pridať",
 	"commands.add.no_permission": "Nemáš oprávnenie na pridávanie ľudí do tohto ticketu",
 	"commands.add.no_everyone": "Nemôžeš pridať rolu `@everyone` do tiketu",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Musíte uviesť používateľa alebo pomenovať rolu, ktorej chcete udeliť oprávnenia zástupcu podpory",
 	"commands.rename.missing_name": "Je potrebné zadať nový názov tohto ticketu",
 	"commands.rename.success": "Tento tip bol premenovaný na <#%d>",
-	"commands.tags.create.already_exists": "Značka s ID `%s` už existuje. Tag môžete odstrániť pomocou príkazu `/tag delete %s`",
+	"commands.tags.create.already_exists": "Značka s ID `%s` už existuje. Tag môžete odstrániť pomocou príkazu `%s`",
 	"commands.tags.create.invalid_arguments": "Musíte zadať ID značky a obsah",
 	"commands.tags.create.too_long": "ID značky nemôže byť dlhšie ako 16 znakov",
 	"commands.tags.delete.invalid_arguments": "Musíte zadať ID značky, ktorú chcete vymazať",
 	"commands.tags.delete.not_exist": "Značku s ID `%s` sa nepodarilo nájsť",
 	"commands.tags.get.invalid_arguments": "Musíte uviesť ID značky. Viac informácií o značke nájdete na stránke <%s>.",
 	"commands.tags.get.invalid_tag": "Neplatná značka. Viac informácií o značkách nájdete na stránke <%s>.",
-	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s`",
 	"commands.unclaim.not_claimed": "Tento lístok nie je nárokovaný",
 	"commands.unclaim.not_claimer": "Odhlásiť ticket môžu len administrátori a používateľ, ktorý ho nárokoval",
 	"commands.unclaim.success": "Všetci zástupcovia podpory teraz môžu reagovať na ticket",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Chýba mi oprávnenie `Manage Channels`",
 	"setup.auto.transcript.success": "Vytvorený <#%d> kanál",
 	"setup.ticket_limit.success": "Limit ticketov bol aktualizovaný na `%d`",
-	"setup.transcript.invalid": "Musíte uviesť platný kanál na serveri (napr. <#%d>)\\n**Príklad:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Musíte uviesť platný kanál na serveri (napr. <#%d>)\\n**Príklad:** `%s`",
 	"setup.transcript.success": "Kanál prepisov bol zmenený na <#%d>",
 	"commands.language.help_wanted": "Hovoríte iným jazykom? Pripojte sa k nášmu [serveru podpory](%s), ak máte záujem pomôcť pri preklade bota do viacerých jazykov",
 	"commands.rename.too_long": "Názvy kanálov nemôžu byť dlhšie ako 100 znakov",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Lístok",
 	"generic.title.premium_only": "Len príkaz Premium",
 	"generic.admin": "Správca",
-	"commands.tags.create.success": "Tag vytvorený - môžete ho použiť spustením `/tag %s`",
+	"commands.tags.create.success": "Tag vytvorený - môžete ho použiť spustením `%s`",
 	"generic.title.about": "Informácie o",
 	"generic.title.vote": "Hlasovanie",
 	"generic.title.tags": "Značky",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Príkaz `/open` je na tomto serveri vypnutý: na otvorenie tiketu použite panel",
+			"disabled": "Príkaz `%s` je na tomto serveri vypnutý: na otvorenie tiketu použite panel",
 			"threads": {
 				"cant_see_parent_channel": "Do ticketu sa nepodarilo pridať <@%d>: Uistite sa, že má oprávnenie na zobrazenie nadradeného vlákna v kanály (<#%d>)",
 				"cant_message_in_threads": "Chýba vám oprávnenie `Odosielať správy vo vláknach`, ktoré je potrebné na otvorenie lístka. Požiadajte správcu servera, aby vám toto oprávnenie udelil, a skúste to znova."
@@ -238,7 +238,7 @@
 			"select": "Vyberte jazyk (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` možno použiť len v režime vlákna. Navštívte naše [docs](%s) a dozviete sa viac o vláknach",
+			"channel_mode": "`%s` možno použiť len v režime vlákna. Navštívte naše [docs](%s) a dozviete sa viac o vláknach",
 			"success": "Teraz ste v hovore",
 			"remove_success": "Už nie ste v hovore"
 		},
@@ -255,7 +255,7 @@
 			"key": "Klúč",
 			"check_again": "Skontrolujte znova",
 			"subscription_found": "Nájdené predplatné!",
-			"subscription_found_content": "Aby bolo možné použiť vaše predplatné na tomto serveri, musí vás vlastník servera (<@%d>) pridať ako administrátora **užívateľa** (roly sa ignorujú) prostredníctvom príkazu </addadmin:%d>.\\n\\nTo, že ste boli pridaný ako administrátor, si môžete overiť spustením príkazu </viewstaff:%d>.",
+			"subscription_found_content": "Aby bolo možné použiť vaše predplatné na tomto serveri, musí vás vlastník servera (<@%d>) pridať ako administrátora **užívateľa** (roly sa ignorujú) prostredníctvom príkazu %s.\\n\\nTo, že ste boli pridaný ako administrátor, si môžete overiť spustením príkazu %s.",
 			"activate_key": "Aktivácia prémiového kľúča",
 			"checking": "Kontrola prémiového stavu...",
 			"please_wait": "Počkajte, prosím...",

@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets là một bot dễ sử dụng và có thể thiết lập theo ý của bạn.\\nNhóm hỗ trợ: %s\\nLệnh: Gõ `/help`\\nBắt đầu bằng lệnh `/setup`\\n",
+	"commands.about": "Tickets là một bot dễ sử dụng và có thể thiết lập theo ý của bạn.\\nNhóm hỗ trợ: %s\\nLệnh: Gõ `%s`\\nBắt đầu bằng lệnh `%s`\\n",
 	"commands.add.no_members": "Bạn cần nhắc đến các thành viên mà bạn muốn thêm vào phiếu hỗ trợ",
 	"commands.add.no_permission": "Bạn không có quyền thêm người khác vào phiếu hỗ trợ này",
 	"commands.add.no_everyone": "Bạn không thể thêm vai trò `@everyone` vào phiếu hỗ trợ",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để gỡ quyền đại diện hỗ trợ viên",
 	"commands.rename.missing_name": "Bạn cần ghi rõ tên mới cho phiếu hỗ trợ này",
 	"commands.rename.success": "Phiếu hỗ trợ này đã được đổi tên thành <#%d>",
-	"commands.tags.create.already_exists": "Thẻ tên với ID `%s` đã được sử dụng. Có thể xóa thẻ tên đó bằng lệnh `/tag delete %s`",
+	"commands.tags.create.already_exists": "Thẻ tên với ID `%s` đã được sử dụng. Có thể xóa thẻ tên đó bằng lệnh `%s`",
 	"commands.tags.create.invalid_arguments": "Bạn phải chỉ rõ ID của thẻ và nội dung trong đó",
 	"commands.tags.create.too_long": "ID của thẻ không thể dài hơn 16 ký tự",
 	"commands.tags.delete.invalid_arguments": "Phải chỉ rõ ID của thẻ để xóa",
 	"commands.tags.delete.not_exist": "Không tìm thấy thẻ tên có ID `%s`",
 	"commands.tags.get.invalid_arguments": "Bạn phải cung cấp ID của thẻ. Để hiểu hơn về thẻ, hãy đọc <%s>.",
 	"commands.tags.get.invalid_tag": "Thẻ tên không hợp lệ. Xem chi tiết về thẻ tên tại <%s>.",
-	"commands.tags.list": "ID của các thẻ: \\n%s\\nĐể thấy được nội dung của một thẻ, dùng lệnh `%s tag <ID>`",
+	"commands.tags.list": "ID của các thẻ: \\n%s\\nĐể thấy được nội dung của một thẻ, dùng lệnh `%s`",
 	"commands.unclaim.not_claimed": "Phiếu hỗ trợ này chưa được nhận",
 	"commands.unclaim.not_claimer": "Chỉ quản trị viên và người nhận phiếu hỗ trợ mới có thể hủy nhận phiếu hỗ trợ",
 	"commands.unclaim.success": "Tất cả các đại diện hỗ trợ giờ có thể trả lời phiếu hỗ trợ",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
 	"setup.auto.transcript.success": "Đã tạo kênh <#%d>",
 	"setup.ticket_limit.success": "Giới hạn phiếu hỗ trợ đã được thay đổi thành `%d`",
-	"setup.transcript.invalid": "Bạn phải nhắc đến một kênh hợp lệ bên trong máy chủ (như <#%d>)\\n**Ví dụ:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Bạn phải nhắc đến một kênh hợp lệ bên trong máy chủ (như <#%d>)\\n**Ví dụ:** `%s`",
 	"setup.transcript.success": "Kênh dành các bản ghi chép đã được thay đổi thành <#%d>",
 	"commands.language.help_wanted": "Bạn dùng ngôn ngữ khác? Tham gia [máy chủ hỗ trợ](%s) nếu bạn muốn giúp phiên dịch thêm ngôn ngữ cho người máy",
 	"commands.rename.too_long": "Tên của kênh không thể dài hơn 100 ký tự",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Phiếu hỗ trợ",
 	"generic.title.premium_only": "Lệnh chỉ dành cho phiên bản premium",
 	"generic.admin": "Quản trị viên",
-	"commands.tags.create.success": "Thẻ đã được tạo - bạn có thể dùng nó với lệnh `/tag %s`",
+	"commands.tags.create.success": "Thẻ đã được tạo - bạn có thể dùng nó với lệnh `%s`",
 	"generic.title.about": "Thông tin",
 	"generic.title.vote": "Đánh giá",
 	"generic.title.tags": "Các thẻ tên",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Lệnh '/open' đã bị tắt trong máy chủ này, hãy sử dụng bảng tạo phiếu hỗ trợ để mở",
+			"disabled": "Lệnh '%s' đã bị tắt trong máy chủ này, hãy sử dụng bảng tạo phiếu hỗ trợ để mở",
 			"threads": {
 				"cant_see_parent_channel": "Không thể thêm <@%d> vào phiếu hỗ trợ: Hãy chắc chắn họ có quyền để xem kênh chứa chủ đề (<#%d>)",
 				"cant_message_in_threads": "Bạn đang thiếu quyền \"Gửi Tin Nhắn trong Chủ Đề\", cần có quyền này để mở phiếu hỗ trợ. Vui lòng hỏi quản trị viên để thêm quyền lợi cho bạn và thử lại sau."
@@ -238,7 +238,7 @@
 			"select": "Chọn ngôn ngữ (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` chỉ có thể sử dụng khi dùng chế độ chủ đề. Tham khảo [docs](%s) để tìm hiểu thêm",
+			"channel_mode": "`%s` chỉ có thể sử dụng khi dùng chế độ chủ đề. Tham khảo [docs](%s) để tìm hiểu thêm",
 			"success": "Bạn đã bắt đầu tiếp nhận hỗ trợ",
 			"remove_success": "Bạn đã ngừng tiếp nhận hỗ trợ"
 		},
@@ -255,7 +255,7 @@
 			"key": "Mã kích hoạt",
 			"check_again": "Kiểm tra lại",
 			"subscription_found": "Đã tìm thấy gói đăng kí!",
-			"subscription_found_content": "Để có thể áp dụng gói đăng kí trên máy chủ này, chủ sở hữu máy chủ (<@%d>) cần thêm bạn vào **Quản lí** (vai trò sẽ bị bỏ qua) bằng lệnh </addadmin:%d>.\\n\\nBạn có thể kiểm tra bằng lệnh </viewstaff:%d>.",
+			"subscription_found_content": "Để có thể áp dụng gói đăng kí trên máy chủ này, chủ sở hữu máy chủ (<@%d>) cần thêm bạn vào **Quản lí** (vai trò sẽ bị bỏ qua) bằng lệnh %s.\\n\\nBạn có thể kiểm tra bằng lệnh %s.",
 			"activate_key": "Kích hoạt mã cho bản premium",
 			"checking": "Đang kiểm tra trạng thái nâng cấp...",
 			"please_wait": "Vui lòng chờ...",

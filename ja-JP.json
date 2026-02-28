@@ -1,5 +1,5 @@
 {
-	"commands.about": "Ticketsは使いやすく、高度な設定が可能なチケット＆サポートボットです。\\nサポートサーバー: %s\\nコマンド一覧: `/help`\\nまずは `/setup` を実行して始めてください。",
+	"commands.about": "Ticketsは使いやすく、高度な設定が可能なチケット＆サポートボットです。\\nサポートサーバー: %s\\nコマンド一覧: `%s`\\nまずは `%s` を実行して始めてください。",
 	"commands.add.no_members": "チケットにメンバーを追加するにはメンションする必要があります。",
 	"commands.add.no_permission": "このチケットにメンバーを追加する権限がありません。",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,7 +24,7 @@
 	"commands.removesupport.no_members": "サポート担当者の権限を付与するためには、ユーザーまたはロールを指定する必要があります。",
 	"commands.rename.missing_name": "このチケットに新しい名前を指定する必要があります。",
 	"commands.rename.success": "このチケットは<#%d>に名前が変更されました。",
-	"commands.tags.create.already_exists": "`%s`というタグはすでに存在しています。タグは `/tag delete %s` と入力して削除することができます。",
+	"commands.tags.create.already_exists": "`%s`というタグはすでに存在しています。タグは `%s` と入力して削除することができます。",
 	"commands.tags.create.invalid_arguments": "タグIDと内容を指定する必要があります。",
 	"commands.tags.create.too_long": "タグIDは16文字以下にする必要があります。",
 	"commands.tags.delete.invalid_arguments": "削除するタグIDを指定する必要があります。",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "`チャンネルの管理` 権限がありません。",
 	"setup.auto.transcript.success": "<#%d>チャンネルを作成しました。",
 	"setup.ticket_limit.success": "チケットの上限は `%d ` に更新されました",
-	"setup.transcript.invalid": "サーバで有効なチャンネルをメンションする必要があります（例：<%d>）\\n**例：** `/setup transscripts #logs`",
+	"setup.transcript.invalid": "サーバで有効なチャンネルをメンションする必要があります（例：<%d>）\\n**例：** `%s`",
 	"setup.transcript.success": "トランスクリプトチャンネルが <#%d > に変更されました",
 	"commands.language.help_wanted": "他の言語を話せますか？もしあなたがボットをより多くの言語に翻訳することに興味があるなら、私たちの[support server](%s)に参加してください。",
 	"commands.rename.too_long": "チャンネル名を100文字以上にすることはできません。",
@@ -120,7 +120,7 @@
 	"generic.ticket": "チケット",
 	"generic.title.premium_only": "プレミアム限定コマンド",
 	"generic.admin": "管理者",
-	"commands.tags.create.success": "タグが作成されました - `/tag %s`を実行することで使用できます。",
+	"commands.tags.create.success": "タグが作成されました - `%s` を実行することで使用できます。",
 	"generic.title.about": "概要",
 	"generic.title.vote": "投票",
 	"generic.title.tags": "タグ",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "このサーバーでは`/open`コマンドは無効です：チケットパネルを使用してチケットを開いてください。",
+			"disabled": "このサーバーでは`%s`コマンドは無効です：チケットパネルを使用してチケットを開いてください。",
 			"threads": {
 				"cant_see_parent_channel": "チケットに <@%d> を追加できませんでした: スレッドの親チャンネルを表示する権限があることを確認してください (<#%d>)",
 				"cant_message_in_threads": "「スレッドにメッセージを送信」権限がありません。これはチケットを開くために必要です。 サーバー管理者にこの権限を許可するよう依頼して、もう一度やり直してください。"
@@ -238,7 +238,7 @@
 			"select": "言語を選択 (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` はスレッドモードでのみ使用できます。 [ドキュメント](%s) にアクセスしてスレッドの詳細を確認してください。",
+			"channel_mode": "`%s` はスレッドモードでのみ使用できます。 [ドキュメント](%s) にアクセスしてスレッドの詳細を確認してください。",
 			"success": "現在通話中です",
 			"remove_success": "通話中ではありません"
 		},
@@ -255,7 +255,7 @@
 			"key": "キー",
 			"check_again": "再確認",
 			"subscription_found": "サブスクリプションが見つかりました！",
-			"subscription_found_content": "このサーバーにサブスクリプションを適用するには、サーバー所有者 (<@%d>) が、</addadmin:%d> コマンドを使用してあなたを管理者 **ユーザー** (ロールは無視されます) として追加する必要があります。\\n\\n</viewstaff:%d> を実行すると、管理者ユーザーとして追加されたことを確認できます",
+			"subscription_found_content": "このサーバーにサブスクリプションを適用するには、サーバー所有者 (<@%d>) が、%s コマンドを使用してあなたを管理者 **ユーザー** (ロールは無視されます) として追加する必要があります。\\n\\n%s を実行すると、管理者ユーザーとして追加されたことを確認できます",
 			"activate_key": "プレミアムキーを有効化",
 			"checking": "プレミアムステータスを確認しています...",
 			"please_wait": "しばらくお待ちください...",

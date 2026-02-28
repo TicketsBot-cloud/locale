@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets er nem at bruge og er en yderst brugervenlig support bot.\\nSupport server: %s\\nKommandoer: Type `/help`\\nGå i gang med at bruge `/setup`",
+	"commands.about": "Tickets er nem at bruge og er en yderst brugervenlig support bot.\\nSupport server: %s\\nKommandoer: Type `%s`\\nGå i gang med at bruge `%s`",
 	"commands.add.no_members": "Du skal nævne brugere at tilføje til denne ticket",
 	"commands.add.no_permission": "Du har ikke tilladelse til at tilføje brugere til denne ticket",
 	"commands.add.no_everyone": "Du kan ikke tilføje `@everyone` rollen til en ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Du skal nævne en bruger eller en rolle for at give administratorrettigheder",
 	"commands.rename.missing_name": "Du skal angive et nyt navn til denne ticket",
 	"commands.rename.success": "Denne ticket er blevet omdøbt til <#%d>",
-	"commands.tags.create.already_exists": "Et tag med ID'et %s` findes allerede. Du kan slette tagget ved hjælp af `/tag delete %s`",
+	"commands.tags.create.already_exists": "Et tag med ID'et %s` findes allerede. Du kan slette tagget ved hjælp af `%s`",
 	"commands.tags.create.invalid_arguments": "Du skal angive et tag ID og indhold",
 	"commands.tags.create.too_long": "Tag ID'et kan ikke være længere end 16 tegn",
 	"commands.tags.delete.invalid_arguments": "Du skal angive et tag-ID for at slette",
 	"commands.tags.delete.not_exist": "Et tag med ID'et `%s` kunne ikke findes",
 	"commands.tags.get.invalid_arguments": "Du skal angive ID'et for tagget. For mere hjælp med tags, besøg <%s>.",
 	"commands.tags.get.invalid_tag": "Ugyldigt tag. For mere hjælp med tags, besøg <%s>.",
-	"commands.tags.list": "ID'er for alle tags: \\n%s\\nFor at se indholdet af et tag, kør `%s tag <ID>`",
+	"commands.tags.list": "ID'er for alle tags: \\n%s\\nFor at se indholdet af et tag, kør `%s`",
 	"commands.unclaim.not_claimed": "Denne ticket er ikke taget",
 	"commands.unclaim.not_claimer": "Kun administratorer og den bruger, der har gjort krav denne ticket, kan frafalde kravet igen",
 	"commands.unclaim.success": "Alle supportrepræsentanter kan nu svare på denne ticket",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Jeg mangler tilladelsen `Administrer kanaler`",
 	"setup.auto.transcript.success": "Oprettede <#%d> kanal",
 	"setup.ticket_limit.success": "Grænsen for antallet af tickets er blevet opdateret til `%d`",
-	"setup.transcript.invalid": "Du skal nævne en gyldig kanal på serveren (f.eks. <#%d>)\\n**Eksempel:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Du skal nævne en gyldig kanal på serveren (f.eks. <#%d>)\\n**Eksempel:** `%s`",
 	"setup.transcript.success": "Transskriptionskanalen er blevet ændret til <#%d>",
 	"commands.language.help_wanted": "Taler du et andet sprog? Tilmeld dig vores [supportserver](%s) hvis du er interesseret i at hjælpe med at oversætte botten til flere sprog",
 	"commands.rename.too_long": "Kanal navne kan ikke være længere end 100 tegn",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Ticket",
 	"generic.title.premium_only": "Premium Kommando",
 	"generic.admin": "Administrator",
-	"commands.tags.create.success": "Tag oprettet - du kan bruge det ved at indtaste `/tag %s`",
+	"commands.tags.create.success": "Tag oprettet - du kan bruge det ved at indtaste `%s`",
 	"generic.title.about": "Om",
 	"generic.title.vote": "Stem",
 	"generic.title.tags": "Tags",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Kommandoen `/open` er deaktiveret på denne server: Brug venligst et ticketpanel til at åbne en ticket",
+			"disabled": "Kommandoen `%s` er deaktiveret på denne server: Brug venligst et ticketpanel til at åbne en ticket",
 			"threads": {
 				"cant_see_parent_channel": "Kunne ikke tilføje <@%d> til ticketen: Sørg for, at de har tilladelse til at se trådens overordnede kanal (<#%d>)",
 				"cant_message_in_threads": "Du mangler tilladelsen `Send beskeder i tråde`, som kræves for at åbne en ticket. Bed venligst en server administrator om at give denne tilladelse til dig og prøv igen."
@@ -238,7 +238,7 @@
 			"select": "Vælg et sprog (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` kan kun bruges i trådtilstand. Besøg vores [dokumenter](%s) for at finde ud af mere om tråde",
+			"channel_mode": "`%s` kan kun bruges i trådtilstand. Besøg vores [dokumenter](%s) for at finde ud af mere om tråde",
 			"success": "Du er nu på vagt",
 			"remove_success": "Du er ikke længere på vagt"
 		},
@@ -255,7 +255,7 @@
 			"key": "Nøgle",
 			"check_again": "Tjek igen",
 			"subscription_found": "Abonnement Fundet!",
-			"subscription_found_content": "For at kunne anvende dit abonnement på denne server, skal serverens ejer (<@%d>) tilføje dig som admin **bruger** (roller ignoreres) via kommandoen </addadmin:%d>\\n\\n Du kan bekræfte, at du er blevet tilføjet som admin ved at køre </viewstaff:%d>.",
+			"subscription_found_content": "For at kunne anvende dit abonnement på denne server, skal serverens ejer (<@%d>) tilføje dig som admin **bruger** (roller ignoreres) via kommandoen %s\\n\\n Du kan bekræfte, at du er blevet tilføjet som admin ved at køre %s.",
 			"activate_key": "Aktiver En Premium Nøgle",
 			"checking": "Tjekker premiumstatus...",
 			"please_wait": "Vent venligst...",

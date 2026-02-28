@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets is een eenvoudig te gebruiken en zeer configureerbare ticket- en ondersteuningsbot.\\nSupport server: %s\\nCommands: Typ `/help`\\nGa aan de slag door het commando `/setup` te doen.",
+	"commands.about": "Tickets is een eenvoudig te gebruiken en zeer configureerbare ticket- en ondersteuningsbot.\\nSupport server: %s\\nCommands: Typ `%s`\\nGa aan de slag door het commando `%s` te doen.",
 	"commands.add.no_members": "U moet leden vermelden om aan het ticket toe te voegen",
 	"commands.add.no_permission": "U heeft niet de juiste permissies om mensen aan deze ticket toe te voegen",
 	"commands.add.no_everyone": "Je kunt niet de '@everyone' rol toevoegen aan een ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "U moet een gebruiker vermelden of een rol noemen om support rechten te verlenen",
 	"commands.rename.missing_name": "Je moet een nieuwe naam voor dit ticket opgeven",
 	"commands.rename.success": " Dit ticket is hernoemd naar <#%d>",
-	"commands.tags.create.already_exists": "Er bestaat al een tag met het ID `%s`. U kunt de tag verwijderen met `t! Tag delete %s`",
+	"commands.tags.create.already_exists": "Er bestaat al een tag met het ID `%s`. U kunt de tag verwijderen met `%s`",
 	"commands.tags.create.invalid_arguments": "U moet een tag-ID en inhoud opgeven",
 	"commands.tags.create.too_long": "Tag-ID's mogen niet langer zijn dan 16 tekens",
 	"commands.tags.delete.invalid_arguments": "U moet een tag-ID opgeven om te verwijderen",
 	"commands.tags.delete.not_exist": "Kan een tag met het ID `%s` niet vinden",
 	"commands.tags.get.invalid_arguments": "U moet het ID van de tag opgeven. Ga voor meer hulp met tag naar <%s>.",
 	"commands.tags.get.invalid_tag": "Ongeldige tag. Ga voor meer hulp met tags naar <%s>.",
-	"commands.tags.list": "ID's voor alle tags: \\n%s\\n Voer `%s tag <ID>` uit om de inhoud van een tag te bekijken",
+	"commands.tags.list": "ID's voor alle tags: \\n%s\\n Voer `%s` uit om de inhoud van een tag te bekijken",
 	"commands.unclaim.not_claimed": "Dit ticket is niet opgeëist",
 	"commands.unclaim.not_claimer": "Alleen beheerders en de gebruiker die het ticket heeft geclaimd, kunnen het ticket ongedaan maken",
 	"commands.unclaim.success": "Alle ondersteuningsvertegenwoordigers kunnen nu reageren op het ticket",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Ik mis de permissie 'Kanalen Beheren'",
 	"setup.auto.transcript.success": "Kanaal <#%d> gecreëerd",
 	"setup.ticket_limit.success": "Het ticket limiet is veranderd naar `%d`",
-	"setup.transcript.invalid": "Je moet een geldig kanaal vermelden op de server (bijv. <#%d>)\\n**Voorbeeld:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Je moet een geldig kanaal vermelden op de server (bijv. <#%d>)\\n**Voorbeeld:** `%s`",
 	"setup.transcript.success": "Het transcripts kanaal is veranderd naar <#%d>",
 	"commands.language.help_wanted": "Spreek je een andere taal? Sluit je aan bij onze [support server](%s) als je geïnteresseerd bent in het vertalen van de bot in meer talen",
 	"commands.rename.too_long": "Kanaalnamen kunnen niet langer zijn dan 100 tekens",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Ticket",
 	"generic.title.premium_only": "Premium Only Commando",
 	"generic.admin": "Beheerder",
-	"commands.tags.create.success": "Tag aangemaakt - u kunt deze gebruiken door `/tag %s ` uit te voeren",
+	"commands.tags.create.success": "Tag aangemaakt - u kunt deze gebruiken door `%s` uit te voeren",
 	"generic.title.about": "Over ons",
 	"generic.title.vote": "Stem",
 	"generic.title.tags": "Labels",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Het `/open` commando is uitgeschakeld in deze server: gebruik een ticketpaneel om een ticket te openen",
+			"disabled": "Het `%s` commando is uitgeschakeld in deze server: gebruik een ticketpaneel om een ticket te openen",
 			"threads": {
 				"cant_see_parent_channel": "Kon <@%d> niet toevoegen aan de ticket: Zorg ervoor dat ze toestemming hebben om het hoofdkanaal van het gesprek te bekijken (<#%d>)",
 				"cant_message_in_threads": "U mist de 'Send Messages in Threads' permissie, die nodig is om een ticket te openen. Vraag aan een server administrator om u deze permissie te verlenen en probeer het vervolgens opnieuw."
@@ -238,7 +238,7 @@
 			"select": "Selecteer een taal (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` kan alleen gebruikt worden in de thread modus. Bezoek onze [docs](%s) om meer te weten te komen over threads",
+			"channel_mode": "`%s` kan alleen gebruikt worden in de thread modus. Bezoek onze [docs](%s) om meer te weten te komen over threads",
 			"success": "U word nu op de hoogte gebracht van nieuwe oproepen",
 			"remove_success": "Je word niet langer op de hoogte gebracht van nieuwe oproepen"
 		},
@@ -255,7 +255,7 @@
 			"key": "Sleutel",
 			"check_again": "Controleer opnieuw",
 			"subscription_found": "Abonnement gevonden!",
-			"subscription_found_content": "Om je abonnement toe te passen op deze server moet de servereigenaar (<@%d>) je toevoegen als een admin **gebruiker** (rollen worden genegeerd) via het </addadmin:%d> commando.\\n\\nU kunt controleren of u als admin gebruiker bent toegevoegd door </viewstaff:%d> uit te voeren.",
+			"subscription_found_content": "Om je abonnement toe te passen op deze server moet de servereigenaar (<@%d>) je toevoegen als een admin **gebruiker** (rollen worden genegeerd) via het %s commando.\\n\\nU kunt controleren of u als admin gebruiker bent toegevoegd door %s uit te voeren.",
 			"activate_key": "Activeer een Premium-sleutel",
 			"checking": "Controleren van Premium-status...",
 			"please_wait": "Een ogenblik geduld...",

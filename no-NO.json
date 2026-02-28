@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: %s\\nKommandoer: Skriv `/help`\\nKom i gang ved å bruke `/setup`",
+	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: %s\\nKommandoer: Skriv `%s`\\nKom i gang ved å bruke `%s`",
 	"commands.add.no_members": "Du må oppgi medlemmer du vil ha lagt til støtteforespurselen",
 	"commands.add.no_permission": "Du har ikke adgang til å legge til brukere til denne støtteforespurselen",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Du må oppgi en bruker eller rolle å gi støttekontaktprivilegier til",
 	"commands.rename.missing_name": "Du må oppgi et nytt navn for denne støtteforespurselen",
 	"commands.rename.success": "Denne støtteforespurselen har hatt navnet sitt endret til <#%d>",
-	"commands.tags.create.already_exists": "En tagg med ID `%s` finnes allerede. Du kan slette taggen ved å bruke `/tag delete %s`",
+	"commands.tags.create.already_exists": "En tagg med ID `%s` finnes allerede. Du kan slette taggen ved å bruke `%s`",
 	"commands.tags.create.invalid_arguments": "Du må oppgi en knaggid og innhold",
 	"commands.tags.create.too_long": "Knaggider kan ikke være lengre enn seksten tegn",
 	"commands.tags.delete.invalid_arguments": "Du må oppgi knaggiden du vil slette",
 	"commands.tags.delete.not_exist": "En knagg med iden `%s` ble ikke gjenkjent",
 	"commands.tags.get.invalid_arguments": "Du må oppgi iden til en knagg. For mer hjelp med knagget, gå til <%s>.",
 	"commands.tags.get.invalid_tag": "Ugyldig knagg. For mer hjelp med knagger, gå til <%s>.",
-	"commands.tags.list": "Alle nåværende knaggider: \\n%s\\nFor å vise innholdet til en knagg, si `%s tag <ID>`",
+	"commands.tags.list": "Alle nåværende knaggider: \\n%s\\nFor å vise innholdet til en knagg, si `%s`",
 	"commands.unclaim.not_claimed": "Denne støtteforespurselen er ikke opptatt",
 	"commands.unclaim.not_claimer": "Bare administratorer og brukeren som la krav på en støtteforespursel kan fjerne kravet på den",
 	"commands.unclaim.success": "Alle støttekontakter kan nå svare på støtteforespurselen",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
 	"setup.auto.transcript.success": "Opprettet <#%d> kanal",
 	"setup.ticket_limit.success": "Ticketgrensen har blitt oppdatert til `%d`",
-	"setup.transcript.invalid": "Du må nevne en gyldig kanal i serveren (f.eks <#%d>)\\n**Eksempel:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Du må nevne en gyldig kanal i serveren (f.eks <#%d>)\\n**Eksempel:** `%s`",
 	"setup.transcript.success": "Transkripsjons kanalen har blitt endret til <#%d>",
 	"commands.language.help_wanted": "Snakker du et annet språk? Bli med i vår [support server](%s) hvis du er interessert i å hjelpe til å oversette boten til flere språk",
 	"commands.rename.too_long": "Kanal navn kan ikke være lengre enn 100 tegn",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Sak",
 	"generic.title.premium_only": "Bare premium kommando",
 	"generic.admin": "Administrator",
-	"commands.tags.create.success": "Taggen er opprettet - du kan bruke den ved å kjøre `/tag %s`",
+	"commands.tags.create.success": "Taggen er opprettet - du kan bruke den ved å kjøre `%s`",
 	"generic.title.about": "Om",
 	"generic.title.vote": "Stem",
 	"generic.title.tags": "Etiketter",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "`/open` kommandoen er deaktivert i denne serveren: Vennligst bruk ticket panelet for å åpne en ticket",
+			"disabled": "`%s` kommandoen er deaktivert i denne serveren: Vennligst bruk ticket panelet for å åpne en ticket",
 			"threads": {
 				"cant_see_parent_channel": "Kunne ikke legge til <@%d> i ticketen: Pass på at de har tilganger til å se kanalen til tråden (<#%d>)",
 				"cant_message_in_threads": "Du mangler \"Send Meldinger i Tråder\" tillatelse, som kreves for å åpne en sak. Vennligst be Server Administratoren om å gi deg tilgang, og prøv på nytt"
@@ -238,7 +238,7 @@
 			"select": "Velg et språk (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
+			"channel_mode": "`%s` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
 			"success": "You are now on call",
 			"remove_success": "You are no longer on call"
 		},
@@ -255,7 +255,7 @@
 			"key": "Key",
 			"check_again": "Check Again",
 			"subscription_found": "Abonnement funnet!",
-			"subscription_found_content": "For å legge til abonnement på denne serveren, servereieren (<@%d>) må legge deg til som administrator **bruker** (roller blir ignorert) via </addadmin:%d> kommandoen.\\n\\nDu kan verifisere at du er lagt til som administrator ved å kjøre </viewstaff:%d>.",
+			"subscription_found_content": "For å legge til abonnement på denne serveren, servereieren (<@%d>) må legge deg til som administrator **bruker** (roller blir ignorert) via %s kommandoen.\\n\\nDu kan verifisere at du er lagt til som administrator ved å kjøre %s.",
 			"activate_key": "Aktiver Premium nøkkel",
 			"checking": "Kontrollerer Premium Status...",
 			"please_wait": "Vennligst vent...",

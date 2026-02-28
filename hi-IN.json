@@ -1,5 +1,5 @@
 {
-	"commands.about": "टिकट का उपयोग करना आसान है और अत्यधिक विन्यास योग्य टिकट और समर्थन बॉट | \\nसमर्थन सर्वर: %s\\nआदेश: टाइप करें `/help`\\n`/setup` चलाकर शुरू करें",
+	"commands.about": "टिकट का उपयोग करना आसान है और अत्यधिक विन्यास योग्य टिकट और समर्थन बॉट | \\nसमर्थन सर्वर: %s\\nआदेश: टाइप करें `%s`\\n`%s` चलाकर शुरू करें",
 	"commands.add.no_members": "टिकट में जोड़ने के लिए आपको सदस्यों का उल्लेख करना होगा |",
 	"commands.add.no_permission": "आपको इस टिकट में लोगों को जोड़ने की अनुमति नहीं है",
 	"commands.add.no_everyone": "आप `@everyone` रोल को टिकट में नहीं जोड़ सकते",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "आपको एक उपयोगकर्ता का उल्लेख करना होगा या एक भूमिका का नाम देना होगा ताकि वह समर्थन प्रतिनिधि विशेषाधिकार प्रदान कर सके",
 	"commands.rename.missing_name": "आपको इस टिकट के लिए एक नया नाम निर्दिष्ट करना होगा",
 	"commands.rename.success": "इस टिकट का नाम बदलकर <#%d> कर दिया गया है",
-	"commands.tags.create.already_exists": "आईडी `%s` वाला एक टैग पहले से मौजूद है। आप `/tag Delete %s`. का उपयोग करके टैग को हटा सकते है",
+	"commands.tags.create.already_exists": "आईडी `%s` वाला एक टैग पहले से मौजूद है। आप `%s`. का उपयोग करके टैग को हटा सकते है",
 	"commands.tags.create.invalid_arguments": "आपको एक टैग आईडी और सामग्री निर्दिष्ट करनी होगी",
 	"commands.tags.create.too_long": "टैग आईडी 16 वर्णों से अधिक लंबी नहीं हो सकती",
 	"commands.tags.delete.invalid_arguments": "हटाने के लिए आपको एक टैग आईडी निर्दिष्ट करनी होगी",
 	"commands.tags.delete.not_exist": "आईडी `%s` वाला टैग नहीं मिला",
 	"commands.tags.get.invalid_arguments": "आपको टैग की आईडी प्रदान करनी होगी। टैग के बारे में अधिक सहायता के लिए, <%s> पर जाएं।",
 	"commands.tags.get.invalid_tag": "अमान्य टैग। टैग के बारे में अधिक सहायता के लिए, <%s> पर जाएं।",
-	"commands.tags.list": "सभी टैग के लिए आईडी: \\n%s\\nटैग की सामग्री देखने के लिए, `%s tag <ID>` चलाएं",
+	"commands.tags.list": "सभी टैग के लिए आईडी: \\n%s\\nटैग की सामग्री देखने के लिए, `%s` चलाएं",
 	"commands.unclaim.not_claimed": "इस टिकट का दावा नहीं किया गया है",
 	"commands.unclaim.not_claimer": "सिर्फ एडमिन और वह यूजर जिसने टिकट क्लेम किया है, इसे अनक्लेम कर सकते हैं",
 	"commands.unclaim.success": "सभी समर्थन प्रतिनिधि अब टिकट का जवाब दे सकते हैं",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "मेरे पास `Manage Channels` की अनुमति नहीं है",
 	"setup.auto.transcript.success": "<#%d> चैनल बना दिया गया है",
 	"setup.ticket_limit.success": "टिकट की लिमिट को `%d` पर अपडेट कर दिया गया है",
-	"setup.transcript.invalid": "आपको सर्वर में एक वैध चैनल को मेंशन करना होगा (जैसे <#%d>)\\n**उदाहरण:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "आपको सर्वर में एक वैध चैनल को मेंशन करना होगा (जैसे <#%d>)\\n**उदाहरण:** `%s`",
 	"setup.transcript.success": "ट्रांसक्रिप्ट चैनल को बदलकर <#%d> कर दिया गया है",
 	"commands.language.help_wanted": "क्या आप कोई दूसरी भाषा बोलते हैं? यदि आप बॉट का अनुवाद करने में मदद करना चाहते हैं, तो हमारे [सपोर्ट सर्वर](%s) से जुड़ें",
 	"commands.rename.too_long": "चैनल के नाम 100 कैरेक्टर से लंबे नहीं हो सकते",
@@ -120,7 +120,7 @@
 	"generic.ticket": "टिकट",
 	"generic.title.premium_only": "यह कमांड केवल Premium यूजर्स के लिए है",
 	"generic.admin": "एडमिन",
-	"commands.tags.create.success": "टैग बना दिया गया है - आप `/tag %s` रन करके इसका उपयोग कर सकते हैं",
+	"commands.tags.create.success": "टैग बना दिया गया है - आप `%s` रन करके इसका उपयोग कर सकते हैं",
 	"generic.title.about": "अबाउट",
 	"generic.title.vote": "वोट",
 	"generic.title.tags": "टैग्स",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
+			"disabled": "The `%s` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
 				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
 				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
@@ -238,7 +238,7 @@
 			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
+			"channel_mode": "`%s` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
 			"success": "You are now on call",
 			"remove_success": "You are no longer on call"
 		},
@@ -255,7 +255,7 @@
 			"key": "Key",
 			"check_again": "Check Again",
 			"subscription_found": "Subscription Found!",
-			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the %s command.\\n\\nYou can verify that you have been added as an admin user by running %s.",
 			"activate_key": "Activate A Premium Key",
 			"checking": "Checking Premium Status...",
 			"please_wait": "Please wait...",

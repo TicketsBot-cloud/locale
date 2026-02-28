@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets 是一款易於使用且設定自由度高的客服單與支援機器人。\\n支援伺服器：%s\\n指令：輸入 `/help`\\n立即開始使用，請執行 `/setup`",
+	"commands.about": "Tickets 是一款易於使用且設定自由度高的客服單與支援機器人。\\n支援伺服器：%s\\n指令：輸入 `%s`\\n立即開始使用，請執行 `%s`",
 	"commands.add.no_members": "你必須標註一個人嗄",
 	"commands.add.no_permission": "你沒有權限添加該成員到問題單",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "您需要提及用戶或身份組以授予支持代表權限",
 	"commands.rename.missing_name": "您需要為此問題單指定一個新名稱",
 	"commands.rename.success": "該問題單以重新命名為 <#%d>",
-	"commands.tags.create.already_exists": "ID 為“%s”的標籤已存在。您可以使用 `t!tag delete %s` 刪除標籤",
+	"commands.tags.create.already_exists": "ID 為“%s”的標籤已存在。您可以使用 `%s` 刪除標籤",
 	"commands.tags.create.invalid_arguments": "您必須指定標籤 ID 和內容",
 	"commands.tags.create.too_long": "標籤 ID 不能超過 16 個字符",
 	"commands.tags.delete.invalid_arguments": "您必須指定要刪除的標籤 ID",
 	"commands.tags.delete.not_exist": "找不到 ID 為\"%s\"的標籤",
 	"commands.tags.get.invalid_arguments": "您必須提供標籤的 ID。有關標籤的更多幫助，請訪問 <%s>。",
 	"commands.tags.get.invalid_tag": "標籤無效。有關標籤的更多幫助，請訪問 <%s>。",
-	"commands.tags.list": "所有標籤的 ID：\\n%s\\n要查看標籤的內容，請運行 `%s tag <ID>`",
+	"commands.tags.list": "所有標籤的 ID：\\n%s\\n要查看標籤的內容，請運行 `%s`",
 	"commands.unclaim.not_claimed": "目前問題單還沒被指派",
 	"commands.unclaim.not_claimer": "只有管理者會已被分配到的人才可以解除分配",
 	"commands.unclaim.success": "所有支持者現在都可以回復問題單",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "我沒有 `管理頻道` 的權限唷",
 	"setup.auto.transcript.success": "創建 <#%d> 頻道",
 	"setup.ticket_limit.success": "問題單限制已經更改為`%d`",
-	"setup.transcript.invalid": "您必須提供伺服器的有效頻道（例如 <#%d>）\\n**Example:** `t!setup transcripts #logs`",
+	"setup.transcript.invalid": "您必須提供伺服器的有效頻道（例如 <#%d>）\\n**Example:** `%s`",
 	"setup.transcript.success": "問題單記錄頻道已更改到 <#%d>",
 	"commands.language.help_wanted": "如果你想一起翻譯，就加入 [Ticket Bot 官方群組](%s) 吧！",
 	"commands.rename.too_long": "頻道名稱不能超過 100 個字啦",
@@ -120,7 +120,7 @@
 	"generic.ticket": "客服單",
 	"generic.title.premium_only": "Premium 用戶專屬指令",
 	"generic.admin": "管理員",
-	"commands.tags.create.success": "已創建快速回覆標籤，您可以用 /tag %s 來使用",
+	"commands.tags.create.success": "已創建快速回覆標籤，您可以用 `%s` 來使用",
 	"generic.title.about": "介紹",
 	"generic.title.vote": "投票",
 	"generic.title.tags": "快速回覆標籤",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "/open 指令已經在這伺服器取消使用了唷",
+			"disabled": "`%s` 指令已經在這伺服器取消使用了唷",
 			"threads": {
 				"cant_see_parent_channel": "不能將 <@%d> 增加至客服單：請確保他們有權限查看討論串的父頻道（<#%d>）",
 				"cant_message_in_threads": "您缺少開啟客服單所需的「在討論串中傳送訊息」權限。請要求伺服器管理員授予您此權限，然後再試一次。"
@@ -238,7 +238,7 @@
 			"select": "選擇一個語言（%c-%c）"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` 只能在討論串模式中使用，查看我們的 [文件](%s) 來找到更多關於討論串的資訊",
+			"channel_mode": "`%s` 只能在討論串模式中使用，查看我們的 [文件](%s) 來找到更多關於討論串的資訊",
 			"success": "您現在處於在線狀態",
 			"remove_success": "您現在已經不再處於在線狀態"
 		},
@@ -255,7 +255,7 @@
 			"key": "金鑰",
 			"check_again": "再次檢查",
 			"subscription_found": "找到訂閱！",
-			"subscription_found_content": "為了在此伺服器上套用您的訂閱，伺服器擁有者 (<@%d>) 必須透過 </addadmin:%d> 指令將您新增為管理員**使用者**（身分組將被忽略）。\\n\\n您可以通過執行 </viewstaff:%d> 指令來驗證您已被新增為管理員使用者。",
+			"subscription_found_content": "為了在此伺服器上套用您的訂閱，伺服器擁有者 (<@%d>) 必須透過 %s 指令將您新增為管理員**使用者**（身分組將被忽略）。\\n\\n您可以通過執行 %s 指令來驗證您已被新增為管理員使用者。",
 			"activate_key": "啟用 Premium 訂閱金鑰",
 			"checking": "檢查 Premium 訂閱狀態...",
 			"please_wait": "請稍等...",

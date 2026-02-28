@@ -1,5 +1,5 @@
 {
-	"commands.about": "Mae Tickets yn fot hawdd i'w ddefnyddio ac yn hawdd ei addasu ar gyfer cymorth. \\nGweinydd cymorth: %s\\nGorchmynion: Teipiwch '/help'\\nCychwynna drwy redeg '/setup'",
+	"commands.about": "Mae Tickets yn fot hawdd i'w ddefnyddio ac yn hawdd ei addasu ar gyfer cymorth. \\nGweinydd cymorth: %s\\nGorchmynion: Teipiwch '%s'\\nCychwynna drwy redeg '%s'",
 	"commands.add.no_members": "Mae'n rhaid i ti enwi aelodau i'w ychwanegu at y tocyn",
 	"commands.add.no_permission": "Does gennyt ti ddim caniatâd i ychwanegu pobl at y tocyn",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Mae'n rhaid i ti enwi defnyddiwr neu rôl i roi breintiau cynrychiolydd cymorth iddyn nhw",
 	"commands.rename.missing_name": "Mae'n rhaid i ti nodi enw newydd ar gyfer y tocyn hwn",
 	"commands.rename.success": "Mae tocyn yma wedi cael ei ail-enwi i <#%d>",
-	"commands.tags.create.already_exists": "Mae tag gyda'r ID `%s` yn bodoli yn farod. Gallwch ddileu'r tag gan ddefnyddio `/tag delete %s`",
+	"commands.tags.create.already_exists": "Mae tag gyda'r ID `%s` yn bodoli yn farod. Gallwch ddileu'r tag gan ddefnyddio `%s`",
 	"commands.tags.create.invalid_arguments": "Mae'n rhaid i ti nodi ID tag ac ei chynnwys",
 	"commands.tags.create.too_long": "Ni all IDau tag fod yn fwy na 16 llythyren",
 	"commands.tags.delete.invalid_arguments": "Mae'n rhaid i ti nodi ID tag i'w ddileu",
 	"commands.tags.delete.not_exist": "Ni ellid dod o hyd i tag gyda'r ID `%s`",
 	"commands.tags.get.invalid_arguments": "Mae'n rhaid i ti roi ID y tag. Am fwy o gymorth gyda thagiau, ewch i <%s>.",
 	"commands.tags.get.invalid_tag": "Tag anghywir. Am fwy o gymorth gyda thagiau, ewch i <%s>.",
-	"commands.tags.list": "IDau pob tag: \\n%s\\nI weld cynnwys tag, rhedwch `%s tag <ID>`",
+	"commands.tags.list": "IDau pob tag: \\n%s\\nI weld cynnwys tag, rhedwch `%s`",
 	"commands.unclaim.not_claimed": "Nid yw'r tocyn hwn wedi ei hawlio",
 	"commands.unclaim.not_claimer": "Dim ond gweinyddwyr a'r defnyddiwr sydd wedi hawlio'r tocyn sy'n gallu rhoi'r hawliad yn ôl",
 	"commands.unclaim.success": "Gal pob cynrychiolydd cymorth nawr ymateb i'r tocyn",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Does gen i ddim y caniatâd `Manage Channels`",
 	"setup.auto.transcript.success": "Sianel <#%d> wedi'i chreu",
 	"setup.ticket_limit.success": "Mae'r terfyn tocynnau wedi'i ddiweddaru i `%d`",
-	"setup.transcript.invalid": "Mae’n rhaid i ti sôn am sianel ddilys ar y gweinydd (e.e. <#%d>)\\n**Enghraifft**`/setup transcripts #logs`",
+	"setup.transcript.invalid": "Mae’n rhaid i ti sôn am sianel ddilys ar y gweinydd (e.e. <#%d>)\\n**Enghraifft**`%s`",
 	"setup.transcript.success": "Mae'r sianel trawsgrifiadau wedi'i newid i <#%d>",
 	"commands.language.help_wanted": "Wyt ti'n siarad iaith arall? Ymuno a ein [gweinydd cymorth](%s) os wyt ti'n awyddus i helpu gyfieithu'r bot i fwy o ieithoedd",
 	"commands.rename.too_long": "Ni all enwau sianel fod yn fwy na 100 o llythyrau",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Tocyn",
 	"generic.title.premium_only": "Gorchymyn i Ddefnyddwyr Premiwm yn Unig",
 	"generic.admin": "Gweinyddwr",
-	"commands.tags.create.success": "Tag wedi'i greu - rwyt ti'n gallu ei defnyddio trwy rhedeg `/tag %s`",
+	"commands.tags.create.success": "Tag wedi'i greu - rwyt ti'n gallu ei defnyddio trwy rhedeg `%s`",
 	"generic.title.about": "Ynglŷn",
 	"generic.title.vote": "Pleidleisio",
 	"generic.title.tags": "Tagiau",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Mae'r gorchymyn `/open` wedi'i analluogi yn y gweinydd hwn: defnyddio banel tocynnau i agor tocyn",
+			"disabled": "Mae'r gorchymyn `%s` wedi'i analluogi yn y gweinydd hwn: defnyddio banel tocynnau i agor tocyn",
 			"threads": {
 				"cant_see_parent_channel": "Methu ychwanegu <@%d> at y tocyn: Sicrhewch fod ganddyn nhw ganiatâd i weld sianel rhiant yr edefyn (<#%d>)",
 				"cant_message_in_threads": "Rwyt ti ddim hefo yr caniatâd `Send Messages in Threads`, sydd ei angen i agor tocyn. Gofynna i weinyddwr y gweinydd roi'r caniatâd hwn i ti, ac roi gynnig arall arni."
@@ -238,7 +238,7 @@
 			"select": "Dewisiwch Iaith (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "Dim ond yn y modd edefyn y gellir defnyddio `/on-call`. Ewch i'n [dogfennau](%s) i ddysgu mwy am edafedd",
+			"channel_mode": "Dim ond yn y modd edefyn y gellir defnyddio `%s`. Ewch i'n [dogfennau](%s) i ddysgu mwy am edafedd",
 			"success": "Rwyt ti nawr ar alwad",
 			"remove_success": "Rwyt ti ddim ar alwad bellach"
 		},
@@ -255,7 +255,7 @@
 			"key": "Allwedd",
 			"check_again": "Gwiriwch Eto",
 			"subscription_found": "Tanysgrifiad Wedi'i Ddod o Hyd!",
-			"subscription_found_content": "I gyflwyno dy danysgrifiad i'r gweinydd hwn, mae'n rhaid i berchennog y gweinydd (<@%d>) dy ychwanegu di fel gweinyddwr **defnyddiwr** (anwybyddir rolau) drwy ddefnyddio'r gorchymyn </addadmin:%d>.\\n\\nGallwch wirio dy fod wedi cael dy ychwanegu fel gweinyddwr trwy redeg </viewstaff:%d>.",
+			"subscription_found_content": "I gyflwyno dy danysgrifiad i'r gweinydd hwn, mae'n rhaid i berchennog y gweinydd (<@%d>) dy ychwanegu di fel gweinyddwr **defnyddiwr** (anwybyddir rolau) drwy ddefnyddio'r gorchymyn %s.\\n\\nGallwch wirio dy fod wedi cael dy ychwanegu fel gweinyddwr trwy redeg %s.",
 			"activate_key": "Gweithredu Allwedd Premiwm",
 			"checking": "Yn gwirio statws Premiwm...",
 			"please_wait": "Arhoswch...",
