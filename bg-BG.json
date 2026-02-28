@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Командата `отвори` е премахната в този сървър: моля използвайте тикет панел, за да отворите билет",
+			"disabled": "Командата `%s` е премахната в този сървър: моля използвайте тикет панел, за да отворите билет",
 			"threads": {
 				"cant_see_parent_channel": "Не мога да добавя <@%d> в билета: моля уверете се, че те имат правата да гледат този канал (<#%d>)",
 				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
@@ -238,7 +238,7 @@
 			"select": "Избери език (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`on-call` може да се използва само в теми. Посети нашия [docs](%s), за да намериш повече относно темите",
+			"channel_mode": "`%s` може да се използва само в теми. Посети нашия [docs](%s), за да намериш повече относно темите",
 			"success": "Ти сега говориш ",
 			"remove_success": "Ти вече не говориш"
 		},

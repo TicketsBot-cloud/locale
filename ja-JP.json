@@ -31,7 +31,7 @@
 	"commands.tags.delete.not_exist": "`%s` という名前のタグが見つかりませんでした。",
 	"commands.tags.get.invalid_arguments": "タグのIDを入力する必要があります。タグの詳細については、 <%s> を参照してください。",
 	"commands.tags.get.invalid_tag": "無効なタグです。タグの詳細については、 <%s> を参照してください。",
-	"commands.tags.list": "すべてのタグのID: \\n%s\\nタグの内容を表示するには、 `%s tag <ID> ` を実行してください",
+	"commands.tags.list": "すべてのタグのID: \\n%s\\nタグの内容を表示するには、`%s` を実行してください",
 	"commands.unclaim.not_claimed": "このチケットはまだ担当者に割り当てられていません。",
 	"commands.unclaim.not_claimer": "チケットの担当者解除は、管理者と担当に割り当てられたユーザーだけが行えます。",
 	"commands.unclaim.success": "すべてのサポート担当者がチケットに応答できるようになりました。",
