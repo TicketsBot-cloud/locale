@@ -483,11 +483,13 @@
 		"unknown_category": "Nepodarilo sa nájsť požadovanú kategóriu: pravdepodobne bola vymazaná.\n\nProsím, požiadajte správcu servera, aby navštívil [dashboard](%s) a priradil platnú kategóriu kanálov k tomuto ticket panelu.",
 		"unknown_interaction": "Táto interakcia vypršala.\n\nProsím, skúste akciu znova.",
 		"max_webhooks": "Server dosiahol maximálny počet webhookov.\n\nProsím, požiadajte správcu servera, aby odstránil niektoré nepoužívané webhooky a skúste to znova.",
+		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
 		"interaction_acknowledged": "Táto interakcia už bola spracovaná.\n\nAk potrebujete túto akciu vykonať znova, prosím, začnite novú interakciu.",
 		"missing_permissions": {
 			"title": "Chýbajú mi nasledujúce oprávnenia potrebné na vykonanie tejto akcie",
 			"body": "Prosím, priraďte botovi tieto oprávnenia alebo, ako alternatívu, oprávnenie `Administrátor` a skúste to znova.\nPre vysvetlenie, prečo je každé oprávnenie potrebné, navštívte [docs](%s)."
 		},
+		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
 		"invalid_length": "Jedno alebo viac polí je príliš krátkych alebo príliš dlhých.\n\nPožiadajte, prosím, správcu servera, aby navštívil [dashboard](%s) a skontroloval všetky vstupy a uistil sa, že všetky polia spĺňajú požadované limity dĺžky.",
 		"required_field": "Povinné pole chýba alebo je prázdne.\n\nPožiadajte, prosím, správcu servera, aby navštívil [dashboard](%s) a skontroloval, či sú všetky povinné polia vyplnené.",
 		"invalid_channel_type": "Typ kanála je pre túto operáciu neplatný.\n\nPožiadajte, prosím, správcu servera, aby navštívil [dashboard](%s) a priradil platný kanál k tiket panelu.",
@@ -496,6 +498,9 @@
 		"invalid_characters": "Vstup obsahuje neplatné znaky.\n\nPoužívajte iba písmená, čísla, spojovníky a podčiarkovníky.",
 		"invalid_choice": "Bol zadaný neplatný výber.\n\nPožiadajte, prosím, správcu servera, aby navštívil [dashboard](%s) a skontroloval, či sú všetky nastavenia správne.",
 		"invalid_form": "Akcia nemohla byť dokončená kvôli neplatnému vstupu.",
+		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
 		"timed_out": "Operácia vypršala, skúste to, prosím, znova.",
 		"rate_limited": "Dosiahli ste limit požiadaviek. Skúste to, prosím, znova %s.",
 		"rate_limited_global": "Discord je momentálne preťažený (globálny limit požiadaviek). Skúste to, prosím, znova %s.",
