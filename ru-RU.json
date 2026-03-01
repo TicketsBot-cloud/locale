@@ -483,11 +483,13 @@
 		"unknown_category": "Не удалось найти категорию: вероятно, она была удалена.\n\nПопросите администратора сервера зайти в [панель управления](%s) и назначить действующую категорию.",
 		"unknown_interaction": "Срок взаимодействия истёк.\n\nПожалуйста, попробуйте снова.",
 		"max_webhooks": "На сервере достигнут лимит вебхуков.\n\nПопросите администратора удалить неиспользуемые вебхуки и повторите попытку.",
+		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
 		"interaction_acknowledged": "Это взаимодействие уже обработано.\n\nЕсли нужно повторить действие, начните его заново.",
 		"missing_permissions": {
 			"title": "У меня нет следующих прав, необходимых для этого действия",
 			"body": "Пожалуйста, выдайте боту эти права или право `Администратор` и попробуйте снова.\nПосетите нашу [документацию](%s) для разъяснения, зачем нужно каждое право."
 		},
+		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
 		"invalid_length": "Одно или несколько полей слишком короткие или слишком длинные.\n\nПопросите администратора сервера посетить [панель управления](%s) и убедиться, что все поля ввода соответствуют требованиям по длине.",
 		"required_field": "Обязательное поле отсутствует или пусто.\n\nПопросите администратора сервера посетить [панель управления](%s) и убедиться, что все обязательные поля заполнены.",
 		"invalid_channel_type": "Неверный тип канала для этой операции.\n\nПопросите администратора сервера посетить [панель управления](%s) и назначить действительный канал для панели обращений.",
@@ -496,6 +498,9 @@
 		"invalid_characters": "Ввод содержит недопустимые символы.\n\nИспользуйте только буквы, цифры, дефисы и знаки подчёркивания.",
 		"invalid_choice": "Указан недопустимый вариант.\n\nПопросите администратора сервера посетить [панель управления](%s) и убедиться, что все настройки указаны правильно.",
 		"invalid_form": "Действие не завершено из-за некорректного ввода.",
+		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
 		"timed_out": "Время ожидания истекло, пожалуйста, попробуйте снова.",
 		"rate_limited": "Отправлено слишком много запросов. Попробуйте снова через %s.",
 		"rate_limited_global": "Discord испытывает высокую нагрузку (глобальный лимит запросов). Попробуйте снова через %s.",
