@@ -483,11 +483,13 @@
 		"unknown_category": "تعذر العثور على قناة مطلوبة: يجب أن يكون قد تم حذفها.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) والتحقق من جميع إعدادات القناة تم تكوينها بشكل صحيح.",
 		"unknown_interaction": "انتهت صَلاحِيَة هذا التفاعل.\n\nيرجى محاولة الإجراء مرة أخرى.",
 		"max_webhooks": "وصل الخادم إلى الحد الأقصى لعدد نُقَط الويب هوسك.\n\nيرجى طلب من مسؤول الخادم إزالة بعض نُقَط الويب غير المستخدمة ثم المحاولة مرة أخرى.",
+		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
 		"interaction_acknowledged": "تمت معالجة هذا التفاعل فعلًا.\nإذا كنت بحاجة إلى تنفيذ هذا الإجراء مرة أخرى، يرجى بَدْء تفاعل جديد.",
 		"missing_permissions": {
 			"title": "أنا مفقود ولأذانات التالية المطلوبة لتنفيذ هذا الإجراء",
 			"body": "الرجاء تعيين هذه الصلاحيات للبوة أو بدلاً من ذلك إذن \"المسؤول\" وحاول مرة أخرى.\nالرجاء زيارة [docs](%s) للحصول على شرح لسبب طلب كل إذن."
 		},
+		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
 		"invalid_length": "واحد أو أكثر من الحقول قصيرة جداً أو طويلة جداً.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) والتحقق من جميع المدخلات والتأكد من أن جميع الحقول تفي بقيود الطول المطلوبة.",
 		"required_field": "الحقل المطلوب مفقود أو فارغ.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) والتحقق من ملء جميع الحقول المطلوبة.",
 		"invalid_channel_type": "نوع القناة غير صالح لهذه العملية.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) وتعيين قناة صالحة إلى لوحة التذاكر.",
@@ -496,6 +498,9 @@
 		"invalid_characters": "المدخل يحتوي على أحرف غير صالحة.\n\nيرجى استخدام الحروف، والأرقام، والشرطات -، والشرطات السفلية _ فقط.",
 		"invalid_choice": "تم توفير خِيار غير صالح.\n\nالرجاء الطلب من مسؤول الخادم زيارة [dashboard](%s) والتحقق من صحة جميع الإعدادات.",
 		"invalid_form": "تعذر إكمال الإجراء بسبب إدخال غير صالح.",
+		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
 		"timed_out": "انتهت مهلة العملية، يرجى المحاولة مرة أخرى.",
 		"rate_limited": "أنت قيد التقييم محدود. الرجاء المحاولة مرة أخرى %s.",
 		"rate_limited_global": "يشاهد ديس كورد حملا عاليا (حد المعدل العام). الرجاء المحاولة مرة أخرى %s.",

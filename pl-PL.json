@@ -483,11 +483,13 @@
 		"unknown_category": "Nie można znaleźć wymaganej kategorii: musiała zostać usunięta.\n\nPoproś administratora serwera o odwiedzenie [panelu sterowania](%s) i przypiszanie poprawnej kategorii kanałów do tego panelu zgłoszeń.",
 		"unknown_interaction": "Ta interakcja wygasła.\n\nProszę spróbować ponownie.",
 		"max_webhooks": "Serwer osiągnął maksymalną liczbę webhooków.\n\nPoproś administratora serwera o usunięcie nieużywanych webhooków i spróbuj ponownie.",
+		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
 		"interaction_acknowledged": "Ta interakcja została już przetworzona.\n\nJeśli chcesz wykonać tę akcję ponownie, rozpocznij nową interakcję.",
 		"missing_permissions": {
 			"title": "Brakuje mi następujących uprawnień wymaganych do wykonania tej akcji",
 			"body": "Proszę przypisać te uprawnienia do bota lub ewentualnie uprawnienie `Administrator` i spróbuj ponownie.\nOdwiedź naszą [dokumentację](%s) aby uzyskać wyjaśnienie, dlaczego każde uprawnienie jest wymagane."
 		},
+		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
 		"invalid_length": "Jedno lub więcej pól jest zbyt krótkie lub zbyt długie.\n\nPoproś administratora serwera o odwiedzenie [panelu sterowania](%s) i zweryfikowanie że wszystkie pola spełniają wymagane ograniczenia długości.",
 		"required_field": "Wymagane pole jest brakujące lub puste.\n\nPoproś administratora serwera o odwiedzenie [panelu sterowania](%s) i sprawdzenie, że wszystkie wymagane pola są wypełnione.",
 		"invalid_channel_type": "Typ kanału jest nieprawidłowy dla tej operacji.\n\nPoproś administratora serwera o odwiedzenie [panelu sterowania](%s) i przypisanie prawidłowego kanału do panelu zgłoszeń.",
@@ -496,6 +498,9 @@
 		"invalid_characters": "Podana wartość zawiera nieprawidłowe znaki.\n\nProszę używać tylko liter, cyfr, myślników i podkreślników.",
 		"invalid_choice": "Podano nieprawidłową opcję.\n\nPoproś administratora serwera o odwiedzenie [panelu sterowania](%s) i sprawdzenie poprawności wszystkich ustawień.",
 		"invalid_form": "Akcja nie mogła zostać zakończona z powodu nieprawidłowego wartości.",
+		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
 		"timed_out": "Upłynął limit czasu operacji, spróbuj jeszcze raz.",
 		"rate_limited": "Twoja częstotliwość zapytań została ograniczona. Proszę spróbować %s.",
 		"rate_limited_global": "Discord doświadcza duże obciążenie (globalne ograniczenie zapytań). Proszę spróbować %s.",

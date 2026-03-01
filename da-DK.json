@@ -483,11 +483,13 @@
 		"unknown_category": "Kunne ikke finde en nødvendig kategori: den må være slettet.\n\nBed venligst en serveradministrator om at besøge [dashboard](%s) og tildele en gyldig kanalkategori til dette ticket panel.",
 		"unknown_interaction": "Denne interaktion er udløbet.\n\nPrøv venligst igen.",
 		"max_webhooks": "Serveren har nået det maksimale antal webhooks.\n\nBed venligst en serveradministrator om at fjerne nogle ubrugte webhooks, og prøv igen.",
+		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
 		"interaction_acknowledged": "Denne interaktion er allerede blevet behandlet.\n\nHvis du har brug for at udføre denne handling igen, bedes du starte en ny interaktion.",
 		"missing_permissions": {
 			"title": "Jeg mangler følgende tilladelser, der kræves for at udføre denne handling",
 			"body": "Tildel venligst disse tilladelser til botten, eller alternativt `Administrator`-tilladelsen, og prøv igen.\nBesøg venligst vores [dokumentation](%s) for en forklaring på, hvorfor hver tilladelse er påkrævet."
 		},
+		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
 		"invalid_length": "Et eller flere felter er for korte eller for lange.\n\nBed en serveradministrator om at besøge [dashboard](%s) og verificere alle input og sikre, at alle felter overholder de krævede længdebegrænsninger.",
 		"required_field": "Et påkrævet felt mangler eller er tomt.\n\nBed venligst en serveradministrator om at besøge [dashboard](%s) og kontrollere, at alle påkrævet felter er udfyldt.",
 		"invalid_channel_type": "Kanaltypen er ugyldig for denne handling.\n\nBed venligst en serveradministrator om at besøge [dashboard](%s) og tildele en gyldig kanal til ticket panelet.",
@@ -496,6 +498,9 @@
 		"invalid_characters": "Inputtet indeholder ugyldige tegn.\n\nBrug kun bogstaver, tal, bindestreger og understregninger.",
 		"invalid_choice": "Der blev angivet en ugyldig indstilling.\n\nBed venligst en serveradministrator om at besøge [dashboard](%s) og kontrollere, at alle indstillinger er korrekte.",
 		"invalid_form": "Handlingen kunne ikke fuldføres på grund af ugyldig input.",
+		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
 		"timed_out": "Handlingen udløb. Prøv igen.",
 		"rate_limited": "Du er rate begrænset. Prøv igen %s.",
 		"rate_limited_global": "Discord oplever høj belastning (global hastighedsgrænse). Prøv igen %s.",

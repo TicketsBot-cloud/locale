@@ -483,11 +483,13 @@
 		"unknown_category": "Nepavyko rasti reikalingos kategorijos: ji greičiausiai buvo ištrinta.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir priskirti galiojančią kanalo kategoriją šiam bilieto paneliui.",
 		"unknown_interaction": "Ši sąveika pasibaigė.\n\nPrašome bandyti veiksmą dar kartą.",
 		"max_webhooks": "Serveris pasiekė maksimalų leistiną žiniatinklio skaičių.\n\nPrašome paprašyti serverio administratoriaus pašalinti nenaudojamą žiniatinklį ir bandyti dar kartą.",
+		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
 		"interaction_acknowledged": "Ši sąveika jau buvo apdorota.\n\nJei norite atlikti šį veiksmą dar kartą, pradėkite naują sąveiką.",
 		"missing_permissions": {
 			"title": "Man trūksta šių leidimų, reikalingų šiam veiksmui atlikti",
 			"body": "Prašome suteikti šiuos leidimus botui arba, alternatyviai, leidimą `Administratorius`, ir bandyti dar kartą.\nDaugiau informacijos apie kiekvieno leidimo poreikį rasite mūsų [dokumentacijoje](%s)."
 		},
+		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
 		"invalid_length": "Viena ar kelios sritys yra per trumpos arba per ilgos.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s), patikrinti visus įvesties laukus ir įsitikinti, kad jų ilgis atitinka reikalavimus.",
 		"required_field": "Trūksta privalomos srities arba ji yra tuščia.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir įsitikinti, kad visos privalomos sritys yra užpildytos.",
 		"invalid_channel_type": "Šio kanalo tipas netinkamas šiai operacijai.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir priskirti galiojantį kanalą bilietų skydeliui.",
@@ -496,6 +498,9 @@
 		"invalid_characters": "Įvestyje yra netinkamų simbolių.\n\nNaudokite tik raides, skaičius, brūkšnelius ir pabraukimus.",
 		"invalid_choice": "Pateikta netinkama parinktis.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir patikrinti, ar visi nustatymai yra teisingi.",
 		"invalid_form": "Šis veiksmas negalėjo būti pabaigtas dėl neteisingo įvedimo.",
+		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
 		"timed_out": "Operacijos laikas baigėsi, prašome bandyti dar kartą.",
 		"rate_limited": "Jums taikomas užklausų ribojimas. Prašome bandyti dar kartą %s.",
 		"rate_limited_global": "Discord šiuo metu patiria didelę apkrovą (globalus užklausų limitas). Prašome bandyti dar kartą %s.",

@@ -483,11 +483,13 @@
 		"unknown_category": "Kunde inte hitta en obligatorisk kanal: den måste ha tagits bort.\n\nBe en serveradministratör att besöka [dashboard](%s) och verifiera att alla kanalinställningar är korrekt konfigurerade.",
 		"unknown_interaction": "Denna interaktion har löpt ut.\n\nFörsök åtgärden igen.",
 		"max_webhooks": "Servern har nått det maximala antalet webhooks.\n\nBe en serveradministratör att ta bort några oanvända webhooks och försök igen.",
+		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
 		"interaction_acknowledged": "Denna interaktion har redan bearbetats.\n\nOm du behöver utföra denna åtgärd igen, starta en ny interaktion.",
 		"missing_permissions": {
 			"title": "Jag saknar följande behörigheter som krävs för att utföra denna åtgärd",
 			"body": "Vänligen tilldela dessa behörigheter till roboten, eller alternativt, behörigheten `Administrator` och försök igen.\nBesök vår [docs](%s) för en förklaring av varför varje tillstånd krävs."
 		},
+		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
 		"invalid_length": "Ett eller flera fält är för korta eller för långa.\n\nBe en serveradministratör att besöka [dashboard](%s) och verifiera alla ingångar och se till att alla fält uppfyller de nödvändiga längdbegränsningarna.",
 		"required_field": "Ett obligatoriskt fält saknas eller är tomt.\n\nBe en serveradministratör att besöka [dashboard](%s) och verifiera att alla obligatoriska fält är ifyllda.",
 		"invalid_channel_type": "Kanaltypen är ogiltig för denna åtgärd.\n\nBe en serveradministratör att besöka [dashboard](%s) och tilldela en giltig kanal till ärendepanelen.",
@@ -496,6 +498,9 @@
 		"invalid_characters": "Inmatningen innehåller ogiltiga tecken.\n\nAnvänd endast bokstäver, siffror, bindestreck och understreck.",
 		"invalid_choice": "Ett ogiltigt alternativ har angetts.\n\nBe en serveradministratör att besöka [dashboard](%s) och kontrollera att alla inställningar är korrekta.",
 		"invalid_form": "Åtgärden kunde inte slutföras på grund av ogiltig indata.",
+		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
 		"timed_out": "Åtgärden avbröt, var god försök igen.",
 		"rate_limited": "Du är begränsad. Försök igen %s.",
 		"rate_limited_global": "Discord har hög belastning (global hastighetsbegränsning). Försök igen %s.",
