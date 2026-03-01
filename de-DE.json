@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets ist ein einfach zu bedienender Ticket- und Support-Bot mit sehr vielen Konfigurationsmöglichkeiten.\\nSupport Server: %s\\nBefehle: Tippe `/help`\\nLeg los, indem Du `/setup` benutzt",
+	"commands.about": "Tickets ist ein einfach zu bedienender Ticket- und Support-Bot mit sehr vielen Konfigurationsmöglichkeiten.\\nSupport Server: %s\\nBefehle: Tippe `%s`\\nLeg los, indem Du `%s` benutzt",
 	"commands.add.no_members": "Du musst Benutzer erwähnen, um sie zum Ticket hinzuzufügen",
 	"commands.add.no_permission": "Du hast keine Berechtigung, um Benutzer zu diesem Ticket hinzuzufügen",
 	"commands.add.no_everyone": "Du kannst die `@everyone` Rolle nicht zu einem Ticket hinzufügen",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Du musst einen Benutzer oder eine Rolle erwähnen, um Support-Berechtigungen zu entfernen",
 	"commands.rename.missing_name": "Du musst einen neuen Namen für dieses Ticket eingeben",
 	"commands.rename.success": "Dieses Ticket wurde umbenannt in <#%d>",
-	"commands.tags.create.already_exists": "Ein Tag mit der ID `%s` existiert bereits. Du kannst den Tag löschen, indem Du `/tag delete %s` benutzt",
+	"commands.tags.create.already_exists": "Ein Tag mit der ID `%s` existiert bereits. Du kannst den Tag löschen, indem Du `%s` benutzt",
 	"commands.tags.create.invalid_arguments": "Du musst eine Tag-ID und einen Inhalt eingeben",
 	"commands.tags.create.too_long": "Tag-IDs können nicht länger als 16 Zeichen sein",
 	"commands.tags.delete.invalid_arguments": "Du musst eine Tag-ID angeben, um den Tag zu löschen",
 	"commands.tags.delete.not_exist": "Ein Tag mit der ID `%s` konnte nicht gefunden werden",
 	"commands.tags.get.invalid_arguments": "Du musst die ID des Tags angeben. Für weitere Hilfe mit Tags sieh Dir <%s> an.",
 	"commands.tags.get.invalid_tag": "Ungültiger Tag. Für weitere Hilfe mit Tags schau Dir <%s> an.",
-	"commands.tags.list": "IDs für alle Tags: \\n%s\\nUm den Inhalt eines Tags anzusehen, benutze `%s tag <ID>`",
+	"commands.tags.list": "IDs für alle Tags: \\n%s\\nUm den Inhalt eines Tags anzusehen, benutze `%s`",
 	"commands.unclaim.not_claimed": "Dieses Ticket wird von niemandem bearbeitet",
 	"commands.unclaim.not_claimer": "Nur Administratoren und der Benutzer, der dieses Ticket bearbeitet, können dieses Ticket freigeben",
 	"commands.unclaim.success": "Alle Support-Teammitglieder können ab sofort auf dieses Ticket antworten",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Ich benötige die `Kanäle verwalten` Berechtigung",
 	"setup.auto.transcript.success": "Der Kanal <#%d> wurde erstellt",
 	"setup.ticket_limit.success": "Das Ticket-Limit wurde auf `%d` aktualisiert",
-	"setup.transcript.invalid": "Du musst einen gültigen Kanal im Server erwähnen (z.B. <#%d>)\\n**Beispiel:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Du musst einen gültigen Kanal im Server erwähnen (z.B. <#%d>)\\n**Beispiel:** `%s`",
 	"setup.transcript.success": "Der Transkript-Kanal wurde auf <#%d> geändert",
 	"commands.language.help_wanted": "Sprichst Du eine andere Sprache? Trete unserem [Support-Server](%s) bei, wenn Du daran interessiert bist, den Bot in weitere Sprachen zu übersetzen",
 	"commands.rename.too_long": "Der Name des Kanals darf nicht länger als 100 Zeichen sein",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Ticket",
 	"generic.title.premium_only": "Premium-Befehl",
 	"generic.admin": "Administrator",
-	"commands.tags.create.success": "Tag wurde erstellt – Du kannst es verwenden, indem Du `/tag %s` ausführst",
+	"commands.tags.create.success": "Tag wurde erstellt – Du kannst es verwenden, indem Du `%s` ausführst",
 	"generic.title.about": "Über",
 	"generic.title.vote": "Abstimmung",
 	"generic.title.tags": "Tags",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Der Befehl `/open` ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen",
+			"disabled": "Der Befehl `%s` ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen",
 			"threads": {
 				"cant_see_parent_channel": "<@%d> konnte nicht zum Ticket hinzugefügt werden: Stelle sicher, dass der Benutzer die Berechtigung hat, den Hauptkanal (<#%d>) des Threads zu sehen",
 				"cant_message_in_threads": "Dir fehlt die Berechtigung `Nachrichten in Threads senden`, die benötigt wird, um ein Ticket zu öffnen. Bitte frag einen Serveradministrator, der Dir diese Berechtigung erteilen kann und versuche es erneut."
@@ -238,7 +238,7 @@
 			"select": "Wähle eine Sprache (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` kann nur im Thread-Modus verwendet werden. Schau in unsere [Dokumentation](%s), um mehr über Threads zu erfahren",
+			"channel_mode": "`%s` kann nur im Thread-Modus verwendet werden. Schau in unsere [Dokumentation](%s), um mehr über Threads zu erfahren",
 			"success": "Du bist nun verfügbar",
 			"remove_success": "Du bist nun nicht mehr verfügbar"
 		},
@@ -255,7 +255,7 @@
 			"key": "Schlüssel",
 			"check_again": "Erneut überprüfen",
 			"subscription_found": "Abonnement gefunden!",
-			"subscription_found_content": "Um Dein Abonnement auf diesem Server zu aktivieren, muss Dich der Serverinhaber als (<@%d>) **Administrator** (Rollen werden ignoriert) über den </addadmin:%d> Befehl hinzufügen.\\n\\nDu kannst mit dem Befehl </viewstaff:%d> prüfen, ob Du als Administrator hinzugefügt worden bist.",
+			"subscription_found_content": "Um Dein Abonnement auf diesem Server zu aktivieren, muss Dich der Serverinhaber als (<@%d>) **Administrator** (Rollen werden ignoriert) über den %s Befehl hinzufügen.\\n\\nDu kannst mit dem Befehl %s prüfen, ob Du als Administrator hinzugefügt worden bist.",
 			"activate_key": "Aktiviere einen Premium-Schlüssel",
 			"checking": "Premium-Status wird überprüft...",
 			"please_wait": "Bitte warten...",

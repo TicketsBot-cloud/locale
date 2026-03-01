@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets är en lätt att använda och hög konfigurerbar ticket och support bot.\\nSupport server: %s\\nKommandon: Skriv `/help`\\nBörja med att skriva `/setup`",
+	"commands.about": "Tickets är en lätt att använda och hög konfigurerbar ticket och support bot.\\nSupport server: %s\\nKommandon: Skriv `%s`\\nBörja med att skriva `%s`",
 	"commands.add.no_members": "Du måste nämna medlemmar för att lägga till dem i ärendet",
 	"commands.add.no_permission": "Du har inte behörighet att lägga till personer till den här ticketen",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Du måste nämna en användare eller en roll att ge support-representativa privilegier till",
 	"commands.rename.missing_name": "Du måste ange ett nytt namn för den här ticketen",
 	"commands.rename.success": "Denna ticket har bytt namn till <#%d>",
-	"commands.tags.create.already_exists": "En tagg med ID `%s` finns redan. Du kan ta bort taggen genom att skriva `/tag delete %s`",
+	"commands.tags.create.already_exists": "En tagg med ID `%s` finns redan. Du kan ta bort taggen genom att skriva `%s`",
 	"commands.tags.create.invalid_arguments": "Du måste ange ett tagg-ID och innehåll",
 	"commands.tags.create.too_long": "Taggens namn kan inte vara längre än 16 tecken",
 	"commands.tags.delete.invalid_arguments": "Du måste ange ett tagg-ID för att ta bort",
 	"commands.tags.delete.not_exist": "En tagg med ID `%s` kunde inte hittas",
 	"commands.tags.get.invalid_arguments": "Du måste ange taggens ID. För mer hjälp om taggar, besök <%s>.",
 	"commands.tags.get.invalid_tag": "Ogiltig tagg, för mer hjälp besök <%s>.",
-	"commands.tags.list": "IDs för alla taggar: \\n%s\\nFör att se innehållet av en tagg, använd `%s tag <ID>`",
+	"commands.tags.list": "IDs för alla taggar: \\n%s\\nFör att se innehållet av en tagg, använd `%s`",
 	"commands.unclaim.not_claimed": "Den här ticketen har inte blivit claimad",
 	"commands.unclaim.not_claimer": "Endast administratörer och användaren som skapade ticketen kan unclaima den",
 	"commands.unclaim.success": "Alla support-representanter kan nu svara på ticketen",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Jag saknar behörigheten `Hantera kanaler`",
 	"setup.auto.transcript.success": "Skapade <#%d> kanal",
 	"setup.ticket_limit.success": "Ärendegränsen har uppdaterats till `%d`",
-	"setup.transcript.invalid": "Du måste nämna en giltig kanal på servern (t.ex. <#%d>)\\n**Exempel:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Du måste nämna en giltig kanal på servern (t.ex. <#%d>)\\n**Exempel:** `%s`",
 	"setup.transcript.success": "Kanalen för utskrifter har ändrats till <#%d>",
 	"commands.language.help_wanted": "Talar du ett annat språk? Gå med i vår [supportserver](%s) om du är intresserad av att hjälpa till att översätta boten till fler språk",
 	"commands.rename.too_long": "Kanalnamn kan inte vara längre än 100 tecken",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Ärende",
 	"generic.title.premium_only": "Endast Premium Kommando",
 	"generic.admin": "Administratör",
-	"commands.tags.create.success": "Tagg skapad - du kan använda den genom att köra `/tag %s`",
+	"commands.tags.create.success": "Tagg skapad - du kan använda den genom att köra `%s`",
 	"generic.title.about": "Om",
 	"generic.title.vote": "Rösta",
 	"generic.title.tags": "Taggar",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Kommandot `/open` är inaktiverat i denna server: använd ärendepanelen för att öppna ett ärende",
+			"disabled": "Kommandot `%s` är inaktiverat i denna server: använd ärendepanelen för att öppna ett ärende",
 			"threads": {
 				"cant_see_parent_channel": "Kunde inte lägga till <@%d> till ärendet: Se till att de har behörighet att visa trådens överordnade kanal (<#%d>)",
 				"cant_message_in_threads": "Du saknar behörigheten `Skicka meddelanden i trådar` som krävs för att öppna ett ärende. Be en serveradministratör att ge dig denna behörighet och försök igen."
@@ -238,7 +238,7 @@
 			"select": "Välj ett språk (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` kan endast användas i trådläge. Besök vår [docs](%s) för att läsa mer om trådar",
+			"channel_mode": "`%s` kan endast användas i trådläge. Besök vår [docs](%s) för att läsa mer om trådar",
 			"success": "Du är nu i samtal",
 			"remove_success": "Du är inte längre i samtal"
 		},
@@ -255,7 +255,7 @@
 			"key": "Nyckel",
 			"check_again": "Kontrollera igen",
 			"subscription_found": "Prenumeration hittad!",
-			"subscription_found_content": "För att tillämpa din prenumeration på denna server måste serverägaren (<@%d>) lägga till dig som administratör **användare** (roller ignoreras) via kommandot </addadmin:%d>.\\n\\nDu kan verifiera att du har lagts till som administratör genom att köra </viewstaff:%d>.",
+			"subscription_found_content": "För att tillämpa din prenumeration på denna server måste serverägaren (<@%d>) lägga till dig som administratör **användare** (roller ignoreras) via kommandot %s.\\n\\nDu kan verifiera att du har lagts till som administratör genom att köra %s.",
 			"activate_key": "Aktivera en Premiumnyckel",
 			"checking": "Kontrollerar Premium Status...",
 			"please_wait": "Var god vänta...",

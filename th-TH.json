@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets เป็นบอทสนับสนุน (Support Bot) ที่ใช้งานง่ายและปรับแต่งได้สูง\\nSupport server: %s\\nเรียกดูคำสั่ง : พิมพ์ `/help`\\nเริ่มต้นใช้งาน : พิมพ์ `/setup`",
+	"commands.about": "Tickets เป็นบอทสนับสนุน (Support Bot) ที่ใช้งานง่ายและปรับแต่งได้สูง\\nSupport server: %s\\nเรียกดูคำสั่ง : พิมพ์ `%s`\\nเริ่มต้นใช้งาน : พิมพ์ `%s`",
 	"commands.add.no_members": "คุณต้องระบุสมาชิกเพื่อเพิ่มลงในตั๋ว",
 	"commands.add.no_permission": "คุณไม่ได้รับสิทธิให้เพิ่มบุคคลในตั๋วนี้",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "คุณต้องระบุผู้ใช้ หรือ ระบุบทบาท, เพื่อให้สิทธิ์ตัวแทนฝ่ายสนับสนุน",
 	"commands.rename.missing_name": "คุณต้องระบุชื่อใหม่สำหรับตั๋วนี้",
 	"commands.rename.success": "ตั๋วนี้ถูกเปลี่ยนชื่อเป็น <#%d>",
-	"commands.tags.create.already_exists": "มีแท็ก ID `%s` ที่มีอยู่แล้ว, คุณสามารถลบแท็กโดยใช้ `/tag delete %s`",
+	"commands.tags.create.already_exists": "มีแท็ก ID `%s` ที่มีอยู่แล้ว, คุณสามารถลบแท็กโดยใช้ `%s`",
 	"commands.tags.create.invalid_arguments": "คุณต้องระบุ รหัสแท็ก และ เนื้อหา",
 	"commands.tags.create.too_long": "รหัสแท็กต้องมีความยาวไม่เกิน 16 อักขระ",
 	"commands.tags.delete.invalid_arguments": "คุณต้องระบุรหัสแท็กที่จะลบ",
 	"commands.tags.delete.not_exist": "ไม่พบแท็กที่มี ID นี้ `%s`",
 	"commands.tags.get.invalid_arguments": "คุณต้องระบุ ID ของแท็ก หากต้องการความช่วยเหลือเพิ่มเติมเกี่ยวกับแท็ก, โปรดไปที่ <%s>",
 	"commands.tags.get.invalid_tag": "แท็กไม่ถูกต้อง, หากต้องการความช่วยเหลือเพิ่มเติมเกี่ยวกับแท็ก, โปรดไปที่ <%s>",
-	"commands.tags.list": "รหัสสำหรับแท็กทั้งหมด: \\n%s\\nหากต้องการดูเนื้อหาของแท็ก, ให้เรียกใช้ `%s tag <ID>`",
+	"commands.tags.list": "รหัสสำหรับแท็กทั้งหมด: \\n%s\\nหากต้องการดูเนื้อหาของแท็ก, ให้เรียกใช้ `%s`",
 	"commands.unclaim.not_claimed": "Ticket นี้ยังไม่ได้รับการอ้างสิทธิ์",
 	"commands.unclaim.not_claimer": "เฉพาะผู้ดูแลระบบ และ ผู้ใช้ที่อ้างสิทธิ์ใน ticket เท่านั้น, ที่สามารถยกเลิกการอ้างสิทธิ์ใน ticket ได้",
 	"commands.unclaim.success": "ตัวแทนฝ่ายสนับสนุนทั้งหมดสามารถตอบกลับ ticket ได้แล้ว",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "ฉันไม่ได้รับสิทธิ์ `จัดการช่อง`",
 	"setup.auto.transcript.success": "สร้าง Channel <#%d> เรียบร้อยแล้ว",
 	"setup.ticket_limit.success": "อัปเดตขีดจำกัดของตั๋วเป็น `%d` แล้ว",
-	"setup.transcript.invalid": "คุณต้องระบุช่องที่ถูกต้องในเซิร์ฟเวอร์ (เช่น <#%d>)\\n**ตัวอย่าง:** `/setup transcripts #บันทึก`",
+	"setup.transcript.invalid": "คุณต้องระบุช่องที่ถูกต้องในเซิร์ฟเวอร์ (เช่น <#%d>)\\n**ตัวอย่าง:** `%s`",
 	"setup.transcript.success": "เปลี่ยนช่องการถอดสคริปต์เป็น <#%d>",
 	"commands.language.help_wanted": "คุณพูดสามารถพูดภาษาอื่นได้? เข้าร่วม [เซิร์ฟเวอร์สนับสนุน](%s) ของเรา หากคุณสนใจที่จะช่วยแปลบอทเป็นภาษาอื่นๆ",
 	"commands.rename.too_long": "ชื่อช่องต้องมีความยาวไม่เกิน 100 อักขระ",
@@ -120,7 +120,7 @@
 	"generic.ticket": "ตั๋ว",
 	"generic.title.premium_only": "คำสั่งพรีเมี่ยมเท่านั้น",
 	"generic.admin": "ผู้ดูแลระบบ",
-	"commands.tags.create.success": "แท็กที่สร้างขึ้นคุณสามารถใช้งานได้โดยเรียกใช้ `/tag %s`",
+	"commands.tags.create.success": "แท็กที่สร้างขึ้นคุณสามารถใช้งานได้โดยเรียกใช้ `%s`",
 	"generic.title.about": "เกี่ยวกับ",
 	"generic.title.vote": "โหวต",
 	"generic.title.tags": "เเท็ก",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "คำสั่ง `/open' ถูกปิดการใช้งานในเซิร์ฟเวอร์นี้: โปรดใช้ Ticket Panel เพื่อเปิด Ticket",
+			"disabled": "คำสั่ง `%s' ถูกปิดการใช้งานในเซิร์ฟเวอร์นี้: โปรดใช้ Ticket Panel เพื่อเปิด Ticket",
 			"threads": {
 				"cant_see_parent_channel": "ไม่สามารถเพิ่ม <@%d> ลงในตั๋ว: ตรวจสอบให้แน่ใจว่าพวกเขาได้รับอนุญาตให้ดูช่องหลักของเธรด (<#%d>)",
 				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
@@ -238,7 +238,7 @@
 			"select": "เลือกภาษา (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` ใช้ได้เฉพาะในโหมดเธรดเท่านั้น ไปที่ [docs](%s) เพื่อดูข้อมูลเพิ่มเติมเกี่ยวกับเธรด",
+			"channel_mode": "`%s` ใช้ได้เฉพาะในโหมดเธรดเท่านั้น ไปที่ [docs](%s) เพื่อดูข้อมูลเพิ่มเติมเกี่ยวกับเธรด",
 			"success": "ตอนนี้คุณอยู่ในสาย",
 			"remove_success": "คุณไม่ได้อยู่ในสายอีกต่อไป"
 		},
@@ -255,7 +255,7 @@
 			"key": "กุญแจ",
 			"check_again": "ตรวจสอบอีกครั้ง",
 			"subscription_found": "ไม่พบการสมัครใช้งาน",
-			"subscription_found_content": "ในการที่จะใช้การสมัครสมาชิกของคุณไปยังเซิร์ฟเวอร์นี้ เจ้าของเซิร์ฟเวอร์ (<@%d>) ต้องเพิ่มคุณเป็น**ผู้ใช้**ผู้ดูแลระบบ (เพิกเฉยบทบาท) โดยคำสั่ง </addadmin:%d>\\n\\nคุณสามารถยืนยันได้ว่าคุณได้ถูกเพิ่มเป็นผู้ใช้ผู้ดูแลระบบโดยการใช้เรียกใช้ </viewstaff:%d>",
+			"subscription_found_content": "ในการที่จะใช้การสมัครสมาชิกของคุณไปยังเซิร์ฟเวอร์นี้ เจ้าของเซิร์ฟเวอร์ (<@%d>) ต้องเพิ่มคุณเป็น**ผู้ใช้**ผู้ดูแลระบบ (เพิกเฉยบทบาท) โดยคำสั่ง %s\\n\\nคุณสามารถยืนยันได้ว่าคุณได้ถูกเพิ่มเป็นผู้ใช้ผู้ดูแลระบบโดยการใช้เรียกใช้ %s",
 			"activate_key": "เปิดใช้งานคีย์พรีเมียม",
 			"checking": "ตรวจสอบสถานะพรีเมี่ยม...",
 			"please_wait": "โปรดรอ...",

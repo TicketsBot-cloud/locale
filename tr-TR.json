@@ -1,5 +1,5 @@
 {
-	"commands.about": "Destek Talebi botu, kullanımı kolay ve neredeyse bütün ayarları istediğiniz gibi düzenleyebileceğiniz bir bottur. \\nYardım sunucusu: %s \\nKomutlar: Yardım için `/help`\\nKuruluma başlamak için `/setup` yazınız",
+	"commands.about": "Destek Talebi botu, kullanımı kolay ve neredeyse bütün ayarları istediğiniz gibi düzenleyebileceğiniz bir bottur. \\nYardım sunucusu: %s \\nKomutlar: Yardım için `%s`\\nKuruluma başlamak için `%s` yazınız",
 	"commands.add.no_members": "Talebe kullanıcı eklemek için kullanıcıyı etiketlemeniz gerekiyor.",
 	"commands.add.no_permission": "Talebe kullanıcı eklemek için izniniz yok.",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Destek ayrıcalıklarını silmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
 	"commands.rename.missing_name": "Bu talep için yeni bir ad belirtmeniz gerekiyor.",
 	"commands.rename.success": "Talep <#%d> olarak yeniden adlandırıldı.",
-	"commands.tags.create.already_exists": "`%s` Böyle bir etiket zaten var. `/tag delete %s` komutunu kullanarak etiketi silebilirsiniz",
+	"commands.tags.create.already_exists": "`%s` Böyle bir etiket zaten var. `%s` komutunu kullanarak etiketi silebilirsiniz",
 	"commands.tags.create.invalid_arguments": "Bir etiket ID'si ve içerik belirtmelisiniz.",
 	"commands.tags.create.too_long": "Etiket ID'si, 16 karakterden uzun olamaz.",
 	"commands.tags.delete.invalid_arguments": "Silme eylemini yapabilmek için bir ID belirtmelisiniz.",
 	"commands.tags.delete.not_exist": "`%s` ID'sine sahip bir etiket bulunamıyor.",
 	"commands.tags.get.invalid_arguments": "Etiket ID'sini belirtmeniz gerekiyor. Etiketler ile alakalı daha fazla bilgi için;\n <%s> bağlantısını ziyaret edin.",
 	"commands.tags.get.invalid_tag": "Bilinmeyen etiket. Etiketler ile alakalı daha fazla bilgi için;\n <%s> bağlantısını ziyaret edin.",
-	"commands.tags.list": "Mevcut olan tüm etiketlerin ID'leri: \\n%s\\nEtiketin içeriğini görüntülemek için, `%s tag <ID>` komutunu kullanın",
+	"commands.tags.list": "Mevcut olan tüm etiketlerin ID'leri: \\n%s\\nEtiketin içeriğini görüntülemek için, `%s` komutunu kullanın",
 	"commands.unclaim.not_claimed": "Bu talep zaten sahiplenilmemiş.",
 	"commands.unclaim.not_claimer": "Yalnızca yöneticiler ve sahiplenen kullanıcı sahiplenmeyi iptal edebilir.",
 	"commands.unclaim.success": "Tüm yetkililer artık talep ile ilgilenebilir.",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Kanalları yönet yetkisine sahip değil",
 	"setup.auto.transcript.success": "<#%d> adlı kanal oluşturuldu",
 	"setup.ticket_limit.success": "Bilet açma sayısı `%d` olarak güncellendi",
-	"setup.transcript.invalid": "Sunucuda geçerli bir kanaldan bahsetmelisiniz (ör. <#%d>)\\n**Örnek:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Sunucuda geçerli bir kanaldan bahsetmelisiniz (ör. <#%d>)\\n**Örnek:** `%s`",
 	"setup.transcript.success": "Transkript kanalı <#%d> olarak güncellendi",
 	"commands.language.help_wanted": "Başka bir dil biliyor musun? Botun daha fazla dile çevrilmesine yardımcı olmakla ilgileniyorsanız [destek sunucumuza](%s) katılın",
 	"commands.rename.too_long": "Kanal isimleri 100 karakterden uzun olamaz",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Bilet",
 	"generic.title.premium_only": "Premiumlara özel komut",
 	"generic.admin": "Yönetici",
-	"commands.tags.create.success": "Etiket oluşturuldu. `/tag %s` komutunu kullanarak etiketi kullanabilirsiniz",
+	"commands.tags.create.success": "Etiket oluşturuldu. `%s` komutunu kullanarak etiketi kullanabilirsiniz",
 	"generic.title.about": "Hakkında",
 	"generic.title.vote": "Oy",
 	"generic.title.tags": "Etiketler",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Bu sunucuda `/open` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın",
+			"disabled": "Bu sunucuda `%s` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın",
 			"threads": {
 				"cant_see_parent_channel": "Bilete <@%d> eklenemedi: Konunun ana kanalını (<#%d>) görüntüleme iznine sahip olduklarından emin olun",
 				"cant_message_in_threads": "`Send Messages in Threads` iznin yok, bu da ticket açman için gerekli. Sunucu yöneticisinden bu izni vermesini iste ve tekrar dene."
@@ -238,7 +238,7 @@
 			"select": "Bir dil seçin (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` komutu yalnızca alt başlık modunda kullanılabilir. Alt başlıklar hakkında daha fazla bilgi almak için [belgelerimizi](%s) ziyaret edin",
+			"channel_mode": "`%s` komutu yalnızca alt başlık modunda kullanılabilir. Alt başlıklar hakkında daha fazla bilgi almak için [belgelerimizi](%s) ziyaret edin",
 			"success": "Şu anda görevdesiniz",
 			"remove_success": "Artık görevde değilsiniz"
 		},
@@ -255,7 +255,7 @@
 			"key": "Anahtar",
 			"check_again": "Tekrar kontrol ediniz",
 			"subscription_found": "Premium üyelik bulundu!",
-			"subscription_found_content": "Aboneliğinizi bu sunucuya uygulamak için, sunucu sahibinin (<@%d>) </addadmin:%d> komutu aracılığıyla sizi yönetici **kullanıcı** olarak eklemesi gerekir (roller göz ardı edilir).\\n\\nYönetici kullanıcı olarak eklendiğinizi </viewstaff:%d> komutunu çalıştırarak doğrulayabilirsiniz.",
+			"subscription_found_content": "Aboneliğinizi bu sunucuya uygulamak için, sunucu sahibinin (<@%d>) %s komutu aracılığıyla sizi yönetici **kullanıcı** olarak eklemesi gerekir (roller göz ardı edilir).\\n\\nYönetici kullanıcı olarak eklendiğinizi %s komutunu çalıştırarak doğrulayabilirsiniz.",
 			"activate_key": "Bir Premium Üyelik Kodu Aktif Et",
 			"checking": "Premium Durumu Sorgulanıyor...",
 			"please_wait": "Lütfen bekleyin...",

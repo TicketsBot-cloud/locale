@@ -1,5 +1,5 @@
 {
-	"commands.about": "Ticket adalah bot tiket dan dukugan yang mudah digunakan dan sangat dikonfigurasi.\\nServer dukungan: %s\\nPerintah: Ketik `/help`\\nMulai dengan menjalankan `/setup`",
+	"commands.about": "Ticket adalah bot tiket dan dukugan yang mudah digunakan dan sangat dikonfigurasi.\\nServer dukungan: %s\\nPerintah: Ketik `%s`\\nMulai dengan menjalankan `%s`",
 	"commands.add.no_members": "Anda perlu menyebutkan anggota untuk ditambahkan ke tiket",
 	"commands.add.no_permission": "Anda tidak memiliki izin untuk menambahkan orang ke tiket ini",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Anda perlu menyebutkan pengguna atau menyebutkan peran untuk memberikan hak istimewa kepada perwakilan dukungan",
 	"commands.rename.missing_name": "Anda perlu menentukan nama baru untuk tiket ini",
 	"commands.rename.success": "Ticket ini telah diubah namanya menjadi <#%d>",
-	"commands.tags.create.already_exists": "Tag dengan ID `%s` sudah ada. Anda dapat menghapus tag menggunakan `/tag delete %s`",
+	"commands.tags.create.already_exists": "Tag dengan ID `%s` sudah ada. Anda dapat menghapus tag menggunakan `%s`",
 	"commands.tags.create.invalid_arguments": "Anda harus menentukan ID tag dan isinya",
 	"commands.tags.create.too_long": "ID Tag tidak boleh lebih dari 16 karakter",
 	"commands.tags.delete.invalid_arguments": "Anda harus menentukan ID tag yang akan dihapus",
 	"commands.tags.delete.not_exist": "Tag dengan ID `%s` tidak dapat ditemukan",
 	"commands.tags.get.invalid_arguments": "Anda harus memberikan ID tag. Untuk bantuan lebih lanjut mengenai tag, kunjungi <%s>.",
 	"commands.tags.get.invalid_tag": "Tag tidak valid. Untuk bantuan lebih lanjut mengenai tag, kunjungi <%s>.",
-	"commands.tags.list": "ID untuk semua tag: \\n%s\\nUntuk melihat konten tag, jalankan `/%s tag <ID>`",
+	"commands.tags.list": "ID untuk semua tag: \\n%s\\nUntuk melihat konten tag, jalankan `%s`",
 	"commands.unclaim.not_claimed": "Tidak ini tidak diklaim",
 	"commands.unclaim.not_claimer": "Hanya admin dan pengguna yang mengklaim tiket yang dapat membatalkan klaim tiket tersebut",
 	"commands.unclaim.success": "Semua perwakilan dukungan sekarang dapat merespons tiket tersebut",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Saya kehilangan izin `Kelola Saluran`",
 	"setup.auto.transcript.success": "Membuat saluran <#%d>",
 	"setup.ticket_limit.success": "Batas tiket telah diperbarui menjadi `%d`",
-	"setup.transcript.invalid": "Anda harus menyebutkan saluran valid di server (misalnya <#%d>)\\n**Contoh:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Anda harus menyebutkan saluran valid di server (misalnya <#%d>)\\n**Contoh:** `%s`",
 	"setup.transcript.success": "Saluran transkrip telah diubah menjadi <#%d>",
 	"commands.language.help_wanted": "Apakah Anda berbicara bahasa lain? Bergabunglah dengan [server dukungan](%s) kami jika Anda tertarik membantu menerjemahkan bot ke lebih banyak bahasa",
 	"commands.rename.too_long": "Nama saluran tidak boleh lebih dari 100 karakter",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Tiket",
 	"generic.title.premium_only": "Perintah Khusus Premium",
 	"generic.admin": "Admin",
-	"commands.tags.create.success": "Tag dibuat - Anda dapat menggunakannya dengan menjalankan `/tag %s`",
+	"commands.tags.create.success": "Tag dibuat - Anda dapat menggunakannya dengan menjalankan `%s`",
 	"generic.title.about": "Tentang",
 	"generic.title.vote": "Pilih",
 	"generic.title.tags": "Tag",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Perintah `/open` dinonaktifka di server ini: silakan gunakan panel tiket untuk membuka tiket",
+			"disabled": "Perintah `%s` dinonaktifka di server ini: silakan gunakan panel tiket untuk membuka tiket",
 			"threads": {
 				"cant_see_parent_channel": "Tidak dapat menambahkan <@%d> ke tiket: Pastikan mereka memiliki izin untuk melihat saluran induk thread (<#%d>)",
 				"cant_message_in_threads": "Anda tidak memiliki izin `Kirim Pesan di Thread`, yang diperlukan untuk membuka tiket. Harap minta administrator server untuk memberikan izin ini kepada Anda lalu coba lagi."
@@ -238,7 +238,7 @@
 			"select": "Pilih bahasa (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` hanya dapat digunakan dalam mode thread. Kunjungi [dokumen](%s) untuk mengetahui lebih lanjut tentang rangkaian pesan",
+			"channel_mode": "`%s` hanya dapat digunakan dalam mode thread. Kunjungi [dokumen](%s) untuk mengetahui lebih lanjut tentang rangkaian pesan",
 			"success": "Anda sekarang sedang dihubungi",
 			"remove_success": "Anda tidak lagi dapat dihubungi"
 		},
@@ -255,7 +255,7 @@
 			"key": "Kunci",
 			"check_again": "Periksa Kembali",
 			"subscription_found": "Langganan Ditemukan!",
-			"subscription_found_content": "Untuk menerapkan langganan Anda ke server ini, pemilik server (<@%d>) harus menambahkan Anda sebagai Amdin **pengguna** (peran diabaikan) melalu perintah </addadmin:%d>.\\n\\nAnda dapat memverifikasi bahwa Anda telah ditambahkan sebagai pengguna admin dengan menjalankan </viewstaff:%d>.",
+			"subscription_found_content": "Untuk menerapkan langganan Anda ke server ini, pemilik server (<@%d>) harus menambahkan Anda sebagai Amdin **pengguna** (peran diabaikan) melalu perintah %s.\\n\\nAnda dapat memverifikasi bahwa Anda telah ditambahkan sebagai pengguna admin dengan menjalankan %s.",
 			"activate_key": "Aktifkan Kunci Premium",
 			"checking": "Memeriksa Status Premium...",
 			"please_wait": "Mohon tunggu...",

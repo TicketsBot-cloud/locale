@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets 是一个易于使用且几乎可以完全自定义的问题单机器人\\n帮助频道: %s\\n指令: 请输入 `/help`\\n输入`/setup`开始设定吧！",
+	"commands.about": "Tickets 是一个易于使用且几乎可以完全自定义的问题单机器人\\n帮助频道: %s\\n指令: 请输入 `%s`\\n输入`%s`开始设定吧！",
 	"commands.add.no_members": "你必须标注一个人嗄",
 	"commands.add.no_permission": "你没有权限添加该成员到问题单",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "您需要提及用户或身份组以授予支持代表权限",
 	"commands.rename.missing_name": "您需要为此问题单指定一个新名称",
 	"commands.rename.success": "该问题单以重新命名为 <#%d>",
-	"commands.tags.create.already_exists": "ID为%s的标签已经存在。您可以使用 \"/tag delete %s \" 删除标签",
+	"commands.tags.create.already_exists": "ID为%s的标签已经存在。您可以使用 `%s` 删除标签",
 	"commands.tags.create.invalid_arguments": "您必须指定标籤 ID 和内容",
 	"commands.tags.create.too_long": "标籤 ID 不能超过 16 个字符",
 	"commands.tags.delete.invalid_arguments": "您必须指定要删除的标籤 ID",
 	"commands.tags.delete.not_exist": "找不到 ID 为\"%s\"的标籤",
 	"commands.tags.get.invalid_arguments": "您必须提供标籤的 ID。有关标籤的更多帮助，请访问 <%s>。",
 	"commands.tags.get.invalid_tag": "标籤无效。有关标籤的更多帮助，请访问 <%s>。",
-	"commands.tags.list": "所有标籤的 ID：\\n%s\\n要查看标籤的内容，请运行 `%s tag <ID>`",
+	"commands.tags.list": "所有标籤的 ID：\\n%s\\n要查看标籤的内容，请运行 `%s %s`",
 	"commands.unclaim.not_claimed": "目前问题单还没被指派",
 	"commands.unclaim.not_claimer": "只有管理者会已被分配到的人才可以解除分配",
 	"commands.unclaim.success": "所有支持者现在都可以回复问题单",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "我没有 `管理频道` 的权限唷",
 	"setup.auto.transcript.success": "创建 <#%d> 频道",
 	"setup.ticket_limit.success": "问题单限制已经更改为`%d`",
-	"setup.transcript.invalid": "您必须提供服务器的有的频道（例如 <#%d>）\\n**例如:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "您必须提供服务器的有的频道（例如 <#%d>）\\n**例如:** `%s`",
 	"setup.transcript.success": "问题单记录频道已更改到 <#%d>",
 	"commands.language.help_wanted": "您是否使用另一种语言？如果您有兴趣帮助将机器人翻译成更多语言，请加入我们的 [支持服务器](%s)",
 	"commands.rename.too_long": "频道名称不能长于 100 个字符",
@@ -120,7 +120,7 @@
 	"generic.ticket": "工单",
 	"generic.title.premium_only": "高级订阅专用命令",
 	"generic.admin": "管理员",
-	"commands.tags.create.success": "标签已创建 - 你可以通过运行 `/tag %s ` 来使用",
+	"commands.tags.create.success": "标签已创建 - 你可以通过运行 `%s` 来使用",
 	"generic.title.about": "关于",
 	"generic.title.vote": "投票",
 	"generic.title.tags": "标签",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "此服务器已禁用 `/open` 命令：请使用工单面板来开启工单",
+			"disabled": "此服务器已禁用 `%s` 命令：请使用工单面板来开启工单",
 			"threads": {
 				"cant_see_parent_channel": "无法添加 <@%d> 到工单：确保他们有权限查看线程的主频道 (<#%d>)",
 				"cant_message_in_threads": "您缺少了 \"在线程中发送消息\"的权限，这是打开工单所必需的。 请请求服务器管理员将此权限授予您，然后重试。"
@@ -238,7 +238,7 @@
 			"select": "选择语言(%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "“/on-call” 只能用于子区模式。访问我们的 [docs](%s) 以了解更多关于子区的信息",
+			"channel_mode": "“%s” 只能用于子区模式。访问我们的 [docs](%s) 以了解更多关于子区的信息",
 			"success": "你现在是在线状态",
 			"remove_success": "你不再是在线状态"
 		},
@@ -255,7 +255,7 @@
 			"key": "密钥",
 			"check_again": "再次检查",
 			"subscription_found": "没有发现订阅！",
-			"subscription_found_content": "为了将您的订阅应用于此服务器， 服务器所有者 (<@%d>) 必须通过 </addadmin:%d> 命令将你添加为管理员 **用户** (角色被忽略)。\\n\\n您可以通过运行 </viewstaff:%d> 来验证您是否已被添加为管理员用户。",
+			"subscription_found_content": "为了将您的订阅应用于此服务器， 服务器所有者 (<@%d>) 必须通过 %s 命令将你添加为管理员 **用户** (角色被忽略)。\\n\\n您可以通过运行 %s 来验证您是否已被添加为管理员用户。",
 			"activate_key": "激活高级订阅密钥",
 			"checking": "正在检查高级订阅状态...",
 			"please_wait": "请稍候...",

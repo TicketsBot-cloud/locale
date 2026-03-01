@@ -1,5 +1,5 @@
 {
-	"commands.about": "Bilietai, tai lengvai naudojamas ir konfiguruojamas pagalbos įrankis. \\nServeris prireikus pagalbos: %s\\nKomandos: Parašykite `/pagalba`\\nPradėti galite parašius `/konfiguruoti`",
+	"commands.about": "Bilietai, tai lengvai naudojamas ir konfiguruojamas pagalbos įrankis. \\nServeris prireikus pagalbos: %s\\nKomandos: Parašykite `%s`\\nPradėti galite parašius `%s`",
 	"commands.add.no_members": "Jūs turite paminėti vartotojus, kad pridėtumėte prie bilieto",
 	"commands.add.no_permission": "Jūs neturite privilegijų, kad galėtumėte pridėti vartotojus prie bilieto",
 	"commands.add.no_everyone": "Jūs negalite pridėti '@everyone' rolės prie bilieto",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Jūs privalote paminėti vartotoją arba rolę, kad pašalintumėte pagalbos nario privilegijas",
 	"commands.rename.missing_name": "Turite nurodyti naują šio bilieto pavadinimą",
 	"commands.rename.success": "Šis bilietas buvo pervadintas į <#%d>",
-	"commands.tags.create.already_exists": "Žymą su ID `%s` jau yra. Galite panaikinti žymą naudojant `/tag delete %s`",
+	"commands.tags.create.already_exists": "Žymą su ID `%s` jau yra. Galite panaikinti žymą naudojant `%s`",
 	"commands.tags.create.invalid_arguments": "Jūs turite nurodyti žymos ID ir turinį",
 	"commands.tags.create.too_long": "Žymos ID negali būti ilgesnis nei 16 simbolių",
 	"commands.tags.delete.invalid_arguments": "Jūs turite nurodyti žymos ID, kad galėtumėte panaikinti",
 	"commands.tags.delete.not_exist": "Nepavyko rasti žymos, kurios ID `%s`",
 	"commands.tags.get.invalid_arguments": "Jūs turite nurodyti žymos ID. Jeigu reikia daugiau pagalbos, aplankykite <%s>.",
 	"commands.tags.get.invalid_tag": "Netinkama žyma. Jeigu reikia daugiau pagalbos, apsilankykite <%s>.",
-	"commands.tags.list": "Visų žymų ID: \\n%s\\nKad peržiūrėtumėte žymos turinį, naudokite `%s tag <ID>`",
+	"commands.tags.list": "Visų žymų ID: \\n%s\\nKad peržiūrėtumėte žymos turinį, naudokite `%s`",
 	"commands.unclaim.not_claimed": "Dar niekas neapsiėmė šiuo bilietu",
 	"commands.unclaim.not_claimer": "Tik administracija ir vartotojai kurie apsiėmė šiuo bilietu gali juo nebeapsiimti",
 	"commands.unclaim.success": "Dabar visi pagalbos nariai gali atsakyti į šį bilietą",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
 	"setup.auto.transcript.success": "Sukurtas <#%d> kanalas",
 	"setup.ticket_limit.success": "Bilietų limitas buvo atnaujintas į `%d`",
-	"setup.transcript.invalid": "Jūs turite nurodyti jau sukurtą kanalą (pvz., <#%d>)\\n**Pavyzdys:** `/konfiguruoti įrašai #įrašai`",
+	"setup.transcript.invalid": "Jūs turite nurodyti jau sukurtą kanalą (pvz., <#%d>)\\n**Pavyzdys:** `%s`",
 	"setup.transcript.success": "Įrašų kanalas buvo pakeistas į <#%d>",
 	"commands.language.help_wanted": "Ar tu kalbi kita kalba? Prisijunk prie mūsų [pagalbos serverio](%s) jeigu tau įdomu ir nori mums padėti išversti mūsų robota į daugiau kalbų",
 	"commands.rename.too_long": "Kanalo pavadinimas negali būti ilgesnis nei 100 simbolių",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Bilietas",
 	"generic.title.premium_only": "Komanda tik Premium prenumeratoriams",
 	"generic.admin": "Administratorius",
-	"commands.tags.create.success": "Žyma sukurta – galite ją panaudoti `/tag %s`",
+	"commands.tags.create.success": "Žyma sukurta – galite ją panaudoti `%s`",
 	"generic.title.about": "Apie",
 	"generic.title.vote": "Balsuoti",
 	"generic.title.tags": "Žymės",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "`/atidaryti` komanda yra išjungta šiame serveryje, prašome naudotis bilietų kanale sukurtu mygtuku",
+			"disabled": "`%s` komanda yra išjungta šiame serveryje, prašome naudotis bilietų kanale sukurtu mygtuku",
 			"threads": {
 				"cant_see_parent_channel": "Nepavyko pridėti <@%d> prie bilieto. Įsitikinkite, kad jie turi leidimą peržiūrėti pagrindinį grupės kanalą (<#%d>)",
 				"cant_message_in_threads": "Jums trūksta \"Send Messages in Threads\" leidimo, kuris yra reikalingas, jog atidarytumėte bilietą. Kreipkitės į serverio administratorių ir bandykite dar kartą."
@@ -238,7 +238,7 @@
 			"select": "Pasirinkite kalbą (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/budėjimas` gali būti naudojamas tik gijų režime. Apsilankykite mūsų [docs](%s), kad rastumėte daugiau informacijos apie gijas",
+			"channel_mode": "`%s` gali būti naudojamas tik gijų režime. Apsilankykite mūsų [docs](%s), kad rastumėte daugiau informacijos apie gijas",
 			"success": "Dabar jūs esate budėjime",
 			"remove_success": "Dabar jūs nebesate budėjime"
 		},
@@ -255,7 +255,7 @@
 			"key": "Raktas",
 			"check_again": "Patikrinkite iš naujo",
 			"subscription_found": "Rasta prenumerata!",
-			"subscription_found_content": "Kad aktyvuotumėte savo prenumeratą šiame serveryje, savininkas (<@%d>) turi pridėti jus kaip administruojantį vartotoją (rolės yra ignoruojamos) su komanda </addadmin:%d>.\\n\\nJūs galite pasitikrinti, kad jūs buvote pridėtas kaip administruojantis vartotojas, parašydami </viewstaff:%d>.",
+			"subscription_found_content": "Kad aktyvuotumėte savo prenumeratą šiame serveryje, savininkas (<@%d>) turi pridėti jus kaip administruojantį vartotoją (rolės yra ignoruojamos) su komanda %s.\\n\\nJūs galite pasitikrinti, kad jūs buvote pridėtas kaip administruojantis vartotojas, parašydami %s.",
 			"activate_key": "Aktyvuokite Premium raktą",
 			"checking": "Tikrinamas Premium statusas...",
 			"please_wait": "Prašome palaukti...",

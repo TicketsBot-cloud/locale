@@ -1,5 +1,5 @@
 {
-	"commands.about": "تيكت بوت (Tickets) هو بوت للدعم الفني في سيرفرك الديسكورد, حيث يعد سهل الاستخدام وقابل للتخصيص والتعديل بشكل كبير\nتستطيع الدخول إلى سيرفر ديسكورد الدعم الفني الخاص بالبوت: %s\nلمعرفة جميع الأوامر استخدم كوماند: /help\nولتبدأ بإستخدام البوت استخدم كوماند: /setup",
+	"commands.about": "تيكت بوت (Tickets) هو بوت للدعم الفني في سيرفرك الديسكورد, حيث يعد سهل الاستخدام وقابل للتخصيص والتعديل بشكل كبير\nتستطيع الدخول إلى سيرفر ديسكورد الدعم الفني الخاص بالبوت: %s\nلمعرفة جميع الأوامر استخدم كوماند: `%s`\nولتبدأ بإستخدام البوت استخدم كوماند: `%s`",
 	"commands.add.no_members": "تحتاج إلى ذكر الأعضاء لإضافتهم إلى التذكرة",
 	"commands.add.no_permission": "ليس لديك صلاحية لإضافة أشخاص إلى هذه التذكرة",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "عليك ان تذكر اسم المستخدم او اسم رتبة الموظف للحصول على المساعدة",
 	"commands.rename.missing_name": "الرجاء تحديد إسم جديد لهذه التذكرة ",
 	"commands.rename.success": "<#%d> هذه ألتذكرة تم تغير أسمها ل ",
-	"commands.tags.create.already_exists": "التاغ الذي يحمل الايدي : %s موجود بالفعل , يمكن حذف التاغ بأستخدام كوماند :\n/delete %s",
+	"commands.tags.create.already_exists": "التاج الذي يحمل الايدي %s موجود بالفعل , يمكن حذف التاق بأستخدام كوماند `%s`",
 	"commands.tags.create.invalid_arguments": "ومحتوياته IDعليك تحديد شعار ال",
 	"commands.tags.create.too_long": "ان يكون اطول من 16 حرف IDsلا يمكن لشعار ال",
 	"commands.tags.delete.invalid_arguments": "لحذفه IDيجب عليك تحديد شعار ال",
 	"commands.tags.delete.not_exist": "لم يتم العثور عليه `%s` لشعار معين ID ",
 	"commands.tags.get.invalid_arguments": "للمزيد من المساعدة بالشعار , قم بزيارة <%s>.  .الشعار IDعليك تزويدنا ب ",
 	"commands.tags.get.invalid_tag": " شعار غير صالح.  للمزيد من المساعدة ، قم بزيارة <%s>.",
-	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s`",
 	"commands.unclaim.not_claimed": "هذه التذكرة لم تؤخذ بعد ",
 	"commands.unclaim.not_claimer": " فقط الموظفيين (الاّدمن) والمستخدمين من امتلكوا التذكرة يمكنهم تركها",
 	"commands.unclaim.success": "جميع الموظفين يمكنهم الان الرد على هذه التذكرة ",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "انا افتقد إذن \"إدارة القنوات\"",
 	"setup.auto.transcript.success": "تم إنشاء قناة <#%d>",
 	"setup.ticket_limit.success": "تم تحديث حد التَّذْكِرَة إلى `%d`",
-	"setup.transcript.invalid": "يجب أن تذكر قناة صالحة في الخادم (على سبيل المثال <#%d>)\\n**مثال:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "يجب أن تذكر قناة صالحة في الخادم (على سبيل المثال <#%d>)\\n**مثال:** `%s`",
 	"setup.transcript.success": "تم تغيير قناة النصوص إلى <#%d>",
 	"commands.language.help_wanted": "هل تتحدث لغة أخرى؟ انضم إلى [خادم الدعم](%s) الخاص بنا إذا كنت مهتما بترجمة البوت إلى لغات أكثر",
 	"commands.rename.too_long": "اسماء القنوات لا يمكن ان تكون اطول من 100 حرف",
@@ -120,7 +120,7 @@
 	"generic.ticket": "تذكرة",
 	"generic.title.premium_only": "أمر بريميوم فقط",
 	"generic.admin": "مشرف",
-	"commands.tags.create.success": "تم انشاء الوسم - تستطيع استخدامه من خلال استخدام امر `/tag %s`",
+	"commands.tags.create.success": "تم انشاء الوسم - تستطيع استخدامه من خلال استخدام امر `%s`",
 	"generic.title.about": "حول",
 	"generic.title.vote": "تصويت",
 	"generic.title.tags": "الوسوم (التاغات)",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "الامر /open غير مفعل في هذا السيرفر, تستطيع استخدام لوحة التذاكر لفتح تذكرة جديدة",
+			"disabled": "الامر %s غير مفعل في هذا السيرفر, تستطيع استخدام لوحة التذاكر لفتح تذكرة جديدة",
 			"threads": {
 				"cant_see_parent_channel": "تعذر اضافة <@%d> على التذكرة, تأكد من انه يملك صلاحية رؤية الروم الرئيسي لهذا الموضوع (الثريد) (<#%d>)",
 				"cant_message_in_threads": "أنت تفتقد إذن إرسال رسائل في المواضيع، الذي مطلوب لفتح تَذْكِرَة. الرجاء طلب من مسؤول الخادم منح هذا الإذن لك، وحاول مرة أخرى."
@@ -238,7 +238,7 @@
 			"select": "اختر لغة (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "تستطيع استخدام امر `/on-call` فقط في المواضيع (الثريدات), قم بزيادة [docs](%s) لإكتشاف المزيد عن المواضيع (الثريدات)",
+			"channel_mode": "تستطيع استخدام امر `%s` فقط في المواضيع (الثريدات), قم بزيادة [docs](%s) لإكتشاف المزيد عن المواضيع (الثريدات)",
 			"success": "انت الأن في مكالمة",
 			"remove_success": "انت لم تعد في مكالمة"
 		},
@@ -255,7 +255,7 @@
 			"key": "مفتاح",
 			"check_again": "تحقق مرة اخرى",
 			"subscription_found": "تم العثور على اشتراك!",
-			"subscription_found_content": "من أجل تفعيل الاشتراك الخاص بك على هذا السيرفر, يجب ان يقوم صاحب السيرفر (<@%d>) بإضافتك كمشرف (ادمن) \n**user** (roles are ignored)\nمن خلال استخدام امر </addadmin:%d>\nتستطيع التأكد من انه تم اضافتك كمشرف من خلال استخدام امر : </viewstaff:%d>",
+			"subscription_found_content": "من أجل تفعيل الاشتراك الخاص بك على هذا السيرفر, يجب ان يقوم صاحب السيرفر (<@%d>) بإضافتك كمشرف (ادمن) \n**user** (roles are ignored)\nمن خلال استخدام امر %s\nتستطيع التأكد من انه تم اضافتك كمشرف من خلال استخدام امر : %s",
 			"activate_key": "قم بتفعيل البريميوم من خلال مفتاح (كي)",
 			"checking": "جاري التحقق من حالة البريميوم",
 			"please_wait": "الرجاء الإنتظار...",

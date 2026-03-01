@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets este un bot pentru tichete și suport, ușor de folosit și foarte ușor de configurat.\\nServerul pentru suport: %s\\nComenzi: Tastează `/help`\\nÎncepe prin a rula `/setup`",
+	"commands.about": "Tickets este un bot pentru tichete și suport, ușor de folosit și foarte ușor de configurat.\\nServerul pentru suport: %s\\nComenzi: Tastează `%s`\\nÎncepe prin a rula `%s`",
 	"commands.add.no_members": "Trebuie să menționezi membri pentru a-i adăuga în tichet",
 	"commands.add.no_permission": "Nu ai permisiunea de a adăuga persoane în acest tichet",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Trebuie să menționezi un utilizator sau să numești un rol pentru a-i acorda privilegii de reprezentant de suport",
 	"commands.rename.missing_name": "Trebuie să specifici un nou nume pentru acest tichet",
 	"commands.rename.success": "Acest tichet a fost redenumit în <#%d>",
-	"commands.tags.create.already_exists": "Un tag cu ID-ul `%s` există deja. Poți șterge tagul folosind `/tag delete %s`",
+	"commands.tags.create.already_exists": "Un tag cu ID-ul `%s` există deja. Poți șterge tagul folosind `%s`",
 	"commands.tags.create.invalid_arguments": "Trebuie să specifici un ID al tagului și conținutul",
 	"commands.tags.create.too_long": "ID-urile tagurilor nu pot fi mai lungi de 16 caractere",
 	"commands.tags.delete.invalid_arguments": "Trebuie să specifici un ID al unui tag pentru a-l șterge",
 	"commands.tags.delete.not_exist": "Un tag cu ID-ul `%s` nu a putut fi găsit",
 	"commands.tags.get.invalid_arguments": "Trebuie să furnizezi ID-ul tagului. Pentru mai mult ajutor privind tagurile, vizitează <%s>.",
 	"commands.tags.get.invalid_tag": "Tag nevalid. Pentru mai mult ajutor privind tagurile, vizitează <%s>.",
-	"commands.tags.list": "ID-urile pentru toate tagurile: \\n%s\\nPentru a vedea conținutul unui tag, rulează `%s tag <ID>`",
+	"commands.tags.list": "ID-urile pentru toate tagurile: \\n%s\\nPentru a vedea conținutul unui tag, rulează `%s`",
 	"commands.unclaim.not_claimed": "Acest tichet nu este revendicat",
 	"commands.unclaim.not_claimer": "Numai adminii și utilizatorul care a revendicat tichetul pot anula revendicarea tichetului",
 	"commands.unclaim.success": "Toți reprezentanții de suport pot răspunde acum la tichet",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Îmi lipsește permisiunea `Manage Channels`",
 	"setup.auto.transcript.success": "Canalul <#%d> a fost creat",
 	"setup.ticket_limit.success": "Limita de tichete a fost actualizată la `%d`",
-	"setup.transcript.invalid": "Trebuie să menționezi un canal valid în server (de ex., <#%d>)\\n**Exemplu:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Trebuie să menționezi un canal valid în server (de ex., <#%d>)\\n**Exemplu:** `%s`",
 	"setup.transcript.success": "Canalul transcripturilor a fost schimbat în <#%d>",
 	"commands.language.help_wanted": "Vorbești altă limbă? Alătură-te [serverului nostru de suport](%s) dacă ești interesat să ajuți la traducerea botului în mai multe limbi",
 	"commands.rename.too_long": "Numele canalelor nu pot fi mai lungi de 100 de caractere",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Tichet",
 	"generic.title.premium_only": "Comandă doar Premium",
 	"generic.admin": "Admin",
-	"commands.tags.create.success": "Tag creat - îl poți folosi rulând `/tag %s`",
+	"commands.tags.create.success": "Tag creat - îl poți folosi rulând `%s`",
 	"generic.title.about": "Despre",
 	"generic.title.vote": "Votează",
 	"generic.title.tags": "Taguri",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Comanda `/open` este dezactivată în acest server: te rugăm să folosești un panou de tichete pentru a deschide un tichet",
+			"disabled": "Comanda `%s` este dezactivată în acest server: te rugăm să folosești un panou de tichete pentru a deschide un tichet",
 			"threads": {
 				"cant_see_parent_channel": "Nu s-a putut adăuga <@%d> în tichet: Asigură-te că au permisiunea de a vedea canalul părinte al threadului (<#%d>)",
 				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
@@ -238,7 +238,7 @@
 			"select": "Selectează o limbă (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` poate fi folosit numai în modul thread. Vizitează-ne [documentația](%s) pentru a afla mai multe despre threaduri",
+			"channel_mode": "`%s` poate fi folosit numai în modul thread. Vizitează-ne [documentația](%s) pentru a afla mai multe despre threaduri",
 			"success": "Acum ești la datorie",
 			"remove_success": "Nu mai ești la datorie"
 		},
@@ -255,7 +255,7 @@
 			"key": "Cheie",
 			"check_again": "Verifică din nou",
 			"subscription_found": "Abonamentul a fost găsit!",
-			"subscription_found_content": "Pentru a-ți aplica abonamentul pe acest server, proprietarul serverului (<@%d>) trebuie să te adauge ca **utilizator** admin (rolurile sunt ignorate) prin intermediul comenzii </addadmin:%d>.\\n\\nPoți verifica dacă ai fost adăugat ca utilizator admin rulând </viewstaff:%d>.",
+			"subscription_found_content": "Pentru a-ți aplica abonamentul pe acest server, proprietarul serverului (<@%d>) trebuie să te adauge ca **utilizator** admin (rolurile sunt ignorate) prin intermediul comenzii %s.\\n\\nPoți verifica dacă ai fost adăugat ca utilizator admin rulând %s.",
 			"activate_key": "Activează o cheie premium",
 			"checking": "Se verifică statusul premium...",
 			"please_wait": "Te rugăm să aștepți...",

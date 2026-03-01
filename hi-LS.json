@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets ek easy to use aur highly configurable ticket aur support bot hai.\\nSupport server:\n%s\\nCommands: `/help` type kare\\nShuru karne ke liye `/setup` run kare",
+	"commands.about": "Tickets ek easy to use aur highly configurable ticket aur support bot hai.\\nSupport server:\n%s\\nCommands: `%s` type kare\\nShuru karne ke liye `%s` run kare",
 	"commands.add.no_members": "Ticket mein members ko add karne ke liye aapko unhe mention karna hoga",
 	"commands.add.no_permission": "Aapke paas is ticket mein logo ko add karne ki permission nahi hai",
 	"commands.add.no_everyone": "Aap `@everyone` role ko ticket mein add nahi kar sakte",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Aapko support privileges dene ke liye kisi user ko mention karna hoga ya kisi role ka naam likhna hoga",
 	"commands.rename.missing_name": "Aapko is ticket ke liye ek naya naam specify karna hoga",
 	"commands.rename.success": "Is ticket ka naam badal kar <#%d> kar diya gaya hai",
-	"commands.tags.create.already_exists": "ID `%s` wala tag pehle se hi exist karta hai. Aap `/tag delete %s` use karke us tag ko delete kar sakte hain",
+	"commands.tags.create.already_exists": "ID `%s` wala tag pehle se hi exist karta hai. Aap `%s` use karke us tag ko delete kar sakte hain",
 	"commands.tags.create.invalid_arguments": "Aapko ek tag ID aur content specify karna hoga",
 	"commands.tags.create.too_long": "Tag IDs 16 characters se zyada lambi nahi ho sakti hain",
 	"commands.tags.delete.invalid_arguments": "Aapko delete karne ke liye ek tag ID specify karni hogi",
 	"commands.tags.delete.not_exist": "ID `%s` wala tag nahi mil saka",
 	"commands.tags.get.invalid_arguments": "Aapko tag ki ID provide karni hogi. Tags ki help ke liye <%s> par jaye.",
 	"commands.tags.get.invalid_tag": "Invalid tag. Tags ki aur help ke liye <%s> par jaye.",
-	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s`",
 	"commands.unclaim.not_claimed": "This ticket is not claimed",
 	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
 	"commands.unclaim.success": "All support representatives can now respond to the ticket",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
 	"setup.auto.transcript.success": "Created <#%d> channel",
 	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
-	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `%s`",
 	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
 	"commands.language.help_wanted": "Do you speak another language? Join our [support server](%s) if you're interested in helping translating the bot into more languages",
 	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Ticket",
 	"generic.title.premium_only": "Premium Only Command",
 	"generic.admin": "Admin",
-	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
+	"commands.tags.create.success": "Tag created - you can use it by running `%s`",
 	"generic.title.about": "About",
 	"generic.title.vote": "Vote",
 	"generic.title.tags": "Tags",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
+			"disabled": "The `%s` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
 				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
 				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
@@ -238,7 +238,7 @@
 			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
+			"channel_mode": "`%s` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
 			"success": "You are now on call",
 			"remove_success": "You are no longer on call"
 		},
@@ -255,7 +255,7 @@
 			"key": "Key",
 			"check_again": "Check Again",
 			"subscription_found": "Subscription Found!",
-			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the </addadmin:%d> command.\\n\\nYou can verify that you have been added as an admin user by running </viewstaff:%d>.",
+			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the %s command.\\n\\nYou can verify that you have been added as an admin user by running %s.",
 			"activate_key": "Activate A Premium Key",
 			"checking": "Checking Premium Status...",
 			"please_wait": "Please wait...",

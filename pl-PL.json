@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets to łatwy w obsłudze, wysoce konfigurowalny i pomocny bot.\\nSerwer wsparcia: %s\\nKomendy: Wpisz `/help`\\nAby rozpocząć wpisz `/setup`",
+	"commands.about": "Tickets to łatwy w obsłudze, wysoce konfigurowalny i pomocny bot.\\nSerwer wsparcia: %s\\nKomendy: Wpisz `%s`\\nAby rozpocząć wpisz `%s`",
 	"commands.add.no_members": "Musisz oznaczyć użytkowników, aby dodać ich do zgłoszenia",
 	"commands.add.no_permission": "Nie masz uprawnień, aby dodać użytkowników do tego zgłoszenia",
 	"commands.add.no_everyone": "Nie możesz dodać roli `@everyone` do zgłoszenia",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "Musisz oznaczyć użytkownika lub rolę, aby zabrać mu uprawnienia reprezentanta wsparcia",
 	"commands.rename.missing_name": "Musisz określić nową nazwę dla tego zgłoszenia",
 	"commands.rename.success": "Nazwa zgłoszenia została zmieniona na <#%d>",
-	"commands.tags.create.already_exists": "Tag z ID `%s` już istnieje. Możesz go usunąć używając`/tag delete %s`",
+	"commands.tags.create.already_exists": "Tag z ID `%s` już istnieje. Możesz go usunąć używając `%s`",
 	"commands.tags.create.invalid_arguments": "Musisz sprecyzować ID tagu i jego zawartość",
 	"commands.tags.create.too_long": "ID tagu nie może być dłuższe, niż 16 znaków",
 	"commands.tags.delete.invalid_arguments": "Musisz określić ID tagu, aby go usunąć",
 	"commands.tags.delete.not_exist": "Tag z ID `%s` nie został znaleziony",
 	"commands.tags.get.invalid_arguments": "Musisz określić ID tagu. Po więcej informacji na temat tagów odwiedź <%s>.",
 	"commands.tags.get.invalid_tag": "Nieprawidłowy tag. Po więcej informacji na temat tagów odwiedź <%s>.",
-	"commands.tags.list": "Lista ID tagów: \\n%s\\nAby zobaczyć zawartość tagu, napisz `%s tag <ID>`",
+	"commands.tags.list": "Lista ID tagów: \\n%s\\nAby zobaczyć zawartość tagu, napisz `%s`",
 	"commands.unclaim.not_claimed": "To zgłoszenie nie jest przejęte",
 	"commands.unclaim.not_claimer": "Tylko administracja i użytkownicy, którzy przejęli zgłoszenie mogą usunąć przypisanie",
 	"commands.unclaim.success": "Wszyscy reprezentanci wsparcia mogą teraz odpowiedzieć na zgłoszenie",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "Nie posiadam uprawnienia `Zarządzanie kanałem`",
 	"setup.auto.transcript.success": "Utworzono kanał <#%d>",
 	"setup.ticket_limit.success": "Limit zgłoszeń został zaktualizowany do `%d`",
-	"setup.transcript.invalid": "Musisz podać prawidłowy kanał na serwerze (np. <#%d>)\\n**Przykład:** `/setup transcripts #logs`",
+	"setup.transcript.invalid": "Musisz podać prawidłowy kanał na serwerze (np. <#%d>)\\n**Przykład:** `%s`",
 	"setup.transcript.success": "Kanał transkrypcji został zmieniony na <#%d>",
 	"commands.language.help_wanted": "Mówisz w innym języku? Dołącz do naszego [serwera wsparcia](%s), jeśli jesteś zainteresowany pomocą w tłumaczeniu bota na większą ilość języków",
 	"commands.rename.too_long": "Nazwa kanału nie może być dłuższa niż 100 znaków",
@@ -120,7 +120,7 @@
 	"generic.ticket": "Zgłoszenie",
 	"generic.title.premium_only": "Komenda tylko dla serwerów Premium",
 	"generic.admin": "Administrator",
-	"commands.tags.create.success": "Tag utworzony - możesz go użyć poprzez użycie `/tag %s`",
+	"commands.tags.create.success": "Tag utworzony - możesz go użyć poprzez użycie `%s`",
 	"generic.title.about": "O Aplikacji",
 	"generic.title.vote": "Zagłosuj",
 	"generic.title.tags": "Tagi",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Komenda `/open` jest wyłączona na tym serwerze: użyj panelu zgłoszeń, by otworzyć zgłoszenie",
+			"disabled": "Komenda `%s` jest wyłączona na tym serwerze: użyj panelu zgłoszeń, by otworzyć zgłoszenie",
 			"threads": {
 				"cant_see_parent_channel": "Nie można dodać <@%d> do zgłoszenia: Upewnij się, że użytkownik ma uprawnienia do przeglądania kanału nadrzędnego wątku (<#%d>)",
 				"cant_message_in_threads": "Brakuje Ci uprawnienia `Wysyłanie wiadomości w wątkach`, które jest wymagane do otwarcia zgłoszenia. Poproś administratora serwera o przyznanie Ci tego uprawnienia i spróbuj ponownie."
@@ -238,7 +238,7 @@
 			"select": "Wybierz język (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` może zostać użyte tylko w trybie wątkowym. Odwiedź [dokumentacje](%s), aby dowiedzieć się więcej na temat wątków",
+			"channel_mode": "`%s` może zostać użyte tylko w trybie wątkowym. Odwiedź [dokumentacje](%s), aby dowiedzieć się więcej na temat wątków",
 			"success": "Jesteś teraz oznaczany w nowych zgłoszeniach",
 			"remove_success": "Już nie będziesz oznaczany w nowych zgłoszeniach"
 		},
@@ -255,7 +255,7 @@
 			"key": "Klucz",
 			"check_again": "Sprawdź ponownie",
 			"subscription_found": "Subskrybcja Znaleziona!",
-			"subscription_found_content": "Aby zastosować subskrypcję na tym serwerze, właściciel serwera (<@%d>) musi dodać Cię jako administratora **użytkownika** (role są ignorowane) za pomocą polecenia </addadmin:%d>.\\n\\nMożesz zweryfikować, czy zostałeś dodany jako administrator poprzez uruchomienie </viewstaff:%d>.",
+			"subscription_found_content": "Aby zastosować subskrypcję na tym serwerze, właściciel serwera (<@%d>) musi dodać Cię jako administratora **użytkownika** (role są ignorowane) za pomocą polecenia %s.\\n\\nMożesz zweryfikować, czy zostałeś dodany jako administrator poprzez uruchomienie %s.",
 			"activate_key": "Aktywuj klucz Premium",
 			"checking": "Sprawdzanie statusu Premium...",
 			"please_wait": "Proszę czekać...",

@@ -1,5 +1,5 @@
 {
-	"commands.about": "בוט הטיקטים הוא קל לשימוש ויש לו רמה גבוהה של עיצוב לטיקט ובוט עזרה. \\nשרת העזרה לבוט: %s פקודות: תרשום \"help/\" \\nותתחיל בעזרת הפקודה \"setup/\"",
+	"commands.about": "בוט הטיקטים הוא קל לשימוש ויש לו רמה גבוהה של עיצוב לטיקט ובוט עזרה. \\nשרת העזרה לבוט: %s פקודות: תרשום \"%s\" \\nותתחיל בעזרת הפקודה \"%s\"",
 	"commands.add.no_members": "אפשר להוסיף משתמשים לערוץ עזרה רק אם עושים להם mention",
 	"commands.add.no_permission": "אין לך הרשאה להוספת משתמשים לערוץ זה",
 	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
@@ -24,14 +24,14 @@
 	"commands.removesupport.no_members": "עליך לתייג את שם המשתמש או שם התפקיד כדי להעניק לו הרשאות נציגי תמיכה",
 	"commands.rename.missing_name": "עליך לציין שם חדש עבור כרטיס זה",
 	"commands.rename.success": "שם הכרטיס שונה ל <#%d>",
-	"commands.tags.create.already_exists": "תג עם הקוד `%s` כבר קיים. אתה יכול למחוק את התג באמצעות `tag delete/ %s`",
+	"commands.tags.create.already_exists": "תג עם הקוד `%s` כבר קיים. אתה יכול למחוק את התג באמצעות `%s`",
 	"commands.tags.create.invalid_arguments": "עליך לציין קוד תג ותוכן",
 	"commands.tags.create.too_long": "קודי תגים אינם יכולים להיות יותר מ-16 תווים",
 	"commands.tags.delete.invalid_arguments": "עליך לציין קוד תג למחיקה",
 	"commands.tags.delete.not_exist": "תג עם הקוד `%s` לא נמצא",
 	"commands.tags.get.invalid_arguments": "עליך לספק את התג של הקוד. לעזרה נוספת עם תגים, בקר בכתובת <%s>.",
 	"commands.tags.get.invalid_tag": "תג לא נכון. לעזרה נוספת עם תגים, בקר בכתובת <%s>.",
-	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s tag <ID>`",
+	"commands.tags.list": "IDs for all tags: \\n%s\\nTo view the contents of a tag, run `%s`",
 	"commands.unclaim.not_claimed": "כרטיס זה אינו לקוח",
 	"commands.unclaim.not_claimer": "רק מנהלי מערכת והמשתמש שפתח את הכרטיס יכולים לגרום לסגירת הכרטיס",
 	"commands.unclaim.success": "כל נציגי התמיכה יכולים כעת להגיב לכרטיס",
@@ -90,7 +90,7 @@
 	"setup.auto.transcript.failure": "חסרה לי ההרשאה 'Manage Channels'",
 	"setup.auto.transcript.success": "נוצר חדר <#%d>",
 	"setup.ticket_limit.success": "מגבלת הכרטיסים עודכנה ל-%d",
-	"setup.transcript.invalid": "עליך לציין חדר חוקי בשרת (למשל <#%d>)\\n**דוגמה:** `setup transcripts #logs/`",
+	"setup.transcript.invalid": "עליך לציין חדר חוקי בשרת (למשל <#%d>)\\n**דוגמה:** `%s`",
 	"setup.transcript.success": "חדר התמלילים שונה ל-<#%d>",
 	"commands.language.help_wanted": "האם אתה מדבר שפה נוספת? הצטרף ל[שרת התמיכה] שלנו (%s) אם אתה מעוניין לעזור בתרגום הבוט לשפות נוספות",
 	"commands.rename.too_long": "שמות החדרים אינם יכולים להיות יותר מ-100 תווים",
@@ -120,7 +120,7 @@
 	"generic.ticket": "כרטיס",
 	"generic.title.premium_only": "פקודת פרימיום בלבד",
 	"generic.admin": "אדמין",
-	"commands.tags.create.success": "תג נוצר - אתה יכול להשתמש בו על ידי הפעלת `tag %s/`",
+	"commands.tags.create.success": "תג נוצר - אתה יכול להשתמש בו על ידי הפעלת `%s`",
 	"generic.title.about": "לגבי",
 	"generic.title.vote": "הצבעה",
 	"generic.title.tags": "תגים",
@@ -189,7 +189,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "הפקודה `open/` מושבתת בשרת זה: אנא השתמש בלוח כרטיסים כדי לפתוח כרטיס",
+			"disabled": "הפקודה `%s` מושבתת בשרת זה: אנא השתמש בלוח כרטיסים כדי לפתוח כרטיס",
 			"threads": {
 				"cant_see_parent_channel": "לא ניתן היה להוסיף <@%d> לכרטיס: ודא שיש להם הרשאה כדי לצפות בפורום האב של החדר (<#%d>)",
 				"cant_message_in_threads": "חסרה לך הרשאת 'שליחת הודעות בשרשורים', הנדרשת לפתיחת כרטיס. אנא בקשו ממנהל שרת להעניק לך הרשאה זו ונסו שוב."
@@ -238,7 +238,7 @@
 			"select": "בחר שפה (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "'on-call/' יכול לשמש רק במצב פורומים. בקר ב-[docs](%s) שלנו למידע נוסף על פורומים",
+			"channel_mode": "'%s' יכול לשמש רק במצב פורומים. בקר ב-[docs](%s) שלנו למידע נוסף על פורומים",
 			"success": "אתה עכשיו בשיחה",
 			"remove_success": "אתה כבר לא בשיחה"
 		},
@@ -255,7 +255,7 @@
 			"key": "מקש",
 			"check_again": "בדוק שוב",
 			"subscription_found": "נמצא מנוי!",
-			"subscription_found_content": "על מנת להחיל את המנוי שלך על שרת זה, על בעל השרת (<@%d>) להוסיף אותך כמנהל מערכת **משתמש** (מתעלמים מתפקידים) באמצעות הפקודה </addadmin:%d>.\\n\\nתוכל לוודא שנוספת כמשתמש אדמין על ידי הפעלת </viewstaff:%d>.",
+			"subscription_found_content": "על מנת להחיל את המנוי שלך על שרת זה, על בעל השרת (<@%d>) להוסיף אותך כמנהל מערכת **משתמש** (מתעלמים מתפקידים) באמצעות הפקודה %s.\\n\\nתוכל לוודא שנוספת כמשתמש אדמין על ידי הפעלת %s.",
 			"activate_key": "הפעל מפתח פרימיום",
 			"checking": "בודק פרימיום סטטוס...",
 			"please_wait": "בבקשה המתן...",
