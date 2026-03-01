@@ -483,11 +483,13 @@
 		"unknown_category": "Không thể tìm được danh mục theo yêu cầu: danh mục có thể đã bị xóa.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đặt lại một danh mục hợp lệ cho bảng phiếu hỗ trợ.",
 		"unknown_interaction": "Tương tác đã hết hạn.\n\nVui lòng thực hiện lại tương tác.",
 		"max_webhooks": "Máy chủ đã đạt giới hạn số lượng webhook có thể tạo.\n\nVui lòng nhờ quản trị viên để xóa bớt webhooks không được sử dụng và thử lại.",
+		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
 		"interaction_acknowledged": "Tương tác này đã được xử lí.\n\nNếu bạn muốn thực hiện lại tác vụ, hãy bắt đầu một tương tác mới.",
 		"missing_permissions": {
 			"title": "Tôi đang thiếu những quyền sau để thực hiện tác vụ",
 			"body": "Vui lòng cấp những quyền sau cho bot hoặc cấp quyền `Quản trị viên` và thử lại.\nVui lòng try cập [trang tài liệu](%s) để biết lí do tại sao những quyền sau cần thiết."
 		},
+		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
 		"invalid_length": "Có một hoặc nhiều dòng quá ngắn hoặc quá dài.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng tất cả dữ liệu nhập vào và các dòng có độ dài giới hạn theo yêu cầu.",
 		"required_field": "Có một dòng yêu cầu đang bị thiếu hoặc để trống.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng tất cả các dòng đều được điền đầy đủ.",
 		"invalid_channel_type": "Kênh cho tác vụ này không hợp lệ, kênh có thể đã bị xóa.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng các kênh trong cài đặt đã hợp lệ.",
@@ -496,6 +498,9 @@
 		"invalid_characters": "Nội dung nhập vào có chứa ký không hợp lệ.\n\nChỉ được phép sử dụng chữ cái, số, dấu gạch ngang và dấu gạch dưới.",
 		"invalid_choice": "Có lựa chọn không hợp lệ.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và xác minh lại các cài đặt.",
 		"invalid_form": "Tác vụ này không thể thực hiện do dữ liệu được nhập không hợp lệ.",
+		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
 		"timed_out": "Đã hết thời gian xử lí, vui lòng thử lại.",
 		"rate_limited": "Bạn đã bị giới hạn. Vui lòng thử lại sau %s.",
 		"rate_limited_global": "Discord đang bị quá tải (giới hạn toàn cầu). Vui lòng thử lại sau %s.",
