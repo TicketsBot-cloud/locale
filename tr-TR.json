@@ -483,11 +483,13 @@
 		"unknown_category": "Gerekli kategori bulunamadı: silinmiş olmalı.\nSunucu yöneticisinden paneli ziyaret edip (%s) bu ticket paneline geçerli bir kanal kategorisi atamasını iste.",
 		"unknown_interaction": "Bu etkileşimin süresi doldu.\nİşlemi tekrar dene.",
 		"max_webhooks": "Sunucu maksimum webhook sayısına ulaştı.\nSunucu yöneticisinden kullanılmayan webhook'ları kaldırıp tekrar denemesini iste.",
+		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
 		"interaction_acknowledged": "Bu etkileşim zaten işlendi.\nBu işlemi tekrar yapmak istiyorsan yeni bir etkileşim başlat.",
 		"missing_permissions": {
 			"title": "Bu işlemi gerçekleştirmek için gerekli izinler eksik",
 			"body": "Bu izinleri bota ver ya da alternatif olarak Yönetici iznini ver ve tekrar dene.\nHer iznin neden gerekli olduğunu öğrenmek için dökümantasyonumuzu (%s) ziyaret et."
 		},
+		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
 		"invalid_length": "Bir veya daha fazla alan çok kısa ya da çok uzun.\n\nSunucu yöneticisinden paneli(%s) ziyaret edip tüm girdileri kontrol etmesini ve alanların gerekli uzunluk sınırlarını karşıladığından emin olmasını isteyiniz.",
 		"required_field": "Gerekli bir alan eksik veya boş.\nSunucu yöneticisinden paneli ziyaret edip (%s) tüm gerekli alanların doldurulduğunu kontrol etmesini iste.",
 		"invalid_channel_type": "Kanal türü bu işlem için geçersiz.\nSunucu yöneticisinden paneli ziyaret edip(%s) ticket paneline geçerli bir kanal atamasını iste.",
@@ -496,6 +498,9 @@
 		"invalid_characters": "Girdi geçersiz karakterler içeriyor.\nSadece harf, rakam, tire ve alt çizgi kullanın.",
 		"invalid_choice": "Geçersiz bir seçenek girildi.\nSunucu yöneticisinden paneli (%s) ziyaret edip tüm ayarların doğru olduğunu kontrol etmesini iste.",
 		"invalid_form": "Geçersiz girdi nedeniyle işlem tamamlanamadı.",
+		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
 		"timed_out": "İşlem zaman aşımına uğradı, lütfen tekrar deneyin.",
 		"rate_limited": "Hız sınırına takıldın. %s sonra tekrar dene.",
 		"rate_limited_global": "Discord yüksek yük altında (global hız sınırı). %s sonra tekrar deneyiniz.",
