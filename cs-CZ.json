@@ -489,7 +489,7 @@
 			"title": "Chybí mi následující oprávnění potřebná k provedení této akce",
 			"body": "Prosím, přiřaďte tato oprávnění botovi, nebo případně oprávnění 'Administrátor' a zkuste to zovu.\nProsím, navštivte naši [dokumentaci](%s) pro vysvětlení, proč je každé oprávnění vyžadováno."
 		},
-		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
+		"missing_access": "Chybí mi nějaká potřebná práva k provedení této akce.\n\nProsím, přiřaďte potřebná práva botovi nebo alternativně práva 'Administrátor' a zkuste znovu.\nProsím, navštivte naší [dokumentaci](%s) pro vysvětlení toho, proč jsou ty práva vyžadována.",
 		"invalid_length": "Jedno nebo více polí je příliš krátké nebo příliš dlouhé.\n\nOptej se administrátora serveru, aby navštívil [dashboard](%s) a ověřil všechny vstupy a ujistil se, že všechna pole splňují nároky omezení na délku.",
 		"required_field": "Požadované pole je prázdné nebo chybí.\n\nPožádejte administrátora serveru, aby navštívil [dashboard](%s) a ověřil všechny požadovaná pole jsou vyplněna.",
 		"invalid_channel_type": "Typ kanálu je pro tuto operaci neplatný.\n\nPožádejte administrátora serveru, aby navštívil [dashboard](%s) a přiřadil k panelu tiketu platný kanál.",
