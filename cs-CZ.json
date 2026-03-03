@@ -483,7 +483,7 @@
 		"unknown_category": "Nelze najít požadovanou kategorii: musela být odstraněna.\n\nPožádejte administrátora serveru, aby navštívil [dashboard](%s) a přiřadil platnou kategorii pro tento panel tiketů.",
 		"unknown_interaction": "Tato interakce vypršela.\n\nProsím, zkuste tuto akci později.",
 		"max_webhooks": "Server dosáhl maximálního počtu webhooků.\n\nProsím, požádejte administrátora serveru, aby odstranil některé nepoužívané webhooky a zkuste znovu.",
-		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
+		"max_channels": "Váš ticket nemůže být otevřen, protože tento server dosáhl limitu Discordu pro kanály (500).\n\nProsím, požádejte administrátora serveru pro uzavření některých tiketů nebo vymazání nepouživaných kanálů před otevřením nového tiketu.",
 		"interaction_acknowledged": "Tato interakce již byla zpracována.\n\nPokud potřebujete tuto akci provést znovu, prosím začněte novou interakci.",
 		"missing_permissions": {
 			"title": "Chybí mi následující oprávnění potřebná k provedení této akce",

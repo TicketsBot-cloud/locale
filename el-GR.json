@@ -2,7 +2,7 @@
 	"commands.about": "Το Tickets είναι ένα εύκολο με μεγάλες δυνατότητες διαμόρφωσης ticket και support bot.\\nServer εξυπηρετήσεις %s\\nΕντολες: Γράψε `%s`\\nΞεκίνα τώρα χρησιμοποιώντας `%s`",
 	"commands.add.no_members": "Πρέπει να αναφέρεται τους χρήστες για να τους βάλουμε στο ticket",
 	"commands.add.no_permission": "Δεν έχεις την άδεια για να προσθέσεις χρήστες στο ticket",
-	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
+	"commands.add.no_everyone": "Δεν μπορείτε να προσθέσετε τον ρόλο `@everyone` σε ένα ticket",
 	"commands.addadmin.no_members": "Πρέπει να αναφέρεις έναν χρήστη ή έναν ρόλο για να το βάλεις σαν διαχειριστή",
 	"commands.addadmin.owner": "Ο ιδιοκτήτης του server είναι ήδη διαχειριστής",
 	"commands.addsupport.no_members": "Πρέπει να αναφέρεις έναν χρήστη ή έναν ρόλο για να βάλεις δικαιώματα υποστήριξης",
@@ -11,7 +11,7 @@
 	"commands.claim.success": "Το ticket σας θα εξυπηρετηθεί από τον/την %s",
 	"commands.invite": "[Πάτα εδώ](<%s>)",
 	"commands.language.invalid": "Πρέπει να διαλέξετε μια γλώσσα ή σημαία. Διαθέσιμες γλώσσες:\\n%s",
-	"commands.open.ticket_limit": "You are only able to open %d %s at once",
+	"commands.open.ticket_limit": "Είστε σε θέση να ανοίξετε μόνο %d %s ταυτόχρονα",
 	"commands.open.too_many_tickets": "Υπάρχουν πολλά tickets στην κατηγορία των tickets, ζητά από έναν διαχειριστή να κλείσει μερικά ή να τα μεταφέρει σε άλλη κατηγορία",
 	"commands.panel": "Επισκεφτείτε το <%s> για να διαμορφώσετε έναν πίνακα",
 	"commands.premium": "Μπορείς να αγοράσεις premium συνδρομή στο <%s>.\\nΤο premium σου παρέχει πολλά οφέλη, όπως:\\n```diff\\n+Δημιουργία απεριόριστων ticket πίνακες\\n+Προσαρμογή ονόματος, avatar και status του bot (whitelabel)\\n+ Λεπτομερή στατιστικά στοιχεία για το διακομιστή, χρήστες και το προσωπικό υποστήριξης\\n+ Χωρίς εμπορικό σήμα στο υποσέλιδο των μηνυμάτων\\n+ Υποστηρίζει την ανάπτυξη και βοηθάει να πληρώσω το κόστος του διακοσμητή\\n```\\n\\nΕναλλακτικά, μπορείτε να ψηφίσετε στο <%s> για να πάρεις δωρεάν premium για 24 ώρες",
@@ -35,7 +35,7 @@
 	"commands.unclaim.not_claimed": "Αυτό το ticket δεν έχει υποστηρικτή",
 	"commands.unclaim.not_claimer": "Μόνο οι διαχειριστές και ο υποστηρικτής που υποστηρίζει το ticket μπορεί να βγάλει τον υποστηρικτή από το ticket",
 	"commands.unclaim.success": "Όλοι οι εκπρόσωποι υποστήριξης μπορούν τώρα να απαντήσουν στο ticket",
-	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"commands.vote": "Κάντε κλικ στο παρακάτω κουμπί για να ψηφίσετε για το bot και λάβετε 24 ώρες premium δωρεάν.\n\nΜόλις ψηφίσετε, εκτελέστε ξανά την εντολή %s για να εξαργυρώσετε τις πιστώσεις της ψήφου σας.",
 	"generic.invalid_argument": "Μη έγκυρη παράμετρος: αναφερθείτε στη χρήση",
 	"generic.invalid_user": "Αδυναμία εύρεσης του χρήστη προορισμού",
 	"generic.no_permission": "Δεν έχετε άδεια για αυτό",
@@ -79,8 +79,8 @@
 	"help.gdpr": "Διαχειριστείτε τις αιτήσεις δεδομένων GDPR σας",
 	"open.success": "Άνοιξε ένα νέο ticket: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "Αυτό το panel είναι κλειστό",
+		"message": "Παρακαλούμε δοκιμάστε ξανά κατά τις ώρες υποστήριξής μας."
 	},
 	"setup.auto.category.failure": "Μου λείπει το δικαίωμα `Manage Channels`",
 	"setup.auto.category.success": "Δημιουργήθηκε Tickets κατηγορία",
@@ -165,7 +165,7 @@
 	"commands.remove.success": "<@%s> έχει αφαιρεθεί από <#%d>",
 	"commands.remove.role_thread": "Λόγω περιορισμών του Discord, ρόλοι δεν μπορούν να αφαιρεθούν από thread tickets",
 	"open.ratelimited": "Τα Tickets ανοίγονται πολύ γρήγορα σε αυτόν τον διακομιστή",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "Είστε σε αναμονή για αυτόν το panel. Παρακαλώ δοκιμάστε ξανά %s.",
 	"commands.claim.thread": "Λόγω των περιορισμών του Discord, η διεκδίκηση δεν υποστηρίζει τα νήματα",
 	"generic.join_support_server": "Μπες στον διακομιστή υποστήριξής μας",
 	"commands.open.guild_channel_limit": "Αυτός ο server έχει φτάσει το όριο του Discord με 500 κανάλια",
@@ -207,7 +207,7 @@
 				"limit": "Έχετε φτάσει στο όριο της μαύρης λίστας ρόλων (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "Ο χρήστης <@&%d> έχει αφαιρεθεί από την μαύρη λίστα"
 			},
 			"add": {
 				"limit": "Έχετε φτάσει το όριο της μαύρης λίστας των μελών (%d): σκεφτείτε να χρησιμοποιήσετε έναν ρόλο αντί αυτού"
@@ -328,15 +328,15 @@
 			}
 		},
 		"edit": {
-			"title": "Edit Ticket Settings",
-			"description": "Below you can edit various settings for this ticket.",
+			"title": "Επεξεργασία Ρυθμίσεων του Ticket",
+			"description": "Παρακάτω μπορείτε να επεξεργαστείτε διάφορες ρυθμίσεις για αυτό το ticket.",
 			"labels": {
-				"title": "Edit Labels",
-				"description": "Edit the labels assigned to this ticket",
+				"title": "Επεξεργασία Ετικετών",
+				"description": "Επεξεργαστείτε τις ετικέτες που έχουν ανατεθεί σε αυτό το ticket",
 				"update_modal": {
-					"title": "Update Ticket Labels",
-					"select_menu_title": "Labels",
-					"success": "Ticket labels have been successfully updated to: %s"
+					"title": "Ενημέρωση Ετικετών των Ticket",
+					"select_menu_title": "Ετικέτες",
+					"success": "Οι ετικέτες των ticket έχουν ενημερωθεί με επιτυχία: %s"
 				}
 			}
 		}
@@ -358,11 +358,11 @@
 		"on_call": "Σας επισημαίνει σε υπηρεσία, για να προστίθεται και να σε κάνει ping σε όλα τα tickets",
 		"reopen": "Ανοίγει ξανά ένα ticket που έκλεισε προηγουμένως",
 		"notes": "Δημιουργεί ένα νήμα για ιδιωτική συζήτηση μεταξύ εκπροσώπων υποστήριξης",
-		"edit": "Edits settings for the current ticket"
+		"edit": "Επεξεργάζεται ρυθμίσεις για το τρέχον ticket"
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](%s) will teach you how to configure every aspect of the bot!"
+			"docs": "Θέλετε να εξερευνήσετε περισσότερα Τα [αρχεία](%s) μας θα σας μάθει πώς να ρυθμίσετε κάθε πτυχή του bot!"
 		},
 		"threads": {
 			"no_notification_channel": "Πρέπει να παρέχετε ένα κανάλι ειδοποιήσεων των ticket",
@@ -483,13 +483,13 @@
 		"unknown_category": "Αδυναμία εύρεσης μιας απαιτούμενης κατηγορίας: μάλλον έχει διαγραφεί.\n\nΠαρακαλώ ζητήστε από το διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να ορίσει μια έγκυρη κατηγορία καναλιού σε αυτόν τον πίνακα.",
 		"unknown_interaction": "Αυτή η αλληλεπίδραση έχει λήξει.\n\nΠαρακαλώ δοκιμάστε ξανά.",
 		"max_webhooks": "Ο διακομιστής έχει φτάσει στο μέγιστο αριθμό webhooks.\n\nΠαρακαλώ ζητήστε από τον διαχειριστή του διακομιστή να αφαιρέσει μερικά αχρησιμοποίητα webhooks και προσπαθήστε ξανά.",
-		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
+		"max_channels": "Το ticket σας δεν μπορεί να ανοιχτεί επειδή αυτός ο διακομιστής έχει φτάσει το όριο καναλιών του Discord (500).\n\nΠαρακαλώ ζητήστε από το διαχειριστή του διακομιστή να κλείσει μερικά εισιτήρια ή να διαγράψει κάποια αχρησιμοποίητα κανάλια πριν από το άνοιγμα ενός νέου ticket.",
 		"interaction_acknowledged": "Αυτή η αλληλεπίδραση έχει ήδη επεξεργαστεί.\n\nΑν χρειαστεί να εκτελέσετε ξανά αυτήν την ενέργεια, παρακαλώ ξεκινήστε μια νέα αλληλεπίδραση.",
 		"missing_permissions": {
 			"title": "Μου λείπουν τα ακόλουθα δικαιώματα που απαιτούνται για την εκτέλεση αυτής της ενέργειας",
 			"body": "Παρακαλώ εκχωρήστε αυτά τα δικαιώματα στο bot ή εναλλακτικά, την άδεια `Administrator` και προσπαθήστε ξανά.\nΠαρακαλούμε επισκεφθείτε τα [αρχεία](%s) μας για τον λόγο που απαιτείται κάθε άδεια."
 		},
-		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
+		"missing_access": "Μου λείπουν τα απαιτούμενα δικαιώματα για την εκτέλεση αυτής της ενέργειας.\n\nΠαρακαλώ εκχωρήστε τα απαραίτητα δικαιώματα στο bot, ή εναλλακτικά, την άδεια `Administrator` και προσπαθήστε ξανά.\nΠαρακαλούμε επισκεφθείτε τα [αρχεία](%s) μας για μία εξήγηση γιατί απαιτείται κάθε άδεια.",
 		"invalid_length": "Ένα ή περισσότερα πεδία είναι πολύ μικρά ή πολύ μεγάλα.\n\nΠαρακαλώ ζητήστε από έναν διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να επαληθεύσει όλες τις εισόδους και να εξασφαλίσει ότι όλα τα πεδία πληρούν τους απαιτούμενους περιορισμούς μήκους.",
 		"required_field": "Ένα απαιτούμενο πεδίο λείπει ή είναι κενό.\n\nΠαρακαλώ ζητήστε από έναν διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να επαληθεύσει πως όλα τα απαιτούμενα πεδία έχουν συμπληρωθεί.",
 		"invalid_channel_type": "Ο τύπος καναλιού δεν είναι έγκυρος για αυτήν τη λειτουργία.\n\nΠαρακαλώ ζητήστε από το διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να ορίσει ένα έγκυρο κανάλι στον πίνακα.",
@@ -498,9 +498,9 @@
 		"invalid_characters": "Το εισαγόμενο κείμενο περιέχει μη έγκυρους χαρακτήρες.\n\nΠαρακαλώ χρησιμοποιήστε μόνο γράμματα, αριθμούς, παύλες και κάτω παύλες.",
 		"invalid_choice": "Δόθηκε μια μη έγκυρη επιλογή.\n\nΠαρακαλώ ζητήστε από έναν διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να επιβεβαιώσει ότι όλες οι ρυθμίσεις είναι σωστές.",
 		"invalid_form": "Δεν ήταν δυνατή η ολοκλήρωση της ενέργειας λόγω μη έγκυρης εισαγωγής.",
-		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
-		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
-		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"thread_locked": "Το ticket σας δεν μπορεί να ανοιχτεί επειδή το κανάλι που έχει ρυθμιστεί είναι κλειδωμένο.\n\nΠαρακαλώ ζητήστε από τον διαχειριστή του διακομιστή να ξεκλειδώσει το κανάλι.",
+		"max_active_threads": "Το ticket σας δεν μπορεί να ανοιχτεί επειδή έχει επιτευχθεί ο μέγιστος αριθμός ενεργών νημάτων σε αυτό το κανάλι.\n\nΠαρακαλώ ζητήστε από τον διαχειριστή του διακομιστή να κλείσει μερικά ticket ή να αρχειοθετήσει κάποια υπάρχοντα νήματα.",
+		"max_active_announcement_threads": "Το ticket σας δεν μπορεί να ανοιχτεί επειδή έχει συμπληρωθεί ο μέγιστος αριθμός ενεργών νημάτων.\n\nΠαρακαλώ ζητήστε από τον διαχειριστή του διακομιστή να κλείσει μερικά tickets ή να αρχειοθετήσει κάποια υπάρχοντα νήματα.",
 		"timed_out": "Το όριο λειτουργίας έληξε, παρακαλώ προσπαθήστε ξανά.",
 		"rate_limited": "Περιορίζεστε. Παρακαλώ δοκιμάστε ξανά %s.",
 		"rate_limited_global": "Το Discord αντιμετωπίζει υψηλό φορτίο. Παρακαλώ δοκιμάστε ξανά %s.",
