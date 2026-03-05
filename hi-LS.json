@@ -182,65 +182,65 @@
 		"success": "Ticket <@%d> ne close kar diya",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
-				"empty": "You cannot rate this ticket because you did not send any messages"
+				"staff": "Aap is ticket ko rate nahi kar sakte kyunki aap %s mein ek support representative hai",
+				"empty": "Aap is ticket ko rate nahi kar sakte kyunki aapne koi message nahi bheja hai"
 			}
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": "The `%s` command is disabled in this server: please use a ticket panel to open a ticket",
+			"disabled": "Is server mein `%s` command disabled hai: please ticket kholne ke liye ticket panel use kare",
 			"threads": {
-				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_see_parent_channel": "Ticket mein <@%d> ko add nahi kiya ja saka: Ensure karein ki unke paas thread ke parent channel (<#%d>) ko dekhne ki permission hai",
+				"cant_message_in_threads": "Aapke paas Send Messages in Threads permission missing hai, jo ticket kholne ke liye jaroori hai. Please server admin se ye permission maangein aur phir se try kare."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "Invalid panel: You must select one from the dropdown",
+			"invalid_panel": "Invalid panel: Aapko dropdown se ek select karna hoga",
 			"success": "This ticket has been switched to the `%s` panel by <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Aap non-thread ticket se threads use karne waale panel par switch nahi kar sakte"
 		},
 		"blacklist": {
-			"staff": "Staff members cannot be blacklisted",
+			"staff": "Staff members ko blacklist nahi kiya ja sakta",
 			"add_role": {
-				"success": "<@&%d> has been blacklisted",
-				"limit": "You have reached the role blacklist limit (%d)"
+				"success": "<@&%d> ko blacklist kar diya gaya hai",
+				"limit": "Aap role blacklist limit (%d) tak pahunch gaye hai"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> ko unblacklist kar diya gaya hai"
 			},
 			"add": {
-				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
+				"limit": "Aap user blacklist limit (%d) tak pahunch gaye ho: consider karein ki aap iski jagah ek role use kare"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "This ticket does not have a welcome message",
-			"content": "Click the button below to jump to the top of the ticket"
+			"no_welcome_message": "Is ticket mein koi welcome message nahi hai",
+			"content": "Ticket ke top par jaane ke liye neeche diye gaye button par click kare"
 		},
 		"addsupport": {
-			"confirm": "Please confirm that you want to add %s to the default support representative team",
-			"everyone": "You cannot add the `@everyone` role as staff"
+			"confirm": "Please confirm karein ki aap %s ko default support representative team mein add karna chahte hain",
+			"everyone": "Aap `@everyone` role ko staff ki tarah add nahi kar sakte"
 		},
 		"addadmin": {
-			"confirm": "Please confirm that you want to add %s as a bot administrator"
+			"confirm": "Please confirm karein ki aap %s ko bot administrator ki tarah add karna chahte hai"
 		},
 		"tags": {
 			"create": {
-				"limit": "You have reached the tag limit (%d)"
+				"limit": "Aap tag limit (%d) tak pahunch gaye hai"
 			},
 			"get": {
-				"requires_premium": "Premium is required to use custom commands (tag aliases)"
+				"requires_premium": "Custom commands (tag aliases) use karne ke liye Premium zaroori hai"
 			}
 		},
 		"language": {
-			"content": "The available languages and their translation progress are as follows:\n%s",
-			"success": "The server language has been changed to **%s** (%s)",
-			"select": "Select a language (%c-%c)"
+			"content": "Available languages aur unka translation progress is tarah hai:\n%s",
+			"success": "Server language ko change karke **%s** (%s) kar diya gaya hai",
+			"select": "Ek language select kare (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`%s` can only be used in thread mode. Visit our [docs](%s) to find out more about threads",
-			"success": "You are now on call",
-			"remove_success": "You are no longer on call"
+			"channel_mode": "`%s` sirf thread mode mein use ho sakta hai. Zyada janne ke liye humare [docs](%s) visit kare\"",
+			"success": "Ab aap on call ho",
+			"remove_success": "Ab aap on call nahi ho"
 		},
 		"reopen": {
 			"not_found": "Ticket not found",
