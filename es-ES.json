@@ -79,8 +79,8 @@
 	"help.gdpr": "Administra tus solicitudes de datos de RGPD",
 	"open.success": "Abrió un nuevo ticket: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "Este panel está cerrado actualmente",
+		"message": "Por favor, inténtelo de nuevo durante nuestras horas de soporte."
 	},
 	"setup.auto.category.failure": "Me falta el permiso `Gestionar canales`",
 	"setup.auto.category.success": "Categoría de tickets creada",
@@ -160,12 +160,12 @@
 	"generic.title.claimed": "Ticket reclamado",
 	"generic.title.unclaimed": "Ticket liberado",
 	"generic.title.add": "Añadir",
-	"commands.add.success": "<@%s> has been added to <#%d>",
+	"commands.add.success": "<@%s> ha sido añadid@ a <#%d>",
 	"commands.add.role_thread": "Debido a limitaciones de Discord, los roles no pueden ser añadidos a los tickets del hilo",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
+	"commands.remove.success": "<@%s> ha sido removid@ de <#%d>",
 	"commands.remove.role_thread": "Debido a limitaciones de Discord, los roles no pueden ser removidos de los tickets de hilo",
 	"open.ratelimited": "Se están abriendo tickets demasiado rápido en este servidor",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "Estás en tiempo de espera para este panel. Por favor, inténtalo de nuevo %s.",
 	"commands.claim.thread": "Por limitaciones de Discord, el reclamo no funciona en hilos",
 	"generic.join_support_server": "Únete al Servidor de Soporte",
 	"commands.open.guild_channel_limit": "Este servidor ha alcanzado el límite de Discord de 500 canales",
@@ -207,7 +207,7 @@
 				"limit": "Has alcanzado el límite de roles en lista negra (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> se quitó de la lista negra"
 			},
 			"add": {
 				"limit": "Has alcanzado el límite de usuarios en lista negra (%d): considera usar un rol en su lugar"
@@ -324,19 +324,19 @@
 				"users": "Usuarios de Soporte",
 				"roles": "Roles de Soporte",
 				"no_roles": "Ningún rol de soporte",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users_warning": "-# **Advertencia:** Los usuarios en equipos de soporte ahora están obsoletos. Por favor, migra a roles."
 			}
 		},
 		"edit": {
-			"title": "Edit Ticket Settings",
-			"description": "Below you can edit various settings for this ticket.",
+			"title": "Editar Configuración de Ticket",
+			"description": "Debajo puedes editar varios ajustes para este ticket.",
 			"labels": {
-				"title": "Edit Labels",
-				"description": "Edit the labels assigned to this ticket",
+				"title": "Editar etiquetas",
+				"description": "Editar las etiquetas asignadas a este ticket",
 				"update_modal": {
-					"title": "Update Ticket Labels",
-					"select_menu_title": "Labels",
-					"success": "Ticket labels have been successfully updated to: %s"
+					"title": "Actualizar etiquetas de Ticket",
+					"select_menu_title": "Etiquetas",
+					"success": "Etiquetas de tickets se han actualizado correctamente a: %s"
 				}
 			}
 		}
@@ -358,7 +358,7 @@
 		"on_call": "Te marca como llamada en llamada, a ser añadido y hecho ping en todos los nuevos tickets",
 		"reopen": "Vuelve a abrir un ticket que estaba cerrado anteriormente",
 		"notes": "Crea un hilo para la discusión privada entre los representantes de soporte",
-		"edit": "Edits settings for the current ticket"
+		"edit": "Edita ajustes para el Ticket actual"
 	},
 	"setup": {
 		"auto": {
@@ -395,8 +395,8 @@
 	"gdpr": {
 		"intro": "Seleccione el tipo de solicitud de RGPD que desea hacer:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Opciones de eliminación de transcripciones**\n-# _Eliminar transcripciones de servidores en los que eres dueñ_",
+			"message": "### **Opciones de anonimización de mensajes**\n-# _Anonimizar tus mensajes de transcripciones en servidores seleccionados_"
 		},
 		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
 		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
@@ -500,7 +500,7 @@
 		"invalid_form": "La acción no se pudo completar debido a una entrada no válida.",
 		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
 		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
-		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Tu ticket no pudo ser abierto porque el número máximo de hilos de anuncios activos ha sido alcanzado.\n\nPor favor pídele a un administrador del servidor que cierre algunos tickets o archive algunos hilos existentes.",
 		"timed_out": "Se agotó el tiempo de espera de la operación. Inténtalo de nuevo.",
 		"rate_limited": "Se te está limitando la tasa. Por favor, inténtalo de nuevo %s.",
 		"rate_limited_global": "Discord está experimentando una alta carga alta (límite de tasa global). Por favor, inténtalo de nuevo %s.",
