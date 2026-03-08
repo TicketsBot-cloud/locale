@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "잘못된 패널: 드롭다운에서 하나를 선택해야 합니다.",
 			"success": "This ticket has been switched to the `%s` panel by <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "스태프를 블랙리스트에 올릴 수 없습니다.",
