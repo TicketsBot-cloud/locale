@@ -79,8 +79,8 @@
 	"help.gdpr": "Zarządzaj swoimi żądaniami RODO",
 	"open.success": "Otwarto nowe zgłoszenie: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "Ten panel jest obecnie zamknięty",
+		"message": "Proszę spróbować ponownie w godzinach wsparcia."
 	},
 	"setup.auto.category.failure": "Nie posiadam uprawnienia `Zarządzanie kanałami`",
 	"setup.auto.category.success": "Utworzono kategorię dla zgłoszeń",
@@ -207,7 +207,7 @@
 				"limit": "Osiągnąłeś limit ról na czarnej liście (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> został usunięty z czarnej listy"
 			},
 			"add": {
 				"limit": "Osiągnąłeś limit czarnej listy użytkowników (%d): rozważ użycie roli"
