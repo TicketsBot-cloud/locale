@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "Nieprawidłowy panel: Musisz wybrać jeden z listy rozwijanej",
 			"success": "To zgłoszenie zostało przełączone na panel `%s` przez <@%d>",
-			"non_thread_to_thread": "Nie możesz przełączyć się na panel, który używa wątków ze zgłoszenia nieużywającego wątków"
+			"non_thread_to_thread": "Nie możesz przełączyć się na panel, który używa wątków ze zgłoszenia nieużywającego wątków",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "Obsługa nie może być na czarnej liście",
