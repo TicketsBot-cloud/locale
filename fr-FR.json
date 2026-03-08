@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "Panneau invalide : vous devez en sélectionner un dans la liste déroulante",
 			"success": "Ce ticket a été basculé vers le panneau `%s` par <@%d>",
-			"non_thread_to_thread": "Vous ne pouvez pas basculer vers un panneau qui utilise des fils à partir d'un ticket en mode salon"
+			"non_thread_to_thread": "Vous ne pouvez pas basculer vers un panneau qui utilise des fils à partir d'un ticket en mode salon",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "Les membres du staff ne peuvent pas être ajoutés à la liste noire",
@@ -500,7 +503,7 @@
 		"invalid_form": "L'action n'a pas pu être complétée en raison d'une entrée invalide.",
 		"thread_locked": "Votre ticket n'a pas pu être ouvert car le salon configuré est verrouillé.\n\nVeuillez demander à un administrateur du serveur de déverrouiller le salon.",
 		"max_active_threads": "Votre ticket n'a pas pu être ouvert parce que le nombre limite de fils actifs a été atteint dans ce salon.\n\nVeuillez demander à un administrateur du serveur de fermer des tickets ou d'archiver des fils de discussion.",
-		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"max_active_announcement_threads": "Votre ticket n'a pas pu être ouvert parce que le nombre maximal de fils actifs a été atteint dans ce salon des annonces.\n\nVeuillez demander à un administrateur du serveur de fermer des tickets ou d'archiver des fils de discussion.",
 		"timed_out": "L'opération a été interrompue. Veuillez réessayer.",
 		"rate_limited": "Votre débit est limité. Veuillez réessayer plus tard %s.",
 		"rate_limited_global": "Discord éprouve présentement une charge élevée (limitation de débit globale). Veuillez réessayer %s.",
