@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "Neplatný panel: Musíte vybrat jeden z nabídky",
 			"success": "Tento ticket byl přepnut na panel `%s` uživatelem <@%d>",
-			"non_thread_to_thread": "Nemůžeš přepnout na panel, který používá vlánka z nevláknového tiketu"
+			"non_thread_to_thread": "Nemůžeš přepnout na panel, který používá vlánka z nevláknového tiketu",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "Nemůžete zařadit člena vedení na černou listinu",

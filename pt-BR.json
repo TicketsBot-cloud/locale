@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "Painel inválido: Você deve selecionar um no menu suspenso",
 			"success": "Este ticket foi alterado para o painel `%s` por <@%d>",
-			"non_thread_to_thread": "Você não pode mudar para um painel que usa tópicos de um ticket que não seja um tópico"
+			"non_thread_to_thread": "Você não pode mudar para um painel que usa tópicos de um ticket que não seja um tópico",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "Membros da equipe não podem estar na lista de bloqueio",

@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "Ogiltig panel: Du måste välja en från listrutan",
 			"success": "Detta ärende har bytts till panelen `%s` av <@%d>",
-			"non_thread_to_thread": "Du kan inte byta till en panel som använder trådar från ett icke-trådärende"
+			"non_thread_to_thread": "Du kan inte byta till en panel som använder trådar från ett icke-trådärende",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "Staff medlemmar kan inte svartlistas",

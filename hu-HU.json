@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "Érvénytelen panel: ki kell választanod egyet a legördülő listából",
 			"success": "Ez a ticket átkerült a %s panelbe <@%d> felhasználó által",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "A staff felhasználók nem lehetnek a feketelistán",

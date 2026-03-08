@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "无效的面板：您必须从下拉列表中选择一个",
 			"success": "这个工单被 <@%[2]d> 切换到 `%[1]s` 面板",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "员工不能被列入黑名单",

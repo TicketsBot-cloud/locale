@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "Ungültiges Panel: Du musst ein Panel aus dem Dropdown-Menü auswählen",
 			"success": "Dieses Ticket wurde von <@%[2]d> zum `%[1]s` Panel verschoben",
-			"non_thread_to_thread": "Du kannst nicht zu einem Panel wechseln, das Threads von einem Nicht-Thread-Ticket verwendet"
+			"non_thread_to_thread": "Du kannst nicht zu einem Panel wechseln, das Threads von einem Nicht-Thread-Ticket verwendet",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "Support-Teammitglieder können nicht gesperrt werden",

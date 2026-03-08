@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "Ebasobiv paneel: Sa pead valima ühe rippmenüüst",
 			"success": "Abipilet on muudetud paneelile `%s` <@%d> poolt",
-			"non_thread_to_thread": "Seda paneeli ei saa avada piletist mis ei kasuta lõime"
+			"non_thread_to_thread": "Seda paneeli ei saa avada piletist mis ei kasuta lõime",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "Personaale ei saa musta nimekirja panna",

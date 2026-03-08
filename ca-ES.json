@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "Panell no vàlid: Has de seleccionar-ne un de la llista desplegable",
 			"success": "<@%[2]d> ha mogut aquest tiquet al panell `%[1]s`",
-			"non_thread_to_thread": "No pots canviar a un panell que usi fils des d'un tiquet de tipus canal"
+			"non_thread_to_thread": "No pots canviar a un panell que usi fils des d'un tiquet de tipus canal",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "Els membres de l'equip no es poden afegir a la llista negra",
