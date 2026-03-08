@@ -198,7 +198,10 @@
 		"switch_panel": {
 			"invalid_panel": "Bảng không hợp lệ: Bạn cần chọn 1 từ mục dưới",
 			"success": "Phiếu hỗ trợ này đã được chuyển sang bảng `%s' bởi <@%d>",
-			"non_thread_to_thread": "Bạn không thể chuyển đổi bảng điều khiển sử dụng kênh chủ đề từ phiếu hỗ trợ không dùng kênh chủ đề"
+			"non_thread_to_thread": "Bạn không thể chuyển đổi bảng điều khiển sử dụng kênh chủ đề từ phiếu hỗ trợ không dùng kênh chủ đề",
+			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
 			"staff": "Quản lí không thể bị cho vào danh sách đen",
