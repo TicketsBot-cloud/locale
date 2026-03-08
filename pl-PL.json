@@ -358,7 +358,7 @@
 		"on_call": "Oznacza cię jako aktywnego, do dodania i oznaczenia we wszystkich nowych zgłoszeniach",
 		"reopen": "Ponownie otwiera zgłoszenie, które zostało wcześniej zamknięte",
 		"notes": "Tworzy wątek do prywatnych dyskusji między przedstawicielami wsparcia",
-		"edit": "Edits settings for the current ticket"
+		"edit": "Edytuj ustawienia dla bieżącego zgłoszenia"
 	},
 	"setup": {
 		"auto": {
