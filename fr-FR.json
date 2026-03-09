@@ -199,9 +199,9 @@
 			"invalid_panel": "Panneau invalide : vous devez en sélectionner un dans la liste déroulante",
 			"success": "Ce ticket a été basculé vers le panneau `%s` par <@%d>",
 			"non_thread_to_thread": "Vous ne pouvez pas basculer vers un panneau qui utilise des fils à partir d'un ticket en mode salon",
-			"claimer_no_access_title": "Panel Switch Blocked",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"claimer_no_access_title": "Changement du type de panneau bloqué",
+			"claimer_no_access": "Le réclamant de ce ticket (<@%d>) n'a pas accès au panneau sélectionné.",
+			"auto_unclaimed": "Ce ticket a été basculé vers le panneau `%s` par <@%d>\n\nCe ticket n'est plus automatiquement pris en charge, car <@%d> n'a pas accès au nouveau panneau."
 		},
 		"blacklist": {
 			"staff": "Les membres du staff ne peuvent pas être ajoutés à la liste noire",
