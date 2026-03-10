@@ -197,7 +197,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Invalid panel: Aapko dropdown se ek select karna hoga",
-			"success": "This ticket has been switched to the `%s` panel by <@%d>",
+			"success": "Is ticket ko <@%[2]d> ne `%[1]s` panel par switch kar diya hai",
 			"non_thread_to_thread": "Aap non-thread ticket se threads use karne waale panel par switch nahi kar sakte",
 			"claimer_no_access_title": "Panel Switch Blocked",
 			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
