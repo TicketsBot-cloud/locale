@@ -199,9 +199,9 @@
 			"invalid_panel": "Panell no vàlid: Has de seleccionar-ne un de la llista desplegable",
 			"success": "<@%[2]d> ha mogut aquest tiquet al panell `%[1]s`",
 			"non_thread_to_thread": "No pots canviar a un panell que usi fils des d'un tiquet de tipus canal",
-			"claimer_no_access_title": "Panel Switch Blocked",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"claimer_no_access_title": "El Canvi de Panell ha estat Bloquejat",
+			"claimer_no_access": "La persona qui ha reclamat el tiquet (<@%d>) no té accés al panell seleccionat.",
+			"auto_unclaimed": "<@%[2]d> ha mogut el tiquet al panell `%[1]s`.\n\nEl tiquet ja no està reclamat, doncs <@%d> no té accés al nou panell."
 		},
 		"blacklist": {
 			"staff": "Els membres de l'equip no es poden afegir a la llista negra",
@@ -486,13 +486,13 @@
 		"unknown_category": "No s'ha trobat la categoria requerida: segurament ha estat eliminada.\n\nSi us plau, demana a l'administració del servidor que visiti el [tauler de control web](%s) i assigni una categoria correcta al panell de tiquets.",
 		"unknown_interaction": "Aquesta interacció ha caducat.\n\nSi us plau, torna-ho a provar.",
 		"max_webhooks": "Aquest servidor ha assolit el màxim de webhooks.\n\nSi us plau, demana a l'administració que elimini alguns webhooks no utilitzats i torna-ho a provar.",
-		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
+		"max_channels": "No s'ha pogut obrir el teu tiquet: Aquest servidor ha assolit el màxim de canals de Discord (500).\n\nSi us plau, demana a l'administració que tanqui alguns tiquets o elimini canals no utilitzats per poder obrir tiquets.",
 		"interaction_acknowledged": "Aquesta interacció ja ha estat processada.\n\nSi has de tornar a fer la mateixa acció, si us plau, inicia una nova interacció.",
 		"missing_permissions": {
 			"title": "No tinc els següents permisos, necessaris per dur a terme aquesta acció",
 			"body": "Si us plau, assigna aquests permisos al bot o, alternativament, el permís d'`Administració` i torna-ho a provar.\nSi us plau, visita la nostra [documentació](%s) per tota l'explicació sobre perquè és necessari cada permís."
 		},
-		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
+		"missing_access": "No tinc els permisos necessaris per fer aquesta acció.\n\nSi us plau, assigna els permisos necessaris al bot o, alternativament, el permís d'`Administració` i torna-ho a provar.\nSi us plau, visita la nostra [documentació](%s) per tota l'explicació sobre perquè és necessari cada permís.",
 		"invalid_length": "Algun o alguns camps son massa curts o massa llargs.\n\nSi us plau, demana a l'administració del servidor que visiti el [panell web](%s) i verifiqui totes les entrades, també que compleixin la longitud requerida.",
 		"required_field": "Un camp requerit no hi és o està buit.\n\nSi us plau, demana a l'administració del servidor que visiti el [panell web](%s) i verifiqui que tots els camps requerits estiguin omplerts.",
 		"invalid_channel_type": "El tipus de canal no és vàlid per aquesta operació.\n\nSi us plau, demana a l'administració del servidor que visiti el [panell web](%s) i assigni un canal vàlid al panell de tiquets.",
@@ -501,9 +501,9 @@
 		"invalid_characters": "L'entrada conté caràcters no vàlids.\n\nSi us plau, utiliza només lletres, número, guionets i guions baixos.",
 		"invalid_choice": "S'ha proporcionat una opció no vàlida.\n\nSi us plau, demana a l'administració del servidor que visiti el [panell web](%s) i verifiqui que la configuració sigui correcta.",
 		"invalid_form": "L'acció no es pot completar a causa d'una entrada no vàlida.",
-		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
-		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
-		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"thread_locked": "El teu tiquet no es pot obrir perquè el canal configurat està bloquejat.\n\nSi us plau, demana a l'administració del servidor que desbloquegi el canal.",
+		"max_active_threads": "No es pot obrir el teu tiquet perquè s'ha assolit el màxim de fils actius en aquest canal.\n\nSi us plau, demana a l'administració que tanqui alguns tiquets o els arxivi.",
+		"max_active_announcement_threads": "No es pot obrir el teu tiquet perquè s'ha assolit el màxim de fils d'anunci actius.\n\nSi us plau, demana a l'administració que tanqui alguns tiquets o els arxivi.",
 		"timed_out": "Temps d'operació exhaurit. Si us plau, torna-ho a provar.",
 		"rate_limited": "Tens una taxa d'ús limitada. Si us plau, torna-ho a provar %s.",
 		"rate_limited_global": "Discord està experimentant una sobrecàrrega (taxa d'us global). Si us plau, torna-ho a provar %s.",
