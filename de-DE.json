@@ -165,7 +165,7 @@
 	"commands.remove.success": "<@%s> wurde von <#%d> entfernt",
 	"commands.remove.role_thread": "Aufgrund von Discord-Einschränkungen können Rollen nicht von Thread-Tickets entfernt werden",
 	"open.ratelimited": "Tickets werden auf diesem Server zu schnell geöffnet",
-	"open.panel_cooldown": "Du bist auf Abklingzeit für dieses Panel. Bitte versuche es erneut %s.",
+	"open.panel_cooldown": "Du musst etwas warten, bevor Du ein weiteres Ticket dieses Typs öffnen kannst. Versuche es %s erneut.",
 	"commands.claim.thread": "Aufgrund von Discord-Einschränkungen unterstützt das Beanspruchen keine Threads",
 	"generic.join_support_server": "Trete dem Support-Server bei",
 	"commands.open.guild_channel_limit": "Dieser Server hat das Discord-Kanal-Limit von 500 Kanälen erreicht",
