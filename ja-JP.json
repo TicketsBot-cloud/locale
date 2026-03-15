@@ -200,8 +200,8 @@
 			"success": "このチケットは<@%[2]d>によって`%[1]s`パネルに切り替えられました。",
 			"non_thread_to_thread": "スレッドを使用しているパネルには、スレッドのないチケットから切り替えることはできません。",
 			"claimer_no_access_title": "パネルスイッチがブロックされています。",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"claimer_no_access": "チケット請求者 (<@%d>) は選択されたパネルへのアクセス権がありません。",
+			"auto_unclaimed": "チケットは<@%[2]d>によって`%[1]s`パネルに切り替えられました。\n\nチケットは自動的に未請求になりました。<@%d>は新しいパネルへのアクセス権を持っていません。"
 		},
 		"blacklist": {
 			"staff": "スタッフメンバーをブラックリストに登録することはできません。",
@@ -210,7 +210,7 @@
 				"limit": "ロールブラックリストの上限に達しました: (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d>はブラックリストから解除されました。"
 			},
 			"add": {
 				"limit": "ユーザーブラックリストの上限に達しました (%d): 代わりにロールブラックリストの使用を検討してください"
@@ -287,58 +287,58 @@
 			"already_activated": "良いお知らせです！プレミアムは既にこのサーバーで有効になっています。",
 			"already_activated_whitelabel": "良いお知らせです！プレミアムはこのサーバーで既に有効になっています。\n\nホワイトラベルの使い方については、 [ホワイトラベルのセットアップガイド](%s)をご覧ください。",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "プレミアムはDiscord内で直接購入できます。このメッセージの下のボタンをクリックして、サブスクリプション管理ページを開いてください。\n\n購入後、サブスクリプションが検出されるまで最大5分かかる場合があります。"
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "お客様のPatreonサブスクリプションが見つかりました。下の「サーバーセレクターを開く」ボタンをクリックして、プレミアムサブスクリプションを適用したいサーバーを選択するダッシュボードを開いてください。",
+			"open_server_selector": "サーバーセレクターを開く"
 		},
 		"notes": {
 			"added_to_existing": "ノートスレッドに追加されました: <#%d>",
 			"thread_name": "ノート",
 			"created": "このチケットのノートスレッドが作成されました: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "スレッドはチャネルモードでのみサポートされています。"
 		},
 		"rename": {
 			"ratelimited": "Discord によって課された制限により、チケットの名前は 10 分ごとに 2 回のみ変更できます"
 		},
 		"vote": {
 			"redeem_credits": "クレジットを使う",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"no_credits": "引き換えに失敗しました：投票クレジットがありません！",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
-					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+					"plural": "あなたの投票クレジットは**%d**日間のプレミアムに交換されました！",
+					"singular": "あなたの投票クレジットは**%d**日間のプレミアムに引き換えられました！"
 				}
 			},
 			"with_credits": {
-				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
-				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+				"plural": "あなたは**%d**票のクレジットを持っています。以下の「クレジットを引き換える」ボタンをクリックして、このサーバーで%d日間のプレミアムに引き換えてください。",
+				"singular": "**%d** の投票クレジットがあります。下の「クレジットを引き換える」ボタンをクリックして、このサーバーで %d 日間のプレミアムと引き換えてください。"
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "スタッフ",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "管理者ユーザー",
+				"roles": "管理者役割",
+				"no_users": "管理者ユーザーなし",
+				"no_roles": "管理者の役割なし"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "ユーザーをサポートする",
+				"roles": "サポート役割",
+				"no_roles": "サポート役なし",
+				"users_warning": "-# **警告:** サポートチームのユーザーは廃止されました。ロールに移行してください。"
 			}
 		},
 		"edit": {
-			"title": "Edit Ticket Settings",
-			"description": "Below you can edit various settings for this ticket.",
+			"title": "チケット設定を編集する",
+			"description": "以下でこのチケットのさまざまな設定を編集できます。",
 			"labels": {
-				"title": "Edit Labels",
-				"description": "Edit the labels assigned to this ticket",
+				"title": "ラベルを編集",
+				"description": "このチケットに割り当てられたラベルを編集する",
 				"update_modal": {
-					"title": "Update Ticket Labels",
-					"select_menu_title": "Labels",
+					"title": "チケットラベルを更新する",
+					"select_menu_title": "ラベル",
 					"success": "Ticket labels have been successfully updated to: %s"
 				}
 			}
@@ -463,51 +463,51 @@
 		},
 		"followup": {
 			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"no_data": "ℹ️ あなたのGDPRリクエストが処理されました。データは見つかりませんでした。",
+			"success": "✅ あなたのGDPRリクエストは正常に処理されました。"
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"no_servers": "所有者であり、トランスクリプトを持つサーバーが見つかりません。",
+			"invalid_server_id": "無効なサーバーIDが提供されました。",
+			"invalid_ticket_ids": "無効なチケットIDが提供されました。数字のチケットIDをカンマで区切って入力してください（例：123, 456, 789）。",
+			"not_owner": "トランスクリプトを削除するには、サーバーの所有者である必要があります。",
+			"server_not_found": "サーバーが見つかりません。",
+			"queue_failed": "GDPRリクエストのキューに失敗しました。後でもう一度お試しください。",
+			"worker_offline": "GDPR処理サービスは現在利用できません。しばらくしてからもう一度お試しいただくか、問題が解決しない場合はサポートにお問い合わせください。"
 		}
 	},
 	"errors": {
 		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
-		"unknown_guild": "Could not find the server.",
-		"unknown_member": "The user could not be found. They may have left the server or been banned.",
-		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
-		"unknown_user": "user could not be found.",
-		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
-		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
-		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
-		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
-		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
-		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"unknown_guild": "サーバーが見つかりませんでした。",
+		"unknown_member": "ユーザーが見つかりませんでした。サーバーを退出したか、または禁止された可能性があります。",
+		"unknown_message": "あなたが操作しようとしているメッセージは削除されました。\n\n別のメッセージで再度アクションを試してください。",
+		"unknown_user": "ユーザーが見つかりませんでした。",
+		"unknown_role": "このアクションに必要な役割はもう存在しません。\n\nサーバー管理者に[ダッシュボード](%s)を訪問して、ロール設定を再構成するよう依頼してください。",
+		"unknown_category": "必要なカテゴリーが見つかりませんでした：削除された可能性があります。\n\nサーバー管理者に[ダッシュボード](%s)を訪問し、このチケットパネルに有効なチャンネルカテゴリーを割り当てるよう依頼してください。",
+		"unknown_interaction": "このやり取りは有効期限が切れました。\n\nもう一度操作を試してください。",
+		"max_webhooks": "サーバーはウェブフックの最大数に達しました。\n\nサーバー管理者に未使用のウェブフックをいくつか削除するよう依頼し、再試行してください。",
+		"max_channels": "このサーバーはDiscordのチャンネル制限（500）に達したため、チケットを開くことができませんでした。\n\n新しいチケットを開く前に、サーバー管理者にいくつかのチケットを閉じるか、使用していないチャンネルを削除するよう依頼してください。",
+		"interaction_acknowledged": "このやり取りはすでに処理されています。\n\nもう一度この操作を行う必要がある場合は、新しいやり取りを開始してください。",
 		"missing_permissions": {
-			"title": "I am missing the following permissions required to perform this action",
-			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+			"title": "この操作を実行するために必要な次の権限がありません。",
+			"body": "これらの権限をボットに割り当てるか、または「管理者」の権限を割り当ててもう一度試してください。各権限が必要な理由については、[ドキュメント](%s)をご覧ください。"
 		},
-		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
-		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
-		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
-		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
-		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
-		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
-		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
-		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
-		"invalid_form": "The action could not be completed due to invalid input.",
-		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
-		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
-		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
-		"timed_out": "The operation timed out, please try again.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
-		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"missing_access": "このアクションを実行するために必要な権限がありません。\n\n必要な権限、または代わりに「管理者」権限をボットに割り当て、もう一度試してください。\n各権限が必要な理由については、[ドキュメント](%s)をご覧ください。",
+		"invalid_length": "1つ以上のフィールドが短すぎるか長すぎます。\n\nサーバー管理者に[ダッシュボード](%s)を訪問し、すべての入力を確認し、すべてのフィールドが必要な長さの制約を満たしていることを確認するよう依頼してください。",
+		"required_field": "必須フィールドが欠落しているか空です。\n\nサーバー管理者に[ダッシュボード](%s)を訪問して、すべての必須フィールドが入力されていることを確認するよう依頼してください。",
+		"invalid_channel_type": "この操作には無効なチャンネルタイプです。\n\nサーバー管理者に[ダッシュボード](%s)を訪問し、チケットパネルに有効なチャンネルを割り当てるよう依頼してください。",
+		"invalid_category": "チャンネルのカテゴリーが無効です。削除された可能性があります。\n\nサーバー管理者に[ダッシュボード](%s)を訪問して、チケットパネルに有効なカテゴリーを割り当てるように依頼してください。",
+		"invalid_id": "ボット設定に無効なIDが提供されました。\n\nサーバー管理者に[ダッシュボード](%s)を訪問し、すべてのカテゴリ、チャンネル、ロールIDが正しいことを確認するように依頼してください。",
+		"invalid_characters": "入力には無効な文字が含まれています。\n\n文字、数字、ハイフン、アンダースコアのみを使用してください。",
+		"invalid_choice": "無効なオプションが提供されました。\n\nサーバー管理者に[ダッシュボード](%s)を訪問し、すべての設定が正しいことを確認するよう依頼してください。",
+		"invalid_form": "無効な入力のため、操作を完了できませんでした。",
+		"thread_locked": "設定されたチャネルがロックされているため、チケットを開くことができませんでした。\n\nサーバー管理者にチャネルのロック解除を依頼してください。",
+		"max_active_threads": "このチケットは開けませんでした。このチャンネルでのアクティブスレッドの最大数に達しています。\n\nサーバー管理者に、いくつかのチケットを閉じるか、既存のスレッドをアーカイブするようお願いします。",
+		"max_active_announcement_threads": "アナウンススレッドの最大数に達したため、チケットを開くことができませんでした。\n\nサーバー管理者にいくつかのチケットを閉じるか、既存のスレッドをアーカイブするように依頼してください。",
+		"timed_out": "操作がタイムアウトしました。もう一度お試しください。",
+		"rate_limited": "制限がかけられています。もう一度お試しください %s。",
+		"rate_limited_global": "Discordは高負荷状態です（グローバルレート制限）。%s 再試行してください。",
+		"general": "この操作を実行中にエラーが発生しました。",
+		"error_id": "エラーID"
 	}
 }
