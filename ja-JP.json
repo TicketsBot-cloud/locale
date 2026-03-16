@@ -339,7 +339,7 @@
 				"update_modal": {
 					"title": "チケットラベルを更新する",
 					"select_menu_title": "ラベル",
-					"success": "Ticket labels have been successfully updated to: %s"
+					"success": "チケットラベルが正常に更新されました: %s"
 				}
 			}
 		}
@@ -361,7 +361,7 @@
 		"on_call": "通話中にマーク、追加され、すべての新しいチケットにピン留めされます",
 		"reopen": "以前にクローズされたチケットを再オープンします",
 		"notes": "サポート担当者間のディスカッション用の非公開スレッドを作成します",
-		"edit": "Edits settings for the current ticket"
+		"edit": "現在のチケットの設定を編集する"
 	},
 	"setup": {
 		"auto": {
@@ -396,73 +396,73 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "どのタイプのGDPRリクエストを行いたいですか？",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **トランスクリプト削除オプション**\n-# _所有するサーバーからトランスクリプトを削除_",
+			"message": "### **メッセージ匿名化オプション**\n-# _選択されたサーバーでトランスクリプトからメッセージを匿名化する_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **重要なお知らせ**\n* 削除は**永久的**であり、元に戻すことはできません\n* あなたが所有するサーバーからのみトランスクリプトを削除できます\n* トランスクリプト内で匿名化できるのは**あなた自身の**メッセージのみです\n* リクエストの完了には最大で**30日**かかる場合があります\n* リクエストは**順番に**処理されます",
+		"resources": "### **リソース**\n[GDPRとは？](%s)\n[消去権](%s)\n[アクセス権](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "サーバーからのすべてのトランスクリプト",
+			"specific_transcripts": "特定の記録",
+			"all_messages": "サーバー内のすべてのメッセージ",
+			"specific_messages": "特定のチケット内のあなたのメッセージ"
 		},
-		"language_option": "Language",
+		"language_option": "言語",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "サーバーからすべてのトランスクリプトを削除",
+			"specific_transcripts": "特定のトランスクリプトを削除",
+			"all_messages": "サーバー内のメッセージを匿名化する",
+			"specific_messages": "特定のチケットでメッセージを匿名化する",
+			"select_server": "サーバーを選択してください。",
+			"select_servers": "1台以上のサーバーを選択してください。",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "サーバーID",
+				"placeholder": "サーバーIDを入力してください。"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "サーバーID",
+				"placeholder": "サーバーIDをコンマで区切って入力してください（例：1071167333265047653、1412752753348055111）"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "チケットID",
+				"placeholder": "チケットIDをカンマで区切って入力してください（例：123, 456, 789）"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"title": "GDPR確認が必要です",
+			"all_transcripts": "**リクエストタイプ:** 所有するサーバーからすべてのトランスクリプトを削除する\n**サーバー:** %s",
+			"all_transcripts_multi": "**リクエストタイプ:** 所有するサーバーからすべてのトランスクリプトを削除  \n**サーバー:**  \n* %s",
+			"specific_transcripts": "**リクエストタイプ:** 特定のトランスクリプトをサーバーから削除  \n**サーバー:** %s  \n**チケットID:** %s",
+			"all_messages": "**リクエストタイプ:** 選択したサーバー内のすべてのメッセージを匿名化する\n**サーバー:** %s",
+			"all_messages_multi": "**リクエストタイプ:** 選択されたサーバー内のすべてのメッセージを匿名化する  \n**サーバー:**  \n* %s",
+			"specific_messages": "**リクエストタイプ:** 特定のチケットでメッセージを匿名化する\n**サーバー:** %s\n**チケットID:** %s",
+			"warning": "⚠️ **警告:** この操作は永久的なものであり、元に戻すことはできません。\n\nこの操作が永久的なものであることを理解し、受け入れますか？",
+			"button": "確認 - 理解しました"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"title": "GDPRリクエストがキューに入りました。",
+			"all_transcripts": "**リクエストタイプ:** サーバーからすべてのトランスクリプトを削除\n**サーバー:** %s",
+			"all_transcripts_multi": "**リクエストタイプ:** サーバーからすべてのトランスクリプトを削除  \n**サーバー:**  \n* %s",
+			"specific_transcripts": "**リクエストタイプ:** 特定のトランスクリプトの削除  \n**サーバー:** %s  \n**チケットID:** %s",
+			"all_messages": "**リクエストタイプ:** サーバ内のメッセージをすべて匿名化する  \n**サーバ:** %s",
+			"all_messages_multi": "**リクエストタイプ:** サーバー内のすべてのメッセージを匿名化する  \n**サーバー:**  \n* %s",
+			"specific_messages": "**リクエストタイプ:** 特定のチケットでメッセージを匿名化する  \n**サーバー:** %s  \n**チケットID:** %s",
+			"footer": "\n\nリクエストは処理のためにキューに入れられました。 テキストの量によっては、処理に時間がかかる場合があります。"
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"title": "GDPRリクエスト完了",
+			"all_transcripts": "**リクエストタイプ:** サーバーからすべてのトランスクリプトを削除  \n**サーバー:** %s  \n**削除されたトランスクリプト:** %d",
+			"all_transcripts_multi": "**リクエストタイプ:** サーバーから全トランスクリプトを削除\n**サーバー:**\n* %s\n**削除されたトランスクリプト:** %d",
+			"specific_transcripts": "**リクエストタイプ:** 特定のトランスクリプトを削除  \n**サーバー:** %s  \n**削除されたトランスクリプト:** %d",
+			"all_messages": "**リクエストタイプ:** サーバー内のすべてのメッセージを匿名化する  \n**サーバー:** %s  \n**匿名化されたメッセージ:** %d",
+			"all_messages_multi": "**リクエストタイプ:** サーバ内のメッセージを匿名化する\n**サーバ:**\n* %s\n**匿名化したメッセージ数:** %d",
+			"specific_messages": "**リクエストタイプ:** 特定のチケットでメッセージを匿名化  \n**サーバー:** %s  \n**匿名化されたメッセージ:** %d",
+			"error": "\n\n**⚠️ エラー:** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
+			"error": "⚠️ あなたのGDPRリクエストでエラーが発生しました: %s",
 			"no_data": "ℹ️ あなたのGDPRリクエストが処理されました。データは見つかりませんでした。",
 			"success": "✅ あなたのGDPRリクエストは正常に処理されました。"
 		},
@@ -477,7 +477,7 @@
 		}
 	},
 	"errors": {
-		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
+		"unknown_channel": "必要なチャンネルが見つかりませんでした: 削除された可能性があります。\n\nサーバー管理者に[ダッシュボード](%s)を訪問し、すべてのチャンネル設定が正しく構成されているか確認するよう依頼してください。",
 		"unknown_guild": "サーバーが見つかりませんでした。",
 		"unknown_member": "ユーザーが見つかりませんでした。サーバーを退出したか、または禁止された可能性があります。",
 		"unknown_message": "あなたが操作しようとしているメッセージは削除されました。\n\n別のメッセージで再度アクションを試してください。",
