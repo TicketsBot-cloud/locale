@@ -340,7 +340,8 @@
 					"title": "Ticket-Labels aktualisieren",
 					"select_menu_title": "Labels",
 					"success": "Ticket-Labels wurden erfolgreich aktualisiert auf: %s"
-				}
+				},
+				"none_configured": "Für diesen Server wurden keine Labels konfiguriert. Du kannst Labels im [dashboard](%s) erstellen."
 			}
 		}
 	},
