@@ -198,7 +198,7 @@
 		"switch_panel": {
 			"invalid_panel": "Ugyldig panel: Du må velge en fra menyen",
 			"success": "Denne ticket har blitt byttet til `%s` panel av <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket",
+			"non_thread_to_thread": "Du kan ikke bytte til et panel som bruker tråder fra en ticket som ikke bruker tråder",
 			"claimer_no_access_title": "Panel Switch Blocked",
 			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
 			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
@@ -299,7 +299,7 @@
 			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "På grunn av begrensninger påført av Discord, kan tickets bare gis nytt navn to ganger hvert 10. minutt"
 		},
 		"vote": {
 			"redeem_credits": "Redeem Credits",
@@ -340,7 +340,8 @@
 					"title": "Update Ticket Labels",
 					"select_menu_title": "Labels",
 					"success": "Ticket labels have been successfully updated to: %s"
-				}
+				},
+				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
 			}
 		}
 	},
@@ -435,7 +436,7 @@
 			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
 			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
 			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
+			"all_messages": "** Forespørselstype:** Anonymiser alle meldingene dine i den valgte serveren\n**Server:** %s",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
 			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",

@@ -340,7 +340,8 @@
 					"title": "Update Ticket Labels",
 					"select_menu_title": "Labels",
 					"success": "Ticket labels have been successfully updated to: %s"
-				}
+				},
+				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
 			}
 		}
 	},
