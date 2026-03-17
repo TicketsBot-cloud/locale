@@ -340,7 +340,8 @@
 					"title": "تحديث تسميات التَّذْكِرَة",
 					"select_menu_title": "بطاقات",
 					"success": "تم تحديث تسميات التذكرة بنجاح إلى: %s"
-				}
+				},
+				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
 			}
 		}
 	},
