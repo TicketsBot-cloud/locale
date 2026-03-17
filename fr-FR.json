@@ -340,7 +340,8 @@
 					"title": "Mettre à jour les étiquettes de tickets",
 					"select_menu_title": "Étiquettes",
 					"success": "Les étiquettes de ticket ont été mises à jour avec succès : %s"
-				}
+				},
+				"none_configured": "Aucune étiquette n'a été configurée pour ce serveur. Vous pouvez créer des étiquettes dans le [tableau de bord](%s)."
 			}
 		}
 	},
