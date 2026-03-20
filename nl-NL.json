@@ -199,9 +199,9 @@
 			"invalid_panel": "Ongeldig paneel: U moet één selecteren uit de keuzelijst",
 			"success": "Dit ticket is overgeschakeld naar het `%s` paneel door <@%d>",
 			"non_thread_to_thread": "Je kunt vanuit een ticket dat geen threads gebruikt niet overschakelen naar een paneel dat threads gebruikt",
-			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access_title": "Paneel wissel is geblokkeerd",
 			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"auto_unclaimed": "Dit ticket is verplaatst naar de '%s' paneel door <@%d>.\n\nDit ticket is automatisch niet geselecteerd, omdat <@%d> geen toegang heeft tot het nieuwe paneel."
 		},
 		"blacklist": {
 			"staff": "Medewerkers kunnen niet worden geblacklist",
@@ -341,7 +341,7 @@
 					"select_menu_title": "Labels",
 					"success": "Ticket labels zijn bijgewerkt naar: %s"
 				},
-				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
+				"none_configured": "Geen labels zijn geselecteerd voor deze server. Je kan labels maken in de [dashboard](%s)."
 			}
 		}
 	},
@@ -487,13 +487,13 @@
 		"unknown_category": "Kon de vereiste categorie niet vinden: waarschijnlijk is het verwijderd.\n\nVraag een server administrator om het [dashboard](%s) te bezoeken en een geldige kanaal categorie toe te wijzen aan dit ticket paneel.",
 		"unknown_interaction": "Deze interactie is verlopen.\n\nProbeer de actie opnieuw.",
 		"max_webhooks": "Deze server heeft het maximum aantal webhooks bereikt.\n\nVraag een server administrator om een paar ongebruikte webhooks te verwijderen en probeer het opnieuw.",
-		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
+		"max_channels": "Jouw ticket kan niet geopend worden omdat deze server Discord's kanalen limiet heeft bereikt. (500)\n\nGelieven een server administrator te vragen om sommige tickets dicht te doen of om ongebruikte kanalen te verwijden voor een nieuw ticket te openen.",
 		"interaction_acknowledged": "Deze interactie is al verwerkt.\n\nAls je deze actie opnieuw wilt uitvoeren, start dan een nieuwe interactie.",
 		"missing_permissions": {
 			"title": "Ik mis de volgende machtigingen die nodig zijn voor het uitvoeren van deze actie",
 			"body": "Gelieve deze machtigingen toe te wijzen aan de bot, of anders de 'Beheerder' machtiging en probeer het opnieuw.\nBezoek onze [docs](%s) voor een verklaring waarom elke machtiging vereist is."
 		},
-		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
+		"missing_access": "Ik ontbreek de machtigingen die nodig zijn om deze actie te doen.\n\nAlsjeblieft geef de nodige machtigingen voor de bot, of als alternatief geef de 'Administrator' machtigingen en probeer opnieuw.\nAlsjeblieft bekijk onze [docs](%s) voor een uitleg waarom deze machtigingen nodig zijn.",
 		"invalid_length": "Eén of meer velden zijn te kort of te lang.\n\nVraag een server administrator om de [dashboard](%s) te bezoeken en controleer alle inputs en zorg ervoor dat alle velden voldoen aan de vereiste lengte-beperkingen.",
 		"required_field": "Een verplicht veld ontbreekt of is leeg.\n\nVraag een server administrator om het [dashboard](%s) te bezoeken en te controleren dat alle vereiste velden ingevuld zijn.",
 		"invalid_channel_type": "Dit kanaal type is ongeldig voor deze bewerking.\n\nVraag een server administrator om het [dashboard](%s) te bezoeken en een geldig kanaal aan het ticketpaneel toe te wijzen.",
@@ -502,8 +502,8 @@
 		"invalid_characters": "De invoer bevat ongeldige tekens.\n\nGebruik alleen letters, cijfers, koppeltekens en liggende streepjes.",
 		"invalid_choice": "Een ongeldige optie is opgegeven.\n\nVraag een server administrator om het [dashboard](%s) te bezoeken en alle instellingen te controleren.",
 		"invalid_form": "De actie kon niet worden voltooid wegens een ongeldige invoer.",
-		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
-		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"thread_locked": "Jouw ticket kon niet geopend worden omdat het geselecteerde kanaal vergrendeld is.\n\nGelieven vraag een server administrator om het kanaal te ontgrendelen.",
+		"max_active_threads": "Jouw ticket kon niet geopend worden omdat het aantal maximale actieve threads bereikt is in dit kanaal.\n\nGelieven vraag een server administrator om enkele tickets dicht te doen of om enkele threads te archiveren.",
 		"max_active_announcement_threads": "Jouw ticket kon niet geopend worden omdat het maximale aantal van actieve aankondiging threads is voldoen.\n\nGelieven vraag een server administrator om enkele tickets dicht te doen of om enkele threads te archiveren.",
 		"timed_out": "De wachttijd is verstreken, probeer het opnieuw.",
 		"rate_limited": "Je wordt beperkt in snelheid. Probeer het later opnieuw %s.",
