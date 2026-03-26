@@ -460,12 +460,18 @@
 			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
+			"export_guild": "**Request Type:** Export guild data\n**Server:** %s\n\nYour guild data export is ready. Check your DMs.",
+			"export_guild_multi": "**Request Type:** Export guild data\n**Servers:**\n* %s\n\nYour guild data export is ready. Check your DMs.",
+			"export_user": "**Request Type:** Export personal data\n\nYour personal data export is ready. Check your DMs.",
 			"error": "\n\n**⚠️ Error:** %s"
 		},
 		"followup": {
 			"error": "⚠️ Your GDPR request encountered an error: %s",
 			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
 			"success": "✅ Your GDPR request has been processed successfully."
+		},
+		"export": {
+			"dm_message": "Here is your data export."
 		},
 		"error": {
 			"no_servers": "No servers found where you are the owner and have transcripts.",
