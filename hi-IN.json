@@ -80,7 +80,7 @@
 	"open.success": "नया टिकट खोला गया: %s",
 	"open.outside_support_hours": {
 		"title": "यह पैनल अभी बंद है",
-		"message": "Please try again during our support hours."
+		"message": "कृपया हमारे सहायता समय के दौरान फिर से प्रयास करें।"
 	},
 	"setup.auto.category.failure": "मेरे पास `Manage Channels` की अनुमति नहीं है",
 	"setup.auto.category.success": "टिकट श्रेणी बनाई गई",
@@ -161,14 +161,14 @@
 	"generic.title.unclaimed": "अनक्लेम किया गया टिकट",
 	"generic.title.add": "जोड़ें",
 	"commands.add.success": "<@%s> को <#%d> में जोड़ दिया गया है",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
+	"commands.add.role_thread": "डिस्कॉर्ड की सीमाओं के कारण, थ्रेड टिकटों में भूमिकाएँ नहीं जोड़ी जा सकतीं",
 	"commands.remove.success": "<@%s> को <#%d> से हटा दिया गया है",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.remove.role_thread": "डिस्कॉर्ड की सीमाओं के कारण, थ्रेड टिकटों से भूमिकाएँ हटाई नहीं जा सकतीं",
 	"open.ratelimited": "इस सर्वर में टिकट बहुत तेजी से खुल रहे हैं",
 	"open.panel_cooldown": "आप इस पैनल के लिए कोल्डाउन पर हैं। कृपया %s बाद फिर से प्रयास करें।",
-	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
+	"commands.claim.thread": "डिस्कॉर्ड की सीमाओं के कारण, थ्रेड्स में 'क्लेम' करने की सुविधा उपलब्ध नहीं है",
 	"generic.join_support_server": "सपोर्ट सर्वर से जुड़ें",
-	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
+	"commands.open.guild_channel_limit": "यह सर्वर डिस्कॉर्ड की 500 चैनलों की सीमा तक पहुँच गया है",
 	"commands.open.missing_form_answer": "आपको प्रश्न `%s` का उत्तर देना होगा",
 	"close.no_permission": "आपको इस टिकट को बंद करने की अनुमति नहीं है",
 	"": {
@@ -197,11 +197,11 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "अमान्य पैनल: आपको ड्रॉपडाउन से एक विकल्प चुनना होगा",
-			"success": "This ticket has been switched to the `%s` panel by <@%d>",
+			"success": "इस टिकट को <@%[2]d> द्वारा `%[1]s` पैनल पर स्विच कर दिया गया है",
 			"non_thread_to_thread": "आप नॉन-थ्रेड टिकट से ऐसे पैनल पर स्विच नहीं कर सकते जो थ्रेड्स का उपयोग करता है",
-			"claimer_no_access_title": "Panel Switch Blocked",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"claimer_no_access_title": "पैनल स्विच अवरुद्ध है",
+			"claimer_no_access": "टिकट क्लेम करने वाले (<@%d>) के पास चयनित पैनल का एक्सेस नहीं है।",
+			"auto_unclaimed": "<@%[2]d> द्वारा टिकट को `%[1]s` पैनल पर स्विच कर दिया गया है।\n\nटिकट अपने आप 'अनक्लेम' हो गया है, क्योंकि <@%d> के पास नए पैनल का एक्सेस नहीं है।"
 		},
 		"blacklist": {
 			"staff": "स्टाफ सदस्यों को ब्लैकलिस्ट नहीं किया जा सकता",
@@ -246,67 +246,67 @@
 			"remove_success": "अब आप ऑन-कॉल नहीं हैं"
 		},
 		"reopen": {
-			"not_found": "Ticket not found",
-			"no_permission": "You do not have permission to reopen this ticket",
-			"already_open": "This ticket is already open",
-			"not_thread": "Only threads can be reopened",
-			"thread_deleted": "The ticket has been permanently deleted",
-			"success": "Ticket %d reopened: <#%d>",
-			"in_ticket": "This ticket has been reopened by <@%d>"
+			"not_found": "टिकट नहीं मिला",
+			"no_permission": "आपके पास इस टिकट को फिर से खोलने की अनुमति नहीं है",
+			"already_open": "यह टिकट पहले से ही खुला है",
+			"not_thread": "केवल थ्रेड्स को ही फिर से खोला जा सकता है",
+			"thread_deleted": "टिकट को स्थायी रूप से हटा दिया गया है",
+			"success": "टिकट %d फिर से खोला गया: <#%d>",
+			"in_ticket": "इस टिकट को <@%d> द्वारा फिर से खोल दिया गया है"
 		},
 		"premium": {
-			"key": "Key",
-			"check_again": "Check Again",
-			"subscription_found": "Subscription Found!",
-			"subscription_found_content": "In order to apply your subscription to this server, the server owner (<@%d>) must add you as an admin **user** (roles are ignored) via the %s command.\\n\\nYou can verify that you have been added as an admin user by running %s.",
-			"activate_key": "Activate A Premium Key",
-			"checking": "Checking Premium Status...",
-			"please_wait": "Please wait...",
-			"success_after_check": "Premium is now active in this server!",
-			"link_patreon_account": "Link Patreon Account",
-			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](%s), and a further waited 10 minutes.",
-			"open_form": "Open Form",
-			"open_form_description": "Press the button below to reopen the form",
-			"use_key_anyway": "Use Premium Key Anyway",
-			"already_purchased_title": "Already purchased premium?",
-			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
-			"giveaway_key": "Giveaway Key",
+			"key": "कुंजी",
+			"check_again": "फिर से जाँचें",
+			"subscription_found": "सब्सक्रिप्शन मिल गया!",
+			"subscription_found_content": "इस सर्वर पर अपनी सब्सक्रिप्शन लागू करने के लिए, सर्वर ओनर (<@%d>) को आपको %s कमांड के ज़रिए एक एडमिन यूज़र (भूमिकाओं को अनदेखा किया जाता है) के रूप में जोड़ना होगा।\\n\\nआप %s चलाकर यह पुष्टि कर सकते हैं कि आपको एडमिन यूज़र के रूप में जोड़ा गया है या नहीं।",
+			"activate_key": "Premium की सक्रिय करें",
+			"checking": "Premium स्टेटस की जाँच की जा रही है...",
+			"please_wait": "कृपया प्रतीक्षा करें...",
+			"success_after_check": "इस सर्वर में अब Premium सक्रिय है!",
+			"link_patreon_account": "पैट्रिऑन अकाउंट लिंक करें",
+			"no_subscription": "आपके डिस्कॉर्ड अकाउंट से जुड़ा कोई सक्रिय पैट्रिऑन सब्सक्रिप्शन नहीं मिला। [सुनिश्चित करें कि आपने अपने पैट्रिऑन और डिस्कॉर्ड अकाउंट लिंक कर लिए हैं](%s), और कम से कम 10 मिनट प्रतीक्षा की है।",
+			"open_form": "फॉर्म खोलें",
+			"open_form_description": "फॉर्म को फिर से खोलने के लिए नीचे दिया गया बटन दबाएं",
+			"use_key_anyway": "Premium की का ही उपयोग करें",
+			"already_purchased_title": "पहले से premium खरीद लिया है?",
+			"already_purchased_description": "यदि आपने पहले ही premium खरीद लिया है, तो शुरू करने के लिए ड्रॉपडाउन से भुगतान विधि चुनें",
+			"giveaway_key": "गिवअवे की",
 			"selector": {
-				"description": "Select which method you used to obtain premium",
+				"description": "वह तरीका चुनें जिससे आपने premium प्राप्त किया है",
 				"key": {
-					"description": "Select this option if you were given a giveaway key"
+					"description": "यदि आपको गिवअवे की मिली है, तो इस विकल्प को चुनें"
 				},
 				"patreon": {
-					"description": "Select this option if you made your purchase on Patreon"
+					"description": "यदि आपने पैट्रिऑन पर खरीदारी की है, तो इस विकल्प को चुनें"
 				},
 				"discord": {
-					"description": "Select this option if you made your purchase within the Discord in-app store"
+					"description": "यदि आपने डिस्कॉर्ड इन-ऐप स्टोर के भीतर खरीदारी की है, तो इस विकल्प को चुनें"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](%s) to find out more.",
-			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](%s).",
+			"about": "Premium आपको अधिक पैनल, आंकड़े, एक कस्टम बॉट और बहुत कुछ तक पहुंच देता है! अधिक जानने के लिए हमारी [वेबसाइट](%s) पर जाएं।",
+			"already_activated": "खुशखबरी! इस सर्वर में Premium पहले से ही सक्रिय है।",
+			"already_activated_whitelabel": "खुशखबरी! इस सर्वर में Premium पहले से ही सक्रिय है।\n\nWhitelabel के साथ शुरुआत करने में सहायता के लिए, [हमारी whitelabel सेटअप गाइड](%s) पढ़ें।",
 			"discord": {
-				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+				"no_subscription": "Premium सीधे डिस्कॉर्ड के भीतर खरीदा जा सकता है। सब्सक्रिप्शन मैनेजमेंट पेज खोलने के लिए इस मैसेज के नीचे दिए गए बटन पर क्लिक करें।\n\nखरीदारी के बाद, कृपया सब्सक्रिप्शन का पता चलने के लिए 5 मिनट तक प्रतीक्षा करें।"
 			},
-			"subscription_found_content_modern": "Your Patreon subscription has been found. Please click on the \"Open Server Selector\" button below in order to open the dashboard to select which servers you wish to apply your premium subscription to.",
-			"open_server_selector": "Open Server Selector"
+			"subscription_found_content_modern": "आपका पैट्रिऑन सब्सक्रिप्शन मिल गया है। डैशबोर्ड खोलने के लिए कृपया नीचे \"सर्वर चयनकर्ता खोलें\" बटन पर क्लिक करें और चुनें कि आप किन सर्वरों पर अपना premium सब्सक्रिप्शन लागू करना चाहते हैं।",
+			"open_server_selector": "सर्वर चयनकर्ता खोलें"
 		},
 		"notes": {
-			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
-			"thread_name": "notes",
-			"created": "A notes thread has been created for this ticket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"added_to_existing": "आपको मौजूदा नोट्स थ्रेड में जोड़ दिया गया है: <#%d>",
+			"thread_name": "नोट्स",
+			"created": "इस टिकट के लिए एक नोट्स थ्रेड बनाया गया है: <#%d>",
+			"channel_mode_only": "नोट थ्रेड्स केवल चैनल मोड में समर्थित हैं"
 		},
 		"rename": {
-			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+			"ratelimited": "डिस्कॉर्ड द्वारा लगाई गई सीमाओं के कारण, टिकटों का नाम हर 10 मिनट में केवल दो बार बदला जा सकता है"
 		},
 		"vote": {
-			"redeem_credits": "Redeem Credits",
-			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem_credits": "क्रेडिट्स रिडीम करें",
+			"no_credits": "रिडेम्पशन विफल: आपके पास कोई वोट क्रेडिट नहीं है!",
 			"redeem": {
 				"success": {
-					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"plural": "आपके वोट क्रेडिट को **%d** दिनों के प्रीमियम के लिए रिडीम कर लिया गया है!",
 					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
 				}
 			},
