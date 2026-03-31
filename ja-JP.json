@@ -128,7 +128,7 @@
 	"generic.title.invite": "招待",
 	"generic.title.close": "閉じる",
 	"generic.title.claim": "このチケットを担当する",
-	"generic.title.unclaim": "未請求",
+	"generic.title.unclaim": "担当解除",
 	"generic.title.blacklisted": "ブラックリスト",
 	"generic.title.blacklist": "ブラック リスト",
 	"generic.error.blacklisted": "このサーバーにブラックリストに登録されています",
