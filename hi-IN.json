@@ -358,19 +358,19 @@
 	},
 	"help": {
 		"switch_panel": "एक टिकट को दूसरे टिकट पैनल में स्विच करता है, जिससे चैनल श्रेणी, सपोर्ट टीमें आदि बदल जाती हैं।",
-		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
-		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
-		"reopen": "Reopens a ticket that was previously closed",
-		"notes": "Creates a thread for private discussion between support representatives",
-		"edit": "Edits settings for the current ticket"
+		"jump_to_top": "आपको टिकट के सबसे ऊपर जाने के लिए एक बटन प्रदान करता है",
+		"on_call": "आपको 'ऑन कॉल' के रूप में मार्क करता है, ताकि आपको सभी नए टिकटों में जोड़ा जा सके और पिंग किया जा सके",
+		"reopen": "उस टिकट को फिर से खोलता है जिसे पहले बंद कर दिया गया था",
+		"notes": "सपोर्ट प्रतिनिधियों के बीच निजी चर्चा के लिए एक थ्रेड बनाता है",
+		"edit": "वर्तमान टिकट के लिए सेटिंग्स एडिट करता है"
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](%s) will teach you how to configure every aspect of the bot!"
+			"docs": "और अधिक जानना चाहते हैं? हमारा [डॉक्यूमेंटेशन](%s) आपको बॉट के हर पहलू को कॉन्फ़िगर करना सिखाएगा!"
 		},
 		"threads": {
-			"no_notification_channel": "You must provide a ticket notification channel",
-			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"no_notification_channel": "आपको एक टिकट नोटिफिकेशन चैनल प्रदान करना होगा",
+			"notification_channel_type": "टिकट नोटिफिकेशन चैनल एक टेक्स्ट चैनल होना चाहिए",
 			"success": "Thread mode has been enabled",
 			"disabled": "Thread mode has been disabled"
 		}
