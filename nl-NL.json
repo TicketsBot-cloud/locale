@@ -200,7 +200,7 @@
 			"success": "Dit ticket is overgeschakeld naar het `%s` paneel door <@%d>",
 			"non_thread_to_thread": "Je kunt vanuit een ticket dat geen threads gebruikt niet overschakelen naar een paneel dat threads gebruikt",
 			"claimer_no_access_title": "Paneel wissel is geblokkeerd",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"claimer_no_access": "De ticket claimer (<@%d>) heeft geen toegang tot het geselecteerde paneel.",
 			"auto_unclaimed": "Dit ticket is verplaatst naar de '%s' paneel door <@%d>.\n\nDit ticket is automatisch niet geselecteerd, omdat <@%d> geen toegang heeft tot het nieuwe paneel."
 		},
 		"blacklist": {
