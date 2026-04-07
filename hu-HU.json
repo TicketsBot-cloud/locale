@@ -378,7 +378,7 @@
 	"button": {
 		"join_thread": {
 			"closed_ticket": "Ez a ticket már le volt zárva",
-			"no_permission": "Nincs jogod megnézni ezt a típusú ticketet",
+			"no_permission": "Nincs jogod megnézni ezt a típusú jegyet",
 			"already_joined": "Te már beléptél a ticketbe (<#%d>)",
 			"success": "Hozzáadva téged a <#%d> tickethez"
 		}
