@@ -135,7 +135,7 @@
 	"generic.error.guild_blacklisted": "Máy chủ đã bị cấm sử dụng bot",
 	"generic.error.user_blacklisted": "Bạn đã bị cấm sử dụng bot",
 	"commands.blacklist.add.success": "<@%d> đã bị chặn",
-	"commands.blacklist.remove.success": "<@%d> đã được gỡ chặn",
+	"commands.blacklist.remove.success": "<@%d> đã được xóa khỏi danh sách đen",
 	"generic.title.add_admin": "Thêm quản trị viên",
 	"generic.title.add_support": "Thêm hỗ trợ viên",
 	"generic.title.remove_admin": "Gỡ quản trị viên",
