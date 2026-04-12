@@ -341,7 +341,7 @@
 					"select_menu_title": "Štítky",
 					"success": "Štítek tiketů byl úspěšně upraven na: %s"
 				},
-				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
+				"none_configured": "Pro tento server nebyly nakonfigurovány žádné popisky. Popisky můžete vytvořit v [dashboardu](%s)."
 			}
 		}
 	},
@@ -502,9 +502,8 @@
 		"invalid_characters": "Vstup obsahuje neplatné znaky.\n\nProsím, použijte pouze písmena, čísla, pomlčky a podtržítka.",
 		"invalid_choice": "Byla poskytnuta neplatná volba.\n\nPožádejte administrátora serveru, aby navštívil [dashboard](%s) a ověřil, že všechna nastavení jsou správná.",
 		"invalid_form": "Akce nemohla být dokončena z důvodu neplatného vstupu.",
-		"thread_locked": "Váš tiket nemůže být otevřen, protože nastavený kanál je uzamčen.\n\nProsím, optej se správce serveru, aby kanál odemkl.",
-		"max_active_threads": "Váš tiket nemůže být otevřen, protože bylo dosaženo maximální počet aktivních vláken v tomto kanálu.\n\nProsím, optej te se správce serveru pro uzavření tiketů nebo archivaci některých exustjících vláken.",
-		"max_active_announcement_threads": "Váš tiket nemůže být otevřen, protože byl dosažen maximální počet aktivních oznamovacích vláken.\n\nProsím, optej te se správce serveru k uzavření některých tiketů nebo archujve některé existující vlákna.",
+		"thread_locked": "Váš tiket nemůže být otevřen, protože vlákno na tikety je uzamčen.\n\nProsím, požádejte administrátora serveru pro odemčení vláken pro tikety.",
+		"max_active_threads": "Váš tiket nemůže být otevřen, protože bylo dosaženo maximálni počet aktivních vláken.\n\nProsím, požádejte admina o uzavření některých tiketů nebo vláken.",
 		"timed_out": "Vypršel časový limit operace, zkuste to prosím znovu.",
 		"rate_limited": "Omezujeme vaši sazbu. Prosím, zkuste později %s.",
 		"rate_limited_global": "Discord má vysoké zatížení (globální limit). Prosím, zkuste znovu %s.",

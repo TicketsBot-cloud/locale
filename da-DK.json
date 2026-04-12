@@ -35,7 +35,7 @@
 	"commands.unclaim.not_claimed": "Denne ticket er ikke taget",
 	"commands.unclaim.not_claimer": "Kun administratorer og den bruger, der har gjort krav denne ticket, kan frafalde kravet igen",
 	"commands.unclaim.success": "Alle supportrepræsentanter kan nu svare på denne ticket",
-	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"commands.vote": "Klik på knappen nedenfor for at stemme på botten og modtage 24 timers præmie gratis.\n\nNår du har stemt, skal du køre %s kommandoen igen for at indløse dine stemmekreditter.",
 	"generic.invalid_argument": "Ugyldigt argument: referér til brug",
 	"generic.invalid_user": "Kunne ikke finde brugeren",
 	"generic.no_permission": "Du har ikke tilladelse til at udføre denne handling",
@@ -84,7 +84,7 @@
 	},
 	"setup.auto.category.failure": "Jeg mangler tilladelsen `Administrer kanaler`",
 	"setup.auto.category.success": "Oprettet en ticket kategori",
-	"setup.auto.completed": "Setup complete! Click [here](%s) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Opsætning fuldført! Klik på [here](%s) for at opsætte et panel, og tilføje <@&%d> og <@&%d> roller til dine medarbejdere",
 	"setup.auto.roles.failure": "Jeg mangler tilladelsen `Administrer roller`",
 	"setup.auto.roles.success": "Oprettet `Tickets Administrator` & `Tickets Support` roller",
 	"setup.auto.transcript.failure": "Jeg mangler tilladelsen `Administrer kanaler`",
@@ -199,9 +199,9 @@
 			"invalid_panel": "Ugyldigt panel: Du skal vælge et fra listen",
 			"success": "Denne Ticket er blevet flyttet til panelet `%s af <@%d>",
 			"non_thread_to_thread": "Du kan ikke skifte til et panel som bruger tråde fra en ikke tråd ticket",
-			"claimer_no_access_title": "Panel Switch Blocked",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"claimer_no_access_title": "Panel Skift Blokeret",
+			"claimer_no_access": "Ticket fordringen (<@%d>) har ikke adgang til det valgte panel.",
+			"auto_unclaimed": "Ticketen er blevet skiftet til panelet `%s` af <@%d>.\n\nTicketen er blevet automatisk annulleret, da <@%d> ikke har adgang til det nye panel."
 		},
 		"blacklist": {
 			"staff": "Personale kan ikke blive blacklisted",
@@ -341,7 +341,7 @@
 					"select_menu_title": "Etiketter",
 					"success": "Ticket etiketter er blevet opdateret til: %s"
 				},
-				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
+				"none_configured": "Ingen etiketter er blevet konfigureret til denne server. Du kan oprette etiketter på [dashboard](%s)."
 			}
 		}
 	},
@@ -487,13 +487,13 @@
 		"unknown_category": "Kunne ikke finde en nødvendig kategori: den må være slettet.\n\nBed venligst en serveradministrator om at besøge [dashboard](%s) og tildele en gyldig kanalkategori til dette ticket panel.",
 		"unknown_interaction": "Denne interaktion er udløbet.\n\nPrøv venligst igen.",
 		"max_webhooks": "Serveren har nået det maksimale antal webhooks.\n\nBed venligst en serveradministrator om at fjerne nogle ubrugte webhooks, og prøv igen.",
-		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
+		"max_channels": "Din ticket kunne ikke åbnes, fordi denne server har nået Discord's kanalgrænse (500).\n\nAnmod venligst en server administrator om at lukke nogle bestillinger eller slette nogle ubrugte kanaler, før du åbner en ny ticket.",
 		"interaction_acknowledged": "Denne interaktion er allerede blevet behandlet.\n\nHvis du har brug for at udføre denne handling igen, bedes du starte en ny interaktion.",
 		"missing_permissions": {
 			"title": "Jeg mangler følgende tilladelser, der kræves for at udføre denne handling",
 			"body": "Tildel venligst disse tilladelser til botten, eller alternativt `Administrator`-tilladelsen, og prøv igen.\nBesøg venligst vores [dokumentation](%s) for en forklaring på, hvorfor hver tilladelse er påkrævet."
 		},
-		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
+		"missing_access": "Jeg mangler de tilladelser, der er nødvendige for at udføre denne handling.\n\nTildel venligst de nødvendige tilladelser til botten, eller alternativt tilladelsen `Administrator` og prøv igen.\nBesøg vores [docs](%s) for en forklaring på, hvorfor hver tilladelse er påkrævet.",
 		"invalid_length": "Et eller flere felter er for korte eller for lange.\n\nBed en serveradministrator om at besøge [dashboard](%s) og verificere alle input og sikre, at alle felter overholder de krævede længdebegrænsninger.",
 		"required_field": "Et påkrævet felt mangler eller er tomt.\n\nBed venligst en serveradministrator om at besøge [dashboard](%s) og kontrollere, at alle påkrævet felter er udfyldt.",
 		"invalid_channel_type": "Kanaltypen er ugyldig for denne handling.\n\nBed venligst en serveradministrator om at besøge [dashboard](%s) og tildele en gyldig kanal til ticket panelet.",
@@ -502,9 +502,8 @@
 		"invalid_characters": "Inputtet indeholder ugyldige tegn.\n\nBrug kun bogstaver, tal, bindestreger og understregninger.",
 		"invalid_choice": "Der blev angivet en ugyldig indstilling.\n\nBed venligst en serveradministrator om at besøge [dashboard](%s) og kontrollere, at alle indstillinger er korrekte.",
 		"invalid_form": "Handlingen kunne ikke fuldføres på grund af ugyldig input.",
-		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
-		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
-		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"thread_locked": "Din ticket kunne ikke åbnes, fordi den ticket tråd er låst.\n\nBed en serveradministrator om at låse ticket tråden op.",
+		"max_active_threads": "Din ticket kunne ikke åbnes, fordi det maksimale antal aktive tråde er nået i denne kanal.\n\nBed en serveradministrator om at lukke nogle tickets eller tråde.",
 		"timed_out": "Handlingen udløb. Prøv igen.",
 		"rate_limited": "Du er rate begrænset. Prøv igen %s.",
 		"rate_limited_global": "Discord oplever høj belastning (global hastighedsgrænse). Prøv igen %s.",

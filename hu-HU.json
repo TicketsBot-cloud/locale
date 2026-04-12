@@ -378,7 +378,7 @@
 	"button": {
 		"join_thread": {
 			"closed_ticket": "Ez a ticket már le volt zárva",
-			"no_permission": "Nincs jogod megnézni ezt a típusú ticketet",
+			"no_permission": "Nincs jogod megnézni ezt a típusú jegyet",
 			"already_joined": "Te már beléptél a ticketbe (<#%d>)",
 			"success": "Hozzáadva téged a <#%d> tickethez"
 		}
@@ -502,9 +502,8 @@
 		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
 		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
 		"invalid_form": "The action could not be completed due to invalid input.",
-		"thread_locked": "Your ticket could not be opened because the configured channel is locked.\n\nPlease ask a server administrator to unlock the channel.",
-		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
-		"max_active_announcement_threads": "Your ticket could not be opened because the maximum number of active announcement threads has been reached.\n\nPlease ask a server administrator to close some tickets or archive some existing threads.",
+		"thread_locked": "Your ticket could not be opened because the ticket thread is locked.\n\nPlease ask a server administrator to unlock the ticket thread.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or threads.",
 		"timed_out": "The operation timed out, please try again.",
 		"rate_limited": "You're being rate limited. Please try again %s.",
 		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",

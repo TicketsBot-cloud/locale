@@ -199,9 +199,9 @@
 			"invalid_panel": "Μη έγκυρος πίνακας: Πρέπει να επιλέξετε έναν από το αναπτυσσόμενο μενού",
 			"success": "Αυτό το ticket έχει αλλάξει στον πίνακα `%s` από τον <@%d>",
 			"non_thread_to_thread": "Δεν μπορείτε να κάνετε εναλλαγή σε έναν πίνακα που χρησιμοποιεί threads από ένα ticket που δεν τα χρησιμοποιεί",
-			"claimer_no_access_title": "Panel Switch Blocked",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"claimer_no_access_title": "Μπλοκάρισμα Αλλαγής Panel",
+			"claimer_no_access": "Ο διεκδικητής του ticket (<@%d>) δεν έχει πρόσβαση στο επιλεγμένο panel.",
+			"auto_unclaimed": "Το ticket έχει μεταφερθεί στον πίνακα `%s` από τον χρήστη <@%d>.\n\nΤο ticket έχει αυτόματα τεθεί σε άρση διεκδίκησης, καθώς ο χρήστης <@%d> δεν έχει πρόσβαση στο νέο panel."
 		},
 		"blacklist": {
 			"staff": "Τα μέλη του προσωπικού δεν μπορούν να είναι στη μαύρη λίστα",
@@ -341,7 +341,7 @@
 					"select_menu_title": "Ετικέτες",
 					"success": "Οι ετικέτες των ticket έχουν ενημερωθεί με επιτυχία: %s"
 				},
-				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
+				"none_configured": "Δεν έχουν ρυθμιστεί ετικέτες για αυτόν τον διακομιστή. Μπορείτε να δημιουργήσετε ετικέτες στο [dashboard](%s)."
 			}
 		}
 	},
@@ -502,9 +502,8 @@
 		"invalid_characters": "Το εισαγόμενο κείμενο περιέχει μη έγκυρους χαρακτήρες.\n\nΠαρακαλώ χρησιμοποιήστε μόνο γράμματα, αριθμούς, παύλες και κάτω παύλες.",
 		"invalid_choice": "Δόθηκε μια μη έγκυρη επιλογή.\n\nΠαρακαλώ ζητήστε από έναν διαχειριστή του διακομιστή να επισκεφθεί το [dashboard](%s) και να επιβεβαιώσει ότι όλες οι ρυθμίσεις είναι σωστές.",
 		"invalid_form": "Δεν ήταν δυνατή η ολοκλήρωση της ενέργειας λόγω μη έγκυρης εισαγωγής.",
-		"thread_locked": "Το ticket σας δεν μπορεί να ανοιχτεί επειδή το κανάλι που έχει ρυθμιστεί είναι κλειδωμένο.\n\nΠαρακαλώ ζητήστε από τον διαχειριστή του διακομιστή να ξεκλειδώσει το κανάλι.",
-		"max_active_threads": "Το ticket σας δεν μπορεί να ανοιχτεί επειδή έχει επιτευχθεί ο μέγιστος αριθμός ενεργών νημάτων σε αυτό το κανάλι.\n\nΠαρακαλώ ζητήστε από τον διαχειριστή του διακομιστή να κλείσει μερικά ticket ή να αρχειοθετήσει κάποια υπάρχοντα νήματα.",
-		"max_active_announcement_threads": "Το ticket σας δεν μπορεί να ανοιχτεί επειδή έχει συμπληρωθεί ο μέγιστος αριθμός ενεργών νημάτων.\n\nΠαρακαλώ ζητήστε από τον διαχειριστή του διακομιστή να κλείσει μερικά tickets ή να αρχειοθετήσει κάποια υπάρχοντα νήματα.",
+		"thread_locked": "Your ticket could not be opened because the ticket thread is locked.\n\nPlease ask a server administrator to unlock the ticket thread.",
+		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or threads.",
 		"timed_out": "Το όριο λειτουργίας έληξε, παρακαλώ προσπαθήστε ξανά.",
 		"rate_limited": "Περιορίζεστε. Παρακαλώ δοκιμάστε ξανά %s.",
 		"rate_limited_global": "Το Discord αντιμετωπίζει υψηλό φορτίο. Παρακαλώ δοκιμάστε ξανά %s.",
