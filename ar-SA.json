@@ -183,7 +183,7 @@
 		"rate": {
 			"not_allowed": {
 				"staff": "لا يمكنك تقييم هذه التَّذْكِرَة لأنك ممثل دعم في %s",
-				"empty": "لا يمكنك تقييم هذه التَّذْكِرَة"
+				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
 	},
