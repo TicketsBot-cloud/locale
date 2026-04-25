@@ -2,7 +2,7 @@
 	"commands.about": "Tickets su jednostavan za korištenje i visoko podesivi bot za ulaznice i podršku.\n\\nPodržavački server:\n%s\\nnaredbe: upiši `%s`\\nzapočnite sa pokretanjem `%s`",
 	"commands.add.no_members": "Morate spomenuti članove koje želite dodati na listu",
 	"commands.add.no_permission": "Nemate dozvolu za dodavanje osoba na ovu kartu",
-	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
+	"commands.add.no_everyone": "Ne možete dodati ulogu `@everyone` u ticket",
 	"commands.addadmin.no_members": "Morate spomenuti korisnika ili ime uloge kojoj možete dodijeliti administratorske ovlasti",
 	"commands.addadmin.owner": "Vlasnik servera već je administrator",
 	"commands.addsupport.no_members": "Morate spomenuti korisnika ili imenovati ulogu kojoj ćete dodijeliti privilegije predstavnika podrške",
@@ -35,7 +35,7 @@
 	"commands.unclaim.not_claimed": "Ovaj tiket nije preuzet",
 	"commands.unclaim.not_claimer": "Samo admini i korisnik koji je preuzeo tiket može ne-preuzeti tiket",
 	"commands.unclaim.success": "Svi predstavnici podrške sada mogu odgovoriti na tiket",
-	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"commands.vote": "Kliknite gumb ispod kako biste glasali za bota i besplatno dobili 24 sata premiuma.\n\nNakon što glasate, ponovno pokrenite naredbu %s kako biste preuzeli svoje kredite za glasanje.",
 	"generic.invalid_argument": "Nevažeći argument: odnosi se na upotrebu",
 	"generic.invalid_user": "Nije moguće pronaći ciljanog korisnika",
 	"generic.no_permission": "Nemate dozvolu za ovo",
@@ -79,7 +79,7 @@
 	"help.gdpr": "Upravljajte svojim zahtjevima za podatke o GDPR-u",
 	"open.success": "Otvorio novi tiket: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
+		"title": "Ova ploča je trenutno zatvorena",
 		"message": "Molimo pokušajte ponovno tijekom našeg radnog vremena podrške."
 	},
 	"setup.auto.category.failure": "Nedostaje mi `upravljaj kanalima' dozvola",
@@ -197,11 +197,11 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Nevažeća ploča: morate odabrati jednu s padajućeg izbornika",
-			"success": "This ticket has been switched to the `%s` panel by <@%d>",
+			"success": "Ovaj ticket je prebačen na `%s` panel od strane <@%d>",
 			"non_thread_to_thread": "Ne možete se prebaciti na panel koji koristi threadove iz ticketa koji nije thread-ticket",
 			"claimer_no_access_title": "Prebacivanje panela blokirano",
 			"claimer_no_access": "Preuzimač ticketa (<@%d>) nema pristup odabranom panelu.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"auto_unclaimed": "Ticket je prebačen na `%s` panel od strane <@%d>.\n\nTicket je automatski uklonjen iz preuzimanja jer <@%d> nema pristup novom panelu."
 		},
 		"blacklist": {
 			"staff": "Članovi osoblja ne mogu biti stavljeni na crnu listu",
@@ -210,7 +210,7 @@
 				"limit": "Dosegli ste ograničenje crne liste uloga (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> je uklonjen s liste blokiranih"
 			},
 			"add": {
 				"limit": "Dosegli ste ograničenje crne liste korisnika (%d): razmislite o korištenju uloge umjesto toga"
@@ -296,7 +296,7 @@
 			"added_to_existing": "Dodani ste u postojeću nit bilješki: <#%d>",
 			"thread_name": "bilješke",
 			"created": "Nit bilješki stvorena je za ovaj tiket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Bilješke u threadovima podržane su samo u načinu kanala"
 		},
 		"rename": {
 			"ratelimited": "Zbog ograničenja koja nameće Discord, tickets se mogu preimenovati samo dva puta svakih 10 minuta"
