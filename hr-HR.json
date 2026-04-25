@@ -80,7 +80,7 @@
 	"open.success": "Otvorio novi tiket: %s",
 	"open.outside_support_hours": {
 		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"message": "Molimo pokušajte ponovno tijekom našeg radnog vremena podrške."
 	},
 	"setup.auto.category.failure": "Nedostaje mi `upravljaj kanalima' dozvola",
 	"setup.auto.category.success": "Napravio novu tiket kategoriju",
@@ -165,7 +165,7 @@
 	"commands.remove.success": "<@%s> je uklonjen iz <#%d>",
 	"commands.remove.role_thread": "Zbog Discordovih ograničenja, uloge se ne mogu ukloniti iz ticket-threadova",
 	"open.ratelimited": "Tiketi se otvaraju pre brzo u ovom serveru",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "Trenutno imate čekanje za ovu ploču. Molimo pokušajte ponovno %s.",
 	"commands.claim.thread": "Zbog ograničenja Discorda, preuzimanje ne podržava niti",
 	"generic.join_support_server": "Pridružite se serveru za podršku",
 	"commands.open.guild_channel_limit": "Ovaj server je dosegao ograničenje od 500 kanala",
@@ -199,8 +199,8 @@
 			"invalid_panel": "Nevažeća ploča: morate odabrati jednu s padajućeg izbornika",
 			"success": "This ticket has been switched to the `%s` panel by <@%d>",
 			"non_thread_to_thread": "Ne možete se prebaciti na panel koji koristi threadove iz ticketa koji nije thread-ticket",
-			"claimer_no_access_title": "Panel Switch Blocked",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
+			"claimer_no_access_title": "Prebacivanje panela blokirano",
+			"claimer_no_access": "Preuzimač ticketa (<@%d>) nema pristup odabranom panelu.",
 			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
 		},
 		"blacklist": {
@@ -316,17 +316,17 @@
 			}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Osoblje",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Administratorski korisnici",
+				"roles": "Administratorske uloge",
+				"no_users": "Nema administratorskih korisnika",
+				"no_roles": "Nema administratorskih uloga"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
+				"users": "Korisnici podrške",
+				"roles": "Uloge podrške",
+				"no_roles": "Nema uloga podrške",
 				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
