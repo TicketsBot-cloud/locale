@@ -213,26 +213,26 @@
 				"success": "<@&%d> 身份组已被移出黑名单"
 			},
 			"add": {
-				"limit": "用户黑名单已经达到了上限 (%d)：请添加身份组"
+				"limit": "用户黑名单已达到上限 (%d)，建议添加身份组黑名单"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "这个工单没有欢迎消息",
+			"no_welcome_message": "该工单没有欢迎消息",
 			"content": "点击下面的按钮跳到工单顶部"
 		},
 		"addsupport": {
 			"confirm": "请确认您想要将 %s 添加到默认支持代表团队",
-			"everyone": "你不能添加 `@everone` 角色作为工作人员"
+			"everyone": "您不能将 `@everyone` 角色添加为工作人员"
 		},
 		"addadmin": {
 			"confirm": "请确认您想要添加 %s 作为机器人管理员"
 		},
 		"tags": {
 			"create": {
-				"limit": "标签 (%d) 已达到可添加的数量上限"
+				"limit": "标签数量已达到上限 (%d)"
 			},
 			"get": {
-				"requires_premium": "使用自定义命令需要高级版 (标签别名)"
+				"requires_premium": "使用自定义命令 (标签别名) 需要高级版订阅"
 			}
 		},
 		"language": {
@@ -241,23 +241,23 @@
 			"select": "选择语言(%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "“%s” 只能用于子区模式。访问我们的 [docs](%s) 以了解更多关于子区的信息",
-			"success": "你现在是在线状态",
+			"channel_mode": "“%s” 只能在子区模式下使用。请访问我们的 [文档](%s) 了解更多子区信息",
+			"success": "您现在已进入在线状态",
 			"remove_success": "你不再是在线状态"
 		},
 		"reopen": {
 			"not_found": "工单未找到",
 			"no_permission": "您无权重新打开此工单",
-			"already_open": "此工单已经打开",
+			"already_open": "此工单已经处于开启状态",
 			"not_thread": "只有子区可以重新打开",
 			"thread_deleted": "这个工单已被永久删除",
-			"success": "任务单 %d 被重新打开在：<#%d>",
+			"success": "工单 #%d 已在 <#%d> 中重新开启",
 			"in_ticket": "此工单已被 <@%d > 重新打开。"
 		},
 		"premium": {
 			"key": "密钥",
 			"check_again": "再次检查",
-			"subscription_found": "没有发现订阅！",
+			"subscription_found": "Subscription Found!",
 			"subscription_found_content": "为了将您的订阅应用于此服务器， 服务器所有者 (<@%d>) 必须通过 %s 命令将你添加为管理员 **用户** (角色被忽略)。\\n\\n您可以通过运行 %s 来验证您是否已被添加为管理员用户。",
 			"activate_key": "激活高级订阅密钥",
 			"checking": "正在检查高级订阅状态...",
@@ -267,52 +267,52 @@
 			"no_subscription": "找不到到您的 Discord 账户关联的 Patreon 订阅。请确保您[已将您的 Patreon 和 Discord 账户关联好](%s)，并再等10分钟。",
 			"open_form": "打开表格",
 			"open_form_description": "按下面的按钮重新打开表格",
-			"use_key_anyway": "仍然使用高级订阅密钥",
+			"use_key_anyway": "仍然使用密钥激活",
 			"already_purchased_title": "已经购买高级订阅？",
 			"already_purchased_description": "如果您已经购买了高级订阅，请从下拉菜单中选择付款方式开始使用",
 			"giveaway_key": "赠品密钥",
 			"selector": {
-				"description": "选择您获取高级订阅的方法",
+				"description": "选择您获取高级订阅的方式",
 				"key": {
-					"description": "如果您需要使用密钥，请选择此选项"
+					"description": "如果您有激活密钥，请选择此项"
 				},
 				"patreon": {
 					"description": "如果您在 **Patreon** 上购买，请选择此选项"
 				},
 				"discord": {
-					"description": "如果您在 Discord 内商店购买，请选择此选项"
+					"description": "如果您是在 Discord 应用商店购买的，请选择此项"
 				}
 			},
-			"about": "高级订阅可以让您访问更多的面板、统计、自定义机器人等！访问我们的 [官网](%s) 来了解更多信息。",
+			"about": "高级订阅可让您访问更多面板、详细统计和自定义机器人功能！访问我们的 [官网](%s) 了解详情。",
 			"already_activated": "好消息！高级订阅已经在此服务器上激活。",
-			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[配置自定义机器人](%s)。",
+			"already_activated_whitelabel": "好消息！此服务器已激活高级订阅。\n\n如需开始自定义机器人，请参阅 [配置指南](%s)。",
 			"discord": {
-				"no_subscription": "高级版可以直接在 Discord 中购买。点击此消息下方的按钮打开订阅管理页面。\n\n购买一个，请在5分钟内完成购买。"
+				"no_subscription": "高级版可以直接在 Discord 中购买。点击下方按钮管理您的订阅。\n\n购买完成后，请等待约 5 分钟以生效。"
 			},
-			"subscription_found_content_modern": "已找到您的 Patreon 订阅。 请点击下面的“打开服务器选择器”按钮来打开面板，选择您想要应用您的高级订阅的服务器。",
-			"open_server_selector": "打开服务器选择"
+			"subscription_found_content_modern": "已找到您的 Patreon 订阅。请点击下方的“打开服务器选择器”按钮进入控制面板，选择您想要应用高级订阅的服务器。",
+			"open_server_selector": "打开服务器选择器"
 		},
 		"notes": {
 			"added_to_existing": "您已被添加到现有的备注主题中：<#%d>",
 			"thread_name": "备注",
 			"created": "已为此Ticket创建了一个备注主题：<#%d>",
-			"channel_mode_only": "备注子区仅在频道模式下受支持"
+			"channel_mode_only": "备注子区仅在频道模式下可用"
 		},
 		"rename": {
 			"ratelimited": "由于 Discord 限制，您仅可在 10 分钟内重命名工单两次"
 		},
 		"vote": {
-			"redeem_credits": "兑换点数",
-			"no_credits": "赎回失败：您没有任何投票积分！",
+			"redeem_credits": "兑换积分",
+			"no_credits": "兑换失败：您没有任何投票积分！",
 			"redeem": {
 				"success": {
-					"plural": "您的投票积分已被奖励**%d**天！",
-					"singular": "您的投票积分已被奖励**%d** 天！"
+					"plural": "已为您成功奖励 **%d** 天高级版期限！",
+					"singular": "已为您成功奖励 **%d** 天高级版期限！"
 				}
 			},
 			"with_credits": {
-				"plural": "您有 **%d**投票积分。点击下面的“兑换积分”按钮，在此服务器上使用 %d 天的高级版计划。",
-				"singular": "您有 **%d**投票积分。点击下面的“兑换积分”按钮，在此服务器上将其兑换 %d 天的高级版计划。"
+				"plural": "您拥有 **%d** 投票积分。点击下方“兑换积分”按钮，在此服务器上换取 %d 天的高级版计划。",
+				"singular": "您拥有 **%d** 投票积分。点击下方“兑换积分”按钮，在此服务器上换取 %d 天的高级版计划。"
 			}
 		},
 		"viewstaff": {
