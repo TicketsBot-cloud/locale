@@ -257,7 +257,7 @@
 		"premium": {
 			"key": "密钥",
 			"check_again": "再次检查",
-			"subscription_found": "Subscription Found!",
+			"subscription_found": "已找到订阅！",
 			"subscription_found_content": "为了将您的订阅应用于此服务器， 服务器所有者 (<@%d>) 必须通过 %s 命令将你添加为管理员 **用户** (角色被忽略)。\\n\\n您可以通过运行 %s 来验证您是否已被添加为管理员用户。",
 			"activate_key": "激活高级订阅密钥",
 			"checking": "正在检查高级订阅状态...",
