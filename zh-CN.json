@@ -327,7 +327,7 @@
 				"users": "支持（用户）",
 				"roles": "支持人员（角色）",
 				"no_roles": "无支持人员（角色）",
-				"users_warning": "-# **警告:** 在支持团队中添加的用户现在已废弃。请创建一个角色并设置该角色为支持团队。"
+				"users_warning": "-# **警告:** 直接在支持团队中添加单个用户的方法已废弃。请创建角色并将其设置为支持团队。"
 			}
 		},
 		"edit": {
@@ -357,19 +357,19 @@
 		"website": "我们的官网"
 	},
 	"help": {
-		"switch_panel": "切换工单到另一个工单类别，更改频道类别，支持团队等。",
+		"switch_panel": "将工单切换到另一个类别，更改频道归属或支持团队等。",
 		"jump_to_top": "点击下面的按钮跳到工单顶部",
 		"on_call": "将您标记为在线，将自动加入新的工单中并且你在这个线程里发的消息会被标记。",
 		"reopen": "重新打开之前关闭的工单",
-		"notes": "创建一个提供给支持团队私下讨论的主题",
+		"notes": "创建一个供支持团队内部讨论的私密子区",
 		"edit": "编辑当前工单的设置"
 	},
 	"setup": {
 		"auto": {
-			"docs": "想要探索更多？我们的 [documentation](%s) 将教你如何配置机器人！"
+			"docs": "想了解更多？查阅我们的 [帮助文档](%s) 学习如何深度配置机器人！"
 		},
 		"threads": {
-			"no_notification_channel": "您必须提供(设置)一个工单通知频道",
+			"no_notification_channel": "您必须设置一个工单通知频道",
 			"notification_channel_type": "工单通知频道必须是文本频道",
 			"success": "子区模式已启用",
 			"disabled": "子区模式已关闭"
@@ -379,12 +379,12 @@
 		"join_thread": {
 			"closed_ticket": "工单已经被关闭",
 			"no_permission": "你没有看这个工单的权限",
-			"already_joined": "你已经加入了<#%d>这个工单",
+			"already_joined": "您已经加入了工单 <#%d>",
 			"success": "将您添加到工单： <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "子区不能在公告频道创建",
+		"thread_in_announcement_channel": "无法在公告频道中创建子区",
 		"panel_force_disabled": "此面板已被禁用。请询问服务器管理员以重新激活付费，并运行 %s 以重新启用此面板。",
 		"panel_disabled": "服务器管理员已禁用此类型的工单",
 		"acl": {
