@@ -391,8 +391,8 @@
 			"no_allow_rules": "已禁止所有身份组打开此Ticket的权限",
 			"deny_listed": "你无法打开此Ticket，因为你有身份组：<@&%d>",
 			"not_allow_listed": {
-				"multiple": "你需要以下任意一个身份组才能打开这个Ticket：%s",
-				"single": "你需要以下身份组才能打开此Ticket：%s"
+				"multiple": "您需要具备以下任意身份组才能开启此工单：%s",
+				"single": "您需要具备以下身份组才能开启此工单：%s"
 			}
 		}
 	},
@@ -423,11 +423,11 @@
 				"placeholder": "输入服务器 ID"
 			},
 			"server_ids": {
-				"label": "服务器 ID",
+				"label": "服务器 IDs",
 				"placeholder": "输入用逗号分隔的服务器 ID（例如：1071167333265047653, 1412752753348055111）"
 			},
 			"ticket_ids": {
-				"label": "工单 ID",
+				"label": "工单 IDs",
 				"placeholder": "输入用逗号分隔的工单 ID（例如：123, 456, 789）"
 			}
 		},
