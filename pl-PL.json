@@ -165,7 +165,7 @@
 	"commands.remove.success": "<@%s> został usunięty z <#%d>",
 	"commands.remove.role_thread": "Ze względu na ograniczenia Discorda, role nie mogą zostać usunięte ze zgłoszeń wątków",
 	"open.ratelimited": "Zgłoszenia są otwierane za szybko na tym serwerze",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "Jesteś w trakcie czasu odnowienia dla tego panelu. Spróbuj ponownie %s.",
 	"commands.claim.thread": "Ze względu na ograniczenia Discorda, funkcja obsługiwania zgłoszeń nie wspiera wątków",
 	"generic.join_support_server": "Dołącz do serwera wsparcia",
 	"commands.open.guild_channel_limit": "Ten serwer osiągnął limit 500 kanałów na Discordzie",
@@ -199,9 +199,9 @@
 			"invalid_panel": "Nieprawidłowy panel: Musisz wybrać jeden z listy rozwijanej",
 			"success": "To zgłoszenie zostało przełączone na panel `%s` przez <@%d>",
 			"non_thread_to_thread": "Nie możesz przełączyć się na panel, który używa wątków ze zgłoszenia nieużywającego wątków",
-			"claimer_no_access_title": "Panel Switch Blocked",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"claimer_no_access_title": "Zablokowano zmianę panelu",
+			"claimer_no_access": "Osoba obsługująca to zgłoszenie (<@%d>) nie ma dostępu do wybranego panelu.",
+			"auto_unclaimed": "Bilet został przełączony do panelu `%s` przez <@%d>.\n\nBilet został automatycznie zwolniony, ponieważ <@%d> nie ma dostępu do nowego panelu."
 		},
 		"blacklist": {
 			"staff": "Obsługa nie może być na czarnej liście",
@@ -331,17 +331,17 @@
 			}
 		},
 		"edit": {
-			"title": "Edit Ticket Settings",
-			"description": "Below you can edit various settings for this ticket.",
+			"title": "Edytuj ustawienia zgłoszenia",
+			"description": "Poniżej możesz edytować różne ustawienia tego zgłoszenia.",
 			"labels": {
-				"title": "Edit Labels",
-				"description": "Edit the labels assigned to this ticket",
+				"title": "Edytuj etykiety",
+				"description": "Edytuj etykiety przypisane do tego zgłoszenia",
 				"update_modal": {
-					"title": "Update Ticket Labels",
-					"select_menu_title": "Labels",
-					"success": "Ticket labels have been successfully updated to: %s"
+					"title": "Zaktualizuj etykiety zgłoszeń",
+					"select_menu_title": "Etykiety",
+					"success": "Etykiety zgłoszenia zostały pomyślnie zaktualizowane do: %s"
 				},
-				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
+				"none_configured": "Nie skonfigurowano żadnych etykiet dla tego serwera. Możesz utworzyć etykiety w [dashboard](%s)."
 			}
 		}
 	},
@@ -399,11 +399,11 @@
 	"gdpr": {
 		"intro": "Wybierz typ żądania RODO, które chcesz złożyć:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Opcje usuwania transkryptów**\n-# _Usuń transkrypty z serwerów, które posiadasz_",
+			"message": "### **Opcje anonimizacji wiadomości**\n-# _Anonimizuj swoje wiadomości z transkryptów na wybranych serwerach"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Ważne informacje**\n* Usunięcie jest **stałe** i nie może być cofnięte\n* Możesz usunąć tylko transkrypty z serwerów które **Ty ** posiadasz\n* Tylko **Twoje** wiadomości mogą zostać zanonimizowane w transkryptach\n* Żądanie może zająć do **30 dni** do wykonania\n* Twoje żądanie będzie przetwarzane w **kolejce**",
+		"resources": "### **Zasoby**\n[Co to jest RODO?](%s)\n[Prawo do Usunięcia](%s)\n[Prawo do Dostępu](%s)",
 		"button": {
 			"all_transcripts": "Wszystkie transkrypty z serwerów",
 			"specific_transcripts": "Określone transkrypty",
@@ -433,33 +433,33 @@
 		},
 		"confirm": {
 			"title": "Wymagane potwierdzenie RODO",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_transcripts": "**Typ żądania:** Usuń wszystkie transkrypty z serwera który posiadasz\n**Serwer:** %s",
+			"all_transcripts_multi": "**Typ żądania:** Usuń wszystkie transkrypty z serwerów które posiadasz\n**Serwery:**\n* %s",
+			"specific_transcripts": "**Typ żądania:** Usuń konkretne transkrypty z serwera\n**Serwer:** %s\n**ID zgłoszenia:** %s",
+			"all_messages": "**Typ żądania:** Anonimizuj wszystkie wiadomości na wybranym serwerze\n**Serwer:** %s",
+			"all_messages_multi": "**Typ żądania:** Anonimizuj wszystkie wiadomości na wybranych serwerach\n**Serwery:**\n* %s",
+			"specific_messages": "**Typ żądania:** Anonimizacja twoich wiadomości w określonych zgłoszeniach\n**Serwer:** %s\n**ID zgłoszenia:** %s",
 			"warning": "\n\n⚠️ **Ostrzeżenie:** Ta akcja jest permanentna i nie może zostać cofnięta.\n\nCzy rozumiesz i akceptujesz, że ta akcja jest permanentna?",
 			"button": "Potwierdzam - Rozumiem"
 		},
 		"queued": {
 			"title": "Żądanie RODO zostało zakolejkowane",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_transcripts": "**Typ żądania:** Usuń wszystkie transkrypty z serwera\n**Serwer:** %s",
+			"all_transcripts_multi": "**Typ żądania:** Usuń wszystkie transkrypty z serwerów\n**Serwery:**\n* %s",
+			"specific_transcripts": "**Typ żądania:** Usuń konkretne transkrypty\n**Serwer:** %s\n**ID zgłoszenia:** %s",
+			"all_messages": "**Typ żądania:** Anonimizuj wszystkie wiadomości na serwerze\n**Serwer:** %s",
+			"all_messages_multi": "**Typ żądania:** Anonimizuj wszystkie wiadomości na serwerach\n**Serwery:**\n* %s",
+			"specific_messages": "**Typ żądania:** Anonimizacja twoich wiadomości w określonych zgłoszeniach\n**Serwer:** %s\n**ID zgłoszenia:** %s",
 			"footer": "\n\nTwoje żądanie zostało zakolejkowane do przetworzenia.\nPrzetwarzanie może zająć trochę czasu w zależności od ilości transkryptów."
 		},
 		"completed": {
 			"title": "Żądanie RODO zostało zakończone",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
+			"all_transcripts": "**Typ żądania:** Usuń wszystkie transkrypty z serwera\n**Serwer:** %s\n**Transkrypty Usunięte:** %d",
+			"all_transcripts_multi": "**Typ żądania:** Usuń wszystkie transkrypty z serwerów\n**Serwery:**\n* %s\n**Transkrypty Usunięte:** %d",
+			"specific_transcripts": "**Typ żądania:** Usuń konkretne transkrypty\n**Serwer:** %s\n**Transkrypty Usunięte:** %d",
+			"all_messages": "**Typ żądania:** Anonimizacja wszystkich twoich wiadomości w serwerze\n**Serwer:** %s\n**Wiadomości zanonimizowane:** %d",
+			"all_messages_multi": "**Typ żądania:** Anonimizacja wszystkich twoich wiadomości w serwerach\n**Serwery:**\n* %s\n**Wiadomości zanonimizowane:** %d",
+			"specific_messages": "**Typ żądania:** Anonimizacja twoich wiadomości w określonych zgłoszeniach\n**Serwer:** %s\n**Wiadomości zanonimizowane:** %d",
 			"error": "\n\n**⚠️ Błąd:** %s"
 		},
 		"followup": {
@@ -487,7 +487,7 @@
 		"unknown_category": "Nie można znaleźć wymaganej kategorii: musiała zostać usunięta.\n\nPoproś administratora serwera o odwiedzenie [panelu sterowania](%s) i przypiszanie poprawnej kategorii kanałów do tego panelu zgłoszeń.",
 		"unknown_interaction": "Ta interakcja wygasła.\n\nProszę spróbować ponownie.",
 		"max_webhooks": "Serwer osiągnął maksymalną liczbę webhooków.\n\nPoproś administratora serwera o usunięcie nieużywanych webhooków i spróbuj ponownie.",
-		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
+		"max_channels": "Twoje zgłoszenie nie może zostać otwarte, ponieważ ten serwer osiągnął limit kanałów Discorda (500).\n\nPoproś administratora serwera o zamknięcie niektórych zgłoszeń lub usunięcie kilka nieużywanych kanałów przed otwarciem nowego zgłoszenia.",
 		"interaction_acknowledged": "Ta interakcja została już przetworzona.\n\nJeśli chcesz wykonać tę akcję ponownie, rozpocznij nową interakcję.",
 		"missing_permissions": {
 			"title": "Brakuje mi następujących uprawnień wymaganych do wykonania tej akcji",
