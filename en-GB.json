@@ -400,7 +400,8 @@
 		"intro": "Select the type of GDPR request you would like to make:",
 		"section": {
 			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_",
+			"export": "### **Data Export Options**\n-# _Export your data under GDPR Article 15 (Right of Access)_"
 		},
 		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
 		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
@@ -408,7 +409,9 @@
 			"all_transcripts": "All transcripts from servers",
 			"specific_transcripts": "Specific transcripts",
 			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"specific_messages": "Your messages in specific tickets",
+			"export_guild": "Export guild data",
+			"export_user": "Export my data"
 		},
 		"language_option": "Language",
 		"modal": {
@@ -416,6 +419,7 @@
 			"specific_transcripts": "Delete Specific Transcripts",
 			"all_messages": "Anonymize Your Messages in Servers",
 			"specific_messages": "Anonymize Your Messages in Specific Tickets",
+			"export_guild": "Export Guild Data",
 			"select_server": "Select a server",
 			"select_servers": "Select one or more servers",
 			"server_id": {
@@ -439,6 +443,10 @@
 			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"export_guild": "**Request Type:** Export all transcript data from a server you own\n**Server:** %s\n\nA ZIP file containing all transcripts will be sent to you via DM.",
+			"export_guild_multi": "**Request Type:** Export all transcript data from servers you own\n**Servers:**\n* %s\n\nA ZIP file containing all transcripts will be sent to you via DM.",
+			"export_user": "**Request Type:** Export all your personal data\n\nThis includes your database records, cache data, and your messages from all transcripts.\nA ZIP file will be sent to you via DM.",
+			"export_button": "Export Data",
 			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
 			"button": "Confirm - I understand"
 		},
@@ -460,12 +468,18 @@
 			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
+			"export_guild": "**Request Type:** Export guild data\n**Server:** %s\n\nYour guild data export is ready. Check your DMs.",
+			"export_guild_multi": "**Request Type:** Export guild data\n**Servers:**\n* %s\n\nYour guild data export is ready. Check your DMs.",
+			"export_user": "**Request Type:** Export personal data\n\nYour personal data export is ready. Check your DMs.",
 			"error": "\n\n**⚠️ Error:** %s"
 		},
 		"followup": {
 			"error": "⚠️ Your GDPR request encountered an error: %s",
 			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
 			"success": "✅ Your GDPR request has been processed successfully."
+		},
+		"export": {
+			"dm_message": "Here is your data export."
 		},
 		"error": {
 			"no_servers": "No servers found where you are the owner and have transcripts.",
