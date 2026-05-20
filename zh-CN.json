@@ -1,110 +1,110 @@
 {
-	"commands.about": "Tickets 是一个易于使用且几乎可以完全自定义的问题单机器人\\n帮助频道: %s\\n指令: 请输入 `%s`\\n输入`%s`开始设定吧！",
-	"commands.add.no_members": "你必须标注一个人嗄",
-	"commands.add.no_permission": "你没有权限添加该成员到问题单",
-	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
+	"commands.about": "Tickets 是一款易于使用且高度可配置的工单与支持机器人。\\n支持服务器：%s\\n指令：请输入 `%s`\\n输入 `%s` 即可开始使用",
+	"commands.add.no_members": "您需要提及要添加到工单中的成员",
+	"commands.add.no_permission": "您没有权限将成员添加到此工单",
+	"commands.add.no_everyone": "不能将 `@everyone`身份组添加到工单中",
 	"commands.addadmin.no_members": "您需要提及一个用户或一个身份组来授予管理员权限",
 	"commands.addadmin.owner": "服务器所有者已经是管理员",
 	"commands.addsupport.no_members": "您需要提及用户或命身份组以授予支持代表权限",
 	"commands.blacklist.no_members": "您需要提及一个用户来切换黑名单状态",
-	"commands.blacklist.self": "你想不开是不是？干嘛黑名单自己",
+	"commands.blacklist.self": "您不能将自己加入黑名单",
 	"commands.claim.success": "您的工单将由 %s 处理",
 	"commands.invite": "[点击此处](<%s>)",
 	"commands.language.invalid": "您需要指定语言代码或标志。可用语言:\\n%s",
 	"commands.open.ticket_limit": "您一次只能打开 %d %s",
-	"commands.open.too_many_tickets": "问题单类别中的问题单过多。要求管理员关闭一些，或将它们移到另一个类别，否则将无法开启",
-	"commands.panel": "请前往 <%s>配置一个票据模板",
+	"commands.open.too_many_tickets": "工单类别中的工单过多。请联系管理员关闭部分工单、将其移至其他类别，或设置溢出类别。\n\n这是 Discord 强制限制的每个类别最多 50 个频道。",
+	"commands.panel": "访问 <%s> 以配置面板",
 	"commands.premium": "您可以从 <%s> 购买高级订阅。\\nPremium 提供许多好处，例如：\\n```diff\\n+ 创建无限制的问题单面板\\n+ 自定义机器人名称、头像和状态\\n+ 关于服务器、用户和支持人员的详细统计\\n+ 没有品牌显示\\n+ 支持开发并帮助我支付服务器费用\\n```\\n\\n或者，您可以投票<%s> 获得 24 小时免费高级版",
 	"commands.premium.invalid_key": "无效的密钥。确保您已正确复制它。",
-	"commands.remove.no_permission": "没有权限踢掉他唷",
+	"commands.remove.no_permission": "您没有权限将成员从此工单中移除",
 	"commands.remove.staff": "不能移除工作人员",
 	"commands.removeadmin.no_members": "您需要提及一个用户或身份组来撤销其管理员权限",
 	"commands.removeadmin.owner": "服务器所有者必须是管理员",
 	"commands.removeadmin.self": "不能撤销你自己的权限",
 	"commands.removesupport.no_members": "您需要提及用户或身份组以授予支持代表权限",
 	"commands.rename.missing_name": "您需要为此问题单指定一个新名称",
-	"commands.rename.success": "该问题单以重新命名为 <#%d>",
+	"commands.rename.success": "该工单已重命名为 <#%d>",
 	"commands.tags.create.already_exists": "ID为%s的标签已经存在。您可以使用 `%s` 删除标签",
 	"commands.tags.create.invalid_arguments": "您必须指定标籤 ID 和内容",
 	"commands.tags.create.too_long": "标籤 ID 不能超过 16 个字符",
 	"commands.tags.delete.invalid_arguments": "您必须指定要删除的标籤 ID",
-	"commands.tags.delete.not_exist": "找不到 ID 为\"%s\"的标籤",
+	"commands.tags.delete.not_exist": "找不到 ID 为`%s`的标籤",
 	"commands.tags.get.invalid_arguments": "您必须提供标籤的 ID。有关标籤的更多帮助，请访问 <%s>。",
 	"commands.tags.get.invalid_tag": "标籤无效。有关标籤的更多帮助，请访问 <%s>。",
-	"commands.tags.list": "所有标籤的 ID：\\n%s\\n要查看标籤的内容，请运行 `%s %s`",
-	"commands.unclaim.not_claimed": "目前问题单还没被指派",
-	"commands.unclaim.not_claimer": "只有管理者会已被分配到的人才可以解除分配",
-	"commands.unclaim.success": "所有支持者现在都可以回复问题单",
-	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
+	"commands.tags.list": "所有标签的 ID：\\n%s\\n要查看标签的内容，请运行 `%s`",
+	"commands.unclaim.not_claimed": "此工单尚未被认领",
+	"commands.unclaim.not_claimer": "只有管理员和已认领该工单的用户可以取消认领",
+	"commands.unclaim.success": "所有支持代表现在都可以回复该工单。",
+	"commands.vote": "点击下方的按钮为机器人投票并获得 24 小时的免费 Premium。\n\n投票完成后，请再次运行 %s 指令来兑换您的投票积分。",
 	"generic.invalid_argument": "无效参数：参考用法",
 	"generic.invalid_user": "找不到目标成员",
-	"generic.no_permission": "没有权限使用唷",
+	"generic.no_permission": "您没有执行此操作的权限",
 	"generic.not_ticket": "这不是票证频道",
 	"generic.owner_only": "这指令只能机器人所有者使用",
-	"help.about": "告诉您有关机器人的信息",
-	"help.add": "将用户添加到问题单",
+	"help.about": "显示机器人的相关信息",
+	"help.add": "将用户添加到工单",
 	"help.addadmin": "授予用户或身份组管理员权限",
-	"help.addsupport": "添加一个身份组作为工单支持小组",
+	"help.addsupport": "添加一个角色作为支持代表",
 	"help.admin": "机器人管理",
 	"help.admin.blacklist": "将服务器使用机器人列入黑名单",
-	"help.admin.debug.server": "Debug a server",
-	"help.admin.generate_premium": "产生高级版代码",
+	"help.admin.debug.server": "调试服务器",
+	"help.admin.generate_premium": "生成 Premium 密钥",
 	"help.admin.unblacklist": "将该服务器从黑名单移除",
 	"help.blacklist": "切换是否允许用户与机器人互动（表情符号回馈等等）",
 	"help.cancel": "取消设置流程",
-	"help.claim": "将成员分配到该问题单中",
-	"help.close": "关闭现有问题单",
+	"help.claim": "将一名工作人员分配到工单",
+	"help.close": "关闭当前工单",
 	"help.help": "显示所有可以用的指令",
 	"help.invite": "为机器人提供一个邀请链接",
 	"help.language": "更换语言",
 	"help.managetags": "添加、删除或显示所有标籤",
 	"help.open": "开启一个新的工单",
-	"help.panel": "创建表情符号回馈面板让成员们能够轻松点击创建问题单",
+	"help.panel": "创建一个面板，使用户能够一键开启工单",
 	"help.premium": "购买高级版后运行此命令来激活它",
-	"help.remove": "将成员从问题单移除",
-	"help.removeadmin": "撤销某人或某身份组的问题单管理权限",
+	"help.remove": "将成员从工单移除",
+	"help.removeadmin": "撤销某人或某身份组的工单管理权限",
 	"help.removesupport": "撤销某人或某身份组的问题单支持权限",
-	"help.rename": "重新命名问题单",
+	"help.rename": "重命名工单",
 	"help.setup": "让你轻松设定机器人",
 	"help.stats": "显示有​​关用户、支持人员和服务器的统计信息",
 	"help.statsserver": "显示服务器数据",
-	"help.tag": "传送标籤（也就是罐头信息）",
+	"help.tag": "发送标签（即预设回复内容）",
 	"help.tagdelete": "删除标籤",
 	"help.taggadd": "添加新标籤",
 	"help.taglist": "显示所有标籤",
-	"help.transfer": "将已被分配的问题单移交给另外一个人",
-	"help.unclaim": "撤销原本分配到该问题单的人",
-	"help.viewstaff": "显示问题单工作人员跟支持人员",
+	"help.transfer": "将已被分配的工单移交给另外一个人",
+	"help.unclaim": "取消认领该工单",
+	"help.viewstaff": "显示工单的管理人员与支持人员",
 	"help.vote": "给你一个投票连结让你获得免费高级版的资格",
-	"help.gdpr": "Manage your GDPR data requests",
-	"open.success": "开了一张问题单：%s",
+	"help.gdpr": "管理您的 GDPR 数据请求",
+	"open.success": "已开启工单：%s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
-		"message": "Please try again during our support hours."
+		"title": "此面板目前已关闭",
+		"message": "请在我们的支持服务时间内重试。"
 	},
 	"setup.auto.category.failure": "我没有 `管理频道` 的权限唷",
-	"setup.auto.category.success": "创建问题单类别",
-	"setup.auto.completed": "配置完成，点击 [这里](%s) 去创建工单模板, 并给你工作团队添加 <@&%d> 和 <@&%d>的身份组",
+	"setup.auto.category.success": "已创建工单类别",
+	"setup.auto.completed": "配置完成，点击 [这里](%s) 去创建工单模板，并为您的团队成员添加 <@&%d> 和 <@&%d> 身份组",
 	"setup.auto.roles.failure": "我没有 `管理身份组` 的权限唷",
-	"setup.auto.roles.success": "创建 `问题单管理者` & `问题单支持者` 的身份组",
+	"setup.auto.roles.success": "已创建“工单管理员”与“工单支持者”身份组",
 	"setup.auto.transcript.failure": "我没有 `管理频道` 的权限唷",
 	"setup.auto.transcript.success": "创建 <#%d> 频道",
-	"setup.ticket_limit.success": "问题单限制已经更改为`%d`",
+	"setup.ticket_limit.success": "工单限制已更改为 `%d`",
 	"setup.transcript.invalid": "您必须提供服务器的有的频道（例如 <#%d>）\\n**例如:** `%s`",
-	"setup.transcript.success": "问题单记录频道已更改到 <#%d>",
+	"setup.transcript.success": "工单记录频道已更改为 <#%d>",
 	"commands.language.help_wanted": "您是否使用另一种语言？如果您有兴趣帮助将机器人翻译成更多语言，请加入我们的 [支持服务器](%s)",
 	"commands.rename.too_long": "频道名称不能长于 100 个字符",
 	"commands.autoclose.configure": "前往 [网页面板](%s) 设置有关自动关闭的设定",
 	"help.autoclose": "有关**自动关闭**的命令",
-	"help.autoclose.exclude": "停用当前工单自动被关闭",
+	"help.autoclose.exclude": "防止当前工单被自动关闭",
 	"help.autoclose.configure": "编辑自动关闭相关的设置",
-	"commands.autoclose.exclude.success": "这个工单已停用自动关闭",
+	"commands.autoclose.exclude.success": "此工单已停用自动关闭",
 	"commands.claim.no_permission": "只有员工才能认领工单",
 	"commands.open.from": "这个工单是从[这个消息](%s) 打开的。\n\n<@%d> 在 <#%d> 中说过：\n```%s```",
 	"commands.open.from.moved": "对话已移动到新工单(<#%d>)",
 	"help.close_request": "发送消息，请用户确认工单能被关闭",
 	"close.reason_too_long": "原因不能超过 255 个字符",
-	"commands.close_request.success": "Close request was sent successfully",
+	"commands.close_request.success": "已成功发送关闭请求",
 	"commands.close_request.no_reason": "<@%d> 请求关闭此工单。\n\n请使用下面的按钮确认或拒绝。",
 	"commands.close_request.with_reason": "<@%d> 请求关闭此工单。原因：\n```\n%s\n```\n请使用下面的按钮确认或拒绝。",
 	"commands.close_request.no_permission": "只有打开工单的用户才可以响应关闭请求",
@@ -128,25 +128,25 @@
 	"generic.title.invite": "邀请",
 	"generic.title.close": "关闭",
 	"generic.title.claim": "认领",
-	"generic.title.unclaim": "Unclaim",
+	"generic.title.unclaim": "取消认领",
 	"generic.title.blacklisted": "黑名单",
 	"generic.title.blacklist": "黑名单",
-	"generic.error.blacklisted": "你的服务器在黑名单中",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.blacklisted": "您的服务器已被列入黑名单",
+	"generic.error.guild_blacklisted": "此服务器已被禁止使用该机器人",
+	"generic.error.user_blacklisted": "您已被禁止使用该机器人",
 	"commands.blacklist.add.success": "<@%d>已被列入黑名单",
 	"commands.blacklist.remove.success": "<@%d> 已被移出黑名单",
 	"generic.title.add_admin": "添加管理员",
 	"generic.title.add_support": "添加支持",
 	"generic.title.remove_admin": "移除管理员",
 	"generic.title.remove_support": "移除支持",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "支持代表添加成功：%s",
 	"generic.title.language": "语言",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.removesupport.success": "支持代表移除成功：%s",
 	"commands.addadmin.success": "已成功添加管理员%s",
 	"commands.removeadmin.success": "已成功移除管理员%s",
-	"generic.title.setup": "部署",
-	"generic.title.premium": "高级订阅",
+	"generic.title.setup": "初始化设置",
+	"generic.title.premium": "Premium",
 	"generic.title.panel": "控制面板",
 	"generic.title.rename": "重命名",
 	"generic.title.remove": "移除",
@@ -160,17 +160,17 @@
 	"generic.title.claimed": "已认领的工单",
 	"generic.title.unclaimed": "未认领的工单",
 	"generic.title.add": "添加",
-	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
-	"open.ratelimited": "此服务器内的工单创建速度过快",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"commands.add.success": "<@%s> 已被添加到 <#%d>",
+	"commands.add.role_thread": "由于 Discord 的限制，无法将身份组添加到子区 (Thread) 工单中",
+	"commands.remove.success": "<@%s> 已从 <#%d> 中移除",
+	"commands.remove.role_thread": "由于 Discord 的限制，无法从子区 (Thread) 工单中移除身份组",
+	"open.ratelimited": "此服务器的工单开启速度过快，请稍后再试",
+	"open.panel_cooldown": "您正处于该面板的冷却期内。请在 %s 后重试。",
 	"commands.claim.thread": "由于 Discord 的限制，认领操作暂不支持讨论串",
 	"generic.join_support_server": "加入支持服务器",
 	"commands.open.guild_channel_limit": "此服务器已达到 Discord 最大 500 个频道的限制",
 	"commands.open.missing_form_answer": "您必须先回答问题 `%s`",
-	"close.no_permission": "您无权关闭此工单",
+	"close.no_permission": "您没有权限关闭此工单",
 	"": {
 		"generic.title.close_with_reason": "关闭工单并填写原因",
 		"generic.reason": "原因"
@@ -198,41 +198,41 @@
 		"switch_panel": {
 			"invalid_panel": "无效的面板：您必须从下拉列表中选择一个",
 			"success": "这个工单被 <@%[2]d> 切换到 `%[1]s` 面板",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket",
-			"claimer_no_access_title": "Panel Switch Blocked",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"non_thread_to_thread": "您无法将非子区工单切换到使用子区的面板",
+			"claimer_no_access_title": "面板切换被拦截",
+			"claimer_no_access": "工单认领者 (<@%d>) 无权访问所选面板。",
+			"auto_unclaimed": "该工单已被 <@%[2]d> 切换到 `%[1]s` 面板。\n\n由于 <@%d> 无权访问新面板，该工单已被自动取消认领。"
 		},
 		"blacklist": {
-			"staff": "员工不能被列入黑名单",
+			"staff": "工作人员不能被列入黑名单",
 			"add_role": {
 				"success": "<@&%d> 已被列入黑名单",
 				"limit": "身份组黑名单已达到可添加的数量上限 (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> 身份组已被移出黑名单"
 			},
 			"add": {
-				"limit": "用户黑名单已经达到了上限 (%d)：请添加身份组"
+				"limit": "用户黑名单已达到上限 (%d)，建议添加身份组黑名单"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "这个工单没有欢迎消息",
+			"no_welcome_message": "该工单没有欢迎消息",
 			"content": "点击下面的按钮跳到工单顶部"
 		},
 		"addsupport": {
 			"confirm": "请确认您想要将 %s 添加到默认支持代表团队",
-			"everyone": "你不能添加 `@everone` 角色作为工作人员"
+			"everyone": "您不能将 `@everyone` 角色添加为工作人员"
 		},
 		"addadmin": {
 			"confirm": "请确认您想要添加 %s 作为机器人管理员"
 		},
 		"tags": {
 			"create": {
-				"limit": "标签 (%d) 已达到可添加的数量上限"
+				"limit": "标签数量已达到上限 (%d)"
 			},
 			"get": {
-				"requires_premium": "使用自定义命令需要高级版 (标签别名)"
+				"requires_premium": "使用自定义命令 (标签别名) 需要高级版订阅"
 			}
 		},
 		"language": {
@@ -241,23 +241,23 @@
 			"select": "选择语言(%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "“%s” 只能用于子区模式。访问我们的 [docs](%s) 以了解更多关于子区的信息",
-			"success": "你现在是在线状态",
+			"channel_mode": "“%s” 只能在子区模式下使用。请访问我们的 [文档](%s) 了解更多子区信息",
+			"success": "您现在已进入在线状态",
 			"remove_success": "你不再是在线状态"
 		},
 		"reopen": {
 			"not_found": "工单未找到",
 			"no_permission": "您无权重新打开此工单",
-			"already_open": "此工单已经打开",
+			"already_open": "此工单已经处于开启状态",
 			"not_thread": "只有子区可以重新打开",
 			"thread_deleted": "这个工单已被永久删除",
-			"success": "任务单 %d 被重新打开在：<#%d>",
+			"success": "工单 #%d 已在 <#%d> 中重新开启",
 			"in_ticket": "此工单已被 <@%d > 重新打开。"
 		},
 		"premium": {
 			"key": "密钥",
 			"check_again": "再次检查",
-			"subscription_found": "没有发现订阅！",
+			"subscription_found": "已找到订阅！",
 			"subscription_found_content": "为了将您的订阅应用于此服务器， 服务器所有者 (<@%d>) 必须通过 %s 命令将你添加为管理员 **用户** (角色被忽略)。\\n\\n您可以通过运行 %s 来验证您是否已被添加为管理员用户。",
 			"activate_key": "激活高级订阅密钥",
 			"checking": "正在检查高级订阅状态...",
@@ -267,52 +267,52 @@
 			"no_subscription": "找不到到您的 Discord 账户关联的 Patreon 订阅。请确保您[已将您的 Patreon 和 Discord 账户关联好](%s)，并再等10分钟。",
 			"open_form": "打开表格",
 			"open_form_description": "按下面的按钮重新打开表格",
-			"use_key_anyway": "仍然使用高级订阅密钥",
+			"use_key_anyway": "仍然使用密钥激活",
 			"already_purchased_title": "已经购买高级订阅？",
 			"already_purchased_description": "如果您已经购买了高级订阅，请从下拉菜单中选择付款方式开始使用",
 			"giveaway_key": "赠品密钥",
 			"selector": {
-				"description": "选择您获取高级订阅的方法",
+				"description": "选择您获取高级订阅的方式",
 				"key": {
-					"description": "如果您需要使用密钥，请选择此选项"
+					"description": "如果您有激活密钥，请选择此项"
 				},
 				"patreon": {
 					"description": "如果您在 **Patreon** 上购买，请选择此选项"
 				},
 				"discord": {
-					"description": "如果您在 Discord 内商店购买，请选择此选项"
+					"description": "如果您是在 Discord 应用商店购买的，请选择此项"
 				}
 			},
-			"about": "高级订阅可以让您访问更多的面板、统计、自定义机器人等！访问我们的 [官网](%s) 来了解更多信息。",
+			"about": "高级订阅可让您访问更多面板、详细统计和自定义机器人功能！访问我们的 [官网](%s) 了解详情。",
 			"already_activated": "好消息！高级订阅已经在此服务器上激活。",
-			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[配置自定义机器人](%s)。",
+			"already_activated_whitelabel": "好消息！此服务器已激活高级订阅。\n\n如需开始自定义机器人，请参阅 [配置指南](%s)。",
 			"discord": {
-				"no_subscription": "高级版可以直接在 Discord 中购买。点击此消息下方的按钮打开订阅管理页面。\n\n购买一个，请在5分钟内完成购买。"
+				"no_subscription": "高级版可以直接在 Discord 中购买。点击下方按钮管理您的订阅。\n\n购买完成后，请等待约 5 分钟以生效。"
 			},
-			"subscription_found_content_modern": "已找到您的 Patreon 订阅。 请点击下面的“打开服务器选择器”按钮来打开面板，选择您想要应用您的高级订阅的服务器。",
-			"open_server_selector": "打开服务器选择"
+			"subscription_found_content_modern": "已找到您的 Patreon 订阅。请点击下方的“打开服务器选择器”按钮进入控制面板，选择您想要应用高级订阅的服务器。",
+			"open_server_selector": "打开服务器选择器"
 		},
 		"notes": {
 			"added_to_existing": "您已被添加到现有的备注主题中：<#%d>",
 			"thread_name": "备注",
 			"created": "已为此Ticket创建了一个备注主题：<#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "备注子区仅在频道模式下可用"
 		},
 		"rename": {
 			"ratelimited": "由于 Discord 限制，您仅可在 10 分钟内重命名工单两次"
 		},
 		"vote": {
-			"redeem_credits": "兑换点数",
-			"no_credits": "赎回失败：您没有任何投票积分！",
+			"redeem_credits": "兑换积分",
+			"no_credits": "兑换失败：您没有任何投票积分！",
 			"redeem": {
 				"success": {
-					"plural": "您的投票积分已被奖励**%d**天！",
-					"singular": "您的投票积分已被奖励**%d** 天！"
+					"plural": "已为您成功奖励 **%d** 天高级版期限！",
+					"singular": "已为您成功奖励 **%d** 天高级版期限！"
 				}
 			},
 			"with_credits": {
-				"plural": "您有 **%d**投票积分。点击下面的“兑换积分”按钮，在此服务器上使用 %d 天的高级版计划。",
-				"singular": "您有 **%d**投票积分。点击下面的“兑换积分”按钮，在此服务器上将其兑换 %d 天的高级版计划。"
+				"plural": "您拥有 **%d** 投票积分。点击下方“兑换积分”按钮，在此服务器上换取 %d 天的高级版计划。",
+				"singular": "您拥有 **%d** 投票积分。点击下方“兑换积分”按钮，在此服务器上换取 %d 天的高级版计划。"
 			}
 		},
 		"viewstaff": {
@@ -320,28 +320,28 @@
 			"admin": {
 				"users": "管理员（用户）",
 				"roles": "管理员（角色）",
-				"no_users": "No admin users",
+				"no_users": "无管理员（用户）",
 				"no_roles": "无管理员（角色）"
 			},
 			"support": {
 				"users": "支持（用户）",
 				"roles": "支持人员（角色）",
 				"no_roles": "无支持人员（角色）",
-				"users_warning": "-# **警告:** 在支持团队中添加的用户现在已废弃。请创建一个角色并设置该角色为支持团队。"
+				"users_warning": "-# **警告:** 直接在支持团队中添加单个用户的方法已废弃。请创建角色并将其设置为支持团队。"
 			}
 		},
 		"edit": {
-			"title": "Edit Ticket Settings",
-			"description": "Below you can edit various settings for this ticket.",
+			"title": "编辑工单设置",
+			"description": "您可以在下方编辑此工单的各项设置。",
 			"labels": {
-				"title": "Edit Labels",
-				"description": "Edit the labels assigned to this ticket",
+				"title": "编辑标签",
+				"description": "编辑分配给此工单的标签",
 				"update_modal": {
-					"title": "Update Ticket Labels",
-					"select_menu_title": "Labels",
-					"success": "Ticket labels have been successfully updated to: %s"
+					"title": "更新工单标签",
+					"select_menu_title": "标签",
+					"success": "工单标签已成功更新为：%s"
 				},
-				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
+				"none_configured": "此服务器尚未配置任何标签。您可以在 [控制面板](%s) 中创建标签。"
 			}
 		}
 	},
@@ -357,19 +357,19 @@
 		"website": "我们的官网"
 	},
 	"help": {
-		"switch_panel": "切换工单到另一个工单类别，更改频道类别，支持团队等。",
+		"switch_panel": "将工单切换到另一个类别，更改频道归属或支持团队等。",
 		"jump_to_top": "点击下面的按钮跳到工单顶部",
 		"on_call": "将您标记为在线，将自动加入新的工单中并且你在这个线程里发的消息会被标记。",
 		"reopen": "重新打开之前关闭的工单",
-		"notes": "创建一个提供给支持团队私下讨论的主题",
-		"edit": "Edits settings for the current ticket"
+		"notes": "创建一个供支持团队内部讨论的私密子区",
+		"edit": "编辑当前工单的设置"
 	},
 	"setup": {
 		"auto": {
-			"docs": "想要探索更多？我们的 [documentation](%s) 将教你如何配置机器人！"
+			"docs": "想了解更多？查阅我们的 [帮助文档](%s) 学习如何深度配置机器人！"
 		},
 		"threads": {
-			"no_notification_channel": "您必须提供(设置)一个工单通知频道",
+			"no_notification_channel": "您必须设置一个工单通知频道",
 			"notification_channel_type": "工单通知频道必须是文本频道",
 			"success": "子区模式已启用",
 			"disabled": "子区模式已关闭"
@@ -379,135 +379,135 @@
 		"join_thread": {
 			"closed_ticket": "工单已经被关闭",
 			"no_permission": "你没有看这个工单的权限",
-			"already_joined": "你已经加入了<#%d>这个工单",
+			"already_joined": "您已经加入了工单 <#%d>",
 			"success": "将您添加到工单： <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "子区不能在公告频道创建",
+		"thread_in_announcement_channel": "无法在公告频道中创建子区",
 		"panel_force_disabled": "此面板已被禁用。请询问服务器管理员以重新激活付费，并运行 %s 以重新启用此面板。",
 		"panel_disabled": "服务器管理员已禁用此类型的工单",
 		"acl": {
 			"no_allow_rules": "已禁止所有身份组打开此Ticket的权限",
 			"deny_listed": "你无法打开此Ticket，因为你有身份组：<@&%d>",
 			"not_allow_listed": {
-				"multiple": "你需要以下任意一个身份组才能打开这个Ticket：%s",
-				"single": "你需要以下身份组才能打开此Ticket：%s"
+				"multiple": "您需要具备以下任意身份组才能开启此工单：%s",
+				"single": "您需要具备以下身份组才能开启此工单：%s"
 			}
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "选择您想要提出的 GDPR 请求类型：",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **记录删除选项**\n-# _从您拥有的服务器中删除记录_",
+			"message": "### **消息匿名化选项**\n-# _将您在选定服务器记录中的消息匿名化_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **重要信息**\n* 删除操作是**永久性**的，无法撤销\n* 您只能从**您**拥有的服务器中删除记录\n* 只有**您**的消息才会在记录中被匿名化\n* 请求最多可能需要 **30 天** 才能完成\n* 您的请求将在**队列**中处理",
+		"resources": "### **资源**\n[什么是 GDPR？](%s)\n[删除权](%s)\n[访问权](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "来自服务器的所有记录",
+			"specific_transcripts": "特定记录",
+			"all_messages": "您在服务器中的所有消息",
+			"specific_messages": "您在特定工单中的消息"
 		},
-		"language_option": "Language",
+		"language_option": "语言",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "从服务器中删除所有记录",
+			"specific_transcripts": "删除特定记录",
+			"all_messages": "匿名化您在服务器中的消息",
+			"specific_messages": "匿名化您在特定工单中的消息",
+			"select_server": "选择一个服务器",
+			"select_servers": "选择一个或多个服务器",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "服务器 ID",
+				"placeholder": "输入服务器 ID"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "服务器 IDs",
+				"placeholder": "输入用逗号分隔的服务器 ID（例如：1071167333265047653, 1412752753348055111）"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "工单 IDs",
+				"placeholder": "输入用逗号分隔的工单 ID（例如：123, 456, 789）"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"title": "需要确认 GDPR 操作",
+			"all_transcripts": "**请求类型：** 从您拥有的服务器中删除所有记录\n**服务器：** %s",
+			"all_transcripts_multi": "**请求类型：** 从您拥有的服务器中删除所有记录\n**服务器：**\n* %s",
+			"specific_transcripts": "**请求类型：** 从服务器中删除特定记录\n**服务器：** %s\n**工单 ID：** %s",
+			"all_messages": "**请求类型：** 匿名化您在选定服务器中的所有消息\n**服务器：** %s",
+			"all_messages_multi": "**请求类型：** 匿名化您在选定服务器中的所有消息\n**服务器：**\n* %s",
+			"specific_messages": "**请求类型：** 匿名化您在特定工单中的消息\n**服务器：** %s\n**工单 ID：** %s",
+			"warning": "\n\n⚠️ **警告：** 此操作是永久性的，无法撤销。\n\n您是否理解并接受此操作是永久性的？",
+			"button": "确认 - 我理解"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"title": "GDPR 请求已排队",
+			"all_transcripts": "**请求类型：** 从服务器中删除所有记录\n**服务器：** %s",
+			"all_transcripts_multi": "**请求类型：** 从服务器中删除所有记录\n**服务器：**\n* %s",
+			"specific_transcripts": "**请求类型：** 删除特定记录\n**服务器：** %s\n**工单 ID：** %s",
+			"all_messages": "**请求类型：** 匿名化您在服务器中的所有消息\n**服务器：** %s",
+			"all_messages_multi": "**请求类型：** 匿名化您在服务器中的所有消息\n**服务器：**\n* %s",
+			"specific_messages": "**请求类型：** 匿名化您在特定工单中的消息\n**服务器：** %s\n**工单 ID：** %s",
+			"footer": "\n\n您的请求已排队等待处理。\n根据记录的数量，处理可能需要一些时间。"
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"title": "GDPR 请求已完成",
+			"all_transcripts": "**请求类型：** 从服务器中删除所有记录\n**服务器：** %s\n**已删除的记录：** %d",
+			"all_transcripts_multi": "**请求类型：** 从服务器中删除所有记录\n**服务器：**\n* %s\n**已删除的记录：** %d",
+			"specific_transcripts": "**请求类型：** 删除特定记录\n**服务器：** %s\n**已删除的记录：** %d",
+			"all_messages": "**请求类型：** 匿名化您在服务器中的所有消息\n**服务器：** %s\n**已匿名化的消息：** %d",
+			"all_messages_multi": "**请求类型：** 匿名化您在服务器中的所有消息\n**服务器：**\n* %s\n**已匿名化的消息：** %d",
+			"specific_messages": "**请求类型：** 匿名化您在特定工单中的消息\n**服务器：** %s\n**已匿名化的消息：** %d",
+			"error": "\n\n**⚠️ 错误：** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "⚠️ 您的 GDPR 请求遇到错误：%s",
+			"no_data": "ℹ️ 您的 GDPR 请求已处理。未找到任何数据。",
+			"success": "✅ 您的 GDPR 请求已成功处理。"
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"no_servers": "未找到您作为所有者且包含记录的服务器。",
+			"invalid_server_id": "提供的服务器 ID 无效。",
+			"invalid_ticket_ids": "提供的工单 ID 无效。请输入用逗号分隔的数字工单 ID（例如：123, 456, 789）。",
+			"not_owner": "您必须是服务器所有者才能删除记录。",
+			"server_not_found": "未找到服务器。",
+			"queue_failed": "无法排队 GDPR 请求。请稍后重试。",
+			"worker_offline": "GDPR 处理服务目前不可用。请稍后重试，如果此问题持续存在，请联系支持人员。"
 		}
 	},
 	"errors": {
-		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
-		"unknown_guild": "Could not find the server.",
-		"unknown_member": "The user could not be found. They may have left the server or been banned.",
-		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
-		"unknown_user": "user could not be found.",
-		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
-		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
-		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
-		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
-		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
-		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"unknown_channel": "找不到所需的频道：它一定是被删除了。\n\n请要求服务器管理员访问 [控制面板](%s) 并验证所有频道设置是否配置正确。",
+		"unknown_guild": "找不到服务器。",
+		"unknown_member": "找不到该用户。他们可能已离开服务器或被封禁。",
+		"unknown_message": "您尝试互动的消息已被删除。\n\n请使用其他消息再次尝试该操作。",
+		"unknown_user": "找不到该用户。",
+		"unknown_role": "执行此操作所需的身份组已不存在。\n\n请要求服务器管理员访问 [控制面板](%s) 并重新配置身份组设置。",
+		"unknown_category": "找不到所需的类别：它一定是被删除了。\n\n请要求服务器管理员访问 [控制面板](%s) 并为此工单面板分配一个有效的频道类别。",
+		"unknown_interaction": "此互动已过期。\n\n请重新尝试该操作。",
+		"max_webhooks": "服务器已达到 Webhook 的最大数量限制。\n\n请要求服务器管理员移除一些未使用的 Webhook 并重试。",
+		"max_channels": "无法开启您的工单，因为此服务器已达到 Discord 的频道数量限制 (500)。\n\n请要求服务器管理员在开启新工单之前关闭一些工单或删除一些未使用的频道。",
+		"interaction_acknowledged": "此互动已被处理。\n\n如果您需要再次执行此操作，请发起新的互动。",
 		"missing_permissions": {
-			"title": "I am missing the following permissions required to perform this action",
-			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+			"title": "我缺少执行此操作所需的以下权限",
+			"body": "请将这些权限分配给机器人，或者分配 `管理员` 权限并重试。\n请访问我们的 [文档](%s) 以了解为什么需要各项权限。"
 		},
-		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
-		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
-		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
-		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
-		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
-		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
-		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
-		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
-		"invalid_form": "The action could not be completed due to invalid input.",
-		"thread_locked": "Your ticket could not be opened because the ticket thread is locked.\n\nPlease ask a server administrator to unlock the ticket thread.",
-		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or threads.",
-		"timed_out": "The operation timed out, please try again.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
-		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"missing_access": "我缺少执行此操作所需的权限。\n\n请将必要的权限分配给机器人，或者分配 `管理员` 权限并重试。\n请访问我们的 [文档](%s) 以了解为什么需要各项权限。",
+		"invalid_length": "一个或多个字段太短或太长。\n\n请要求服务器管理员访问 [控制面板](%s) 并验证所有输入，确保所有字段符合所需的长度限制。",
+		"required_field": "必填字段缺失或为空。\n\n请要求服务器管理员访问 [控制面板](%s) 并验证所有必填字段已填写。",
+		"invalid_channel_type": "此频道的类型对于该操作无效。\n\n请要求服务器管理员访问 [控制面板](%s) 并将有效的频道分配给工单面板。",
+		"invalid_category": "频道类别无效，它一定是被删除了。\n\n请要求服务器管理员访问 [控制面板](%s) 并将有效的类别分配给工单面板。",
+		"invalid_id": "机器人配置中提供了无效的 ID。\n\n请要求服务器管理员访问 [控制面板](%s) 并验证所有类别、频道和身份组的 ID 是否正确。",
+		"invalid_characters": "输入包含无效字符。\n\n请仅使用字母、数字、连字符和下划线。",
+		"invalid_choice": "提供了一个无效的选项。\n\n请要求服务器管理员访问 [控制面板](%s) 并验证所有设置是否正确。",
+		"invalid_form": "由于输入无效，操作无法完成。",
+		"thread_locked": "无法开启您的工单，因为工单子区已被锁定。\n\n请要求服务器管理员解锁工单子区。",
+		"max_active_threads": "无法开启您的工单，因为此频道中活动子区的数量已达到上限。\n\n请要求服务器管理员关闭一些工单或子区。",
+		"timed_out": "操作超时，请重试。",
+		"rate_limited": "您受到速率限制。请在 %s 后重试。",
+		"rate_limited_global": "Discord 当前负载较高（全局速率限制）。请在 %s 后重试。",
+		"general": "执行此操作时出错。",
+		"error_id": "错误 ID"
 	}
 }
