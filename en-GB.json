@@ -192,7 +192,7 @@
 			"disabled": "The `%s` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
 				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
