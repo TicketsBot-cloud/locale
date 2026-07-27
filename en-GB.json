@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
 	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
 	"commands.blacklist.self": "You cannot blacklist yourself",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Your ticket will be handled by %s",
 	"commands.invite": "[Click here](<%s>)",
 	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
