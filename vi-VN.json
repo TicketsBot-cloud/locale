@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Bạn cần nhắc đến một thành viên hoặc một vai trò để trao quyền đại diện hỗ trợ viên",
 	"commands.blacklist.no_members": "Bạn cần nhắc đề cập một thành viên để chuyển đổi trạng thái trong danh sách đen",
 	"commands.blacklist.self": "Bạn không thể thêm chính mình vào danh sách đen",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "%s sẽ xử lý phiếu hỗ trợ của bạn",
 	"commands.invite": "[Ấn vào đây](<%s>)",
 	"commands.language.invalid": "Bạn cần ghi rõ mã của ngôn ngữ hoặc cờ hiệu. Các ngôn ngữ đang khả dụng:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Gửi một tin nhắn hỏi thành viên xác nhận có thể đóng phiếu hỗ trợ này",
 	"close.reason_too_long": "Lý do không được dài hơn 255 ký tự",
 	"commands.close_request.success": "Yêu cầu đóng đã được gửi đi thành công",
-	"commands.close_request.no_reason": "<@%d> đã yêu cầu đóng phiếu hỗ trợ này.\n\nHãy đồng ý hoặc từ chối yêu cầu bằng các nút bên dưới.",
-	"commands.close_request.with_reason": "<@%d> đã yêu cầu đóng phiếu hỗ trợ này. Lý do:\n```\n%s\n```\nHãy đồng ý hoặc từ chối yêu cầu bằng các nút bên dưới.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Chỉ người mở phiếu hỗ trợ này mới có thể trả lời yêu cầu đóng phiếu hỗ trợ",
 	"commands.close_request.denied": "<@%d> đã từ chối yêu cầu đóng phiếu hỗ trợ",
 	"generic.error": "Lỗi",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> đã bị xóa khỏi <#%d>",
 	"commands.remove.role_thread": "Vai trò không thể được thêm vào phiếu hỗ trợ chủ đề do giới hạn của Discord",
 	"open.ratelimited": "Các phiếu hỗ trợ đang được mở quá nhanh trong hội này",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Vì giới hạn của Discord, không thể nhận phiếu hỗ trợ bên trong kênh Chủ Đề",
 	"generic.join_support_server": "Tham gia máy chủ hỗ trợ",
@@ -192,7 +195,7 @@
 			"disabled": "Lệnh '%s' đã bị tắt trong máy chủ này, hãy sử dụng bảng tạo phiếu hỗ trợ để mở",
 			"threads": {
 				"cant_see_parent_channel": "Không thể thêm <@%d> vào phiếu hỗ trợ: Hãy chắc chắn họ có quyền để xem kênh chứa chủ đề (<#%d>)",
-				"cant_message_in_threads": "Bạn đang thiếu quyền \"Gửi Tin Nhắn trong Chủ Đề\", cần có quyền này để mở phiếu hỗ trợ. Vui lòng hỏi quản trị viên để thêm quyền lợi cho bạn và thử lại sau."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
