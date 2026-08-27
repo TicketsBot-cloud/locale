@@ -8,7 +8,7 @@
 	"commands.addsupport.no_members": "サポート担当者権限を付与するには、ユーザーまたはロールを指定する必要があります。",
 	"commands.blacklist.no_members": "ブラックリストの状態を切り替えるには、ユーザーにメンションする必要があります。",
 	"commands.blacklist.self": "自分自身をブラックリストに追加することはできません",
-	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
+	"commands.claim.already_claimed": "このチケットはすでに%sによって取得されています。",
 	"commands.claim.success": "あなたのチケットは %s が対応します。",
 	"commands.invite": "[ここをクリック](<%s>)",
 	"commands.language.invalid": "言語コードまたはフラグを指定する必要があります。利用可能な言語:\\n%s",
@@ -107,8 +107,8 @@
 	"close.reason_too_long": "理由を 255 文字以上にすることはできません。",
 	"commands.close_request.success": "クローズリクエストが正常に送信されました。",
 	"commands.close_request.close_at": "Automatically closes at",
-	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
-	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
+	"commands.close_request.intro": "<@%d>は、このチケットをクローズすることを要求しました。",
+	"commands.close_request.prompt": "下のボタンで使用を許可するか拒否してください。",
 	"commands.close_request.no_permission": "チケットを開いたユーザーのみがクローズリクエストに応答できます",
 	"commands.close_request.denied": "<@%d> がクローズリクエストを拒否しました。",
 	"generic.error": "エラー",
@@ -167,7 +167,7 @@
 	"commands.remove.success": "<@%s>は<#%d>から削除されました。",
 	"commands.remove.role_thread": "Discordの制限により、スレッドチケットから役割を削除することはできません。",
 	"open.ratelimited": "このサーバーでのチケットのオープンが速すぎます。",
-	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
+	"open.feature_unavailable": "チケットの作成は一時的にご利用いただけません。しばらくしてからもう一度お試しください。",
 	"open.panel_cooldown": "このパネルに対するクールダウン中です。%s後に再度お試しください。",
 	"commands.claim.thread": "Discordの制限により、チケットはスレッドをサポートしていません。",
 	"generic.join_support_server": "サポートサーバーに参加",
@@ -195,7 +195,7 @@
 			"disabled": "このサーバーでは`%s`コマンドは無効です：チケットパネルを使用してチケットを開いてください。",
 			"threads": {
 				"cant_see_parent_channel": "チケットに <@%d> を追加できませんでした: スレッドの親チャンネルを表示する権限があることを確認してください (<#%d>)",
-				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
+				"cant_message_in_threads": "<#%d> で「スレッドでメッセージを送信」権限がありません。これはチケットを開くために必要です。サーバー管理者に、ロールまたはチャンネルの権限設定経由でこの権限を付与してもらい、もう一度お試しください。"
 			}
 		},
 		"switch_panel": {
