@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Tu precisas de mencionar um utilizador ou nomear um cargo para lhe concederes privilégios de representante de suporte",
 	"commands.blacklist.no_members": "Tu precisas de mencionar um utilizador para alterar o estado da lista negra para",
 	"commands.blacklist.self": "Não te podes colocar a ti mesmo na lista negra",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "O teu bilhete será tratado por %s",
 	"commands.invite": "[Clica aqui](<%s>)",
 	"commands.language.invalid": "Tu precisas de especificar um código de idioma ou bandeira. Idiomas disponíveis:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Envia uma mensagem ao utilizador a pedir que confirme que o bilhete pode ser fechado",
 	"close.reason_too_long": "A razão não pode ter mais de 255 caracteres",
 	"commands.close_request.success": "Pedido de encerramento enviado com sucesso",
-	"commands.close_request.no_reason": "<@%d> pediu para fechar este bilhete.\n\nPor favor, aceita ou recusa utilizando os botões abaixo.",
-	"commands.close_request.with_reason": "<@%d> pediu para fechar este bilhete. Razão:\n```\n%s\n```\nPor favor, aceita ou recusa utilizando os botões abaixo.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Só o utilizador que abriu este bilhete pode responder ao pedido de encerramento",
 	"commands.close_request.denied": "<@%d> recusou o pedido de encerramento",
 	"generic.error": "Erro",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> foi removido com sucesso de <#%d>",
 	"commands.remove.role_thread": "Devido a limitações do Discord, cargos não podem ser removidos dos bilhetes por tópicos",
 	"open.ratelimited": "Bilhetes estão a ser abertos demasiado rápido neste servidor",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Tu estás em cooldown para este painel. Por favor, tenta novamente %s.",
 	"commands.claim.thread": "Devido a limitações do Discord, reivindicar não é possível em tópicos",
 	"generic.join_support_server": "Entrar no servidor de suporte",
@@ -192,7 +195,7 @@
 			"disabled": "O comando `%s` está desativado neste servidor: por favor, usa um painel de bilhete para abrir um bilhete",
 			"threads": {
 				"cant_see_parent_channel": "Não foi possível adicionar <@%d> a este bilhete: Assegura-te que ele/a tem permissão para ver o canal principal do tópico (<#%d>)",
-				"cant_message_in_threads": "Tu não tens a permissão de `Enviar Mensagens Em Tópicos`, o que é necessário para abrir um bilhete. Por favor, pede a um administrador do servidor para te dar permissão e tenta outra vez."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
