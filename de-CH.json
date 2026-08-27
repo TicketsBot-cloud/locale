@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Du muesch Benutzer bzw. Rollene erwähne, um sie als Support-Mitarbeiter hinzuezfüege",
 	"commands.blacklist.no_members": "Du muesch en Benutzer erwähne, um ihn vo de Sperrliste z'lösche oder zu de Sperrliste hinzuezfüege",
 	"commands.blacklist.self": "Du chasch Dich nöd selber uf d'Sperrliste tue",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Dis Ticket wird vo %s bearbeitet",
 	"commands.invite": "[Da klicke](<%s>)",
 	"commands.language.invalid": "Du muesch en Sprach-Code oder e Flagge aageh. Verfüegbari Sprache:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Schickt e Nachricht, wo de Benutzer betet wird, s'Ticket z'schlüsse",
 	"close.reason_too_long": "De Grund dörf nöd länger als 255 Zeiche si",
 	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> het s'Schlüsse vom Ticket aagforderet.\n\nBitte akzeptier oder verweigere mit de untestehende Chnöpf.",
-	"commands.close_request.with_reason": "<@%d> het s'Schlüsse vom Ticket aagforderet. Grund:\n```\n%s\n```\nBitte akzeptier oder verweigere mit de untestehende Chnöpf.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Nur de Benutzer, wo s'Ticket uufgmacht het, cha uf d'Schlüssigsaafrag antworte",
 	"commands.close_request.denied": "<@%d> het d'Schlüssigsaafrag abglehnt",
 	"generic.error": "Fehler",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Tickets werdet z'schnell i dem Server göffnet",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Ufgrund vo Discord-Iischränkige unterstützt s'Beaspruche kei Threads",
 	"generic.join_support_server": "Tritt am Support-Server bi",
@@ -192,7 +195,7 @@
 			"disabled": "De `%s` Befehl isch uf dem Server deaktiviert: Bitte bruuch en Ticket-Panel, um es Ticket uufzmache",
 			"threads": {
 				"cant_see_parent_channel": "<@%d> het nöd chöne zum Ticket hinzuegfüegt werde: Stell sicher, dass de Benutzer Recht het, de Haupt-Kanal (<#%d>) vom Thread z'gseh",
-				"cant_message_in_threads": "Dir fehlt d'Berechtigung `Nachrichten in Threads senden`, wo benötigt wird, um es Ticket uufzmache. Bitte frög en Server-Administrator, wo Dir d'Berechtigung cha geh und versuechs nomal."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
