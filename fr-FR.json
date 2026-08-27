@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui accorder les privilèges de représentant d'assistance.",
 	"commands.blacklist.no_members": "Vous devez mentionner un utilisateur pour changer son état sur la liste noire",
 	"commands.blacklist.self": "Vous ne pouvez pas vous mettre vous-même sur liste noire",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Votre ticket sera traité par %s",
 	"commands.invite": "[Cliquez ici](<%s>)",
 	"commands.language.invalid": "Vous devez spécifier un code de langue ou un drapeau. Langues disponibles :\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Envoie un message demandant à l'utilisateur de confirmer la fermeture du ticket",
 	"close.reason_too_long": "La raison ne peut pas excéder 255 caractères",
 	"commands.close_request.success": "La demande de fermeture a été envoyée avec succès",
-	"commands.close_request.no_reason": "<@%d> a demandé la fermeture du ticket.\n\nVeuillez accepter ou refuser en utilisant les boutons ci-dessous.",
-	"commands.close_request.with_reason": "<@%d> a demandé la fermeture du ticket. Raison :\n```%s```\n\nVeuillez accepter ou refuser en utilisant les boutons ci-dessous.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Seul l'utilisateur qui a ouvert le ticket peut répondre à la demande de clôture",
 	"commands.close_request.denied": "<@%d> a refusé la demande de clôture",
 	"generic.error": "Erreur",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> a été retiré de <#%d>",
 	"commands.remove.role_thread": "En raison des limitations de Discord, les rôles ne peuvent pas être retirés des tickets qui sont des fils de discussion",
 	"open.ratelimited": "Des tickets sont ouverts trop rapidement sur ce serveur",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Ce panneau est temporisé. Veuillez réessayer %s.",
 	"commands.claim.thread": "En raison des limitations de Discord, il n'est pas possible de réclamer les fils de discussion",
 	"generic.join_support_server": "Rejoindre le serveur d'assistance",
@@ -192,7 +195,7 @@
 			"disabled": "La commande `%s` est désactivée sur ce serveur : veuillez utiliser un panneau de tickets pour ouvrir un ticket",
 			"threads": {
 				"cant_see_parent_channel": "Impossible d'ajouter <@%d> au ticket: Assurez-vous que cet utilisateur a la permission de voir le salon parent du fil de discussion (<#%d>)",
-				"cant_message_in_threads": "Il vous manque la permission `Envoyer des messages dans les fils`. Celle-ci est nécessaire pour ouvrir un ticket. Veuillez demander à un administrateur du serveur de vous accorder cette permission, puis réessayez."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
