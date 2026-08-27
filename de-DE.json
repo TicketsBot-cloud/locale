@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Du musst Benutzer bzw. Rollen erwähnen, um sie als Support-Teammitglied hinzuzufügen",
 	"commands.blacklist.no_members": "Du musst einen Benutzer erwähnen, um ihn von der Sperrliste zu löschen oder zur Sperrliste hinzuzufügen",
 	"commands.blacklist.self": "Du kannst Dich nicht selbst auf die Sperrliste setzen",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Dein Ticket wird von %s bearbeitet",
 	"commands.invite": "[Hier klicken](<%s>)",
 	"commands.language.invalid": "Du musst einen Sprachcode oder eine Flagge angeben. Verfügbare Sprachen:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Sendet eine Nachricht, in der der Benutzer gebeten wird, das Ticket zu schließen",
 	"close.reason_too_long": "Der Grund darf nicht länger als 255 Zeichen sein",
 	"commands.close_request.success": "Deine Schließanfrage wurde erfolgreich gesendet",
-	"commands.close_request.no_reason": "<@%d> hat das Schließen dieses Tickets angefordert.\n\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
-	"commands.close_request.with_reason": "<@%d> hat das Schließen dieses Tickets angefordert. Grund:\n```\n%s\n```\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schließanfrage antworten",
 	"commands.close_request.denied": "<@%d> hat die Schließanfrage abgelehnt",
 	"generic.error": "Fehler",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> wurde von <#%d> entfernt",
 	"commands.remove.role_thread": "Aufgrund von Discord-Einschränkungen können Rollen nicht von Thread-Tickets entfernt werden",
 	"open.ratelimited": "Tickets werden auf diesem Server zu schnell geöffnet",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Du musst etwas warten, bevor Du ein weiteres Ticket dieses Typs öffnen kannst. Versuche es %s erneut.",
 	"commands.claim.thread": "Aufgrund von Discord-Einschränkungen unterstützt das Beanspruchen keine Threads",
 	"generic.join_support_server": "Trete dem Support-Server bei",
@@ -192,7 +195,7 @@
 			"disabled": "Der Befehl `%s` ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen",
 			"threads": {
 				"cant_see_parent_channel": "<@%d> konnte nicht zum Ticket hinzugefügt werden: Stelle sicher, dass der Benutzer die Berechtigung hat, den Hauptkanal (<#%d>) des Threads zu sehen",
-				"cant_message_in_threads": "Dir fehlt die Berechtigung `Nachrichten in Threads senden`, die benötigt wird, um ein Ticket zu öffnen. Bitte frage einen Serveradministrator, der Dir diese Berechtigung erteilen kann und versuche es erneut."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
