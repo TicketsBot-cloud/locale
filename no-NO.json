@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Du må oppgi en bruker eller rolle å gi støttekontaktprivilegier til",
 	"commands.blacklist.no_members": "Du må oppgi en bruker å endre svartelistestatusen til",
 	"commands.blacklist.self": "Du kan ikke svarteliste deg selv",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Din ticket vill bli behandlet av %s",
 	"commands.invite": "[Klikk her](<%s>)",
 	"commands.language.invalid": "Du må oppgi en språkkode eller et flagg. Tilgjengelige språk:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Sender en melding som spør brukeren om å bekrefte at ticketen kan lukkes",
 	"close.reason_too_long": "Årsaken kan ikke være lengre enn 255 tegn",
 	"commands.close_request.success": "Forespørsel om lukking ble sendt",
-	"commands.close_request.no_reason": "<@%d> har bedt om å lukke denne ticketen.\n\nVennligst godta eller avslå ved bruk av knappene nedenfor.",
-	"commands.close_request.with_reason": "<@%d> har bedt om å lukke denne ticketen. Årsak:\n```\n%s\n```\nVennligst aksepter eller avslå ved bruk av knappene nedenfor.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Bare brukeren som åpnet ticketen kan svare på den lukke forespørselen",
 	"commands.close_request.denied": "<@%d> avviste lukkeforespørselen",
 	"generic.error": "Feil",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> har blitt fjernet fra <#%d>",
 	"commands.remove.role_thread": "På grunn av Discord-begrensninger kan ikke roller fjernes fra trådforespørsler",
 	"open.ratelimited": "Tickets åpnes for raskt i denne serveren",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Du er i nedkjølingsfasen for dette panelet. Prøv igjen %s.",
 	"commands.claim.thread": "På grunn av Discord begrensninger støtter ikke threads claming",
 	"generic.join_support_server": "Bli med i support serveren",
@@ -192,7 +195,7 @@
 			"disabled": "`%s` kommandoen er deaktivert i denne serveren: Vennligst bruk ticket panelet for å åpne en ticket",
 			"threads": {
 				"cant_see_parent_channel": "Kunne ikke legge til <@%d> i ticketen: Pass på at de har tilganger til å se kanalen til tråden (<#%d>)",
-				"cant_message_in_threads": "Du mangler \"Send Meldinger i Tråder\" tillatelse, som kreves for å åpne en sak. Vennligst be Server Administratoren om å gi deg tilgang, og prøv på nytt"
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
