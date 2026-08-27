@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Sinun on mainittava käyttäjä tai rooli, jolle myönnät tukihenkilön oikeudet",
 	"commands.blacklist.no_members": "Sinun täytyy mainita käyttäjä vaihtaaksesi mustan listan tilaa",
 	"commands.blacklist.self": "Et voi mustalistata itseäsi",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "%s käsittelee sinun lippusi",
 	"commands.invite": "[Klikkaa tästä](<%s>)",
 	"commands.language.invalid": "Sinun täytyy määrittää kielikoodi tai lippu. Saatavilla olevat kielet:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Lähettää viestin, jossa pyydetään käyttäjää vahvistamaan, että lipuke voidaan sulkea",
 	"close.reason_too_long": "Syyssä ei voi olla yli 255-kirjainta",
 	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> on pyytänyt tämän lipun sulkemista.\n\nHyväksy tai hylkää alla olevien painikkeiden avulla.",
-	"commands.close_request.with_reason": "<@%d> on pyytänyt tämän lipun sulkemista. Syyllä:\n```\n%s\n```\nHyväksy tai hylkää alla olevista napeista.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Vain käyttäjä, joka on avannut lipun voi vastata sulkemis pyyntöön",
 	"commands.close_request.denied": "<@%d> sulkemis pyyntä hylätty",
 	"generic.error": "Virhe",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Lipukkeet avataan liian nopeasti tällä palvelimella",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Discordin rajoitusten vuoksi lunastaminen ei tue ketjuja",
 	"generic.join_support_server": "Liity Tukipalvelimelle",
@@ -192,7 +195,7 @@
 			"disabled": "`%s` komento on poistettu käytöstä tällä palvelimella: ole hyvä ja käytä lipukepaneelia avataksesi lipukkeen",
 			"threads": {
 				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
-				"cant_message_in_threads": "Sinulta puuttuu `Lähetä viestejä ketjuissa` oikeus, joka vaaditaan lipukkeen avaamiseksi. Pyydä palvelimen järjestelmänvalvojaa antamaan tämä lupa sinulle ja yritä uudelleen."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
