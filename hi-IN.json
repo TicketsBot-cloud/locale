@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "आपको एक उपयोगकर्ता का उल्लेख करना होगा या एक भूमिका का नाम देना होगा ताकि वह समर्थन प्रतिनिधि विशेषाधिकार प्रदान कर सके",
 	"commands.blacklist.no_members": "ब्लैकलिस्ट स्थिति को बदलने के लिए आपको एक उपयोगकर्ता का उल्लेख करना होगा",
 	"commands.blacklist.self": "आप खुद को ब्लैकलिस्ट नहीं कर सकते",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "आपका टिकट %s द्वारा नियंत्रित किया जाएगा",
 	"commands.invite": "[यहां क्लिक करें](<%s>)",
 	"commands.language.invalid": "आपको एक भाषा कोड या ध्वज निर्दिष्ट करने की आवश्यकता है। उपलब्ध भाषाएँ:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "एक संदेश भेजता है जिसमें उपयोगकर्ता से यह पुष्टि करने के लिए कहा जाता है कि क्या टिकट बंद किया जा सकता है",
 	"close.reason_too_long": "कारण 255 कैरेक्टर से लंबा नहीं हो सकता",
 	"commands.close_request.success": "क्लोज़ रिक्वेस्ट सफलतापूर्वक भेज दी गई है",
-	"commands.close_request.no_reason": "<@%d> ने इस टिकट को बंद करने का अनुरोध किया है।\n\nकृपया नीचे दिए गए बटनों का उपयोग करके स्वीकार या अस्वीकार करें।",
-	"commands.close_request.with_reason": "<@%d> ने इस टिकट को बंद करने का अनुरोध किया है। कारण:\n```\n%s\n```\nकृपया नीचे दिए गए बटनों का उपयोग करके स्वीकार या अस्वीकार करें।",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "सिर्फ वही यूजर जिसने टिकट खोला है, क्लोज रिक्वेस्ट का जवाब दे सकता है",
 	"commands.close_request.denied": "<@%d> ने क्लोज रिक्वेस्ट को अस्वीकार कर दिया है",
 	"generic.error": "एरर",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> को <#%d> से हटा दिया गया है",
 	"commands.remove.role_thread": "डिस्कॉर्ड की सीमाओं के कारण, थ्रेड टिकटों से भूमिकाएँ हटाई नहीं जा सकतीं",
 	"open.ratelimited": "इस सर्वर में टिकट बहुत तेजी से खुल रहे हैं",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "आप इस पैनल के लिए कोल्डाउन पर हैं। कृपया %s बाद फिर से प्रयास करें।",
 	"commands.claim.thread": "डिस्कॉर्ड की सीमाओं के कारण, थ्रेड्स में 'क्लेम' करने की सुविधा उपलब्ध नहीं है",
 	"generic.join_support_server": "सपोर्ट सर्वर से जुड़ें",
@@ -192,7 +195,7 @@
 			"disabled": "इस सर्वर में `%s` कमांड डिसेबल है: कृपया टिकट खोलने के लिए टिकट पैनल का उपयोग करें",
 			"threads": {
 				"cant_see_parent_channel": "टिकट में <@%d> को नहीं जोड़ा जा सका: सुनिश्चित करें कि उनके पास थ्रेड के पेरेंट चैनल (<#%d>) को देखने की अनुमति है",
-				"cant_message_in_threads": "आपके पास `Send Messages in Threads` परमिशन नहीं है, जो टिकट खोलने के लिए ज़रूरी है। कृपया सर्वर एडमिनिस्ट्रेटर से यह परमिशन देने के लिए कहें और फिर से कोशिश करें |"
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
