@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Debes mencionar un usuario o nombrar un rol para otorgarle privilegios de representante de soporte",
 	"commands.blacklist.no_members": "Debes mencionar a un usuario para cambiar su estado en la lista negra",
 	"commands.blacklist.self": "No puedes ponerte en la lista negra",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Su ticket será manejado por %s",
 	"commands.invite": "[Haga clic aquí](<%s>)",
 	"commands.language.invalid": "Debes especificar un código de idioma o una bandera. Idiomas disponibles:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Envía un mensaje pidiendo al usuario que confirme que el ticket puede cerrarse",
 	"close.reason_too_long": "La razón no puede tener una longitud superior a 255 caracteres",
 	"commands.close_request.success": "La solicitud de cierre fue enviada con éxito",
-	"commands.close_request.no_reason": "<@%d> ha solicitado cerrar este ticket.\n\nPor favor acepte o niegue usando los botones de abajo.",
-	"commands.close_request.with_reason": "<@%d> ha solicitado cerrar este ticket. Razón:\n```\n%s\n```\nPor favor acepte o niegue usando los botones de abajo.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Solo el usuario que abrió el ticket puede responder a la solicitud de cierre",
 	"commands.close_request.denied": "<@%d> rechazó la solicitud de cierre",
 	"generic.error": "Error",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> ha sido removid@ de <#%d>",
 	"commands.remove.role_thread": "Debido a limitaciones de Discord, los roles no pueden ser removidos de los tickets de hilo",
 	"open.ratelimited": "Se están abriendo tickets demasiado rápido en este servidor",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Estás en tiempo de espera para este panel. Por favor, inténtalo de nuevo %s.",
 	"commands.claim.thread": "Por limitaciones de Discord, el reclamo no funciona en hilos",
 	"generic.join_support_server": "Únete al Servidor de Soporte",
@@ -192,7 +195,7 @@
 			"disabled": "El comando `%s` está deshabilitado en este servidor: por favor usa un panel de tickets para abrir un ticket",
 			"threads": {
 				"cant_see_parent_channel": "No se pudo agregar a <@%d> al ticket: Asegúrese de que tenga permiso para ver el canal principal del hilo (<#%d>)",
-				"cant_message_in_threads": "Te falta el permiso `Enviar mensajes en hilos`, que es necesario para abrir un ticket. Por favor, pide a un administrador del servidor que te dé este permiso e inténtalo de nuevo."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
