@@ -106,7 +106,7 @@
 	"help.close_request": "チケットのクローズをユーザーに確認するメッセージを送信します。",
 	"close.reason_too_long": "理由を 255 文字以上にすることはできません。",
 	"commands.close_request.success": "クローズリクエストが正常に送信されました。",
-	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.close_at": "自動的に閉じます：",
 	"commands.close_request.intro": "<@%d>は、このチケットをクローズすることを要求しました。",
 	"commands.close_request.prompt": "下のボタンで使用を許可するか拒否してください。",
 	"commands.close_request.no_permission": "チケットを開いたユーザーのみがクローズリクエストに応答できます",
