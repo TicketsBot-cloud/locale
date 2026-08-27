@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Omeniti morate uporabnika ali poimenovati vlogo, ki ji želite podeliti privilegije predstavnika podpore",
 	"commands.blacklist.no_members": "Omeniti morate uporabnika, za katerega želite spremeniti status črnega seznama",
 	"commands.blacklist.self": "Ne morete se uvrstiti na črno",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Vašo vstopnico bo obravnaval %s",
 	"commands.invite": "[Kliknite tukaj](<%s>)",
 	"commands.language.invalid": "Določiti morate jezikovno kodo ali zastavico. Razpoložljivi jeziki:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
 	"close.reason_too_long": "The reason cannot be longer than 255 characters",
 	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
-	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
 	"commands.close_request.denied": "<@%d> denied the close request",
 	"generic.error": "Error",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Tickets are being opened too quickly in this server",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
 	"generic.join_support_server": "Join Support Server",
@@ -192,7 +195,7 @@
 			"disabled": "The `%s` command is disabled in this server: please use a ticket panel to open a ticket",
 			"threads": {
 				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
