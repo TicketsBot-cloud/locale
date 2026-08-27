@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "您需要提及用戶或命身份組以授予支持代表權限",
 	"commands.blacklist.no_members": "您需要提及一個用戶來切換黑名單狀態",
 	"commands.blacklist.self": "你想不開是不是？幹嘛黑名單自己",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "你的問題單將由 %s 為您服務",
 	"commands.invite": "[點我邀請機器人](<%s>)",
 	"commands.language.invalid": "您需要指定語言代碼或標誌。可用語言:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "發送一條消息，讓使用者可以在正式關閉客服單前在確定一次，以免關閉錯誤，釀成悲劇。",
 	"close.reason_too_long": "關閉原因不能超過 255 個字，你是要打作文嗎？",
 	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> 已經要求關閉客服單\n\n請點擊下方按鈕以便確定關閉或是取消關閉客服單",
-	"commands.close_request.with_reason": "<@%d> 已經要求關閉客服單，因為 %s\n\n請點擊下方按鈕以便確定關閉或是取消關閉客服單",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "只有開客服單的人可以回應關閉客服單請求唷",
 	"commands.close_request.denied": "<@%d> 拒絕關閉客服單",
 	"generic.error": "發生錯誤",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "該伺服器短時間創建太多客服單，請稍後~~在~~再創建",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "礙於Discord 限制，接手客服單無法創建討論串",
 	"generic.join_support_server": "加入官方Discord",
@@ -192,7 +195,7 @@
 			"disabled": "`%s` 指令已經在這伺服器取消使用了唷",
 			"threads": {
 				"cant_see_parent_channel": "不能將 <@%d> 增加至客服單：請確保他們有權限查看討論串的父頻道（<#%d>）",
-				"cant_message_in_threads": "您缺少開啟客服單所需的「在討論串中傳送訊息」權限。請要求伺服器管理員授予您此權限，然後再試一次。"
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
