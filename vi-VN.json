@@ -80,7 +80,7 @@
 	"help.gdpr": "Quản lý yêu cầu dữ liệu GDPR",
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
 	"open.outside_support_hours": {
-		"title": "This panel is currently closed",
+		"title": "Bảng hỗ trợ hiện đang đóng",
 		"message": "Vui lòng thử lại vào khung thời gian hỗ trợ."
 	},
 	"setup.auto.category.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
@@ -168,7 +168,7 @@
 	"commands.remove.role_thread": "Vai trò không thể được thêm vào phiếu hỗ trợ chủ đề do giới hạn của Discord",
 	"open.ratelimited": "Các phiếu hỗ trợ đang được mở quá nhanh trong hội này",
 	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "Bạn đang trong thời gian chờ để sử dụng bảng hỗ trợ. Vui lòng thử lại sau %s.",
 	"commands.claim.thread": "Vì giới hạn của Discord, không thể nhận phiếu hỗ trợ bên trong kênh Chủ Đề",
 	"generic.join_support_server": "Tham gia máy chủ hỗ trợ",
 	"commands.open.guild_channel_limit": "Máy chủ Discord này đã đạt giới hạn 500 kênh",
@@ -203,8 +203,8 @@
 			"success": "Phiếu hỗ trợ này đã được chuyển sang bảng `%s' bởi <@%d>",
 			"non_thread_to_thread": "Bạn không thể chuyển đổi bảng điều khiển sử dụng kênh chủ đề từ phiếu hỗ trợ không dùng kênh chủ đề",
 			"claimer_no_access_title": "Panel Switch Blocked",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"claimer_no_access": "Người tiếp nhận phiếu hỗ trợ (<@%d>) không thể truy cập bảng hỗ trợ của phiếu.",
+			"auto_unclaimed": "Phiếu hỗ trợ đã được đổi sang bảng hỗ trợ `%s` bởi <@%d>.\n\nPhiếu hỗ trợ sẽ tự động ở trạng thái chưa tiếp nhận do <@%d> không thể truy cập vào bảng hỗ trợ mới."
 		},
 		"blacklist": {
 			"staff": "Quản lí không thể bị cho vào danh sách đen",
@@ -334,7 +334,7 @@
 			}
 		},
 		"edit": {
-			"title": "Edit Ticket Settings",
+			"title": "Tùy chỉnh phiếu hỗ trợ",
 			"description": "Below you can edit various settings for this ticket.",
 			"labels": {
 				"title": "Edit Labels",
