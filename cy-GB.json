@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Mae'n rhaid i ti enwi defnyddiwr neu rôl i roi breintiau cynrychiolydd cymorth iddyn nhw",
 	"commands.blacklist.no_members": "Mae'n rhaid i ti enwi defnyddiwr i newid statws y rhestr ddu ar ei cyfer",
 	"commands.blacklist.self": "Alli di ddim rhoi dy hun ar y rhestr ddu",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Bydd dy docyn yn cael ei drin gan %s",
 	"commands.invite": "[Cliciwch yma](<%s>)",
 	"commands.language.invalid": "Mae'n rhaid i ti nodi côd iaith neu faner. Ieithoedd sydd ar gael:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Yn anfon neges yn gofyn i'r defnyddiwr i gadarnhau bod modd cau'r tocyn",
 	"close.reason_too_long": "Ni all y rheswm fod yn hirach na 255 llythyren",
 	"commands.close_request.success": "Cafodd y cais cau ei anfon yn llwyddiannus",
-	"commands.close_request.no_reason": "Mae <@%d> wedi gofyn i cau'r tocyn hwn.\n\nDerbyn neu wrthod gan ddefnyddio'r botymau isod.",
-	"commands.close_request.with_reason": "Mae <@%d> wedi gofyn i cau'r tocyn hwn. Rheswm:\n```\n%s\n```\nDerbyn neu wrthod gan ddefnyddio'r botymau isod.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Dim ond y defnyddiwr wnaeth agor y tocyn sy'n gallu ymateb i'r cais cau",
 	"commands.close_request.denied": "Gwrthododd <@%d> y cais cau",
 	"generic.error": "Gwall",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Mae tocynnau'n cael ei hagor rhy gyflym ar y gweinydd hwn",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Oherwydd cyfyngiadau Discord, nid yn hawlio'n cefnogi edafedd",
 	"generic.join_support_server": "Ymuno â’r Gweinydd Cymorth",
@@ -192,7 +195,7 @@
 			"disabled": "Mae'r gorchymyn `%s` wedi'i analluogi yn y gweinydd hwn: defnyddio banel tocynnau i agor tocyn",
 			"threads": {
 				"cant_see_parent_channel": "Methu ychwanegu <@%d> at y tocyn: Sicrhewch fod ganddyn nhw ganiatâd i weld sianel rhiant yr edefyn (<#%d>)",
-				"cant_message_in_threads": "Rwyt ti ddim hefo yr caniatâd `Send Messages in Threads`, sydd ei angen i agor tocyn. Gofynna i weinyddwr y gweinydd roi'r caniatâd hwn i ti, ac roi gynnig arall arni."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
