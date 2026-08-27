@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Πρέπει να αναφέρεις έναν χρήστη ή έναν ρόλο για να βάλεις δικαιώματα υποστήριξης",
 	"commands.blacklist.no_members": "Πρέπει να αναφέρετε έναν χρήστη για την εναλλαγή της κατάστασης στην μαύρη λίστα",
 	"commands.blacklist.self": "Δεν μπορείς να βάλεις τον εαυτό σου στην μαύρη λίστα",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Το ticket σας θα εξυπηρετηθεί από τον/την %s",
 	"commands.invite": "[Πάτα εδώ](<%s>)",
 	"commands.language.invalid": "Πρέπει να διαλέξετε μια γλώσσα ή σημαία. Διαθέσιμες γλώσσες:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Στέλνει ένα μήνυμα ζητώντας από το χρήστη να επιβεβαιώσει ότι το αίτημα είναι σε θέση να κλείσει",
 	"close.reason_too_long": "Ο λόγος δεν μπορεί να υπερβαίνει τους 255 χαρακτήρες",
 	"commands.close_request.success": "Το αίτημα κλεισίματος εστάλη με επιτυχία",
-	"commands.close_request.no_reason": "<@%d> ζήτησε να κλείσει αυτό το εισιτήριο.\n\nΠαρακαλώ αποδεχτείτε ή αρνηθείτε χρησιμοποιώντας τα παρακάτω κουμπιά.",
-	"commands.close_request.with_reason": "<@%d> ζήτησε να κλείσει αυτό το εισιτήριο. Λόγος:\n```\n%s\n```\nΠαρακαλώ δεχτείτε ή αρνηθείτε χρησιμοποιώντας τα παρακάτω κουμπιά.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Μόνο ο χρήστης που άνοιξε το αίτημα μπορεί να ανταποκριθεί στην αίτηση κλεισίματος",
 	"commands.close_request.denied": "<@%d> αρνήθηκε την αίτηση κλεισίματος",
 	"generic.error": "Σφάλμα",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> έχει αφαιρεθεί από <#%d>",
 	"commands.remove.role_thread": "Λόγω περιορισμών του Discord, ρόλοι δεν μπορούν να αφαιρεθούν από thread tickets",
 	"open.ratelimited": "Τα Tickets ανοίγονται πολύ γρήγορα σε αυτόν τον διακομιστή",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Είστε σε αναμονή για αυτόν το panel. Παρακαλώ δοκιμάστε ξανά %s.",
 	"commands.claim.thread": "Λόγω των περιορισμών του Discord, η διεκδίκηση δεν υποστηρίζει τα νήματα",
 	"generic.join_support_server": "Μπες στον διακομιστή υποστήριξής μας",
@@ -192,7 +195,7 @@
 			"disabled": "Η εντολή `%s` είναι απενεργοποιημένη σε αυτόν τον server, παρακαλώ χρησιμοποίησε τον ticket πίνακα για να ανοίξεις ένα ticket",
 			"threads": {
 				"cant_see_parent_channel": "Δεν ήταν δυνατή η προσθήκη <@%d> στο ticket: Βεβαιωθείτε ότι έχουν άδεια να δουν το αρχικό κανάλι που βρίσκεται το thread (<#%d>)",
-				"cant_message_in_threads": "Σας λείπει η άδεια  `Send Messages in Threads`, η οποία απαιτείται για το άνοιγμα ενός εισιτηρίου. Ζητήστε από έναν διαχειριστή διακομιστή να σας χορηγήσει αυτήν την άδεια και δοκιμάστε ξανά."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
