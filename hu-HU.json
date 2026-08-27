@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Meg kell említened egy felhasználót vagy szerepkört, hogy kezelői jogosultságokat adj neki",
 	"commands.blacklist.no_members": "Meg kell említened azt a felhasználót akit feketelistára szeretnél tenni",
 	"commands.blacklist.self": "Nem teheted feketelistára saját magadat",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "A jegyedet %s kezdte el kezelni",
 	"commands.invite": "[Kattints ide](<%s>)",
 	"commands.language.invalid": "Meg kell adnia egy nyelvi kódot vagy zászlót. Elérhető nyelvek:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Üzenetet küld a felhasználónak, hogy megerősítse a jegy lezárását",
 	"close.reason_too_long": "A lezárás oka nem lehet hosszabb 255 karakternél",
 	"commands.close_request.success": "A bezárási kérelem sikeresen el lett küldve",
-	"commands.close_request.no_reason": "<@%d> le szeretné zárni a jegyet.\n\nFogadd el vagy utasítsd el az alábbi gombokkal.",
-	"commands.close_request.with_reason": "<@%d> le szeretné zárni a jegyet. Ennek oka:\n```\n%s\n```\nFogadd el vagy utasítsd el az alábbi gombokkal.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Csak az a felhasználó tud válaszolni a lezárási kérelemre aki nyitotta a jegyet",
 	"commands.close_request.denied": "<@%d> elutastította a lezárási kérelmet",
 	"generic.error": "Hiba",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> el lett távolítva <#%d>-ból/ből",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Túl sok jegy nyílik meg túl gyorsan a szerveren",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Discord korlátozások miatt, a lefoglalás nem támogatja a szálakat",
 	"generic.join_support_server": "Csatlakozz szerverünkhöz",
@@ -192,7 +195,7 @@
 			"disabled": "Az `%s` parancs ki van kapcsolva ezen a szerveren: kérlek, használd a jegy panelt egy jegy nyitásához",
 			"threads": {
 				"cant_see_parent_channel": "Nem tudtam hozzáadni <@%d> felhasználót a tickethez. Győződj meg arról, hogy van joga a csatornákat megtekinteni (<#%d>)",
-				"cant_message_in_threads": "Hiányzik a `Send Messages in Threads` jogosultságod, amely egy jegy megnyitásához szükséges. Kérj meg egy szerveradminisztrátort, hogy biztosítsa a jogot számodra, majd próbáld meg újra."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
