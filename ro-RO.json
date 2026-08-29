@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Trebuie să menționezi un utilizator sau să numești un rol pentru a-i acorda privilegii de reprezentant de suport",
 	"commands.blacklist.no_members": "Trebuie să menționezi un utilizator pentru a-i comuta statutul de pe lista neagră",
 	"commands.blacklist.self": "Nu te poți pune pe tine pe lista neagră",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Tichetul tău va fi preluat de %s",
 	"commands.invite": "[Dă click aici](<%s>)",
 	"commands.language.invalid": "Trebuie să specifici un cod de limbă sau un steag. Limbi disponibile:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Trimite un mesaj prin care i se cere utilizatorului să confirme că tichetul poate fi închis",
 	"close.reason_too_long": "Motivul nu poate fi mai lung de 255 de caractere",
 	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> a cerut închiderea acestui tichet.\n\nTe rugăm să accepți sau să refuzi folosind butoanele de mai jos.",
-	"commands.close_request.with_reason": "<@%d> a cerut închiderea acestui tichet. Motivul:\n```\n%s\n```\nTe rugăm să accepți sau să refuzi folosind butoanele de mai jos.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Numai utilizatorul care a deschis tichetul poate răspunde la cererea de închidere",
 	"commands.close_request.denied": "<@%d> a refuzat cererea de închidere",
 	"generic.error": "Eroare",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Tichetele sunt deschise prea repede în acest server",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Din cauza limitărilor Discord, nu este posibil să revendici threaduri",
 	"generic.join_support_server": "Alătură-te serverului de suport",
@@ -192,7 +195,7 @@
 			"disabled": "Comanda `%s` este dezactivată în acest server: te rugăm să folosești un panou de tichete pentru a deschide un tichet",
 			"threads": {
 				"cant_see_parent_channel": "Nu s-a putut adăuga <@%d> în tichet: Asigură-te că au permisiunea de a vedea canalul părinte al threadului (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

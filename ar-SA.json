@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "عليك ان تذكر اسم المستخدم او اسم رتبة الموظف للحصول على المساعدة",
 	"commands.blacklist.no_members": "تحتاج إلى ذكر مستخدم لتبديل حالة القائمة السوداء من أجل",
 	"commands.blacklist.self": "لا يمكنك وضع نفسك في القائمة السوداء",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": " %s سيتم التعامل مع تذكرتك من قبل ",
 	"commands.invite": "[انقر هنا](<%s>)",
 	"commands.language.invalid": "\n%s :الرجاء تحديد رمز اللغة او علم . اللغات المتوفرة",
@@ -105,8 +106,9 @@
 	"help.close_request": "يرسل رسالة يطلب من المستخدم تأكيد أن التذكرة يمكن أن تكون مغلقة",
 	"close.reason_too_long": "السبب لا يمكن ان يكون أطول من 255 حرف",
 	"commands.close_request.success": "تم إرسال طلب الإغلاق بنجاح",
-	"commands.close_request.no_reason": "لقد طلب <@%d> إغلاق هذه التذكرة.\n\nالرجاء القبول أو الرفض باستخدام الأزرار أدناه.",
-	"commands.close_request.with_reason": "لقد طلب <@%d> إغلاق هذه التذكرة. السبب:\n```\n%s\n```\nيرجى القبول أو الرفض باستخدام الأزرار أدناه.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "فقط المستخدم الذي فتح التذكرة يمكنه الرد على طلب الإغلاق",
 	"commands.close_request.denied": "<@%d> رفض طلب الإغلاق",
 	"generic.error": "خطأ",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "تمت إضافة <@%s> إلى <#%d>",
 	"commands.remove.role_thread": "بسبب قيود ديس كورد",
 	"open.ratelimited": "يتم فتح التذاكر بسرعة كبيرة في هذا الخادم",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "أنت في حالة تبريد لهذه اللوحة. الرجاء المحاولة مرة أخرى %s.",
 	"commands.claim.thread": "بسبب قيود الديسكورد، المطالبة لا تدعم المواضيع",
 	"generic.join_support_server": "الانضمام إلى خادم الدعم",
@@ -192,7 +195,7 @@
 			"disabled": "الامر %s غير مفعل في هذا السيرفر, تستطيع استخدام لوحة التذاكر لفتح تذكرة جديدة",
 			"threads": {
 				"cant_see_parent_channel": "تعذر اضافة <@%d> على التذكرة, تأكد من انه يملك صلاحية رؤية الروم الرئيسي لهذا الموضوع (الثريد) (<#%d>)",
-				"cant_message_in_threads": "أنت تفتقد إذن إرسال رسائل في المواضيع، الذي مطلوب لفتح تَذْكِرَة. الرجاء طلب من مسؤول الخادم منح هذا الإذن لك، وحاول مرة أخرى."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Вам необхідно вказати користувача або вказати роль, щоб надати привілеї представнику служби підтримки",
 	"commands.blacklist.no_members": "Вам потрібно вказати користувача, щоб перемикнути стан чорного списку для",
 	"commands.blacklist.self": "Ви не можете заблокувати самого себе",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Вашу заявку обробляє %s",
 	"commands.invite": "[Натисніть сюди](<%s>)",
 	"commands.language.invalid": "Вам необхідно вказати код мови або прапор. Доступні мови:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Відправляє повідомлення користувачеві з проханням підтвердження закриття заявки",
 	"close.reason_too_long": "Причина закриття не може бути довшою 255 знаків",
 	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> запросив дозвіл на закриття цієї заявки.\n\nБудь ласка, підтвердіть або відхилити запит використовуючи кнопки нижче.",
-	"commands.close_request.with_reason": "<@%d> запитав дозволу закрити цю заявку. Причина:\n```\n%s\n```\nБудь ласка, дозвольне або забороніть, використовуючи кнопки нижче.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Лише користувач, що відкрив заявку, може відповідати на запит її закриття",
 	"commands.close_request.denied": "<@%d> не дав дозволу на закриття заявки",
 	"generic.error": "Помилка",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Інтервали часу між відкриттями заявок занадто малі",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Через обмеження Дискорда, прийняття не можна зробити за допомогою команди після /",
 	"generic.join_support_server": "Приєднатися до офіційного серверу",
@@ -192,7 +195,7 @@
 			"disabled": "Команду `%s` відключено на цьому сервері. Будь ласка, використуйте панель заяки, щоб відкрити заявку",
 			"threads": {
 				"cant_see_parent_channel": "Не вдалося додати <@%d> до цієї заявки: Переконайтеся, що вони мають дозвіл на перегляд початкового каналу гілки. (<#%d>)",
-				"cant_message_in_threads": "У вас відсутнє право \"Надсилати повідомлення у гілки\", яке є необхідним для відкриття гілки. Зв'яжіться з адміністратором сервера, аби вам надалі наведені права та спробуйте знов."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

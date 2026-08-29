@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Destek yetkilerini verebilmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
 	"commands.blacklist.no_members": "Kullanıcının kara liste durumunu değiştirmek için kullanıcıyı etiketlemeniz gerekir.",
 	"commands.blacklist.self": "Kendinizi kara listeye alamazsınız.",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Talebin ile yetkili %s ilgilenecek.",
 	"commands.invite": "Botu davet etmek için [tıklayın.](<%s>)",
 	"commands.language.invalid": "Bir dil kodu veya bayrak belirtmeniz gerekir. Mevcut diller:\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Kullanıcıdan biletin kapatılabileceğini onaylamasını isteyen bir mesaj gönderir",
 	"close.reason_too_long": "Talebi kapatma nedeni 255 karakterden uzun olamaz",
 	"commands.close_request.success": "Kapatma talebi başarıyla gönderildi",
-	"commands.close_request.no_reason": "<@%d> Bu biletin kapatılmasını istedi.\n\nLütfen aşağıdaki butonları kullanarak onay verin yada reddedin.",
-	"commands.close_request.with_reason": "<@%d>, biletin kapatılmasını istedi. Sebep:\n```\n%s\n```\nLütfen aşağıdaki butonları kullanarak onay verin ya da reddedin.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Destek talebini kapatma isteğine sadece talebi açan kullanıcı yanıt verebilir",
 	"commands.close_request.denied": "<@%d>, destek talebini kapatma isteğini reddetti",
 	"generic.error": "Hata",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> <#%d> kanalından çıkarıldı",
 	"commands.remove.role_thread": "Discord'un sınırlamaları nedeniyle konu ticketlarından rol çıkarılamaz",
 	"open.ratelimited": "Sunucuda destek talepleri çok hızlı açılıyor",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Discord sınırlamaları nedeniyle, hak talebinde bulunmak konuları desteklemez",
 	"generic.join_support_server": "Destek sunucusuna katılın",
@@ -192,7 +195,7 @@
 			"disabled": "Bu sunucuda `%s` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın",
 			"threads": {
 				"cant_see_parent_channel": "Bilete <@%d> eklenemedi: Konunun ana kanalını (<#%d>) görüntüleme iznine sahip olduklarından emin olun",
-				"cant_message_in_threads": "`Send Messages in Threads` iznin yok, bu da ticket açman için gerekli. Sunucu yöneticisinden bu izni vermesini iste ve tekrar dene."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

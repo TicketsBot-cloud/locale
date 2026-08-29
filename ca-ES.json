@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Has de mencionar un usuari o rol per concedir-li privilegis d'equip de suport",
 	"commands.blacklist.no_members": "Has de mencionar un usuari per commutar-li l'estat de llista negra",
 	"commands.blacklist.self": "No et pots posar a tu mateix/a a la llista negra",
+	"commands.claim.already_claimed": "%s ja ha reclamat aquest tiquet",
 	"commands.claim.success": "El teu tiquet serà atès per %s",
 	"commands.invite": "[Clica aquí](<%s>)",
 	"commands.language.invalid": "Has d'especificar un codi o etiqueta d'idioma. Idiomes disponibles:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Envia un missatge preguntant a l'usuari que confirmi si el tiquet es pot tancar",
 	"close.reason_too_long": "La raó no pot superar els 255 caràcters",
 	"commands.close_request.success": "La petició de tancament s'ha enviat correctament",
-	"commands.close_request.no_reason": "<@%d> Ha demanat tancar el tiquet.\n\nSi us plau, accepta o rebutja la petició amb els botons de sota.",
-	"commands.close_request.with_reason": "<@%d> ha demanat tancar el tiquet. Raó proporcionada:\n```\n%s\n```\nSi us plau, accepta o rebutja la petició amb els botons de sota.",
+	"commands.close_request.close_at": "Es tanca automàticament a",
+	"commands.close_request.intro": "<@%d> ha demanat tancar aquest tiquet.",
+	"commands.close_request.prompt": "Si us plau, accepta o rebutja amb els botons de sota.",
 	"commands.close_request.no_permission": "Només l'usuari que ha obert el tiquet pot respondre la petició de tancament",
 	"commands.close_request.denied": "<@%d> ha rebutjat tancar el tiquet",
 	"generic.error": "Error",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> ha estat tret de <#%d>",
 	"commands.remove.role_thread": "Degut a limitacions de Discord, els rols no poden ser trets de tiquets tipus fils",
 	"open.ratelimited": "S'estan obrint tiquets massa ràpid en aquest servidor",
+	"open.feature_unavailable": "La creació de tiquets no es troba disponible, de forma temporal. Si us plau, torna-ho a intentar en breu.",
 	"open.panel_cooldown": "Fa massa poc que has utilitzat aquest panell. Si us plau, torna-ho a provar %s.",
 	"commands.claim.thread": "A causa de limitacions de Discord, el reclam no funciona amb fils",
 	"generic.join_support_server": "Unir-se al Servidor de Suport",
@@ -192,7 +195,7 @@
 			"disabled": "L'ordre `%s` s'ha deshabilitat en aquest servidor: si us plau, utilitza un panell per obrir un tiquet",
 			"threads": {
 				"cant_see_parent_channel": "No s'ha pogut afegir <@%d> al tiquet: Assegura't que tinc permís per veure el canal pare (<#%d>) del fil",
-				"cant_message_in_threads": "Et falta el permís `Enviar Missatges en Fils`, necessari per obrir un tiquet. Si us plau, demana a l'administrador que activi el permís, i prova-ho un altre cop."
+				"cant_message_in_threads": "No tens el permís `Enviar Missatges en Fils` a <#%d>,, necessari per obrir un tiquet. Si us plau, demana a l'administrador que t'activi el permís per rol o permisos del canal, i prova-ho un altre cop."
 			}
 		},
 		"switch_panel": {

@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Jūs turite paminėti vartotoją arba rolę, kad suteiktumėte pagalbos nario privilegijas",
 	"commands.blacklist.no_members": "Jūs turite paminėti vartotoja, kad įtrauktumėte į juodąjį šąrašą",
 	"commands.blacklist.self": "Jūs negalite savęs įtraukti į juodąjį sąrašą",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Jūsų bilietu apsiims %s",
 	"commands.invite": "[Paspauskite čia](<%s>)",
 	"commands.language.invalid": "Jūs turite nurodyti kalbos kodą arba vėliavėlę. Galimos kalbos:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Nusiunčia pranešima vartotojui, kad patvirtintų ar galima uždaryti bilietą",
 	"close.reason_too_long": "Priežastis negali būti ilgesnė nei 255 simboliai",
 	"commands.close_request.success": "Uždarymo užklausa buvo išsiųsta sėkmingai",
-	"commands.close_request.no_reason": "<@%d> prašo uždaryti bilietą.\n\nPriimkite arba atmeskite prašymą naudodami žemiau esančius mygtukus.",
-	"commands.close_request.with_reason": "<@%d> prašo uždaryti bilietą. Priežastis:\n```\n%s\n```\nPriimkite arba atmeskite prašymą naudodami žemiau esančius mygtukus.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Tik vartotojas kuris atidarė bilietą gali atsakyti į prašymą",
 	"commands.close_request.denied": "<@%d> atmetė prašymą uždaryti bilietą",
 	"generic.error": "Klaida",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> buvo pašalintas nuo <#%d>",
 	"commands.remove.role_thread": "Dėl Discord apribojimų rolės negali būti pašalinamos iš teminių bilietų",
 	"open.ratelimited": "Šiame serveryje bilietai buvo atidaryti per greitai",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Dėl Discord apribojimų negalima apsiimti gijų",
 	"generic.join_support_server": "Prisijunkite į pagalbos serverį",
@@ -192,7 +195,7 @@
 			"disabled": "`%s` komanda yra išjungta šiame serveryje, prašome naudotis bilietų kanale sukurtu mygtuku",
 			"threads": {
 				"cant_see_parent_channel": "Nepavyko pridėti <@%d> prie bilieto. Įsitikinkite, kad jie turi leidimą peržiūrėti pagrindinį grupės kanalą (<#%d>)",
-				"cant_message_in_threads": "Jums trūksta \"Send Messages in Threads\" leidimo, kuris yra reikalingas, jog atidarytumėte bilietą. Kreipkitės į serverio administratorių ir bandykite dar kartą."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

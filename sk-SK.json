@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Musíte uviesť používateľa alebo pomenovať rolu, ktorej chcete udeliť oprávnenia zástupcu podpory",
 	"commands.blacklist.no_members": "Musíte uviesť používateľa, ktorý prepína stav čiernej listiny pre",
 	"commands.blacklist.self": "Nemôžete sa zaradiť na čiernu listinu",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Váš ticket spracuje %s",
 	"commands.invite": "[Kliknite sem](<%s>)",
 	"commands.language.invalid": "Musíte zadať kód jazyka alebo vlajku. Dostupné jazyky:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Odošle správu so žiadosťou, aby používateľ potvrdil, že je možné ticket uzavrieť",
 	"close.reason_too_long": "Dôvod nemôže byť dlhší ako 255 znakov",
 	"commands.close_request.success": "Požiadavka na uzavretie bola úspešne odoslaná",
-	"commands.close_request.no_reason": "<@%d> požiadal o uzavretie tohto tipu.\n\nProsím, prijmite alebo zamietnite ho pomocou tlačidiel nižšie.",
-	"commands.close_request.with_reason": "<@%d> požiadal o uzavretie tohto tipu. Dôvod:\n```\n%s\n```\nProsím, prijmite alebo zamietnite ho pomocou tlačidiel nižšie.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Na žiadosť o uzavretie môže reagovať len používateľ, ktorý lístok otvoril",
 	"commands.close_request.denied": "<@%d> zamietol žiadosť o uzavretie",
 	"generic.error": "Chyba",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> bol odstránený z <#%d>",
 	"commands.remove.role_thread": "Kvôli obmedzeniam Discordu nie je možné odobrať roly z ticket vlákien",
 	"open.ratelimited": "Tickety sa na tomto serveri otvárajú príliš rýchlo",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Pre tento panel máte dočasný limit. Skúste to znova %s.",
 	"commands.claim.thread": "Kvôli obmedzeniam Discordu tvrdenie nepodporuje vlákna",
 	"generic.join_support_server": "Pripojiť sa k serveru podpory",
@@ -192,7 +195,7 @@
 			"disabled": "Príkaz `%s` je na tomto serveri vypnutý: na otvorenie tiketu použite panel",
 			"threads": {
 				"cant_see_parent_channel": "Do ticketu sa nepodarilo pridať <@%d>: Uistite sa, že má oprávnenie na zobrazenie nadradeného vlákna v kanály (<#%d>)",
-				"cant_message_in_threads": "Chýba vám oprávnenie `Odosielať správy vo vláknach`, ktoré je potrebné na otvorenie lístka. Požiadajte správcu servera, aby vám toto oprávnenie udelil, a skúste to znova."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

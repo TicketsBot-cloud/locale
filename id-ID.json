@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Anda perlu menyebutkan pengguna atau menyebutkan peran untuk memberikan hak istimewa kepada perwakilan dukungan",
 	"commands.blacklist.no_members": "Anda perlu menyebutkan pengguna untuk mengaktifkan status daftar hitam",
 	"commands.blacklist.self": "Anda tidak dapat memasukkan diri Anda sendiri ke dalam daftar hitam",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Tiket Anda akan ditangani oleh %s",
 	"commands.invite": "[Klik disini](<%s>)",
 	"commands.language.invalid": "Anda perlu menentukan kode atau tanda bahasa. Bahasa yang tersedia:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Mengirimkan pesan yang meminta pengguna untuk mengonfirmasi bahwa tiket dapat ditutup",
 	"close.reason_too_long": "Alasannya tidak boleh lebih dari 255 karakter",
 	"commands.close_request.success": "Permohonan penutupan telah berhasil dikirim",
-	"commands.close_request.no_reason": "<@%d> telah meminta untuk menutup tiket ini.\n\nSilaka terima atau tolak menggunakan tombol di bawah.",
-	"commands.close_request.with_reason": "<@%d> telah meminta untuk menutup tiket ini. Alasan:\n```\n%s\n```\nSilakan terima atau tolak menggunakan tombol di bawah.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Hanya pengguna yang membuka tiket yang dapat menanggapi permintaan penutupan",
 	"commands.close_request.denied": "<@%d> menolak permintaan penutupan",
 	"generic.error": "Kesalahan",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> telah dikeluarkan dari <#%d>",
 	"commands.remove.role_thread": "Karena keterbatasan Discord, peran tidak dapat dihapus dari tiket thread",
 	"open.ratelimited": "Tiket dibuka terlalu cepat di server ini",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Anda sedang dalam masa tunggu untuk panel ini. Silakan coba lagi %s.",
 	"commands.claim.thread": "Karena keterbatasan Discord, klaim tidak mendukung thread",
 	"generic.join_support_server": "Bergabunglah dengan Server Dukungan",
@@ -192,7 +195,7 @@
 			"disabled": "Perintah `%s` dinonaktifka di server ini: silakan gunakan panel tiket untuk membuka tiket",
 			"threads": {
 				"cant_see_parent_channel": "Tidak dapat menambahkan <@%d> ke tiket: Pastikan mereka memiliki izin untuk melihat saluran induk thread (<#%d>)",
-				"cant_message_in_threads": "Anda tidak memiliki izin `Kirim Pesan di Thread`, yang diperlukan untuk membuka tiket. Harap minta administrator server untuk memberikan izin ini kepada Anda lalu coba lagi."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "지원 담당자 권한을 부여하려면 사용자 또는 역할 이름을 멘션해야 해요",
 	"commands.blacklist.no_members": "블랙리스트 상태를 전환하려면 사용자를 멘션해야 해요",
 	"commands.blacklist.self": "나 자신을 블랙리스트에 추가할 수 없어요",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "내 티켓을 %s님이 담당해요",
 	"commands.invite": "[여길 누르세요](<%s>)",
 	"commands.language.invalid": "언어 코드 또는 플래그를 지정해야 합니다. 사용 가능한 언어:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "사용자에게 티켓을 닫을지 확인하는 메시지를 보냅니다.",
 	"close.reason_too_long": "이유는 255자를 초과할 수 없습니다.",
 	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d>님이 이 티켓을 닫도록 요청했습니다. 아래 단추 사용에 동의하거나 거부하십시오.",
-	"commands.close_request.with_reason": "<@%d>님이 이 티켓을 닫도록 요청했습니다. 이유: \n```\n%s\n``` 아래 단추 사용에 동의하거나 거부하십시오.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "티켓을 연 사용자만 닫기 요청에 응답할 수 있습니다.",
 	"commands.close_request.denied": "<@%d>이(가) 종료 요청을 거부했습니다.",
 	"generic.error": "오류",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "이 서버에서 티켓이 너무 빨리 열리고 있습니다.",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "디스코드의 제한으로 인해 배정이 스레드를 지원하지 않아요.",
 	"generic.join_support_server": "지원 서버 참가",
@@ -192,7 +195,7 @@
 			"disabled": "이 서버에서 `%s` 명령을 사용할 수 없습니다. 티켓 패널을 사용하여 티켓을 여세요.",
 			"threads": {
 				"cant_see_parent_channel": "티켓에 <@%d>을(를) 추가할 수 없어요. 스레드의 상위 채널(<#%d>)를 볼 수 있는 권한이 있는지 확인해주세요.",
-				"cant_message_in_threads": "티켓을 열기에 필요한, `스레드에서 메시지 보내기` 권한이 없습니다. 서버 관리자에게 권한을 부여하라고 요청해 주세요. 그리고 다시 시도하세요."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

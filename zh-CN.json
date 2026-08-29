@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "您需要提及用户或命身份组以授予支持代表权限",
 	"commands.blacklist.no_members": "您需要提及一个用户来切换黑名单状态",
 	"commands.blacklist.self": "您不能将自己加入黑名单",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "您的工单将由 %s 处理",
 	"commands.invite": "[点击此处](<%s>)",
 	"commands.language.invalid": "您需要指定语言代码或标志。可用语言:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "发送消息，请用户确认工单能被关闭",
 	"close.reason_too_long": "原因不能超过 255 个字符",
 	"commands.close_request.success": "已成功发送关闭请求",
-	"commands.close_request.no_reason": "<@%d> 请求关闭此工单。\n\n请使用下面的按钮确认或拒绝。",
-	"commands.close_request.with_reason": "<@%d> 请求关闭此工单。原因：\n```\n%s\n```\n请使用下面的按钮确认或拒绝。",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "只有打开工单的用户才可以响应关闭请求",
 	"commands.close_request.denied": "<@%d> 拒绝了关闭请求",
 	"generic.error": "错误",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> 已从 <#%d> 中移除",
 	"commands.remove.role_thread": "由于 Discord 的限制，无法从子区 (Thread) 工单中移除身份组",
 	"open.ratelimited": "此服务器的工单开启速度过快，请稍后再试",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "您正处于该面板的冷却期内。请在 %s 后重试。",
 	"commands.claim.thread": "由于 Discord 的限制，认领操作暂不支持讨论串",
 	"generic.join_support_server": "加入支持服务器",
@@ -192,7 +195,7 @@
 			"disabled": "此服务器已禁用 `%s` 命令：请使用工单面板来开启工单",
 			"threads": {
 				"cant_see_parent_channel": "无法添加 <@%d> 到工单：确保他们有权限查看线程的主频道 (<#%d>)",
-				"cant_message_in_threads": "您缺少了 \"在线程中发送消息\"的权限，这是打开工单所必需的。 请请求服务器管理员将此权限授予您，然后重试。"
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Aapko support privileges dene ke liye kisi user ko mention karna hoga ya kisi role ka naam likhna hoga",
 	"commands.blacklist.no_members": "Aapko blacklist toggle karne ke liye kisi user ko mention karna hoga",
 	"commands.blacklist.self": "Aap apne aap ko blacklist nahi kar sakte",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Aapka ticket %s handle karenge",
 	"commands.invite": "[Yahan click kare](<%s>)",
 	"commands.language.invalid": "Aapko ek language code ya flag specify karna hoga. Available languages ye hain:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "User ko ek message bhejta hai confirm karne ke liye ki ticket close kiya ja sakta hai ya nahi",
 	"close.reason_too_long": "Reason 255 characters se lamba nahi ho sakta",
 	"commands.close_request.success": "Close request successfully bhej di gayi hai",
-	"commands.close_request.no_reason": "<@%d> ne is ticket ko close karne ki request ki hai.\n\nKripya neeche diye gaye buttons use karke accept ya deny kare.",
-	"commands.close_request.with_reason": "<@%d> ne is ticket ko close karne ki request ki hai. Reason:\n```\n%s\n```\nKripya neeche diye gaye buttons use karke accept ya deny kare.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Sirf wahi user close request ka respond kar sakta hai jisne ticket open kiya tha",
 	"commands.close_request.denied": "<@%d> ne close request deny kar di",
 	"generic.error": "Error",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> ko <#%d> se remove kar diya gaya hai",
 	"commands.remove.role_thread": "Discord limitations ki wajah se, thread tickets se roles remove nahi kiye ja sakte",
 	"open.ratelimited": "Is server mein tickets bahut jaldi-jaldi open ho rahe hai",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Aap is panel ke liye cooldown par hain. Please %s baad phir se try kare.",
 	"commands.claim.thread": "Discord limitations ki wajah se, claiming threads ko support nahi karti hai",
 	"generic.join_support_server": "Support server join kare",
@@ -192,7 +195,7 @@
 			"disabled": "Is server mein `%s` command disabled hai: please ticket kholne ke liye ticket panel use kare",
 			"threads": {
 				"cant_see_parent_channel": "Ticket mein <@%d> ko add nahi kiya ja saka: Ensure karein ki unke paas thread ke parent channel (<#%d>) ko dekhne ki permission hai",
-				"cant_message_in_threads": "Aapke paas Send Messages in Threads permission missing hai, jo ticket kholne ke liye jaroori hai. Please server admin se ye permission maangein aur phir se try kare."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

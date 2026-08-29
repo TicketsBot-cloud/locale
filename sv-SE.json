@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Du måste nämna en användare eller en roll att ge support-representativ privilegier till",
 	"commands.blacklist.no_members": "Du måste nämna en användare att förbjuda användaren att öppna en ticket",
 	"commands.blacklist.self": "Du kan inte bannlysa dig själv",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Ditt ärende kommer att hanteras av %s",
 	"commands.invite": "[Klicka här](<%s>)",
 	"commands.language.invalid": "Du måste ange en språkkod eller flagga. Tillgängliga språk:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Skickar ett meddelande som ber användaren bekräfta att ärendet kan stängas",
 	"close.reason_too_long": "Anledningen kan inte vara längre än 255 tecken",
 	"commands.close_request.success": "Avslutningsbegäran har blivit skickad",
-	"commands.close_request.no_reason": "<@%d> har begärt att avsluta detta ärende.\n\nVänligen acceptera eller neka med knapparna nedan.",
-	"commands.close_request.with_reason": "<@%d> har begärt att avsluta detta ärende. Anledning:\n```\n%s\n```\nVänligen acceptera eller neka med knapparna nedan.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Endast den användare som öppnat ärendet kan svara på stängningsbegäran",
 	"commands.close_request.denied": "<@%d> nekade stängningsbegäran",
 	"generic.error": "Fel",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Ärenden öppnas för snabbt i denna server",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "På grund av Discord-begränsningar stöder inte anspråk i trådar",
 	"generic.join_support_server": "Anslut till support servern",
@@ -192,7 +195,7 @@
 			"disabled": "Kommandot `%s` är inaktiverat i denna server: använd ärendepanelen för att öppna ett ärende",
 			"threads": {
 				"cant_see_parent_channel": "Kunde inte lägga till <@%d> till ärendet: Se till att de har behörighet att visa trådens överordnade kanal (<#%d>)",
-				"cant_message_in_threads": "Du saknar behörigheten `Skicka meddelanden i trådar` som krävs för att öppna ett ärende. Be en serveradministratör att ge dig denna behörighet och försök igen."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

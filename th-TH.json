@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "คุณต้องระบุผู้ใช้ หรือ ระบุบทบาทเพื่อให้สิทธิ์ฝ่ายสนับสนุน",
 	"commands.blacklist.no_members": "คุณต้องระบุผู้ใช้ที่สลับสถานะบัญชีดำ",
 	"commands.blacklist.self": "คุณไม่สามารถขึ้นบัญชีดำตัวเองได้",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Ticket ของคุณจะถูกให้บริการโดย %s",
 	"commands.invite": "[คลิกที่นี่](<%s>)",
 	"commands.language.invalid": "คุณต้องระบุรหัสภาษา หรือ ธง. ภาษาที่สามารถใช้ได้: \\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "ส่งข้อความขอให้ผู้ใช้ยืนยันว่าสามารถปิดตั๋วได้",
 	"close.reason_too_long": "เหตุผลต้องไม่เกิน 255 ตัวอักษร",
 	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> ได้ร้องขอให้ปิด Ticket นี้\n\nโปรดยอมรับหรือปฏิเสธโดยใช้ปุ่มด้านล่าง",
-	"commands.close_request.with_reason": "<@%d> ได้ร้องขอให้ปิด Ticket นี้ เหตุผล:\n```\n%s\n```\nโปรดยอมรับหรือปฏิเสธโดยใช้ปุ่มด้านล่าง",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "เฉพาะผู้ใช้ที่เปิดตั๋วเท่านั้นที่สามารถตอบสนองคำขอปิดได้",
 	"commands.close_request.denied": "<@%d> ปฏิเสธคำขอการปิด",
 	"generic.error": "เกิดข้อผิดพลาด",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "ตั๋วถูกเปิดเร็วเกินไปในเซิร์ฟเวอร์นี้",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "เนื่องจากข้อจำกัดของ ดิสคอร์ด การอ้างสิทธิ์จึงไม่สนับสนุนเธรด",
 	"generic.join_support_server": "เข้าร่วมเซิร์ฟเวอร์สนันสนุน",
@@ -192,7 +195,7 @@
 			"disabled": "คำสั่ง `%s' ถูกปิดการใช้งานในเซิร์ฟเวอร์นี้: โปรดใช้ Ticket Panel เพื่อเปิด Ticket",
 			"threads": {
 				"cant_see_parent_channel": "ไม่สามารถเพิ่ม <@%d> ลงในตั๋ว: ตรวจสอบให้แน่ใจว่าพวกเขาได้รับอนุญาตให้ดูช่องหลักของเธรด (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

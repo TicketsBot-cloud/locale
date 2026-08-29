@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Морате да поменете корисника или да именујете улогу да дате привилегије представника подршке",
 	"commands.blacklist.no_members": "Мораш да поменеш корисника да промени стање црне листе за",
 	"commands.blacklist.self": "Не можеш се ставити на црну листу",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Ваш улазницу ће носити %s",
 	"commands.invite": "[Кликни овде](<%s>)",
 	"commands.language.invalid": "Мораш да одредиш језик или заставу. Доступни језици:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Шаље поруку кориснику да потврди да је карта затворена",
 	"close.reason_too_long": "Идентификација не може бити дужа од 255 знакова",
 	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> Затражио је да затворимо ову карту.\n\nМолим вас, прихватите или одбијте да користите дугмад испод.",
-	"commands.close_request.with_reason": "<@%d> Затражио је да затворимо ову карту.\n```\n%s\n```\nМолим вас, прихватите или одбијте да користите дугмад испод.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Само корисник који је отворио карту може да одговори на захтев",
 	"commands.close_request.denied": "<@%d> Одбијен захтев за затварање",
 	"generic.error": "Грешка",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "Улазнице се отварају пребрзо на овом серверу",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Због ограничења неслагања, тврдња не подржава нити",
 	"generic.join_support_server": "Придружи се серверу подршке",
@@ -192,7 +195,7 @@
 			"disabled": "Наредба '%s' је искључена на овом серверу: Молимо вас да користите таблу за улазнице за отварање улазница",
 			"threads": {
 				"cant_see_parent_channel": "Није могао да дода <@%d> на карту: Осигурајте да имају дозволу за гледање матичног канала нити (<#%d>)",
-				"cant_message_in_threads": "You are missing the `Send Messages in Threads` permission, which is required to open a ticket. Please ask a server administrator to grant this permission to you, and try again."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Sa pead mentionima kasutajat või rolli millele abi andja õigused anda",
 	"commands.blacklist.no_members": "Sa pead mentionima kasutajat, millel blacklisti staatust muuta",
 	"commands.blacklist.self": "Sa ei saa ennast blacklistida",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Sinu abipiletiga tegeleb %s",
 	"commands.invite": "[Vajuta siia](<%s>)",
 	"commands.language.invalid": "Sa pead täpsustama keele koodi või lippu. Saadavad keeled:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Saadab kirja, mis küsib et kasutaja kinnitaks kas abipileti võib kinni panna",
 	"close.reason_too_long": "Põhjus ei saa olla pikem kui 255 tähemärki",
 	"commands.close_request.success": "Kinnitus soov saadeti edukalt",
-	"commands.close_request.no_reason": "<@%d> on palunud et abipilet pannakse kinni\n\nLubage või keelake kasutades alumisi nuppe.",
-	"commands.close_request.with_reason": "<@%d> on palunud et abipilet pannakse kinni. Põhjus:\n```\n%s\n```\nLubage või keelake kasutades alumisi nuppe.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Ainult kasutaja kes pileti avas saab vastata kinni panemise soovile",
 	"commands.close_request.denied": "<@%d> keelas kinni panemise soovi",
 	"generic.error": "Viga",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> on eemaldatud <#%d>-st",
 	"commands.remove.role_thread": "Discordi tehniliste piirangute tõttu, ei ole võimalik rolle lõimepiletitest eemaldada",
 	"open.ratelimited": "Abipileteid avatakse selles serveris liiga kiiresti",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "Discordi limiitide tõttu, võtmine ei toeta threade",
 	"generic.join_support_server": "Liitu Abi Serveriga",
@@ -192,7 +195,7 @@
 			"disabled": "`%s` käsk on välja lülitatud selles serveris: palun kasuta abipileti paneeli et abipiletit avada",
 			"threads": {
 				"cant_see_parent_channel": "Ei saanud lisada <@%d> abipiletisse: Kinnitage et neil on luba vaadata threadi alguskanalit (<#%d>)",
-				"cant_message_in_threads": "Sul puudub `Kirjade Saatmine Threadides` luba, mis on vajalik abipileti avamiseks. Palun küsi serveri adminstraatorilt et nad sulle selle loa annaks, siis proovi uuesti."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

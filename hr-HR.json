@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "Morate spomenuti korisnika ili imenovati ulogu kojoj ćete dodijeliti privilegije predstavnika podrške",
 	"commands.blacklist.no_members": "Morate spomenuti korisnika za kojeg želite prebaciti stanje crne liste",
 	"commands.blacklist.self": "Ne možete sebe staviti na crnu listu",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Vašom ulaznicom rukovat će %s",
 	"commands.invite": "[Kliknite ovdje](<%s>)",
 	"commands.language.invalid": "Morate navesti šifru jezika ili zastavicu. Dostupni jezici:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "Šalje poruku tražeći od korisnika potvrdu da se tiket može zatvoriti",
 	"close.reason_too_long": "Razlog ne može biti dulji od 255 znakova",
 	"commands.close_request.success": "Zahtjev za zatvaranje uspješno je poslan",
-	"commands.close_request.no_reason": "<@%d> je zatražio zatvaranje ovog tiketa.\n\nPrihvatite ili odbijte korištenjem donjih gumba.",
-	"commands.close_request.with_reason": "<@%d> je zatražio zatvaranje ovog tiketa. Razlog:\n```\n%s\n```\nPrihvatite ili odbijte korištenjem donjih gumba.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Na zahtjev za zatvaranje može odgovoriti samo korisnik koji je otvorio kartu",
 	"commands.close_request.denied": "<@%d> je odbio zahtjev za zatvaranje",
 	"generic.error": "Pogreška",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> je uklonjen iz <#%d>",
 	"commands.remove.role_thread": "Zbog Discordovih ograničenja, uloge se ne mogu ukloniti iz ticket-threadova",
 	"open.ratelimited": "Tiketi se otvaraju pre brzo u ovom serveru",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Trenutno imate čekanje za ovu ploču. Molimo pokušajte ponovno %s.",
 	"commands.claim.thread": "Zbog ograničenja Discorda, preuzimanje ne podržava niti",
 	"generic.join_support_server": "Pridružite se serveru za podršku",
@@ -192,7 +195,7 @@
 			"disabled": "Naredba `%s` je onemogućena na ovom serveru: molimo koristite ploču s tiketima za otvaranje tiketa",
 			"threads": {
 				"cant_see_parent_channel": "Nije moguće dodati <@%d> u tiket: Provjerite ima li dopuštenje za pregled nadređenog kanala niti (<#%d>)",
-				"cant_message_in_threads": "Nedostaje vam dopuštenje 'Slanje poruka u threads', koje je potrebno za otvaranje tiketa. Zamolite administratora poslužitelja da vam odobri to dopuštenje i pokušajte ponovno."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {

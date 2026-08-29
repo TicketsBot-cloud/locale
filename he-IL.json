@@ -8,6 +8,7 @@
 	"commands.addsupport.no_members": "עליך להזכיר משתמש או שם התפקיד כדי להעניק לו הרשאות של נציגי תמיכה",
 	"commands.blacklist.no_members": "עליך לתייג את שם המשתמש כדי להחליף את מצב הרשימה השחורה עבורו",
 	"commands.blacklist.self": "אתה לא יכול לרשום את עצמך ברשימה השחורה",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "הכרטיס שלך יטופל על ידי %s",
 	"commands.invite": "[לחצו כאן](<%s>)",
 	"commands.language.invalid": "עליך לציין את קוד השפה או דגל השפה. שפות זמינות:\\n%s",
@@ -105,8 +106,9 @@
 	"help.close_request": "שולח הודעה המבקשת מהמשתמש לאשר שניתן לסגור את הכרטיס",
 	"close.reason_too_long": "הסיבה לא יכולה להיות יותר מ-255 תווים",
 	"commands.close_request.success": "Close request was sent successfully",
-	"commands.close_request.no_reason": "<@%d> ביקש לסגור כרטיס זה.\n\nאנא קבל או דחה באמצעות הכפתורים למטה.",
-	"commands.close_request.with_reason": "<@%d> ביקש לסגור כרטיס זה. סיבה:\n```\n%s\n```\nאנא קבל או דחה באמצעות הכפתורים למטה.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "רק המשתמש שפתח את הכרטיס יכול להגיב לבקשת הסגירה",
 	"commands.close_request.denied": "<@%d> דחה את בקשת הסגירה",
 	"generic.error": "תקלה",
@@ -165,6 +167,7 @@
 	"commands.remove.success": "<@%s> has been removed from <#%d>",
 	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
 	"open.ratelimited": "טיקטים נפתחים מהר מידיי בשרת זה",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
 	"commands.claim.thread": "בשל מגבלות דיסקורד, הסגירה אינה תומכת בפורומים",
 	"generic.join_support_server": "הצטרף לשרת התמיכה",
@@ -192,7 +195,7 @@
 			"disabled": "הפקודה `%s` מושבתת בשרת זה: אנא השתמש בלוח כרטיסים כדי לפתוח כרטיס",
 			"threads": {
 				"cant_see_parent_channel": "לא ניתן היה להוסיף <@%d> לכרטיס: ודא שיש להם הרשאה כדי לצפות בפורום האב של החדר (<#%d>)",
-				"cant_message_in_threads": "חסרה לך הרשאת 'שליחת הודעות בשרשורים', הנדרשת לפתיחת כרטיס. אנא בקשו ממנהל שרת להעניק לך הרשאה זו ונסו שוב."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
