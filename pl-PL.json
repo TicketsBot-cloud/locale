@@ -214,7 +214,7 @@
 			"disabled": "Komenda `%s` jest wyłączona na tym serwerze: użyj panelu zgłoszeń, by otworzyć zgłoszenie",
 			"threads": {
 				"cant_see_parent_channel": "Nie można dodać <@%d> do zgłoszenia: Upewnij się, że użytkownik ma uprawnienia do przeglądania kanału nadrzędnego wątku (<#%d>)",
-				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
+				"cant_message_in_threads": "Brakuje Ci uprawnienia `Wysyłanie wiadomości w wątkach` w <#%d>, które jest wymagane do otwarcia zgłoszenia. Poproś administratora serwera o przyznanie Ci tego uprawnienia, poprzez twoje role lub ustawienia uprawnień kanału i spróbuj ponownie."
 			}
 		},
 		"switch_panel": {
