@@ -458,6 +458,9 @@
 			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"export_guild": "**Request Type:** Export all transcript data from a server you own\n**Server:** %s",
+			"export_guild_multi": "**Request Type:** Export all transcript data from servers you own\n**Servers:**\n* %s",
+			"export_user": "**Request Type:** Export all your personal data",
 			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
 		},
 		"completed": {
