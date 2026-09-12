@@ -493,6 +493,7 @@
 			"server_not_found": "Server not found.",
 			"queue_failed": "Failed to queue GDPR request. Please try again later.",
 			"confirmation_expired": "This confirmation has expired or has already been used. Please run the command again.",
+			"bot_not_in_server": "The bot is not in the following server(s), so ownership cannot be verified:\n* %s\n\nPlease add the bot to the server and try again.",
 			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists.",
 			"export_dm_failed": "⚠️ Your export was generated, but it could not be sent to you by direct message.\n\nPlease allow direct messages from server members, then run the command again.\n\nDelivered %d of %d files before the failure."
 		}
