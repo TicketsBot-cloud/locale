@@ -125,9 +125,9 @@
 	"help.close_request": "Gửi một tin nhắn hỏi thành viên xác nhận có thể đóng phiếu hỗ trợ này",
 	"close.reason_too_long": "Lý do không được dài hơn 255 ký tự",
 	"commands.close_request.success": "Yêu cầu đóng đã được gửi đi thành công",
-	"commands.close_request.close_at": "Automatically closes at",
-	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
-	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
+	"commands.close_request.close_at": "Phiếu hỗ trợ sẽ tự động đóng vào",
+	"commands.close_request.intro": "<@%d> đã yêu cầu được đóng phiếu hỗ trợ này.",
+	"commands.close_request.prompt": "Vui lòng Chấp nhận hoặc Từ chối bằng nút phía dưới.",
 	"commands.close_request.no_permission": "Chỉ người mở phiếu hỗ trợ này mới có thể trả lời yêu cầu đóng phiếu hỗ trợ",
 	"commands.close_request.denied": "<@%d> đã từ chối yêu cầu đóng phiếu hỗ trợ",
 	"generic.error": "Lỗi",
@@ -186,7 +186,7 @@
 	"commands.remove.success": "<@%s> đã bị xóa khỏi <#%d>",
 	"commands.remove.role_thread": "Vai trò không thể được thêm vào phiếu hỗ trợ chủ đề do giới hạn của Discord",
 	"open.ratelimited": "Các phiếu hỗ trợ đang được mở quá nhanh trong hội này",
-	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
+	"open.feature_unavailable": "Chức năng tạo phiếu hỗ trợ đang tạm dừng hoạt động. Vui lòng thử lại sau.",
 	"open.panel_cooldown": "Bạn đang trong thời gian chờ để sử dụng bảng hỗ trợ. Vui lòng thử lại sau %s.",
 	"commands.claim.thread": "Vì giới hạn của Discord, không thể nhận phiếu hỗ trợ bên trong kênh Chủ Đề",
 	"generic.join_support_server": "Tham gia máy chủ hỗ trợ",
@@ -214,14 +214,14 @@
 			"disabled": "Lệnh '%s' đã bị tắt trong máy chủ này, hãy sử dụng bảng tạo phiếu hỗ trợ để mở",
 			"threads": {
 				"cant_see_parent_channel": "Không thể thêm <@%d> vào phiếu hỗ trợ: Hãy chắc chắn họ có quyền để xem kênh chứa chủ đề (<#%d>)",
-				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
+				"cant_message_in_threads": "Bạn không có quyền `Gửi tin nhắn trong chủ đề và bài đăng` trong <#%d>, cần quyền hạn để mở phiếu hỗ trợ. Vui lòng yêu cầu quản trị máy chủ cấp quyền cho vai trò của bạn hoặc cài đặt lại quyền của kênh và thử lại."
 			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Bảng không hợp lệ: Bạn cần chọn 1 từ mục dưới",
 			"success": "Phiếu hỗ trợ này đã được chuyển sang bảng `%s' bởi <@%d>",
 			"non_thread_to_thread": "Bạn không thể chuyển đổi bảng điều khiển sử dụng kênh chủ đề từ phiếu hỗ trợ không dùng kênh chủ đề",
-			"claimer_no_access_title": "Panel Switch Blocked",
+			"claimer_no_access_title": "Chuyển đổi bảng hỗ trợ bị chặn",
 			"claimer_no_access": "Người tiếp nhận phiếu hỗ trợ (<@%d>) không thể truy cập bảng hỗ trợ của phiếu.",
 			"auto_unclaimed": "Phiếu hỗ trợ đã được đổi sang bảng hỗ trợ `%s` bởi <@%d>.\n\nPhiếu hỗ trợ sẽ tự động ở trạng thái chưa tiếp nhận do <@%d> không thể truy cập vào bảng hỗ trợ mới."
 		},
@@ -354,16 +354,16 @@
 		},
 		"edit": {
 			"title": "Tùy chỉnh phiếu hỗ trợ",
-			"description": "Below you can edit various settings for this ticket.",
+			"description": "Bạn có thể tùy chỉnh những cài đặt sau cho phiếu hỗ trợ.",
 			"labels": {
-				"title": "Edit Labels",
-				"description": "Edit the labels assigned to this ticket",
+				"title": "Tùy chỉnh nhãn dán",
+				"description": "Tùy chỉnh nhãn dán được gán cho phiếu hỗ trợ",
 				"update_modal": {
-					"title": "Update Ticket Labels",
-					"select_menu_title": "Labels",
-					"success": "Ticket labels have been successfully updated to: %s"
+					"title": "Cập nhật nhãn dán cho phiếu",
+					"select_menu_title": "Nhãn dán",
+					"success": "Nhãn dán của phiếu hỗ trợ đã được thay đổi thành: %s"
 				},
-				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
+				"none_configured": "Máy chủ chưa thiết lập nhãn dán nào. Bạn có thể tạo nhãn dán tại [trang quản lí](%s)."
 			}
 		}
 	},
@@ -384,7 +384,7 @@
 		"on_call": "Thêm bạn là đang sẵn sàng, được thêm và ping trong các phiếu hỗ trợ mới",
 		"reopen": "Mở lại phiếu hỗ trợ mà trước đó đã đóng",
 		"notes": "Tạo một kênh chủ đề để thảo luận riêng tư giữa các hỗ trợ viên",
-		"edit": "Edits settings for the current ticket"
+		"edit": "Tùy chỉnh cài đặt cho phiếu hỗ trợ"
 	},
 	"setup": {
 		"auto": {
@@ -509,13 +509,13 @@
 		"unknown_category": "Không thể tìm được danh mục theo yêu cầu: danh mục có thể đã bị xóa.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đặt lại một danh mục hợp lệ cho bảng phiếu hỗ trợ.",
 		"unknown_interaction": "Tương tác đã hết hạn.\n\nVui lòng thực hiện lại tương tác.",
 		"max_webhooks": "Máy chủ đã đạt giới hạn số lượng webhook có thể tạo.\n\nVui lòng nhờ quản trị viên để xóa bớt webhooks không được sử dụng và thử lại.",
-		"max_channels": "Your ticket could not be opened because this server has reached Discord's channel limit (500).\n\nPlease ask a server administrator to close some tickets or delete some unused channels before opening a new ticket.",
+		"max_channels": "Không thể mở phiếu hỗ trợ của bạn do máy chủ đã đạt giới hạn kênh trên Discord (500)\n\nVui lòng nhờ quản trị viên đóng một số phiếu hỗ trợ hoặc xóa những kênh không cần thiết trước khi mở phiếu hỗ trợ mới.",
 		"interaction_acknowledged": "Tương tác này đã được xử lí.\n\nNếu bạn muốn thực hiện lại tác vụ, hãy bắt đầu một tương tác mới.",
 		"missing_permissions": {
 			"title": "Tôi đang thiếu những quyền sau để thực hiện tác vụ",
 			"body": "Vui lòng cấp những quyền sau cho bot hoặc cấp quyền `Quản trị viên` và thử lại.\nVui lòng try cập [trang tài liệu](%s) để biết lí do tại sao những quyền sau cần thiết."
 		},
-		"missing_access": "I am missing the permissions required to perform this action.\n\nPlease assign the necessary permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required.",
+		"missing_access": "Tôi đang thiếu một số quyền để thực hiện tác vụ này.\n\nVui lòng cấp những quyền cần thiết sau cho bot hoặc quyền `Quản trị viên` và thử lại.\nTham khảo [tài liệu của chúng tôi](%s) để hiểu rõ lý do những quyền đó là cần thiết.",
 		"invalid_length": "Có một hoặc nhiều dòng quá ngắn hoặc quá dài.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng tất cả dữ liệu nhập vào và các dòng có độ dài giới hạn theo yêu cầu.",
 		"required_field": "Có một dòng yêu cầu đang bị thiếu hoặc để trống.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng tất cả các dòng đều được điền đầy đủ.",
 		"invalid_channel_type": "Kênh cho tác vụ này không hợp lệ, kênh có thể đã bị xóa.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và đảm bảo rằng các kênh trong cài đặt đã hợp lệ.",
@@ -524,8 +524,8 @@
 		"invalid_characters": "Nội dung nhập vào có chứa ký không hợp lệ.\n\nChỉ được phép sử dụng chữ cái, số, dấu gạch ngang và dấu gạch dưới.",
 		"invalid_choice": "Có lựa chọn không hợp lệ.\n\nVui lòng nhờ quản trị viên máy chủ truy cập [bảng quản lý](%s) và xác minh lại các cài đặt.",
 		"invalid_form": "Tác vụ này không thể thực hiện do dữ liệu được nhập không hợp lệ.",
-		"thread_locked": "Your ticket could not be opened because the ticket thread is locked.\n\nPlease ask a server administrator to unlock the ticket thread.",
-		"max_active_threads": "Your ticket could not be opened because the maximum number of active threads has been reached in this channel.\n\nPlease ask a server administrator to close some tickets or threads.",
+		"thread_locked": "Phiếu hỗ trợ của bạn không thể mở do kênh chủ đề đã bị khóa.\n\nVui lòng nhờ quản trị viên máy chủ mở khóa kênh chủ đề.",
+		"max_active_threads": "Không thể mở phiếu hỗ trợ của bạn do kênh này đã đạt số lượng kênh chủ đề tối đa.\n\nVui lòng nhờ cho quản trị viên máy chủ đóng một số phiếu hỗ trợ hoặc kênh chủ đề.",
 		"timed_out": "Đã hết thời gian xử lí, vui lòng thử lại.",
 		"rate_limited": "Bạn đã bị giới hạn. Vui lòng thử lại sau %s.",
 		"rate_limited_global": "Discord đang bị quá tải (giới hạn toàn cầu). Vui lòng thử lại sau %s.",
