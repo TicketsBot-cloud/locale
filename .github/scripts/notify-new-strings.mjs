@@ -8,7 +8,7 @@
  *   NEW_FILE             path to the current version
  *   DISCORD_BOT_TOKEN    bot token (needs View Channel / Send Messages / Create Public Threads)
  *   DISCORD_CHANNEL_ID   channel to post in
- *   DISCORD_ROLE_ID      role to ping
+ *   DISCORD_ROLE_IDS     role(s) to ping, comma-separated
  *   EMOJI_PREFIX         e.g. "<:notice1:123456789012345678><:notice2:123456789012345678>"
  *   DRY_RUN              "true" to print the message instead of sending it
  */
@@ -22,12 +22,22 @@ const {
   NEW_FILE,
   DISCORD_BOT_TOKEN,
   DISCORD_CHANNEL_ID,
+  DISCORD_ROLE_IDS,
   DISCORD_ROLE_ID,
   EMOJI_PREFIX = "",
   DRY_RUN,
 } = process.env;
 
 const dryRun = DRY_RUN === "true";
+
+// Roles are only pinged if they're listed in allowed_mentions.roles, even when
+// the <@&id> mention is in the content.
+const roleIds = (DISCORD_ROLE_IDS || DISCORD_ROLE_ID || "")
+  .split(",")
+  .map((id) => id.trim())
+  .filter(Boolean);
+
+if (roleIds.length === 0) throw new Error("DISCORD_ROLE_IDS is not set");
 
 // --- load + flatten -------------------------------------------------------
 
@@ -132,7 +142,7 @@ if (added.length === 0) {
 console.log(`Found ${added.length} new string(s).`);
 
 const header = [
-  `## ${EMOJI_PREFIX} <@&${DISCORD_ROLE_ID}>`,
+  `## ${EMOJI_PREFIX} ${roleIds.map((id) => `<@&${id}>`).join(" ")}`,
   "",
   `The following translation string${added.length === 1 ? " has" : "s have"} been added:`,
   "",
@@ -160,7 +170,7 @@ if (dryRun) {
 
 const message = await discord(`/channels/${DISCORD_CHANNEL_ID}/messages`, {
   content: first,
-  allowed_mentions: { parse: [], roles: [DISCORD_ROLE_ID] },
+  allowed_mentions: { parse: [], roles: roleIds },
 });
 
 const stamp = new Date().toLocaleDateString("en-GB", {
