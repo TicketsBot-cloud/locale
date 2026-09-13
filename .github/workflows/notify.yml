@@ -54,7 +54,7 @@ jobs:
           NEW_FILE: ${{ env.LOCALE_FILE }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_CHANNEL_ID: ${{ vars.TRANSLATIONS_CHANNEL_ID }}
-          DISCORD_ROLE_ID: '1382765707774918686'
+          DISCORD_ROLE_IDS: '1382765707774918686'
           EMOJI_PREFIX: ${{ vars.TRANSLATIONS_EMOJI_PREFIX }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
         run: node .github/scripts/notify-new-strings.mjs
