@@ -126,8 +126,8 @@
 	"close.reason_too_long": "Причина закрытия не может быть длиннее 255 символов.",
 	"commands.close_request.success": "Запрос на закрытие успешно отправлен",
 	"commands.close_request.close_at": "Automatically closes at",
-	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
-	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
+	"commands.close_request.intro": "<@%d> запросил закрытие этого обращения.",
+	"commands.close_request.prompt": "Пожалуйста, примите или отклоните с помощью кнопок ниже.",
 	"commands.close_request.no_permission": "Только пользователь, открывший обращение, может ответить на запрос о закрытии.",
 	"commands.close_request.denied": "<@%d> отклонил запрос на закрытие.",
 	"generic.error": "Ошибка",
@@ -186,7 +186,7 @@
 	"commands.remove.success": "<@%s> исключен(а) из <#%d>",
 	"commands.remove.role_thread": "Из-за ограничений Discord роли не могут быть исключены из веток обращений.",
 	"open.ratelimited": "Обращения на сервере открываются слишком быстро.",
-	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
+	"open.feature_unavailable": "Создание обращения временно недоступно. Пожалуйста, повторите позже.",
 	"open.panel_cooldown": "Вы временно не можете использовать эту панель. Пожалуйста, попробуйте снова %s.",
 	"commands.claim.thread": "Из-за ограничений Discord, назначение обращений не поддерживается в ветках.",
 	"generic.join_support_server": "Присоединиться к серверу поддержки.",
@@ -214,7 +214,7 @@
 			"disabled": "Команда `%s` отключена на этом сервере. Пожалуйста, воспользуйтесь панелью для открытия обращения.",
 			"threads": {
 				"cant_see_parent_channel": "Не удалось добавить пользователя <@%d> в обращение. Убедитесь, что у него есть разрешения на просмотр родительского канала ветки (<#%d>)",
-				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
+				"cant_message_in_threads": "У вас отсутствует право `Отправлять сообщения в ветках и публикациях` в <#%d>, которое нужно для открытия обращения. Пожалуйста, обратитесь к администратору сервера."
 			}
 		},
 		"switch_panel": {
