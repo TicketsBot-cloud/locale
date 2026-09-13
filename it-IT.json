@@ -163,9 +163,9 @@
 	"generic.title.remove_support": "Rimuovi supporto",
 	"commands.addsupport.success": "I rappresentanti del supporto sono stati aggiunti con successo: %s",
 	"generic.title.language": "Lingua",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "I rappresentanti del supporto sono stati rimossi con successo: %s",
+	"commands.addadmin.success": "Admin è stato aggiunto con successo: %s",
+	"commands.removeadmin.success": "Admin è stato rimosso con successo: %s",
 	"generic.title.setup": "Configura",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Pannello",
@@ -181,13 +181,13 @@
 	"generic.title.claimed": "Ticket rivendicato",
 	"generic.title.unclaimed": "Ticket non rivendicato",
 	"generic.title.add": "Aggiungi",
-	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.add.success": "<@%s> è stato aggiunto a <#%d>",
+	"commands.add.role_thread": "A causa di limitazioni di Discord, i ruoli non possono essere aggiunti ai ticket in formato threads",
+	"commands.remove.success": "<@%s> è stato rimosso da <#%d>",
+	"commands.remove.role_thread": "A causa di limitazioni di Discord, i ruoli non possono essere rimossi dai ticket in formato threads",
 	"open.ratelimited": "I ticket stanno venendo aperti troppo velocemente in questo server",
 	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
-	"open.panel_cooldown": "You are on cooldown for this panel. Please try again %s.",
+	"open.panel_cooldown": "Sei in timeout per questo pannello. Per fabore prova ancora %s.",
 	"commands.claim.thread": "A causa delle limitazioni di Discord, la rivendicazione non è possibile nei thread",
 	"generic.join_support_server": "Entra nel Server di Supporto",
 	"commands.open.guild_channel_limit": "Questo server ha raggiunto il limite di Discord di 500 canali",
@@ -220,10 +220,10 @@
 		"switch_panel": {
 			"invalid_panel": "Pannello non valido: È necessario selezionarne uno dal menù a tendina",
 			"success": "Questo ticket è stato cambiato al pannello `%s` di <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket",
-			"claimer_no_access_title": "Panel Switch Blocked",
-			"claimer_no_access": "The ticket claimer (<@%d>) does not have access to the selected panel.",
-			"auto_unclaimed": "The ticket has been switched to the `%s` panel by <@%d>.\n\nThe ticket has been automatically unclaimed, as <@%d> does not have access to the new panel."
+			"non_thread_to_thread": "Non puoi cambiare ad un pannello che usa i ticket in formato threads da uno che usa i ticket in formato normale",
+			"claimer_no_access_title": "Cambio pannello bloccato",
+			"claimer_no_access": "Il rivendicatore del ticket (<@%d>) non ha accesso al pannello selezionato.",
+			"auto_unclaimed": "Questo ticket è stato cambiato al pannello `%s` da <@%d>.\n\nQuesto ticket è stato rimosso dalla ricendicazione in modo automatico, dato che <@%d> non ha accesso al nuovo pannello."
 		},
 		"blacklist": {
 			"staff": "I membri dello staff non possono essere aggiunti alla blacklist",
@@ -232,7 +232,7 @@
 				"limit": "Hai raggiunto il limite dei ruoli nella blacklist (%d)"
 			},
 			"remove_role": {
-				"success": "<@&%d> has been unblacklisted"
+				"success": "<@&%d> è stato tolto dalla blacklist"
 			},
 			"add": {
 				"limit": "Hai raggiunto il limite di utenti nella blacklist (%d): considera l'utilizzo di un ruolo"
@@ -353,15 +353,15 @@
 			}
 		},
 		"edit": {
-			"title": "Edit Ticket Settings",
-			"description": "Below you can edit various settings for this ticket.",
+			"title": "Modifica le impostazioni del ticket",
+			"description": "Qui sotto puoi modificare varie impostazioni per questo ticket.",
 			"labels": {
-				"title": "Edit Labels",
-				"description": "Edit the labels assigned to this ticket",
+				"title": "Modifica etichette",
+				"description": "Modifica le etichette assegnate a questo ticket",
 				"update_modal": {
-					"title": "Update Ticket Labels",
-					"select_menu_title": "Labels",
-					"success": "Ticket labels have been successfully updated to: %s"
+					"title": "Aggiorna le etichette del ticket",
+					"select_menu_title": "Etichette",
+					"success": "Le etichette del tichet sono state aggiornate con successo a: %s"
 				},
 				"none_configured": "No labels have been configured for this server. You can create labels in the [dashboard](%s)."
 			}
