@@ -7,20 +7,41 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-      repository-projects: write
-      
+    timeout-minutes: 5
+    if: github.event.pull_request.user.login == 'tickets-v2'
+    permissions: {}
+
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-          
-    - name: automerge
-      uses: "pascalgn/automerge-action@v0.16.4"
+    - name: Squash-merge Crowdin PR
       env:
-        GITHUB_TOKEN: "${{ secrets.DEPLOYMENT_TOKEN }}"
-        MERGE_LABELS: ""
-        MERGE_METHOD: "squash"
-        MERGE_COMMIT_MESSAGE: "task(locale): Updated CrowdIn Translations 🌍"
-        MERGE_FILTER_AUTHOR: "tickets-v2"
+        GH_TOKEN: ${{ secrets.DEPLOYMENT_TOKEN }}
+        REPO: ${{ github.repository }}
+        PR: ${{ github.event.pull_request.number }}
+      run: |
+        set -uo pipefail
+
+        for attempt in 1 2 3; do
+          # Empty --body overrides the repo's COMMIT_MESSAGES default, which would copy
+          # Crowdin's commit list into main.
+          if out=$(gh pr merge "$PR" --repo "$REPO" --squash \
+                     --subject "task(locale): Updated CrowdIn Translations 🌍" \
+                     --body "" 2>&1); then
+            printf '%s\n' "$out"
+            exit 0
+          fi
+          printf '%s\n' "$out"
+
+          case "$out" in
+            *"Bad credentials"*|*"HTTP 401"*|*"Resource not accessible"*)
+              echo "::error::DEPLOYMENT_TOKEN is invalid, expired, or lacks merge permission on $REPO."
+              exit 1 ;;
+            *"not mergeable"*)
+              echo "::error::PR #$PR cannot be merged cleanly and needs a human."
+              exit 1 ;;
+          esac
+
+          sleep 5
+        done
+
+        echo "::error::Could not merge PR #$PR after 3 attempts; gh output above."
+        exit 1
