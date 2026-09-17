@@ -125,7 +125,7 @@
 	"help.close_request": "Отправляет сообщение пользователю с просьбой подтверждения закрытия обращения",
 	"close.reason_too_long": "Причина закрытия не может быть длиннее 255 символов.",
 	"commands.close_request.success": "Запрос на закрытие успешно отправлен",
-	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.close_at": "Автоматически закроется",
 	"commands.close_request.intro": "<@%d> запросил закрытие этого обращения.",
 	"commands.close_request.prompt": "Пожалуйста, примите или отклоните с помощью кнопок ниже.",
 	"commands.close_request.no_permission": "Только пользователь, открывший обращение, может ответить на запрос о закрытии.",
