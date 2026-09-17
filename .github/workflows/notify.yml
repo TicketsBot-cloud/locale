@@ -1,0 +1,60 @@
+name: Notify Translators
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'en-GB.json'
+  workflow_dispatch:
+    inputs:
+      base:
+        description: 'Commit/ref to compare against (defaults to the previous commit)'
+        required: false
+      dry_run:
+        description: 'Print the message instead of posting it'
+        type: boolean
+        default: true
+
+concurrency:
+  group: notify-translators
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      LOCALE_FILE: en-GB.json
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Extract previous version of the locale file
+        id: base
+        run: |
+          BASE="${{ inputs.base || github.event.before }}"
+          # Branch creation / force push / unknown ref -> fall back to the parent commit
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BASE^{commit}" 2>/dev/null; then
+            BASE="$(git rev-parse HEAD^ 2>/dev/null || echo '')"
+          fi
+          echo "Comparing against: ${BASE:-<empty tree>}"
+          if [ -n "$BASE" ] && git show "$BASE:$LOCALE_FILE" > /tmp/old.json 2>/dev/null; then
+            echo "Extracted previous version."
+          else
+            echo '{}' > /tmp/old.json
+          fi
+
+      - name: Post new strings to Discord
+        env:
+          OLD_FILE: /tmp/old.json
+          NEW_FILE: ${{ env.LOCALE_FILE }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ vars.TRANSLATIONS_CHANNEL_ID }}
+          DISCORD_ROLE_IDS: '1382765707774918686'
+          EMOJI_PREFIX: ${{ vars.TRANSLATIONS_EMOJI_PREFIX }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: node .github/scripts/notify-new-strings.mjs
