@@ -422,7 +422,8 @@
 		"intro": "Select the type of GDPR request you would like to make:",
 		"section": {
 			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_",
+			"export": "### **Data Export Options**\n-# _Export your data under GDPR Article 15 (Right of Access)_"
 		},
 		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
 		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
@@ -430,7 +431,9 @@
 			"all_transcripts": "All transcripts from servers",
 			"specific_transcripts": "Specific transcripts",
 			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"specific_messages": "Your messages in specific tickets",
+			"export_guild": "Export guild data",
+			"export_user": "Export my data"
 		},
 		"language_option": "Language",
 		"modal": {
@@ -438,6 +441,7 @@
 			"specific_transcripts": "Delete Specific Transcripts",
 			"all_messages": "Anonymize Your Messages in Servers",
 			"specific_messages": "Anonymize Your Messages in Specific Tickets",
+			"export_guild": "Export Guild Data",
 			"select_server": "Select a server",
 			"select_servers": "Select one or more servers",
 			"server_id": {
@@ -461,6 +465,10 @@
 			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"export_guild": "**Request Type:** Export all transcript data from a server you own\n**Server:** %s\n\nA ZIP archive containing all transcripts will be sent to you via DM. Large exports are split across several files.",
+			"export_guild_multi": "**Request Type:** Export all transcript data from servers you own\n**Servers:**\n* %s\n\nA ZIP archive containing all transcripts will be sent to you via DM. Large exports are split across several files.",
+			"export_user": "**Request Type:** Export all your personal data\n\nThis includes your database records, cache data, and your messages from all transcripts.\nA ZIP archive will be sent to you via DM. Large exports are split across several files.",
+			"export_button": "Export Data",
 			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
 			"button": "Confirm - I understand"
 		},
@@ -472,6 +480,9 @@
 			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"export_guild": "**Request Type:** Export all transcript data from a server you own\n**Server:** %s",
+			"export_guild_multi": "**Request Type:** Export all transcript data from servers you own\n**Servers:**\n* %s",
+			"export_user": "**Request Type:** Export all your personal data",
 			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
 		},
 		"completed": {
@@ -482,6 +493,9 @@
 			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
+			"export_guild": "**Request Type:** Export guild data\n**Server:** %s\n**Transcripts Exported:** %d\n\nYour export has been sent to you via DM.",
+			"export_guild_multi": "**Request Type:** Export guild data\n**Servers:**\n* %s\n**Transcripts Exported:** %d\n\nYour export has been sent to you via DM.",
+			"export_user": "**Request Type:** Export personal data\n**Files Exported:** %d\n\nYour export has been sent to you via DM.",
 			"error": "\n\n**⚠️ Error:** %s"
 		},
 		"followup": {
@@ -489,14 +503,21 @@
 			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
 			"success": "✅ Your GDPR request has been processed successfully."
 		},
+		"export": {
+			"dm_message": "Here is your data export.",
+			"dm_message_part": "Here is your data export — message %d of %d."
+		},
 		"error": {
 			"no_servers": "No servers found where you are the owner and have transcripts.",
 			"invalid_server_id": "Invalid server ID provided.",
 			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
+			"not_owner": "You must be the server owner to make this request for a server.",
 			"server_not_found": "Server not found.",
 			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"confirmation_expired": "This confirmation has expired or has already been used. Please run the command again.",
+			"bot_not_in_server": "The bot is not in the following server(s), so ownership cannot be verified:\n* %s\n\nPlease add the bot to the server and try again.",
+			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists.",
+			"export_dm_failed": "⚠️ Your export was generated, but it could not be sent to you by direct message.\n\nPlease allow direct messages from server members, then run the command again.\n\nDelivered %d of %d files before the failure."
 		}
 	},
 	"errors": {
