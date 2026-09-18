@@ -1,5 +1,5 @@
 files:
   - source: /en-GB.json
     translation: /%locale%.json
-commit_message: "Fix: New translations %original_file_name% from Crowdin"
+commit_message: "New translations for %original_file_name%"
 append_commit_message: false
