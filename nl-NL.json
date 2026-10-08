@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Reden voor het sluiten van het ticket, bv. \"Opgelost\""
+			"placeholder": "Reden voor het sluiten van het ticket, bv. \"Opgelost\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "De ticket is gesloten door <@%d>",
 		"rate": {
