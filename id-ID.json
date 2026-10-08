@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Alasan penutupan tiket, mis. \"Terselesaikan\""
+			"placeholder": "Alasan penutupan tiket, mis. \"Terselesaikan\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Tiket ditutup oleh <@%d>",
 		"rate": {
