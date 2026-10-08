@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "关闭工单的原因，例如 “已解决”"
+			"placeholder": "关闭工单的原因，例如 “已解决”",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "此工单已被 <@%d> 关闭",
 		"rate": {
