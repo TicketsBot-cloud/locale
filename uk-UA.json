@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Причина для закриття заявки, на приклад, \"Вирішено\""
+			"placeholder": "Причина для закриття заявки, на приклад, \"Вирішено\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Ця заявка була закрита <@%d>",
 		"rate": {
