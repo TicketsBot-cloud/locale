@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Lezárás indoka, pl. \"Megoldva\""
+			"placeholder": "Lezárás indoka, pl. \"Megoldva\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "A ticket be lett zárva <@%d> által",
 		"rate": {
