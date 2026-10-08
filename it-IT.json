@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Motivo per la chiusura del ticket, e.g. \"Risolto\""
+			"placeholder": "Motivo per la chiusura del ticket, e.g. \"Risolto\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Il ticket è stato chiuso da <@%d>",
 		"rate": {
