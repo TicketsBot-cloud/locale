@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Ο λόγος που έκλεισε το ticket, π.χ. \"Λύθηκε\""
+			"placeholder": "Ο λόγος που έκλεισε το ticket, π.χ. \"Λύθηκε\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Το ticket έκλεισε από τον <@%d>",
 		"rate": {
