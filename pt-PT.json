@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Razão para fechar o bilhete, p.ex. \"Resolvido\""
+			"placeholder": "Razão para fechar o bilhete, p.ex. \"Resolvido\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "O bilhete foi fechado por <@%d>",
 		"rate": {
