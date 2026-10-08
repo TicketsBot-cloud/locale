@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "סיבת סגירת הכרטיס, למשל. \"נפתר\""
+			"placeholder": "סיבת סגירת הכרטיס, למשל. \"נפתר\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "הכרטיס נסגר על ידי <@%d>",
 		"rate": {
