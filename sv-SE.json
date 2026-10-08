@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Anledning till att avsluta ärendet, t.ex. \"Löst\""
+			"placeholder": "Anledning till att avsluta ärendet, t.ex. \"Löst\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Ärendet avslutades av <@%d>",
 		"rate": {
