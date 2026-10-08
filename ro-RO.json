@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Motivul închiderii tichetului, de ex., „Rezolvat”"
+			"placeholder": "Motivul închiderii tichetului, de ex., „Rezolvat”",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Tichetul a fost închis de <@%d>",
 		"rate": {

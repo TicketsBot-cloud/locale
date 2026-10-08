@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "티켓을 닫는 이유(예: \"해결됨\")"
+			"placeholder": "티켓을 닫는 이유(예: \"해결됨\")",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "<@%d>님이 티켓을 닫으셨어요.",
 		"rate": {

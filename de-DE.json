@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Grund für das Schließen des Tickets, z.B. „gelöst“"
+			"placeholder": "Grund für das Schließen des Tickets, z.B. „gelöst“",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Das Ticket wurde von <@%d> geschlossen",
 		"rate": {

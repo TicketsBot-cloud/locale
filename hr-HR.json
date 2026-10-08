@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Razlog zatvaranja tiketa, npr. \"Riješeno\""
+			"placeholder": "Razlog zatvaranja tiketa, npr. \"Riješeno\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Tiket je zatvorio <@%d>",
 		"rate": {

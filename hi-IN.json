@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "टिकट बंद करने का कारण, जैसे कि \"Resolved\""
+			"placeholder": "टिकट बंद करने का कारण, जैसे कि \"Resolved\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "टिकट <@%d> द्वारा बंद किया गया है",
 		"rate": {

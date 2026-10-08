@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Grund für s'Schlüsse vom Ticket, z.B. \"abgschlosse\""
+			"placeholder": "Grund für s'Schlüsse vom Ticket, z.B. \"abgschlosse\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "S'Ticket isch vo <@%d> gschlosse worde",
 		"rate": {

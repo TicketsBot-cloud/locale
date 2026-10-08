@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Ticket close karne ka reason, e.g. \"Resolved\""
+			"placeholder": "Ticket close karne ka reason, e.g. \"Resolved\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Ticket <@%d> ne close kar diya",
 		"rate": {
