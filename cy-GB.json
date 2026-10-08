@@ -199,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Rheswm dros gau'r tocyn, e.e. \"Wedi'i ddatrys\""
+			"placeholder": "Rheswm dros gau'r tocyn, e.e. \"Wedi'i ddatrys\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Cafodd y tocyn ei gau gan <@%d>",
 		"rate": {
