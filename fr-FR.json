@@ -123,7 +123,7 @@
 	"commands.open.from": "Ce ticket a été ouvert à partir de [ce message](%s).\n\n<@%d> dit dans <#%d> :\n```%s```",
 	"commands.open.from.moved": "La conversation a été déplacée vers un ticket (<#%d>)",
 	"help.close_request": "Envoie un message demandant à l'utilisateur de confirmer la fermeture du ticket",
-	"close.reason_too_long": "La raison ne peut pas excéder 255 caractères",
+	"close.reason_too_long": "Le motif ne peut pas excéder 255 caractères",
 	"commands.close_request.success": "La demande de fermeture a été envoyée avec succès",
 	"commands.close_request.close_at": "Fermeture automatique le",
 	"commands.close_request.intro": "<@%d> a demandé à fermer ce ticket.",
@@ -200,10 +200,10 @@
 	"close": {
 		"reason": {
 			"placeholder": "Motif de la fermeture du ticket, par exemple \"Résolu\"",
-			"not_predefined": "Please choose one of the predefined close reasons",
-			"missing": "Select a reason or enter your own",
-			"custom": "Custom Reason",
-			"custom_description": "Only used if no reason is selected above"
+			"not_predefined": "Veuillez choisir l'un des motifs de fermeture prédéfinis",
+			"missing": "Sélectionnez un motif ou indiquez le vôtre",
+			"custom": "Motif personnalisé",
+			"custom_description": "Utilisé uniquement si aucun motif n'est sélectionné ci-dessus"
 		},
 		"success": "Le ticket a été fermé par <@%d>",
 		"rate": {
