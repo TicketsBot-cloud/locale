@@ -200,10 +200,10 @@
 	"close": {
 		"reason": {
 			"placeholder": "Grunn for å stenge ticketen, f.eks \"Løst\"",
-			"not_predefined": "Please choose one of the predefined close reasons",
-			"missing": "Select a reason or enter your own",
-			"custom": "Custom Reason",
-			"custom_description": "Only used if no reason is selected above"
+			"not_predefined": "Velg en av de forhåndsdefinerte årsakene til lukking",
+			"missing": "Velg en årsak eller skriv inn din egen",
+			"custom": "Egendefinert årsak",
+			"custom_description": "Brukes bare hvis ingen årsak er valgt ovenfor"
 		},
 		"success": "Ticketen ble lukket av <@%d>",
 		"rate": {
