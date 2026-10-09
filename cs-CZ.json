@@ -200,10 +200,10 @@
 	"close": {
 		"reason": {
 			"placeholder": "Důvod zavření ticketu, např. \"Vyřešeno\"",
-			"not_predefined": "Please choose one of the predefined close reasons",
-			"missing": "Select a reason or enter your own",
-			"custom": "Custom Reason",
-			"custom_description": "Only used if no reason is selected above"
+			"not_predefined": "Prosím, vyberte jedno z předdefinovaných důvodů pro uzavření",
+			"missing": "Vyberte důvod nebo vložte svoje vlastní",
+			"custom": "Vlastní důvod",
+			"custom_description": "Použije se pouze v případě, že nebyl vybrán žádný důvod"
 		},
 		"success": "Ticket byl uzavřen uživatelem <@%d>",
 		"rate": {
