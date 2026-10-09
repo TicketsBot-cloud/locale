@@ -200,10 +200,10 @@
 	"close": {
 		"reason": {
 			"placeholder": "Grund für das Schließen des Tickets, z.B. „gelöst“",
-			"not_predefined": "Please choose one of the predefined close reasons",
-			"missing": "Select a reason or enter your own",
-			"custom": "Custom Reason",
-			"custom_description": "Only used if no reason is selected above"
+			"not_predefined": "Bitte wähle einen der vordefinierten Gründe aus",
+			"missing": "Wähle einen Grund oder gib deinen eigenen Grund ein",
+			"custom": "Benutzerdefinierter Grund",
+			"custom_description": "Nur verwenden, wenn kein Grund oben ausgewählt ist"
 		},
 		"success": "Das Ticket wurde von <@%d> geschlossen",
 		"rate": {
