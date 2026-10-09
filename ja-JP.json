@@ -200,10 +200,10 @@
 	"close": {
 		"reason": {
 			"placeholder": "チケットを閉じる理由（例：「解決済み」）",
-			"not_predefined": "Please choose one of the predefined close reasons",
-			"missing": "Select a reason or enter your own",
-			"custom": "Custom Reason",
-			"custom_description": "Only used if no reason is selected above"
+			"not_predefined": "事前定義されているクローズ理由のいずれかを選択してください",
+			"missing": "理由を選択するか、独自の理由を入力してください",
+			"custom": "カスタム理由",
+			"custom_description": "上で理由が選択されていない場合にのみ使用します"
 		},
 		"success": "<@%d> このチケットはによって閉じられました",
 		"rate": {
