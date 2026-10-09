@@ -458,7 +458,7 @@
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
+			"title": "Conferma GDPR richiesta",
 			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
 			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
 			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
