@@ -200,10 +200,10 @@
 	"close": {
 		"reason": {
 			"placeholder": "Årsag til lukning af denne ticket, fx \"Løst\"",
-			"not_predefined": "Please choose one of the predefined close reasons",
-			"missing": "Select a reason or enter your own",
-			"custom": "Custom Reason",
-			"custom_description": "Only used if no reason is selected above"
+			"not_predefined": "Vælg venligst en af de foruddefinerede lukkeårsager",
+			"missing": "Vælg en årsag eller indtast din egen",
+			"custom": "Brugerdefineret Årsag",
+			"custom_description": "Anvendes kun, hvis der ikke er valgt nogen årsager ovenfor"
 		},
 		"success": "Ticketen blev lukket af <@%d>",
 		"rate": {

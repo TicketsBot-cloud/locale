@@ -200,10 +200,10 @@
 	"close": {
 		"reason": {
 			"placeholder": "Raó de tancament del tiquet, p.e. \"Resolt\"",
-			"not_predefined": "Please choose one of the predefined close reasons",
-			"missing": "Select a reason or enter your own",
-			"custom": "Custom Reason",
-			"custom_description": "Only used if no reason is selected above"
+			"not_predefined": "Si us plau, selecciona una de les raons de tancament predefinides",
+			"missing": "Selecciona una raó o introdueix la teva pròpia",
+			"custom": "Raó personalitzada",
+			"custom_description": "Utilitzat únicament si no s'ha seleccionat cap raó"
 		},
 		"success": "<@%d> ha tancat el tiquet",
 		"rate": {
