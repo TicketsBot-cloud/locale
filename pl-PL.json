@@ -202,8 +202,8 @@
 			"placeholder": "Powód zamknięcia zgłoszenia, np. ''Rozwiązane''",
 			"not_predefined": "Proszę wybierz jeden z predefiniowanych powodów zamknięcia",
 			"missing": "Wybierz powód lub wpisz własny",
-			"custom": "Custom Reason",
-			"custom_description": "Only used if no reason is selected above"
+			"custom": "Niestandardowy Powód",
+			"custom_description": "Używane tylko, jeśli nie wybrano powodu powyżej"
 		},
 		"success": "Zgłoszenie zostało zamknięte przez <@%d>",
 		"rate": {
