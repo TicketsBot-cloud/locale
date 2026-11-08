@@ -8,8 +8,24 @@
 	"commands.addsupport.no_members": "Anda perlu menyebutkan pengguna atau menyebutkan peran untuk memberikan hak istimewa kepada perwakilan dukungan",
 	"commands.blacklist.no_members": "Anda perlu menyebutkan pengguna untuk mengaktifkan status daftar hitam",
 	"commands.blacklist.self": "Anda tidak dapat memasukkan diri Anda sendiri ke dalam daftar hitam",
+	"commands.claim.already_claimed": "This ticket has already been claimed by %s",
 	"commands.claim.success": "Tiket Anda akan ditangani oleh %s",
 	"commands.invite": "[Klik disini](<%s>)",
+	"commands.kb.article_not_found": "That article could not be found.",
+	"commands.kb.back": "Back",
+	"commands.kb.create_ticket": "Create Ticket",
+	"commands.kb.feedback_helpful": "This Helped",
+	"commands.kb.feedback_thanks": "Thanks for your feedback!",
+	"commands.kb.feedback_thanks_body": "Your feedback has been recorded.",
+	"commands.kb.more_articles": "%d more articles not shown",
+	"commands.kb.no_articles_found": "No articles found.",
+	"commands.kb.no_categories": "No knowledge base categories have been set up yet.",
+	"commands.kb.no_description": "No description",
+	"commands.kb.read": "Read",
+	"commands.kb.search_results": "Search Results",
+	"commands.kb.select_category": "Select a Category",
+	"commands.kb.suggest_footer": "These articles might help before you open a ticket.",
+	"commands.kb.suggest_title": "You Might Find This Helpful",
 	"commands.language.invalid": "Anda perlu menentukan kode atau tanda bahasa. Bahasa yang tersedia:\\n%s",
 	"commands.open.ticket_limit": "Anda hanya dapat membuka %d %s sekaligus",
 	"commands.open.too_many_tickets": "Anda terlalu banyak tiket di kategori tiket. Minta admin untuk menutup beberapa, memindahkannya ke kategori lain, atau mgrenyiapkan kategori tambahan.\n\nIni adalah **Batas yang diberlakukan Discord** sebanyak 50 saluran per kategori.",
@@ -56,6 +72,10 @@
 	"help.close": "Menutup tiket saat ini",
 	"help.help": "Menunjukkan kepada Anda daftar perintah",
 	"help.invite": "Memberitahukan tautan undangan untuk bot",
+	"help.kb": "Searches and browses the knowledge base",
+	"help.kb.browse": "Browses knowledge base articles by category",
+	"help.kb.search": "Searches the knowledge base for articles",
+	"help.kb.send": "Shares a knowledge base article in the channel",
 	"help.language": "Mengubah bahasa yang digunakan bot",
 	"help.managetags": "Tambahkan, hapus, atau daftarkan tag",
 	"help.open": "Membuka tiket baru",
@@ -105,8 +125,9 @@
 	"help.close_request": "Mengirimkan pesan yang meminta pengguna untuk mengonfirmasi bahwa tiket dapat ditutup",
 	"close.reason_too_long": "Alasannya tidak boleh lebih dari 255 karakter",
 	"commands.close_request.success": "Permohonan penutupan telah berhasil dikirim",
-	"commands.close_request.no_reason": "<@%d> telah meminta untuk menutup tiket ini.\n\nSilaka terima atau tolak menggunakan tombol di bawah.",
-	"commands.close_request.with_reason": "<@%d> telah meminta untuk menutup tiket ini. Alasan:\n```\n%s\n```\nSilakan terima atau tolak menggunakan tombol di bawah.",
+	"commands.close_request.close_at": "Automatically closes at",
+	"commands.close_request.intro": "<@%d> has requested to close this ticket.",
+	"commands.close_request.prompt": "Please accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Hanya pengguna yang membuka tiket yang dapat menanggapi permintaan penutupan",
 	"commands.close_request.denied": "<@%d> menolak permintaan penutupan",
 	"generic.error": "Kesalahan",
@@ -165,6 +186,7 @@
 	"commands.remove.success": "<@%s> telah dikeluarkan dari <#%d>",
 	"commands.remove.role_thread": "Karena keterbatasan Discord, peran tidak dapat dihapus dari tiket thread",
 	"open.ratelimited": "Tiket dibuka terlalu cepat di server ini",
+	"open.feature_unavailable": "Ticket creation is temporarily unavailable. Please try again shortly.",
 	"open.panel_cooldown": "Anda sedang dalam masa tunggu untuk panel ini. Silakan coba lagi %s.",
 	"commands.claim.thread": "Karena keterbatasan Discord, klaim tidak mendukung thread",
 	"generic.join_support_server": "Bergabunglah dengan Server Dukungan",
@@ -177,7 +199,11 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Alasan penutupan tiket, mis. \"Terselesaikan\""
+			"placeholder": "Alasan penutupan tiket, mis. \"Terselesaikan\"",
+			"not_predefined": "Please choose one of the predefined close reasons",
+			"missing": "Select a reason or enter your own",
+			"custom": "Custom Reason",
+			"custom_description": "Only used if no reason is selected above"
 		},
 		"success": "Tiket ditutup oleh <@%d>",
 		"rate": {
@@ -192,7 +218,7 @@
 			"disabled": "Perintah `%s` dinonaktifka di server ini: silakan gunakan panel tiket untuk membuka tiket",
 			"threads": {
 				"cant_see_parent_channel": "Tidak dapat menambahkan <@%d> ke tiket: Pastikan mereka memiliki izin untuk melihat saluran induk thread (<#%d>)",
-				"cant_message_in_threads": "Anda tidak memiliki izin `Kirim Pesan di Thread`, yang diperlukan untuk membuka tiket. Harap minta administrator server untuk memberikan izin ini kepada Anda lalu coba lagi."
+				"cant_message_in_threads": "You don't have the `Send Messages in Threads` permission in <#%d>, which is required to open a ticket. Please ask a server administrator to grant this permission via your roles or the channel's permission settings, and try again."
 			}
 		},
 		"switch_panel": {
@@ -435,46 +461,46 @@
 			"title": "Konfirmasi GDPR diperlukan",
 			"all_transcripts": "**Jenis Permintaan:** Hapus semua transkrip dari server yang Anda miliki\n**Server:** %s",
 			"all_transcripts_multi": "**Jenis Permintaan:** Hapus semua transkrip dari server yang Anda miliki\n**Server:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
+			"specific_transcripts": "**Jenis Permintaan:** Hapus transkrip tertentu dari server\n**Server:** %s\n**ID Tiket:** %s",
+			"all_messages": "**Jenis Permintaan:** Anonimkan semua pesan Anda di server yang dipilih\n**Server:** %s",
+			"all_messages_multi": "**Jenis Permintaan:** Anonimkan semua pesan Anda di server yang dipilih\n**Servers:**\n* %s",
+			"specific_messages": "**Jenis Permintaan:** Anonimkan pesan Anda di tiket tertentu\n**Server:** %s\n**ID Tiket:** %s",
+			"warning": "\n\n⚠️ **Peringatan:** Tindakan ini bersifat permanen dan tidak dapat dibatalkan.\n\nApakah Anda memahami dan menerima bahwa tindakan ini bersifat permanen?",
 			"button": "Konfirmasi - Saya paham"
 		},
 		"queued": {
 			"title": "Permohonan GDPR sedang diproses",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"all_transcripts": "**Jenis Permintaan:** Hapus semua transkrip dari server\n**Server:** %s",
+			"all_transcripts_multi": "**Jenis Permintaan:** Hapus semua transkrip dari server\n**Server:**\n* %s",
+			"specific_transcripts": "**Jenis Permintaan:** Hapus transkrip tertentu\n**Server:** %s\n**ID Tiket:** %s",
+			"all_messages": "**Jenis Permintaan:** Anonimkan semua pesan Anda di server\n**Server:** %s",
+			"all_messages_multi": "**Jenis Permintaan:** Anonimkan semua pesan Anda di server\n**Server:**\n* %s",
+			"specific_messages": "**Jenis Permintaan:** Anonimkan pesan Anda di tiket tertentu\n**Server:** %s\n**ID Tiket:** %s",
 			"footer": "\n\nPermohonan kamu telah dimasukkan ke dalam antrian untuk diproses.\nProses mungkin memakan waktu tergantung pada jumlah transkrip yang ada."
 		},
 		"completed": {
 			"title": "Permohonan GDPR telah selesai",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"all_transcripts": "**Jenis Permintaan:** Hapus semua transkrip dari server\n**Server:** %s\n**Transkrip yang Dihapus:** %d",
+			"all_transcripts_multi": "**Jenis Permintaan:** Hapus semua transkrip dari server\n**Server:**\n* %s\n**Transkrip yang Dihapus:** %d",
+			"specific_transcripts": "**Jenis Permintaan:** Hapus transkrip tertentu\n**Server:** %s\n**Transkrip yang Dihapus:** %d",
+			"all_messages": "**Jenis Permintaan:** Anonimkan semua pesan Anda di server\n**Server:** %s\n**Pesan yang Dianonimkan:** %d",
+			"all_messages_multi": "**Jenis Permintaan:** Anonimkan semua pesan Anda di server\n**Server:**\n* %s\n**Pesan yang Dianonimkan:** %d",
+			"specific_messages": "**Jenis Permintaan:** Anonimkan pesan Anda di tiket tertentu\n**Server:** %s\n**Pesan yang Dianonimkan:** %d",
+			"error": "\n\n**⚠️ Kesalahan:** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "⚠️ Permintaan GDPR Anda mengalami kesalahan: %s",
+			"no_data": "ℹ️ Permintaan GDPR Anda telah diproses. Tidak ada data yang ditemukan.",
+			"success": "✅ Permintaan GDPR Anda telah berhasil diproses."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
+			"no_servers": "Tidak ditemukan server tempat Anda menjadi pemilik dan memiliki transkrip.",
+			"invalid_server_id": "ID server yang diberikan tidak valid.",
+			"invalid_ticket_ids": "ID tiket yang diberikan tidak valid. Harap masukkan ID tiket berupa angka yang dipisahkan oleh koma (misalnya, 123, 456, 789).",
+			"not_owner": "Anda harus menjadi pemilik server untuk menghapus transkrip.",
 			"server_not_found": "Server tidak ditemukan.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"queue_failed": "Permintaan GDPR gagal dimasukkan ke dalam antrian. Silakan coba lagi nanti.",
+			"worker_offline": "Layanan pemrosesan GDPR saat ini tidak tersedia. Silakan coba lagi nanti atau hubungi dukungan jika masalah ini terus berlanjut."
 		}
 	},
 	"errors": {
@@ -502,9 +528,8 @@
 		"invalid_characters": "Masukan Anda mengandung karakter yang tidak valid.\n\nHarap gunakan hanya huruf, angka, tanda hubung, dan garis bawah.",
 		"invalid_choice": "Opsi yang diberikan tidak valid.\n\nSilakan minta administrator server untuk mengunjungi [dashboard](%s) dan memastikan semua pengaturan sudah benar.",
 		"invalid_form": "Tindakan tersebut tidak dapat diselesaikan karena input yang tidak valid.",
-		"thread_locked": "Tiket Anda tidak dapat dibuka karena saluran yang dikonfigurasi terkunci.\n\nSilakan minta administrator server untuk membuka kunci saluran tersebut.",
-		"max_active_threads": "Tiket Anda tidak dapat dibuka karena jumlah utas aktif maksimum di saluran ini telah tercapai.\n\nSilakan minta administrator server untuk menutup beberapa tiket atau mengarsipkan beberapa utas yang ada.",
-		"max_active_announcement_threads": "Tiket Anda tidak dapat dibuka karena batas maksimum jumlah utas pengumuman yang aktif telah tercapai.\n\nSilakan minta administrator server untuk menutup beberapa tiket atau mengarsipkan beberapa utas yang ada.",
+		"thread_locked": "Tiket Anda tidak dapat dibuka karena utas tiket terkunci.\n\nMohon minta administrator server untuk membuka kunci utas tiket ini.",
+		"max_active_threads": "Tiket Anda tidak dapat dibuka karena jumlah maksimum thread aktif telah tercapai di saluran ini.\n\nMohon minta administrator server untuk menutup beberapa tiket atau thread.",
 		"timed_out": "Operasi telah melebihi batas waktu, silakan coba lagi.",
 		"rate_limited": "Anda terkena pembatasan kecepatan. Silakan coba lagi %s.",
 		"rate_limited_global": "Discord sedang mengalami beban tinggi (batas kecepatan global). Silakan coba lagi %s.",
