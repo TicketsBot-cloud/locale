@@ -353,7 +353,7 @@
 				"users": "Korisnici podrške",
 				"roles": "Uloge podrške",
 				"no_roles": "Nema uloga podrške",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users_warning": "-# **Upozorenje:** Korisnici u timovima podrške više se ne podržavaju. Umjesto njih upotrijebite uloge."
 			}
 		},
 		"edit": {
