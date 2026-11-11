@@ -201,9 +201,9 @@
 		"reason": {
 			"placeholder": "Ticket close karne ka reason, e.g. \"Resolved\"",
 			"not_predefined": "Please choose one of the predefined close reasons",
-			"missing": "Select a reason or enter your own",
-			"custom": "Custom Reason",
-			"custom_description": "Only used if no reason is selected above"
+			"missing": "Ek reason select kare ya apna khud ka enter kare",
+			"custom": "Apka khud ka reason",
+			"custom_description": "Sirf tabhi use hoga jab upar koi reason select nahi kiya gaya ho"
 		},
 		"success": "Ticket <@%d> ne close kar diya",
 		"rate": {
