@@ -433,7 +433,7 @@
 		"button": {
 			"all_transcripts": "Svi transkripti sa servera",
 			"specific_transcripts": "Odabrani transkripti",
-			"all_messages": "All your messages in servers",
+			"all_messages": "Sve vaše poruke na serverima",
 			"specific_messages": "Your messages in specific tickets"
 		},
 		"language_option": "Language",
