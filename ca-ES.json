@@ -15,7 +15,7 @@
 	"commands.kb.back": "Enrere",
 	"commands.kb.create_ticket": "Crear Tiquet",
 	"commands.kb.feedback_helpful": "Útil",
-	"commands.kb.feedback_thanks": "Gràcies per compartir la teva opinió!",
+	"commands.kb.feedback_thanks": "Gràcies pels teus comentaris!",
 	"commands.kb.feedback_thanks_body": "La teva valoració ha estat registrada.",
 	"commands.kb.more_articles": "%d articles més no mostrats",
 	"commands.kb.no_articles_found": "No s'han trobat articles.",
