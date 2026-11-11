@@ -423,16 +423,16 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Odaberite vrstu zahtjeva prema GDPR-u koji želite podnijeti:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Mogućnosti brisanja transkripata**\n-# _Brisanje transkripata sa servera čiji ste vlasnik_",
+			"message": "### **Mogućnosti anonimizacije poruka**\n-# _Anonimizacija vaših poruka u transkriptima na odabranim serverima_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Važne informacije**\n* Brisanje je **trajno** i ne može se poništiti\n* Transkripte možete brisati samo sa servera čiji ste **vi vlasnik**\n* U transkriptima se mogu anonimizirati samo **vaše** poruke\n* Obrada zahtjeva može potrajati do **30 dana**\n* Zahtjev će biti obrađen **u redu čekanja**",
+		"resources": "### **Dodatne informacije**\n[Što je GDPR?](%s)\n[Pravo na brisanje](%s)\n[Pravo na pristup](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
+			"all_transcripts": "Svi transkripti sa servera",
+			"specific_transcripts": "Odabrani transkripti",
 			"all_messages": "All your messages in servers",
 			"specific_messages": "Your messages in specific tickets"
 		},
