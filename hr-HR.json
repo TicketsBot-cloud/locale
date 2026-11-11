@@ -436,20 +436,20 @@
 			"all_messages": "Sve vaše poruke na serverima",
 			"specific_messages": "Your messages in specific tickets"
 		},
-		"language_option": "Language",
+		"language_option": "Jezik",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Izbriši sve transkripte sa servera",
+			"specific_transcripts": "Izbriši odabrane transkripte",
+			"all_messages": "Anonimiziraj svoje poruke na serverima",
+			"specific_messages": "Anonimiziraj svoje poruke u odabranim ticketima",
+			"select_server": "Odaberite server",
+			"select_servers": "Odaberite jedan ili više servera",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "ID servera",
+				"placeholder": "Unesite ID servera"
 			},
 			"server_ids": {
-				"label": "Server IDs",
+				"label": "ID-jevi servera",
 				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
