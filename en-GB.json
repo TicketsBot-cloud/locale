@@ -97,6 +97,10 @@
 	"help.viewstaff": "Lists the staff members and roles",
 	"help.vote": "Gives you a link to vote for free premium",
 	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr.delete": "Delete transcripts from your servers or anonymize your messages",
+	"help.gdpr.export": "Export the data we hold about you or your servers",
+	"help.gdpr.export.server": "Export the data we hold for a server you own",
+	"help.gdpr.export.personal": "Export the personal data we hold about you",
 	"open.success": "Opened a new ticket: %s",
 	"open.outside_support_hours": {
 		"title": "This panel is currently closed",
@@ -426,15 +430,20 @@
 		"intro": "Select the type of GDPR request you would like to make:",
 		"section": {
 			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_",
+			"export_guild": "### **Server Data Export**\n-# _Export the data we hold for servers you own (GDPR Article 15, Right of Access)_",
+			"export_user": "### **Personal Data Export**\n-# _Export the data we hold about you (GDPR Article 15, Right of Access)_"
 		},
 		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
+		"export_info": "### **Important Information**\n* **All data** covers every category, including all transcripts\n* **Specific data** lets you choose the categories, and optionally specific tickets\n* Transcripts in a personal export only contain your own messages\n* Your request will be processed in a **queue**\n* You can request one export of each type every **24 hours**\n* When it's ready, you can download it from the dashboard for **30 days**",
 		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
 		"button": {
 			"all_transcripts": "All transcripts from servers",
 			"specific_transcripts": "Specific transcripts",
 			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"specific_messages": "Your messages in specific tickets",
+			"export_all": "All data",
+			"export_specific": "Specific data"
 		},
 		"language_option": "Language",
 		"modal": {
@@ -442,11 +451,15 @@
 			"specific_transcripts": "Delete Specific Transcripts",
 			"all_messages": "Anonymize Your Messages in Servers",
 			"specific_messages": "Anonymize Your Messages in Specific Tickets",
+			"export_guild": "Export All Server Data",
+			"export_guild_specific": "Export Specific Server Data",
+			"export_user_specific": "Export Specific Personal Data",
 			"select_server": "Select a server",
 			"select_servers": "Select one or more servers",
 			"server_id": {
 				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"placeholder": "Enter the server ID",
+				"export_description": "Optional. Pick a server only when you enter ticket IDs."
 			},
 			"server_ids": {
 				"label": "Server IDs",
@@ -454,7 +467,138 @@
 			},
 			"ticket_ids": {
 				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)",
+				"export_description": "Optional. Requires the Transcripts category. Leave empty for all transcripts."
+			},
+			"categories": {
+				"label": "Data to export",
+				"placeholder": "Select one or more categories"
+			}
+		},
+		"category": {
+			"guild": {
+				"settings": {
+					"name": "Settings",
+					"description": "Ticket, claim, colour and language settings, plus staff override and dashboard onboarding"
+				},
+				"panels": {
+					"name": "Panels",
+					"description": "Panels with their welcome messages, mentions, teams, access rules and close reasons"
+				},
+				"support_hours": {
+					"name": "Support hours",
+					"description": "Support hours set on your panels"
+				},
+				"multi_panels": {
+					"name": "Multi-panels",
+					"description": "Multi-panels and the panels they contain"
+				},
+				"forms": {
+					"name": "Forms",
+					"description": "Forms with their inputs and API settings (secret header values are withheld)"
+				},
+				"tags": {
+					"name": "Tags",
+					"description": "Tags and their content"
+				},
+				"staff": {
+					"name": "Staff",
+					"description": "Support teams, staff permissions and on-call members"
+				},
+				"blacklist": {
+					"name": "Blacklist",
+					"description": "Users and roles blacklisted in the server"
+				},
+				"knowledge_base": {
+					"name": "Knowledge base",
+					"description": "Knowledge base settings, categories, articles and article feedback"
+				},
+				"integrations": {
+					"name": "Integrations",
+					"description": "Integrations enabled in the server (secret values are withheld)"
+				},
+				"tickets": {
+					"name": "Tickets",
+					"description": "Ticket records with members, claims, labels, close reasons, ratings and survey answers"
+				},
+				"transcripts": {
+					"name": "Transcripts",
+					"description": "Transcripts of closed tickets"
+				},
+				"audit_log": {
+					"name": "Audit log",
+					"description": "The server's dashboard audit log"
+				},
+				"gallery": {
+					"name": "Gallery",
+					"description": "Gallery listings submitted from this server"
+				}
+			},
+			"user": {
+				"settings": {
+					"name": "Settings",
+					"description": "Your notification preferences and email address"
+				},
+				"account": {
+					"name": "Account",
+					"description": "Your dashboard account, its server list, any bot staff role and feature test exposures"
+				},
+				"notifications": {
+					"name": "Notifications",
+					"description": "Notifications sent to you on the dashboard"
+				},
+				"tickets": {
+					"name": "Tickets",
+					"description": "Records of tickets you opened or took part in, with their close reasons"
+				},
+				"staff_activity": {
+					"name": "Staff activity",
+					"description": "Your staff roles, teams, claims, close requests, response times and tickets you closed"
+				},
+				"premium": {
+					"name": "Premium",
+					"description": "Your premium purchases, keys, entitlements and votes"
+				},
+				"affiliate": {
+					"name": "Affiliate",
+					"description": "Your affiliate code and referrals"
+				},
+				"whitelabel": {
+					"name": "Whitelabel",
+					"description": "Your whitelabel bot, its servers, statuses and errors (the bot token is withheld)"
+				},
+				"integrations": {
+					"name": "Integrations",
+					"description": "Custom integrations you created (secret values are withheld)"
+				},
+				"gallery": {
+					"name": "Gallery",
+					"description": "Gallery listings you submitted"
+				},
+				"feedback": {
+					"name": "Feedback",
+					"description": "Your knowledge base feedback, plus ratings and survey answers on your tickets"
+				},
+				"blacklists": {
+					"name": "Blacklists",
+					"description": "Blacklist entries about you or servers you own (reasons are withheld)"
+				},
+				"audit_log": {
+					"name": "Audit log",
+					"description": "Changes you made on the dashboard"
+				},
+				"gdpr_requests": {
+					"name": "GDPR requests",
+					"description": "Your previous GDPR requests and their status"
+				},
+				"discord_data": {
+					"name": "Discord data",
+					"description": "Your Discord profile and server member data from our cache"
+				},
+				"transcripts": {
+					"name": "Transcripts",
+					"description": "Your own messages in ticket transcripts"
+				}
 			}
 		},
 		"confirm": {
@@ -465,6 +609,13 @@
 			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
+			"export_guild": "**Request Type:** Export data from a server you own\n**Server:** %s\n**Data:**\n* %s",
+			"export_guild_multi": "**Request Type:** Export data from servers you own\n**Servers:**\n* %s\n**Data:**\n* %s",
+			"export_user": "**Request Type:** Export your personal data\n**Data:**\n* %s",
+			"transcripts_all": "%s (all)",
+			"transcripts_specific": "%s (only tickets %s from %s)",
+			"export_download": "\n\nWhen your export is ready, you can download it from the dashboard for 30 days.",
+			"export_button": "Export Data",
 			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
 			"button": "Confirm - I understand"
 		},
@@ -486,6 +637,12 @@
 			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
 			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
 			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
+			"export_guild": "**Request Type:** Server data export\n**Server:** %s",
+			"export_guild_multi": "**Request Type:** Server data export\n**Servers:**\n* %s",
+			"export_user": "**Request Type:** Personal data export",
+			"export_ready": "\n\nYour export is ready. You can download it from the dashboard for 30 days.",
+			"export_no_data": "\n\nNo data was found for this export, so no file was created. It doesn't count towards your 24-hour export limit.",
+			"download_button": "Download",
 			"error": "\n\n**⚠️ Error:** %s"
 		},
 		"followup": {
@@ -495,12 +652,19 @@
 		},
 		"error": {
 			"no_servers": "No servers found where you are the owner and have transcripts.",
+			"no_owned_servers": "No servers found where you are the owner.",
+			"no_message_servers": "No servers found where you have messages in ticket transcripts.",
 			"invalid_server_id": "Invalid server ID provided.",
 			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
+			"invalid_ticket_ids_list": "These ticket IDs can't be used: %s\n\nEnter the IDs of closed tickets that have a transcript in the selected server, separated by commas (e.g., 123, 456, 789). For a personal export, only tickets you opened or took part in can be used.",
+			"ticket_ids_need_transcripts": "Ticket IDs can only be used when **Transcripts** is one of the selected categories.",
+			"server_and_ticket_ids": "Select a server and enter ticket IDs together, or leave both empty to export all of your transcripts.",
+			"not_owner_servers": "You must be the owner of every server you choose. Not owned: %s",
 			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"confirmation_expired": "This confirmation has expired or has already been used. Please run the command again.",
+			"bot_not_in_server": "The bot is not in the following server(s), so ownership cannot be verified:\n* %s\n\nPlease add the bot to the server and try again.",
+			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists.",
+			"export_limited": "You can request one export of this type every 24 hours. You can request your next one %s (%s)."
 		}
 	},
 	"errors": {
